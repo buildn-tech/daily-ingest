@@ -1,116 +1,6 @@
 {
-  "updated_at": "2026-07-11T09:09:56.390284+00:00",
+  "updated_at": "2026-07-11T09:18:01.222086+00:00",
   "sources": {
-    "https://github.com/SWE-agent/mini-swe-agent": {
-      "first_seen": "2026-07-09",
-      "last_seen": "2026-07-09",
-      "title": "mini-SWE-agent v2.4.5"
-    },
-    "https://github.com/charmbracelet/crush": {
-      "first_seen": "2026-07-09",
-      "last_seen": "2026-07-09",
-      "title": "Crush v0.83.0"
-    },
-    "https://github.com/browser-use/browser-use/releases": {
-      "first_seen": "2026-07-09",
-      "last_seen": "2026-07-09",
-      "title": "Browser Use 0.13.3"
-    },
-    "https://github.com/OpenHands/openhands": {
-      "first_seen": "2026-07-09",
-      "last_seen": "2026-07-09",
-      "title": "OpenHands Agent Canvas 1.43.0"
-    },
-    "https://github.com/musistudio/claude-code-router": {
-      "first_seen": "2026-07-09",
-      "last_seen": "2026-07-09",
-      "title": "Claude Code Router"
-    },
-    "https://github.com/NousResearch/hermes-agent/releases": {
-      "first_seen": "2026-07-09",
-      "last_seen": "2026-07-09",
-      "title": "Hermes Agent v0.18.2"
-    },
-    "https://www.swebench.com/": {
-      "first_seen": "2026-07-09",
-      "last_seen": "2026-07-09",
-      "title": "SWE-bench leaderboards + mini-SWE harness"
-    },
-    "https://www.jasper.ai/blog/whats-new-in-june-2026": {
-      "first_seen": "2026-07-09",
-      "last_seen": "2026-07-09",
-      "title": "Jasper GEO Hub + June 2026 updates"
-    },
-    "https://www.klaviyo.com/whats-new": {
-      "first_seen": "2026-07-09",
-      "last_seen": "2026-07-09",
-      "title": "Klaviyo Composer + Customer Agent updates"
-    },
-    "https://ahrefs.com/blog/new-features-may-2026/": {
-      "first_seen": "2026-07-09",
-      "last_seen": "2026-07-09",
-      "title": "Ahrefs Agent B + Brand Radar indexes"
-    },
-    "https://help.ahrefs.com/en/articles/11064852-what-is-brand-radar-and-how-to-use-it": {
-      "first_seen": "2026-07-09",
-      "last_seen": "2026-07-09",
-      "title": "Ahrefs Brand Radar"
-    },
-    "https://blog.google/products-and-platforms/products/search/search-io-2026/": {
-      "first_seen": "2026-07-09",
-      "last_seen": "2026-07-09",
-      "title": "Google Search I/O 2026: Search agents"
-    },
-    "https://www.clay.com/use-cases/outbound": {
-      "first_seen": "2026-07-09",
-      "last_seen": "2026-07-09",
-      "title": "Clay AI Outbound"
-    },
-    "https://zapier.com/blog/best-ai-marketing-tools/": {
-      "first_seen": "2026-07-09",
-      "last_seen": "2026-07-09",
-      "title": "Zapier AI marketing + automation reviews"
-    },
-    "https://arxiv.org/abs/2603.07670": {
-      "first_seen": "2026-07-09",
-      "last_seen": "2026-07-09",
-      "title": "Memory for Autonomous LLM Agents survey"
-    },
-    "https://arxiv.org/abs/2605.16045": {
-      "first_seen": "2026-07-09",
-      "last_seen": "2026-07-09",
-      "title": "RecMem"
-    },
-    "https://arxiv.org/html/2604.20943v1": {
-      "first_seen": "2026-07-09",
-      "last_seen": "2026-07-09",
-      "title": "SCM: Sleep-Consolidated Memory"
-    },
-    "https://github.com/mem0ai/mem0/releases": {
-      "first_seen": "2026-07-09",
-      "last_seen": "2026-07-09",
-      "title": "Mem0 July 2026 releases"
-    },
-    "https://github.com/letta-ai/letta-code/releases": {
-      "first_seen": "2026-07-09",
-      "last_seen": "2026-07-09",
-      "title": "Letta Code dream + MemFS releases"
-    },
-    "https://github.com/getzep/graphiti": {
-      "first_seen": "2026-07-09",
-      "last_seen": "2026-07-09",
-      "title": "Graphiti temporal context graphs"
-    },
-    "https://elifesciences.org/reviewed-preprints/110350": {
-      "first_seen": "2026-07-09",
-      "last_seen": "2026-07-09",
-      "title": "Retrieval practice protects inference under stress"
-    },
-    "https://health.utah.edu/news/2026/04/new-research-highlights-powerful-link-between-sleep-and-memory-formation": {
-      "first_seen": "2026-07-09",
-      "last_seen": "2026-07-09",
-      "title": "University of Utah sleep and memory research"
-    },
     "https://github.com/openai/codex/releases": {
       "first_seen": "2026-07-11",
       "last_seen": "2026-07-11",
@@ -123,35 +13,40 @@
     },
     "https://github.com/swe-agent/mini-swe-agent": {
       "first_seen": "2026-07-11",
-      "last_seen": "2026-07-11",
-      "title": "mini-swe-agent v2: 100-line baseline with >74% SWE-bench Verified"
+      "last_seen": "2026-07-10",
+      "title": "mini-swe-agent v2.4.5"
+    },
+    "https://www.swebench.com/": {
+      "first_seen": "2026-07-11",
+      "last_seen": "2026-07-08",
+      "title": "SWE-bench Verified + mini-SWE-agent v2"
     },
     "https://github.com/joylarkin/AI-Coding-Landscape": {
       "first_seen": "2026-07-11",
       "last_seen": "2026-07-11",
       "title": "AI Coding Landscape: a lightweight market map"
     },
-    "https://blog.google/products/ads-commerce/google-marketing-live-2026-collection/": {
+    "https://blog.google/products/ads-commerce/google-marketing-live-2026-collection": {
       "first_seen": "2026-07-11",
-      "last_seen": "2026-07-11",
-      "title": "Google Marketing Live 2026: Gemini across ads, commerce, measurement"
+      "last_seen": "2026-07-10",
+      "title": "Google Marketing Live 2026: Ask Advisor + AI Search ads"
     },
-    "https://blog.google/products/ads-commerce/dsa-upgrade-to-ai-max-2026/": {
+    "https://blog.google/products/ads-commerce/dsa-upgrade-to-ai-max-2026": {
       "first_seen": "2026-07-11",
-      "last_seen": "2026-07-11",
-      "title": "Dynamic Search Ads transition to AI Max delayed to February 2027"
+      "last_seen": "2026-07-08",
+      "title": "Google Dynamic Search Ads upgrading to AI Max"
     },
-    "https://blog.google/products/ads-commerce/tips-to-collaborate-with-agentic-advisors/": {
+    "https://blog.google/products/ads-commerce/tips-to-collaborate-with-agentic-advisors": {
       "first_seen": "2026-07-11",
       "last_seen": "2026-07-11",
       "title": "Google Ads + Analytics Advisors: agentic analysts for marketers"
     },
     "https://community.hubspot.com/t/june-2026-product-updates/151744": {
       "first_seen": "2026-07-11",
-      "last_seen": "2026-07-11",
-      "title": "HubSpot June updates: Breeze Projects, Customer Agent, CRM AI"
+      "last_seen": "2026-07-08",
+      "title": "HubSpot June 2026 product updates"
     },
-    "https://www.semrush.com/blog/the-operational-gap-ai-seo-study/": {
+    "https://www.semrush.com/blog/the-operational-gap-ai-seo-study": {
       "first_seen": "2026-07-11",
       "last_seen": "2026-07-11",
       "title": "Semrush AI-search operational gap study"
@@ -168,10 +63,10 @@
     },
     "https://mem0.ai/blog/state-of-ai-agent-memory-2026": {
       "first_seen": "2026-07-11",
-      "last_seen": "2026-07-11",
+      "last_seen": "2026-07-08",
       "title": "Mem0 State of AI Agent Memory 2026"
     },
-    "https://research.google/blog/reasoningbank-enabling-agents-to-learn-from-experience/": {
+    "https://research.google/blog/reasoningbank-enabling-agents-to-learn-from-experience": {
       "first_seen": "2026-07-11",
       "last_seen": "2026-07-11",
       "title": "Google ReasoningBank: agents learn from successes and failures"
@@ -188,8 +83,8 @@
     },
     "https://openriver.winona.edu/cgi/viewcontent.cgi?article=1400&context=eie": {
       "first_seen": "2026-07-11",
-      "last_seen": "2026-07-11",
-      "title": "AI chatbots for retrieval practice in education"
+      "last_seen": "2026-07-10",
+      "title": "Beyond Memorization: AI chatbots for smarter retrieval practice"
     },
     "https://opencode.ai/": {
       "first_seen": "2026-07-10",
@@ -256,7 +151,112 @@
       "last_seen": "2026-07-10",
       "title": "Obsidian as local PKM substrate"
     },
-    "https://github.blog/changelog/2026-07-01-kimi-k2-7-is-now-available-in-github-copilot/": {
+    "https://github.com/SWE-agent/mini-swe-agent": {
+      "first_seen": "2026-07-09",
+      "last_seen": "2026-07-09",
+      "title": "mini-SWE-agent v2.4.5"
+    },
+    "https://github.com/charmbracelet/crush": {
+      "first_seen": "2026-07-09",
+      "last_seen": "2026-07-09",
+      "title": "Crush v0.83.0"
+    },
+    "https://github.com/browser-use/browser-use/releases": {
+      "first_seen": "2026-07-09",
+      "last_seen": "2026-07-09",
+      "title": "Browser Use 0.13.3"
+    },
+    "https://github.com/OpenHands/openhands": {
+      "first_seen": "2026-07-09",
+      "last_seen": "2026-07-09",
+      "title": "OpenHands Agent Canvas 1.43.0"
+    },
+    "https://github.com/musistudio/claude-code-router": {
+      "first_seen": "2026-07-09",
+      "last_seen": "2026-07-09",
+      "title": "Claude Code Router"
+    },
+    "https://github.com/NousResearch/hermes-agent/releases": {
+      "first_seen": "2026-07-09",
+      "last_seen": "2026-07-09",
+      "title": "Hermes Agent v0.18.2"
+    },
+    "https://www.jasper.ai/blog/whats-new-in-june-2026": {
+      "first_seen": "2026-07-09",
+      "last_seen": "2026-07-09",
+      "title": "Jasper GEO Hub + June 2026 updates"
+    },
+    "https://www.klaviyo.com/whats-new": {
+      "first_seen": "2026-07-09",
+      "last_seen": "2026-07-09",
+      "title": "Klaviyo Composer + Customer Agent updates"
+    },
+    "https://ahrefs.com/blog/new-features-may-2026": {
+      "first_seen": "2026-07-09",
+      "last_seen": "2026-07-09",
+      "title": "Ahrefs Agent B + Brand Radar indexes"
+    },
+    "https://help.ahrefs.com/en/articles/11064852-what-is-brand-radar-and-how-to-use-it": {
+      "first_seen": "2026-07-09",
+      "last_seen": "2026-07-09",
+      "title": "Ahrefs Brand Radar"
+    },
+    "https://blog.google/products-and-platforms/products/search/search-io-2026": {
+      "first_seen": "2026-07-09",
+      "last_seen": "2026-07-09",
+      "title": "Google Search I/O 2026: Search agents"
+    },
+    "https://www.clay.com/use-cases/outbound": {
+      "first_seen": "2026-07-09",
+      "last_seen": "2026-07-09",
+      "title": "Clay AI Outbound"
+    },
+    "https://zapier.com/blog/best-ai-marketing-tools": {
+      "first_seen": "2026-07-09",
+      "last_seen": "2026-07-09",
+      "title": "Zapier AI marketing + automation reviews"
+    },
+    "https://arxiv.org/abs/2603.07670": {
+      "first_seen": "2026-07-09",
+      "last_seen": "2026-07-09",
+      "title": "Memory for Autonomous LLM Agents survey"
+    },
+    "https://arxiv.org/abs/2605.16045": {
+      "first_seen": "2026-07-09",
+      "last_seen": "2026-07-09",
+      "title": "RecMem"
+    },
+    "https://arxiv.org/html/2604.20943v1": {
+      "first_seen": "2026-07-09",
+      "last_seen": "2026-07-08",
+      "title": "SCM: Sleep-Consolidated Memory for LLMs"
+    },
+    "https://github.com/mem0ai/mem0/releases": {
+      "first_seen": "2026-07-09",
+      "last_seen": "2026-07-09",
+      "title": "Mem0 July 2026 releases"
+    },
+    "https://github.com/letta-ai/letta-code/releases": {
+      "first_seen": "2026-07-09",
+      "last_seen": "2026-07-09",
+      "title": "Letta Code dream + MemFS releases"
+    },
+    "https://github.com/getzep/graphiti": {
+      "first_seen": "2026-07-09",
+      "last_seen": "2026-07-09",
+      "title": "Graphiti temporal context graphs"
+    },
+    "https://elifesciences.org/reviewed-preprints/110350": {
+      "first_seen": "2026-07-09",
+      "last_seen": "2026-07-09",
+      "title": "Retrieval practice protects inference under stress"
+    },
+    "https://health.utah.edu/news/2026/04/new-research-highlights-powerful-link-between-sleep-and-memory-formation": {
+      "first_seen": "2026-07-09",
+      "last_seen": "2026-07-09",
+      "title": "University of Utah sleep and memory research"
+    },
+    "https://github.blog/changelog/2026-07-01-kimi-k2-7-is-now-available-in-github-copilot": {
       "first_seen": "2026-07-08",
       "last_seen": "2026-07-08",
       "title": "Kimi K2.7 Code in GitHub Copilot"
@@ -281,7 +281,7 @@
       "last_seen": "2026-07-08",
       "title": "The Making of Claude Code"
     },
-    "https://blog.google/products/ads-commerce/google-marketing-live-search-ads/": {
+    "https://blog.google/products/ads-commerce/google-marketing-live-search-ads": {
       "first_seen": "2026-07-08",
       "last_seen": "2026-07-08",
       "title": "Gemini-built ad formats for AI Mode Search"
