@@ -1,0 +1,168 @@
+{
+  "date":"2026-07-10",
+  "generated_at":"2026-07-10T08:00:35Z",
+  "topic_groups":[
+    {
+      "slug":"open-source-coding",
+      "title":"Open Source + Coding Agents",
+      "sources":[
+        {
+          "title":"mini-swe-agent v2.4.5",
+          "url":"https://github.com/swe-agent/mini-swe-agent",
+          "source_type":"repo",
+          "published_or_updated":"2026-07-06",
+          "why_selected":"It proves that most of the value can come from model quality, sandboxing, and clear transcripts rather than elaborate agent frameworks.",
+          "usefulness":"Use as a readable baseline for Buildn issue-fixing jobs, quick repo triage, and client-facing demos of inspectable automation."
+        },
+        {
+          "title":"SWE-bench leaderboards + CodeClash",
+          "url":"https://www.swebench.com/",
+          "source_type":"eval",
+          "published_or_updated":"2026-02-19",
+          "why_selected":"It gives Abdelrahman a neutral way to compare models and scaffolds before standardizing a coding-agent stack.",
+          "usefulness":"Make a monthly Buildn coding-agent eval sheet using mini-swe-agent as the fixed harness and only vary models/costs."
+        },
+        {
+          "title":"OpenCode desktop beta + terminal agent",
+          "url":"https://opencode.ai/",
+          "source_type":"product",
+          "published_or_updated":"2026",
+          "why_selected":"It is the clearest OSS alternative to proprietary coding-agent UX while keeping model choice flexible.",
+          "usefulness":"Pilot as the default terminal coding UI for non-sensitive client repos and as a shared session artifact for code review."
+        },
+        {
+          "title":"Cline open-source agent",
+          "url":"https://github.com/cline/cline",
+          "source_type":"repo",
+          "published_or_updated":"2026",
+          "why_selected":"It is useful where the developer wants visual review and explicit planning before writes.",
+          "usefulness":"Use for client repo migrations where PMs or junior engineers need to inspect proposed changes before acting."
+        },
+        {
+          "title":"Continue open-source coding agent",
+          "url":"https://github.com/continuedev/continue",
+          "source_type":"repo",
+          "published_or_updated":"2026",
+          "why_selected":"It fits teams that want source-controlled assistants and enforceable AI checks instead of opaque IDE magic.",
+          "usefulness":"Create Buildn-specific assistant configs for PR review, docs upkeep, and repo onboarding."
+        },
+        {
+          "title":"Roo Code multi-mode agent",
+          "url":"https://github.com/RooCodeInc/Roo-Code",
+          "source_type":"repo",
+          "published_or_updated":"2026",
+          "why_selected":"Mode separation is useful for keeping architecture discussion, implementation, and debugging from collapsing into one noisy thread.",
+          "usefulness":"Borrow the mode pattern for Buildn OS agent recipes: architect, implementer, verifier, docs editor."
+        }
+      ]
+    },
+    {
+      "slug":"ai-marketing-growth",
+      "title":"AI Marketing + Growth",
+      "sources":[
+        {
+          "title":"Google Marketing Live 2026: Ask Advisor + AI Search ads",
+          "url":"https://blog.google/products/ads-commerce/google-marketing-live-2026-collection/",
+          "source_type":"blog",
+          "published_or_updated":"2026-05-20",
+          "why_selected":"Search campaigns are becoming conversational, assistant-mediated, and measurement-heavy; old keyword-only playbooks will miss demand.",
+          "usefulness":"Build a client audit: AI Search appearance, creative asset readiness, conversion measurement, and experiments to run in Google Ads."
+        },
+        {
+          "title":"Ahrefs Brand Radar",
+          "url":"https://ahrefs.com/brand-radar",
+          "source_type":"product",
+          "published_or_updated":"2026",
+          "why_selected":"It turns answer-engine visibility from anecdotal prompt checks into a repeatable competitive research workflow.",
+          "usefulness":"Run Buildn and client competitors through Brand Radar to find missing citations, Reddit/YouTube surfaces, and AEO content targets."
+        },
+        {
+          "title":"Semrush AI Visibility Toolkit",
+          "url":"https://www.semrush.com/kb/1493-ai-visibility-toolkit",
+          "source_type":"docs",
+          "published_or_updated":"2026",
+          "why_selected":"It is a lower-cost on-ramp for agencies that already use Semrush and need AI-search reporting.",
+          "usefulness":"Package a lightweight 'AI visibility baseline' deliverable for client retainers: prompts, competitors, blockers, and actions."
+        },
+        {
+          "title":"HubSpot Breeze AI Agents",
+          "url":"https://www.hubspot.com/products/artificial-intelligence/breeze-ai-agents",
+          "source_type":"product",
+          "published_or_updated":"2026",
+          "why_selected":"It shows CRM agents maturing into configurable teammates that work inside approved business data rather than standalone chatbots.",
+          "usefulness":"Map Buildn's sales flow into agent candidates: company research, lead enrichment, follow-up draft, and customer-health summaries."
+        },
+        {
+          "title":"Clay as GTM orchestration layer",
+          "url":"https://www.clay.com/",
+          "source_type":"product",
+          "published_or_updated":"2026",
+          "why_selected":"It remains one of the most practical places to chain AI, data vendors, and human review for outbound without building custom infrastructure.",
+          "usefulness":"Create a Buildn target-account workflow: scrape signals, enrich contacts, summarize pains, draft personalized first-touch, sync CRM."
+        },
+        {
+          "title":"Product Hunt growth tooling: SEORCE + Inrō",
+          "url":"https://www.producthunt.com/products/seorce",
+          "source_type":"product",
+          "published_or_updated":"2026-07",
+          "why_selected":"The small-tool market is converging on two practical jobs: AI-era discoverability and conversational lead capture.",
+          "usefulness":"Use SEORCE-style workflows for client visibility audits; use Inrō-style DM flows for founder-led community funnels."
+        }
+      ]
+    },
+    {
+      "slug":"learning-memory",
+      "title":"Learning + Memory",
+      "sources":[
+        {
+          "title":"Mem0 State of AI Agent Memory 2026",
+          "url":"https://mem0.ai/blog/state-of-ai-agent-memory-2026",
+          "source_type":"blog",
+          "published_or_updated":"2026-04-01",
+          "why_selected":"It frames memory as measurable infrastructure rather than 'just add a vector DB'.",
+          "usefulness":"Use its evaluation dimensions to audit Hermes/Buildn memory: recall, update handling, temporal reasoning, cost, latency, stale fact cleanup."
+        },
+        {
+          "title":"MemOS 2.0 Stardust",
+          "url":"https://github.com/MemTensor/MemOS",
+          "source_type":"repo",
+          "published_or_updated":"2026-07-09",
+          "why_selected":"It gives a concrete architecture for persistent agent memory beyond raw embedding retrieval.",
+          "usefulness":"Prototype a local Buildn memory layer for client/project facts, agent traces, decisions, and reusable skills."
+        },
+        {
+          "title":"MemoryAgentBench at ICLR 2026",
+          "url":"https://github.com/HUST-AI-HYZ/MemoryAgentBench",
+          "source_type":"repo",
+          "published_or_updated":"2026-05",
+          "why_selected":"It tests the failure modes that real assistants hit after weeks of use: conflicts, stale facts, and multi-session recall.",
+          "usefulness":"Adapt a mini benchmark for Buildn OS: inject project history once, query it many times, then score recall and conflict behavior."
+        },
+        {
+          "title":"Beyond Memorization: AI chatbots for smarter retrieval practice",
+          "url":"https://openriver.winona.edu/cgi/viewcontent.cgi?article=1400&context=eie",
+          "source_type":"paper",
+          "published_or_updated":"2026",
+          "why_selected":"It connects classic retrieval-practice evidence to practical AI tutoring workflows.",
+          "usefulness":"Turn Abdelrahman's notes into daily AI-generated recall prompts, not summaries; score answers and schedule weak concepts."
+        },
+        {
+          "title":"FSRS / open-spaced-repetition",
+          "url":"https://github.com/open-spaced-repetition/fsrs4anki",
+          "source_type":"repo",
+          "published_or_updated":"2026",
+          "why_selected":"It remains the practical algorithmic backbone for durable personal learning.",
+          "usefulness":"Use FSRS as the scheduling layer for AI-generated flashcards from books, papers, client lessons, and codebase concepts."
+        },
+        {
+          "title":"Obsidian as local PKM substrate",
+          "url":"https://obsidian.md/",
+          "source_type":"product",
+          "published_or_updated":"2026",
+          "why_selected":"Local markdown remains the simplest durable substrate for memory systems that should outlive a vendor.",
+          "usefulness":"Keep Buildn/learning notes in markdown, then layer RAG, spaced repetition, and agent memory on top."
+        }
+      ]
+    }
+  ]
+}

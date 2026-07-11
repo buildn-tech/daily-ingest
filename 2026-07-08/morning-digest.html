@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Daily Ingest Archive — Morning Digest — 2026-07-08</title>
+<meta name="lib:group" content="report" />
+<meta name="lib:date" content="2026-07-08" />
+<style>
+:root { --brand:#01dc82; --deep:#033330; --ink:#0f172a; --muted:#475569; --line:#e2e8f0; --bg:#fafaf9; --card:#fff; --serif:Georgia,serif; --sans:ui-sans-serif,system-ui,sans-serif; }
+* { box-sizing:border-box; } body { margin:0; background:var(--bg); color:var(--ink); font-family:var(--sans); line-height:1.6; }
+main { max-width:62rem; margin:0 auto; padding:3rem 1.25rem; }
+.wordmark { display:flex; align-items:center; gap:.6rem; color:var(--deep); font-weight:800; margin-bottom:1.2rem; }
+h1 { font-family:var(--serif); color:var(--deep); font-size:2rem; line-height:1.1; margin:.5rem 0 1rem; }
+h2 { font-family:var(--serif); color:var(--deep); font-size:1.3rem; margin:1.75rem 0 .6rem; }
+.card { background:var(--card); border:1px solid var(--line); border-radius:16px; padding:1.5rem; box-shadow:0 10px 30px rgba(15,23,42,.04); }
+.meta { color:var(--muted); margin:0 0 1.4rem; }
+.digest-list { padding-left:1.1rem; margin:.4rem 0 1.2rem; }
+.digest-list li { margin:.55rem 0; }
+a { color:#008f5a; word-break:break-word; } code { background:#f1f5f9; border-radius:6px; padding:.1rem .3rem; }
+.notice { border-left:4px solid var(--brand); background:#ecfdf5; padding:.8rem 1rem; border-radius:10px; color:#064e3b; }
+</style>
+</head>
+<body>
+<main>
+<div class="wordmark">
+<svg viewBox="0 0 164 195" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" width="22"><path d="M117 194.5H0L12 73C17.47 66.63 21.30 65.46 28.5 64.5L34.5 0H151.5C158.44 4.40 161.28 7.18 163.5 13L153 119.5C148.80 127.15 144.97 129.55 135.5 130.5L131 184.5C127.71 190.35 125.13 192.98 117 194.5Z" fill="#01dc82"/><path d="M64 33L61 64.5H93.5L91 97H123L127.5 46.5C125.53 37.94 122.01 35.19 112.5 33H64Z" fill="#033330"/><path d="M37 147.5L41.5 98H74.5L71.5 129.5L104 130.5L100.5 162H49.5C41.82 159.35 39.68 155.53 37 147.5Z" fill="#033330"/></svg>
+<span>Buildn</span>
+</div>
+<p class="notice"><strong>Archived missed ingest.</strong> This is an older morning digest recovered from cron output and added to the Artifact Library / Buildn OS backlog.</p>
+<article class="card">
+<p class="meta">Recovered from Hermes cron output · 2026-07-08</p>
+<h1>Morning digest for Abdelrahman — Jul 8</h1>
+<h2>Open source / infra</h2>
+<ul class="digest-list">
+<li><strong>CubeSandbox — secure sandboxes for AI agents</strong> — Tencent’s Rust/KVM sandbox claims sub-60ms cold starts, &lt;5MB overhead, E2B compatibility, and a fresh v0.5.0 release; worth watching if you run code-executing agents.</li>
+</ul>
+<p><a href="https://github.com/TencentCloud/CubeSandbox">https://github.com/TencentCloud/CubeSandbox</a></p>
+<ul class="digest-list">
+<li><strong>agent-skills — production workflows for coding agents</strong> — Addy Osmani’s repo is exploding on GitHub; it packages spec/plan/build/test/review/ship skills that can be installed across Claude Code, Cursor, Codex, Copilot, etc.</li>
+</ul>
+<p><a href="https://github.com/addyosmani/agent-skills">https://github.com/addyosmani/agent-skills</a></p>
+<ul class="digest-list">
+<li><strong>Meetily — local-first AI meeting notes</strong> — Privacy-first open-source meeting assistant with local Whisper/Parakeet transcription, diarization, and Ollama summaries; practical for sensitive meetings.</li>
+</ul>
+<p><a href="https://github.com/Zackriya-Solutions/meetily">https://github.com/Zackriya-Solutions/meetily</a></p>
+<h2>AI + coding tools</h2>
+<ul class="digest-list">
+<li><strong>GitHub Copilot app available to all</strong> — Desktop agent-driven development app now supports every Copilot plan, plus BYOK if you don’t have a subscription.</li>
+</ul>
+<p><a href="https://github.blog/changelog/2026-07-07-github-copilot-app-available-to-all/">https://github.blog/changelog/2026-07-07-github-copilot-app-available-to-all/</a></p>
+<ul class="digest-list">
+<li><strong>Kimi K2.7 Code in Copilot Business/Enterprise</strong> — First open-weight model in Copilot’s model picker is now available for org plans, off by default behind admin policy.</li>
+</ul>
+<p><a href="https://github.blog/changelog/2026-07-07-kimi-k2-7-now-available-for-copilot-business-and-enterprise/">https://github.blog/changelog/2026-07-07-kimi-k2-7-now-available-for-copilot-business-and-enterprise/</a></p>
+<ul class="digest-list">
+<li><strong>Browser tools for Copilot in VS Code GA</strong> — Copilot agents can now drive real browsers, inspect pages, capture console errors/screenshots, and test web apps with enterprise domain controls.</li>
+</ul>
+<p><a href="https://github.blog/changelog/2026-07-01-browser-tools-for-github-copilot-in-vs-code-are-generally-available/">https://github.blog/changelog/2026-07-01-browser-tools-for-github-copilot-in-vs-code-are-generally-available/</a></p>
+<ul class="digest-list">
+<li><strong>Dialogue-SWEBench</strong> — New benchmark argues coding agents need to be evaluated on interactive clarification, not just fully specified GitHub issues; schema-guided agents improved 3–14%.</li>
+</ul>
+<p><a href="https://arxiv.org/html/2606.13995v1">https://arxiv.org/html/2606.13995v1</a></p>
+<h2>AI marketing tools</h2>
+<ul class="digest-list">
+<li><strong>Profound Workflows / AEO platform</strong> — Useful signal for marketers: automated AI-search audits, content optimization, agent analytics, and visibility tracking across ChatGPT, Perplexity, Gemini, Claude, etc.</li>
+</ul>
+<p><a href="https://www.tryprofound.com/blog">https://www.tryprofound.com/blog</a></p>
+<ul class="digest-list">
+<li><strong>Gumloop agentic marketing workflows</strong> — Practical pattern: use workflows for repeatable marketing ops, then layer agents for decisions; good examples for SEO research, outlines, publishing, and monitoring.</li>
+</ul>
+<p><a href="https://www.gumloop.com/blog/how-to-build-agentic-ai-workflows">https://www.gumloop.com/blog/how-to-build-agentic-ai-workflows</a></p>
+<h2>Learning + memory systems</h2>
+<ul class="digest-list">
+<li><strong>OpenViking — context DB for agents</strong> — Fresh v0.4.8 release today; unifies memory, RAG, skills, resources, sessions, and traces under a <code>viking://</code> virtual filesystem.</li>
+</ul>
+<p><a href="https://github.com/volcengine/OpenViking">https://github.com/volcengine/OpenViking</a></p>
+<ul class="digest-list">
+<li><strong>Supermemory — local/self-hostable AI memory layer</strong> — Persistent memory + hybrid RAG + user profiles + connectors; strong fit for “one memory across Claude/Cursor/Codex/Hermes”-style workflows.</li>
+</ul>
+<p><a href="https://github.com/supermemoryai/supermemory">https://github.com/supermemoryai/supermemory</a></p>
+<h2>Learning + memory research</h2>
+<ul class="digest-list">
+<li><strong>Semantic relatedness and retrieval practice</strong> — npj Science of Learning paper: retrieval practice helps, but benefit was ~26% smaller for highly semantically related pairs; useful nuance for flashcard design.</li>
+</ul>
+<p><a href="https://www.nature.com/articles/s41539-026-00416-8">https://www.nature.com/articles/s41539-026-00416-8</a></p>
+<h1>Top 3 worth opening first</h1>
+<p>1. <strong>CubeSandbox</strong> — high-signal infra for safe code-running agents: <a href="https://github.com/TencentCloud/CubeSandbox">https://github.com/TencentCloud/CubeSandbox</a></p>
+<p>2. <strong>Dialogue-SWEBench</strong> — important eval direction for real coding-agent UX: <a href="https://arxiv.org/html/2606.13995v1">https://arxiv.org/html/2606.13995v1</a></p>
+<p>3. <strong>OpenViking</strong> — promising memory/RAG/skills substrate for long-running agents: <a href="https://github.com/volcengine/OpenViking">https://github.com/volcengine/OpenViking</a></p>
+</article>
+</main>
+</body>
+</html>

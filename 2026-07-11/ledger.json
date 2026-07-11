@@ -1,0 +1,160 @@
+{
+  "date": "2026-07-11",
+  "generated_at": "2026-07-11T08:00:21Z",
+  "topic_groups": [
+    {
+      "slug": "open-source-coding",
+      "title": "Open Source + Coding Agents",
+      "sources": [
+        {
+          "title": "OpenAI Codex CLI 0.144.x reliability + approval modes",
+          "url": "https://github.com/openai/codex/releases",
+          "source_type": "release",
+          "published_or_updated": "Jul 9",
+          "why_selected": "Codex is converging on safer local automation: read-only actions can run with less friction while writes still require an explicit boundary.",
+          "usefulness": "The July patch fixes the boring but critical parts: installs, macOS code-mode host exposure, and fallbacks when the companion host is unavailable."
+        },
+        {
+          "title": "Claude Code 2.1.207: auto mode, security, provider defaults",
+          "url": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md",
+          "source_type": "release",
+          "published_or_updated": "Jul 10",
+          "why_selected": "Enterprise agentic coding is moving from single-user CLI into governed, multi-provider workspaces with background agents and managed policy.",
+          "usefulness": "The release directly addresses real operator pain: terminal freezes, prompt-injection false positives, launcher overwrites, and repo-level setting abuse."
+        },
+        {
+          "title": "mini-swe-agent v2: 100-line baseline with >74% SWE-bench Verified",
+          "url": "https://github.com/swe-agent/mini-swe-agent",
+          "source_type": "repo",
+          "published_or_updated": "Jul 6 release",
+          "why_selected": "It is a clean baseline for separating model capability from agent-scaffold complexity.",
+          "usefulness": "v2 and recent releases make it easier to run across sandboxes, providers, and benchmark harnesses without a huge monorepo."
+        },
+        {
+          "title": "SWE-bench leaderboard snapshot: cost/performance is the story",
+          "url": "https://www.swebench.com/",
+          "source_type": "benchmark",
+          "published_or_updated": "2026 leaderboard",
+          "why_selected": "The leaderboard now exposes not just solved rate but practical cost; cheap high-reasoning models are becoming credible for agent workflows.",
+          "usefulness": "Displayed top entries show 70%+ resolved models and dramatic cost differences, useful for choosing default models by task class."
+        },
+        {
+          "title": "AI Coding Landscape: a lightweight market map",
+          "url": "https://github.com/joylarkin/AI-Coding-Landscape",
+          "source_type": "repo",
+          "published_or_updated": "Jun 21",
+          "why_selected": "The coding-agent ecosystem is too broad to track from memory; a CSV-backed map is a better intake surface.",
+          "usefulness": "The repo links CSVs, Hugging Face datasets, GitMCP, and DeepWiki, making it usable by agents rather than just humans."
+        }
+      ]
+    },
+    {
+      "slug": "ai-marketing-growth",
+      "title": "AI Marketing + Growth",
+      "sources": [
+        {
+          "title": "Google Marketing Live 2026: Gemini across ads, commerce, measurement",
+          "url": "https://blog.google/products/ads-commerce/google-marketing-live-2026-collection/",
+          "source_type": "product/news",
+          "published_or_updated": "May 20",
+          "why_selected": "The center of gravity is shifting from campaign setup to AI-assisted decision loops across ads, analytics, creative, and commerce.",
+          "usefulness": "Clients will ask why Search, YouTube, and commerce reporting feel different; this collection is the primary source."
+        },
+        {
+          "title": "Dynamic Search Ads transition to AI Max delayed to February 2027",
+          "url": "https://blog.google/products/ads-commerce/dsa-upgrade-to-ai-max-2026/",
+          "source_type": "product/update",
+          "published_or_updated": "Jun 11",
+          "why_selected": "This gives advertisers breathing room to test AI Max, update landing pages, and set controls before legacy search automation changes.",
+          "usefulness": "The June update changes migration timing; teams relying on old DSA need a calendar and test plan."
+        },
+        {
+          "title": "Google Ads + Analytics Advisors: agentic analysts for marketers",
+          "url": "https://blog.google/products/ads-commerce/tips-to-collaborate-with-agentic-advisors/",
+          "source_type": "docs/blog",
+          "published_or_updated": "Mar 25",
+          "why_selected": "This is the marketer version of coding agents: ask, inspect data, propose action, refine.",
+          "usefulness": "Useful as a prompt-pattern source for Buildn\u2019s own growth agents and for client enablement."
+        },
+        {
+          "title": "HubSpot June updates: Breeze Projects, Customer Agent, CRM AI",
+          "url": "https://community.hubspot.com/t/june-2026-product-updates/151744",
+          "source_type": "release",
+          "published_or_updated": "Jun 2026",
+          "why_selected": "HubSpot is turning CRM context into an AI workspace rather than a static system of record.",
+          "usefulness": "The updates can reshape how client sales/support teams use CRM data without custom integrations."
+        },
+        {
+          "title": "Semrush AI-search operational gap study",
+          "url": "https://www.semrush.com/blog/the-operational-gap-ai-seo-study/",
+          "source_type": "study",
+          "published_or_updated": "Jun 3",
+          "why_selected": "The gap is operational, not awareness; teams need workflows and measurement, not another AI-search explainer.",
+          "usefulness": "A strong data point for selling integrated SEO + AI visibility audits."
+        },
+        {
+          "title": "MentionDrop MCP: AI summaries and actions for web mentions",
+          "url": "https://www.producthunt.com/products/mentiondrop/awards",
+          "source_type": "product",
+          "published_or_updated": "Jul 5",
+          "why_selected": "Brand monitoring is becoming agent-actionable, not just alert-driven.",
+          "usefulness": "The July Product Hunt award highlights MCP packaging, which could plug into agent workflows."
+        },
+        {
+          "title": "Elentaria: weekly B2B GTM operator",
+          "url": "https://www.producthunt.com/products/elentaria/awards",
+          "source_type": "product",
+          "published_or_updated": "Jun 3",
+          "why_selected": "GTM tooling is moving toward closed-loop operators that recommend and execute based on revenue feedback.",
+          "usefulness": "Good pattern to study for Buildn growth workflows: diagnose, prioritize, execute, learn."
+        }
+      ]
+    },
+    {
+      "slug": "learning-memory",
+      "title": "Learning + Memory",
+      "sources": [
+        {
+          "title": "Mem0 State of AI Agent Memory 2026",
+          "url": "https://mem0.ai/blog/state-of-ai-agent-memory-2026",
+          "source_type": "blog/report",
+          "published_or_updated": "Apr 1",
+          "why_selected": "Memory systems need accuracy, token cost, and latency trade-offs\u2014not just longer context.",
+          "usefulness": "The report gives concrete benchmark names and scores to use when evaluating agent memory vendors."
+        },
+        {
+          "title": "Google ReasoningBank: agents learn from successes and failures",
+          "url": "https://research.google/blog/reasoningbank-enabling-agents-to-learn-from-experience/",
+          "source_type": "research/blog",
+          "published_or_updated": "Apr 21",
+          "why_selected": "Failure-derived memory is the missing loop for agents that keep repeating the same mistakes.",
+          "usefulness": "Directly relevant to coding agents, web agents, and any Buildn workflow that should improve after each run."
+        },
+        {
+          "title": "MemSkill: evolvable memory skills for self-evolving agents",
+          "url": "https://arxiv.org/abs/2602.02474",
+          "source_type": "paper",
+          "published_or_updated": "May 24 v2",
+          "why_selected": "It reframes memory operations as skills: extract, consolidate, prune, and adapt to hard cases.",
+          "usefulness": "Buildn agents already use skills; this paper suggests how skill systems and memory systems can merge."
+        },
+        {
+          "title": "Agent Memory Paper List: taxonomy for a fragmented field",
+          "url": "https://github.com/Shichun-Liu/Agent-Memory-Paper-List",
+          "source_type": "repo/survey",
+          "published_or_updated": "2026 updates",
+          "why_selected": "The field\u2019s terminology is messy; this gives a map for factual, experiential, and working memory.",
+          "usefulness": "Useful as a living bibliography for choosing which memory mechanism to implement first."
+        },
+        {
+          "title": "AI chatbots for retrieval practice in education",
+          "url": "https://openriver.winona.edu/cgi/viewcontent.cgi?article=1400&context=eie",
+          "source_type": "paper",
+          "published_or_updated": "Apr 2026",
+          "why_selected": "Retrieval practice is one of the strongest learning interventions; chatbots reduce the friction of generating questions and feedback.",
+          "usefulness": "Good template for Abdelrahman\u2019s personal learning loops and client training bots."
+        }
+      ]
+    }
+  ]
+}

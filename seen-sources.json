@@ -1,0 +1,320 @@
+{
+  "updated_at": "2026-07-11T09:09:56.390284+00:00",
+  "sources": {
+    "https://github.com/SWE-agent/mini-swe-agent": {
+      "first_seen": "2026-07-09",
+      "last_seen": "2026-07-09",
+      "title": "mini-SWE-agent v2.4.5"
+    },
+    "https://github.com/charmbracelet/crush": {
+      "first_seen": "2026-07-09",
+      "last_seen": "2026-07-09",
+      "title": "Crush v0.83.0"
+    },
+    "https://github.com/browser-use/browser-use/releases": {
+      "first_seen": "2026-07-09",
+      "last_seen": "2026-07-09",
+      "title": "Browser Use 0.13.3"
+    },
+    "https://github.com/OpenHands/openhands": {
+      "first_seen": "2026-07-09",
+      "last_seen": "2026-07-09",
+      "title": "OpenHands Agent Canvas 1.43.0"
+    },
+    "https://github.com/musistudio/claude-code-router": {
+      "first_seen": "2026-07-09",
+      "last_seen": "2026-07-09",
+      "title": "Claude Code Router"
+    },
+    "https://github.com/NousResearch/hermes-agent/releases": {
+      "first_seen": "2026-07-09",
+      "last_seen": "2026-07-09",
+      "title": "Hermes Agent v0.18.2"
+    },
+    "https://www.swebench.com/": {
+      "first_seen": "2026-07-09",
+      "last_seen": "2026-07-09",
+      "title": "SWE-bench leaderboards + mini-SWE harness"
+    },
+    "https://www.jasper.ai/blog/whats-new-in-june-2026": {
+      "first_seen": "2026-07-09",
+      "last_seen": "2026-07-09",
+      "title": "Jasper GEO Hub + June 2026 updates"
+    },
+    "https://www.klaviyo.com/whats-new": {
+      "first_seen": "2026-07-09",
+      "last_seen": "2026-07-09",
+      "title": "Klaviyo Composer + Customer Agent updates"
+    },
+    "https://ahrefs.com/blog/new-features-may-2026/": {
+      "first_seen": "2026-07-09",
+      "last_seen": "2026-07-09",
+      "title": "Ahrefs Agent B + Brand Radar indexes"
+    },
+    "https://help.ahrefs.com/en/articles/11064852-what-is-brand-radar-and-how-to-use-it": {
+      "first_seen": "2026-07-09",
+      "last_seen": "2026-07-09",
+      "title": "Ahrefs Brand Radar"
+    },
+    "https://blog.google/products-and-platforms/products/search/search-io-2026/": {
+      "first_seen": "2026-07-09",
+      "last_seen": "2026-07-09",
+      "title": "Google Search I/O 2026: Search agents"
+    },
+    "https://www.clay.com/use-cases/outbound": {
+      "first_seen": "2026-07-09",
+      "last_seen": "2026-07-09",
+      "title": "Clay AI Outbound"
+    },
+    "https://zapier.com/blog/best-ai-marketing-tools/": {
+      "first_seen": "2026-07-09",
+      "last_seen": "2026-07-09",
+      "title": "Zapier AI marketing + automation reviews"
+    },
+    "https://arxiv.org/abs/2603.07670": {
+      "first_seen": "2026-07-09",
+      "last_seen": "2026-07-09",
+      "title": "Memory for Autonomous LLM Agents survey"
+    },
+    "https://arxiv.org/abs/2605.16045": {
+      "first_seen": "2026-07-09",
+      "last_seen": "2026-07-09",
+      "title": "RecMem"
+    },
+    "https://arxiv.org/html/2604.20943v1": {
+      "first_seen": "2026-07-09",
+      "last_seen": "2026-07-09",
+      "title": "SCM: Sleep-Consolidated Memory"
+    },
+    "https://github.com/mem0ai/mem0/releases": {
+      "first_seen": "2026-07-09",
+      "last_seen": "2026-07-09",
+      "title": "Mem0 July 2026 releases"
+    },
+    "https://github.com/letta-ai/letta-code/releases": {
+      "first_seen": "2026-07-09",
+      "last_seen": "2026-07-09",
+      "title": "Letta Code dream + MemFS releases"
+    },
+    "https://github.com/getzep/graphiti": {
+      "first_seen": "2026-07-09",
+      "last_seen": "2026-07-09",
+      "title": "Graphiti temporal context graphs"
+    },
+    "https://elifesciences.org/reviewed-preprints/110350": {
+      "first_seen": "2026-07-09",
+      "last_seen": "2026-07-09",
+      "title": "Retrieval practice protects inference under stress"
+    },
+    "https://health.utah.edu/news/2026/04/new-research-highlights-powerful-link-between-sleep-and-memory-formation": {
+      "first_seen": "2026-07-09",
+      "last_seen": "2026-07-09",
+      "title": "University of Utah sleep and memory research"
+    },
+    "https://github.com/openai/codex/releases": {
+      "first_seen": "2026-07-11",
+      "last_seen": "2026-07-11",
+      "title": "OpenAI Codex CLI 0.144.x reliability + approval modes"
+    },
+    "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md": {
+      "first_seen": "2026-07-11",
+      "last_seen": "2026-07-11",
+      "title": "Claude Code 2.1.207: auto mode, security, provider defaults"
+    },
+    "https://github.com/swe-agent/mini-swe-agent": {
+      "first_seen": "2026-07-11",
+      "last_seen": "2026-07-11",
+      "title": "mini-swe-agent v2: 100-line baseline with >74% SWE-bench Verified"
+    },
+    "https://github.com/joylarkin/AI-Coding-Landscape": {
+      "first_seen": "2026-07-11",
+      "last_seen": "2026-07-11",
+      "title": "AI Coding Landscape: a lightweight market map"
+    },
+    "https://blog.google/products/ads-commerce/google-marketing-live-2026-collection/": {
+      "first_seen": "2026-07-11",
+      "last_seen": "2026-07-11",
+      "title": "Google Marketing Live 2026: Gemini across ads, commerce, measurement"
+    },
+    "https://blog.google/products/ads-commerce/dsa-upgrade-to-ai-max-2026/": {
+      "first_seen": "2026-07-11",
+      "last_seen": "2026-07-11",
+      "title": "Dynamic Search Ads transition to AI Max delayed to February 2027"
+    },
+    "https://blog.google/products/ads-commerce/tips-to-collaborate-with-agentic-advisors/": {
+      "first_seen": "2026-07-11",
+      "last_seen": "2026-07-11",
+      "title": "Google Ads + Analytics Advisors: agentic analysts for marketers"
+    },
+    "https://community.hubspot.com/t/june-2026-product-updates/151744": {
+      "first_seen": "2026-07-11",
+      "last_seen": "2026-07-11",
+      "title": "HubSpot June updates: Breeze Projects, Customer Agent, CRM AI"
+    },
+    "https://www.semrush.com/blog/the-operational-gap-ai-seo-study/": {
+      "first_seen": "2026-07-11",
+      "last_seen": "2026-07-11",
+      "title": "Semrush AI-search operational gap study"
+    },
+    "https://www.producthunt.com/products/mentiondrop/awards": {
+      "first_seen": "2026-07-11",
+      "last_seen": "2026-07-11",
+      "title": "MentionDrop MCP: AI summaries and actions for web mentions"
+    },
+    "https://www.producthunt.com/products/elentaria/awards": {
+      "first_seen": "2026-07-11",
+      "last_seen": "2026-07-11",
+      "title": "Elentaria: weekly B2B GTM operator"
+    },
+    "https://mem0.ai/blog/state-of-ai-agent-memory-2026": {
+      "first_seen": "2026-07-11",
+      "last_seen": "2026-07-11",
+      "title": "Mem0 State of AI Agent Memory 2026"
+    },
+    "https://research.google/blog/reasoningbank-enabling-agents-to-learn-from-experience/": {
+      "first_seen": "2026-07-11",
+      "last_seen": "2026-07-11",
+      "title": "Google ReasoningBank: agents learn from successes and failures"
+    },
+    "https://arxiv.org/abs/2602.02474": {
+      "first_seen": "2026-07-11",
+      "last_seen": "2026-07-11",
+      "title": "MemSkill: evolvable memory skills for self-evolving agents"
+    },
+    "https://github.com/Shichun-Liu/Agent-Memory-Paper-List": {
+      "first_seen": "2026-07-11",
+      "last_seen": "2026-07-11",
+      "title": "Agent Memory Paper List: taxonomy for a fragmented field"
+    },
+    "https://openriver.winona.edu/cgi/viewcontent.cgi?article=1400&context=eie": {
+      "first_seen": "2026-07-11",
+      "last_seen": "2026-07-11",
+      "title": "AI chatbots for retrieval practice in education"
+    },
+    "https://opencode.ai/": {
+      "first_seen": "2026-07-10",
+      "last_seen": "2026-07-10",
+      "title": "OpenCode desktop beta + terminal agent"
+    },
+    "https://github.com/cline/cline": {
+      "first_seen": "2026-07-10",
+      "last_seen": "2026-07-10",
+      "title": "Cline open-source agent"
+    },
+    "https://github.com/continuedev/continue": {
+      "first_seen": "2026-07-10",
+      "last_seen": "2026-07-10",
+      "title": "Continue open-source coding agent"
+    },
+    "https://github.com/RooCodeInc/Roo-Code": {
+      "first_seen": "2026-07-10",
+      "last_seen": "2026-07-10",
+      "title": "Roo Code multi-mode agent"
+    },
+    "https://ahrefs.com/brand-radar": {
+      "first_seen": "2026-07-10",
+      "last_seen": "2026-07-10",
+      "title": "Ahrefs Brand Radar"
+    },
+    "https://www.semrush.com/kb/1493-ai-visibility-toolkit": {
+      "first_seen": "2026-07-10",
+      "last_seen": "2026-07-10",
+      "title": "Semrush AI Visibility Toolkit"
+    },
+    "https://www.hubspot.com/products/artificial-intelligence/breeze-ai-agents": {
+      "first_seen": "2026-07-10",
+      "last_seen": "2026-07-10",
+      "title": "HubSpot Breeze AI Agents"
+    },
+    "https://www.clay.com/": {
+      "first_seen": "2026-07-10",
+      "last_seen": "2026-07-10",
+      "title": "Clay as GTM orchestration layer"
+    },
+    "https://www.producthunt.com/products/seorce": {
+      "first_seen": "2026-07-10",
+      "last_seen": "2026-07-10",
+      "title": "Product Hunt growth tooling: SEORCE + Inr\u014d"
+    },
+    "https://github.com/MemTensor/MemOS": {
+      "first_seen": "2026-07-10",
+      "last_seen": "2026-07-10",
+      "title": "MemOS 2.0 Stardust"
+    },
+    "https://github.com/HUST-AI-HYZ/MemoryAgentBench": {
+      "first_seen": "2026-07-10",
+      "last_seen": "2026-07-10",
+      "title": "MemoryAgentBench at ICLR 2026"
+    },
+    "https://github.com/open-spaced-repetition/fsrs4anki": {
+      "first_seen": "2026-07-10",
+      "last_seen": "2026-07-10",
+      "title": "FSRS / open-spaced-repetition"
+    },
+    "https://obsidian.md/": {
+      "first_seen": "2026-07-10",
+      "last_seen": "2026-07-10",
+      "title": "Obsidian as local PKM substrate"
+    },
+    "https://github.blog/changelog/2026-07-01-kimi-k2-7-is-now-available-in-github-copilot/": {
+      "first_seen": "2026-07-08",
+      "last_seen": "2026-07-08",
+      "title": "Kimi K2.7 Code in GitHub Copilot"
+    },
+    "https://github.blog/changelog/2026-07-01-browser-tools-for-github-copilot-in-vs-code-are-generally-available": {
+      "first_seen": "2026-07-08",
+      "last_seen": "2026-07-08",
+      "title": "Copilot browser tools for VS Code GA"
+    },
+    "https://arxiv.org/html/2512.18470v6": {
+      "first_seen": "2026-07-08",
+      "last_seen": "2026-07-08",
+      "title": "SWE-EVO long-horizon benchmark"
+    },
+    "https://github.com/agentsmd/agents.md": {
+      "first_seen": "2026-07-08",
+      "last_seen": "2026-07-08",
+      "title": "AGENTS.md open repo instruction format"
+    },
+    "https://www.anthropic.com/features/making-of-claude-code": {
+      "first_seen": "2026-07-08",
+      "last_seen": "2026-07-08",
+      "title": "The Making of Claude Code"
+    },
+    "https://blog.google/products/ads-commerce/google-marketing-live-search-ads/": {
+      "first_seen": "2026-07-08",
+      "last_seen": "2026-07-08",
+      "title": "Gemini-built ad formats for AI Mode Search"
+    },
+    "https://www.hubspot.com/new": {
+      "first_seen": "2026-07-08",
+      "last_seen": "2026-07-08",
+      "title": "HubSpot AEO and Prospecting Agent"
+    },
+    "https://developers.google.com/search/blog": {
+      "first_seen": "2026-07-08",
+      "last_seen": "2026-07-08",
+      "title": "Google Search Central: social/video Search performance"
+    },
+    "https://arxiv.org/html/2604.20300v2": {
+      "first_seen": "2026-07-08",
+      "last_seen": "2026-07-08",
+      "title": "FSFM selective forgetting framework"
+    },
+    "https://arxiv.org/html/2605.17830v1": {
+      "first_seen": "2026-07-08",
+      "last_seen": "2026-07-08",
+      "title": "Remembering More, Risking More"
+    },
+    "https://www.cognee.ai/blog/guides/building-an-ai-agent-best-persistent-memory-layer": {
+      "first_seen": "2026-07-08",
+      "last_seen": "2026-07-08",
+      "title": "Cognee persistent memory layer guide"
+    },
+    "https://www.nature.com/articles/s41539-025-00349-8": {
+      "first_seen": "2026-07-08",
+      "last_seen": "2026-07-08",
+      "title": "Offline consolidation mechanisms of retrieval practice"
+    }
+  }
+}
