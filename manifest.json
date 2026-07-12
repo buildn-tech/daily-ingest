@@ -1,6 +1,27 @@
 {
-  "updated_at": "2026-07-11T09:37:10.950069+00:00",
+  "updated_at": "2026-07-12T08:05:34.723246+00:00",
   "days": [
+    {
+      "date": "2026-07-12",
+      "path": "2026-07-12",
+      "reports": [
+        {
+          "lane": "open-source-coding",
+          "title": "Open Source + Coding Agents",
+          "url": "2026-07-12/open-source-coding.html"
+        },
+        {
+          "lane": "ai-marketing-growth",
+          "title": "AI Marketing + Growth",
+          "url": "2026-07-12/ai-marketing-growth.html"
+        },
+        {
+          "lane": "learning-memory",
+          "title": "Learning + Memory",
+          "url": "2026-07-12/learning-memory.html"
+        }
+      ]
+    },
     {
       "date": "2026-07-11",
       "path": "2026-07-11",
