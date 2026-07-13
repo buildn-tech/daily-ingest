@@ -1,6 +1,81 @@
 {
-  "updated_at": "2026-07-12T08:05:34.723246+00:00",
+  "updated_at": "2026-07-13T08:10:43.290090+00:00",
   "sources": {
+    "https://arxiv.org/abs/2607.01418": {
+      "first_seen": "2026-07-13",
+      "last_seen": "2026-07-13",
+      "title": "Adoption and Impact of Command-Line AI Coding Agents"
+    },
+    "https://github.com/microsoft/agent-framework/releases": {
+      "first_seen": "2026-07-13",
+      "last_seen": "2026-07-13",
+      "title": "Microsoft Agent Framework releases"
+    },
+    "https://github.com/simular-ai/agent-s": {
+      "first_seen": "2026-07-13",
+      "last_seen": "2026-07-13",
+      "title": "Agent S \u2014 open computer-use agent framework"
+    },
+    "https://arxiv.org/abs/2607.03601": {
+      "first_seen": "2026-07-13",
+      "last_seen": "2026-07-13",
+      "title": "ArchEval: Measuring AI Agents as Computer Architects"
+    },
+    "https://github.com/bradagi/awesome-cli-coding-agents": {
+      "first_seen": "2026-07-13",
+      "last_seen": "2026-07-13",
+      "title": "awesome-cli-coding-agents"
+    },
+    "https://www.facebook.com/business/ai/business-assistant": {
+      "first_seen": "2026-07-13",
+      "last_seen": "2026-07-13",
+      "title": "Meta AI Business Assistant"
+    },
+    "https://www.producthunt.com/products/gauge": {
+      "first_seen": "2026-07-13",
+      "last_seen": "2026-07-13",
+      "title": "Gauge \u2014 marketing agent for organic, paid, and AI search"
+    },
+    "https://www.klaviyo.com/whats-new/all": {
+      "first_seen": "2026-07-13",
+      "last_seen": "2026-07-13",
+      "title": "Klaviyo What\u2019s New \u2014 AI, Composer, Customer Agent, MCP"
+    },
+    "https://support.google.com/google-ads/announcements/9048695?hl=en": {
+      "first_seen": "2026-07-13",
+      "last_seen": "2026-07-13",
+      "title": "Google Ads New Features + Marketing Live 2026 announcements"
+    },
+    "https://twooctobers.com/blog/digital-marketing-updates-july-2026": {
+      "first_seen": "2026-07-13",
+      "last_seen": "2026-07-13",
+      "title": "Digital Marketing Updates: July 2026"
+    },
+    "https://arxiv.org/abs/2607.00233": {
+      "first_seen": "2026-07-13",
+      "last_seen": "2026-07-13",
+      "title": "From Signals to Structure: How Memory Architecture Drives Language Emergence"
+    },
+    "https://arxiv.org/abs/2607.03228": {
+      "first_seen": "2026-07-13",
+      "last_seen": "2026-07-13",
+      "title": "Organizational Memory for Agentic Business Process Execution"
+    },
+    "https://arxiv.org/abs/2607.04391": {
+      "first_seen": "2026-07-13",
+      "last_seen": "2026-07-13",
+      "title": "MOSS: Memory-Orchestrated Semantic System"
+    },
+    "https://arxiv.org/abs/2607.00017": {
+      "first_seen": "2026-07-13",
+      "last_seen": "2026-07-13",
+      "title": "Learning User-Aware Recall: Personalized Retrieval in Long-Term Conversational Memory"
+    },
+    "https://research.google/blog/titans-miras-helping-ai-have-long-term-memory": {
+      "first_seen": "2026-07-13",
+      "last_seen": "2026-07-13",
+      "title": "Google Research: Titans + MIRAS long-term memory"
+    },
     "https://github.blog/changelog/2026-07-07-github-copilot-app-available-to-all": {
       "first_seen": "2026-07-12",
       "last_seen": "2026-07-12",
