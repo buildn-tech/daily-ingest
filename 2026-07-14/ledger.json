@@ -1,0 +1,39 @@
+{
+  "date": "2026-07-14",
+  "generated_at": "2026-07-14T10:00:24+02:00",
+  "topic_groups": [
+    {
+      "slug": "open-source-coding",
+      "title": "Open Source + Coding Agents",
+      "sources": [
+        {"title":"GPT-5.6 Sol, Terra and Luna in GitHub Copilot","url":"https://github.blog/changelog/2026-07-09-openais-gpt-5-6-sol-terra-and-luna-are-now-available-in-github-copilot/","source_type":"release","published_or_updated":"2026-07-09","why_selected":"A practical three-tier model-routing change for Copilot coding work.","usefulness":"Lets Buildn match routine, difficult and cost-sensitive jobs to different capability tiers."},
+        {"title":"GitHub Agentic Workflows public preview","url":"https://github.blog/changelog/2026-06-11-github-agentic-workflows-is-now-in-public-preview/","source_type":"release","published_or_updated":"2026-06-11","why_selected":"Markdown-authored agent jobs now compile to Actions with explicit safety controls.","usefulness":"A candidate pattern for repeatable issue triage, CI diagnosis and documentation maintenance."},
+        {"title":"Copilot CLI and SDK session credit limits","url":"https://github.blog/changelog/2026-07-01-set-ai-credit-session-limits-in-copilot-cli-and-sdk/","source_type":"release","published_or_updated":"2026-07-01","why_selected":"It adds a bounded-spend control to unattended coding-agent runs.","usefulness":"Useful as a governance requirement for scheduled or delegated work."},
+        {"title":"Kimi K2.7 Code generally available in GitHub Copilot","url":"https://github.blog/changelog/2026-07-01-kimi-k2-7-is-now-available-in-github-copilot/","source_type":"release","published_or_updated":"2026-07-01","why_selected":"The first selectable open-weight Copilot model broadens evaluation options.","usefulness":"Enables a controlled quality/cost comparison for coding tasks."},
+        {"title":"Beware of Agentic Botnets: HalluSquatting","url":"https://arxiv.org/abs/2607.07433","source_type":"paper","published_or_updated":"2026-07-08","why_selected":"It examines attacker registration of resources likely to be hallucinated by agents.","usefulness":"Directly motivates allowlists and verification before agents clone or install resources."}
+      ]
+    },
+    {
+      "slug": "ai-marketing-growth",
+      "title": "AI Marketing + Growth",
+      "sources": [
+        {"title":"Google AI labelling requirements update","url":"https://support.google.com/adspolicy/answer/17257106?hl=en-GB&ref_topic=16794025","source_type":"docs","published_or_updated":"2026-07-09","why_selected":"Google now permits AI-disclosure labels within image and video ad assets.","usefulness":"Provides an immediate compliance design requirement for AI-generated creative."},
+        {"title":"Google Marketing Live 2026","url":"https://blog.google/products/ads-commerce/google-marketing-live-2026-collection/","source_type":"blog","published_or_updated":"2026-05-20","why_selected":"It lays out Google’s AI-search advertising, advisor and measurement direction.","usefulness":"A practical roadmap for feed quality, campaign control and measurement work."},
+        {"title":"Google Search I/O 2026 updates","url":"https://blog.google/products-and-platforms/products/search/search-io-2026/","source_type":"blog","published_or_updated":"2026-05-19","why_selected":"Search agents and AI Mode change where discovery and referral traffic may originate.","usefulness":"Useful for monitoring brand/product discovery in conversational search."},
+        {"title":"Figma AI SaaS Website Builder","url":"https://www.figma.com/solutions/ai-saas-website-builder/","source_type":"product","published_or_updated":"unknown","why_selected":"Figma Make joins prompt-led landing-page creation with design and publishing workflows.","usefulness":"Rapidly produces client launch-page prototypes and experiment variants."},
+        {"title":"GPT-5.6 now in Figma Make","url":"https://www.figma.com/blog/gpt-5-6-is-now-available-in-figma-make/","source_type":"blog","published_or_updated":"2026-07-09","why_selected":"A current model upgrade affects the quality and iteration speed of Figma Make builds.","usefulness":"Worth a small controlled trial on a landing-page brief."}
+      ]
+    },
+    {
+      "slug": "learning-memory",
+      "title": "Learning + Memory",
+      "sources": [
+        {"title":"AutoMem: Automated Learning of Memory as a Cognitive Skill","url":"https://arxiv.org/abs/2607.01224","source_type":"paper","published_or_updated":"2026-07-01","why_selected":"It treats memory management as a separately optimizable agent skill.","usefulness":"Suggests evaluating memory schemas and policies independently from task models."},
+        {"title":"NapMem: Active Memory Navigation","url":"https://arxiv.org/abs/2607.05794","source_type":"paper","published_or_updated":"2026-07-07","why_selected":"It gives agents tools to navigate a provenance-linked memory hierarchy.","usefulness":"A useful reference for source-backed personal and project memory."},
+        {"title":"Proactive Memory Agent for Long-Horizon Agents","url":"https://arxiv.org/abs/2607.08716","source_type":"paper","published_or_updated":"2026-07-09","why_selected":"It tests selective reminders instead of constant retrieval injection.","usefulness":"Offers a concrete pattern for reducing long-running agent drift."},
+        {"title":"CO-LMLM: Continuous-Query Limited Memory Language Models","url":"https://arxiv.org/abs/2607.07707","source_type":"paper","published_or_updated":"2026-07-08","why_selected":"It explores external, attributable factual memory with vector queries.","usefulness":"Useful as a systems reference for inspectable knowledge retrieval."},
+        {"title":"TF-Engram: SSD-Backed Memory for LLMs","url":"https://arxiv.org/abs/2607.07388","source_type":"paper","published_or_updated":"2026-07-08","why_selected":"It proposes train-free, hierarchical external phrase memory at inference.","usefulness":"Useful for thinking about cost-conscious large memory stores."}
+      ]
+    }
+  ]
+}
