@@ -1,0 +1,108 @@
+{
+  "date": "2026-07-15",
+  "generated_at": "2026-07-15T08:07:23.406124+00:00",
+  "editorial_thesis": "The actionable shift is from isolated AI features to governed systems that connect work context, design delivery and execution without dropping review boundaries.",
+  "topic_groups": [
+    {
+      "slug": "agent-workflows",
+      "title": "Agent Workflows + Automation",
+      "selection_rationale": "The old \u201cchat plus copy/paste\u201d pattern is being replaced by project-scoped agents with connected context, scheduled runs, and explicit approvals\u2014an immediate Buildn operations question.",
+      "sources": [
+        {
+          "title": "ChatGPT Work",
+          "url": "https://openai.com/index/chatgpt-for-your-most-ambitious-work/",
+          "source_type": "product",
+          "published_or_updated": "2026-07-09",
+          "why_selected": "It packages project persistence, background execution and deliverables into one operating surface.",
+          "usefulness": "Prototype a client-research-to-brief workflow, but keep outbound sharing behind an approval gate."
+        },
+        {
+          "title": "GPT-5.6 programmatic tool calling",
+          "url": "https://openai.com/index/gpt-5-6/",
+          "source_type": "release",
+          "published_or_updated": "2026-07-09",
+          "why_selected": "Tool-heavy workflows can become cheaper and less brittle when orchestration happens near the tools.",
+          "usefulness": "Use it for research aggregation, audit evidence collection, or multi-source reporting with a small final evidence set."
+        },
+        {
+          "title": "GPT-Live",
+          "url": "https://openai.com/index/introducing-gpt-live/",
+          "source_type": "product",
+          "published_or_updated": "2026-07-08",
+          "why_selected": "Voice becomes a control plane for field notes, meeting capture and quick task delegation\u2014not only a dictation layer.",
+          "usefulness": "Try spoken discovery interviews or on-the-go project capture, then require written review before tasks are created."
+        }
+      ]
+    },
+    {
+      "slug": "design-delivery",
+      "title": "Design-to-Delivery Systems",
+      "selection_rationale": "This deliberately rotates away from yesterday\u2019s repeated agent/model and growth lanes: the strongest practical signal is now the disappearing boundary between canvas, design system, code and delivery.",
+      "sources": [
+        {
+          "title": "Figma skills for its design agent",
+          "url": "https://www.figma.com/blog/got-skills-make-the-figma-agent-a-better-collaborator/",
+          "source_type": "blog",
+          "published_or_updated": "2026-07-01",
+          "why_selected": "A design system supplies components; skills supply the operating knowledge around them.",
+          "usefulness": "Create a Buildn \u201clanding-page critique\u201d skill that checks hierarchy, proof, CTA clarity and mobile states before review."
+        },
+        {
+          "title": "Figma MCP server workflows",
+          "url": "https://www.figma.com/blog/4-ways-were-using-our-mcp-server-at-figma/",
+          "source_type": "blog",
+          "published_or_updated": "2026-06-16",
+          "why_selected": "The useful unit is no longer a generated screen; it is a traceable handoff between live business context, design and implementation.",
+          "usefulness": "Generate kickoff boards or launch-deck drafts from approved briefs, then retain a human design and copy pass."
+        },
+        {
+          "title": "Claude Code to editable Figma designs",
+          "url": "https://www.figma.com/blog/introducing-claude-code-to-figma/",
+          "source_type": "product",
+          "published_or_updated": "2026-02-17",
+          "why_selected": "It makes code-first prototypes reviewable by people who should not need a local environment.",
+          "usefulness": "Use it to turn a client prototype into a visual QA and decision artifact before polishing or rebuilding."
+        },
+        {
+          "title": "Figma Config 2026: code layers and motion",
+          "url": "https://www.figma.com/blog/config-2026-recap/",
+          "source_type": "product",
+          "published_or_updated": "2026-06-24",
+          "why_selected": "Interaction, motion and code are becoming design-system assets instead of a late implementation surprise.",
+          "usefulness": "Make motion acceptance criteria and implementation exports part of Buildn prototype handoff."
+        }
+      ]
+    },
+    {
+      "slug": "security-governance",
+      "title": "Security + Agent Governance",
+      "selection_rationale": "Autonomy is rising faster than operational controls. This lane earns inclusion because it supplies immediate guardrails for Buildn\u2019s scheduled and delegated workflows.",
+      "sources": [
+        {
+          "title": "Microsoft MDASH and Defender\u2013GitHub Code Security integration",
+          "url": "https://www.microsoft.com/en-us/security/blog/2026/06/02/microsoft-build-2026-securing-code-agents-and-models-across-the-development-lifecycle/",
+          "source_type": "release",
+          "published_or_updated": "2026-06-02",
+          "why_selected": "The direction is clear: agent security needs evidence of exploitability and production exposure, not a larger pile of alerts.",
+          "usefulness": "Adopt the principle in Buildn reviews: prioritize findings with reachable paths, exposed assets or risky permissions."
+        },
+        {
+          "title": "Secure Future Initiative: July progress report",
+          "url": "https://www.microsoft.com/en-us/security/blog/2026/07/10/securing-our-future-july-2026-progress-report-on-microsofts-secure-future-initiative/",
+          "source_type": "report",
+          "published_or_updated": "2026-07-10",
+          "why_selected": "It turns \u201csecure by default\u201d into measurable foundations that translate directly to small teams.",
+          "usefulness": "Apply the same baseline to Buildn agent hosts: strong MFA, no stale accounts, isolated credentials and approved dependency sources."
+        },
+        {
+          "title": "GitHub Actions runner minimum-version enforcement",
+          "url": "https://github.blog/changelog/2026-06-12-github-actions-minimum-version-enforcement-timeline-for-self-hosted-runners/",
+          "source_type": "release",
+          "published_or_updated": "2026-06-12",
+          "why_selected": "A scheduler is part of the security boundary. Unmaintained self-hosted agents can become both a delivery and supply-chain liability.",
+          "usefulness": "Inventory Buildn/client self-hosted runners, verify auto-update reachability and alert before the 30-day window."
+        }
+      ]
+    }
+  ]
+}

@@ -1,6 +1,56 @@
 {
-  "updated_at": "2026-07-14T08:06:15.485426+00:00",
+  "updated_at": "2026-07-15T08:07:35.022721+00:00",
   "sources": {
+    "https://openai.com/index/chatgpt-for-your-most-ambitious-work": {
+      "first_seen": "2026-07-15",
+      "last_seen": "2026-07-15",
+      "title": "ChatGPT Work"
+    },
+    "https://openai.com/index/gpt-5-6": {
+      "first_seen": "2026-07-15",
+      "last_seen": "2026-07-15",
+      "title": "GPT-5.6 programmatic tool calling"
+    },
+    "https://openai.com/index/introducing-gpt-live": {
+      "first_seen": "2026-07-15",
+      "last_seen": "2026-07-15",
+      "title": "GPT-Live"
+    },
+    "https://www.figma.com/blog/got-skills-make-the-figma-agent-a-better-collaborator": {
+      "first_seen": "2026-07-15",
+      "last_seen": "2026-07-15",
+      "title": "Figma skills for its design agent"
+    },
+    "https://www.figma.com/blog/4-ways-were-using-our-mcp-server-at-figma": {
+      "first_seen": "2026-07-15",
+      "last_seen": "2026-07-15",
+      "title": "Figma MCP server workflows"
+    },
+    "https://www.figma.com/blog/introducing-claude-code-to-figma": {
+      "first_seen": "2026-07-15",
+      "last_seen": "2026-07-15",
+      "title": "Claude Code to editable Figma designs"
+    },
+    "https://www.figma.com/blog/config-2026-recap": {
+      "first_seen": "2026-07-15",
+      "last_seen": "2026-07-15",
+      "title": "Figma Config 2026: code layers and motion"
+    },
+    "https://www.microsoft.com/en-us/security/blog/2026/06/02/microsoft-build-2026-securing-code-agents-and-models-across-the-development-lifecycle": {
+      "first_seen": "2026-07-15",
+      "last_seen": "2026-07-15",
+      "title": "Microsoft MDASH and Defender\u2013GitHub Code Security integration"
+    },
+    "https://www.microsoft.com/en-us/security/blog/2026/07/10/securing-our-future-july-2026-progress-report-on-microsofts-secure-future-initiative": {
+      "first_seen": "2026-07-15",
+      "last_seen": "2026-07-15",
+      "title": "Secure Future Initiative: July progress report"
+    },
+    "https://github.blog/changelog/2026-06-12-github-actions-minimum-version-enforcement-timeline-for-self-hosted-runners": {
+      "first_seen": "2026-07-15",
+      "last_seen": "2026-07-15",
+      "title": "GitHub Actions runner minimum-version enforcement"
+    },
     "https://github.blog/changelog/2026-07-09-openais-gpt-5-6-sol-terra-and-luna-are-now-available-in-github-copilot": {
       "first_seen": "2026-07-14",
       "last_seen": "2026-07-14",
