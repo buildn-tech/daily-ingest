@@ -1,6 +1,51 @@
 {
-  "updated_at": "2026-07-15T08:07:35.022721+00:00",
+  "updated_at": "2026-07-16T08:07:24.643350+00:00",
   "sources": {
+    "https://github.blog/changelog/2026-07-14-security-reviews-now-available-in-the-github-copilot-app": {
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "title": "GitHub Copilot app: /security-review"
+    },
+    "https://github.blog/changelog/2026-07-14-code-scanning-shows-ai-security-detections-on-pull-requests": {
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "title": "AI security detections on pull requests"
+    },
+    "https://github.blog/changelog/2026-07-15-improvements-to-secret-scanning-and-public-monitoring": {
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "title": "Secret scanning: categories and new detectors"
+    },
+    "https://vercel.com/changelog/faster-predictable-project-linking-in-the-vercel-cli": {
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "title": "Vercel CLI 55: explicit project scope"
+    },
+    "https://vercel.com/changelog/vercel-workflows-trace-viewer-now-has-a-minimap": {
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "title": "Vercel Workflows trace-viewer minimap"
+    },
+    "https://github.com/n8n-io/n8n/releases": {
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "title": "n8n 2.30.5 stable"
+    },
+    "https://www.anthropic.com/news/reflect-with-claude": {
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "title": "Claude Reflection beta"
+    },
+    "https://linear.app/changelog/2026-07-02-initiative-properties": {
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "title": "Linear initiative properties + managed MCP access"
+    },
+    "https://openai.com/index/personal-finance-chatgpt": {
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "title": "ChatGPT Finances preview"
+    },
     "https://openai.com/index/chatgpt-for-your-most-ambitious-work": {
       "first_seen": "2026-07-15",
       "last_seen": "2026-07-15",

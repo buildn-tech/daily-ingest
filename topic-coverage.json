@@ -32,6 +32,21 @@
       "title": "Security + Agent Governance",
       "times_covered": 1,
       "last_covered": "2026-07-15"
+    },
+    "code-security-hygiene": {
+      "title": "Code Security Hygiene",
+      "times_covered": 1,
+      "last_covered": "2026-07-16"
+    },
+    "reliable-agent-delivery": {
+      "title": "Reliable Agent Delivery",
+      "times_covered": 1,
+      "last_covered": "2026-07-16"
+    },
+    "intentional-ai-operations": {
+      "title": "Intentional AI Operations",
+      "times_covered": 1,
+      "last_covered": "2026-07-16"
     }
   },
   "item_history": [
@@ -1074,6 +1089,33 @@
       "url": "https://github.blog/changelog/2026-06-12-github-actions-minimum-version-enforcement-timeline-for-self-hosted-runners/",
       "source_type": "release",
       "selection_rationale": "A scheduler is part of the security boundary. Unmaintained self-hosted agents can become both a delivery and supply-chain liability."
+    },
+    {
+      "date": "2026-07-16", "lane": "code-security-hygiene", "title": "GitHub Copilot app: /security-review", "url": "https://github.blog/changelog/2026-07-14-security-reviews-now-available-in-the-github-copilot-app/", "source_type": "release", "selection_rationale": "Moves high-confidence security review into local in-flight changes."
+    },
+    {
+      "date": "2026-07-16", "lane": "code-security-hygiene", "title": "AI security detections on pull requests", "url": "https://github.blog/changelog/2026-07-14-code-scanning-shows-ai-security-detections-on-pull-requests/", "source_type": "release", "selection_rationale": "Extends PR coverage beyond native CodeQL language support."
+    },
+    {
+      "date": "2026-07-16", "lane": "code-security-hygiene", "title": "Secret scanning: categories and new detectors", "url": "https://github.blog/changelog/2026-07-15-improvements-to-secret-scanning-and-public-monitoring", "source_type": "release", "selection_rationale": "Adds routing-ready secret categories and fresh credential coverage."
+    },
+    {
+      "date": "2026-07-16", "lane": "reliable-agent-delivery", "title": "Vercel CLI 55: explicit project scope", "url": "https://vercel.com/changelog/faster-predictable-project-linking-in-the-vercel-cli", "source_type": "release", "selection_rationale": "Makes noninteractive deployment scoping explicit rather than guessed."
+    },
+    {
+      "date": "2026-07-16", "lane": "reliable-agent-delivery", "title": "Vercel Workflows trace-viewer minimap", "url": "https://vercel.com/changelog/vercel-workflows-trace-viewer-now-has-a-minimap", "source_type": "release", "selection_rationale": "Makes multi-step workflow behavior faster to inspect."
+    },
+    {
+      "date": "2026-07-16", "lane": "reliable-agent-delivery", "title": "n8n 2.30.5 stable", "url": "https://github.com/n8n-io/n8n/releases", "source_type": "release", "selection_rationale": "A current stable automation release with supply-chain artifacts."
+    },
+    {
+      "date": "2026-07-16", "lane": "intentional-ai-operations", "title": "Claude Reflection beta", "url": "https://www.anthropic.com/news/reflect-with-claude", "source_type": "product", "selection_rationale": "Turns AI-use patterns into an intentional delegation review."
+    },
+    {
+      "date": "2026-07-16", "lane": "intentional-ai-operations", "title": "Linear initiative properties + managed MCP access", "url": "https://linear.app/changelog/2026-07-02-initiative-properties", "source_type": "release", "selection_rationale": "Connects initiative discipline with centrally managed MCP authorization."
+    },
+    {
+      "date": "2026-07-16", "lane": "intentional-ai-operations", "title": "ChatGPT Finances preview", "url": "https://openai.com/index/personal-finance-chatgpt/", "source_type": "product", "selection_rationale": "A useful consented-context pattern with explicit privacy constraints."
     }
   ],
   "runs": [
@@ -1113,6 +1155,15 @@
         "security-governance"
       ],
       "editorial_thesis": "The actionable shift is from isolated AI features to governed systems that connect work context, design delivery and execution without dropping review boundaries."
+    },
+    {
+      "date": "2026-07-16",
+      "selected_lanes": [
+        "code-security-hygiene",
+        "reliable-agent-delivery",
+        "intentional-ai-operations"
+      ],
+      "editorial_thesis": "Put security in the review loop, make autonomous delivery explicit and inspectable, and audit what delegation is actually buying."
     }
   ]
 }

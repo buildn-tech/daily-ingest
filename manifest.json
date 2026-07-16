@@ -1,6 +1,27 @@
 {
-  "updated_at": "2026-07-15T08:07:35.022721+00:00",
+  "updated_at": "2026-07-16T08:07:24.643350+00:00",
   "days": [
+    {
+      "date": "2026-07-16",
+      "path": "2026-07-16",
+      "reports": [
+        {
+          "lane": "code-security-hygiene",
+          "title": "Code Security Hygiene",
+          "url": "2026-07-16/code-security-hygiene.html"
+        },
+        {
+          "lane": "reliable-agent-delivery",
+          "title": "Reliable Agent Delivery",
+          "url": "2026-07-16/reliable-agent-delivery.html"
+        },
+        {
+          "lane": "intentional-ai-operations",
+          "title": "Intentional AI Operations",
+          "url": "2026-07-16/intentional-ai-operations.html"
+        }
+      ]
+    },
     {
       "date": "2026-07-14",
       "path": "2026-07-14",

@@ -1,0 +1,100 @@
+{
+  "date": "2026-07-16",
+  "generated_at": "2026-07-16T08:04:42Z",
+  "editorial_thesis": "Today\u2019s strongest practical signal is operational discipline around AI: put security in the review loop, make autonomous delivery explicit and inspectable, and audit what delegation is actually buying.",
+  "topic_groups": [
+    {
+      "slug": "code-security-hygiene",
+      "title": "Code Security Hygiene",
+      "selection_rationale": "Fresh GitHub releases turn agent-era security into three concrete review points: inspect local changes, surface wider PR findings, and route leaked credentials by category. This is a deliberately practical follow-on to yesterday\u2019s governance lane, with material product updates on July 14\u201315.",
+      "sources": [
+        {
+          "title": "GitHub Copilot app: /security-review",
+          "url": "https://github.blog/changelog/2026-07-14-security-reviews-now-available-in-the-github-copilot-app/",
+          "source_type": "release",
+          "published_or_updated": "2026-07-14",
+          "why_selected": "Runs a high-confidence review of in-flight local changes for injection, XSS, path traversal, insecure data handling, and weak crypto.",
+          "usefulness": "Add it as a pre-commit habit for Buildn/client changes; save verified findings as review evidence, not automatic fixes."
+        },
+        {
+          "title": "AI security detections on pull requests",
+          "url": "https://github.blog/changelog/2026-07-14-code-scanning-shows-ai-security-detections-on-pull-requests/",
+          "source_type": "release",
+          "published_or_updated": "2026-07-14",
+          "why_selected": "AI-powered detections now appear in PRs for coverage gaps beyond CodeQL-supported languages and frameworks.",
+          "usefulness": "Pilot it on repositories with CodeQL default setup; triage its informational, AI-labelled findings in the existing PR ritual."
+        },
+        {
+          "title": "Secret scanning: categories and new detectors",
+          "url": "https://github.blog/changelog/2026-07-15-improvements-to-secret-scanning-and-public-monitoring",
+          "source_type": "release",
+          "published_or_updated": "2026-07-15",
+          "why_selected": "GitHub added Resend/APIclub detection, default blocking for VolcEngine Ark keys, and a secret_category field in alert webhooks.",
+          "usefulness": "Route generic/AI-detected secrets differently from provider/custom patterns; use the category in a small incident workflow."
+        }
+      ]
+    },
+    {
+      "slug": "reliable-agent-delivery",
+      "title": "Reliable Agent Delivery",
+      "selection_rationale": "Developer delivery systems were under-covered, and July 15 brought useful operational\u2014not hype\u2014updates: deterministic CLI scoping, workflow observability, and a stable n8n release for self-hosted automation.",
+      "sources": [
+        {
+          "title": "Vercel CLI 55: explicit project scope",
+          "url": "https://vercel.com/changelog/faster-predictable-project-linking-in-the-vercel-cli",
+          "source_type": "release",
+          "published_or_updated": "2026-07-15",
+          "why_selected": "CLI 55 resolves a team before finding projects; non-interactive commands fail with missing_scope rather than guessing.",
+          "usefulness": "Set VERCEL_ORG_ID and VERCEL_PROJECT_ID in Buildn/client CI so deploy agents cannot link or deploy into the wrong team."
+        },
+        {
+          "title": "Vercel Workflows trace-viewer minimap",
+          "url": "https://vercel.com/changelog/vercel-workflows-trace-viewer-now-has-a-minimap",
+          "source_type": "release",
+          "published_or_updated": "2026-07-15",
+          "why_selected": "A minimap exposes the whole workflow run, with pan, zoom, jump, and local access through the beta Workflow SDK web UI.",
+          "usefulness": "Use trace inspection as a release gate for multi-step agents: identify retries, long spans, and unexpected branches before expanding autonomy."
+        },
+        {
+          "title": "n8n 2.30.5 stable",
+          "url": "https://github.com/n8n-io/n8n/releases",
+          "source_type": "release",
+          "published_or_updated": "2026-07-15",
+          "why_selected": "The latest stable patch includes AI assistant/core fixes and ships SBOM, third-party-license, and OpenVEX artifacts.",
+          "usefulness": "For self-hosted client automations, treat upgrade review as a supply-chain checkpoint: validate the release artifacts and smoke-test credentials/webhooks."
+        }
+      ]
+    },
+    {
+      "slug": "intentional-ai-operations",
+      "title": "Intentional AI Operations",
+      "selection_rationale": "Personal leverage has been absent from recent coverage. These sources move from raw AI usage to operating hygiene: audit collaboration patterns, encode initiative decisions, and evaluate connected financial context with explicit privacy boundaries.",
+      "sources": [
+        {
+          "title": "Claude Reflection beta",
+          "url": "https://www.anthropic.com/news/reflect-with-claude",
+          "source_type": "product",
+          "published_or_updated": "2026-07-09",
+          "why_selected": "A settings-based dashboard summarizes 1\u201312 months of Claude use, task patterns, reflective prompts, quiet hours, and break nudges.",
+          "usefulness": "Use the 4D lens\u2014delegation, description, discernment, diligence\u2014to review whether Buildn AI use is creating leverage or merely activity."
+        },
+        {
+          "title": "Linear initiative properties + managed MCP access",
+          "url": "https://linear.app/changelog/2026-07-02-initiative-properties",
+          "source_type": "release",
+          "published_or_updated": "2026-07-02",
+          "why_selected": "Initiatives gain proposed/canceled status, priority and labels; Enterprise users can centrally authorize MCP access in Claude through Okta.",
+          "usefulness": "Represent Buildn/client bets as initiatives with explicit status and priority; keep agent access centrally revocable where enterprise identity exists."
+        },
+        {
+          "title": "ChatGPT Finances preview",
+          "url": "https://openai.com/index/personal-finance-chatgpt/",
+          "source_type": "product",
+          "published_or_updated": "2026-06-25",
+          "why_selected": "U.S. Plus/Pro users can connect accounts via Plaid, see a consolidated dashboard, and use dedicated financial memories for goals and context.",
+          "usefulness": "The transferable lesson for client work is consented context: connected data becomes useful only with narrow purpose, reviewable outputs, and clear opt-out."
+        }
+      ]
+    }
+  ]
+}
