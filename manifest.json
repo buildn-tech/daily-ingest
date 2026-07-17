@@ -1,6 +1,27 @@
 {
-  "updated_at": "2026-07-16T08:07:24.643350+00:00",
+  "updated_at": "2026-07-17T08:06:46.953490+00:00",
   "days": [
+    {
+      "date": "2026-07-17",
+      "path": "2026-07-17",
+      "reports": [
+        {
+          "lane": "delivery-observability",
+          "title": "Delivery Observability + Portfolio Hygiene",
+          "url": "2026-07-17/delivery-observability.html"
+        },
+        {
+          "lane": "hybrid-agent-workflows",
+          "title": "Hybrid Agent Workflows",
+          "url": "2026-07-17/hybrid-agent-workflows.html"
+        },
+        {
+          "lane": "creative-client-communications",
+          "title": "Creative Client Communications",
+          "url": "2026-07-17/creative-client-communications.html"
+        }
+      ]
+    },
     {
       "date": "2026-07-16",
       "path": "2026-07-16",

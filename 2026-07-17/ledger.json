@@ -1,0 +1,100 @@
+{
+  "date": "2026-07-17",
+  "generated_at": "2026-07-17T08:06:42.749593+00:00",
+  "editorial_thesis": "The useful signal today is not more AI surface area: it is inspectable delivery, deterministic boundaries around agents, and fast creative drafts with human approval.",
+  "topic_groups": [
+    {
+      "slug": "delivery-observability",
+      "title": "Delivery Observability + Portfolio Hygiene",
+      "selection_rationale": "A new GitHub Projects capability, deployment/cache diagnostics, and macOS toolchain preview form a practical, under-covered delivery lane. These are fresh primary releases, not a repeat of yesterday\u2019s agent-governance discussion.",
+      "sources": [
+        {
+          "title": "GitHub Projects advanced search",
+          "url": "https://github.blog/changelog/2026-07-16-advanced-search-for-projects-is-generally-available/",
+          "source_type": "release",
+          "published_or_updated": "2026-07-16",
+          "why_selected": "Logical AND/OR and review-state filtering make one project view useful for live delivery questions.",
+          "usefulness": "Create exception views for blocked, unreviewed, or agent-authored work without maintaining duplicate boards."
+        },
+        {
+          "title": "Vercel runtime-log cache reasons",
+          "url": "https://vercel.com/changelog/runtime-logs-now-show-cache-reasons",
+          "source_type": "release",
+          "published_or_updated": "2026-07-16",
+          "why_selected": "Cache status now carries a concrete cause, including tag invalidation and revalidation errors.",
+          "usefulness": "Turn cache debugging from inference into an inspectable deploy-health check."
+        },
+        {
+          "title": "GitHub Actions Xcode 27 runner preview",
+          "url": "https://github.blog/changelog/2026-07-16-xcode-27-runner-image-now-in-public-preview",
+          "source_type": "release",
+          "published_or_updated": "2026-07-16",
+          "why_selected": "Apple teams can test the forthcoming toolchain on hosted arm64 runners before a forced migration.",
+          "usefulness": "Add a non-blocking Xcode 27 CI matrix before adopting the image."
+        },
+        {
+          "title": "GitHub archive pull requests",
+          "url": "https://github.blog/changelog/2026-07-16-repository-admins-can-archive-pull-requests",
+          "source_type": "release",
+          "published_or_updated": "2026-07-16",
+          "why_selected": "Admins can hide, lock, preserve, bulk archive, and later retrieve abusive or legally sensitive PRs.",
+          "usefulness": "Document a moderation path that preserves evidence without leaving hostile PRs public."
+        }
+      ]
+    },
+    {
+      "slug": "hybrid-agent-workflows",
+      "title": "Hybrid Agent Workflows",
+      "selection_rationale": "This lane follows a material design shift: deterministic code owns mandatory transitions while models own ambiguity. It builds on, rather than repeats, yesterday\u2019s reliable-delivery coverage with a newly tracked framework, production case study, and fresh robustness evidence.",
+      "sources": [
+        {
+          "title": "Google ADK 2.0 workflows",
+          "url": "https://developers.googleblog.com/why-we-built-adk-20/",
+          "source_type": "blog",
+          "published_or_updated": "2026-07-01",
+          "why_selected": "ADK 2.0 explicitly separates deterministic routing, retries and policy enforcement from LLM reasoning.",
+          "usefulness": "Model the Buildn/client workflow as a graph; reserve model calls for interpretation and drafting."
+        },
+        {
+          "title": "Cars24: agents across customer and internal operations",
+          "url": "https://openai.com/index/cars24/",
+          "source_type": "case-study",
+          "published_or_updated": "2026-07-16",
+          "why_selected": "A concrete deployment links voice/chat agents, lead recovery, Linear, GitHub and Codex rather than treating AI as a chat layer.",
+          "usefulness": "Borrow the operating pattern: automate a bounded funnel stage, return exceptions to people, and measure recovery."
+        },
+        {
+          "title": "OpenAI GPT-Red automated red teaming",
+          "url": "https://openai.com/index/unlocking-self-improvement-gpt-red/",
+          "source_type": "research",
+          "published_or_updated": "2026-07-15",
+          "why_selected": "The new report makes indirect prompt injection a workflow-design constraint, using adversarial self-play to find failures.",
+          "usefulness": "Test agents against malicious tool outputs; treat retrieved content as data, never authority."
+        }
+      ]
+    },
+    {
+      "slug": "creative-client-communications",
+      "title": "Creative Client Communications",
+      "selection_rationale": "Creative production and mobile field workflows have not been a recent lane. Fresh Google releases show a fast route from a rough prompt or screen recording to a reviewable client-facing update, with provenance and eligibility limits worth keeping visible.",
+      "sources": [
+        {
+          "title": "Google Vids: Gemini Omni and personal avatars",
+          "url": "https://blog.google/products-and-platforms/products/workspace/gemini-omni-personal-avatars/",
+          "source_type": "product",
+          "published_or_updated": "2026-07-16",
+          "why_selected": "It combines text/image-led clip generation, conversational edits, account-bound avatars, and SynthID watermarking in a business tool.",
+          "usefulness": "Prototype short product explainers or client update videos from approved scripts and visual references."
+        },
+        {
+          "title": "June 2026 Pixel Drop",
+          "url": "https://blog.google/products-and-platforms/devices/pixel/june-2026-pixel-drop/",
+          "source_type": "product",
+          "published_or_updated": "2026-06-16",
+          "why_selected": "Screen reactions makes one-take screen tutorials with a movable selfie layer; Gemini adds mobile video and music generation.",
+          "usefulness": "Capture a field walkthrough or product bug reproduction, then edit a concise handoff on-device."
+        }
+      ]
+    }
+  ]
+}

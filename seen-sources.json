@@ -1,6 +1,51 @@
 {
-  "updated_at": "2026-07-16T08:07:24.643350+00:00",
+  "updated_at": "2026-07-17T08:06:46.953490+00:00",
   "sources": {
+    "https://github.blog/changelog/2026-07-16-advanced-search-for-projects-is-generally-available": {
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-17",
+      "title": "GitHub Projects advanced search"
+    },
+    "https://vercel.com/changelog/runtime-logs-now-show-cache-reasons": {
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-17",
+      "title": "Vercel runtime-log cache reasons"
+    },
+    "https://github.blog/changelog/2026-07-16-xcode-27-runner-image-now-in-public-preview": {
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-17",
+      "title": "GitHub Actions Xcode 27 runner preview"
+    },
+    "https://github.blog/changelog/2026-07-16-repository-admins-can-archive-pull-requests": {
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-17",
+      "title": "GitHub archive pull requests"
+    },
+    "https://developers.googleblog.com/why-we-built-adk-20": {
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-17",
+      "title": "Google ADK 2.0 workflows"
+    },
+    "https://openai.com/index/cars24": {
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-17",
+      "title": "Cars24: agents across customer and internal operations"
+    },
+    "https://openai.com/index/unlocking-self-improvement-gpt-red": {
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-17",
+      "title": "OpenAI GPT-Red automated red teaming"
+    },
+    "https://blog.google/products-and-platforms/products/workspace/gemini-omni-personal-avatars": {
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-17",
+      "title": "Google Vids: Gemini Omni and personal avatars"
+    },
+    "https://blog.google/products-and-platforms/devices/pixel/june-2026-pixel-drop": {
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-17",
+      "title": "June 2026 Pixel Drop"
+    },
     "https://github.blog/changelog/2026-07-14-security-reviews-now-available-in-the-github-copilot-app": {
       "first_seen": "2026-07-16",
       "last_seen": "2026-07-16",
