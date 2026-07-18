@@ -62,6 +62,21 @@
       "title": "Creative Client Communications",
       "times_covered": 1,
       "last_covered": "2026-07-17"
+    },
+    "agent-controls-measurement": {
+      "title": "Agent Controls + Measurement",
+      "times_covered": 1,
+      "last_covered": "2026-07-18"
+    },
+    "trust-boundaries-response": {
+      "title": "Trust Boundaries + Response",
+      "times_covered": 1,
+      "last_covered": "2026-07-18"
+    },
+    "operator-feedback-surfaces": {
+      "title": "Operator Feedback Surfaces",
+      "times_covered": 1,
+      "last_covered": "2026-07-18"
     }
   },
   "item_history": [
@@ -1248,7 +1263,20 @@
       "url": "https://blog.google/products-and-platforms/devices/pixel/june-2026-pixel-drop/",
       "source_type": "product",
       "selection_rationale": "Screen reactions makes one-take screen tutorials with a movable selfie layer; Gemini adds mobile video and music generation."
-    }
+    },
+    {"date":"2026-07-18","lane":"agent-controls-measurement","title":"Copilot code review: customization and configurability improvements","url":"https://github.blog/changelog/2026-07-17-copilot-code-review-customization-and-configurability-improvements/","source_type":"release","selection_rationale":"PR-scoped instructions, isolated review runtime controls, and a default firewall make governance testable in repository flow."},
+    {"date":"2026-07-18","lane":"agent-controls-measurement","title":"Repository-level GitHub Copilot usage metrics generally available","url":"https://github.blog/changelog/2026-07-17-repository-level-github-copilot-usage-metrics-generally-available/","source_type":"release","selection_rationale":"Daily per-repository agent PR and review data makes adoption measurable where work happens."},
+    {"date":"2026-07-18","lane":"agent-controls-measurement","title":"GitHub Copilot app now available in the usage metrics API","url":"https://github.blog/changelog/2026-07-17-github-copilot-app-now-available-in-the-usage-metrics-api/","source_type":"release","selection_rationale":"App usage is separately visible, allowing exploration to be separated from delivery activity."},
+    {"date":"2026-07-18","lane":"agent-controls-measurement","title":"GitHub Mobile: Fix pull request comments with Copilot cloud agent","url":"https://github.blog/changelog/2026-07-17-github-mobile-fix-pull-request-comments-with-copilot-cloud-agent/","source_type":"release","selection_rationale":"Review feedback can become a bounded agent remediation task while retaining human merge control."},
+    {"date":"2026-07-18","lane":"trust-boundaries-response","title":"Cloudflare emergency WAF release","url":"https://developers.cloudflare.com/changelog/post/2026-07-17-emergency-waf-release/","source_type":"release","selection_rationale":"Fresh managed-rule coverage for active RCE and SQLi exploitation is a direct response-readiness signal."},
+    {"date":"2026-07-18","lane":"trust-boundaries-response","title":"n8n 2.30.7 stable","url":"https://github.com/n8n-io/n8n/releases/tag/n8n%402.30.7","source_type":"release","selection_rationale":"Provenance-attested source linting adds a concrete supply-chain control for workflow extensions."},
+    {"date":"2026-07-18","lane":"trust-boundaries-response","title":"How Agents Ask for Permission","url":"https://arxiv.org/abs/2607.13718","source_type":"paper","selection_rationale":"The permission pipeline runs from user specification to runtime enforcement, not just confirmation dialogs."},
+    {"date":"2026-07-18","lane":"trust-boundaries-response","title":"AgentAbstain: Do LLM Agents Know When Not to Act?","url":"https://arxiv.org/abs/2607.10059","source_type":"paper","selection_rationale":"Low paired act/abstain accuracy makes explicit stop conditions a deployment requirement."},
+    {"date":"2026-07-18","lane":"trust-boundaries-response","title":"Agent Data Injection Attacks are Realistic Threats to AI Agents","url":"https://arxiv.org/abs/2607.05120","source_type":"paper","selection_rationale":"Trusted-looking metadata and tool context require provenance-preserving trust boundaries."},
+    {"date":"2026-07-18","lane":"operator-feedback-surfaces","title":"Chat SDK adds native Slack agent support","url":"https://vercel.com/changelog/chat-sdk-adds-native-slack-agent-support","source_type":"release","selection_rationale":"Native prompts, streamed status, and feedback make agent conversations reviewable work surfaces."},
+    {"date":"2026-07-18","lane":"operator-feedback-surfaces","title":"Cloudflare Email Service: sent-message preview","url":"https://developers.cloudflare.com/changelog/post/2026-07-17-email-message-preview/","source_type":"release","selection_rationale":"Automated email can now be inspected as a rendered, header-complete artifact."},
+    {"date":"2026-07-18","lane":"operator-feedback-surfaces","title":"Arize Phoenix v19.0.0","url":"https://github.com/Arize-ai/phoenix/releases/tag/arize-phoenix-v19.0.0","source_type":"release","selection_rationale":"OAuth2 and tighter unattended-key issuance improve the access boundary around trace observability."},
+    {"date":"2026-07-18","lane":"operator-feedback-surfaces","title":"agent-browser v0.32.2","url":"https://github.com/vercel-labs/agent-browser/releases/tag/v0.32.2","source_type":"release","selection_rationale":"It follows browser allowlist hardening and state-persistence work with fresh extension compatibility."}
   ],
   "runs": [
     {
@@ -1298,26 +1326,14 @@
       "editorial_thesis": "Put security in the review loop, make autonomous delivery explicit and inspectable, and audit what delegation is actually buying."
     }
   ],
-  "updated_at": "2026-07-17T08:07:09.183511+00:00",
+  "updated_at": "2026-07-18T08:03:43+00:00",
   "last_run": {
-    "date": "2026-07-17",
+    "date": "2026-07-18",
     "selected_lanes": [
-      {
-        "slug": "delivery-observability",
-        "title": "Delivery Observability + Portfolio Hygiene",
-        "selection_rationale": "A new GitHub Projects capability, deployment/cache diagnostics, and macOS toolchain preview form a practical, under-covered delivery lane. These are fresh primary releases, not a repeat of yesterday\u2019s agent-governance discussion."
-      },
-      {
-        "slug": "hybrid-agent-workflows",
-        "title": "Hybrid Agent Workflows",
-        "selection_rationale": "This lane follows a material design shift: deterministic code owns mandatory transitions while models own ambiguity. It builds on, rather than repeats, yesterday\u2019s reliable-delivery coverage with a newly tracked framework, production case study, and fresh robustness evidence."
-      },
-      {
-        "slug": "creative-client-communications",
-        "title": "Creative Client Communications",
-        "selection_rationale": "Creative production and mobile field workflows have not been a recent lane. Fresh Google releases show a fast route from a rough prompt or screen recording to a reviewable client-facing update, with provenance and eligibility limits worth keeping visible."
-      }
+      {"slug":"agent-controls-measurement","title":"Agent Controls + Measurement","selection_rationale":"Fresh GitHub controls make PR-scoped policy testable and repository-level adoption measurable."},
+      {"slug":"trust-boundaries-response","title":"Trust Boundaries + Response","selection_rationale":"Fresh security evidence favors provenance, user-level permission, abstention, and managed response controls."},
+      {"slug":"operator-feedback-surfaces","title":"Operator Feedback Surfaces","selection_rationale":"Native feedback, message inspection, secure traces, and constrained browser state form a practical human-loop layer."}
     ],
-    "editorial_thesis": "The useful signal today is not more AI surface area: it is inspectable delivery, deterministic boundaries around agents, and fast creative drafts with human approval."
+    "editorial_thesis": "Make agent work measurable, constrain it at trust boundaries, and expose it through inspectable feedback surfaces."
   }
 }
