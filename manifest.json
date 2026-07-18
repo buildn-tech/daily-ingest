@@ -1,6 +1,27 @@
 {
-  "updated_at": "2026-07-17T08:08:23.043545+00:00",
+  "updated_at": "2026-07-18T08:07:26.784499+00:00",
   "days": [
+    {
+      "date": "2026-07-18",
+      "path": "2026-07-18",
+      "reports": [
+        {
+          "lane": "agent-controls-measurement",
+          "title": "Agent Controls + Measurement",
+          "url": "2026-07-18/agent-controls-measurement.html"
+        },
+        {
+          "lane": "trust-boundaries-response",
+          "title": "Trust Boundaries + Response",
+          "url": "2026-07-18/trust-boundaries-response.html"
+        },
+        {
+          "lane": "operator-feedback-surfaces",
+          "title": "Operator Feedback Surfaces",
+          "url": "2026-07-18/operator-feedback-surfaces.html"
+        }
+      ]
+    },
     {
       "date": "2026-07-17",
       "path": "2026-07-17",

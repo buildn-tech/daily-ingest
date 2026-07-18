@@ -1,0 +1,41 @@
+{
+  "date": "2026-07-18",
+  "generated_at": "2026-07-18T08:03:43Z",
+  "editorial_thesis": "The strongest fresh signal is operational: make agent work measurable, constrain it at trust boundaries, and give humans inspectable handoff surfaces rather than more autonomous surface area.",
+  "topic_groups": [
+    {
+      "slug": "agent-controls-measurement",
+      "title": "Agent Controls + Measurement",
+      "selection_rationale": "GitHub shipped a coherent July 17 control-plane update: review instruction changes can be tested in a PR, network and runners can be scoped per workload, and adoption is measurable by repository. This is a material update beyond the July 15–17 governance coverage.",
+      "sources": [
+        {"title":"Copilot code review: customization and configurability improvements","url":"https://github.blog/changelog/2026-07-17-copilot-code-review-customization-and-configurability-improvements/","source_type":"release","published_or_updated":"2026-07-17","why_selected":"It separates review setup, runner choice, and network access from the cloud agent, while reading instructions from the PR head branch.","usefulness":"Pilot agent review policy as reviewable repository code rather than an organization-wide black box."},
+        {"title":"Repository-level GitHub Copilot usage metrics generally available","url":"https://github.blog/changelog/2026-07-17-repository-level-github-copilot-usage-metrics-generally-available/","source_type":"release","published_or_updated":"2026-07-17","why_selected":"The metrics API now reports coding-agent PRs and code-review activity for each repository and day.","usefulness":"Build a weekly adoption and review-quality dashboard by client or repository."},
+        {"title":"GitHub Copilot app now available in the usage metrics API","url":"https://github.blog/changelog/2026-07-17-github-copilot-app-now-available-in-the-usage-metrics-api/","source_type":"release","published_or_updated":"2026-07-17","why_selected":"App sessions, prompts, requests, and token consumption are now observable separately in 1-day and 28-day reports.","usefulness":"Distinguish browser/app experimentation from actual engineering workflow adoption."},
+        {"title":"GitHub Mobile: Fix pull request comments with Copilot cloud agent","url":"https://github.blog/changelog/2026-07-17-github-mobile-fix-pull-request-comments-with-copilot-cloud-agent/","source_type":"release","published_or_updated":"2026-07-17","why_selected":"Review comments can now become cloud-agent fix tasks from the mobile PR surface.","usefulness":"Keep a human review gate while allowing a low-friction remediation handoff."}
+      ]
+    },
+    {
+      "slug": "trust-boundaries-response",
+      "title": "Trust Boundaries + Response",
+      "selection_rationale": "A July 17 emergency WAF rule and fresh agent-security research make a practical, under-covered case for treating provenance, permission, and abstention as deploy-time controls—not prompt wording.",
+      "sources": [
+        {"title":"Cloudflare emergency WAF release","url":"https://developers.cloudflare.com/changelog/post/2026-07-17-emergency-waf-release/","source_type":"release","published_or_updated":"2026-07-17","why_selected":"New managed rules block active exploitation of unauthenticated RCE and SQL injection patterns in popular web frameworks.","usefulness":"Confirm managed rules are enabled, then test application behavior before an incident forces the change."},
+        {"title":"n8n 2.30.7 stable","url":"https://github.com/n8n-io/n8n/releases/tag/n8n%402.30.7","source_type":"release","published_or_updated":"2026-07-17","why_selected":"The stable release adds provenance-attested source linting for community packages and fixes SES signing.","usefulness":"Use provenance checks as a baseline for client automations that install community nodes."},
+        {"title":"How Agents Ask for Permission","url":"https://arxiv.org/abs/2607.13718","source_type":"paper","published_or_updated":"2026-07-15","why_selected":"It maps permissions from user interface through policy derivation to runtime enforcement across 21 proposals.","usefulness":"Turn vague approval prompts into scoped, user-level capability policies."},
+        {"title":"AgentAbstain: Do LLM Agents Know When Not to Act?","url":"https://arxiv.org/abs/2607.10059","source_type":"paper","published_or_updated":"2026-07-11","why_selected":"Across paired safe/unsafe tasks, the best tested agent reached only 59.5% paired accuracy.","usefulness":"Add explicit stop-and-escalate tests before allowing agents to make irreversible changes."},
+        {"title":"Agent Data Injection Attacks are Realistic Threats to AI Agents","url":"https://arxiv.org/abs/2607.05120","source_type":"paper","published_or_updated":"2026-07-06","why_selected":"It shows trusted-looking metadata and tool-context data can bypass instruction-focused defenses.","usefulness":"Preserve provenance and isolate untrusted inputs in browser, code, and workflow agents."}
+      ]
+    },
+    {
+      "slug": "operator-feedback-surfaces",
+      "title": "Operator Feedback Surfaces",
+      "selection_rationale": "This under-covered lane favors reviewable interfaces around automation: native Slack feedback, inspectable email outputs, and upgrades that strengthen observability and browser containment. All selected signals have fresh July 15–17 updates.",
+      "sources": [
+        {"title":"Chat SDK adds native Slack agent support","url":"https://vercel.com/changelog/chat-sdk-adds-native-slack-agent-support","source_type":"release","published_or_updated":"2026-07-17","why_selected":"The Slack adapter adds agent threads, suggested prompts, streaming status, and native feedback controls.","usefulness":"Prototype a client-facing or internal concierge with an explicit feedback loop rather than a generic bot."},
+        {"title":"Cloudflare Email Service: sent-message preview","url":"https://developers.cloudflare.com/changelog/post/2026-07-17-email-message-preview/","source_type":"release","published_or_updated":"2026-07-17","why_selected":"The activity log can now show rendered HTML, text, headers, attachments, and raw sent mail, retained about seven days.","usefulness":"Debug automated client email as an observable artifact, not an opaque delivery event."},
+        {"title":"Arize Phoenix v19.0.0","url":"https://github.com/Arize-ai/phoenix/releases/tag/arize-phoenix-v19.0.0","source_type":"release","published_or_updated":"2026-07-17","why_selected":"The observability stack adds OAuth2 and CLI login while deliberately tightening unattended API-key issuance.","usefulness":"Upgrade trace infrastructure with a migration plan for service-key provisioning."},
+        {"title":"agent-browser v0.32.2","url":"https://github.com/vercel-labs/agent-browser/releases/tag/v0.32.2","source_type":"release","published_or_updated":"2026-07-17","why_selected":"The release follows new domain-allowlist hardening and state-persistence work with compatibility updates for the Eve extension.","usefulness":"Use a browser-agent stack that treats domain confinement and recoverable state as first-class controls."}
+      ]
+    }
+  ]
+}

@@ -1,6 +1,71 @@
 {
-  "updated_at": "2026-07-17T08:08:23.043545+00:00",
+  "updated_at": "2026-07-18T08:07:26.784499+00:00",
   "sources": {
+    "https://github.blog/changelog/2026-07-17-copilot-code-review-customization-and-configurability-improvements": {
+      "first_seen": "2026-07-18",
+      "last_seen": "2026-07-18",
+      "title": "Copilot code review: customization and configurability improvements"
+    },
+    "https://github.blog/changelog/2026-07-17-repository-level-github-copilot-usage-metrics-generally-available": {
+      "first_seen": "2026-07-18",
+      "last_seen": "2026-07-18",
+      "title": "Repository-level GitHub Copilot usage metrics generally available"
+    },
+    "https://github.blog/changelog/2026-07-17-github-copilot-app-now-available-in-the-usage-metrics-api": {
+      "first_seen": "2026-07-18",
+      "last_seen": "2026-07-18",
+      "title": "GitHub Copilot app now available in the usage metrics API"
+    },
+    "https://github.blog/changelog/2026-07-17-github-mobile-fix-pull-request-comments-with-copilot-cloud-agent": {
+      "first_seen": "2026-07-18",
+      "last_seen": "2026-07-18",
+      "title": "GitHub Mobile: Fix pull request comments with Copilot cloud agent"
+    },
+    "https://developers.cloudflare.com/changelog/post/2026-07-17-emergency-waf-release": {
+      "first_seen": "2026-07-18",
+      "last_seen": "2026-07-18",
+      "title": "Cloudflare emergency WAF release"
+    },
+    "https://github.com/n8n-io/n8n/releases/tag/n8n%402.30.7": {
+      "first_seen": "2026-07-18",
+      "last_seen": "2026-07-18",
+      "title": "n8n 2.30.7 stable"
+    },
+    "https://arxiv.org/abs/2607.13718": {
+      "first_seen": "2026-07-18",
+      "last_seen": "2026-07-18",
+      "title": "How Agents Ask for Permission"
+    },
+    "https://arxiv.org/abs/2607.10059": {
+      "first_seen": "2026-07-18",
+      "last_seen": "2026-07-18",
+      "title": "AgentAbstain: Do LLM Agents Know When Not to Act?"
+    },
+    "https://arxiv.org/abs/2607.05120": {
+      "first_seen": "2026-07-18",
+      "last_seen": "2026-07-18",
+      "title": "Agent Data Injection Attacks are Realistic Threats to AI Agents"
+    },
+    "https://vercel.com/changelog/chat-sdk-adds-native-slack-agent-support": {
+      "first_seen": "2026-07-18",
+      "last_seen": "2026-07-18",
+      "title": "Chat SDK adds native Slack agent support"
+    },
+    "https://developers.cloudflare.com/changelog/post/2026-07-17-email-message-preview": {
+      "first_seen": "2026-07-18",
+      "last_seen": "2026-07-18",
+      "title": "Cloudflare Email Service: sent-message preview"
+    },
+    "https://github.com/Arize-ai/phoenix/releases/tag/arize-phoenix-v19.0.0": {
+      "first_seen": "2026-07-18",
+      "last_seen": "2026-07-18",
+      "title": "Arize Phoenix v19.0.0"
+    },
+    "https://github.com/vercel-labs/agent-browser/releases/tag/v0.32.2": {
+      "first_seen": "2026-07-18",
+      "last_seen": "2026-07-18",
+      "title": "agent-browser v0.32.2"
+    },
     "https://github.blog/changelog/2026-07-16-advanced-search-for-projects-is-generally-available": {
       "first_seen": "2026-07-17",
       "last_seen": "2026-07-17",
