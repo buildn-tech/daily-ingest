@@ -1,6 +1,27 @@
 {
-  "updated_at": "2026-07-18T08:07:26.784499+00:00",
+  "updated_at": "2026-07-19T08:07:39.609958+00:00",
   "days": [
+    {
+      "date": "2026-07-19",
+      "path": "2026-07-19",
+      "reports": [
+        {
+          "lane": "delivery-telemetry",
+          "title": "Delivery Telemetry: Signal, Cost, and Latency",
+          "url": "2026-07-19/delivery-telemetry.html"
+        },
+        {
+          "lane": "self-hosted-data-operations",
+          "title": "Self-hosted Data Operations: Migration Before Surprise",
+          "url": "2026-07-19/self-hosted-data-operations.html"
+        },
+        {
+          "lane": "vision-workflow-operations",
+          "title": "Vision Workflow Operations: Label, Enrich, Compare",
+          "url": "2026-07-19/vision-workflow-operations.html"
+        }
+      ]
+    },
     {
       "date": "2026-07-18",
       "path": "2026-07-18",

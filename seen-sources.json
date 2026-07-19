@@ -1,6 +1,66 @@
 {
-  "updated_at": "2026-07-18T08:07:26.784499+00:00",
+  "updated_at": "2026-07-19T08:07:39.609958+00:00",
   "sources": {
+    "https://sentry.io/changelog/heatmaps-for-application-metrics": {
+      "first_seen": "2026-07-19",
+      "last_seen": "2026-07-19",
+      "title": "Heatmaps for Application Metrics"
+    },
+    "https://sentry.io/changelog/dartflutter-sdk-grpc-integration": {
+      "first_seen": "2026-07-19",
+      "last_seen": "2026-07-19",
+      "title": "Dart/Flutter SDK: gRPC Integration"
+    },
+    "https://sentry.io/changelog/new-issue-type-low-value-spans-beta": {
+      "first_seen": "2026-07-19",
+      "last_seen": "2026-07-19",
+      "title": "Low-Value Spans (Beta)"
+    },
+    "https://sentry.io/changelog/dashboards-now-support-equations-for-application-metrics": {
+      "first_seen": "2026-07-19",
+      "last_seen": "2026-07-19",
+      "title": "Dashboard Equations for Application Metrics"
+    },
+    "https://supabase.com/changelog/47796-developer-update-july-2026": {
+      "first_seen": "2026-07-19",
+      "last_seen": "2026-07-19",
+      "title": "Developer Update \u2014 July 2026"
+    },
+    "https://supabase.com/changelog/47093-self-hosted-supabase-api-external-url-to-include-auth-v1": {
+      "first_seen": "2026-07-19",
+      "last_seen": "2026-07-19",
+      "title": "Self-hosted API_EXTERNAL_URL now includes /auth/v1"
+    },
+    "https://supabase.com/changelog/45827-deprecation-notice-support-for-postgres-14-ending-on-1st-july-2026": {
+      "first_seen": "2026-07-19",
+      "last_seen": "2026-07-19",
+      "title": "Postgres 14 support ends; projects move to Postgres 17"
+    },
+    "https://supabase.com/changelog/47197-log-connections-is-to-be-turned-off-by-default-for-new-projects-and-existing-fre": {
+      "first_seen": "2026-07-19",
+      "last_seen": "2026-07-19",
+      "title": "Connection logging defaults to off"
+    },
+    "https://docs.roboflow.com/changelog/explore-by-month/july-2026/auto-label-with-workflows-label-data-with-any-model-or-custom-logic": {
+      "first_seen": "2026-07-19",
+      "last_seen": "2026-07-19",
+      "title": "Auto Label with Workflows"
+    },
+    "https://docs.roboflow.com/changelog/explore-by-month/july-2026/run-workflows-on-asset-library-images-enrich-your-library-at-scale": {
+      "first_seen": "2026-07-19",
+      "last_seen": "2026-07-19",
+      "title": "Run Workflows on Asset Library images"
+    },
+    "https://docs.roboflow.com/changelog/explore-by-month/july-2026/mcp-server-upload-custom-model-weights-from-your-ai-assistant": {
+      "first_seen": "2026-07-19",
+      "last_seen": "2026-07-19",
+      "title": "MCP Server: upload custom model weights"
+    },
+    "https://docs.roboflow.com/changelog/explore-by-month/july-2026/multiple-models-per-version-train-and-compare-models-side-by-side": {
+      "first_seen": "2026-07-19",
+      "last_seen": "2026-07-19",
+      "title": "Multiple Models Per Version"
+    },
     "https://github.blog/changelog/2026-07-17-copilot-code-review-customization-and-configurability-improvements": {
       "first_seen": "2026-07-18",
       "last_seen": "2026-07-18",

@@ -1,0 +1,124 @@
+{
+  "date": "2026-07-19",
+  "generated_at": "2026-07-19T08:07:38.904170+00:00",
+  "editorial_thesis": "A weekend operator pass favors overlooked operational changes: reduce telemetry noise, inventory self-hosted database defaults, and turn visual assets into reviewable workflow inputs.",
+  "topic_groups": [
+    {
+      "slug": "delivery-telemetry",
+      "title": "Delivery Telemetry: Signal, Cost, and Latency",
+      "selection_rationale": "A low-noise operations lane has not been covered recently. The selected July updates turn raw application telemetry into decisions about user-impact latency and instrumentation cost.",
+      "sources": [
+        {
+          "title": "Heatmaps for Application Metrics",
+          "url": "https://sentry.io/changelog/heatmaps-for-application-metrics/",
+          "source_type": "release",
+          "published_or_updated": "2026-07-16",
+          "why_selected": "Averages hide tail latency and cohort divergence; heatmaps expose both over time.",
+          "usefulness": "Add one heatmap for request duration and one for queue wait on a client critical path."
+        },
+        {
+          "title": "Dart/Flutter SDK: gRPC Integration",
+          "url": "https://sentry.io/changelog/dartflutter-sdk-grpc-integration/",
+          "source_type": "release",
+          "published_or_updated": "2026-07-15",
+          "why_selected": "Mobile-to-backend hops stop being an uncorrelated blind spot.",
+          "usefulness": "Trace a Flutter client request through the gRPC backend when diagnosing client-specific failure reports."
+        },
+        {
+          "title": "Low-Value Spans (Beta)",
+          "url": "https://sentry.io/changelog/new-issue-type-low-value-spans-beta/",
+          "source_type": "release",
+          "published_or_updated": "2026-07-08",
+          "why_selected": "Instrumentation has a carrying cost; noisy automatic spans can obscure incidents and inflate storage.",
+          "usefulness": "Run a monthly tracing hygiene pass before expanding agent or workflow tracing."
+        },
+        {
+          "title": "Dashboard Equations for Application Metrics",
+          "url": "https://sentry.io/changelog/dashboards-now-support-equations-for-application-metrics/",
+          "source_type": "release",
+          "published_or_updated": "2026-07-07",
+          "why_selected": "Operational questions are often ratios\u2014error share, cache efficiency, or cost per completed job\u2014not raw series.",
+          "usefulness": "Define a single delivery health ratio per client service instead of a dense generic dashboard."
+        }
+      ]
+    },
+    {
+      "slug": "self-hosted-data-operations",
+      "title": "Self-hosted Data Operations: Migration Before Surprise",
+      "selection_rationale": "Self-hosting and database migration are under-covered relative to agent tooling. July Supabase changes create concrete checks for client stacks before defaults or upgrades alter auth, logs, or uptime.",
+      "sources": [
+        {
+          "title": "Developer Update \u2014 July 2026",
+          "url": "https://supabase.com/changelog/47796-developer-update-july-2026",
+          "source_type": "release",
+          "published_or_updated": "2026-07-09",
+          "why_selected": "It collects several integration and operational changes that otherwise arrive as separate surprises.",
+          "usefulness": "Use it as a quarterly client-stack checklist: agent access, audit export, Realtime compatibility, and configuration defaults."
+        },
+        {
+          "title": "Self-hosted API_EXTERNAL_URL now includes /auth/v1",
+          "url": "https://supabase.com/changelog/47093-self-hosted-supabase-api-external-url-to-include-auth-v1",
+          "source_type": "breaking change",
+          "published_or_updated": "2026-06-18 / rolls July 6\u201310",
+          "why_selected": "Customized compose files or SAML IdP metadata can break even when the final ordinary OAuth callback appears unchanged.",
+          "usefulness": "Prevent a client login outage during a self-hosted image refresh."
+        },
+        {
+          "title": "Postgres 14 support ends; projects move to Postgres 17",
+          "url": "https://supabase.com/changelog/45827-deprecation-notice-support-for-postgres-14-ending-on-1st-july-2026",
+          "source_type": "migration",
+          "published_or_updated": "2026-07-01",
+          "why_selected": "A version upgrade is not just maintenance when extensions, downtime, and application compatibility are involved.",
+          "usefulness": "Turn database version inventory into a client deliverable with a tested restore and rollback plan."
+        },
+        {
+          "title": "Connection logging defaults to off",
+          "url": "https://supabase.com/changelog/47197-log-connections-is-to-be-turned-off-by-default-for-new-projects-and-existing-fre",
+          "source_type": "configuration",
+          "published_or_updated": "2026-07-09",
+          "why_selected": "Reduced log noise is good, but an incident playbook that depends on connection events needs an explicit replacement or override.",
+          "usefulness": "Make logging policy intentional per production client rather than inheriting tier-dependent defaults."
+        }
+      ]
+    },
+    {
+      "slug": "vision-workflow-operations",
+      "title": "Vision Workflow Operations: Label, Enrich, Compare",
+      "selection_rationale": "Creative and vision-production workflows are a coverage gap. Roboflow\u2019s July releases turn image libraries and model iteration into an automatable loop, with a useful but bounded MCP entry point.",
+      "sources": [
+        {
+          "title": "Auto Label with Workflows",
+          "url": "https://docs.roboflow.com/changelog/explore-by-month/july-2026/auto-label-with-workflows-label-data-with-any-model-or-custom-logic",
+          "source_type": "product",
+          "published_or_updated": "2026-07 (updated recently)",
+          "why_selected": "Labeling becomes a repeatable data operation rather than a manual queue.",
+          "usefulness": "Build a proof-of-concept for client visual QA: detect required product, signage, or creative attributes before human review."
+        },
+        {
+          "title": "Run Workflows on Asset Library images",
+          "url": "https://docs.roboflow.com/changelog/explore-by-month/july-2026/run-workflows-on-asset-library-images-enrich-your-library-at-scale",
+          "source_type": "product",
+          "published_or_updated": "2026-07 (updated recently)",
+          "why_selected": "The backlog of historic visual assets can become searchable, classified operational data without re-uploading everything.",
+          "usefulness": "Enrich a client asset library with visual tags for content audit, creative reuse, or compliance checks."
+        },
+        {
+          "title": "MCP Server: upload custom model weights",
+          "url": "https://docs.roboflow.com/changelog/explore-by-month/july-2026/mcp-server-upload-custom-model-weights-from-your-ai-assistant",
+          "source_type": "integration",
+          "published_or_updated": "2026-07 (updated recently)",
+          "why_selected": "It shortens the tool boundary between an agent-assisted build and the vision platform, but makes authorization design central.",
+          "usefulness": "Prototype a controlled handoff where an agent prepares a model artifact and a human approves deployment."
+        },
+        {
+          "title": "Multiple Models Per Version",
+          "url": "https://docs.roboflow.com/changelog/explore-by-month/july-2026/multiple-models-per-version-train-and-compare-models-side-by-side",
+          "source_type": "product",
+          "published_or_updated": "2026-07 (updated recently)",
+          "why_selected": "Model selection can be based on the same dataset version rather than informal comparisons across changing data.",
+          "usefulness": "Compare speed, accuracy, and edge suitability for a client proof-of-concept before locking a deployment choice."
+        }
+      ]
+    }
+  ]
+}
