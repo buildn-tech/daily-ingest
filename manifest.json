@@ -1,6 +1,27 @@
 {
-  "updated_at": "2026-07-19T08:07:39.609958+00:00",
+  "updated_at": "2026-07-20T08:08:23.712491+00:00",
   "days": [
+    {
+      "date": "2026-07-20",
+      "path": "2026-07-20",
+      "reports": [
+        {
+          "lane": "outcome-economics",
+          "title": "Outcome Economics + Agent Governance",
+          "url": "2026-07-20/outcome-economics.html"
+        },
+        {
+          "lane": "design-production-loop",
+          "title": "Design \u2192 Production Loop",
+          "url": "2026-07-20/design-production-loop.html"
+        },
+        {
+          "lane": "measurement-integrity",
+          "title": "Measurement Integrity",
+          "url": "2026-07-20/measurement-integrity.html"
+        }
+      ]
+    },
     {
       "date": "2026-07-19",
       "path": "2026-07-19",

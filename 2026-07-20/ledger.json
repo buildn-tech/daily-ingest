@@ -1,0 +1,84 @@
+{
+  "date": "2026-07-20",
+  "generated_at": "2026-07-20T10:00:54+02:00",
+  "editorial_thesis": "Today’s strongest practical signal is not a new agent surface: it is the operating discipline around who can change production systems, how success is priced, and which measurements can be trusted.",
+  "topic_groups": [
+    {
+      "slug": "outcome-economics",
+      "title": "Outcome Economics + Agent Governance",
+      "selection_rationale": "Fresh primary guidance turns agent adoption from a model-selection discussion into an accepted-outcome, spend-control, and permission-design exercise; this lane was not covered in the recent delivery-telemetry dossier.",
+      "sources": [
+        {
+          "title": "A scorecard for the AI age",
+          "url": "https://openai.com/index/a-scorecard-for-the-ai-age/",
+          "source_type": "blog",
+          "published_or_updated": "2026-07-17",
+          "why_selected": "It defines useful intelligence per dollar around completed work, total cost, dependability, and scaling value.",
+          "usefulness": "Use it to replace token-price comparisons with a Buildn workflow scorecard."
+        },
+        {
+          "title": "How to manage AI investments in the agentic era",
+          "url": "https://openai.com/index/managing-ai-investments-in-agentic-era/",
+          "source_type": "blog",
+          "published_or_updated": "2026-07-14",
+          "why_selected": "It connects outcome ROI to access, tool, action, approval, and capacity controls.",
+          "usefulness": "Use it as a rollout checklist for scheduled and client-facing agents."
+        }
+      ]
+    },
+    {
+      "slug": "design-production-loop",
+      "title": "Design → Production Loop",
+      "selection_rationale": "Design delivery has been lightly covered, and two fresh releases make reviewable, scoped changes possible from prototyping and design contexts without treating designers as unrestricted engineers.",
+      "sources": [
+        {
+          "title": "Workflow Lab: Deploying Designs Directly with Figma Make",
+          "url": "https://www.figma.com/blog/workflow-lab-deploying-designs-directly-with-figma-make/",
+          "source_type": "blog",
+          "published_or_updated": "2026-07-16",
+          "why_selected": "It lays out a concrete branch-to-PR path for small accessibility and polish fixes, with engineer review retained.",
+          "usefulness": "Adapt the scope and approval gates for Buildn/client web delivery."
+        },
+        {
+          "title": "ProtoPie 10.3.0",
+          "url": "https://www.protopie.io/support/releases",
+          "source_type": "release",
+          "published_or_updated": "2026-07-20",
+          "why_selected": "The release adds a Studio MCP Server, Figma-to-Studio paste, and local quick preview for interactive prototypes.",
+          "usefulness": "Try agent-assisted interaction prototyping before committing implementation time."
+        }
+      ]
+    },
+    {
+      "slug": "measurement-integrity",
+      "title": "Measurement Integrity",
+      "selection_rationale": "This is a deliberate coverage gap: fresh evidence challenges both coding benchmarks and agentic-commerce headlines, while GitHub’s GA quality product makes operational gates immediately actionable.",
+      "sources": [
+        {
+          "title": "GitHub Code Quality becomes generally available",
+          "url": "https://github.blog/changelog/2026-06-16-github-code-quality-generally-available-july-20-2026/",
+          "source_type": "release",
+          "published_or_updated": "2026-07-20",
+          "why_selected": "GA adds organization targeting, dashboards, ruleset coverage enforcement, scoring, and APIs, alongside a clear cost change.",
+          "usefulness": "Use it to price and enforce quality gates across active client repositories."
+        },
+        {
+          "title": "Separating Signal from Noise in Coding Evaluations",
+          "url": "https://openai.com/index/separating-signal-from-noise-coding-evaluations/",
+          "source_type": "paper",
+          "published_or_updated": "2026-07-08",
+          "why_selected": "The audit estimates roughly 30% of SWE-Bench Pro tasks are broken and withdraws a prior recommendation.",
+          "usefulness": "Treat external benchmark rankings as a hypothesis; retain task-level acceptance tests."
+        },
+        {
+          "title": "How Agentic Is Agentic Commerce?",
+          "url": "https://arxiv.org/abs/2607.12575",
+          "source_type": "paper",
+          "published_or_updated": "2026-07-14",
+          "why_selected": "Population-scale x402 analysis shows settlement count alone can be manufactured and cannot establish independent adoption.",
+          "usefulness": "Apply provenance and counter-metrics before using agent-economy figures in strategy or client claims."
+        }
+      ]
+    }
+  ]
+}
