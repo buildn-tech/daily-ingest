@@ -92,9 +92,80 @@
       "title": "Vision Workflow Operations: Label, Enrich, Compare",
       "times_covered": 1,
       "last_covered": "2026-07-19"
+    },
+    "outcome-economics": {
+      "title": "Outcome Economics + Agent Governance",
+      "times_covered": 1,
+      "last_covered": "2026-07-20"
+    },
+    "design-production-loop": {
+      "title": "Design → Production Loop",
+      "times_covered": 1,
+      "last_covered": "2026-07-20"
+    },
+    "measurement-integrity": {
+      "title": "Measurement Integrity",
+      "times_covered": 1,
+      "last_covered": "2026-07-20"
     }
   },
   "item_history": [
+    {
+      "date": "2026-07-20",
+      "lane": "outcome-economics",
+      "title": "A scorecard for the AI age",
+      "url": "https://openai.com/index/a-scorecard-for-the-ai-age/",
+      "source_type": "blog",
+      "selection_rationale": "It defines useful intelligence per dollar around completed work, full cost, dependability, and scaling value."
+    },
+    {
+      "date": "2026-07-20",
+      "lane": "outcome-economics",
+      "title": "How to manage AI investments in the agentic era",
+      "url": "https://openai.com/index/managing-ai-investments-in-agentic-era/",
+      "source_type": "blog",
+      "selection_rationale": "It connects outcome ROI to access, tool, action, approval, and capacity controls."
+    },
+    {
+      "date": "2026-07-20",
+      "lane": "design-production-loop",
+      "title": "Workflow Lab: Deploying Designs Directly with Figma Make",
+      "url": "https://www.figma.com/blog/workflow-lab-deploying-designs-directly-with-figma-make/",
+      "source_type": "blog",
+      "selection_rationale": "It lays out a reviewable branch-to-PR path for small accessibility and polish fixes."
+    },
+    {
+      "date": "2026-07-20",
+      "lane": "design-production-loop",
+      "title": "ProtoPie 10.3.0",
+      "url": "https://www.protopie.io/support/releases",
+      "source_type": "release",
+      "selection_rationale": "The release adds an MCP Server and a faster Figma-to-interactive-prototype seam."
+    },
+    {
+      "date": "2026-07-20",
+      "lane": "measurement-integrity",
+      "title": "GitHub Code Quality becomes generally available",
+      "url": "https://github.blog/changelog/2026-06-16-github-code-quality-generally-available-july-20-2026/",
+      "source_type": "release",
+      "selection_rationale": "GA makes quality gates operationally actionable and introduces a concrete cost change."
+    },
+    {
+      "date": "2026-07-20",
+      "lane": "measurement-integrity",
+      "title": "Separating Signal from Noise in Coding Evaluations",
+      "url": "https://openai.com/index/separating-signal-from-noise-coding-evaluations/",
+      "source_type": "paper",
+      "selection_rationale": "It estimates roughly 30% of SWE-Bench Pro tasks are broken, reinforcing task-level acceptance tests."
+    },
+    {
+      "date": "2026-07-20",
+      "lane": "measurement-integrity",
+      "title": "How Agentic Is Agentic Commerce?",
+      "url": "https://arxiv.org/abs/2607.12575",
+      "source_type": "paper",
+      "selection_rationale": "It shows settlement count alone cannot establish independent agent-commerce adoption."
+    },
     {
       "date": "2026-07-08",
       "lane": "open-source-coding",
@@ -1528,27 +1599,27 @@
       "editorial_thesis": "Put security in the review loop, make autonomous delivery explicit and inspectable, and audit what delegation is actually buying."
     }
   ],
-  "updated_at": "2026-07-19T08:08:01.725612+00:00",
+  "updated_at": "2026-07-20T08:08:44+00:00",
   "last_run": {
-    "date": "2026-07-18",
+    "date": "2026-07-20",
     "selected_lanes": [
       {
-        "slug": "agent-controls-measurement",
-        "title": "Agent Controls + Measurement",
-        "selection_rationale": "Fresh GitHub controls make PR-scoped policy testable and repository-level adoption measurable."
+        "slug": "outcome-economics",
+        "title": "Outcome Economics + Agent Governance",
+        "selection_rationale": "Fresh outcome-cost and control guidance makes this the highest-leverage operating lane."
       },
       {
-        "slug": "trust-boundaries-response",
-        "title": "Trust Boundaries + Response",
-        "selection_rationale": "Fresh security evidence favors provenance, user-level permission, abstention, and managed response controls."
+        "slug": "design-production-loop",
+        "title": "Design → Production Loop",
+        "selection_rationale": "New Figma and ProtoPie seams enable scoped, reviewable movement from interaction intent to executable change."
       },
       {
-        "slug": "operator-feedback-surfaces",
-        "title": "Operator Feedback Surfaces",
-        "selection_rationale": "Native feedback, message inspection, secure traces, and constrained browser state form a practical human-loop layer."
+        "slug": "measurement-integrity",
+        "title": "Measurement Integrity",
+        "selection_rationale": "Fresh platform controls and evidence audits make this a deliberate gap-filling lane."
       }
     ],
-    "editorial_thesis": "Make agent work measurable, constrain it at trust boundaries, and expose it through inspectable feedback surfaces."
+    "editorial_thesis": "The useful agent stack is becoming an operating system of accepted outcomes, bounded change, and evidence that survives inspection."
   },
-  "last_editorial_thesis": "A weekend operator pass favors overlooked operational changes: reduce telemetry noise, inventory self-hosted database defaults, and turn visual assets into reviewable workflow inputs."
+  "last_editorial_thesis": "The useful agent stack is becoming an operating system of accepted outcomes, bounded change, and evidence that survives inspection."
 }
