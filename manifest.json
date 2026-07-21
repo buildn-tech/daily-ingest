@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-07-20T08:08:23.712491+00:00",
+  "updated_at": "2026-07-21T08:08:04.920478+00:00",
   "days": [
+    {
+      "date": "2026-07-21",
+      "path": "2026-07-21",
+      "reports": [
+        {
+          "lane": "production-model-operations",
+          "title": "Production Model Operations",
+          "url": "2026-07-21/production-model-operations.html"
+        },
+        {
+          "lane": "self-hosted-trust-and-knowledge",
+          "title": "Self-hosted Trust + Knowledge",
+          "url": "2026-07-21/self-hosted-trust-and-knowledge.html"
+        },
+        {
+          "lane": "agentic-code-review",
+          "title": "Agentic Code Review",
+          "url": "2026-07-21/agentic-code-review.html"
+        },
+        {
+          "lane": "patch-priority-and-exposure",
+          "title": "Patch Priority + Exposure",
+          "url": "2026-07-21/patch-priority-and-exposure.html"
+        }
+      ]
+    },
     {
       "date": "2026-07-20",
       "path": "2026-07-20",

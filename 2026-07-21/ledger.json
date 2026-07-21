@@ -1,0 +1,99 @@
+{
+  "date": "2026-07-21",
+  "generated_at": "2026-07-21T08:07:48.927081+00:00",
+  "editorial_thesis": "Today\u2019s practical edge is operational design: route models by consequence, keep identity and knowledge portable, make agent review inspectable, and patch by exposure.",
+  "topic_groups": [
+    {
+      "slug": "production-model-operations",
+      "title": "Production Model Operations",
+      "selection_rationale": "A coverage gap after yesterday\u2019s measurement dossier: fresh production-routing data and a reusable export endpoint make model selection measurable rather than anecdotal.",
+      "sources": [
+        {
+          "title": "Vercel AI Gateway Production Index \u2014 July 2026",
+          "url": "https://vercel.com/blog/ai-gateway-production-index-july-2026",
+          "source_type": "blog",
+          "published_or_updated": "2026-07-21",
+          "why_selected": "Aggregated production routing data shows open-weight models at 29% of token volume but under 4% of spend.",
+          "usefulness": "Use its routing pattern to define Buildn tiers for bulk, review, and consequential work."
+        },
+        {
+          "title": "Access and share AI Gateway leaderboard data",
+          "url": "https://vercel.com/changelog/open-data-and-shareable-charts-for-ai-gateway-leaderboards",
+          "source_type": "release",
+          "published_or_updated": "2026-07-21",
+          "why_selected": "It turns production-adoption charts into downloadable, queryable data under CC BY 4.0.",
+          "usefulness": "Use the export endpoint for a lightweight monthly market-signal check."
+        }
+      ]
+    },
+    {
+      "slug": "self-hosted-trust-and-knowledge",
+      "title": "Self-hosted Trust + Knowledge",
+      "selection_rationale": "Identity and durable personal knowledge have not been selected recently; two material July releases make this a practical local-first lane instead of a generic tooling roundup.",
+      "sources": [
+        {
+          "title": "Pocket ID v2.11.0",
+          "url": "https://github.com/pocket-id/pocket-id/releases",
+          "source_type": "release",
+          "published_or_updated": "2026-07-13",
+          "why_selected": "The passkey-focused OIDC provider adds SSRF hardening and proxy CIDR controls shortly after becoming OIDC certified in v2.10.0.",
+          "usefulness": "A candidate identity boundary for smaller self-hosted Buildn/client utilities."
+        },
+        {
+          "title": "Logseq 2.0.1 \u2014 DB version beta",
+          "url": "https://github.com/logseq/logseq/releases/tag/2.0.1",
+          "source_type": "release",
+          "published_or_updated": "2026-07-13",
+          "why_selected": "The first DB-version 2.0 beta is a material architectural shift for a widely used local knowledge tool.",
+          "usefulness": "Test whether it can become a durable working-memory surface for project notes and research."
+        }
+      ]
+    },
+    {
+      "slug": "agentic-code-review",
+      "title": "Agentic Code Review",
+      "selection_rationale": "This deliberately rotates away from yesterday\u2019s generic quality gates toward an inspectable open implementation and its operating constraints.",
+      "sources": [
+        {
+          "title": "Sashiko \u2014 agentic review of Linux kernel code changes",
+          "url": "https://github.com/sashiko-dev/sashiko",
+          "source_type": "repo",
+          "published_or_updated": "2026-07-17",
+          "why_selected": "The Linux Foundation project exposes a concrete 11-stage review protocol rather than an opaque agent product.",
+          "usefulness": "Borrow its staged review design for high-risk Buildn/client pull requests."
+        },
+        {
+          "title": "Self-Host Weekly \u2014 17 July 2026",
+          "url": "https://selfh.st/weekly/2026-07-17/",
+          "source_type": "news",
+          "published_or_updated": "2026-07-17",
+          "why_selected": "It records the maintainer-level signal around Sashiko: adoption is being debated as a review-assistance problem, not an autonomous commit problem.",
+          "usefulness": "Use it as context for how to position review agents with cautious maintainers."
+        }
+      ]
+    },
+    {
+      "slug": "patch-priority-and-exposure",
+      "title": "Patch Priority + Exposure",
+      "selection_rationale": "Security governance was last selected July 18; the July patch review carries concrete actively exploited identity and SharePoint findings, which justifies a material update.",
+      "sources": [
+        {
+          "title": "Zero Day Initiative \u2014 July 2026 Security Update Review",
+          "url": "https://www.thezdi.com/blog/2026/7/14/the-july-2026-security-update-review",
+          "source_type": "blog",
+          "published_or_updated": "2026-07-14",
+          "why_selected": "It provides an exposure-first ordering for a record-scale Microsoft release, including actively exploited AD FS and SharePoint flaws.",
+          "usefulness": "Use it to turn a vendor patch note into a short client/service exposure audit."
+        },
+        {
+          "title": "Android Security Bulletin \u2014 July 2026",
+          "url": "https://source.android.com/docs/security/bulletin/2026/2026-07-01",
+          "source_type": "docs",
+          "published_or_updated": "2026-07-06",
+          "why_selected": "It adds an endpoint/mobile layer to an otherwise server-focused patch sweep.",
+          "usefulness": "Include managed Android devices in the same evidence-based patch posture."
+        }
+      ]
+    }
+  ]
+}

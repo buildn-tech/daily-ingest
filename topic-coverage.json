@@ -99,7 +99,7 @@
       "last_covered": "2026-07-20"
     },
     "design-production-loop": {
-      "title": "Design → Production Loop",
+      "title": "Design \u2192 Production Loop",
       "times_covered": 1,
       "last_covered": "2026-07-20"
     },
@@ -107,9 +107,93 @@
       "title": "Measurement Integrity",
       "times_covered": 1,
       "last_covered": "2026-07-20"
+    },
+    "production-model-operations": {
+      "title": "Production Model Operations",
+      "times_covered": 4,
+      "last_covered": "2026-07-21"
+    },
+    "self-hosted-trust-and-knowledge": {
+      "title": "Self-hosted Trust + Knowledge",
+      "times_covered": 4,
+      "last_covered": "2026-07-21"
+    },
+    "agentic-code-review": {
+      "title": "Agentic Code Review",
+      "times_covered": 4,
+      "last_covered": "2026-07-21"
+    },
+    "patch-priority-and-exposure": {
+      "title": "Patch Priority + Exposure",
+      "times_covered": 4,
+      "last_covered": "2026-07-21"
     }
   },
   "item_history": [
+    {
+      "date": "2026-07-21",
+      "lane": "patch-priority-and-exposure",
+      "title": "Android Security Bulletin \u2014 July 2026",
+      "url": "https://source.android.com/docs/security/bulletin/2026/2026-07-01",
+      "source_type": "docs",
+      "selection_rationale": "It adds an endpoint/mobile layer to an otherwise server-focused patch sweep."
+    },
+    {
+      "date": "2026-07-21",
+      "lane": "patch-priority-and-exposure",
+      "title": "Zero Day Initiative \u2014 July 2026 Security Update Review",
+      "url": "https://www.thezdi.com/blog/2026/7/14/the-july-2026-security-update-review",
+      "source_type": "blog",
+      "selection_rationale": "It provides an exposure-first ordering for a record-scale Microsoft release, including actively exploited AD FS and SharePoint flaws."
+    },
+    {
+      "date": "2026-07-21",
+      "lane": "agentic-code-review",
+      "title": "Self-Host Weekly \u2014 17 July 2026",
+      "url": "https://selfh.st/weekly/2026-07-17/",
+      "source_type": "news",
+      "selection_rationale": "It records the maintainer-level signal around Sashiko: adoption is being debated as a review-assistance problem, not an autonomous commit problem."
+    },
+    {
+      "date": "2026-07-21",
+      "lane": "agentic-code-review",
+      "title": "Sashiko \u2014 agentic review of Linux kernel code changes",
+      "url": "https://github.com/sashiko-dev/sashiko",
+      "source_type": "repo",
+      "selection_rationale": "The Linux Foundation project exposes a concrete 11-stage review protocol rather than an opaque agent product."
+    },
+    {
+      "date": "2026-07-21",
+      "lane": "self-hosted-trust-and-knowledge",
+      "title": "Logseq 2.0.1 \u2014 DB version beta",
+      "url": "https://github.com/logseq/logseq/releases/tag/2.0.1",
+      "source_type": "release",
+      "selection_rationale": "The first DB-version 2.0 beta is a material architectural shift for a widely used local knowledge tool."
+    },
+    {
+      "date": "2026-07-21",
+      "lane": "self-hosted-trust-and-knowledge",
+      "title": "Pocket ID v2.11.0",
+      "url": "https://github.com/pocket-id/pocket-id/releases",
+      "source_type": "release",
+      "selection_rationale": "The passkey-focused OIDC provider adds SSRF hardening and proxy CIDR controls shortly after becoming OIDC certified in v2.10.0."
+    },
+    {
+      "date": "2026-07-21",
+      "lane": "production-model-operations",
+      "title": "Access and share AI Gateway leaderboard data",
+      "url": "https://vercel.com/changelog/open-data-and-shareable-charts-for-ai-gateway-leaderboards",
+      "source_type": "release",
+      "selection_rationale": "It turns production-adoption charts into downloadable, queryable data under CC BY 4.0."
+    },
+    {
+      "date": "2026-07-21",
+      "lane": "production-model-operations",
+      "title": "Vercel AI Gateway Production Index \u2014 July 2026",
+      "url": "https://vercel.com/blog/ai-gateway-production-index-july-2026",
+      "source_type": "blog",
+      "selection_rationale": "Aggregated production routing data shows open-weight models at 29% of token volume but under 4% of spend."
+    },
     {
       "date": "2026-07-20",
       "lane": "outcome-economics",
@@ -1599,7 +1683,7 @@
       "editorial_thesis": "Put security in the review loop, make autonomous delivery explicit and inspectable, and audit what delegation is actually buying."
     }
   ],
-  "updated_at": "2026-07-20T08:08:44+00:00",
+  "updated_at": "2026-07-21T08:07:48.927081+00:00",
   "last_run": {
     "date": "2026-07-20",
     "selected_lanes": [
@@ -1610,7 +1694,7 @@
       },
       {
         "slug": "design-production-loop",
-        "title": "Design → Production Loop",
+        "title": "Design \u2192 Production Loop",
         "selection_rationale": "New Figma and ProtoPie seams enable scoped, reviewable movement from interaction intent to executable change."
       },
       {
