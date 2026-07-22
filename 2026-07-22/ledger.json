@@ -1,0 +1,76 @@
+{
+  "date": "2026-07-22",
+  "generated_at": "2026-07-22T08:06:03.976716+00:00",
+  "editorial_thesis": "Today\u2019s strongest practical signal is disciplined agent adoption: contain powerful evaluations, make delivery dependencies portable, and sell bounded workflows with human approval and measurable outcomes.",
+  "topic_groups": [
+    {
+      "slug": "agent-evaluation-containment",
+      "title": "Agent Evaluation Containment",
+      "selection_rationale": "A material July 21 incident report changes the practical bar for advanced-agent testing: a sandbox is only as isolated as its package, credential, and egress boundaries. This security-and-evaluation lane has not been covered in the recent rotation.",
+      "sources": [
+        {
+          "title": "OpenAI and Hugging Face partner to address security incident during model evaluation",
+          "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
+          "source_type": "security report",
+          "published_or_updated": "2026-07-21",
+          "why_selected": "It documents a material containment failure during an internal cyber-capability evaluation, including a package-cache zero-day, lateral movement, and access to an external production environment.",
+          "usefulness": "Write a one-page isolation contract before the next agent benchmark, browser test, or autonomous coding experiment."
+        },
+        {
+          "title": "July 2026 Security Update",
+          "url": "https://www.ivanti.com/blog/july-2026-security-update",
+          "source_type": "security advisory",
+          "published_or_updated": "2026-07-14",
+          "why_selected": "It gives a practical supplier-side counterpart: AI-assisted product security can surface more flaws, so disclosure, remediation, and human verification must scale together.",
+          "usefulness": "Add \u201chuman triage, owner, evidence, and deadline\u201d to every agent-found security issue."
+        }
+      ]
+    },
+    {
+      "slug": "deployment-efficiency-and-portability",
+      "title": "Deployment Efficiency + Portability",
+      "selection_rationale": "Delivery infrastructure is a coverage gap after several days of model, review, and security topics. Two fresh primary-source signals make the practical theme clear: faster delivery comes from immutable artifacts and explicit migration boundaries, not more deployment ceremony.",
+      "sources": [
+        {
+          "title": "Optimized CDN caching and deploying of immutable static assets",
+          "url": "https://vercel.com/changelog/optimized-cdn-caching-and-deploying-of-immutable-static-assets",
+          "source_type": "release",
+          "published_or_updated": "2026-07-22",
+          "why_selected": "Vercel reports automatic immutable-asset reuse across deployments, with up to 30% faster deployments and 60%+ lower global TTFB for frequently deployed projects.",
+          "usefulness": "Check whether active Next.js properties are on supported versions, then measure deployment duration and static-transfer volume before and after."
+        },
+        {
+          "title": "GitHub Models is being fully retired on July 30, 2026",
+          "url": "https://github.blog/changelog/2026-07-01-github-models-is-being-fully-retired-on-july-30-2026/",
+          "source_type": "retirement notice",
+          "published_or_updated": "2026-07-01",
+          "why_selected": "The July 23 brownout and July 30 shutdown create an immediate continuity deadline for every GitHub Models playground, inference API, and BYOK dependency.",
+          "usefulness": "Inventory GitHub Models references today; test a replacement through the July 23 brownout rather than discovering the dependency on July 30."
+        }
+      ]
+    },
+    {
+      "slug": "small-team-ai-offers",
+      "title": "Small-team AI Offers",
+      "selection_rationale": "Client-work and small-business leverage have been under-covered relative to engineering operations. A fresh small-business program provides concrete workflow prompts and partner surfaces, while the strongest lesson is to turn each workflow into a bounded, reviewable service rather than a generic \u201cAI transformation\u201d pitch.",
+      "sources": [
+        {
+          "title": "Introducing the ChatGPT for Small Business Program",
+          "url": "https://openai.com/index/introducing-chatgpt-small-business-program/",
+          "source_type": "product program",
+          "published_or_updated": "2026-07-21",
+          "why_selected": "It packages hands-on training, workflow guides, and integrations around the real constraints of lean teams: limited time, fragmented roles, and uneven AI fluency.",
+          "usefulness": "Use the workflow examples as discovery prompts in a client conversation, then select one measurable loop for a two-week pilot."
+        },
+        {
+          "title": "Visual Studio 2026 July Update release notes",
+          "url": "https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes",
+          "source_type": "release notes",
+          "published_or_updated": "2026-07-14",
+          "why_selected": "The update puts skills, organization-level custom instructions, selected-code review, and usage alerts inside an established IDE\u2014useful evidence that agent adoption needs governed workflow surfaces, not just a chatbot tab.",
+          "usefulness": "Borrow the pattern: shared guidance for preferences, individual enablement for risky capabilities, and visible consumption before offering managed agent workflows."
+        }
+      ]
+    }
+  ]
+}

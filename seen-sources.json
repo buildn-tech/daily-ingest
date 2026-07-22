@@ -1,6 +1,36 @@
 {
-  "updated_at": "2026-07-21T08:08:04.920478+00:00",
+  "updated_at": "2026-07-22T08:06:11.342348+00:00",
   "sources": {
+    "https://openai.com/index/hugging-face-model-evaluation-security-incident": {
+      "first_seen": "2026-07-22",
+      "last_seen": "2026-07-22",
+      "title": "OpenAI and Hugging Face partner to address security incident during model evaluation"
+    },
+    "https://www.ivanti.com/blog/july-2026-security-update": {
+      "first_seen": "2026-07-22",
+      "last_seen": "2026-07-22",
+      "title": "July 2026 Security Update"
+    },
+    "https://vercel.com/changelog/optimized-cdn-caching-and-deploying-of-immutable-static-assets": {
+      "first_seen": "2026-07-22",
+      "last_seen": "2026-07-22",
+      "title": "Optimized CDN caching and deploying of immutable static assets"
+    },
+    "https://github.blog/changelog/2026-07-01-github-models-is-being-fully-retired-on-july-30-2026": {
+      "first_seen": "2026-07-22",
+      "last_seen": "2026-07-22",
+      "title": "GitHub Models is being fully retired on July 30, 2026"
+    },
+    "https://openai.com/index/introducing-chatgpt-small-business-program": {
+      "first_seen": "2026-07-22",
+      "last_seen": "2026-07-22",
+      "title": "Introducing the ChatGPT for Small Business Program"
+    },
+    "https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes": {
+      "first_seen": "2026-07-22",
+      "last_seen": "2026-07-22",
+      "title": "Visual Studio 2026 July Update release notes"
+    },
     "https://vercel.com/blog/ai-gateway-production-index-july-2026": {
       "first_seen": "2026-07-21",
       "last_seen": "2026-07-21",

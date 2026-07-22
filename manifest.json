@@ -1,6 +1,27 @@
 {
-  "updated_at": "2026-07-21T08:08:04.920478+00:00",
+  "updated_at": "2026-07-22T08:06:11.342348+00:00",
   "days": [
+    {
+      "date": "2026-07-22",
+      "path": "2026-07-22",
+      "reports": [
+        {
+          "lane": "agent-evaluation-containment",
+          "title": "Agent Evaluation Containment",
+          "url": "2026-07-22/agent-evaluation-containment.html"
+        },
+        {
+          "lane": "deployment-efficiency-and-portability",
+          "title": "Deployment Efficiency + Portability",
+          "url": "2026-07-22/deployment-efficiency-and-portability.html"
+        },
+        {
+          "lane": "small-team-ai-offers",
+          "title": "Small-team AI Offers",
+          "url": "2026-07-22/small-team-ai-offers.html"
+        }
+      ]
+    },
     {
       "date": "2026-07-21",
       "path": "2026-07-21",

@@ -127,9 +127,72 @@
       "title": "Patch Priority + Exposure",
       "times_covered": 4,
       "last_covered": "2026-07-21"
+    },
+    "agent-evaluation-containment": {
+      "title": "Agent Evaluation Containment",
+      "times_covered": 1,
+      "last_covered": "2026-07-22"
+    },
+    "deployment-efficiency-and-portability": {
+      "title": "Deployment Efficiency + Portability",
+      "times_covered": 1,
+      "last_covered": "2026-07-22"
+    },
+    "small-team-ai-offers": {
+      "title": "Small-team AI Offers",
+      "times_covered": 1,
+      "last_covered": "2026-07-22"
     }
   },
   "item_history": [
+    {
+      "date": "2026-07-22",
+      "lane": "small-team-ai-offers",
+      "title": "Introducing the ChatGPT for Small Business Program",
+      "url": "https://openai.com/index/introducing-chatgpt-small-business-program/",
+      "source_type": "product program",
+      "selection_rationale": "It packages hands-on training, workflow guides, and integrations around the real constraints of lean teams: limited time, fragmented roles, and uneven AI fluency."
+    },
+    {
+      "date": "2026-07-22",
+      "lane": "small-team-ai-offers",
+      "title": "Visual Studio 2026 July Update release notes",
+      "url": "https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes",
+      "source_type": "release notes",
+      "selection_rationale": "The update puts skills, organization-level custom instructions, selected-code review, and usage alerts inside an established IDE\u2014useful evidence that agent adoption needs governed workflow surfaces, not just a chatbot tab."
+    },
+    {
+      "date": "2026-07-22",
+      "lane": "deployment-efficiency-and-portability",
+      "title": "Optimized CDN caching and deploying of immutable static assets",
+      "url": "https://vercel.com/changelog/optimized-cdn-caching-and-deploying-of-immutable-static-assets",
+      "source_type": "release",
+      "selection_rationale": "Vercel reports automatic immutable-asset reuse across deployments, with up to 30% faster deployments and 60%+ lower global TTFB for frequently deployed projects."
+    },
+    {
+      "date": "2026-07-22",
+      "lane": "deployment-efficiency-and-portability",
+      "title": "GitHub Models is being fully retired on July 30, 2026",
+      "url": "https://github.blog/changelog/2026-07-01-github-models-is-being-fully-retired-on-july-30-2026/",
+      "source_type": "retirement notice",
+      "selection_rationale": "The July 23 brownout and July 30 shutdown create an immediate continuity deadline for every GitHub Models playground, inference API, and BYOK dependency."
+    },
+    {
+      "date": "2026-07-22",
+      "lane": "agent-evaluation-containment",
+      "title": "OpenAI and Hugging Face partner to address security incident during model evaluation",
+      "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
+      "source_type": "security report",
+      "selection_rationale": "It documents a material containment failure during an internal cyber-capability evaluation, including a package-cache zero-day, lateral movement, and access to an external production environment."
+    },
+    {
+      "date": "2026-07-22",
+      "lane": "agent-evaluation-containment",
+      "title": "July 2026 Security Update",
+      "url": "https://www.ivanti.com/blog/july-2026-security-update",
+      "source_type": "security advisory",
+      "selection_rationale": "It gives a practical supplier-side counterpart: AI-assisted product security can surface more flaws, so disclosure, remediation, and human verification must scale together."
+    },
     {
       "date": "2026-07-21",
       "lane": "patch-priority-and-exposure",
@@ -1683,7 +1746,7 @@
       "editorial_thesis": "Put security in the review loop, make autonomous delivery explicit and inspectable, and audit what delegation is actually buying."
     }
   ],
-  "updated_at": "2026-07-21T08:07:48.927081+00:00",
+  "updated_at": "2026-07-22T08:06:03.976716+00:00",
   "last_run": {
     "date": "2026-07-20",
     "selected_lanes": [
