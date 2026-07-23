@@ -1,6 +1,66 @@
 {
-  "updated_at": "2026-07-22T08:06:11.342348+00:00",
+  "updated_at": "2026-07-23T08:04:17.461622+00:00",
   "sources": {
+    "https://developers.cloudflare.com/changelog/post/2026-07-22-mcp-codemode-updates": {
+      "first_seen": "2026-07-23",
+      "last_seen": "2026-07-23",
+      "title": "Agents SDK reduces MCP schema conversion and adds exposure controls"
+    },
+    "https://vercel.com/changelog/safely-inject-credentials-in-http-headers-with-vercel-sandbox": {
+      "first_seen": "2026-07-23",
+      "last_seen": "2026-07-23",
+      "title": "Safely inject credentials in HTTP headers with Vercel Sandbox"
+    },
+    "https://vercel.com/changelog/program-agent-harnesses-with-ai-sdk": {
+      "first_seen": "2026-07-23",
+      "last_seen": "2026-07-23",
+      "title": "Program Claude Code, Codex, Pi and other agent harnesses with AI SDK"
+    },
+    "https://docs.cloud.google.com/release-notes": {
+      "first_seen": "2026-07-23",
+      "last_seen": "2026-07-23",
+      "title": "Gemini Enterprise supports unauthenticated Custom MCP Server data stores (Preview)"
+    },
+    "https://nextjs.org/blog/july-2026-security-release": {
+      "first_seen": "2026-07-23",
+      "last_seen": "2026-07-23",
+      "title": "Next.js July 2026 Security Release"
+    },
+    "https://github.blog/changelog/2026-07-22-upcoming-ghes-change-impacting-uploading-support-bundles": {
+      "first_seen": "2026-07-23",
+      "last_seen": "2026-07-23",
+      "title": "Upcoming GHES change impacting uploading support bundles"
+    },
+    "https://developers.cloudflare.com/changelog/post/2026-07-09-r2-data-catalog-read-only-tokens": {
+      "first_seen": "2026-07-23",
+      "last_seen": "2026-07-23",
+      "title": "R2 Data Catalog now supports read-only API tokens"
+    },
+    "https://developers.cloudflare.com/changelog/post/2026-07-20-durable-objects-total-storage-metrics": {
+      "first_seen": "2026-07-23",
+      "last_seen": "2026-07-23",
+      "title": "View total SQLite storage for Durable Object namespaces"
+    },
+    "https://github.blog/changelog/2026-07-22-new-copilot-usage-metrics-impact-dashboard": {
+      "first_seen": "2026-07-23",
+      "last_seen": "2026-07-23",
+      "title": "New Copilot usage metrics impact dashboard"
+    },
+    "https://vercel.com/changelog/open-data-and-shareable-charts-for-ai-gateway-leaderboards": {
+      "first_seen": "2026-07-23",
+      "last_seen": "2026-07-21",
+      "title": "Access and share AI Gateway leaderboard data"
+    },
+    "https://vercel.com/blog/ai-gateway-production-index-july-2026": {
+      "first_seen": "2026-07-23",
+      "last_seen": "2026-07-21",
+      "title": "Vercel AI Gateway Production Index \u2014 July 2026"
+    },
+    "https://openai.com/index/a-scorecard-for-the-ai-age": {
+      "first_seen": "2026-07-23",
+      "last_seen": "2026-07-20",
+      "title": "A scorecard for the AI age"
+    },
     "https://openai.com/index/hugging-face-model-evaluation-security-incident": {
       "first_seen": "2026-07-22",
       "last_seen": "2026-07-22",
@@ -31,16 +91,6 @@
       "last_seen": "2026-07-22",
       "title": "Visual Studio 2026 July Update release notes"
     },
-    "https://vercel.com/blog/ai-gateway-production-index-july-2026": {
-      "first_seen": "2026-07-21",
-      "last_seen": "2026-07-21",
-      "title": "Vercel AI Gateway Production Index \u2014 July 2026"
-    },
-    "https://vercel.com/changelog/open-data-and-shareable-charts-for-ai-gateway-leaderboards": {
-      "first_seen": "2026-07-21",
-      "last_seen": "2026-07-21",
-      "title": "Access and share AI Gateway leaderboard data"
-    },
     "https://github.com/pocket-id/pocket-id/releases": {
       "first_seen": "2026-07-21",
       "last_seen": "2026-07-21",
@@ -70,11 +120,6 @@
       "first_seen": "2026-07-21",
       "last_seen": "2026-07-21",
       "title": "Android Security Bulletin \u2014 July 2026"
-    },
-    "https://openai.com/index/a-scorecard-for-the-ai-age": {
-      "first_seen": "2026-07-20",
-      "last_seen": "2026-07-20",
-      "title": "A scorecard for the AI age"
     },
     "https://openai.com/index/managing-ai-investments-in-agentic-era": {
       "first_seen": "2026-07-20",

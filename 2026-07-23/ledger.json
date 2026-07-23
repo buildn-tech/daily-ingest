@@ -1,0 +1,124 @@
+{
+  "date": "2026-07-23",
+  "generated_at": "2026-07-23T08:04:10.886395+00:00",
+  "editorial_thesis": "Today\u2019s practical signal is operational control: make agent authority explicit, patch exposed runtimes, and measure adoption by completed work rather than activity.",
+  "topic_groups": [
+    {
+      "slug": "agent-sandbox-tool-controls",
+      "title": "Agent Sandbox + Tool Controls",
+      "selection_rationale": "This is a fresh control-surface lane, selected after several days centered on evaluation and adoption: new releases make credential injection, harness substitution, and MCP exposure explicit configuration choices rather than hidden framework behavior.",
+      "sources": [
+        {
+          "title": "Agents SDK reduces MCP schema conversion and adds exposure controls",
+          "url": "https://developers.cloudflare.com/changelog/post/2026-07-22-mcp-codemode-updates/",
+          "source_type": "release",
+          "published_or_updated": "2026-07-22",
+          "why_selected": "Automatic tool discovery is convenient but expands an agent\u2019s effective authority. An explicit opt-in creates a review point.",
+          "usefulness": "Prototype one MCP workflow with `includeMcpTools = false`; add only the two tools required for its acceptance test."
+        },
+        {
+          "title": "Safely inject credentials in HTTP headers with Vercel Sandbox",
+          "url": "https://vercel.com/changelog/safely-inject-credentials-in-http-headers-with-vercel-sandbox",
+          "source_type": "release",
+          "published_or_updated": "unknown",
+          "why_selected": "It separates agent runtime access from credential possession and supports a setup phase followed by deny-all execution.",
+          "usefulness": "Turn an existing sandbox policy into a two-phase policy: authenticated setup, then deny-all execution."
+        },
+        {
+          "title": "Program Claude Code, Codex, Pi and other agent harnesses with AI SDK",
+          "url": "https://vercel.com/changelog/program-agent-harnesses-with-ai-sdk",
+          "source_type": "release",
+          "published_or_updated": "unknown",
+          "why_selected": "Treating the harness as a replaceable implementation lets a workflow retain its policy, tools, skills, and acceptance checks while evaluation compares runners.",
+          "usefulness": "Pick one repetitive repair task and run it through two harnesses under identical limits."
+        },
+        {
+          "title": "Gemini Enterprise supports unauthenticated Custom MCP Server data stores (Preview)",
+          "url": "https://docs.cloud.google.com/release-notes",
+          "source_type": "release notes",
+          "published_or_updated": "2026-07-22",
+          "why_selected": "This is a sharp reminder that \u201ceasy connector setup\u201d can turn an unauthenticated endpoint into part of a business answer path.",
+          "usefulness": "Add \u201cconnector authentication and audience\u201d to the agent integration review checklist."
+        }
+      ]
+    },
+    {
+      "slug": "web-runtime-patch-and-access",
+      "title": "Web Runtime Patch + Access Hygiene",
+      "selection_rationale": "This lane rotates away from repeated model news toward immediate web-stack maintenance. The sources are primary notices with concrete versions, dates, and least-privilege changes that can become a short client operations checklist.",
+      "sources": [
+        {
+          "title": "Next.js July 2026 Security Release",
+          "url": "https://nextjs.org/blog/july-2026-security-release",
+          "source_type": "security release",
+          "published_or_updated": "2026-07-20",
+          "why_selected": "The release turns a broad framework risk into concrete upgrade targets, including issues relevant to App Router, Server Actions, and server-side fetch.",
+          "usefulness": "Open a patch ticket today with owner, deployed version, target version, test route, and rollout window."
+        },
+        {
+          "title": "Upcoming GHES change impacting uploading support bundles",
+          "url": "https://github.blog/changelog/2026-07-22-upcoming-ghes-change-impacting-uploading-support-bundles/",
+          "source_type": "notice",
+          "published_or_updated": "2026-07-22",
+          "why_selected": "Supportability is an operational dependency: an appliance that cannot upload diagnostic bundles is harder to recover precisely when an incident needs vendor help.",
+          "usefulness": "Check GHES inventory and schedule required patching before the August 18 enforcement date."
+        },
+        {
+          "title": "R2 Data Catalog now supports read-only API tokens",
+          "url": "https://developers.cloudflare.com/changelog/post/2026-07-09-r2-data-catalog-read-only-tokens/",
+          "source_type": "release",
+          "published_or_updated": "2026-07-09",
+          "why_selected": "Analytics and retrieval clients no longer need a write-capable credential merely to list tables or query data.",
+          "usefulness": "Audit catalog consumers and replace every query-only credential with storage-and-catalog read-only scope."
+        },
+        {
+          "title": "View total SQLite storage for Durable Object namespaces",
+          "url": "https://developers.cloudflare.com/changelog/post/2026-07-20-durable-objects-total-storage-metrics/",
+          "source_type": "release",
+          "published_or_updated": "2026-07-20",
+          "why_selected": "Stateful agent and collaboration workflows can fail quietly through retention and growth; an aggregate time series makes cleanup assumptions testable.",
+          "usefulness": "Review the largest stateful namespace, document retention behavior, and set a weekly growth check."
+        }
+      ]
+    },
+    {
+      "slug": "agent-adoption-measurement",
+      "title": "Agent Adoption Measurement",
+      "selection_rationale": "Recent dossiers covered agent evaluation and cost concepts, but not the new organizational surface for measuring developer adoption. This lane earns inclusion because a fresh GitHub dashboard provides a concrete starting point for separating activity from delivered impact.",
+      "sources": [
+        {
+          "title": "New Copilot usage metrics impact dashboard",
+          "url": "https://github.blog/changelog/2026-07-22-new-copilot-usage-metrics-impact-dashboard/",
+          "source_type": "release",
+          "published_or_updated": "2026-07-22",
+          "why_selected": "It provides a native administrative surface for adoption conversations instead of relying on anecdotal prompts or license counts.",
+          "usefulness": "Define a four-week pilot baseline before enabling a new agent capability for a selected team."
+        },
+        {
+          "title": "Access and share AI Gateway leaderboard data",
+          "url": "https://vercel.com/changelog/open-data-and-shareable-charts-for-ai-gateway-leaderboards",
+          "source_type": "release",
+          "published_or_updated": "2026-07-21",
+          "why_selected": "External production-routing data can seed model-shortlisting hypotheses, but it should not replace a workload-specific evaluation.",
+          "usefulness": "Write a one-page model scorecard before changing a production default."
+        },
+        {
+          "title": "Vercel AI Gateway Production Index \u2014 July 2026",
+          "url": "https://vercel.com/blog/ai-gateway-production-index-july-2026",
+          "source_type": "blog",
+          "published_or_updated": "2026-07-21",
+          "why_selected": "The split is a useful warning against treating token volume, capability, and operating economics as the same metric.",
+          "usefulness": "Add outcome-per-dollar and fallback rate to the next agent workflow review."
+        },
+        {
+          "title": "OpenAI: A scorecard for the AI age",
+          "url": "https://openai.com/index/a-scorecard-for-the-ai-age/",
+          "source_type": "blog",
+          "published_or_updated": "2026-07-20",
+          "why_selected": "It reinforces a customer-facing measurement frame: value comes from finished, dependable work rather than model theater.",
+          "usefulness": "Make \u201ccompleted work with evidence\u201d the primary success criterion for the next client pilot."
+        }
+      ]
+    }
+  ]
+}

@@ -142,9 +142,120 @@
       "title": "Small-team AI Offers",
       "times_covered": 1,
       "last_covered": "2026-07-22"
+    },
+    "agent-sandbox-tool-controls": {
+      "title": "Agent Sandbox + Tool Controls",
+      "times_covered": 1,
+      "last_covered": "2026-07-23"
+    },
+    "web-runtime-patch-and-access": {
+      "title": "Web Runtime Patch + Access Hygiene",
+      "times_covered": 1,
+      "last_covered": "2026-07-23"
+    },
+    "agent-adoption-measurement": {
+      "title": "Agent Adoption Measurement",
+      "times_covered": 1,
+      "last_covered": "2026-07-23"
     }
   },
   "item_history": [
+    {
+      "date": "2026-07-23",
+      "lane": "agent-adoption-measurement",
+      "title": "New Copilot usage metrics impact dashboard",
+      "url": "https://github.blog/changelog/2026-07-22-new-copilot-usage-metrics-impact-dashboard/",
+      "source_type": "release",
+      "selection_rationale": "It provides a native administrative surface for adoption conversations instead of relying on anecdotal prompts or license counts."
+    },
+    {
+      "date": "2026-07-23",
+      "lane": "agent-adoption-measurement",
+      "title": "Access and share AI Gateway leaderboard data",
+      "url": "https://vercel.com/changelog/open-data-and-shareable-charts-for-ai-gateway-leaderboards",
+      "source_type": "release",
+      "selection_rationale": "External production-routing data can seed model-shortlisting hypotheses, but it should not replace a workload-specific evaluation."
+    },
+    {
+      "date": "2026-07-23",
+      "lane": "agent-adoption-measurement",
+      "title": "Vercel AI Gateway Production Index \u2014 July 2026",
+      "url": "https://vercel.com/blog/ai-gateway-production-index-july-2026",
+      "source_type": "blog",
+      "selection_rationale": "The split is a useful warning against treating token volume, capability, and operating economics as the same metric."
+    },
+    {
+      "date": "2026-07-23",
+      "lane": "agent-adoption-measurement",
+      "title": "OpenAI: A scorecard for the AI age",
+      "url": "https://openai.com/index/a-scorecard-for-the-ai-age/",
+      "source_type": "blog",
+      "selection_rationale": "It reinforces a customer-facing measurement frame: value comes from finished, dependable work rather than model theater."
+    },
+    {
+      "date": "2026-07-23",
+      "lane": "web-runtime-patch-and-access",
+      "title": "Next.js July 2026 Security Release",
+      "url": "https://nextjs.org/blog/july-2026-security-release",
+      "source_type": "security release",
+      "selection_rationale": "The release turns a broad framework risk into concrete upgrade targets, including issues relevant to App Router, Server Actions, and server-side fetch."
+    },
+    {
+      "date": "2026-07-23",
+      "lane": "web-runtime-patch-and-access",
+      "title": "Upcoming GHES change impacting uploading support bundles",
+      "url": "https://github.blog/changelog/2026-07-22-upcoming-ghes-change-impacting-uploading-support-bundles/",
+      "source_type": "notice",
+      "selection_rationale": "Supportability is an operational dependency: an appliance that cannot upload diagnostic bundles is harder to recover precisely when an incident needs vendor help."
+    },
+    {
+      "date": "2026-07-23",
+      "lane": "web-runtime-patch-and-access",
+      "title": "R2 Data Catalog now supports read-only API tokens",
+      "url": "https://developers.cloudflare.com/changelog/post/2026-07-09-r2-data-catalog-read-only-tokens/",
+      "source_type": "release",
+      "selection_rationale": "Analytics and retrieval clients no longer need a write-capable credential merely to list tables or query data."
+    },
+    {
+      "date": "2026-07-23",
+      "lane": "web-runtime-patch-and-access",
+      "title": "View total SQLite storage for Durable Object namespaces",
+      "url": "https://developers.cloudflare.com/changelog/post/2026-07-20-durable-objects-total-storage-metrics/",
+      "source_type": "release",
+      "selection_rationale": "Stateful agent and collaboration workflows can fail quietly through retention and growth; an aggregate time series makes cleanup assumptions testable."
+    },
+    {
+      "date": "2026-07-23",
+      "lane": "agent-sandbox-tool-controls",
+      "title": "Agents SDK reduces MCP schema conversion and adds exposure controls",
+      "url": "https://developers.cloudflare.com/changelog/post/2026-07-22-mcp-codemode-updates/",
+      "source_type": "release",
+      "selection_rationale": "Automatic tool discovery is convenient but expands an agent\u2019s effective authority. An explicit opt-in creates a review point."
+    },
+    {
+      "date": "2026-07-23",
+      "lane": "agent-sandbox-tool-controls",
+      "title": "Safely inject credentials in HTTP headers with Vercel Sandbox",
+      "url": "https://vercel.com/changelog/safely-inject-credentials-in-http-headers-with-vercel-sandbox",
+      "source_type": "release",
+      "selection_rationale": "It separates agent runtime access from credential possession and supports a setup phase followed by deny-all execution."
+    },
+    {
+      "date": "2026-07-23",
+      "lane": "agent-sandbox-tool-controls",
+      "title": "Program Claude Code, Codex, Pi and other agent harnesses with AI SDK",
+      "url": "https://vercel.com/changelog/program-agent-harnesses-with-ai-sdk",
+      "source_type": "release",
+      "selection_rationale": "Treating the harness as a replaceable implementation lets a workflow retain its policy, tools, skills, and acceptance checks while evaluation compares runners."
+    },
+    {
+      "date": "2026-07-23",
+      "lane": "agent-sandbox-tool-controls",
+      "title": "Gemini Enterprise supports unauthenticated Custom MCP Server data stores (Preview)",
+      "url": "https://docs.cloud.google.com/release-notes",
+      "source_type": "release notes",
+      "selection_rationale": "This is a sharp reminder that \u201ceasy connector setup\u201d can turn an unauthenticated endpoint into part of a business answer path."
+    },
     {
       "date": "2026-07-22",
       "lane": "small-team-ai-offers",
@@ -1746,7 +1857,7 @@
       "editorial_thesis": "Put security in the review loop, make autonomous delivery explicit and inspectable, and audit what delegation is actually buying."
     }
   ],
-  "updated_at": "2026-07-22T08:06:03.976716+00:00",
+  "updated_at": "2026-07-23T08:04:10.886395+00:00",
   "last_run": {
     "date": "2026-07-20",
     "selected_lanes": [
