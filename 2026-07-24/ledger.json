@@ -1,0 +1,100 @@
+{
+  "date": "2026-07-24",
+  "generated_at": "2026-07-24T08:04:11.954047+00:00",
+  "editorial_thesis": "Agent capability is becoming portable and deployable, so the differentiator is the control plane: compatibility tests, scoped authority, explainable actions, and rollout evidence.",
+  "topic_groups": [
+    {
+      "slug": "mcp-portability",
+      "title": "MCP Portability + Agent Extensions",
+      "selection_rationale": "The protocol\u2019s July 28 stateless transition and fresh package-based extension surfaces make portable, versioned agent capability a timely practical seam.",
+      "sources": [
+        {
+          "title": "GitHub MCP Server supports the next MCP specification",
+          "url": "https://github.blog/changelog/2026-07-23-github-mcp-server-supports-the-next-mcp-specification/",
+          "source_type": "release",
+          "published_or_updated": "2026-07-23",
+          "why_selected": "GitHub has shipped ahead of MCP\u2019s July 28 stateless-core transition; sessions and initialize disappear while backwards compatibility remains.",
+          "usefulness": "Use it as a compatibility deadline for any Buildn/client MCP client or server; run the conformance suite before changing production tooling."
+        },
+        {
+          "title": "Extend eve agents with installable extensions",
+          "url": "https://vercel.com/changelog/eve-extensions",
+          "source_type": "release",
+          "published_or_updated": "2026-07-23",
+          "why_selected": "Eve packages tools, connections, skills, instructions, and hooks as installable, versioned extensions with config schemas.",
+          "usefulness": "Model Buildn\u2019s reusable client connectors as dependency-like bundles: CRM lookup, reporting, or scoped publishing with an audit hook."
+        },
+        {
+          "title": "GitHub tools are now an installable eve extension",
+          "url": "https://vercel.com/changelog/github-tools-eve-extension",
+          "source_type": "integration",
+          "published_or_updated": "2026-07-23",
+          "why_selected": "A concrete extension ships 42 GitHub tools with connector-backed short-lived tokens, presets, and per-write approval rules.",
+          "usefulness": "Useful reference architecture for client-repo triage or code-review agents: scope a preset, mint runtime credentials, gate external comments."
+        }
+      ]
+    },
+    {
+      "slug": "governed-agent-delivery",
+      "title": "Governed Agent Delivery",
+      "selection_rationale": "Fresh GitHub and Vercel changes expose a useful control-plane pattern: proposal rationale, approval posture, deployment, rollout telemetry, and reversible configuration.",
+      "sources": [
+        {
+          "title": "Agent automation controls in GitHub Issues",
+          "url": "https://github.blog/changelog/2026-07-23-agent-automation-controls-in-github-issues-in-public-preview/",
+          "source_type": "release",
+          "published_or_updated": "2026-07-23",
+          "why_selected": "Issue agents can attach rationale and confidence, suggest lower-confidence metadata changes, and support review queues via has:suggestions.",
+          "usefulness": "Use it for bounded issue triage: labels, types, fields, assignment, and closure\u2014with human review for uncertain cases."
+        },
+        {
+          "title": "Vercel MCP can now deploy code",
+          "url": "https://vercel.com/changelog/vercel-mcp-can-now-deploy-code",
+          "source_type": "release",
+          "published_or_updated": "2026-07-23",
+          "why_selected": "The deploy_to_vercel MCP tool can create or target a project, detect a framework, install, build, and return a shareable URL.",
+          "usefulness": "Useful for disposable preview deployments from an agent-produced artifact, especially client review loops."
+        },
+        {
+          "title": "Evaluation metrics for Vercel Flags",
+          "url": "https://vercel.com/changelog/evaluation-metrics-for-vercel-flags",
+          "source_type": "release",
+          "published_or_updated": "2026-07-23",
+          "why_selected": "Flag detail pages now show evaluations per minute and filters for variant, reason, environment, SDK key, client, and project.",
+          "usefulness": "Turn an agent rollout into observable delivery: confirm the intended audience receives the intended variant before expanding exposure."
+        },
+        {
+          "title": "Inspect feature flag history with Vercel CLI",
+          "url": "https://vercel.com/changelog/inspect-feature-flag-history-with-vercel-cli",
+          "source_type": "release",
+          "published_or_updated": "2026-07-23",
+          "why_selected": "vercel flags versions and semantic diffs expose authorship, environments, targeting rules, rollout percentages, and condition changes.",
+          "usefulness": "Use the CLI output as an evidence attachment in a release note or incident review."
+        }
+      ]
+    },
+    {
+      "slug": "physical-ai-simulation",
+      "title": "Physical AI + Generative Simulation",
+      "selection_rationale": "This is a deliberately under-covered lane: two July 23 research releases show reusable architecture patterns for dynamic-world creation and coordinating many local actors.",
+      "sources": [
+        {
+          "title": "GS-Agent: Creating 4D Physical Worlds With Generative Simulation",
+          "url": "https://arxiv.org/abs/2607.21522",
+          "source_type": "paper",
+          "published_or_updated": "2026-07-23",
+          "why_selected": "GS-Agent coordinates specialized agents that write code against a physics engine and use multimodal feedback to iteratively build controllable 4D scenes.",
+          "usefulness": "A useful pattern for Buildn creative work: prompt \u2192 scene plan \u2192 executable simulation/render \u2192 visual review \u2192 revision, rather than one-shot video generation."
+        },
+        {
+          "title": "Compact Latent Coordination for Autonomous Vehicles at Unsignalized Intersections",
+          "url": "https://arxiv.org/abs/2607.21488",
+          "source_type": "paper",
+          "published_or_updated": "2026-07-23",
+          "why_selected": "MAPS separates centralized strategic intent (a compact proto-plan) from decentralized local execution; the paper reports zero-shot scaling from three to five agents in simulation.",
+          "usefulness": "A conceptual design cue for Buildn workflows: let a coordinator publish a compact plan while specialist agents keep local context and bounded actions."
+        }
+      ]
+    }
+  ]
+}

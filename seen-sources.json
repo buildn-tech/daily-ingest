@@ -1,6 +1,51 @@
 {
-  "updated_at": "2026-07-23T08:04:17.461622+00:00",
+  "updated_at": "2026-07-24T08:04:12.143301+00:00",
   "sources": {
+    "https://github.blog/changelog/2026-07-23-github-mcp-server-supports-the-next-mcp-specification": {
+      "first_seen": "2026-07-24",
+      "last_seen": "2026-07-24",
+      "title": "GitHub MCP Server supports the next MCP specification"
+    },
+    "https://vercel.com/changelog/eve-extensions": {
+      "first_seen": "2026-07-24",
+      "last_seen": "2026-07-24",
+      "title": "Extend eve agents with installable extensions"
+    },
+    "https://vercel.com/changelog/github-tools-eve-extension": {
+      "first_seen": "2026-07-24",
+      "last_seen": "2026-07-24",
+      "title": "GitHub tools are now an installable eve extension"
+    },
+    "https://github.blog/changelog/2026-07-23-agent-automation-controls-in-github-issues-in-public-preview": {
+      "first_seen": "2026-07-24",
+      "last_seen": "2026-07-24",
+      "title": "Agent automation controls in GitHub Issues"
+    },
+    "https://vercel.com/changelog/vercel-mcp-can-now-deploy-code": {
+      "first_seen": "2026-07-24",
+      "last_seen": "2026-07-24",
+      "title": "Vercel MCP can now deploy code"
+    },
+    "https://vercel.com/changelog/evaluation-metrics-for-vercel-flags": {
+      "first_seen": "2026-07-24",
+      "last_seen": "2026-07-24",
+      "title": "Evaluation metrics for Vercel Flags"
+    },
+    "https://vercel.com/changelog/inspect-feature-flag-history-with-vercel-cli": {
+      "first_seen": "2026-07-24",
+      "last_seen": "2026-07-24",
+      "title": "Inspect feature flag history with Vercel CLI"
+    },
+    "https://arxiv.org/abs/2607.21522": {
+      "first_seen": "2026-07-24",
+      "last_seen": "2026-07-24",
+      "title": "GS-Agent: Creating 4D Physical Worlds With Generative Simulation"
+    },
+    "https://arxiv.org/abs/2607.21488": {
+      "first_seen": "2026-07-24",
+      "last_seen": "2026-07-24",
+      "title": "Compact Latent Coordination for Autonomous Vehicles at Unsignalized Intersections"
+    },
     "https://developers.cloudflare.com/changelog/post/2026-07-22-mcp-codemode-updates": {
       "first_seen": "2026-07-23",
       "last_seen": "2026-07-23",

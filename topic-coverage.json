@@ -157,6 +157,21 @@
       "title": "Agent Adoption Measurement",
       "times_covered": 1,
       "last_covered": "2026-07-23"
+    },
+    "mcp-portability": {
+      "title": "MCP Portability + Agent Extensions",
+      "times_covered": 1,
+      "last_covered": "2026-07-24"
+    },
+    "governed-agent-delivery": {
+      "title": "Governed Agent Delivery",
+      "times_covered": 1,
+      "last_covered": "2026-07-24"
+    },
+    "physical-ai-simulation": {
+      "title": "Physical AI + Generative Simulation",
+      "times_covered": 1,
+      "last_covered": "2026-07-24"
     }
   },
   "item_history": [
@@ -1807,6 +1822,78 @@
       "url": "https://docs.roboflow.com/changelog/explore-by-month/july-2026/multiple-models-per-version-train-and-compare-models-side-by-side",
       "source_type": "product",
       "selection_rationale": "Model selection can be based on the same dataset version rather than informal comparisons across changing data."
+    },
+    {
+      "date": "2026-07-24",
+      "lane": "mcp-portability",
+      "title": "GitHub MCP Server supports the next MCP specification",
+      "url": "https://github.blog/changelog/2026-07-23-github-mcp-server-supports-the-next-mcp-specification/",
+      "source_type": "release",
+      "selection_rationale": "GitHub has shipped ahead of MCP\u2019s July 28 stateless-core transition; sessions and initialize disappear while backwards compatibility remains."
+    },
+    {
+      "date": "2026-07-24",
+      "lane": "mcp-portability",
+      "title": "Extend eve agents with installable extensions",
+      "url": "https://vercel.com/changelog/eve-extensions",
+      "source_type": "release",
+      "selection_rationale": "Eve packages tools, connections, skills, instructions, and hooks as installable, versioned extensions with config schemas."
+    },
+    {
+      "date": "2026-07-24",
+      "lane": "mcp-portability",
+      "title": "GitHub tools are now an installable eve extension",
+      "url": "https://vercel.com/changelog/github-tools-eve-extension",
+      "source_type": "integration",
+      "selection_rationale": "A concrete extension ships 42 GitHub tools with connector-backed short-lived tokens, presets, and per-write approval rules."
+    },
+    {
+      "date": "2026-07-24",
+      "lane": "governed-agent-delivery",
+      "title": "Agent automation controls in GitHub Issues",
+      "url": "https://github.blog/changelog/2026-07-23-agent-automation-controls-in-github-issues-in-public-preview/",
+      "source_type": "release",
+      "selection_rationale": "Issue agents can attach rationale and confidence, suggest lower-confidence metadata changes, and support review queues via has:suggestions."
+    },
+    {
+      "date": "2026-07-24",
+      "lane": "governed-agent-delivery",
+      "title": "Vercel MCP can now deploy code",
+      "url": "https://vercel.com/changelog/vercel-mcp-can-now-deploy-code",
+      "source_type": "release",
+      "selection_rationale": "The deploy_to_vercel MCP tool can create or target a project, detect a framework, install, build, and return a shareable URL."
+    },
+    {
+      "date": "2026-07-24",
+      "lane": "governed-agent-delivery",
+      "title": "Evaluation metrics for Vercel Flags",
+      "url": "https://vercel.com/changelog/evaluation-metrics-for-vercel-flags",
+      "source_type": "release",
+      "selection_rationale": "Flag detail pages now show evaluations per minute and filters for variant, reason, environment, SDK key, client, and project."
+    },
+    {
+      "date": "2026-07-24",
+      "lane": "governed-agent-delivery",
+      "title": "Inspect feature flag history with Vercel CLI",
+      "url": "https://vercel.com/changelog/inspect-feature-flag-history-with-vercel-cli",
+      "source_type": "release",
+      "selection_rationale": "vercel flags versions and semantic diffs expose authorship, environments, targeting rules, rollout percentages, and condition changes."
+    },
+    {
+      "date": "2026-07-24",
+      "lane": "physical-ai-simulation",
+      "title": "GS-Agent: Creating 4D Physical Worlds With Generative Simulation",
+      "url": "https://arxiv.org/abs/2607.21522",
+      "source_type": "paper",
+      "selection_rationale": "GS-Agent coordinates specialized agents that write code against a physics engine and use multimodal feedback to iteratively build controllable 4D scenes."
+    },
+    {
+      "date": "2026-07-24",
+      "lane": "physical-ai-simulation",
+      "title": "Compact Latent Coordination for Autonomous Vehicles at Unsignalized Intersections",
+      "url": "https://arxiv.org/abs/2607.21488",
+      "source_type": "paper",
+      "selection_rationale": "MAPS separates centralized strategic intent (a compact proto-plan) from decentralized local execution; the paper reports zero-shot scaling from three to five agents in simulation."
     }
   ],
   "runs": [
@@ -1855,29 +1942,50 @@
         "intentional-ai-operations"
       ],
       "editorial_thesis": "Put security in the review loop, make autonomous delivery explicit and inspectable, and audit what delegation is actually buying."
+    },
+    {
+      "date": "2026-07-24",
+      "selected_lanes": [
+        {
+          "slug": "mcp-portability",
+          "title": "MCP Portability + Agent Extensions",
+          "selection_rationale": "The protocol\u2019s July 28 stateless transition and fresh package-based extension surfaces make portable, versioned agent capability a timely practical seam."
+        },
+        {
+          "slug": "governed-agent-delivery",
+          "title": "Governed Agent Delivery",
+          "selection_rationale": "Fresh GitHub and Vercel changes expose a useful control-plane pattern: proposal rationale, approval posture, deployment, rollout telemetry, and reversible configuration."
+        },
+        {
+          "slug": "physical-ai-simulation",
+          "title": "Physical AI + Generative Simulation",
+          "selection_rationale": "This is a deliberately under-covered lane: two July 23 research releases show reusable architecture patterns for dynamic-world creation and coordinating many local actors."
+        }
+      ],
+      "editorial_thesis": "Agent capability is becoming portable and deployable, so the differentiator is the control plane: compatibility tests, scoped authority, explainable actions, and rollout evidence."
     }
   ],
-  "updated_at": "2026-07-23T08:04:10.886395+00:00",
+  "updated_at": "2026-07-24T08:04:11.954047+00:00",
   "last_run": {
-    "date": "2026-07-20",
+    "date": "2026-07-24",
     "selected_lanes": [
       {
-        "slug": "outcome-economics",
-        "title": "Outcome Economics + Agent Governance",
-        "selection_rationale": "Fresh outcome-cost and control guidance makes this the highest-leverage operating lane."
+        "slug": "mcp-portability",
+        "title": "MCP Portability + Agent Extensions",
+        "selection_rationale": "The protocol\u2019s July 28 stateless transition and fresh package-based extension surfaces make portable, versioned agent capability a timely practical seam."
       },
       {
-        "slug": "design-production-loop",
-        "title": "Design \u2192 Production Loop",
-        "selection_rationale": "New Figma and ProtoPie seams enable scoped, reviewable movement from interaction intent to executable change."
+        "slug": "governed-agent-delivery",
+        "title": "Governed Agent Delivery",
+        "selection_rationale": "Fresh GitHub and Vercel changes expose a useful control-plane pattern: proposal rationale, approval posture, deployment, rollout telemetry, and reversible configuration."
       },
       {
-        "slug": "measurement-integrity",
-        "title": "Measurement Integrity",
-        "selection_rationale": "Fresh platform controls and evidence audits make this a deliberate gap-filling lane."
+        "slug": "physical-ai-simulation",
+        "title": "Physical AI + Generative Simulation",
+        "selection_rationale": "This is a deliberately under-covered lane: two July 23 research releases show reusable architecture patterns for dynamic-world creation and coordinating many local actors."
       }
     ],
-    "editorial_thesis": "The useful agent stack is becoming an operating system of accepted outcomes, bounded change, and evidence that survives inspection."
+    "editorial_thesis": "Agent capability is becoming portable and deployable, so the differentiator is the control plane: compatibility tests, scoped authority, explainable actions, and rollout evidence."
   },
-  "last_editorial_thesis": "The useful agent stack is becoming an operating system of accepted outcomes, bounded change, and evidence that survives inspection."
+  "last_editorial_thesis": "Agent capability is becoming portable and deployable, so the differentiator is the control plane: compatibility tests, scoped authority, explainable actions, and rollout evidence."
 }
