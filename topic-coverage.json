@@ -172,6 +172,21 @@
       "title": "Physical AI + Generative Simulation",
       "times_covered": 1,
       "last_covered": "2026-07-24"
+    },
+    "frontier-agent-runtime": {
+      "title": "Frontier Agent Runtime",
+      "times_covered": 1,
+      "last_covered": "2026-07-25"
+    },
+    "agent-knowledge-trust": {
+      "title": "Agent Knowledge + Trust",
+      "times_covered": 1,
+      "last_covered": "2026-07-25"
+    },
+    "agentic-marketplaces-and-transparency": {
+      "title": "Agentic Marketplaces + Transparency",
+      "times_covered": 1,
+      "last_covered": "2026-07-25"
     }
   },
   "item_history": [
@@ -1894,6 +1909,86 @@
       "url": "https://arxiv.org/abs/2607.21488",
       "source_type": "paper",
       "selection_rationale": "MAPS separates centralized strategic intent (a compact proto-plan) from decentralized local execution; the paper reports zero-shot scaling from three to five agents in simulation."
+    },
+    {
+      "date": "2026-07-25",
+      "lane": "frontier-agent-runtime",
+      "title": "Introducing Claude Opus 5",
+      "url": "https://www.anthropic.com/news/claude-opus-5",
+      "source_type": "product",
+      "selection_rationale": "Anthropic released Opus 5 as a flagship for long-running agents, emphasizing verification, iteration, coding, automation, and adjustable effort."
+    },
+    {
+      "date": "2026-07-25",
+      "lane": "frontier-agent-runtime",
+      "title": "Claude Opus 5 Now Available in GitHub Copilot",
+      "url": "https://github.blog/changelog/2026-07-24-claude-opus-5-is-now-available-in-github-copilot/",
+      "source_type": "release",
+      "selection_rationale": "GitHub is gradually exposing Opus 5 across Copilot surfaces for Pro+, Max, Business, and Enterprise; managed plans require an admin policy toggle."
+    },
+    {
+      "date": "2026-07-25",
+      "lane": "frontier-agent-runtime",
+      "title": "Claude Platform release notes \u2014 July 24",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview",
+      "source_type": "docs",
+      "selection_rationale": "The API release adds claude-opus-5 with 1M context and effort tiers, allows mid-conversation tool changes in beta, and removes Opus 4.7 fast mode."
+    },
+    {
+      "date": "2026-07-25",
+      "lane": "agent-knowledge-trust",
+      "title": "OKF v0.2 adds trust signals",
+      "url": "https://cloud.google.com/blog/products/data-analytics/okf-v0-2-adds-trust-signals/",
+      "source_type": "blog",
+      "selection_rationale": "Google\u2019s Open Knowledge Format v0.2 adds optional provenance, generated/verified, stale_after, status, and attestation vocabulary to Markdown/YAML knowledge bundles."
+    },
+    {
+      "date": "2026-07-25",
+      "lane": "agent-knowledge-trust",
+      "title": "Open Knowledge Format reference implementation",
+      "url": "https://github.com/GoogleCloudPlatform/knowledge-catalog/tree/main/okf",
+      "source_type": "repo",
+      "selection_rationale": "The public reference repository provides the concrete spec, samples, and tooling context behind OKF rather than leaving the trust model as a blog concept."
+    },
+    {
+      "date": "2026-07-25",
+      "lane": "agent-knowledge-trust",
+      "title": "ORDS 26.2 MCP support for agentic database access",
+      "url": "https://www.oracle.com/tools/ords/ords-changelog.html",
+      "source_type": "release",
+      "selection_rationale": "Oracle REST Data Services 26.2 can act as an MCP server: authorized agents can list databases, inspect schema metadata, and run SQL/PLSQL under granted privileges."
+    },
+    {
+      "date": "2026-07-25",
+      "lane": "agentic-marketplaces-and-transparency",
+      "title": "Ask Google to call local businesses for you",
+      "url": "https://blog.google/products-and-platforms/products/shopping/how-to-agentic-calling-let-google-call/",
+      "source_type": "product update",
+      "selection_rationale": "Google updated its U.S. agentic-calling guidance: Search or AI Mode can gather local stock and discount information, call relevant businesses, then send a summary by text or email."
+    },
+    {
+      "date": "2026-07-25",
+      "lane": "agentic-marketplaces-and-transparency",
+      "title": "Google signs EU AI Act Transparency Code of Practice",
+      "url": "https://blog.google/company-news/outreach-and-initiatives/public-policy/eu-ai-act-transparency-code-of-practice/",
+      "source_type": "policy",
+      "selection_rationale": "Google signed the EU code on transparency of AI-generated content and points to C2PA and SynthID as interoperable provenance/watermarking mechanisms."
+    },
+    {
+      "date": "2026-07-25",
+      "lane": "agentic-marketplaces-and-transparency",
+      "title": "Ask Claude about the Anthropic Economic Index",
+      "url": "https://www.anthropic.com/news/anthropic-economic-index-connector",
+      "source_type": "product",
+      "selection_rationale": "Anthropic added a Claude connector that lets users query its Economic Index data and inspect the underlying data and limitations in conversation."
+    },
+    {
+      "date": "2026-07-25",
+      "lane": "agentic-marketplaces-and-transparency",
+      "title": "Google Search I/O 2026: AI agents and more",
+      "url": "https://blog.google/products-and-platforms/products/search/search-io-2026/",
+      "source_type": "product",
+      "selection_rationale": "Google outlined AI Mode search agents, agentic booking, multimodal query input, and information agents that monitor needs over time."
     }
   ],
   "runs": [
@@ -1963,29 +2058,50 @@
         }
       ],
       "editorial_thesis": "Agent capability is becoming portable and deployable, so the differentiator is the control plane: compatibility tests, scoped authority, explainable actions, and rollout evidence."
+    },
+    {
+      "date": "2026-07-25",
+      "selected_lanes": [
+        {
+          "slug": "frontier-agent-runtime",
+          "title": "Frontier Agent Runtime",
+          "selection_rationale": "A new long-context flagship arrived with an immediate API migration edge and a managed coding surface; this is a material update, not a repeat of prior MCP or delivery coverage."
+        },
+        {
+          "slug": "agent-knowledge-trust",
+          "title": "Agent Knowledge + Trust",
+          "selection_rationale": "This deliberately rotates toward an under-covered data-contract lane: agents need inspectable provenance and authorization boundaries before they can safely act on operational knowledge."
+        },
+        {
+          "slug": "agentic-marketplaces-and-transparency",
+          "title": "Agentic Marketplaces + Transparency",
+          "selection_rationale": "Customer-facing agents and AI-generated media are becoming operationally visible. This lane connects the action surface, the evidence surface, and a realistic discovery workflow for client work."
+        }
+      ],
+      "editorial_thesis": "The fresh advantage is not more autonomous behavior alone: it is a verifiable path from trusted context, through bounded action, to transparent customer-facing evidence."
     }
   ],
-  "updated_at": "2026-07-24T08:04:11.954047+00:00",
+  "updated_at": "2026-07-25T08:05:17.970541+00:00",
   "last_run": {
-    "date": "2026-07-24",
+    "date": "2026-07-25",
     "selected_lanes": [
       {
-        "slug": "mcp-portability",
-        "title": "MCP Portability + Agent Extensions",
-        "selection_rationale": "The protocol\u2019s July 28 stateless transition and fresh package-based extension surfaces make portable, versioned agent capability a timely practical seam."
+        "slug": "frontier-agent-runtime",
+        "title": "Frontier Agent Runtime",
+        "selection_rationale": "A new long-context flagship arrived with an immediate API migration edge and a managed coding surface; this is a material update, not a repeat of prior MCP or delivery coverage."
       },
       {
-        "slug": "governed-agent-delivery",
-        "title": "Governed Agent Delivery",
-        "selection_rationale": "Fresh GitHub and Vercel changes expose a useful control-plane pattern: proposal rationale, approval posture, deployment, rollout telemetry, and reversible configuration."
+        "slug": "agent-knowledge-trust",
+        "title": "Agent Knowledge + Trust",
+        "selection_rationale": "This deliberately rotates toward an under-covered data-contract lane: agents need inspectable provenance and authorization boundaries before they can safely act on operational knowledge."
       },
       {
-        "slug": "physical-ai-simulation",
-        "title": "Physical AI + Generative Simulation",
-        "selection_rationale": "This is a deliberately under-covered lane: two July 23 research releases show reusable architecture patterns for dynamic-world creation and coordinating many local actors."
+        "slug": "agentic-marketplaces-and-transparency",
+        "title": "Agentic Marketplaces + Transparency",
+        "selection_rationale": "Customer-facing agents and AI-generated media are becoming operationally visible. This lane connects the action surface, the evidence surface, and a realistic discovery workflow for client work."
       }
     ],
-    "editorial_thesis": "Agent capability is becoming portable and deployable, so the differentiator is the control plane: compatibility tests, scoped authority, explainable actions, and rollout evidence."
+    "editorial_thesis": "The fresh advantage is not more autonomous behavior alone: it is a verifiable path from trusted context, through bounded action, to transparent customer-facing evidence."
   },
-  "last_editorial_thesis": "Agent capability is becoming portable and deployable, so the differentiator is the control plane: compatibility tests, scoped authority, explainable actions, and rollout evidence."
+  "last_editorial_thesis": "The fresh advantage is not more autonomous behavior alone: it is a verifiable path from trusted context, through bounded action, to transparent customer-facing evidence."
 }

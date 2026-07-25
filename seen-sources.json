@@ -1,6 +1,56 @@
 {
-  "updated_at": "2026-07-24T08:04:12.143301+00:00",
+  "updated_at": "2026-07-25T08:05:18.258644+00:00",
   "sources": {
+    "https://www.anthropic.com/news/claude-opus-5": {
+      "first_seen": "2026-07-25",
+      "last_seen": "2026-07-25",
+      "title": "Introducing Claude Opus 5"
+    },
+    "https://github.blog/changelog/2026-07-24-claude-opus-5-is-now-available-in-github-copilot": {
+      "first_seen": "2026-07-25",
+      "last_seen": "2026-07-25",
+      "title": "Claude Opus 5 Now Available in GitHub Copilot"
+    },
+    "https://platform.claude.com/docs/en/release-notes/overview": {
+      "first_seen": "2026-07-25",
+      "last_seen": "2026-07-25",
+      "title": "Claude Platform release notes \u2014 July 24"
+    },
+    "https://cloud.google.com/blog/products/data-analytics/okf-v0-2-adds-trust-signals": {
+      "first_seen": "2026-07-25",
+      "last_seen": "2026-07-25",
+      "title": "OKF v0.2 adds trust signals"
+    },
+    "https://github.com/GoogleCloudPlatform/knowledge-catalog/tree/main/okf": {
+      "first_seen": "2026-07-25",
+      "last_seen": "2026-07-25",
+      "title": "Open Knowledge Format reference implementation"
+    },
+    "https://www.oracle.com/tools/ords/ords-changelog.html": {
+      "first_seen": "2026-07-25",
+      "last_seen": "2026-07-25",
+      "title": "ORDS 26.2 MCP support for agentic database access"
+    },
+    "https://blog.google/products-and-platforms/products/shopping/how-to-agentic-calling-let-google-call": {
+      "first_seen": "2026-07-25",
+      "last_seen": "2026-07-25",
+      "title": "Ask Google to call local businesses for you"
+    },
+    "https://blog.google/company-news/outreach-and-initiatives/public-policy/eu-ai-act-transparency-code-of-practice": {
+      "first_seen": "2026-07-25",
+      "last_seen": "2026-07-25",
+      "title": "Google signs EU AI Act Transparency Code of Practice"
+    },
+    "https://www.anthropic.com/news/anthropic-economic-index-connector": {
+      "first_seen": "2026-07-25",
+      "last_seen": "2026-07-25",
+      "title": "Ask Claude about the Anthropic Economic Index"
+    },
+    "https://blog.google/products-and-platforms/products/search/search-io-2026": {
+      "first_seen": "2026-07-25",
+      "last_seen": "2026-07-09",
+      "title": "Google Search I/O 2026: Search agents"
+    },
     "https://github.blog/changelog/2026-07-23-github-mcp-server-supports-the-next-mcp-specification": {
       "first_seen": "2026-07-24",
       "last_seen": "2026-07-24",
@@ -495,11 +545,6 @@
       "first_seen": "2026-07-14",
       "last_seen": "2026-07-10",
       "title": "Google Marketing Live 2026: Ask Advisor + AI Search ads"
-    },
-    "https://blog.google/products-and-platforms/products/search/search-io-2026": {
-      "first_seen": "2026-07-14",
-      "last_seen": "2026-07-09",
-      "title": "Google Search I/O 2026: Search agents"
     },
     "https://www.figma.com/solutions/ai-saas-website-builder": {
       "first_seen": "2026-07-14",

@@ -1,0 +1,108 @@
+{
+  "date": "2026-07-25",
+  "generated_at": "2026-07-25T08:05:17.970541+00:00",
+  "editorial_thesis": "The fresh advantage is not more autonomous behavior alone: it is a verifiable path from trusted context, through bounded action, to transparent customer-facing evidence.",
+  "topic_groups": [
+    {
+      "slug": "frontier-agent-runtime",
+      "title": "Frontier Agent Runtime",
+      "selection_rationale": "A new long-context flagship arrived with an immediate API migration edge and a managed coding surface; this is a material update, not a repeat of prior MCP or delivery coverage.",
+      "sources": [
+        {
+          "title": "Introducing Claude Opus 5",
+          "url": "https://www.anthropic.com/news/claude-opus-5",
+          "source_type": "product",
+          "published_or_updated": "2026-07-24",
+          "why_selected": "Anthropic released Opus 5 as a flagship for long-running agents, emphasizing verification, iteration, coding, automation, and adjustable effort.",
+          "usefulness": "Use it to test difficult Buildn/client tasks where a self-checking agent could replace repeated human re-prompting: migrations, debugging, research synthesis, and browser verification."
+        },
+        {
+          "title": "Claude Opus 5 Now Available in GitHub Copilot",
+          "url": "https://github.blog/changelog/2026-07-24-claude-opus-5-is-now-available-in-github-copilot/",
+          "source_type": "release",
+          "published_or_updated": "2026-07-24",
+          "why_selected": "GitHub is gradually exposing Opus 5 across Copilot surfaces for Pro+, Max, Business, and Enterprise; managed plans require an admin policy toggle.",
+          "usefulness": "Run the same bounded code task through a familiar Copilot surface before changing any agent harness or developer workflow."
+        },
+        {
+          "title": "Claude Platform release notes \u2014 July 24",
+          "url": "https://platform.claude.com/docs/en/release-notes/overview",
+          "source_type": "docs",
+          "published_or_updated": "2026-07-24",
+          "why_selected": "The API release adds claude-opus-5 with 1M context and effort tiers, allows mid-conversation tool changes in beta, and removes Opus 4.7 fast mode.",
+          "usefulness": "Audit direct API callers for speed=fast, then use effort as a deliberate quality/cost dial in a test harness."
+        }
+      ]
+    },
+    {
+      "slug": "agent-knowledge-trust",
+      "title": "Agent Knowledge + Trust",
+      "selection_rationale": "This deliberately rotates toward an under-covered data-contract lane: agents need inspectable provenance and authorization boundaries before they can safely act on operational knowledge.",
+      "sources": [
+        {
+          "title": "OKF v0.2 adds trust signals",
+          "url": "https://cloud.google.com/blog/products/data-analytics/okf-v0-2-adds-trust-signals/",
+          "source_type": "blog",
+          "published_or_updated": "2026-07-24",
+          "why_selected": "Google\u2019s Open Knowledge Format v0.2 adds optional provenance, generated/verified, stale_after, status, and attestation vocabulary to Markdown/YAML knowledge bundles.",
+          "usefulness": "Create a small Buildn project-context bundle for one client: canonical metrics, runbooks, ownership, source links, and a re-verification date."
+        },
+        {
+          "title": "Open Knowledge Format reference implementation",
+          "url": "https://github.com/GoogleCloudPlatform/knowledge-catalog/tree/main/okf",
+          "source_type": "repo",
+          "published_or_updated": "2026-07-24",
+          "why_selected": "The public reference repository provides the concrete spec, samples, and tooling context behind OKF rather than leaving the trust model as a blog concept.",
+          "usefulness": "Use it to keep agent-readable context portable across tools instead of embedding key operating facts in a single vendor workspace."
+        },
+        {
+          "title": "ORDS 26.2 MCP support for agentic database access",
+          "url": "https://www.oracle.com/tools/ords/ords-changelog.html",
+          "source_type": "release",
+          "published_or_updated": "2026-07-01",
+          "why_selected": "Oracle REST Data Services 26.2 can act as an MCP server: authorized agents can list databases, inspect schema metadata, and run SQL/PLSQL under granted privileges.",
+          "usefulness": "The tool split is a useful pattern for client data work: discover, inspect, then act\u2014each bounded by an existing identity and role."
+        }
+      ]
+    },
+    {
+      "slug": "agentic-marketplaces-and-transparency",
+      "title": "Agentic Marketplaces + Transparency",
+      "selection_rationale": "Customer-facing agents and AI-generated media are becoming operationally visible. This lane connects the action surface, the evidence surface, and a realistic discovery workflow for client work.",
+      "sources": [
+        {
+          "title": "Ask Google to call local businesses for you",
+          "url": "https://blog.google/products-and-platforms/products/shopping/how-to-agentic-calling-let-google-call/",
+          "source_type": "product update",
+          "published_or_updated": "2026-07-24",
+          "why_selected": "Google updated its U.S. agentic-calling guidance: Search or AI Mode can gather local stock and discount information, call relevant businesses, then send a summary by text or email.",
+          "usefulness": "For local-service clients, use this as a discovery cue: map which inventory, availability, and FAQ answers are structured enough to survive agent-mediated shopping."
+        },
+        {
+          "title": "Google signs EU AI Act Transparency Code of Practice",
+          "url": "https://blog.google/company-news/outreach-and-initiatives/public-policy/eu-ai-act-transparency-code-of-practice/",
+          "source_type": "policy",
+          "published_or_updated": "2026-07-24",
+          "why_selected": "Google signed the EU code on transparency of AI-generated content and points to C2PA and SynthID as interoperable provenance/watermarking mechanisms.",
+          "usefulness": "Add a client-content delivery field for origin, editing method, approval owner, and retained source assets\u2014especially for generated visual or audio work."
+        },
+        {
+          "title": "Ask Claude about the Anthropic Economic Index",
+          "url": "https://www.anthropic.com/news/anthropic-economic-index-connector",
+          "source_type": "product",
+          "published_or_updated": "2026-07-22",
+          "why_selected": "Anthropic added a Claude connector that lets users query its Economic Index data and inspect the underlying data and limitations in conversation.",
+          "usefulness": "Use it as a hypothesis generator for client discovery: ask where AI usage is concentrated in an industry, then validate with customer interviews and first-party analytics."
+        },
+        {
+          "title": "Google Search I/O 2026: AI agents and more",
+          "url": "https://blog.google/products-and-platforms/products/search/search-io-2026/",
+          "source_type": "product",
+          "published_or_updated": "2026-05-19",
+          "why_selected": "Google outlined AI Mode search agents, agentic booking, multimodal query input, and information agents that monitor needs over time.",
+          "usefulness": "Design client pages so an agent can recover the same decision facts a person needs: service scope, location, price basis, availability, proof, and a direct action route."
+        }
+      ]
+    }
+  ]
+}

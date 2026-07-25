@@ -1,6 +1,27 @@
 {
-  "updated_at": "2026-07-24T08:04:12.143301+00:00",
+  "updated_at": "2026-07-25T08:05:18.258644+00:00",
   "days": [
+    {
+      "date": "2026-07-25",
+      "path": "2026-07-25",
+      "reports": [
+        {
+          "lane": "frontier-agent-runtime",
+          "title": "Frontier Agent Runtime",
+          "url": "2026-07-25/frontier-agent-runtime.html"
+        },
+        {
+          "lane": "agent-knowledge-trust",
+          "title": "Agent Knowledge + Trust",
+          "url": "2026-07-25/agent-knowledge-trust.html"
+        },
+        {
+          "lane": "agentic-marketplaces-and-transparency",
+          "title": "Agentic Marketplaces + Transparency",
+          "url": "2026-07-25/agentic-marketplaces-and-transparency.html"
+        }
+      ]
+    },
     {
       "date": "2026-07-24",
       "path": "2026-07-24",
