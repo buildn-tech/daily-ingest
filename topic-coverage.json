@@ -187,6 +187,21 @@
       "title": "Agentic Marketplaces + Transparency",
       "times_covered": 1,
       "last_covered": "2026-07-25"
+    },
+    "bounded-execution-and-artifact-access": {
+      "title": "Bounded Execution + Artifact Access",
+      "times_covered": 1,
+      "last_covered": "2026-07-26"
+    },
+    "delegated-work-intake": {
+      "title": "Delegated Work Intake",
+      "times_covered": 1,
+      "last_covered": "2026-07-26"
+    },
+    "consented-personal-context": {
+      "title": "Consented Personal Context",
+      "times_covered": 1,
+      "last_covered": "2026-07-26"
     }
   },
   "item_history": [
@@ -1989,6 +2004,78 @@
       "url": "https://blog.google/products-and-platforms/products/search/search-io-2026/",
       "source_type": "product",
       "selection_rationale": "Google outlined AI Mode search agents, agentic booking, multimodal query input, and information agents that monitor needs over time."
+    },
+    {
+      "date": "2026-07-26",
+      "lane": "bounded-execution-and-artifact-access",
+      "title": "Workflow steps now support extended function durations",
+      "url": "https://vercel.com/changelog/workflow-steps-now-support-extended-function-durations",
+      "source_type": "release",
+      "selection_rationale": "Vercel Pro and Enterprise workflow steps can run up to 30 minutes, up from 800 seconds, after enabling an environment flag; Hobby remains capped at five minutes."
+    },
+    {
+      "date": "2026-07-26",
+      "lane": "bounded-execution-and-artifact-access",
+      "title": "Connect to and manage Sandboxes from the dashboard",
+      "url": "https://vercel.com/changelog/connect-to-and-manage-sandboxes-from-the-dashboard",
+      "source_type": "release",
+      "selection_rationale": "The dashboard can now open a terminal into a running Sandbox, browse files, transfer files, inspect ports, snapshot, stop, and resume persistent sandboxes."
+    },
+    {
+      "date": "2026-07-26",
+      "lane": "bounded-execution-and-artifact-access",
+      "title": "Vercel WAF for Blob is now in beta",
+      "url": "https://vercel.com/changelog/vercel-waf-for-blob-is-now-in-beta",
+      "source_type": "release",
+      "selection_rationale": "Vercel can apply deny, challenge, rate-limit, redirect, and log rules at the edge for Blob stores without changing blob URLs or application code."
+    },
+    {
+      "date": "2026-07-26",
+      "lane": "delegated-work-intake",
+      "title": "Copilot cloud agent for Linear is now generally available",
+      "url": "https://github.blog/changelog/2026-07-23-copilot-cloud-agent-for-linear-is-now-generally-available",
+      "source_type": "release",
+      "selection_rationale": "GitHub Copilot cloud agent can be assigned from Linear to work asynchronously in an ephemeral GitHub Actions environment, update the issue timeline, and open a draft pull request."
+    },
+    {
+      "date": "2026-07-26",
+      "lane": "delegated-work-intake",
+      "title": "AI Agents \u2014 Linear Docs",
+      "url": "https://linear.app/docs/agents-in-linear",
+      "source_type": "docs",
+      "selection_rationale": "Linear keeps the human as primary assignee when work is delegated, supports team-scoped agent access, and records guidance with full history."
+    },
+    {
+      "date": "2026-07-26",
+      "lane": "delegated-work-intake",
+      "title": "Multi-select fields for Projects and Issues in public preview",
+      "url": "https://github.blog/changelog/2026-07-23-multi-select-fields-for-projects-and-issues-in-public-preview",
+      "source_type": "release",
+      "selection_rationale": "GitHub Projects and Issue fields can now hold multiple values, enabling one item to be tagged by several teams, modules, or work categories."
+    },
+    {
+      "date": "2026-07-26",
+      "lane": "consented-personal-context",
+      "title": "Launching Health in ChatGPT",
+      "url": "https://openai.com/index/health-in-chatgpt/",
+      "source_type": "product",
+      "selection_rationale": "OpenAI is rolling out Health in ChatGPT to logged-in U.S. adults on web and iOS, with permissioned connections to Apple Health and supported medical records."
+    },
+    {
+      "date": "2026-07-26",
+      "lane": "consented-personal-context",
+      "title": "View health records in Health on iPhone",
+      "url": "https://support.apple.com/en-us/HT208680",
+      "source_type": "docs",
+      "selection_rationale": "Apple Health downloads records from participating providers to iPhone; sharing can be category-specific and limited to current records rather than future updates."
+    },
+    {
+      "date": "2026-07-26",
+      "lane": "consented-personal-context",
+      "title": "Health and fitness apps \u2014 Apple Developer",
+      "url": "https://developer.apple.com/health-fitness/",
+      "source_type": "docs",
+      "selection_rationale": "Apple describes HealthKit as a permissioned repository and asks apps to clearly explain intended use when requesting health, motion, or location data."
     }
   ],
   "runs": [
@@ -2079,29 +2166,50 @@
         }
       ],
       "editorial_thesis": "The fresh advantage is not more autonomous behavior alone: it is a verifiable path from trusted context, through bounded action, to transparent customer-facing evidence."
+    },
+    {
+      "date": "2026-07-26",
+      "selected_lanes": [
+        {
+          "slug": "bounded-execution-and-artifact-access",
+          "title": "Bounded Execution + Artifact Access",
+          "selection_rationale": "This is a deliberately narrow operational lane: recent coverage examined agent authority, while these releases expose the runtime, time, and stored-output boundaries an operator must now govern."
+        },
+        {
+          "slug": "delegated-work-intake",
+          "title": "Delegated Work Intake",
+          "selection_rationale": "This fills a coverage gap between agent capability and portfolio coordination: the fresh signal is not another coding model, but a clearer handoff from a work item to a supervised draft PR."
+        },
+        {
+          "slug": "consented-personal-context",
+          "title": "Consented Personal Context",
+          "selection_rationale": "A personal-leverage lane earns inclusion because a new consumer health connector makes selective, revocable context a concrete product pattern\u2014not merely a privacy principle."
+        }
+      ],
+      "editorial_thesis": "The strongest current signal is operational: expanded agent capacity must be paired with visible runtime boundaries, accountable work intake, and narrowly consented context."
     }
   ],
-  "updated_at": "2026-07-25T08:05:17.970541+00:00",
+  "updated_at": "2026-07-26T08:06:21.123645+00:00",
   "last_run": {
-    "date": "2026-07-25",
+    "date": "2026-07-26",
     "selected_lanes": [
       {
-        "slug": "frontier-agent-runtime",
-        "title": "Frontier Agent Runtime",
-        "selection_rationale": "A new long-context flagship arrived with an immediate API migration edge and a managed coding surface; this is a material update, not a repeat of prior MCP or delivery coverage."
+        "slug": "bounded-execution-and-artifact-access",
+        "title": "Bounded Execution + Artifact Access",
+        "selection_rationale": "This is a deliberately narrow operational lane: recent coverage examined agent authority, while these releases expose the runtime, time, and stored-output boundaries an operator must now govern."
       },
       {
-        "slug": "agent-knowledge-trust",
-        "title": "Agent Knowledge + Trust",
-        "selection_rationale": "This deliberately rotates toward an under-covered data-contract lane: agents need inspectable provenance and authorization boundaries before they can safely act on operational knowledge."
+        "slug": "delegated-work-intake",
+        "title": "Delegated Work Intake",
+        "selection_rationale": "This fills a coverage gap between agent capability and portfolio coordination: the fresh signal is not another coding model, but a clearer handoff from a work item to a supervised draft PR."
       },
       {
-        "slug": "agentic-marketplaces-and-transparency",
-        "title": "Agentic Marketplaces + Transparency",
-        "selection_rationale": "Customer-facing agents and AI-generated media are becoming operationally visible. This lane connects the action surface, the evidence surface, and a realistic discovery workflow for client work."
+        "slug": "consented-personal-context",
+        "title": "Consented Personal Context",
+        "selection_rationale": "A personal-leverage lane earns inclusion because a new consumer health connector makes selective, revocable context a concrete product pattern\u2014not merely a privacy principle."
       }
     ],
-    "editorial_thesis": "The fresh advantage is not more autonomous behavior alone: it is a verifiable path from trusted context, through bounded action, to transparent customer-facing evidence."
+    "editorial_thesis": "The strongest current signal is operational: expanded agent capacity must be paired with visible runtime boundaries, accountable work intake, and narrowly consented context."
   },
-  "last_editorial_thesis": "The fresh advantage is not more autonomous behavior alone: it is a verifiable path from trusted context, through bounded action, to transparent customer-facing evidence."
+  "last_editorial_thesis": "The strongest current signal is operational: expanded agent capacity must be paired with visible runtime boundaries, accountable work intake, and narrowly consented context."
 }

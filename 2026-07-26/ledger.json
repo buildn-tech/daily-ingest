@@ -1,0 +1,100 @@
+{
+  "date": "2026-07-26",
+  "generated_at": "2026-07-26T08:06:21.123645+00:00",
+  "editorial_thesis": "The strongest current signal is operational: expanded agent capacity must be paired with visible runtime boundaries, accountable work intake, and narrowly consented context.",
+  "topic_groups": [
+    {
+      "slug": "bounded-execution-and-artifact-access",
+      "title": "Bounded Execution + Artifact Access",
+      "selection_rationale": "This is a deliberately narrow operational lane: recent coverage examined agent authority, while these releases expose the runtime, time, and stored-output boundaries an operator must now govern.",
+      "sources": [
+        {
+          "title": "Workflow steps now support extended function durations",
+          "url": "https://vercel.com/changelog/workflow-steps-now-support-extended-function-durations",
+          "source_type": "release",
+          "published_or_updated": "2026-07-24",
+          "why_selected": "Vercel Pro and Enterprise workflow steps can run up to 30 minutes, up from 800 seconds, after enabling an environment flag; Hobby remains capped at five minutes.",
+          "usefulness": "Use it for one bounded, resumable client task such as a site audit or media transformation, with an explicit timeout and output contract."
+        },
+        {
+          "title": "Connect to and manage Sandboxes from the dashboard",
+          "url": "https://vercel.com/changelog/connect-to-and-manage-sandboxes-from-the-dashboard",
+          "source_type": "release",
+          "published_or_updated": "2026-07-23",
+          "why_selected": "The dashboard can now open a terminal into a running Sandbox, browse files, transfer files, inspect ports, snapshot, stop, and resume persistent sandboxes.",
+          "usefulness": "Add an operator inspection step for agent runs that produce deployable files or need incident triage."
+        },
+        {
+          "title": "Vercel WAF for Blob is now in beta",
+          "url": "https://vercel.com/changelog/vercel-waf-for-blob-is-now-in-beta",
+          "source_type": "release",
+          "published_or_updated": "2026-07-24",
+          "why_selected": "Vercel can apply deny, challenge, rate-limit, redirect, and log rules at the edge for Blob stores without changing blob URLs or application code.",
+          "usefulness": "Protect client downloads, generated reports, and expensive media endpoints before transfer occurs."
+        }
+      ]
+    },
+    {
+      "slug": "delegated-work-intake",
+      "title": "Delegated Work Intake",
+      "selection_rationale": "This fills a coverage gap between agent capability and portfolio coordination: the fresh signal is not another coding model, but a clearer handoff from a work item to a supervised draft PR.",
+      "sources": [
+        {
+          "title": "Copilot cloud agent for Linear is now generally available",
+          "url": "https://github.blog/changelog/2026-07-23-copilot-cloud-agent-for-linear-is-now-generally-available",
+          "source_type": "release",
+          "published_or_updated": "2026-07-23",
+          "why_selected": "GitHub Copilot cloud agent can be assigned from Linear to work asynchronously in an ephemeral GitHub Actions environment, update the issue timeline, and open a draft pull request.",
+          "usefulness": "Pilot a low-risk maintenance issue where the acceptance criteria and repository are unambiguous."
+        },
+        {
+          "title": "AI Agents \u2014 Linear Docs",
+          "url": "https://linear.app/docs/agents-in-linear",
+          "source_type": "docs",
+          "published_or_updated": "2026-07-26",
+          "why_selected": "Linear keeps the human as primary assignee when work is delegated, supports team-scoped agent access, and records guidance with full history.",
+          "usefulness": "Use workspace guidance for universal delivery rules and team guidance for repository, review, and client conventions."
+        },
+        {
+          "title": "Multi-select fields for Projects and Issues in public preview",
+          "url": "https://github.blog/changelog/2026-07-23-multi-select-fields-for-projects-and-issues-in-public-preview",
+          "source_type": "release",
+          "published_or_updated": "2026-07-23",
+          "why_selected": "GitHub Projects and Issue fields can now hold multiple values, enabling one item to be tagged by several teams, modules, or work categories.",
+          "usefulness": "Model client impact, workstream, risk, and agent eligibility without forcing a single category."
+        }
+      ]
+    },
+    {
+      "slug": "consented-personal-context",
+      "title": "Consented Personal Context",
+      "selection_rationale": "A personal-leverage lane earns inclusion because a new consumer health connector makes selective, revocable context a concrete product pattern\u2014not merely a privacy principle.",
+      "sources": [
+        {
+          "title": "Launching Health in ChatGPT",
+          "url": "https://openai.com/index/health-in-chatgpt/",
+          "source_type": "product",
+          "published_or_updated": "2026-07-23",
+          "why_selected": "OpenAI is rolling out Health in ChatGPT to logged-in U.S. adults on web and iOS, with permissioned connections to Apple Health and supported medical records.",
+          "usefulness": "For personal use, turn a complex appointment or lab-result review into a question-preparation workflow while retaining the source record and clinician as authority."
+        },
+        {
+          "title": "View health records in Health on iPhone",
+          "url": "https://support.apple.com/en-us/HT208680",
+          "source_type": "docs",
+          "published_or_updated": "2026-07-26",
+          "why_selected": "Apple Health downloads records from participating providers to iPhone; sharing can be category-specific and limited to current records rather than future updates.",
+          "usefulness": "Use the current-versus-future sharing distinction as a design cue for client consent flows involving sensitive data."
+        },
+        {
+          "title": "Health and fitness apps \u2014 Apple Developer",
+          "url": "https://developer.apple.com/health-fitness/",
+          "source_type": "docs",
+          "published_or_updated": "2026-07-26",
+          "why_selected": "Apple describes HealthKit as a permissioned repository and asks apps to clearly explain intended use when requesting health, motion, or location data.",
+          "usefulness": "Apply the same request-by-request explanation to Buildn prototypes that handle identity, financial, or customer-sensitive context."
+        }
+      ]
+    }
+  ]
+}

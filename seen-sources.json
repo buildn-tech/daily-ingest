@@ -1,6 +1,51 @@
 {
-  "updated_at": "2026-07-25T08:05:18.258644+00:00",
+  "updated_at": "2026-07-26T08:06:25.831330+00:00",
   "sources": {
+    "https://vercel.com/changelog/workflow-steps-now-support-extended-function-durations": {
+      "first_seen": "2026-07-26",
+      "last_seen": "2026-07-26",
+      "title": "Workflow steps now support extended function durations"
+    },
+    "https://vercel.com/changelog/connect-to-and-manage-sandboxes-from-the-dashboard": {
+      "first_seen": "2026-07-26",
+      "last_seen": "2026-07-26",
+      "title": "Connect to and manage Sandboxes from the dashboard"
+    },
+    "https://vercel.com/changelog/vercel-waf-for-blob-is-now-in-beta": {
+      "first_seen": "2026-07-26",
+      "last_seen": "2026-07-26",
+      "title": "Vercel WAF for Blob is now in beta"
+    },
+    "https://github.blog/changelog/2026-07-23-copilot-cloud-agent-for-linear-is-now-generally-available": {
+      "first_seen": "2026-07-26",
+      "last_seen": "2026-07-26",
+      "title": "Copilot cloud agent for Linear is now generally available"
+    },
+    "https://linear.app/docs/agents-in-linear": {
+      "first_seen": "2026-07-26",
+      "last_seen": "2026-07-26",
+      "title": "AI Agents \u2014 Linear Docs"
+    },
+    "https://github.blog/changelog/2026-07-23-multi-select-fields-for-projects-and-issues-in-public-preview": {
+      "first_seen": "2026-07-26",
+      "last_seen": "2026-07-26",
+      "title": "Multi-select fields for Projects and Issues in public preview"
+    },
+    "https://openai.com/index/health-in-chatgpt": {
+      "first_seen": "2026-07-26",
+      "last_seen": "2026-07-26",
+      "title": "Launching Health in ChatGPT"
+    },
+    "https://support.apple.com/en-us/HT208680": {
+      "first_seen": "2026-07-26",
+      "last_seen": "2026-07-26",
+      "title": "View health records in Health on iPhone"
+    },
+    "https://developer.apple.com/health-fitness": {
+      "first_seen": "2026-07-26",
+      "last_seen": "2026-07-26",
+      "title": "Health and fitness apps \u2014 Apple Developer"
+    },
     "https://www.anthropic.com/news/claude-opus-5": {
       "first_seen": "2026-07-25",
       "last_seen": "2026-07-25",
