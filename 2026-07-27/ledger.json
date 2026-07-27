@@ -1,0 +1,100 @@
+{
+  "date": "2026-07-27",
+  "generated_at": "2026-07-27T08:00:53+00:00",
+  "editorial_thesis": "The practical opportunity is not autonomous scale by itself: use new model, workflow, and design capability through small pilots with explicit evaluation, cost, and review boundaries.",
+  "topic_groups": [
+    {
+      "slug": "open-model-evaluation",
+      "title": "Open Models + Evaluation",
+      "selection_rationale": "Fresh primary-source releases in an under-covered practical lane; selected for a bounded Buildn or client-work experiment.",
+      "sources": [
+        {
+          "title": "Kimi K3 quickstart",
+          "url": "https://platform.kimi.ai/docs/guide/kimi-k3-quickstart",
+          "source_type": "docs",
+          "published_or_updated": "2026-07-27",
+          "why_selected": "Full weights are scheduled today; OpenAI-compatible access makes a bounded comparison practical.",
+          "usefulness": "Compare long-context quality under sandboxed, read-only tooling."
+        },
+        {
+          "title": "UK AISI / CAISI preliminary cyber assessment",
+          "url": "https://www.nist.gov/news-events/news/2026/07/uk-aisi-caisi-preliminary-assessment-kimi-k3s-cyber-capabilities",
+          "source_type": "paper",
+          "published_or_updated": "2026-07-23",
+          "why_selected": "Independent public assessment supplies a concrete capability-and-safeguard risk signal.",
+          "usefulness": "Set policy boundaries before agentic coding use."
+        },
+        {
+          "title": "Kimi K3 technical release",
+          "url": "https://openlm.ai/kimi-k3/",
+          "source_type": "blog",
+          "published_or_updated": "2026-07-17",
+          "why_selected": "Technical serving detail distinguishes a real pilot from premature self-hosting.",
+          "usefulness": "Use managed access before a hosting decision."
+        }
+      ]
+    },
+    {
+      "slug": "agent-economics",
+      "title": "Agent Economics + Spend Visibility",
+      "selection_rationale": "Fresh primary-source releases in an under-covered practical lane; selected for a bounded Buildn or client-work experiment.",
+      "sources": [
+        {
+          "title": "Workers, now in your Notion credits dashboard",
+          "url": "https://www.notion.com/releases/2026-07-24",
+          "source_type": "release",
+          "published_or_updated": "2026-07-24",
+          "why_selected": "Worker usage is now visible before beta pricing changes.",
+          "usefulness": "Establish per-workflow value and spend baselines."
+        },
+        {
+          "title": "Budget alerts now on by default for Pay-as-you-go accounts",
+          "url": "https://developers.cloudflare.com/changelog/post/2026-06-15-budget-alerts-default-on/",
+          "source_type": "release",
+          "published_or_updated": "2026-07-20",
+          "why_selected": "Default alert behavior is a timely reminder that notifications are not ceilings.",
+          "usefulness": "Add explicit budget owners and cutoffs."
+        },
+        {
+          "title": "Cloudflare changelog",
+          "url": "https://developers.cloudflare.com/changelog/",
+          "source_type": "docs",
+          "published_or_updated": "2026-07-20",
+          "why_selected": "Current storage monitoring expands the observability surface for persistent workflows.",
+          "usefulness": "Review retention and storage trend for stateful agents."
+        }
+      ]
+    },
+    {
+      "slug": "design-to-production",
+      "title": "Design-to-Production Collaboration",
+      "selection_rationale": "Fresh primary-source releases in an under-covered practical lane; selected for a bounded Buildn or client-work experiment.",
+      "sources": [
+        {
+          "title": "Workflow Lab: Deploying Designs Directly with Figma Make",
+          "url": "https://www.figma.com/blog/workflow-lab-deploying-designs-directly-with-figma-make/",
+          "source_type": "blog",
+          "published_or_updated": "2026-07-16",
+          "why_selected": "It supplies a concrete branch-to-PR pattern for small high-craft fixes.",
+          "usefulness": "Pilot one reviewed accessibility refinement."
+        },
+        {
+          "title": "GPT-5.6 is now available in Figma Make",
+          "url": "https://www.figma.com/blog/gpt-5-6-is-now-available-in-figma-make/",
+          "source_type": "release",
+          "published_or_updated": "2026-07-09",
+          "why_selected": "A new model option can shorten prototype iteration when evaluated against real briefs.",
+          "usefulness": "Measure fidelity and review defects, not demos."
+        },
+        {
+          "title": "Figma\u2019s design agent: custom tools, context, and reusable skills",
+          "url": "https://www.figma.com/blog/agent-custom-tools-context-skills/",
+          "source_type": "blog",
+          "published_or_updated": "2026-06-24",
+          "why_selected": "It adds reusable context and Skills to the design surface.",
+          "usefulness": "Codify one governed client-audit skill."
+        }
+      ]
+    }
+  ]
+}

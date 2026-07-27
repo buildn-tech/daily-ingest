@@ -1,6 +1,27 @@
 {
-  "updated_at": "2026-07-26T08:06:25.831330+00:00",
+  "updated_at": "2026-07-27T08:05:47.562079+00:00",
   "days": [
+    {
+      "date": "2026-07-27",
+      "path": "2026-07-27",
+      "reports": [
+        {
+          "lane": "open-model-evaluation",
+          "title": "Open Models + Evaluation",
+          "url": "2026-07-27/open-model-evaluation.html"
+        },
+        {
+          "lane": "agent-economics",
+          "title": "Agent Economics + Spend Visibility",
+          "url": "2026-07-27/agent-economics.html"
+        },
+        {
+          "lane": "design-to-production",
+          "title": "Design-to-Production Collaboration",
+          "url": "2026-07-27/design-to-production.html"
+        }
+      ]
+    },
     {
       "date": "2026-07-26",
       "path": "2026-07-26",

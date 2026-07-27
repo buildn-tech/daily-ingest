@@ -1,6 +1,51 @@
 {
-  "updated_at": "2026-07-26T08:06:25.831330+00:00",
+  "updated_at": "2026-07-27T08:05:47.562079+00:00",
   "sources": {
+    "https://platform.kimi.ai/docs/guide/kimi-k3-quickstart": {
+      "first_seen": "2026-07-27",
+      "last_seen": "2026-07-27",
+      "title": "Kimi K3 quickstart"
+    },
+    "https://www.nist.gov/news-events/news/2026/07/uk-aisi-caisi-preliminary-assessment-kimi-k3s-cyber-capabilities": {
+      "first_seen": "2026-07-27",
+      "last_seen": "2026-07-27",
+      "title": "UK AISI / CAISI preliminary cyber assessment"
+    },
+    "https://openlm.ai/kimi-k3": {
+      "first_seen": "2026-07-27",
+      "last_seen": "2026-07-27",
+      "title": "Kimi K3 technical release"
+    },
+    "https://www.notion.com/releases/2026-07-24": {
+      "first_seen": "2026-07-27",
+      "last_seen": "2026-07-27",
+      "title": "Workers, now in your Notion credits dashboard"
+    },
+    "https://developers.cloudflare.com/changelog/post/2026-06-15-budget-alerts-default-on": {
+      "first_seen": "2026-07-27",
+      "last_seen": "2026-07-27",
+      "title": "Budget alerts now on by default for Pay-as-you-go accounts"
+    },
+    "https://developers.cloudflare.com/changelog": {
+      "first_seen": "2026-07-27",
+      "last_seen": "2026-07-27",
+      "title": "Cloudflare changelog"
+    },
+    "https://www.figma.com/blog/workflow-lab-deploying-designs-directly-with-figma-make": {
+      "first_seen": "2026-07-27",
+      "last_seen": "2026-07-20",
+      "title": "Workflow Lab: Deploying Designs Directly with Figma Make"
+    },
+    "https://www.figma.com/blog/gpt-5-6-is-now-available-in-figma-make": {
+      "first_seen": "2026-07-27",
+      "last_seen": "2026-07-14",
+      "title": "GPT-5.6 now in Figma Make"
+    },
+    "https://www.figma.com/blog/agent-custom-tools-context-skills": {
+      "first_seen": "2026-07-27",
+      "last_seen": "2026-07-27",
+      "title": "Figma\u2019s design agent: custom tools, context, and reusable skills"
+    },
     "https://vercel.com/changelog/workflow-steps-now-support-extended-function-durations": {
       "first_seen": "2026-07-26",
       "last_seen": "2026-07-26",
@@ -265,11 +310,6 @@
       "first_seen": "2026-07-20",
       "last_seen": "2026-07-20",
       "title": "How to manage AI investments in the agentic era"
-    },
-    "https://www.figma.com/blog/workflow-lab-deploying-designs-directly-with-figma-make": {
-      "first_seen": "2026-07-20",
-      "last_seen": "2026-07-20",
-      "title": "Workflow Lab: Deploying Designs Directly with Figma Make"
     },
     "https://www.protopie.io/support/releases": {
       "first_seen": "2026-07-20",
@@ -595,11 +635,6 @@
       "first_seen": "2026-07-14",
       "last_seen": "2026-07-14",
       "title": "Figma AI SaaS Website Builder"
-    },
-    "https://www.figma.com/blog/gpt-5-6-is-now-available-in-figma-make": {
-      "first_seen": "2026-07-14",
-      "last_seen": "2026-07-14",
-      "title": "GPT-5.6 now in Figma Make"
     },
     "https://arxiv.org/abs/2607.01224": {
       "first_seen": "2026-07-14",

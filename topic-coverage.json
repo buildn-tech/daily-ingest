@@ -202,6 +202,21 @@
       "title": "Consented Personal Context",
       "times_covered": 1,
       "last_covered": "2026-07-26"
+    },
+    "open-model-evaluation": {
+      "title": "Open Models + Evaluation",
+      "times_covered": 1,
+      "last_covered": "2026-07-27"
+    },
+    "agent-economics": {
+      "title": "Agent Economics + Spend Visibility",
+      "times_covered": 1,
+      "last_covered": "2026-07-27"
+    },
+    "design-to-production": {
+      "title": "Design-to-Production Collaboration",
+      "times_covered": 1,
+      "last_covered": "2026-07-27"
     }
   },
   "item_history": [
@@ -2076,6 +2091,78 @@
       "url": "https://developer.apple.com/health-fitness/",
       "source_type": "docs",
       "selection_rationale": "Apple describes HealthKit as a permissioned repository and asks apps to clearly explain intended use when requesting health, motion, or location data."
+    },
+    {
+      "date": "2026-07-27",
+      "lane": "open-model-evaluation",
+      "title": "Kimi K3 quickstart",
+      "url": "https://platform.kimi.ai/docs/guide/kimi-k3-quickstart",
+      "source_type": "docs",
+      "selection_rationale": "Full weights are scheduled today; OpenAI-compatible access makes a bounded comparison practical."
+    },
+    {
+      "date": "2026-07-27",
+      "lane": "open-model-evaluation",
+      "title": "UK AISI / CAISI preliminary cyber assessment",
+      "url": "https://www.nist.gov/news-events/news/2026/07/uk-aisi-caisi-preliminary-assessment-kimi-k3s-cyber-capabilities",
+      "source_type": "paper",
+      "selection_rationale": "Independent public assessment supplies a concrete capability-and-safeguard risk signal."
+    },
+    {
+      "date": "2026-07-27",
+      "lane": "open-model-evaluation",
+      "title": "Kimi K3 technical release",
+      "url": "https://openlm.ai/kimi-k3/",
+      "source_type": "blog",
+      "selection_rationale": "Technical serving detail distinguishes a real pilot from premature self-hosting."
+    },
+    {
+      "date": "2026-07-27",
+      "lane": "agent-economics",
+      "title": "Workers, now in your Notion credits dashboard",
+      "url": "https://www.notion.com/releases/2026-07-24",
+      "source_type": "release",
+      "selection_rationale": "Worker usage is now visible before beta pricing changes."
+    },
+    {
+      "date": "2026-07-27",
+      "lane": "agent-economics",
+      "title": "Budget alerts now on by default for Pay-as-you-go accounts",
+      "url": "https://developers.cloudflare.com/changelog/post/2026-06-15-budget-alerts-default-on/",
+      "source_type": "release",
+      "selection_rationale": "Default alert behavior is a timely reminder that notifications are not ceilings."
+    },
+    {
+      "date": "2026-07-27",
+      "lane": "agent-economics",
+      "title": "Cloudflare changelog",
+      "url": "https://developers.cloudflare.com/changelog/",
+      "source_type": "docs",
+      "selection_rationale": "Current storage monitoring expands the observability surface for persistent workflows."
+    },
+    {
+      "date": "2026-07-27",
+      "lane": "design-to-production",
+      "title": "Workflow Lab: Deploying Designs Directly with Figma Make",
+      "url": "https://www.figma.com/blog/workflow-lab-deploying-designs-directly-with-figma-make/",
+      "source_type": "blog",
+      "selection_rationale": "It supplies a concrete branch-to-PR pattern for small high-craft fixes."
+    },
+    {
+      "date": "2026-07-27",
+      "lane": "design-to-production",
+      "title": "GPT-5.6 is now available in Figma Make",
+      "url": "https://www.figma.com/blog/gpt-5-6-is-now-available-in-figma-make/",
+      "source_type": "release",
+      "selection_rationale": "A new model option can shorten prototype iteration when evaluated against real briefs."
+    },
+    {
+      "date": "2026-07-27",
+      "lane": "design-to-production",
+      "title": "Figma\u2019s design agent: custom tools, context, and reusable skills",
+      "url": "https://www.figma.com/blog/agent-custom-tools-context-skills/",
+      "source_type": "blog",
+      "selection_rationale": "It adds reusable context and Skills to the design surface."
     }
   ],
   "runs": [
@@ -2187,29 +2274,50 @@
         }
       ],
       "editorial_thesis": "The strongest current signal is operational: expanded agent capacity must be paired with visible runtime boundaries, accountable work intake, and narrowly consented context."
+    },
+    {
+      "date": "2026-07-27",
+      "selected_lanes": [
+        {
+          "slug": "open-model-evaluation",
+          "title": "Open Models + Evaluation",
+          "selection_rationale": "Fresh primary-source releases in an under-covered practical lane; selected for a bounded Buildn or client-work experiment."
+        },
+        {
+          "slug": "agent-economics",
+          "title": "Agent Economics + Spend Visibility",
+          "selection_rationale": "Fresh primary-source releases in an under-covered practical lane; selected for a bounded Buildn or client-work experiment."
+        },
+        {
+          "slug": "design-to-production",
+          "title": "Design-to-Production Collaboration",
+          "selection_rationale": "Fresh primary-source releases in an under-covered practical lane; selected for a bounded Buildn or client-work experiment."
+        }
+      ],
+      "editorial_thesis": "The practical opportunity is not autonomous scale by itself: use new model, workflow, and design capability through small pilots with explicit evaluation, cost, and review boundaries."
     }
   ],
-  "updated_at": "2026-07-26T08:06:21.123645+00:00",
+  "updated_at": "2026-07-27T08:00:53+00:00",
   "last_run": {
-    "date": "2026-07-26",
+    "date": "2026-07-27",
     "selected_lanes": [
       {
-        "slug": "bounded-execution-and-artifact-access",
-        "title": "Bounded Execution + Artifact Access",
-        "selection_rationale": "This is a deliberately narrow operational lane: recent coverage examined agent authority, while these releases expose the runtime, time, and stored-output boundaries an operator must now govern."
+        "slug": "open-model-evaluation",
+        "title": "Open Models + Evaluation",
+        "selection_rationale": "Fresh primary-source releases in an under-covered practical lane; selected for a bounded Buildn or client-work experiment."
       },
       {
-        "slug": "delegated-work-intake",
-        "title": "Delegated Work Intake",
-        "selection_rationale": "This fills a coverage gap between agent capability and portfolio coordination: the fresh signal is not another coding model, but a clearer handoff from a work item to a supervised draft PR."
+        "slug": "agent-economics",
+        "title": "Agent Economics + Spend Visibility",
+        "selection_rationale": "Fresh primary-source releases in an under-covered practical lane; selected for a bounded Buildn or client-work experiment."
       },
       {
-        "slug": "consented-personal-context",
-        "title": "Consented Personal Context",
-        "selection_rationale": "A personal-leverage lane earns inclusion because a new consumer health connector makes selective, revocable context a concrete product pattern\u2014not merely a privacy principle."
+        "slug": "design-to-production",
+        "title": "Design-to-Production Collaboration",
+        "selection_rationale": "Fresh primary-source releases in an under-covered practical lane; selected for a bounded Buildn or client-work experiment."
       }
     ],
-    "editorial_thesis": "The strongest current signal is operational: expanded agent capacity must be paired with visible runtime boundaries, accountable work intake, and narrowly consented context."
+    "editorial_thesis": "The practical opportunity is not autonomous scale by itself: use new model, workflow, and design capability through small pilots with explicit evaluation, cost, and review boundaries."
   },
-  "last_editorial_thesis": "The strongest current signal is operational: expanded agent capacity must be paired with visible runtime boundaries, accountable work intake, and narrowly consented context."
+  "last_editorial_thesis": "The practical opportunity is not autonomous scale by itself: use new model, workflow, and design capability through small pilots with explicit evaluation, cost, and review boundaries."
 }
