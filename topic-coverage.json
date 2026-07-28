@@ -217,6 +217,21 @@
       "title": "Design-to-Production Collaboration",
       "times_covered": 1,
       "last_covered": "2026-07-27"
+    },
+    "stateless-mcp-migration": {
+      "title": "Stateless MCP Migration",
+      "times_covered": 1,
+      "last_covered": "2026-07-28"
+    },
+    "residency-and-realtime-agents": {
+      "title": "Residency + Real-time Agent Transport",
+      "times_covered": 1,
+      "last_covered": "2026-07-28"
+    },
+    "evidence-first-agent-memory": {
+      "title": "Evidence-first Agent Memory",
+      "times_covered": 1,
+      "last_covered": "2026-07-28"
     }
   },
   "item_history": [
@@ -2297,27 +2312,94 @@
       "editorial_thesis": "The practical opportunity is not autonomous scale by itself: use new model, workflow, and design capability through small pilots with explicit evaluation, cost, and review boundaries."
     }
   ],
-  "updated_at": "2026-07-27T08:00:53+00:00",
+  "updated_at": "2026-07-28T08:05:42.037633+00:00",
   "last_run": {
-    "date": "2026-07-27",
+    "date": "2026-07-28",
     "selected_lanes": [
       {
-        "slug": "open-model-evaluation",
-        "title": "Open Models + Evaluation",
-        "selection_rationale": "Fresh primary-source releases in an under-covered practical lane; selected for a bounded Buildn or client-work experiment."
+        "slug": "stateless-mcp-migration",
+        "title": "Stateless MCP Migration",
+        "selection_rationale": "Fresh primary releases or research in a coverage gap; selected for a bounded, inspectable operational experiment."
       },
       {
-        "slug": "agent-economics",
-        "title": "Agent Economics + Spend Visibility",
-        "selection_rationale": "Fresh primary-source releases in an under-covered practical lane; selected for a bounded Buildn or client-work experiment."
+        "slug": "residency-and-realtime-agents",
+        "title": "Residency + Real-time Agent Transport",
+        "selection_rationale": "Fresh primary releases or research in a coverage gap; selected for a bounded, inspectable operational experiment."
       },
       {
-        "slug": "design-to-production",
-        "title": "Design-to-Production Collaboration",
-        "selection_rationale": "Fresh primary-source releases in an under-covered practical lane; selected for a bounded Buildn or client-work experiment."
+        "slug": "evidence-first-agent-memory",
+        "title": "Evidence-first Agent Memory",
+        "selection_rationale": "Fresh primary releases or research in a coverage gap; selected for a bounded, inspectable operational experiment."
       }
     ],
-    "editorial_thesis": "The practical opportunity is not autonomous scale by itself: use new model, workflow, and design capability through small pilots with explicit evaluation, cost, and review boundaries."
+    "editorial_thesis": "The day\u2019s leverage is operational evidence: make protocol state explicit, verify where requests run, and make agent memory and research support inspectable before action."
   },
-  "last_editorial_thesis": "The practical opportunity is not autonomous scale by itself: use new model, workflow, and design capability through small pilots with explicit evaluation, cost, and review boundaries."
+  "last_editorial_thesis": "The day\u2019s leverage is operational evidence: make protocol state explicit, verify where requests run, and make agent memory and research support inspectable before action.",
+  "coverage_history": [
+    {
+      "date": "2026-07-28",
+      "selected_lanes": [
+        {
+          "slug": "stateless-mcp-migration",
+          "title": "Stateless MCP Migration",
+          "selection_rationale": "Fresh primary releases or research in a coverage gap; selected for a bounded, inspectable operational experiment."
+        },
+        {
+          "slug": "residency-and-realtime-agents",
+          "title": "Residency + Real-time Agent Transport",
+          "selection_rationale": "Fresh primary releases or research in a coverage gap; selected for a bounded, inspectable operational experiment."
+        },
+        {
+          "slug": "evidence-first-agent-memory",
+          "title": "Evidence-first Agent Memory",
+          "selection_rationale": "Fresh primary releases or research in a coverage gap; selected for a bounded, inspectable operational experiment."
+        }
+      ],
+      "items": [
+        {
+          "lane": "stateless-mcp-migration",
+          "title": "MCP 2026-07-28 release candidate",
+          "url": "https://blog.modelcontextprotocol.io/posts/2026-07-28-release-candidate/",
+          "source_type": "release",
+          "selection_rationale": "The protocol revision changes how remote tool servers scale, route, cache, and request user input."
+        },
+        {
+          "lane": "stateless-mcp-migration",
+          "title": "Cloudflare Agents SDK v0.20.0",
+          "url": "https://developers.cloudflare.com/changelog/post/2026-07-27-agents-sdk-v0.20.0-mcp-sdk-v2/",
+          "source_type": "release",
+          "selection_rationale": "It turns the protocol change into a deployable migration pattern: factory handler, fallback, and parallel legacy support."
+        },
+        {
+          "lane": "residency-and-realtime-agents",
+          "title": "Regional inference on AI Gateway",
+          "url": "https://vercel.com/changelog/regional-inference-now-available-on-ai-gateway",
+          "source_type": "release",
+          "selection_rationale": "It converts an informal residency promise into a request-level control that can be logged and checked."
+        },
+        {
+          "lane": "residency-and-realtime-agents",
+          "title": "WebSocket mode for OpenAI Responses API",
+          "url": "https://vercel.com/changelog/websocket-support-for-openai-responses-api-live-on-ai-gateway",
+          "source_type": "release",
+          "selection_rationale": "Long tool-call rollouts can reduce repeated context transfer and improve interactive latency."
+        },
+        {
+          "lane": "evidence-first-agent-memory",
+          "title": "MemChain: interpretable memory traces",
+          "url": "https://arxiv.org/abs/2607.24097",
+          "source_type": "paper",
+          "selection_rationale": "It makes the intermediate evidence context inspectable rather than treating raw retrieval as ready-to-use truth."
+        },
+        {
+          "lane": "evidence-first-agent-memory",
+          "title": "EviBack: evidence-constrained teacher backoff",
+          "url": "https://arxiv.org/abs/2607.23955",
+          "source_type": "paper",
+          "selection_rationale": "The separation guards against a polished answer being mistaken for an adequately supported one."
+        }
+      ],
+      "editorial_thesis": "The day\u2019s leverage is operational evidence: make protocol state explicit, verify where requests run, and make agent memory and research support inspectable before action."
+    }
+  ]
 }
