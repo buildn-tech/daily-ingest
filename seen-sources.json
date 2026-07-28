@@ -1,6 +1,36 @@
 {
-  "updated_at": "2026-07-27T08:05:47.562079+00:00",
+  "updated_at": "2026-07-28T08:05:14.207415+00:00",
   "sources": {
+    "https://blog.modelcontextprotocol.io/posts/2026-07-28-release-candidate": {
+      "first_seen": "2026-07-28",
+      "last_seen": "2026-07-28",
+      "title": "MCP 2026-07-28 release candidate"
+    },
+    "https://developers.cloudflare.com/changelog/post/2026-07-27-agents-sdk-v0.20.0-mcp-sdk-v2": {
+      "first_seen": "2026-07-28",
+      "last_seen": "2026-07-28",
+      "title": "Cloudflare Agents SDK v0.20.0"
+    },
+    "https://vercel.com/changelog/regional-inference-now-available-on-ai-gateway": {
+      "first_seen": "2026-07-28",
+      "last_seen": "2026-07-28",
+      "title": "Regional inference on AI Gateway"
+    },
+    "https://vercel.com/changelog/websocket-support-for-openai-responses-api-live-on-ai-gateway": {
+      "first_seen": "2026-07-28",
+      "last_seen": "2026-07-28",
+      "title": "WebSocket mode for OpenAI Responses API"
+    },
+    "https://arxiv.org/abs/2607.24097": {
+      "first_seen": "2026-07-28",
+      "last_seen": "2026-07-28",
+      "title": "MemChain: interpretable memory traces"
+    },
+    "https://arxiv.org/abs/2607.23955": {
+      "first_seen": "2026-07-28",
+      "last_seen": "2026-07-28",
+      "title": "EviBack: evidence-constrained teacher backoff"
+    },
     "https://platform.kimi.ai/docs/guide/kimi-k3-quickstart": {
       "first_seen": "2026-07-27",
       "last_seen": "2026-07-27",

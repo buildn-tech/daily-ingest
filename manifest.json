@@ -1,6 +1,27 @@
 {
-  "updated_at": "2026-07-27T08:05:47.562079+00:00",
+  "updated_at": "2026-07-28T08:05:14.207415+00:00",
   "days": [
+    {
+      "date": "2026-07-28",
+      "path": "2026-07-28",
+      "reports": [
+        {
+          "lane": "stateless-mcp-migration",
+          "title": "Stateless MCP Migration",
+          "url": "2026-07-28/stateless-mcp-migration.html"
+        },
+        {
+          "lane": "residency-and-realtime-agents",
+          "title": "Residency + Real-time Agent Transport",
+          "url": "2026-07-28/residency-and-realtime-agents.html"
+        },
+        {
+          "lane": "evidence-first-agent-memory",
+          "title": "Evidence-first Agent Memory",
+          "url": "2026-07-28/evidence-first-agent-memory.html"
+        }
+      ]
+    },
     {
       "date": "2026-07-27",
       "path": "2026-07-27",

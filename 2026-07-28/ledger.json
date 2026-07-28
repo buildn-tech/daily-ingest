@@ -1,0 +1,76 @@
+{
+  "date": "2026-07-28",
+  "generated_at": "2026-07-28T08:05:13.305768+00:00",
+  "editorial_thesis": "The day\u2019s leverage is operational evidence: make protocol state explicit, verify where requests run, and make agent memory and research support inspectable before action.",
+  "topic_groups": [
+    {
+      "slug": "stateless-mcp-migration",
+      "title": "Stateless MCP Migration",
+      "selection_rationale": "Fresh primary releases or research in a coverage gap; selected for a bounded, inspectable operational experiment.",
+      "sources": [
+        {
+          "title": "MCP 2026-07-28 release candidate",
+          "url": "https://blog.modelcontextprotocol.io/posts/2026-07-28-release-candidate/",
+          "source_type": "release",
+          "published_or_updated": "2026-07-28",
+          "why_selected": "The protocol revision changes how remote tool servers scale, route, cache, and request user input.",
+          "usefulness": "Audit Buildn MCP servers for hidden session dependence; model durable state as explicit IDs."
+        },
+        {
+          "title": "Cloudflare Agents SDK v0.20.0",
+          "url": "https://developers.cloudflare.com/changelog/post/2026-07-27-agents-sdk-v0.20.0-mcp-sdk-v2/",
+          "source_type": "release",
+          "published_or_updated": "2026-07-27",
+          "why_selected": "It turns the protocol change into a deployable migration pattern: factory handler, fallback, and parallel legacy support.",
+          "usefulness": "Use the handler pattern as a reference for Workers-hosted client tools."
+        }
+      ]
+    },
+    {
+      "slug": "residency-and-realtime-agents",
+      "title": "Residency + Real-time Agent Transport",
+      "selection_rationale": "Fresh primary releases or research in a coverage gap; selected for a bounded, inspectable operational experiment.",
+      "sources": [
+        {
+          "title": "Regional inference on AI Gateway",
+          "url": "https://vercel.com/changelog/regional-inference-now-available-on-ai-gateway",
+          "source_type": "release",
+          "published_or_updated": "2026-07-27",
+          "why_selected": "It converts an informal residency promise into a request-level control that can be logged and checked.",
+          "usefulness": "Build a region assertion into client workflows handling residency-sensitive briefs."
+        },
+        {
+          "title": "WebSocket mode for OpenAI Responses API",
+          "url": "https://vercel.com/changelog/websocket-support-for-openai-responses-api-live-on-ai-gateway",
+          "source_type": "release",
+          "published_or_updated": "2026-07-27",
+          "why_selected": "Long tool-call rollouts can reduce repeated context transfer and improve interactive latency.",
+          "usefulness": "Benchmark a supervised, multi-tool client workflow against current HTTP behavior."
+        }
+      ]
+    },
+    {
+      "slug": "evidence-first-agent-memory",
+      "title": "Evidence-first Agent Memory",
+      "selection_rationale": "Fresh primary releases or research in a coverage gap; selected for a bounded, inspectable operational experiment.",
+      "sources": [
+        {
+          "title": "MemChain: interpretable memory traces",
+          "url": "https://arxiv.org/abs/2607.24097",
+          "source_type": "paper",
+          "published_or_updated": "2026-07-27",
+          "why_selected": "It makes the intermediate evidence context inspectable rather than treating raw retrieval as ready-to-use truth.",
+          "usefulness": "Adopt the artifact pattern: plan, selected evidence, conflicts, and final answer."
+        },
+        {
+          "title": "EviBack: evidence-constrained teacher backoff",
+          "url": "https://arxiv.org/abs/2607.23955",
+          "source_type": "paper",
+          "published_or_updated": "2026-07-27",
+          "why_selected": "The separation guards against a polished answer being mistaken for an adequately supported one.",
+          "usefulness": "Use an evidence-sufficiency gate before drafting client-facing research claims."
+        }
+      ]
+    }
+  ]
+}
