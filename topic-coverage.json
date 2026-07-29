@@ -232,6 +232,21 @@
       "title": "Evidence-first Agent Memory",
       "times_covered": 1,
       "last_covered": "2026-07-28"
+    },
+    "supply-chain-defensive-defaults": {
+      "title": "Supply-chain Defensive Defaults",
+      "times_covered": 1,
+      "last_covered": "2026-07-29"
+    },
+    "human-checkpoints-browser-agents": {
+      "title": "Human Checkpoints for Browser Agents",
+      "times_covered": 1,
+      "last_covered": "2026-07-29"
+    },
+    "governed-model-choice": {
+      "title": "Governed Model Choice + Adoption Evidence",
+      "times_covered": 1,
+      "last_covered": "2026-07-29"
     }
   },
   "item_history": [
@@ -2178,6 +2193,78 @@
       "url": "https://www.figma.com/blog/agent-custom-tools-context-skills/",
       "source_type": "blog",
       "selection_rationale": "It adds reusable context and Skills to the design surface."
+    },
+    {
+      "date": "2026-07-29",
+      "lane": "supply-chain-defensive-defaults",
+      "title": "GitHub Actions holds potentially malicious workflows for approval",
+      "url": "https://github.blog/changelog/2026-07-28-github-actions-holds-potentially-malicious-workflows-for-approval/",
+      "source_type": "release",
+      "selection_rationale": "Stops a compromised credential from immediately turning a workflow change into CI-secret theft."
+    },
+    {
+      "date": "2026-07-29",
+      "lane": "supply-chain-defensive-defaults",
+      "title": "npm publish-time malware scanning and dual-use metadata",
+      "url": "https://github.blog/changelog/2026-07-28-npm-publish-time-malware-scanning-and-dual-use-metadata/",
+      "source_type": "release",
+      "selection_rationale": "Release pipelines that immediately install a just-published package now have a real availability dependency."
+    },
+    {
+      "date": "2026-07-29",
+      "lane": "supply-chain-defensive-defaults",
+      "title": "Dependabot alerts on malicious packages across more ecosystems",
+      "url": "https://github.blog/changelog/2026-07-28-dependabot-alerts-on-malicious-packages-across-more-ecosystems/",
+      "source_type": "release",
+      "selection_rationale": "Detection coverage broadens beyond one registry and converts community malware intelligence into repository alerts."
+    },
+    {
+      "date": "2026-07-29",
+      "lane": "human-checkpoints-browser-agents",
+      "title": "Browser Run adds structured handoff for Human in the Loop",
+      "url": "https://developers.cloudflare.com/changelog/post/2026-07-28-human-in-the-loop/",
+      "source_type": "release",
+      "selection_rationale": "Login walls and unexpected prompts become named workflow states rather than silent browser-run failures."
+    },
+    {
+      "date": "2026-07-29",
+      "lane": "human-checkpoints-browser-agents",
+      "title": "Cloudflare MCP servers support the MCP 2026-07-28 Specification",
+      "url": "https://developers.cloudflare.com/changelog/post/2026-07-28-cloudflare-mcp-servers-mcp-2026-07-28/",
+      "source_type": "release",
+      "selection_rationale": "Explicit state and transport reduce hidden continuity assumptions around agent tool sessions."
+    },
+    {
+      "date": "2026-07-29",
+      "lane": "human-checkpoints-browser-agents",
+      "title": "Introducing Loops",
+      "url": "https://linear.app/changelog/2026-07-20-introducing-loops",
+      "source_type": "product",
+      "selection_rationale": "It is a useful operating reference: recurring agent work needs visible instructions, configuration, and traceable outcomes."
+    },
+    {
+      "date": "2026-07-29",
+      "lane": "governed-model-choice",
+      "title": "Grok 4.5 is now available in GitHub Copilot",
+      "url": "https://github.blog/changelog/2026-07-28-grok-4-5-is-now-available-in-github-copilot/",
+      "source_type": "release",
+      "selection_rationale": "A candidate model is available inside existing PR, audit, and policy controls\u2014useful for a bounded comparison, not blanket rollout."
+    },
+    {
+      "date": "2026-07-29",
+      "lane": "governed-model-choice",
+      "title": "GitHub Copilot app usage metrics now expand across report rollups",
+      "url": "https://github.blog/changelog/2026-07-28-github-copilot-app-usage-metrics-now-expand-across-report-rollups",
+      "source_type": "release",
+      "selection_rationale": "It closes an attribution gap: model experiments can be evaluated by workflow surface rather than license count alone."
+    },
+    {
+      "date": "2026-07-29",
+      "lane": "governed-model-choice",
+      "title": "Manage GitHub Copilot app access with a dedicated policy",
+      "url": "https://github.blog/changelog/2026-07-27-manage-github-copilot-app-access-with-a-dedicated-policy",
+      "source_type": "release",
+      "selection_rationale": "Separate client policy enables a smaller experiment surface while retaining central plugin and audit controls."
     }
   ],
   "runs": [
@@ -2312,7 +2399,7 @@
       "editorial_thesis": "The practical opportunity is not autonomous scale by itself: use new model, workflow, and design capability through small pilots with explicit evaluation, cost, and review boundaries."
     }
   ],
-  "updated_at": "2026-07-28T08:05:42.037633+00:00",
+  "updated_at": "2026-07-29T08:05:41.642230+00:00",
   "last_run": {
     "date": "2026-07-28",
     "selected_lanes": [
@@ -2334,7 +2421,7 @@
     ],
     "editorial_thesis": "The day\u2019s leverage is operational evidence: make protocol state explicit, verify where requests run, and make agent memory and research support inspectable before action."
   },
-  "last_editorial_thesis": "The day\u2019s leverage is operational evidence: make protocol state explicit, verify where requests run, and make agent memory and research support inspectable before action.",
+  "last_editorial_thesis": "Make automation earn trust at its boundaries: stop suspicious code before CI, pause browser agents for people, and measure model choices inside governed clients.",
   "coverage_history": [
     {
       "date": "2026-07-28",
