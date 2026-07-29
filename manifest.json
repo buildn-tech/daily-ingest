@@ -1,6 +1,27 @@
 {
-  "updated_at": "2026-07-28T08:05:14.207415+00:00",
+  "updated_at": "2026-07-29T08:05:22.652651+00:00",
   "days": [
+    {
+      "date": "2026-07-29",
+      "path": "2026-07-29",
+      "reports": [
+        {
+          "lane": "supply-chain-defensive-defaults",
+          "title": "Supply-chain Defensive Defaults",
+          "url": "2026-07-29/supply-chain-defensive-defaults.html"
+        },
+        {
+          "lane": "human-checkpoints-browser-agents",
+          "title": "Human Checkpoints for Browser Agents",
+          "url": "2026-07-29/human-checkpoints-browser-agents.html"
+        },
+        {
+          "lane": "governed-model-choice",
+          "title": "Governed Model Choice + Adoption Evidence",
+          "url": "2026-07-29/governed-model-choice.html"
+        }
+      ]
+    },
     {
       "date": "2026-07-28",
       "path": "2026-07-28",

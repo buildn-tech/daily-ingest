@@ -1,0 +1,100 @@
+{
+  "date": "2026-07-29",
+  "generated_at": "2026-07-29T08:05:13.462534+00:00",
+  "editorial_thesis": "Make automation earn trust at its boundaries: stop suspicious code before CI, pause browser agents for people, and measure model choices inside governed clients.",
+  "topic_groups": [
+    {
+      "slug": "supply-chain-defensive-defaults",
+      "title": "Supply-chain Defensive Defaults",
+      "selection_rationale": "A clustered July 28 release set changes the default posture at publish, dependency, and CI execution time; it is a meaningful, fresh security-operating signal and a coverage gap since the July 23 runtime patch sweep.",
+      "sources": [
+        {
+          "title": "GitHub Actions holds potentially malicious workflows for approval",
+          "url": "https://github.blog/changelog/2026-07-28-github-actions-holds-potentially-malicious-workflows-for-approval/",
+          "source_type": "release",
+          "published_or_updated": "2026-07-28",
+          "why_selected": "Stops a compromised credential from immediately turning a workflow change into CI-secret theft.",
+          "usefulness": "Enable least-privilege Actions tokens; review held runs through an incident playbook."
+        },
+        {
+          "title": "npm publish-time malware scanning and dual-use metadata",
+          "url": "https://github.blog/changelog/2026-07-28-npm-publish-time-malware-scanning-and-dual-use-metadata/",
+          "source_type": "release",
+          "published_or_updated": "2026-07-28",
+          "why_selected": "Release pipelines that immediately install a just-published package now have a real availability dependency.",
+          "usefulness": "Make package smoke tests retry-aware; use trusted publishing for client packages."
+        },
+        {
+          "title": "Dependabot alerts on malicious packages across more ecosystems",
+          "url": "https://github.blog/changelog/2026-07-28-dependabot-alerts-on-malicious-packages-across-more-ecosystems/",
+          "source_type": "release",
+          "published_or_updated": "2026-07-28",
+          "why_selected": "Detection coverage broadens beyond one registry and converts community malware intelligence into repository alerts.",
+          "usefulness": "Confirm Dependabot malware alerts at organization level; route alerts into the same triage queue as vulnerabilities."
+        }
+      ]
+    },
+    {
+      "slug": "human-checkpoints-browser-agents",
+      "title": "Human Checkpoints for Browser Agents",
+      "selection_rationale": "Browser agents are moving from brittle manual intervention to explicit pause-and-resume contracts, a practical control gap distinct from yesterday\u2019s protocol and memory coverage.",
+      "sources": [
+        {
+          "title": "Browser Run adds structured handoff for Human in the Loop",
+          "url": "https://developers.cloudflare.com/changelog/post/2026-07-28-human-in-the-loop/",
+          "source_type": "release",
+          "published_or_updated": "2026-07-28",
+          "why_selected": "Login walls and unexpected prompts become named workflow states rather than silent browser-run failures.",
+          "usefulness": "Use for supervised intake, vendor portals, and authenticated client research where credentials never enter the agent prompt."
+        },
+        {
+          "title": "Cloudflare MCP servers support the MCP 2026-07-28 Specification",
+          "url": "https://developers.cloudflare.com/changelog/post/2026-07-28-cloudflare-mcp-servers-mcp-2026-07-28/",
+          "source_type": "release",
+          "published_or_updated": "2026-07-28",
+          "why_selected": "Explicit state and transport reduce hidden continuity assumptions around agent tool sessions.",
+          "usefulness": "Use /mcp for new connections and test reconnect behavior in client tool chains."
+        },
+        {
+          "title": "Introducing Loops",
+          "url": "https://linear.app/changelog/2026-07-20-introducing-loops",
+          "source_type": "product",
+          "published_or_updated": "2026-07-20",
+          "why_selected": "It is a useful operating reference: recurring agent work needs visible instructions, configuration, and traceable outcomes.",
+          "usefulness": "Apply the pattern to weekly client-status drafts or issue triage\u2014review before dispatching code work."
+        }
+      ]
+    },
+    {
+      "slug": "governed-model-choice",
+      "title": "Governed Model Choice + Adoption Evidence",
+      "selection_rationale": "The Copilot surface now couples a new selectable reasoning model with client-specific policy and richer attribution, creating an actionable model-evaluation loop rather than another model announcement.",
+      "sources": [
+        {
+          "title": "Grok 4.5 is now available in GitHub Copilot",
+          "url": "https://github.blog/changelog/2026-07-28-grok-4-5-is-now-available-in-github-copilot/",
+          "source_type": "release",
+          "published_or_updated": "2026-07-28",
+          "why_selected": "A candidate model is available inside existing PR, audit, and policy controls\u2014useful for a bounded comparison, not blanket rollout.",
+          "usefulness": "Run a fixed set of exploration and terminal tasks; compare completed work, review burden, latency, and spend."
+        },
+        {
+          "title": "GitHub Copilot app usage metrics now expand across report rollups",
+          "url": "https://github.blog/changelog/2026-07-28-github-copilot-app-usage-metrics-now-expand-across-report-rollups",
+          "source_type": "release",
+          "published_or_updated": "2026-07-28",
+          "why_selected": "It closes an attribution gap: model experiments can be evaluated by workflow surface rather than license count alone.",
+          "usefulness": "Track an opt-in pilot against a baseline and pair the API with PR-quality review."
+        },
+        {
+          "title": "Manage GitHub Copilot app access with a dedicated policy",
+          "url": "https://github.blog/changelog/2026-07-27-manage-github-copilot-app-access-with-a-dedicated-policy",
+          "source_type": "release",
+          "published_or_updated": "2026-07-27",
+          "why_selected": "Separate client policy enables a smaller experiment surface while retaining central plugin and audit controls.",
+          "usefulness": "Enable only the client needed for the pilot; keep review, checks, and audit history mandatory."
+        }
+      ]
+    }
+  ]
+}

@@ -1,6 +1,51 @@
 {
-  "updated_at": "2026-07-28T08:05:14.207415+00:00",
+  "updated_at": "2026-07-29T08:05:22.652651+00:00",
   "sources": {
+    "https://github.blog/changelog/2026-07-28-github-actions-holds-potentially-malicious-workflows-for-approval": {
+      "first_seen": "2026-07-29",
+      "last_seen": "2026-07-29",
+      "title": "GitHub Actions holds potentially malicious workflows for approval"
+    },
+    "https://github.blog/changelog/2026-07-28-npm-publish-time-malware-scanning-and-dual-use-metadata": {
+      "first_seen": "2026-07-29",
+      "last_seen": "2026-07-29",
+      "title": "npm publish-time malware scanning and dual-use metadata"
+    },
+    "https://github.blog/changelog/2026-07-28-dependabot-alerts-on-malicious-packages-across-more-ecosystems": {
+      "first_seen": "2026-07-29",
+      "last_seen": "2026-07-29",
+      "title": "Dependabot alerts on malicious packages across more ecosystems"
+    },
+    "https://developers.cloudflare.com/changelog/post/2026-07-28-human-in-the-loop": {
+      "first_seen": "2026-07-29",
+      "last_seen": "2026-07-29",
+      "title": "Browser Run adds structured handoff for Human in the Loop"
+    },
+    "https://developers.cloudflare.com/changelog/post/2026-07-28-cloudflare-mcp-servers-mcp-2026-07-28": {
+      "first_seen": "2026-07-29",
+      "last_seen": "2026-07-29",
+      "title": "Cloudflare MCP servers support the MCP 2026-07-28 Specification"
+    },
+    "https://linear.app/changelog/2026-07-20-introducing-loops": {
+      "first_seen": "2026-07-29",
+      "last_seen": "2026-07-29",
+      "title": "Introducing Loops"
+    },
+    "https://github.blog/changelog/2026-07-28-grok-4-5-is-now-available-in-github-copilot": {
+      "first_seen": "2026-07-29",
+      "last_seen": "2026-07-29",
+      "title": "Grok 4.5 is now available in GitHub Copilot"
+    },
+    "https://github.blog/changelog/2026-07-28-github-copilot-app-usage-metrics-now-expand-across-report-rollups": {
+      "first_seen": "2026-07-29",
+      "last_seen": "2026-07-29",
+      "title": "GitHub Copilot app usage metrics now expand across report rollups"
+    },
+    "https://github.blog/changelog/2026-07-27-manage-github-copilot-app-access-with-a-dedicated-policy": {
+      "first_seen": "2026-07-29",
+      "last_seen": "2026-07-29",
+      "title": "Manage GitHub Copilot app access with a dedicated policy"
+    },
     "https://blog.modelcontextprotocol.io/posts/2026-07-28-release-candidate": {
       "first_seen": "2026-07-28",
       "last_seen": "2026-07-28",
