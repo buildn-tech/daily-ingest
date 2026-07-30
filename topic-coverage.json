@@ -247,6 +247,21 @@
       "title": "Governed Model Choice + Adoption Evidence",
       "times_covered": 1,
       "last_covered": "2026-07-29"
+    },
+    "grounded-retrieval-framework-bridges": {
+      "title": "Grounded Retrieval Framework Bridges",
+      "times_covered": 1,
+      "last_covered": "2026-07-30"
+    },
+    "review-context-and-code-scanning": {
+      "title": "Review Context + Code Scanning",
+      "times_covered": 1,
+      "last_covered": "2026-07-30"
+    },
+    "realtime-client-interfaces": {
+      "title": "Realtime Client Interfaces",
+      "times_covered": 1,
+      "last_covered": "2026-07-30"
     }
   },
   "item_history": [
@@ -2265,6 +2280,78 @@
       "url": "https://github.blog/changelog/2026-07-27-manage-github-copilot-app-access-with-a-dedicated-policy",
       "source_type": "release",
       "selection_rationale": "Separate client policy enables a smaller experiment surface while retaining central plugin and audit controls."
+    },
+    {
+      "date": "2026-07-30",
+      "theme": "grounded-retrieval-framework-bridges",
+      "title": "Use AI Search with the Agents SDK, AI SDK, and LangChain",
+      "url": "https://developers.cloudflare.com/changelog/post/2026-07-30-ai-search-agent-sdks/",
+      "source_type": "release",
+      "selection_rationale": "Today\u2019s release makes Cloudflare AI Search directly usable from three popular agent frameworks."
+    },
+    {
+      "date": "2026-07-30",
+      "theme": "grounded-retrieval-framework-bridges",
+      "title": "AI Search + Vercel AI SDK guide",
+      "url": "https://developers.cloudflare.com/ai-search/agent-sdks/ai-sdk/",
+      "source_type": "docs",
+      "selection_rationale": "Shows AI Search as a chat model and as a callable search tool within AI SDK flows."
+    },
+    {
+      "date": "2026-07-30",
+      "theme": "grounded-retrieval-framework-bridges",
+      "title": "AI Search + LangChain guide",
+      "url": "https://developers.cloudflare.com/ai-search/agent-sdks/langchain/",
+      "source_type": "docs",
+      "selection_rationale": "Introduces CloudflareAISearchRetriever and retriever-tool patterns."
+    },
+    {
+      "date": "2026-07-30",
+      "theme": "review-context-and-code-scanning",
+      "title": "Copilot code review: Agent skills and MCP now generally available",
+      "url": "https://github.blog/changelog/2026-07-29-copilot-code-review-agent-skills-and-mcp-now-generally-available/",
+      "source_type": "release",
+      "selection_rationale": "Agent skills and MCP connections are now GA in Copilot code review, with read-only tool calls and attribution."
+    },
+    {
+      "date": "2026-07-30",
+      "theme": "review-context-and-code-scanning",
+      "title": "CodeQL 2.26.1 improves analysis accuracy and framework coverage",
+      "url": "https://github.blog/changelog/2026-07-29-codeql-2-26-1-improves-analysis-accuracy-and-framework-coverage/",
+      "source_type": "release",
+      "selection_rationale": "New modeling improves Go, Java/Kotlin, JS/TS coverage and reduces Rust false positives."
+    },
+    {
+      "date": "2026-07-30",
+      "theme": "review-context-and-code-scanning",
+      "title": "Default model enablement for Copilot Business and Enterprise",
+      "url": "https://github.blog/changelog/2026-07-29-default-model-enablement-for-copilot-business-and-enterprise/",
+      "source_type": "release",
+      "selection_rationale": "A global policy can govern which generally available Copilot models are enabled."
+    },
+    {
+      "date": "2026-07-30",
+      "theme": "realtime-client-interfaces",
+      "title": "Grok Voice Think Fast 2.0 now available on AI Gateway",
+      "url": "https://vercel.com/changelog/grok-voice-think-fast-2-0-now-available-on-ai-gateway",
+      "source_type": "release",
+      "selection_rationale": "A speech-to-speech model is exposed through a gateway with routing, observability, spend controls, and failover."
+    },
+    {
+      "date": "2026-07-30",
+      "theme": "realtime-client-interfaces",
+      "title": "AI Gateway adds unified fast mode support",
+      "url": "https://vercel.com/changelog/ai-gateway-adds-unified-fast-mode-support",
+      "source_type": "release",
+      "selection_rationale": "Fast serving can be requested on a base model with fallback to standard routing."
+    },
+    {
+      "date": "2026-07-30",
+      "theme": "realtime-client-interfaces",
+      "title": "Realtime voice, speech, and transcription now supported on AI Gateway",
+      "url": "https://vercel.com/changelog/realtime-voice-speech-and-transcription-now-supported-on-ai-gateway",
+      "source_type": "release",
+      "selection_rationale": "The gateway\u2019s realtime surface supports voice, speech generation, and transcription through a common API."
     }
   ],
   "runs": [
@@ -2399,7 +2486,7 @@
       "editorial_thesis": "The practical opportunity is not autonomous scale by itself: use new model, workflow, and design capability through small pilots with explicit evaluation, cost, and review boundaries."
     }
   ],
-  "updated_at": "2026-07-29T08:05:41.642230+00:00",
+  "updated_at": "2026-07-30T08:06:50.853467+00:00",
   "last_run": {
     "date": "2026-07-28",
     "selected_lanes": [

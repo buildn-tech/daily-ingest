@@ -1,0 +1,100 @@
+{
+  "date": "2026-07-30",
+  "generated_at": "2026-07-30T08:06:50.853467+00:00",
+  "editorial_thesis": "Use newly native agent interfaces to make client-facing intelligence more grounded, code review more context-aware, and interactive assistance more measurable.",
+  "topic_groups": [
+    {
+      "slug": "grounded-retrieval-framework-bridges",
+      "title": "Grounded Retrieval Framework Bridges",
+      "sources": [
+        {
+          "title": "Use AI Search with the Agents SDK, AI SDK, and LangChain",
+          "url": "https://developers.cloudflare.com/changelog/post/2026-07-30-ai-search-agent-sdks/",
+          "source_type": "release",
+          "published_or_updated": "2026-07-30",
+          "why_selected": "Today\u2019s release makes Cloudflare AI Search directly usable from three popular agent frameworks.",
+          "usefulness": "A portable path to cited retrieval without hand-writing REST integration."
+        },
+        {
+          "title": "AI Search + Vercel AI SDK guide",
+          "url": "https://developers.cloudflare.com/ai-search/agent-sdks/ai-sdk/",
+          "source_type": "docs",
+          "published_or_updated": "2026-07-30",
+          "why_selected": "Shows AI Search as a chat model and as a callable search tool within AI SDK flows.",
+          "usefulness": "Prototype a client knowledge assistant while keeping citations in the response path."
+        },
+        {
+          "title": "AI Search + LangChain guide",
+          "url": "https://developers.cloudflare.com/ai-search/agent-sdks/langchain/",
+          "source_type": "docs",
+          "published_or_updated": "2026-07-30",
+          "why_selected": "Introduces CloudflareAISearchRetriever and retriever-tool patterns.",
+          "usefulness": "Useful where existing client workflows already use LangChain retrieval chains."
+        }
+      ],
+      "selection_rationale": "Cloudflare shipped first-party AI Search guides for three agent ecosystems today. This is a practical coverage gap: retrieval can now sit behind the same framework interfaces used for Buildn and client agents, with sources returned to the calling workflow."
+    },
+    {
+      "slug": "review-context-and-code-scanning",
+      "title": "Review Context + Code Scanning",
+      "sources": [
+        {
+          "title": "Copilot code review: Agent skills and MCP now generally available",
+          "url": "https://github.blog/changelog/2026-07-29-copilot-code-review-agent-skills-and-mcp-now-generally-available/",
+          "source_type": "release",
+          "published_or_updated": "2026-07-29",
+          "why_selected": "Agent skills and MCP connections are now GA in Copilot code review, with read-only tool calls and attribution.",
+          "usefulness": "Turn client-specific review standards into a visible, auditable PR control."
+        },
+        {
+          "title": "CodeQL 2.26.1 improves analysis accuracy and framework coverage",
+          "url": "https://github.blog/changelog/2026-07-29-codeql-2-26-1-improves-analysis-accuracy-and-framework-coverage/",
+          "source_type": "release",
+          "published_or_updated": "2026-07-29",
+          "why_selected": "New modeling improves Go, Java/Kotlin, JS/TS coverage and reduces Rust false positives.",
+          "usefulness": "Directs teams to inspect new SSRF and origin-check findings rather than treating upgrades as background noise."
+        },
+        {
+          "title": "Default model enablement for Copilot Business and Enterprise",
+          "url": "https://github.blog/changelog/2026-07-29-default-model-enablement-for-copilot-business-and-enterprise/",
+          "source_type": "release",
+          "published_or_updated": "2026-07-29",
+          "why_selected": "A global policy can govern which generally available Copilot models are enabled.",
+          "usefulness": "Keeps model availability separate from repository review controls and pilot policy."
+        }
+      ],
+      "selection_rationale": "GitHub\u2019s July 29 releases make code review more context-aware while improving static-analysis coverage. The material update is GA support for skills and read-only MCP in review, distinct from yesterday\u2019s supply-chain prevention coverage."
+    },
+    {
+      "slug": "realtime-client-interfaces",
+      "title": "Realtime Client Interfaces",
+      "sources": [
+        {
+          "title": "Grok Voice Think Fast 2.0 now available on AI Gateway",
+          "url": "https://vercel.com/changelog/grok-voice-think-fast-2-0-now-available-on-ai-gateway",
+          "source_type": "release",
+          "published_or_updated": "2026-07-29",
+          "why_selected": "A speech-to-speech model is exposed through a gateway with routing, observability, spend controls, and failover.",
+          "usefulness": "A bounded way to test voice intake or client-facing assistance without shipping provider keys to browsers."
+        },
+        {
+          "title": "AI Gateway adds unified fast mode support",
+          "url": "https://vercel.com/changelog/ai-gateway-adds-unified-fast-mode-support",
+          "source_type": "release",
+          "published_or_updated": "2026-07-29",
+          "why_selected": "Fast serving can be requested on a base model with fallback to standard routing.",
+          "usefulness": "Lets an operator measure whether responsiveness is worth its per-token premium by workflow class."
+        },
+        {
+          "title": "Realtime voice, speech, and transcription now supported on AI Gateway",
+          "url": "https://vercel.com/changelog/realtime-voice-speech-and-transcription-now-supported-on-ai-gateway",
+          "source_type": "release",
+          "published_or_updated": "2026-07-29",
+          "why_selected": "The gateway\u2019s realtime surface supports voice, speech generation, and transcription through a common API.",
+          "usefulness": "Supports a controlled comparison of voice intake, transcription, and text fallback in one product prototype."
+        }
+      ],
+      "selection_rationale": "Two July 29 Vercel releases make low-latency agent interaction easier to route and instrument: a speech-to-speech model via a gateway and provider-neutral fast mode. This opens a client-experience lane that has been under-covered relative to back-office agents."
+    }
+  ]
+}

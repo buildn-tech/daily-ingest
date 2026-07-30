@@ -1,6 +1,51 @@
 {
-  "updated_at": "2026-07-29T08:05:22.652651+00:00",
+  "updated_at": "2026-07-30T08:08:29.479165+00:00",
   "sources": {
+    "https://developers.cloudflare.com/changelog/post/2026-07-30-ai-search-agent-sdks": {
+      "first_seen": "2026-07-30",
+      "last_seen": "2026-07-30",
+      "title": "Use AI Search with the Agents SDK, AI SDK, and LangChain"
+    },
+    "https://developers.cloudflare.com/ai-search/agent-sdks/ai-sdk": {
+      "first_seen": "2026-07-30",
+      "last_seen": "2026-07-30",
+      "title": "AI Search + Vercel AI SDK guide"
+    },
+    "https://developers.cloudflare.com/ai-search/agent-sdks/langchain": {
+      "first_seen": "2026-07-30",
+      "last_seen": "2026-07-30",
+      "title": "AI Search + LangChain guide"
+    },
+    "https://github.blog/changelog/2026-07-29-copilot-code-review-agent-skills-and-mcp-now-generally-available": {
+      "first_seen": "2026-07-30",
+      "last_seen": "2026-07-30",
+      "title": "Copilot code review: Agent skills and MCP now generally available"
+    },
+    "https://github.blog/changelog/2026-07-29-codeql-2-26-1-improves-analysis-accuracy-and-framework-coverage": {
+      "first_seen": "2026-07-30",
+      "last_seen": "2026-07-30",
+      "title": "CodeQL 2.26.1 improves analysis accuracy and framework coverage"
+    },
+    "https://github.blog/changelog/2026-07-29-default-model-enablement-for-copilot-business-and-enterprise": {
+      "first_seen": "2026-07-30",
+      "last_seen": "2026-07-30",
+      "title": "Default model enablement for Copilot Business and Enterprise"
+    },
+    "https://vercel.com/changelog/grok-voice-think-fast-2-0-now-available-on-ai-gateway": {
+      "first_seen": "2026-07-30",
+      "last_seen": "2026-07-30",
+      "title": "Grok Voice Think Fast 2.0 now available on AI Gateway"
+    },
+    "https://vercel.com/changelog/ai-gateway-adds-unified-fast-mode-support": {
+      "first_seen": "2026-07-30",
+      "last_seen": "2026-07-30",
+      "title": "AI Gateway adds unified fast mode support"
+    },
+    "https://vercel.com/changelog/realtime-voice-speech-and-transcription-now-supported-on-ai-gateway": {
+      "first_seen": "2026-07-30",
+      "last_seen": "2026-07-30",
+      "title": "Realtime voice, speech, and transcription now supported on AI Gateway"
+    },
     "https://github.blog/changelog/2026-07-28-github-actions-holds-potentially-malicious-workflows-for-approval": {
       "first_seen": "2026-07-29",
       "last_seen": "2026-07-29",
