@@ -1,0 +1,99 @@
+{
+  "date": "2026-07-31",
+  "generated_at": "2026-07-31T08:06:51.289520+00:00",
+  "editorial_thesis": "Fresh platform changes favor a disciplined operating loop: route work by economics, keep delegated delivery reviewable, turn visual feedback into staged code change, and pin the build assumptions underneath it.",
+  "topic_groups": [
+    {
+      "slug": "agent-routing-economics",
+      "title": "Agent Routing Economics",
+      "selection_rationale": "A same-day OpenAI price and latency update materially changes the economics of high-volume agent work; this is a concrete update to the model-choice lane covered July 29, not a repeat of its earlier policy framing.",
+      "sources": [
+        {
+          "title": "Advancing the price-performance frontier with GPT-5.6",
+          "url": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6/",
+          "source_type": "product",
+          "published_or_updated": "2026-07-30",
+          "why_selected": "OpenAI cut Luna API pricing by 80% and Terra by 20%, while introducing Sol Fast mode at a stated 2\u00d7 price for up to 2.5\u00d7 speed.",
+          "usefulness": "Makes a measured task-tier routing pilot cheaper to run and easier to justify."
+        },
+        {
+          "title": "GPT-5.6: Frontier intelligence that scales with your ambition",
+          "url": "https://openai.com/index/gpt-5-6/",
+          "source_type": "product",
+          "published_or_updated": "2026-07-30 update",
+          "why_selected": "The product page defines the family roles and the Responses API tool-calling context for the pricing change.",
+          "usefulness": "Supplies a practical division of labor for planning, execution, testing, and evaluation."
+        }
+      ]
+    },
+    {
+      "slug": "reviewable-delegated-delivery",
+      "title": "Reviewable Delegated Delivery",
+      "selection_rationale": "GitHub stacks and Linear\u2019s new review/coding-session surfaces are fresh, complementary delivery controls. The lane deliberately shifts from last week\u2019s agent governance toward the human review bottleneck created by parallel implementation.",
+      "sources": [
+        {
+          "title": "Stacked pull requests are now in public preview",
+          "url": "https://github.blog/changelog/2026-07-30-stacked-pull-requests-are-now-in-public-preview/",
+          "source_type": "release",
+          "published_or_updated": "2026-07-30",
+          "why_selected": "GitHub now supports dependency-ordered PR layers that retain existing checks and branch protections.",
+          "usefulness": "Lets an agent or developer land a large feature as small independently reviewable units."
+        },
+        {
+          "title": "Coding sessions on mobile",
+          "url": "https://linear.app/changelog/2026-07-30-coding-sessions-on-mobile",
+          "source_type": "release",
+          "published_or_updated": "2026-07-30",
+          "why_selected": "Linear adds mobile session steering, GA Guided Reviews, GitHub-team review assignment, and signed commits for coding sessions.",
+          "usefulness": "Makes delegated implementation visible and steerable without turning mobile access into blind approval."
+        }
+      ]
+    },
+    {
+      "slug": "visual-design-to-code-feedback",
+      "title": "Visual Design-to-Code Feedback",
+      "selection_rationale": "Figma Make\u2019s July 30 properties panel and canvas annotations are a material delivery update after the July 27 design-production coverage: edits can now be staged visually and applied to underlying code with targeted context.",
+      "sources": [
+        {
+          "title": "A Properties Panel and Annotations, Now in Figma Make",
+          "url": "https://www.figma.com/blog/properties-panel-and-annotations-now-in-figma-make/",
+          "source_type": "product",
+          "published_or_updated": "2026-07-30",
+          "why_selected": "Figma Make adds direct visual property editing and marked-canvas instructions that apply to underlying code.",
+          "usefulness": "Offers a lower-ambiguity way to turn client feedback into staged, inspectable implementation changes."
+        }
+      ]
+    },
+    {
+      "slug": "reproducible-build-boundaries",
+      "title": "Reproducible Build Boundaries",
+      "selection_rationale": "Two July 30 platform changes expose build assumptions that are usually implicit: Cloudflare changed its default Node runtime, while GitHub added a same-commit reference for internal Actions. This is a practical infrastructure lane absent from recent coverage.",
+      "sources": [
+        {
+          "title": "Node.js 24 is now the default for Workers Builds",
+          "url": "https://developers.cloudflare.com/changelog/post/2026-07-30-workers-builds-nodejs-24/",
+          "source_type": "release",
+          "published_or_updated": "2026-07-30",
+          "why_selected": "Workers Builds now defaults to Node.js 24.18.0, with 22.23.2 and 24.18.0 preinstalled.",
+          "usefulness": "Prompts an immediate audit of projects that rely on an unpinned Cloudflare build runtime."
+        },
+        {
+          "title": "Reference same-repository actions with self-repository syntax",
+          "url": "https://github.blog/changelog/2026-07-30-reference-same-repository-actions-with-self-repository-syntax/",
+          "source_type": "release",
+          "published_or_updated": "2026-07-30",
+          "why_selected": "The new $/ syntax resolves an internal action or reusable workflow at the executing commit, without checkout.",
+          "usefulness": "Keeps internal CI composition aligned with full-SHA-pinning policy and avoids path/check-out coupling."
+        },
+        {
+          "title": "Using pre-written building blocks in your workflow",
+          "url": "https://docs.github.com/actions/how-tos/write-workflows/choose-what-workflows-do/find-and-customize-actions",
+          "source_type": "docs",
+          "published_or_updated": "2026-07-30",
+          "why_selected": "Official documentation specifies $/ as the recommended same-repository syntax and records GHES limits.",
+          "usefulness": "Provides the migration reference and the important portability caveat."
+        }
+      ]
+    }
+  ]
+}

@@ -1,6 +1,46 @@
 {
-  "updated_at": "2026-07-30T08:08:29.479165+00:00",
+  "updated_at": "2026-07-31T08:06:51.512601+00:00",
   "sources": {
+    "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6": {
+      "first_seen": "2026-07-31",
+      "last_seen": "2026-07-31",
+      "title": "Advancing the price-performance frontier with GPT-5.6"
+    },
+    "https://openai.com/index/gpt-5-6": {
+      "first_seen": "2026-07-31",
+      "last_seen": "2026-07-15",
+      "title": "GPT-5.6 programmatic tool calling"
+    },
+    "https://github.blog/changelog/2026-07-30-stacked-pull-requests-are-now-in-public-preview": {
+      "first_seen": "2026-07-31",
+      "last_seen": "2026-07-31",
+      "title": "Stacked pull requests are now in public preview"
+    },
+    "https://linear.app/changelog/2026-07-30-coding-sessions-on-mobile": {
+      "first_seen": "2026-07-31",
+      "last_seen": "2026-07-31",
+      "title": "Coding sessions on mobile"
+    },
+    "https://www.figma.com/blog/properties-panel-and-annotations-now-in-figma-make": {
+      "first_seen": "2026-07-31",
+      "last_seen": "2026-07-31",
+      "title": "A Properties Panel and Annotations, Now in Figma Make"
+    },
+    "https://developers.cloudflare.com/changelog/post/2026-07-30-workers-builds-nodejs-24": {
+      "first_seen": "2026-07-31",
+      "last_seen": "2026-07-31",
+      "title": "Node.js 24 is now the default for Workers Builds"
+    },
+    "https://github.blog/changelog/2026-07-30-reference-same-repository-actions-with-self-repository-syntax": {
+      "first_seen": "2026-07-31",
+      "last_seen": "2026-07-31",
+      "title": "Reference same-repository actions with self-repository syntax"
+    },
+    "https://docs.github.com/actions/how-tos/write-workflows/choose-what-workflows-do/find-and-customize-actions": {
+      "first_seen": "2026-07-31",
+      "last_seen": "2026-07-31",
+      "title": "Using pre-written building blocks in your workflow"
+    },
     "https://developers.cloudflare.com/changelog/post/2026-07-30-ai-search-agent-sdks": {
       "first_seen": "2026-07-30",
       "last_seen": "2026-07-30",
@@ -670,11 +710,6 @@
       "first_seen": "2026-07-15",
       "last_seen": "2026-07-15",
       "title": "ChatGPT Work"
-    },
-    "https://openai.com/index/gpt-5-6": {
-      "first_seen": "2026-07-15",
-      "last_seen": "2026-07-15",
-      "title": "GPT-5.6 programmatic tool calling"
     },
     "https://openai.com/index/introducing-gpt-live": {
       "first_seen": "2026-07-15",
