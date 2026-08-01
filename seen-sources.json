@@ -1,6 +1,51 @@
 {
-  "updated_at": "2026-07-31T08:06:51.512601+00:00",
+  "updated_at": "2026-08-01T08:03:53.977518+00:00",
   "sources": {
+    "https://vercel.com/changelog/ai-gateway-spend-budgets-and-alerts": {
+      "first_seen": "2026-08-01",
+      "last_seen": "2026-08-01",
+      "title": "AI Gateway now supports team and project spend budgets"
+    },
+    "https://vercel.com/changelog/ai-gateway-logs": {
+      "first_seen": "2026-08-01",
+      "last_seen": "2026-08-01",
+      "title": "AI Gateway logs now have a dedicated page"
+    },
+    "https://vercel.com/changelog/deepseek-v4-flash-now-runs-updated-weights-on-ai-gateway": {
+      "first_seen": "2026-08-01",
+      "last_seen": "2026-08-01",
+      "title": "DeepSeek V4 Flash updated weights on AI Gateway"
+    },
+    "https://developers.cloudflare.com/changelog/post/2026-07-31-mcp-portal-manual-oauth": {
+      "first_seen": "2026-08-01",
+      "last_seen": "2026-08-01",
+      "title": "Static OAuth client credentials for MCP server portals"
+    },
+    "https://vercel.com/changelog/vercel-mcp-now-supports-the-2026-07-28-mcp-specification": {
+      "first_seen": "2026-08-01",
+      "last_seen": "2026-08-01",
+      "title": "Vercel MCP now supports the 2026-07-28 MCP specification"
+    },
+    "https://github.blog/changelog/2026-07-31-restricting-npm-bypass-2fa-granular-access-tokens": {
+      "first_seen": "2026-08-01",
+      "last_seen": "2026-08-01",
+      "title": "Restricting npm 2FA-bypass granular access tokens"
+    },
+    "https://docs.npmjs.com/trusted-publishers": {
+      "first_seen": "2026-08-01",
+      "last_seen": "2026-08-01",
+      "title": "npm trusted publishers documentation"
+    },
+    "https://arxiv.org/abs/2607.28591": {
+      "first_seen": "2026-08-01",
+      "last_seen": "2026-08-01",
+      "title": "Change2Task: From Repository Changes to Executable Coding Agent Tasks and Environments"
+    },
+    "https://arxiv.org/html/2607.28591v1": {
+      "first_seen": "2026-08-01",
+      "last_seen": "2026-08-01",
+      "title": "Change2Task experimental HTML and resources"
+    },
     "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6": {
       "first_seen": "2026-07-31",
       "last_seen": "2026-07-31",

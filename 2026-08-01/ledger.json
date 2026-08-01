@@ -1,0 +1,107 @@
+{
+  "date": "2026-08-01",
+  "generated_at": "2026-08-01T08:03:48.227628+00:00",
+  "editorial_thesis": "The strongest fresh signal is operational: constrain agent spend, bridge identity at MCP boundaries, retire publisher super-credentials, and refresh evaluation tasks from living repositories.",
+  "topic_groups": [
+    {
+      "slug": "enforced-agent-economics",
+      "title": "Enforced Agent Economics",
+      "selection_rationale": "Yesterday covered routing economics; today\u2019s material update is the control plane around it: hard team/project/key caps and request-level routing evidence turn an experiment into an operable service.",
+      "sources": [
+        {
+          "title": "AI Gateway now supports team and project spend budgets",
+          "url": "https://vercel.com/changelog/ai-gateway-spend-budgets-and-alerts",
+          "source_type": "release",
+          "published_or_updated": "2026-07-31",
+          "why_selected": "Moves cost control from after-the-fact reporting to enforced scope-level limits.",
+          "usefulness": "Give each client pilot a project ceiling and every agent key a smaller blast-radius cap."
+        },
+        {
+          "title": "AI Gateway logs now have a dedicated page",
+          "url": "https://vercel.com/changelog/ai-gateway-logs",
+          "source_type": "release",
+          "published_or_updated": "2026-07-30",
+          "why_selected": "A failed or expensive agent run can be explained by evidence rather than an aggregate bill.",
+          "usefulness": "Attach a filtered incident or client-run view to a delivery review; compare fallbacks before changing model policy."
+        },
+        {
+          "title": "DeepSeek V4 Flash updated weights on AI Gateway",
+          "url": "https://vercel.com/changelog/deepseek-v4-flash-now-runs-updated-weights-on-ai-gateway",
+          "source_type": "release",
+          "published_or_updated": "2026-07-31",
+          "why_selected": "A silent model-weight shift is exactly the kind of material change that needs a bounded, observable re-evaluation.",
+          "usefulness": "Run a fixed internal coding-task set before moving this route into a client or Buildn workflow."
+        }
+      ]
+    },
+    {
+      "slug": "mcp-identity-bridges",
+      "title": "MCP Identity Bridges",
+      "selection_rationale": "MCP portability was covered July 24 and stateless migration July 28; this is a specific interoperability unlock: connecting portals to SaaS MCP servers that do not implement dynamic client registration.",
+      "sources": [
+        {
+          "title": "Static OAuth client credentials for MCP server portals",
+          "url": "https://developers.cloudflare.com/changelog/post/2026-07-31-mcp-portal-manual-oauth/",
+          "source_type": "release",
+          "published_or_updated": "2026-07-31",
+          "why_selected": "It unlocks Slack and GitHub-style upstream MCP servers where Dynamic Client Registration is unavailable or disabled.",
+          "usefulness": "Publish a curated client-work portal without exposing raw upstream setup to every agent client."
+        },
+        {
+          "title": "Vercel MCP now supports the 2026-07-28 MCP specification",
+          "url": "https://vercel.com/changelog/vercel-mcp-now-supports-the-2026-07-28-mcp-specification",
+          "source_type": "release",
+          "published_or_updated": "2026-07-31",
+          "why_selected": "Compatibility across client generations reduces migration pressure, but authorization behavior still needs a deliberate test.",
+          "usefulness": "Keep a single deployment/control endpoint available to both current and lagging internal agent clients."
+        }
+      ]
+    },
+    {
+      "slug": "software-supply-chain-publishing",
+      "title": "Software Supply-Chain Publishing",
+      "selection_rationale": "Recent coverage examined package malware detection; this is a distinct publisher-side credential change with a January 2027 automation deadline.",
+      "sources": [
+        {
+          "title": "Restricting npm 2FA-bypass granular access tokens",
+          "url": "https://github.blog/changelog/2026-07-31-restricting-npm-bypass-2fa-granular-access-tokens/",
+          "source_type": "security release",
+          "published_or_updated": "2026-07-31",
+          "why_selected": "A leaked automation credential loses a set of account-takeover and package-control paths.",
+          "usefulness": "Audit Buildn/client publish secrets and separate administrative actions from release automation."
+        },
+        {
+          "title": "npm trusted publishers documentation",
+          "url": "https://docs.npmjs.com/trusted-publishers",
+          "source_type": "docs",
+          "published_or_updated": "2026-07-31",
+          "why_selected": "It is the intended replacement path before bypass-2FA tokens lose direct publishing, targeted for January 2027.",
+          "usefulness": "Migrate a low-risk package from stored registry token to CI workload identity."
+        }
+      ]
+    },
+    {
+      "slug": "living-agent-evaluation-data",
+      "title": "Living Agent Evaluation Data",
+      "selection_rationale": "Agentic review and model evaluation were covered recently, but this new paper offers a different practical asset: continuously reconstructing executable tasks from an organization\u2019s own merged PR history on healthy current bases.",
+      "sources": [
+        {
+          "title": "Change2Task: From Repository Changes to Executable Coding Agent Tasks and Environments",
+          "url": "https://arxiv.org/abs/2607.28591",
+          "source_type": "paper",
+          "published_or_updated": "2026-07-30",
+          "why_selected": "It tackles the expensive failure mode where historically real tasks no longer execute on obsolete repository states.",
+          "usefulness": "Prototype a Buildn evaluation corpus from merged client-safe PRs, with tests as acceptance evidence."
+        },
+        {
+          "title": "Change2Task experimental HTML and resources",
+          "url": "https://arxiv.org/html/2607.28591v1",
+          "source_type": "paper resource",
+          "published_or_updated": "2026-07-30",
+          "why_selected": "The numbers make a credible case for testing reconstruction before funding a manually curated benchmark program.",
+          "usefulness": "Use the lifecycle\u2014healthy base \u2192 task state \u2192 restored state\u2014as an acceptance contract for internal agent eval cases."
+        }
+      ]
+    }
+  ]
+}

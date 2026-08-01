@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-07-31T08:06:51.512601+00:00",
+  "updated_at": "2026-08-01T08:03:53.977518+00:00",
   "days": [
+    {
+      "date": "2026-08-01",
+      "path": "2026-08-01",
+      "reports": [
+        {
+          "lane": "enforced-agent-economics",
+          "title": "Enforced Agent Economics",
+          "url": "2026-08-01/enforced-agent-economics.html"
+        },
+        {
+          "lane": "mcp-identity-bridges",
+          "title": "MCP Identity Bridges",
+          "url": "2026-08-01/mcp-identity-bridges.html"
+        },
+        {
+          "lane": "software-supply-chain-publishing",
+          "title": "Software Supply-Chain Publishing",
+          "url": "2026-08-01/software-supply-chain-publishing.html"
+        },
+        {
+          "lane": "living-agent-evaluation-data",
+          "title": "Living Agent Evaluation Data",
+          "url": "2026-08-01/living-agent-evaluation-data.html"
+        }
+      ]
+    },
     {
       "date": "2026-07-31",
       "path": "2026-07-31",
