@@ -282,6 +282,26 @@
       "title": "Reproducible Build Boundaries",
       "times_covered": 1,
       "last_covered": "2026-07-31"
+    },
+    "enforced-agent-economics": {
+      "title": "Enforced Agent Economics",
+      "times_covered": 1,
+      "last_covered": "2026-08-01"
+    },
+    "mcp-identity-bridges": {
+      "title": "MCP Identity Bridges",
+      "times_covered": 1,
+      "last_covered": "2026-08-01"
+    },
+    "software-supply-chain-publishing": {
+      "title": "Software Supply-Chain Publishing",
+      "times_covered": 1,
+      "last_covered": "2026-08-01"
+    },
+    "living-agent-evaluation-data": {
+      "title": "Living Agent Evaluation Data",
+      "times_covered": 1,
+      "last_covered": "2026-08-01"
     }
   },
   "item_history": [
@@ -2436,6 +2456,78 @@
       "url": "https://docs.github.com/actions/how-tos/write-workflows/choose-what-workflows-do/find-and-customize-actions",
       "source_type": "docs",
       "selection_rationale": "Official documentation specifies $/ as the recommended same-repository syntax and records GHES limits."
+    },
+    {
+      "date": "2026-08-01",
+      "lane": "enforced-agent-economics",
+      "title": "AI Gateway now supports team and project spend budgets",
+      "url": "https://vercel.com/changelog/ai-gateway-spend-budgets-and-alerts",
+      "source_type": "release",
+      "selection_rationale": "Moves cost control from after-the-fact reporting to enforced scope-level limits."
+    },
+    {
+      "date": "2026-08-01",
+      "lane": "enforced-agent-economics",
+      "title": "AI Gateway logs now have a dedicated page",
+      "url": "https://vercel.com/changelog/ai-gateway-logs",
+      "source_type": "release",
+      "selection_rationale": "A failed or expensive agent run can be explained by evidence rather than an aggregate bill."
+    },
+    {
+      "date": "2026-08-01",
+      "lane": "enforced-agent-economics",
+      "title": "DeepSeek V4 Flash updated weights on AI Gateway",
+      "url": "https://vercel.com/changelog/deepseek-v4-flash-now-runs-updated-weights-on-ai-gateway",
+      "source_type": "release",
+      "selection_rationale": "A silent model-weight shift is exactly the kind of material change that needs a bounded, observable re-evaluation."
+    },
+    {
+      "date": "2026-08-01",
+      "lane": "mcp-identity-bridges",
+      "title": "Static OAuth client credentials for MCP server portals",
+      "url": "https://developers.cloudflare.com/changelog/post/2026-07-31-mcp-portal-manual-oauth/",
+      "source_type": "release",
+      "selection_rationale": "It unlocks Slack and GitHub-style upstream MCP servers where Dynamic Client Registration is unavailable or disabled."
+    },
+    {
+      "date": "2026-08-01",
+      "lane": "mcp-identity-bridges",
+      "title": "Vercel MCP now supports the 2026-07-28 MCP specification",
+      "url": "https://vercel.com/changelog/vercel-mcp-now-supports-the-2026-07-28-mcp-specification",
+      "source_type": "release",
+      "selection_rationale": "Compatibility across client generations reduces migration pressure, but authorization behavior still needs a deliberate test."
+    },
+    {
+      "date": "2026-08-01",
+      "lane": "software-supply-chain-publishing",
+      "title": "Restricting npm 2FA-bypass granular access tokens",
+      "url": "https://github.blog/changelog/2026-07-31-restricting-npm-bypass-2fa-granular-access-tokens/",
+      "source_type": "security release",
+      "selection_rationale": "A leaked automation credential loses a set of account-takeover and package-control paths."
+    },
+    {
+      "date": "2026-08-01",
+      "lane": "software-supply-chain-publishing",
+      "title": "npm trusted publishers documentation",
+      "url": "https://docs.npmjs.com/trusted-publishers",
+      "source_type": "docs",
+      "selection_rationale": "It is the intended replacement path before bypass-2FA tokens lose direct publishing, targeted for January 2027."
+    },
+    {
+      "date": "2026-08-01",
+      "lane": "living-agent-evaluation-data",
+      "title": "Change2Task: From Repository Changes to Executable Coding Agent Tasks and Environments",
+      "url": "https://arxiv.org/abs/2607.28591",
+      "source_type": "paper",
+      "selection_rationale": "It tackles the expensive failure mode where historically real tasks no longer execute on obsolete repository states."
+    },
+    {
+      "date": "2026-08-01",
+      "lane": "living-agent-evaluation-data",
+      "title": "Change2Task experimental HTML and resources",
+      "url": "https://arxiv.org/html/2607.28591v1",
+      "source_type": "paper resource",
+      "selection_rationale": "The numbers make a credible case for testing reconstruction before funding a manually curated benchmark program."
     }
   ],
   "runs": [
@@ -2570,7 +2662,7 @@
       "editorial_thesis": "The practical opportunity is not autonomous scale by itself: use new model, workflow, and design capability through small pilots with explicit evaluation, cost, and review boundaries."
     }
   ],
-  "updated_at": "2026-07-31T08:06:51.289520+00:00",
+  "updated_at": "2026-08-01T08:04:23.653775+00:00",
   "last_run": {
     "date": "2026-07-28",
     "selected_lanes": [
@@ -2592,7 +2684,7 @@
     ],
     "editorial_thesis": "The day\u2019s leverage is operational evidence: make protocol state explicit, verify where requests run, and make agent memory and research support inspectable before action."
   },
-  "last_editorial_thesis": "Make automation earn trust at its boundaries: stop suspicious code before CI, pause browser agents for people, and measure model choices inside governed clients.",
+  "last_editorial_thesis": "The strongest fresh signal is operational: constrain agent spend, bridge identity at MCP boundaries, retire publisher super-credentials, and refresh evaluation tasks from living repositories.",
   "coverage_history": [
     {
       "date": "2026-07-28",
