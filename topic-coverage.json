@@ -302,6 +302,21 @@
       "title": "Living Agent Evaluation Data",
       "times_covered": 1,
       "last_covered": "2026-08-01"
+    },
+    "private-document-intelligence": {
+      "title": "Private Document Intelligence",
+      "times_covered": 1,
+      "last_covered": "2026-08-02"
+    },
+    "durable-agent-state": {
+      "title": "Durable Agent State + Local Privacy",
+      "times_covered": 1,
+      "last_covered": "2026-08-02"
+    },
+    "proof-carrying-research": {
+      "title": "Proof-Carrying Research Outputs",
+      "times_covered": 1,
+      "last_covered": "2026-08-02"
     }
   },
   "item_history": [
@@ -2660,31 +2675,40 @@
         }
       ],
       "editorial_thesis": "The practical opportunity is not autonomous scale by itself: use new model, workflow, and design capability through small pilots with explicit evaluation, cost, and review boundaries."
+    },
+    {
+      "date": "2026-08-02",
+      "selected_lanes": [
+        "private-document-intelligence",
+        "durable-agent-state",
+        "proof-carrying-research"
+      ],
+      "editorial_thesis": "Today\u2019s practical advantage is evidence hygiene: preserve document fidelity before enrichment, make agent state recoverable and private, and ship consequential claims with an inspectable verification trail."
     }
   ],
-  "updated_at": "2026-08-01T08:04:23.653775+00:00",
+  "updated_at": "2026-08-02T08:06:18.550195+00:00",
   "last_run": {
-    "date": "2026-07-28",
+    "date": "2026-08-02",
     "selected_lanes": [
       {
-        "slug": "stateless-mcp-migration",
-        "title": "Stateless MCP Migration",
-        "selection_rationale": "Fresh primary releases or research in a coverage gap; selected for a bounded, inspectable operational experiment."
+        "slug": "private-document-intelligence",
+        "title": "Private Document Intelligence",
+        "selection_rationale": "A deliberately under-covered self-hosted knowledge lane: a fresh Paperless maintenance release fixes AI-suggestion cache isolation and document-processing behavior, while MarkItDown improves structured conversion at the ingestion edge."
       },
       {
-        "slug": "residency-and-realtime-agents",
-        "title": "Residency + Real-time Agent Transport",
-        "selection_rationale": "Fresh primary releases or research in a coverage gap; selected for a bounded, inspectable operational experiment."
+        "slug": "durable-agent-state",
+        "title": "Durable Agent State + Local Privacy",
+        "selection_rationale": "Agent controls were covered yesterday; today\u2019s distinct operational signal is durability below the model layer\u2014recoverable state, dead-lettered channel ingress, and owner-only histories/logs."
       },
       {
-        "slug": "evidence-first-agent-memory",
-        "title": "Evidence-first Agent Memory",
-        "selection_rationale": "Fresh primary releases or research in a coverage gap; selected for a bounded, inspectable operational experiment."
+        "slug": "proof-carrying-research",
+        "title": "Proof-Carrying Research Outputs",
+        "selection_rationale": "A fresh research release earns a deliberately non-product lane because it publishes not only claims, but papers, narrated reasoning, Lean certificates, and instructions for independent checking\u2014an unusually practical pattern for evidence-heavy work."
       }
     ],
-    "editorial_thesis": "The day\u2019s leverage is operational evidence: make protocol state explicit, verify where requests run, and make agent memory and research support inspectable before action."
+    "editorial_thesis": "Today\u2019s practical advantage is evidence hygiene: preserve document fidelity before enrichment, make agent state recoverable and private, and ship consequential claims with an inspectable verification trail."
   },
-  "last_editorial_thesis": "The strongest fresh signal is operational: constrain agent spend, bridge identity at MCP boundaries, retire publisher super-credentials, and refresh evaluation tasks from living repositories.",
+  "last_editorial_thesis": "Today\u2019s practical advantage is evidence hygiene: preserve document fidelity before enrichment, make agent state recoverable and private, and ship consequential claims with an inspectable verification trail.",
   "coverage_history": [
     {
       "date": "2026-07-28",
@@ -2750,6 +2774,181 @@
         }
       ],
       "editorial_thesis": "The day\u2019s leverage is operational evidence: make protocol state explicit, verify where requests run, and make agent memory and research support inspectable before action."
+    },
+    {
+      "date": "2026-08-02",
+      "selected_lanes": [
+        {
+          "slug": "private-document-intelligence",
+          "title": "Private Document Intelligence",
+          "selection_rationale": "A deliberately under-covered self-hosted knowledge lane: a fresh Paperless maintenance release fixes AI-suggestion cache isolation and document-processing behavior, while MarkItDown improves structured conversion at the ingestion edge."
+        },
+        {
+          "slug": "durable-agent-state",
+          "title": "Durable Agent State + Local Privacy",
+          "selection_rationale": "Agent controls were covered yesterday; today\u2019s distinct operational signal is durability below the model layer\u2014recoverable state, dead-lettered channel ingress, and owner-only histories/logs."
+        },
+        {
+          "slug": "proof-carrying-research",
+          "title": "Proof-Carrying Research Outputs",
+          "selection_rationale": "A fresh research release earns a deliberately non-product lane because it publishes not only claims, but papers, narrated reasoning, Lean certificates, and instructions for independent checking\u2014an unusually practical pattern for evidence-heavy work."
+        }
+      ],
+      "items": [
+        {
+          "lane": "private-document-intelligence",
+          "title": "Paperless-ngx v3.0.5",
+          "url": "https://github.com/paperless-ngx/paperless-ngx/releases/tag/v3.0.5",
+          "source_type": "release",
+          "selection_rationale": "Model/endpoint-keyed suggestion caching matters whenever a client archive has multiple providers, a staging endpoint, or a local model beside a hosted one."
+        },
+        {
+          "lane": "private-document-intelligence",
+          "title": "MarkItDown v0.1.7",
+          "url": "https://github.com/microsoft/markitdown/releases/tag/v0.1.7",
+          "source_type": "release",
+          "selection_rationale": "Presentation and equation fidelity determine whether an extraction pipeline is usable as source material for review, search, or agents."
+        },
+        {
+          "lane": "private-document-intelligence",
+          "title": "Paperless-ngx AI suggestion documentation",
+          "url": "https://docs.paperless-ngx.com/usage/#ai-powered-document-suggestions",
+          "source_type": "docs",
+          "selection_rationale": "It supplies the operating context for the cache-isolation fix: suggestions should enrich an archive\u2019s metadata, not become the archive of record."
+        },
+        {
+          "lane": "durable-agent-state",
+          "title": "OpenClaw 2026.7.2 beta.6",
+          "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.7.2-beta.6",
+          "source_type": "pre-release",
+          "selection_rationale": "This is a concrete reference architecture for the hard part of agent operations: avoiding silent loss between intake, persistence, restart, and human review."
+        },
+        {
+          "lane": "durable-agent-state",
+          "title": "rtk v0.44.2",
+          "url": "https://github.com/rtk-ai/rtk/releases/tag/v0.44.2",
+          "source_type": "release",
+          "selection_rationale": "Local developer and agent tooling can expose prompts, paths, commands, and audit records through filesystem defaults long before a network control fails."
+        },
+        {
+          "lane": "durable-agent-state",
+          "title": "OpenClaw release notes: approvals and MCP Apps",
+          "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.7.2-beta.6",
+          "source_type": "release note",
+          "selection_rationale": "Durable state is most valuable when it preserves an accountable handoff: a question, an approval, a tool request, and the resulting artifact."
+        },
+        {
+          "lane": "proof-carrying-research",
+          "title": "Ten advances in mathematics and theoretical computer science",
+          "url": "https://openai.com/index/ten-advances-in-mathematics/",
+          "source_type": "publication",
+          "selection_rationale": "It is a rare public example of a model-generated research result bundled with multiple inspection layers rather than a benchmark headline alone."
+        },
+        {
+          "lane": "proof-carrying-research",
+          "title": "openai/ten-proofs Lean certificates",
+          "url": "https://github.com/openai/ten-proofs",
+          "source_type": "repo",
+          "selection_rationale": "A certificate repository turns \u201ctrust us\u201d into an artifact that a separate toolchain can build and inspect."
+        },
+        {
+          "lane": "proof-carrying-research",
+          "title": "OpenAI proof paper",
+          "url": "https://cdn.openai.com/pdf/ten-proofs-oai.pdf",
+          "source_type": "paper",
+          "selection_rationale": "Separating exposition from verification gives expert reviewers a readable entry point without making prose the sole evidence object."
+        },
+        {
+          "lane": "proof-carrying-research",
+          "title": "Reasoning walkthroughs",
+          "url": "https://cdn.openai.com/pdf/reasoning-walkthroughs.pdf",
+          "source_type": "method note",
+          "selection_rationale": "Process artifacts let reviewers assess the route to a conclusion, not only the final polished result."
+        }
+      ],
+      "editorial_thesis": "Today\u2019s practical advantage is evidence hygiene: preserve document fidelity before enrichment, make agent state recoverable and private, and ship consequential claims with an inspectable verification trail."
+    }
+  ],
+  "items": [
+    {
+      "date": "2026-08-02",
+      "lane": "private-document-intelligence",
+      "title": "Paperless-ngx v3.0.5",
+      "url": "https://github.com/paperless-ngx/paperless-ngx/releases/tag/v3.0.5",
+      "source_type": "release",
+      "selection_rationale": "Model/endpoint-keyed suggestion caching matters whenever a client archive has multiple providers, a staging endpoint, or a local model beside a hosted one."
+    },
+    {
+      "date": "2026-08-02",
+      "lane": "private-document-intelligence",
+      "title": "MarkItDown v0.1.7",
+      "url": "https://github.com/microsoft/markitdown/releases/tag/v0.1.7",
+      "source_type": "release",
+      "selection_rationale": "Presentation and equation fidelity determine whether an extraction pipeline is usable as source material for review, search, or agents."
+    },
+    {
+      "date": "2026-08-02",
+      "lane": "private-document-intelligence",
+      "title": "Paperless-ngx AI suggestion documentation",
+      "url": "https://docs.paperless-ngx.com/usage/#ai-powered-document-suggestions",
+      "source_type": "docs",
+      "selection_rationale": "It supplies the operating context for the cache-isolation fix: suggestions should enrich an archive\u2019s metadata, not become the archive of record."
+    },
+    {
+      "date": "2026-08-02",
+      "lane": "durable-agent-state",
+      "title": "OpenClaw 2026.7.2 beta.6",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.7.2-beta.6",
+      "source_type": "pre-release",
+      "selection_rationale": "This is a concrete reference architecture for the hard part of agent operations: avoiding silent loss between intake, persistence, restart, and human review."
+    },
+    {
+      "date": "2026-08-02",
+      "lane": "durable-agent-state",
+      "title": "rtk v0.44.2",
+      "url": "https://github.com/rtk-ai/rtk/releases/tag/v0.44.2",
+      "source_type": "release",
+      "selection_rationale": "Local developer and agent tooling can expose prompts, paths, commands, and audit records through filesystem defaults long before a network control fails."
+    },
+    {
+      "date": "2026-08-02",
+      "lane": "durable-agent-state",
+      "title": "OpenClaw release notes: approvals and MCP Apps",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.7.2-beta.6",
+      "source_type": "release note",
+      "selection_rationale": "Durable state is most valuable when it preserves an accountable handoff: a question, an approval, a tool request, and the resulting artifact."
+    },
+    {
+      "date": "2026-08-02",
+      "lane": "proof-carrying-research",
+      "title": "Ten advances in mathematics and theoretical computer science",
+      "url": "https://openai.com/index/ten-advances-in-mathematics/",
+      "source_type": "publication",
+      "selection_rationale": "It is a rare public example of a model-generated research result bundled with multiple inspection layers rather than a benchmark headline alone."
+    },
+    {
+      "date": "2026-08-02",
+      "lane": "proof-carrying-research",
+      "title": "openai/ten-proofs Lean certificates",
+      "url": "https://github.com/openai/ten-proofs",
+      "source_type": "repo",
+      "selection_rationale": "A certificate repository turns \u201ctrust us\u201d into an artifact that a separate toolchain can build and inspect."
+    },
+    {
+      "date": "2026-08-02",
+      "lane": "proof-carrying-research",
+      "title": "OpenAI proof paper",
+      "url": "https://cdn.openai.com/pdf/ten-proofs-oai.pdf",
+      "source_type": "paper",
+      "selection_rationale": "Separating exposition from verification gives expert reviewers a readable entry point without making prose the sole evidence object."
+    },
+    {
+      "date": "2026-08-02",
+      "lane": "proof-carrying-research",
+      "title": "Reasoning walkthroughs",
+      "url": "https://cdn.openai.com/pdf/reasoning-walkthroughs.pdf",
+      "source_type": "method note",
+      "selection_rationale": "Process artifacts let reviewers assess the route to a conclusion, not only the final polished result."
     }
   ]
 }

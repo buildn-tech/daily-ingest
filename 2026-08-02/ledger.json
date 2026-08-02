@@ -1,0 +1,108 @@
+{
+  "date": "2026-08-02",
+  "generated_at": "2026-08-02T08:06:18.541033+00:00",
+  "editorial_thesis": "Today\u2019s practical advantage is evidence hygiene: preserve document fidelity before enrichment, make agent state recoverable and private, and ship consequential claims with an inspectable verification trail.",
+  "topic_groups": [
+    {
+      "slug": "private-document-intelligence",
+      "title": "Private Document Intelligence",
+      "selection_rationale": "A deliberately under-covered self-hosted knowledge lane: a fresh Paperless maintenance release fixes AI-suggestion cache isolation and document-processing behavior, while MarkItDown improves structured conversion at the ingestion edge.",
+      "sources": [
+        {
+          "title": "Paperless-ngx v3.0.5",
+          "url": "https://github.com/paperless-ngx/paperless-ngx/releases/tag/v3.0.5",
+          "source_type": "release",
+          "published_or_updated": "2026-08-01",
+          "why_selected": "Model/endpoint-keyed suggestion caching matters whenever a client archive has multiple providers, a staging endpoint, or a local model beside a hosted one.",
+          "usefulness": "Run a client-safe, self-hosted archive for contracts, invoices, briefs, and project evidence; keep retrieval and document metadata under the workspace\u2019s control."
+        },
+        {
+          "title": "MarkItDown v0.1.7",
+          "url": "https://github.com/microsoft/markitdown/releases/tag/v0.1.7",
+          "source_type": "release",
+          "published_or_updated": "2026-07-29",
+          "why_selected": "Presentation and equation fidelity determine whether an extraction pipeline is usable as source material for review, search, or agents.",
+          "usefulness": "Put a local conversion step in front of Buildn/client knowledge ingestion; retain the original file plus generated Markdown as separate artifacts."
+        },
+        {
+          "title": "Paperless-ngx AI suggestion documentation",
+          "url": "https://docs.paperless-ngx.com/usage/#ai-powered-document-suggestions",
+          "source_type": "docs",
+          "published_or_updated": "unknown",
+          "why_selected": "It supplies the operating context for the cache-isolation fix: suggestions should enrich an archive\u2019s metadata, not become the archive of record.",
+          "usefulness": "Define client-specific document types and custom fields first; add suggestions only after a human can review and correct every proposed label."
+        }
+      ]
+    },
+    {
+      "slug": "durable-agent-state",
+      "title": "Durable Agent State + Local Privacy",
+      "selection_rationale": "Agent controls were covered yesterday; today\u2019s distinct operational signal is durability below the model layer\u2014recoverable state, dead-lettered channel ingress, and owner-only histories/logs.",
+      "sources": [
+        {
+          "title": "OpenClaw 2026.7.2 beta.6",
+          "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.7.2-beta.6",
+          "source_type": "pre-release",
+          "published_or_updated": "2026-08-01",
+          "why_selected": "This is a concrete reference architecture for the hard part of agent operations: avoiding silent loss between intake, persistence, restart, and human review.",
+          "usefulness": "Use its failure modes as an acceptance checklist for Buildn/client agents that accept Slack, Telegram, or web requests and create durable work artifacts."
+        },
+        {
+          "title": "rtk v0.44.2",
+          "url": "https://github.com/rtk-ai/rtk/releases/tag/v0.44.2",
+          "source_type": "release",
+          "published_or_updated": "2026-08-01",
+          "why_selected": "Local developer and agent tooling can expose prompts, paths, commands, and audit records through filesystem defaults long before a network control fails.",
+          "usefulness": "Audit workstations and runners for histories, temporary output, run logs, and artifacts; make restrictive permissions part of bootstrap and upgrade checks."
+        },
+        {
+          "title": "OpenClaw release notes: approvals and MCP Apps",
+          "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.7.2-beta.6",
+          "source_type": "release note",
+          "published_or_updated": "2026-08-01",
+          "why_selected": "Durable state is most valuable when it preserves an accountable handoff: a question, an approval, a tool request, and the resulting artifact.",
+          "usefulness": "Model a client-facing agent surface as ticketed work with bounded context, an explicit approver, and an auditable result rather than as an unconstrained chat session."
+        }
+      ]
+    },
+    {
+      "slug": "proof-carrying-research",
+      "title": "Proof-Carrying Research Outputs",
+      "selection_rationale": "A fresh research release earns a deliberately non-product lane because it publishes not only claims, but papers, narrated reasoning, Lean certificates, and instructions for independent checking\u2014an unusually practical pattern for evidence-heavy work.",
+      "sources": [
+        {
+          "title": "Ten advances in mathematics and theoretical computer science",
+          "url": "https://openai.com/index/ten-advances-in-mathematics/",
+          "source_type": "publication",
+          "published_or_updated": "2026-08-01",
+          "why_selected": "It is a rare public example of a model-generated research result bundled with multiple inspection layers rather than a benchmark headline alone.",
+          "usefulness": "Borrow the release pattern for Buildn research or client recommendations: claim, source corpus, assumptions, reproducible derivation, reviewer notes, and a verification path."
+        },
+        {
+          "title": "openai/ten-proofs Lean certificates",
+          "url": "https://github.com/openai/ten-proofs",
+          "source_type": "repo",
+          "published_or_updated": "2026-08-01",
+          "why_selected": "A certificate repository turns \u201ctrust us\u201d into an artifact that a separate toolchain can build and inspect.",
+          "usefulness": "For software or analysis, keep critical acceptance evidence beside the deliverable: tests, fixtures, build command, checksums, and a reviewer-readable summary."
+        },
+        {
+          "title": "OpenAI proof paper",
+          "url": "https://cdn.openai.com/pdf/ten-proofs-oai.pdf",
+          "source_type": "paper",
+          "published_or_updated": "2026-08-01",
+          "why_selected": "Separating exposition from verification gives expert reviewers a readable entry point without making prose the sole evidence object.",
+          "usefulness": "Publish client-facing explanations alongside structured evidence rather than forcing non-technical stakeholders to inspect raw telemetry, code, or model traces."
+        },
+        {
+          "title": "Reasoning walkthroughs",
+          "url": "https://cdn.openai.com/pdf/reasoning-walkthroughs.pdf",
+          "source_type": "method note",
+          "published_or_updated": "2026-08-01",
+          "why_selected": "Process artifacts let reviewers assess the route to a conclusion, not only the final polished result.",
+          "usefulness": "Have agents preserve concise decision logs\u2014sources consulted, alternatives rejected, tests run, and tool calls made\u2014alongside final recommendations."
+        }
+      ]
+    }
+  ]
+}
