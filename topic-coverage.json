@@ -317,6 +317,21 @@
       "title": "Proof-Carrying Research Outputs",
       "times_covered": 1,
       "last_covered": "2026-08-02"
+    },
+    "model-portfolio-change-control": {
+      "title": "Model Portfolio Change Control",
+      "times_covered": 1,
+      "last_covered": "2026-08-03"
+    },
+    "private-agent-channel-controls": {
+      "title": "Private Agent Channel Controls",
+      "times_covered": 1,
+      "last_covered": "2026-08-03"
+    },
+    "attributed-workflow-operations": {
+      "title": "Attributed Workflow Operations",
+      "times_covered": 1,
+      "last_covered": "2026-08-03"
     }
   },
   "item_history": [
@@ -2543,6 +2558,78 @@
       "url": "https://arxiv.org/html/2607.28591v1",
       "source_type": "paper resource",
       "selection_rationale": "The numbers make a credible case for testing reconstruction before funding a manually curated benchmark program."
+    },
+    {
+      "date": "2026-08-03",
+      "lane": "model-portfolio-change-control",
+      "title": "Gemini 2.5 Pro and Gemini 3 Flash deprecated",
+      "url": "https://github.blog/changelog/2026-07-31-gemini-2-5-pro-and-gemini-3-flash-deprecated",
+      "source_type": "release",
+      "selection_rationale": "A model picker is not a stable interface. Prompts, latency assumptions, and output review expectations need an owned replacement path."
+    },
+    {
+      "date": "2026-08-03",
+      "lane": "model-portfolio-change-control",
+      "title": "Enterprise teams model policy targeting",
+      "url": "https://github.blog/changelog/2026-07-31-enterprise-teams-model-policy-targeting-in-public-preview",
+      "source_type": "release",
+      "selection_rationale": "It enables role-based frontier-model pilots without granting every employee the same catalog."
+    },
+    {
+      "date": "2026-08-03",
+      "lane": "model-portfolio-change-control",
+      "title": "Managing availability of Copilot models",
+      "url": "https://docs.github.com/enterprise-cloud@latest/copilot/how-tos/administer-copilot/manage-for-enterprise/manage-availability-of-default-models",
+      "source_type": "docs",
+      "selection_rationale": "The documentation provides the control-plane checklist needed to turn the preview into an auditable rollout."
+    },
+    {
+      "date": "2026-08-03",
+      "lane": "private-agent-channel-controls",
+      "title": "Chat SDK reactions and ephemeral messages on Teams",
+      "url": "https://vercel.com/changelog/chat-sdk-reactions-and-ephemeral-messages-on-teams",
+      "source_type": "release",
+      "selection_rationale": "Permission requests and private diagnostics no longer need to spill into a shared project channel; reactions can make long-running work legible."
+    },
+    {
+      "date": "2026-08-03",
+      "lane": "private-agent-channel-controls",
+      "title": "Ephemeral Messages \u2014 Chat SDK",
+      "url": "https://chat-sdk.dev/docs/ephemeral-messages",
+      "source_type": "docs",
+      "selection_rationale": "The same API has materially different records behavior across Teams, Slack, Google Chat, and Discord."
+    },
+    {
+      "date": "2026-08-03",
+      "lane": "private-agent-channel-controls",
+      "title": "Limit remote control to managed devices",
+      "url": "https://github.blog/changelog/2026-07-30-limit-remote-control-to-managed-devices",
+      "source_type": "release",
+      "selection_rationale": "Remote control changes the risk profile of an agent session; device posture is a useful enforcement layer beyond an account policy."
+    },
+    {
+      "date": "2026-08-03",
+      "lane": "attributed-workflow-operations",
+      "title": "Expanded search for workflow runs in Vercel Observability",
+      "url": "https://vercel.com/changelog/expanded-search-for-workflow-runs-in-vercel-observability",
+      "source_type": "release",
+      "selection_rationale": "An incident can now be narrowed to a reproducible slice instead of a vague time window."
+    },
+    {
+      "date": "2026-08-03",
+      "lane": "attributed-workflow-operations",
+      "title": "Custom reporting on AI Gateway",
+      "url": "https://vercel.com/changelog/custom-reporting-ai-gateway",
+      "source_type": "release",
+      "selection_rationale": "It can make agent margins and client allocations inspectable without maintaining a separate provider-console spreadsheet."
+    },
+    {
+      "date": "2026-08-03",
+      "lane": "attributed-workflow-operations",
+      "title": "Vercel Observability documentation",
+      "url": "https://vercel.com/docs/observability",
+      "source_type": "docs",
+      "selection_rationale": "It supplies the broader causal trail around a workflow run: route, function, external dependency, then model request."
     }
   ],
   "runs": [
@@ -2686,27 +2773,27 @@
       "editorial_thesis": "Today\u2019s practical advantage is evidence hygiene: preserve document fidelity before enrichment, make agent state recoverable and private, and ship consequential claims with an inspectable verification trail."
     }
   ],
-  "updated_at": "2026-08-02T08:06:18.550195+00:00",
+  "updated_at": "2026-08-03T08:05:13.536965+00:00",
   "last_run": {
-    "date": "2026-08-02",
+    "date": "2026-08-03",
     "selected_lanes": [
       {
-        "slug": "private-document-intelligence",
-        "title": "Private Document Intelligence",
-        "selection_rationale": "A deliberately under-covered self-hosted knowledge lane: a fresh Paperless maintenance release fixes AI-suggestion cache isolation and document-processing behavior, while MarkItDown improves structured conversion at the ingestion edge."
+        "slug": "model-portfolio-change-control",
+        "title": "Model Portfolio Change Control",
+        "selection_rationale": "A coverage gap between model-choice governance and day-to-day operations: two fresh GitHub changes make model retirement and role-scoped access concrete administrative work rather than a quarterly policy exercise."
       },
       {
-        "slug": "durable-agent-state",
-        "title": "Durable Agent State + Local Privacy",
-        "selection_rationale": "Agent controls were covered yesterday; today\u2019s distinct operational signal is durability below the model layer\u2014recoverable state, dead-lettered channel ingress, and owner-only histories/logs."
+        "slug": "private-agent-channel-controls",
+        "title": "Private Agent Channel Controls",
+        "selection_rationale": "A neglected collaboration lane with practical fresh signal: targeted in-channel responses have reached Teams, while device-scoped Copilot remote-control policies provide a complementary boundary for where an operator can take over."
       },
       {
-        "slug": "proof-carrying-research",
-        "title": "Proof-Carrying Research Outputs",
-        "selection_rationale": "A fresh research release earns a deliberately non-product lane because it publishes not only claims, but papers, narrated reasoning, Lean certificates, and instructions for independent checking\u2014an unusually practical pattern for evidence-heavy work."
+        "slug": "attributed-workflow-operations",
+        "title": "Attributed Workflow Operations",
+        "selection_rationale": "A practical operations lane separated from the recently covered agent-economics theme: fresh Vercel releases make both individual workflow investigations and tag-level AI cost attribution more usable in the same operating loop."
       }
     ],
-    "editorial_thesis": "Today\u2019s practical advantage is evidence hygiene: preserve document fidelity before enrichment, make agent state recoverable and private, and ship consequential claims with an inspectable verification trail."
+    "editorial_thesis": "The strongest fresh signal is operational control at the seams: manage model replacement, keep agent interactions private and bounded, and make workflow execution and AI spend attributable."
   },
   "last_editorial_thesis": "Today\u2019s practical advantage is evidence hygiene: preserve document fidelity before enrichment, make agent state recoverable and private, and ship consequential claims with an inspectable verification trail.",
   "coverage_history": [
