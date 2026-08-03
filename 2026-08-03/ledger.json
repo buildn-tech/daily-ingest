@@ -1,0 +1,100 @@
+{
+  "date": "2026-08-03",
+  "generated_at": "2026-08-03T08:04:50.478753+00:00",
+  "editorial_thesis": "The strongest fresh signal is operational control at the seams: manage model replacement, keep agent interactions private and bounded, and make workflow execution and AI spend attributable.",
+  "topic_groups": [
+    {
+      "slug": "model-portfolio-change-control",
+      "title": "Model Portfolio Change Control",
+      "selection_rationale": "A coverage gap between model-choice governance and day-to-day operations: two fresh GitHub changes make model retirement and role-scoped access concrete administrative work rather than a quarterly policy exercise.",
+      "sources": [
+        {
+          "title": "Gemini 2.5 Pro and Gemini 3 Flash deprecated",
+          "url": "https://github.blog/changelog/2026-07-31-gemini-2-5-pro-and-gemini-3-flash-deprecated",
+          "source_type": "release",
+          "published_or_updated": "2026-07-31",
+          "why_selected": "A model picker is not a stable interface. Prompts, latency assumptions, and output review expectations need an owned replacement path.",
+          "usefulness": "Buildn: add model IDs and fallback acceptance tests to every agent runbook. Client work: prepare a one-page migration note before a preferred model disappears."
+        },
+        {
+          "title": "Enterprise teams model policy targeting",
+          "url": "https://github.blog/changelog/2026-07-31-enterprise-teams-model-policy-targeting-in-public-preview",
+          "source_type": "release",
+          "published_or_updated": "2026-07-31",
+          "why_selected": "It enables role-based frontier-model pilots without granting every employee the same catalog.",
+          "usefulness": "Buildn: propose a \u201cpilot / production / prohibited\u201d model matrix. Client work: scope privileged models to trained delivery teams."
+        },
+        {
+          "title": "Managing availability of Copilot models",
+          "url": "https://docs.github.com/enterprise-cloud@latest/copilot/how-tos/administer-copilot/manage-for-enterprise/manage-availability-of-default-models",
+          "source_type": "docs",
+          "published_or_updated": "unknown",
+          "why_selected": "The documentation provides the control-plane checklist needed to turn the preview into an auditable rollout.",
+          "usefulness": "Buildn: capture the pre-switch policy export. Client work: assign model ownership to enterprise administrators."
+        }
+      ]
+    },
+    {
+      "slug": "private-agent-channel-controls",
+      "title": "Private Agent Channel Controls",
+      "selection_rationale": "A neglected collaboration lane with practical fresh signal: targeted in-channel responses have reached Teams, while device-scoped Copilot remote-control policies provide a complementary boundary for where an operator can take over.",
+      "sources": [
+        {
+          "title": "Chat SDK reactions and ephemeral messages on Teams",
+          "url": "https://vercel.com/changelog/chat-sdk-reactions-and-ephemeral-messages-on-teams",
+          "source_type": "release",
+          "published_or_updated": "unknown",
+          "why_selected": "Permission requests and private diagnostics no longer need to spill into a shared project channel; reactions can make long-running work legible.",
+          "usefulness": "Buildn: acknowledge intake with a reaction, send approval prompts privately, and publish only the final artifact to the shared thread. Client work: implement a consistent Teams agent interaction contract."
+        },
+        {
+          "title": "Ephemeral Messages \u2014 Chat SDK",
+          "url": "https://chat-sdk.dev/docs/ephemeral-messages",
+          "source_type": "docs",
+          "published_or_updated": "unknown",
+          "why_selected": "The same API has materially different records behavior across Teams, Slack, Google Chat, and Discord.",
+          "usefulness": "Buildn: define which approvals must become durable tickets. Client work: choose DM fallback deliberately, not as an accidental audit trail."
+        },
+        {
+          "title": "Limit remote control to managed devices",
+          "url": "https://github.blog/changelog/2026-07-30-limit-remote-control-to-managed-devices",
+          "source_type": "release",
+          "published_or_updated": "2026-07-30",
+          "why_selected": "Remote control changes the risk profile of an agent session; device posture is a useful enforcement layer beyond an account policy.",
+          "usefulness": "Buildn: keep remote control disabled on shared runners. Client work: deploy requireSSO through MDM for approved operator workstations."
+        }
+      ]
+    },
+    {
+      "slug": "attributed-workflow-operations",
+      "title": "Attributed Workflow Operations",
+      "selection_rationale": "A practical operations lane separated from the recently covered agent-economics theme: fresh Vercel releases make both individual workflow investigations and tag-level AI cost attribution more usable in the same operating loop.",
+      "sources": [
+        {
+          "title": "Expanded search for workflow runs in Vercel Observability",
+          "url": "https://vercel.com/changelog/expanded-search-for-workflow-runs-in-vercel-observability",
+          "source_type": "release",
+          "published_or_updated": "unknown",
+          "why_selected": "An incident can now be narrowed to a reproducible slice instead of a vague time window.",
+          "usefulness": "Buildn: place a stable run attribute on every client workflow. Client work: add a saved incident query to each runbook."
+        },
+        {
+          "title": "Custom reporting on AI Gateway",
+          "url": "https://vercel.com/changelog/custom-reporting-ai-gateway",
+          "source_type": "release",
+          "published_or_updated": "unknown",
+          "why_selected": "It can make agent margins and client allocations inspectable without maintaining a separate provider-console spreadsheet.",
+          "usefulness": "Buildn: tag every request with client, workflow, environment, and service tier. Client work: export a weekly feature-cost view."
+        },
+        {
+          "title": "Vercel Observability documentation",
+          "url": "https://vercel.com/docs/observability",
+          "source_type": "docs",
+          "published_or_updated": "unknown",
+          "why_selected": "It supplies the broader causal trail around a workflow run: route, function, external dependency, then model request.",
+          "usefulness": "Buildn: link workflow run IDs from delivery artifacts. Client work: use project-level views for service debugging and team-level views for portfolio patterns."
+        }
+      ]
+    }
+  ]
+}

@@ -1,6 +1,51 @@
 {
-  "updated_at": "2026-08-02T08:06:27.321667+00:00",
+  "updated_at": "2026-08-03T08:04:56.387053+00:00",
   "sources": {
+    "https://github.blog/changelog/2026-07-31-gemini-2-5-pro-and-gemini-3-flash-deprecated": {
+      "first_seen": "2026-08-03",
+      "last_seen": "2026-08-03",
+      "title": "Gemini 2.5 Pro and Gemini 3 Flash deprecated"
+    },
+    "https://github.blog/changelog/2026-07-31-enterprise-teams-model-policy-targeting-in-public-preview": {
+      "first_seen": "2026-08-03",
+      "last_seen": "2026-08-03",
+      "title": "Enterprise teams model policy targeting"
+    },
+    "https://docs.github.com/enterprise-cloud@latest/copilot/how-tos/administer-copilot/manage-for-enterprise/manage-availability-of-default-models": {
+      "first_seen": "2026-08-03",
+      "last_seen": "2026-08-03",
+      "title": "Managing availability of Copilot models"
+    },
+    "https://vercel.com/changelog/chat-sdk-reactions-and-ephemeral-messages-on-teams": {
+      "first_seen": "2026-08-03",
+      "last_seen": "2026-08-03",
+      "title": "Chat SDK reactions and ephemeral messages on Teams"
+    },
+    "https://chat-sdk.dev/docs/ephemeral-messages": {
+      "first_seen": "2026-08-03",
+      "last_seen": "2026-08-03",
+      "title": "Ephemeral Messages \u2014 Chat SDK"
+    },
+    "https://github.blog/changelog/2026-07-30-limit-remote-control-to-managed-devices": {
+      "first_seen": "2026-08-03",
+      "last_seen": "2026-08-03",
+      "title": "Limit remote control to managed devices"
+    },
+    "https://vercel.com/changelog/expanded-search-for-workflow-runs-in-vercel-observability": {
+      "first_seen": "2026-08-03",
+      "last_seen": "2026-08-03",
+      "title": "Expanded search for workflow runs in Vercel Observability"
+    },
+    "https://vercel.com/changelog/custom-reporting-ai-gateway": {
+      "first_seen": "2026-08-03",
+      "last_seen": "2026-08-03",
+      "title": "Custom reporting on AI Gateway"
+    },
+    "https://vercel.com/docs/observability": {
+      "first_seen": "2026-08-03",
+      "last_seen": "2026-08-03",
+      "title": "Vercel Observability documentation"
+    },
     "https://github.com/paperless-ngx/paperless-ngx/releases/tag/v3.0.5": {
       "first_seen": "2026-08-02",
       "last_seen": "2026-08-02",
