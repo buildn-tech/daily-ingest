@@ -1,0 +1,100 @@
+{
+  "date": "2026-08-04",
+  "generated_at": "2026-08-04T08:06:32Z",
+  "editorial_thesis": "The practical signal today is execution-boundary design: constrain browser-capable agents, map the developer workstation\u2019s blast radius, and make automated security remediation prove itself before a maintainer accepts it.",
+  "topic_groups": [
+    {
+      "slug": "sandboxed-browser-agents",
+      "title": "Sandboxed Browser Agents",
+      "selection_rationale": "Fresh August 4 integration signal earns a focused revisit of browser automation: the meaningful change is agent-browser becoming a constrained Eve extension, not another browser-agent tool list.",
+      "sources": [
+        {
+          "title": "Give your eve agent a browser",
+          "url": "https://vercel.com/changelog/give-your-eve-agent-a-browser",
+          "source_type": "release",
+          "published_or_updated": "2026-08-04",
+          "why_selected": "This is the material update to agent-browser previously tracked in July: it now has a first-party sandboxed agent integration with allowlists and model-tool controls.",
+          "usefulness": "Buildn: prototype a research or QA agent with an explicit client-domain allowlist. Client work: offer browser-assisted support or regression checks without giving the runtime workstation access."
+        },
+        {
+          "title": "Eve + agent-browser integration guide",
+          "url": "https://agent-browser.dev/eve",
+          "source_type": "docs",
+          "published_or_updated": "2026-08-04",
+          "why_selected": "The useful design detail is not raw clicking; it is namespaced, inspect-then-act tools that allow policy to sit around the browser capability.",
+          "usefulness": "Buildn: standardize a browser extension wrapper with output caps and evidence screenshots. Client work: expose a narrow, auditable browser task instead of a general browsing agent."
+        },
+        {
+          "title": "vercel-labs/agent-browser",
+          "url": "https://github.com/vercel-labs/agent-browser",
+          "source_type": "repo",
+          "published_or_updated": "2026-08-02",
+          "why_selected": "Stable snapshot references support evidence-led browser interaction instead of brittle coordinate automation; the recent doctor fix also improves workstation diagnostics.",
+          "usefulness": "Buildn: use snapshots as review artifacts in automated web research. Client work: evaluate it where Playwright-sized stacks are unwanted."
+        }
+      ]
+    },
+    {
+      "slug": "developer-workstation-blast-radius",
+      "title": "Developer Workstation Blast Radius",
+      "selection_rationale": "Developer workstations have been under-covered relative to cloud and package controls. Fresh primary research makes the local intersection of agents, extensions, packages, and credentials operationally specific.",
+      "sources": [
+        {
+          "title": "Wiz Sensor for Developer Workstations",
+          "url": "https://www.wiz.io/blog/introducing-the-wiz-sensor-for-developer-workstations",
+          "source_type": "product",
+          "published_or_updated": "2026-08-03",
+          "why_selected": "It frames AI coding governance as endpoint-to-cloud exposure mapping rather than a standalone assistant policy.",
+          "usefulness": "Buildn: make a lightweight inventory of developer agents, MCP servers, package managers, and privileged tokens. Client work: use the same inventory as a discovery deliverable before deploying coding agents."
+        },
+        {
+          "title": "Vercel WAF for Blob \u2014 general availability",
+          "url": "https://vercel.com/changelog/vercel-waf-for-blob-is-now-generally-available",
+          "source_type": "release",
+          "published_or_updated": "2026-08-03",
+          "why_selected": "Agent-generated media, uploads, and paid files are often treated as passive storage; edge rejection reduces both exposure and transfer cost before a request reaches the store.",
+          "usefulness": "Buildn: protect public artifact and upload stores with path/IP/rate rules. Client work: add storage access rules to every AI media delivery checklist."
+        },
+        {
+          "title": "Share Vercel Container Registry repositories across teams",
+          "url": "https://vercel.com/changelog/share-vercel-container-registry-repositories-across-teams",
+          "source_type": "release",
+          "published_or_updated": "2026-08-03",
+          "why_selected": "Reusable sandbox images no longer require copying artifacts or granting image-maintenance authority to every consumer team.",
+          "usefulness": "Buildn: publish a hardened base image to a delivery team with read-only access. Client work: separate image builders from agent-runtime consumers."
+        }
+      ]
+    },
+    {
+      "slug": "continuous-cyber-remediation",
+      "title": "Continuous Cyber Remediation",
+      "selection_rationale": "A security-automation coverage gap remains between scans and governed fixes. Microsoft\u2019s late-July model/harness announcement supplies concrete evidence for evaluating a continuous find\u2013validate\u2013remediate loop.",
+      "sources": [
+        {
+          "title": "Introducing MAI-Cyber-1-Flash inside MDASH",
+          "url": "https://microsoft.ai/news/introducing-mai-cyber-1-flash-inside-mdash/",
+          "source_type": "product",
+          "published_or_updated": "2026-07-27",
+          "why_selected": "It makes the economics of always-on security work explicit: lower-cost models handle routine work while escalation is reserved for difficult cases.",
+          "usefulness": "Buildn: define a staged security-agent workflow\u2014triage, reproduce, patch proposal, test, maintainer approval. Client work: use that workflow as a scoped remediation-service blueprint."
+        },
+        {
+          "title": "Defense at AI speed: Microsoft\u2019s MDASH system",
+          "url": "https://www.microsoft.com/en-us/security/blog/2026/05/12/defense-at-ai-speed-microsofts-new-multi-model-agentic-security-system-tops-leading-industry-benchmark/",
+          "source_type": "blog",
+          "published_or_updated": "2026-05-12",
+          "why_selected": "The harness is the important unit of evaluation: model selection, validation, and remediation controls need to be assessed together.",
+          "usefulness": "Buildn: require a proof bundle\u2014finding, reproduction, diff, tests, and reviewer decision\u2014for any automated security patch. Client work: make the proof bundle a contractual acceptance artifact."
+        },
+        {
+          "title": "MAI-Thinking-1 technical report",
+          "url": "https://microsoft.ai/pdf/mai-thinking-1.pdf",
+          "source_type": "paper",
+          "published_or_updated": "unknown",
+          "why_selected": "Model capability assertions should be separated from deployment claims; the technical record helps frame what is known versus what the remediation harness adds.",
+          "usefulness": "Buildn: create a vendor evaluation note separating model evidence, harness controls, and repository-specific results. Client work: make that note part of security-AI procurement discovery."
+        }
+      ]
+    }
+  ]
+}

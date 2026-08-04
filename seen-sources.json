@@ -1,6 +1,51 @@
 {
-  "updated_at": "2026-08-03T08:10:38.095751+00:00",
+  "updated_at": "2026-08-04T08:08:39.979175+00:00",
   "sources": {
+    "https://vercel.com/changelog/give-your-eve-agent-a-browser": {
+      "first_seen": "2026-08-04",
+      "last_seen": "2026-08-04",
+      "title": "Give your eve agent a browser"
+    },
+    "https://agent-browser.dev/eve": {
+      "first_seen": "2026-08-04",
+      "last_seen": "2026-08-04",
+      "title": "Eve + agent-browser integration guide"
+    },
+    "https://github.com/vercel-labs/agent-browser": {
+      "first_seen": "2026-08-04",
+      "last_seen": "2026-08-04",
+      "title": "vercel-labs/agent-browser"
+    },
+    "https://www.wiz.io/blog/introducing-the-wiz-sensor-for-developer-workstations": {
+      "first_seen": "2026-08-04",
+      "last_seen": "2026-08-04",
+      "title": "Wiz Sensor for Developer Workstations"
+    },
+    "https://vercel.com/changelog/vercel-waf-for-blob-is-now-generally-available": {
+      "first_seen": "2026-08-04",
+      "last_seen": "2026-08-04",
+      "title": "Vercel WAF for Blob \u2014 general availability"
+    },
+    "https://vercel.com/changelog/share-vercel-container-registry-repositories-across-teams": {
+      "first_seen": "2026-08-04",
+      "last_seen": "2026-08-04",
+      "title": "Share Vercel Container Registry repositories across teams"
+    },
+    "https://microsoft.ai/news/introducing-mai-cyber-1-flash-inside-mdash": {
+      "first_seen": "2026-08-04",
+      "last_seen": "2026-08-04",
+      "title": "Introducing MAI-Cyber-1-Flash inside MDASH"
+    },
+    "https://www.microsoft.com/en-us/security/blog/2026/05/12/defense-at-ai-speed-microsofts-new-multi-model-agentic-security-system-tops-leading-industry-benchmark": {
+      "first_seen": "2026-08-04",
+      "last_seen": "2026-08-04",
+      "title": "Defense at AI speed: Microsoft\u2019s MDASH system"
+    },
+    "https://microsoft.ai/pdf/mai-thinking-1.pdf": {
+      "first_seen": "2026-08-04",
+      "last_seen": "2026-08-04",
+      "title": "MAI-Thinking-1 technical report"
+    },
     "https://github.blog/changelog/2026-07-31-gemini-2-5-pro-and-gemini-3-flash-deprecated": {
       "first_seen": "2026-08-03",
       "last_seen": "2026-08-03",

@@ -332,6 +332,21 @@
       "title": "Attributed Workflow Operations",
       "times_covered": 1,
       "last_covered": "2026-08-03"
+    },
+    "sandboxed-browser-agents": {
+      "title": "Sandboxed Browser Agents",
+      "times_covered": 1,
+      "last_covered": "2026-08-04"
+    },
+    "developer-workstation-blast-radius": {
+      "title": "Developer Workstation Blast Radius",
+      "times_covered": 1,
+      "last_covered": "2026-08-04"
+    },
+    "continuous-cyber-remediation": {
+      "title": "Continuous Cyber Remediation",
+      "times_covered": 1,
+      "last_covered": "2026-08-04"
     }
   },
   "item_history": [
@@ -2630,6 +2645,78 @@
       "url": "https://vercel.com/docs/observability",
       "source_type": "docs",
       "selection_rationale": "It supplies the broader causal trail around a workflow run: route, function, external dependency, then model request."
+    },
+    {
+      "date": "2026-08-04",
+      "lane": "sandboxed-browser-agents",
+      "title": "Give your eve agent a browser",
+      "url": "https://vercel.com/changelog/give-your-eve-agent-a-browser",
+      "source_type": "release",
+      "selection_rationale": "This is the material update to agent-browser previously tracked in July: it now has a first-party sandboxed agent integration with allowlists and model-tool controls."
+    },
+    {
+      "date": "2026-08-04",
+      "lane": "sandboxed-browser-agents",
+      "title": "Eve + agent-browser integration guide",
+      "url": "https://agent-browser.dev/eve",
+      "source_type": "docs",
+      "selection_rationale": "The useful design detail is not raw clicking; it is namespaced, inspect-then-act tools that allow policy to sit around the browser capability."
+    },
+    {
+      "date": "2026-08-04",
+      "lane": "sandboxed-browser-agents",
+      "title": "vercel-labs/agent-browser",
+      "url": "https://github.com/vercel-labs/agent-browser",
+      "source_type": "repo",
+      "selection_rationale": "Stable snapshot references support evidence-led browser interaction instead of brittle coordinate automation; the recent doctor fix also improves workstation diagnostics."
+    },
+    {
+      "date": "2026-08-04",
+      "lane": "developer-workstation-blast-radius",
+      "title": "Wiz Sensor for Developer Workstations",
+      "url": "https://www.wiz.io/blog/introducing-the-wiz-sensor-for-developer-workstations",
+      "source_type": "product",
+      "selection_rationale": "It frames AI coding governance as endpoint-to-cloud exposure mapping rather than a standalone assistant policy."
+    },
+    {
+      "date": "2026-08-04",
+      "lane": "developer-workstation-blast-radius",
+      "title": "Vercel WAF for Blob \u2014 general availability",
+      "url": "https://vercel.com/changelog/vercel-waf-for-blob-is-now-generally-available",
+      "source_type": "release",
+      "selection_rationale": "Agent-generated media, uploads, and paid files are often treated as passive storage; edge rejection reduces both exposure and transfer cost before a request reaches the store."
+    },
+    {
+      "date": "2026-08-04",
+      "lane": "developer-workstation-blast-radius",
+      "title": "Share Vercel Container Registry repositories across teams",
+      "url": "https://vercel.com/changelog/share-vercel-container-registry-repositories-across-teams",
+      "source_type": "release",
+      "selection_rationale": "Reusable sandbox images no longer require copying artifacts or granting image-maintenance authority to every consumer team."
+    },
+    {
+      "date": "2026-08-04",
+      "lane": "continuous-cyber-remediation",
+      "title": "Introducing MAI-Cyber-1-Flash inside MDASH",
+      "url": "https://microsoft.ai/news/introducing-mai-cyber-1-flash-inside-mdash/",
+      "source_type": "product",
+      "selection_rationale": "It makes the economics of always-on security work explicit: lower-cost models handle routine work while escalation is reserved for difficult cases."
+    },
+    {
+      "date": "2026-08-04",
+      "lane": "continuous-cyber-remediation",
+      "title": "Defense at AI speed: Microsoft\u2019s MDASH system",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/05/12/defense-at-ai-speed-microsofts-new-multi-model-agentic-security-system-tops-leading-industry-benchmark/",
+      "source_type": "blog",
+      "selection_rationale": "The harness is the important unit of evaluation: model selection, validation, and remediation controls need to be assessed together."
+    },
+    {
+      "date": "2026-08-04",
+      "lane": "continuous-cyber-remediation",
+      "title": "MAI-Thinking-1 technical report",
+      "url": "https://microsoft.ai/pdf/mai-thinking-1.pdf",
+      "source_type": "paper",
+      "selection_rationale": "Model capability assertions should be separated from deployment claims; the technical record helps frame what is known versus what the remediation harness adds."
     }
   ],
   "runs": [
@@ -2773,7 +2860,7 @@
       "editorial_thesis": "Today\u2019s practical advantage is evidence hygiene: preserve document fidelity before enrichment, make agent state recoverable and private, and ship consequential claims with an inspectable verification trail."
     }
   ],
-  "updated_at": "2026-08-03T08:05:13.536965+00:00",
+  "updated_at": "2026-08-04T08:06:32Z",
   "last_run": {
     "date": "2026-08-03",
     "selected_lanes": [

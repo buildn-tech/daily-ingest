@@ -1,6 +1,27 @@
 {
-  "updated_at": "2026-08-03T08:10:38.095751+00:00",
+  "updated_at": "2026-08-04T08:08:39.979175+00:00",
   "days": [
+    {
+      "date": "2026-08-04",
+      "path": "2026-08-04",
+      "reports": [
+        {
+          "lane": "sandboxed-browser-agents",
+          "title": "Sandboxed Browser Agents",
+          "url": "2026-08-04/sandboxed-browser-agents.html"
+        },
+        {
+          "lane": "developer-workstation-blast-radius",
+          "title": "Developer Workstation Blast Radius",
+          "url": "2026-08-04/developer-workstation-blast-radius.html"
+        },
+        {
+          "lane": "continuous-cyber-remediation",
+          "title": "Continuous Cyber Remediation",
+          "url": "2026-08-04/continuous-cyber-remediation.html"
+        }
+      ]
+    },
     {
       "date": "2026-08-03",
       "path": "2026-08-03",
