@@ -347,6 +347,21 @@
       "title": "Continuous Cyber Remediation",
       "times_covered": 1,
       "last_covered": "2026-08-04"
+    },
+    "agent-runtime-observability": {
+      "title": "Agent Runtime + Observability",
+      "times_covered": 1,
+      "last_covered": "2026-08-05"
+    },
+    "platform-continuity-security": {
+      "title": "Platform Continuity + Security Baselines",
+      "times_covered": 1,
+      "last_covered": "2026-08-05"
+    },
+    "operational-knowledge-systems": {
+      "title": "Operational Knowledge Systems",
+      "times_covered": 1,
+      "last_covered": "2026-08-05"
     }
   },
   "item_history": [
@@ -2717,6 +2732,78 @@
       "url": "https://microsoft.ai/pdf/mai-thinking-1.pdf",
       "source_type": "paper",
       "selection_rationale": "Model capability assertions should be separated from deployment claims; the technical record helps frame what is known versus what the remediation harness adds."
+    },
+    {
+      "date": "2026-08-05",
+      "lane": "agent-runtime-observability",
+      "title": "Preview: @cloudflare/computer agent runtime",
+      "url": "https://developers.cloudflare.com/changelog/post/2026-08-03-cloudflare-computer/",
+      "source_type": "release",
+      "selection_rationale": "A new open-source runtime combines SQLite-backed workspaces with an explicit isolate/container split and audited operations."
+    },
+    {
+      "date": "2026-08-05",
+      "lane": "agent-runtime-observability",
+      "title": "AI agents can debug Workers with local tracing",
+      "url": "https://developers.cloudflare.com/changelog/post/2026-08-04-local-tracing/",
+      "source_type": "release",
+      "selection_rationale": "Local OpenTelemetry traces, correlated logs, and a read-only Explorer API give an agent evidence without deploying or attaching temporary logs."
+    },
+    {
+      "date": "2026-08-05",
+      "lane": "agent-runtime-observability",
+      "title": "Agent traces for Think, Flue, and AI SDK instrumented by Agents SDK",
+      "url": "https://developers.cloudflare.com/changelog/post/2026-08-04-agent-tracing/",
+      "source_type": "release",
+      "selection_rationale": "Production traces now join turns, model calls, tools, approvals, tokens and runtime operations; payload storage remains off by default."
+    },
+    {
+      "date": "2026-08-05",
+      "lane": "platform-continuity-security",
+      "title": "Upcoming deprecation of GitHub Spark on github.com",
+      "url": "https://github.blog/changelog/2026-08-04-upcoming-deprecation-of-github-spark-on-github-com/",
+      "source_type": "release notice",
+      "selection_rationale": "This materially updates the July 30 GitHub Models retirement: no new Spark apps, existing workbench export ends August 31, and llm() already fails."
+    },
+    {
+      "date": "2026-08-05",
+      "lane": "platform-continuity-security",
+      "title": "Customize code scanning default setup at scale",
+      "url": "https://github.blog/changelog/2026-08-04-customize-code-scanning-default-setup-at-scale",
+      "source_type": "release",
+      "selection_rationale": "The new github-codeql-config-file property centralizes configuration without per-repository Actions workflow maintenance."
+    },
+    {
+      "date": "2026-08-05",
+      "lane": "platform-continuity-security",
+      "title": "Migrate from GitLab to GitHub with GitHub Enterprise Importer",
+      "url": "https://github.blog/changelog/2026-08-03-migrate-from-gitlab-to-github-with-github-enterprise-importer/",
+      "source_type": "release",
+      "selection_rationale": "GA self-service GitLab and GitLab Self-Managed import gives migrations a scriptable CLI path instead of a one-off manual process."
+    },
+    {
+      "date": "2026-08-05",
+      "lane": "operational-knowledge-systems",
+      "title": "New ways to learn and teach with ChatGPT Work and Codex",
+      "url": "https://openai.com/index/learn-teach-chatgpt-work-codex/",
+      "source_type": "product",
+      "selection_rationale": "Role-specific plugins package skills, instructions, approved apps and workflows while keeping institutional tool and permission control."
+    },
+    {
+      "date": "2026-08-05",
+      "lane": "operational-knowledge-systems",
+      "title": "Skill packs are now available on skills.sh",
+      "url": "https://vercel.com/changelog/skill-packs-are-now-available",
+      "source_type": "release",
+      "selection_rationale": "A pack can distribute and update several skills with one install command, making workflows versionable operational assets."
+    },
+    {
+      "date": "2026-08-05",
+      "lane": "operational-knowledge-systems",
+      "title": "Trigger Copilot automations with comments",
+      "url": "https://github.blog/changelog/2026-08-03-trigger-copilot-automations-with-comments/",
+      "source_type": "release",
+      "selection_rationale": "A PR or issue comment can now be the explicit intent boundary for documentation, investigation and follow-up automation."
     }
   ],
   "runs": [
@@ -2860,7 +2947,7 @@
       "editorial_thesis": "Today\u2019s practical advantage is evidence hygiene: preserve document fidelity before enrichment, make agent state recoverable and private, and ship consequential claims with an inspectable verification trail."
     }
   ],
-  "updated_at": "2026-08-04T08:06:32Z",
+  "updated_at": "2026-08-05T08:05:00Z",
   "last_run": {
     "date": "2026-08-03",
     "selected_lanes": [
