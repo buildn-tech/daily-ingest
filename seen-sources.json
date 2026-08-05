@@ -1,6 +1,51 @@
 {
-  "updated_at": "2026-08-04T08:08:39.979175+00:00",
+  "updated_at": "2026-08-05T08:05:07.813403+00:00",
   "sources": {
+    "https://developers.cloudflare.com/changelog/post/2026-08-03-cloudflare-computer": {
+      "first_seen": "2026-08-05",
+      "last_seen": "2026-08-05",
+      "title": "Preview: @cloudflare/computer agent runtime"
+    },
+    "https://developers.cloudflare.com/changelog/post/2026-08-04-local-tracing": {
+      "first_seen": "2026-08-05",
+      "last_seen": "2026-08-05",
+      "title": "AI agents can debug Workers with local tracing"
+    },
+    "https://developers.cloudflare.com/changelog/post/2026-08-04-agent-tracing": {
+      "first_seen": "2026-08-05",
+      "last_seen": "2026-08-05",
+      "title": "Agent traces for Think, Flue, and AI SDK instrumented by Agents SDK"
+    },
+    "https://github.blog/changelog/2026-08-04-upcoming-deprecation-of-github-spark-on-github-com": {
+      "first_seen": "2026-08-05",
+      "last_seen": "2026-08-05",
+      "title": "Upcoming deprecation of GitHub Spark on github.com"
+    },
+    "https://github.blog/changelog/2026-08-04-customize-code-scanning-default-setup-at-scale": {
+      "first_seen": "2026-08-05",
+      "last_seen": "2026-08-05",
+      "title": "Customize code scanning default setup at scale"
+    },
+    "https://github.blog/changelog/2026-08-03-migrate-from-gitlab-to-github-with-github-enterprise-importer": {
+      "first_seen": "2026-08-05",
+      "last_seen": "2026-08-05",
+      "title": "Migrate from GitLab to GitHub with GitHub Enterprise Importer"
+    },
+    "https://openai.com/index/learn-teach-chatgpt-work-codex": {
+      "first_seen": "2026-08-05",
+      "last_seen": "2026-08-05",
+      "title": "New ways to learn and teach with ChatGPT Work and Codex"
+    },
+    "https://vercel.com/changelog/skill-packs-are-now-available": {
+      "first_seen": "2026-08-05",
+      "last_seen": "2026-08-05",
+      "title": "Skill packs are now available on skills.sh"
+    },
+    "https://github.blog/changelog/2026-08-03-trigger-copilot-automations-with-comments": {
+      "first_seen": "2026-08-05",
+      "last_seen": "2026-08-05",
+      "title": "Trigger Copilot automations with comments"
+    },
     "https://vercel.com/changelog/give-your-eve-agent-a-browser": {
       "first_seen": "2026-08-04",
       "last_seen": "2026-08-04",

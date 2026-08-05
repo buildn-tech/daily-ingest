@@ -1,6 +1,27 @@
 {
-  "updated_at": "2026-08-04T08:08:39.979175+00:00",
+  "updated_at": "2026-08-05T08:05:07.813403+00:00",
   "days": [
+    {
+      "date": "2026-08-05",
+      "path": "2026-08-05",
+      "reports": [
+        {
+          "lane": "agent-runtime-observability",
+          "title": "Agent Runtime + Observability",
+          "url": "2026-08-05/agent-runtime-observability.html"
+        },
+        {
+          "lane": "platform-continuity-security",
+          "title": "Platform Continuity + Security Baselines",
+          "url": "2026-08-05/platform-continuity-security.html"
+        },
+        {
+          "lane": "operational-knowledge-systems",
+          "title": "Operational Knowledge Systems",
+          "url": "2026-08-05/operational-knowledge-systems.html"
+        }
+      ]
+    },
     {
       "date": "2026-08-04",
       "path": "2026-08-04",
