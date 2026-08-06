@@ -362,6 +362,26 @@
       "title": "Operational Knowledge Systems",
       "times_covered": 1,
       "last_covered": "2026-08-05"
+    },
+    "attributed-ai-operations": {
+      "title": "Attributed AI Operations",
+      "times_covered": 1,
+      "last_covered": "2026-08-06"
+    },
+    "stateless-agent-infrastructure": {
+      "title": "Stateless Agent Infrastructure",
+      "times_covered": 1,
+      "last_covered": "2026-08-06"
+    },
+    "design-context-agent-delivery": {
+      "title": "Design Context for Agent Delivery",
+      "times_covered": 1,
+      "last_covered": "2026-08-06"
+    },
+    "model-portfolio-trials": {
+      "title": "Model Portfolio Trials",
+      "times_covered": 1,
+      "last_covered": "2026-08-06"
     }
   },
   "item_history": [
@@ -3210,6 +3230,94 @@
       "url": "https://cdn.openai.com/pdf/reasoning-walkthroughs.pdf",
       "source_type": "method note",
       "selection_rationale": "Process artifacts let reviewers assess the route to a conclusion, not only the final polished result."
+    },
+    {
+      "date": "2026-08-06",
+      "lane": "attributed-ai-operations",
+      "title": "Cloudflare AI Gateway User Insights",
+      "url": "https://developers.cloudflare.com/changelog/post/2026-08-05-user-insights/",
+      "source_type": "release",
+      "selection_rationale": "New per-user cost baselines and anomaly flags make agent spend an incident signal rather than only a billing total."
+    },
+    {
+      "date": "2026-08-06",
+      "lane": "attributed-ai-operations",
+      "title": "Cloudflare AI Gateway identity-aware controls",
+      "url": "https://developers.cloudflare.com/changelog/post/2026-08-05-access-user-id-metadata/",
+      "source_type": "release",
+      "selection_rationale": "Verified Access identity can directly govern gateway budgets, routes and audit logs."
+    },
+    {
+      "date": "2026-08-06",
+      "lane": "attributed-ai-operations",
+      "title": "Vercel AI Gateway Trace Drains",
+      "url": "https://vercel.com/changelog/export-ai-gateway-traces-with-vercel-drains",
+      "source_type": "release",
+      "selection_rationale": "OTLP export exposes retries, routing, latency and cost while omitting prompt and completion content."
+    },
+    {
+      "date": "2026-08-06",
+      "lane": "attributed-ai-operations",
+      "title": "Vercel AI Gateway on AWS Marketplace",
+      "url": "https://vercel.com/changelog/ai-gateway-is-now-available-on-aws-marketplace",
+      "source_type": "release",
+      "selection_rationale": "Marketplace procurement turns a potential client adoption blocker into established cloud spend."
+    },
+    {
+      "date": "2026-08-06",
+      "lane": "stateless-agent-infrastructure",
+      "title": "Google: MCP stateless transport updates",
+      "url": "https://developers.googleblog.com/scaling-ai-agent-infrastructure-with-the-mcp-stateless-updates/",
+      "source_type": "blog",
+      "selection_rationale": "The release candidate removes protocol session affinity, enabling normal load balancing and simpler remote MCP hosting."
+    },
+    {
+      "date": "2026-08-06",
+      "lane": "stateless-agent-infrastructure",
+      "title": "Google: session-aware load balancing for real-time agents",
+      "url": "https://developers.googleblog.com/scaling-real-time-ai-agents-with-session-aware-load-balancing/",
+      "source_type": "blog",
+      "selection_rationale": "Real-time agent capacity needs active-session signals alongside CPU and request rate."
+    },
+    {
+      "date": "2026-08-06",
+      "lane": "stateless-agent-infrastructure",
+      "title": "Visual Studio Code 1.132",
+      "url": "https://code.visualstudio.com/updates",
+      "source_type": "release",
+      "selection_rationale": "A dedicated agent host and monitoring window make parallel harness work locally reviewable."
+    },
+    {
+      "date": "2026-08-06",
+      "lane": "design-context-agent-delivery",
+      "title": "Figma: Code Connect in MCP",
+      "url": "https://www.figma.com/blog/the-benefits-of-code-connect-in-mcp/",
+      "source_type": "blog",
+      "selection_rationale": "Measured design-system-to-code context links better generated UI to lower token and task cost."
+    },
+    {
+      "date": "2026-08-06",
+      "lane": "model-portfolio-trials",
+      "title": "DeepSeek V4 Flash 90% discount via Novita",
+      "url": "https://vercel.com/changelog/deepseek-v4-flash-is-90-off-through-novita",
+      "source_type": "release",
+      "selection_rationale": "A discount through August 11 creates a bounded opportunity for workload-specific cost and quality trials."
+    },
+    {
+      "date": "2026-08-06",
+      "lane": "model-portfolio-trials",
+      "title": "Qwen 3.8 Max on Vercel AI Gateway",
+      "url": "https://vercel.com/changelog/qwen-3-8-max-now-available-on-vercel-ai-gateway",
+      "source_type": "release",
+      "selection_rationale": "The new text-and-vision, long-context model is practical to compare under an existing controlled gateway."
+    },
+    {
+      "date": "2026-08-06",
+      "lane": "model-portfolio-trials",
+      "title": "Muse Spark 1.2 on Vercel AI Gateway",
+      "url": "https://vercel.com/changelog/muse-spark-1-2-is-now-available-on-vercel-ai-gateway",
+      "source_type": "release",
+      "selection_rationale": "The coding-focused update warrants a controlled long-horizon migration or debugging evaluation."
     }
   ]
 }
