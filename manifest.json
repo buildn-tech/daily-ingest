@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-08-05T08:05:07.813403+00:00",
+  "updated_at": "2026-08-06T08:08:33.688612+00:00",
   "days": [
+    {
+      "date": "2026-08-06",
+      "path": "2026-08-06",
+      "reports": [
+        {
+          "lane": "attributed-ai-operations",
+          "title": "Attributed AI Operations",
+          "url": "2026-08-06/attributed-ai-operations.html"
+        },
+        {
+          "lane": "stateless-agent-infrastructure",
+          "title": "Stateless Agent Infrastructure",
+          "url": "2026-08-06/stateless-agent-infrastructure.html"
+        },
+        {
+          "lane": "design-context-agent-delivery",
+          "title": "Design Context for Agent Delivery",
+          "url": "2026-08-06/design-context-agent-delivery.html"
+        },
+        {
+          "lane": "model-portfolio-trials",
+          "title": "Model Portfolio Trials",
+          "url": "2026-08-06/model-portfolio-trials.html"
+        }
+      ]
+    },
     {
       "date": "2026-08-05",
       "path": "2026-08-05",

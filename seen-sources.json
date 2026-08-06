@@ -1,6 +1,61 @@
 {
-  "updated_at": "2026-08-05T08:05:07.813403+00:00",
+  "updated_at": "2026-08-06T08:08:33.688612+00:00",
   "sources": {
+    "https://developers.cloudflare.com/changelog/post/2026-08-05-user-insights": {
+      "first_seen": "2026-08-06",
+      "last_seen": "2026-08-06",
+      "title": "Cloudflare AI Gateway User Insights"
+    },
+    "https://developers.cloudflare.com/changelog/post/2026-08-05-access-user-id-metadata": {
+      "first_seen": "2026-08-06",
+      "last_seen": "2026-08-06",
+      "title": "Cloudflare AI Gateway identity-aware controls"
+    },
+    "https://vercel.com/changelog/export-ai-gateway-traces-with-vercel-drains": {
+      "first_seen": "2026-08-06",
+      "last_seen": "2026-08-06",
+      "title": "Vercel AI Gateway Trace Drains"
+    },
+    "https://vercel.com/changelog/ai-gateway-is-now-available-on-aws-marketplace": {
+      "first_seen": "2026-08-06",
+      "last_seen": "2026-08-06",
+      "title": "Vercel AI Gateway on AWS Marketplace"
+    },
+    "https://developers.googleblog.com/scaling-ai-agent-infrastructure-with-the-mcp-stateless-updates": {
+      "first_seen": "2026-08-06",
+      "last_seen": "2026-08-06",
+      "title": "Google: MCP stateless transport updates"
+    },
+    "https://developers.googleblog.com/scaling-real-time-ai-agents-with-session-aware-load-balancing": {
+      "first_seen": "2026-08-06",
+      "last_seen": "2026-08-06",
+      "title": "Google: session-aware load balancing for real-time agents"
+    },
+    "https://code.visualstudio.com/updates": {
+      "first_seen": "2026-08-06",
+      "last_seen": "2026-08-06",
+      "title": "Visual Studio Code 1.132 \u2014 integrated-browser feedback"
+    },
+    "https://www.figma.com/blog/the-benefits-of-code-connect-in-mcp": {
+      "first_seen": "2026-08-06",
+      "last_seen": "2026-08-06",
+      "title": "Figma: Code Connect in MCP"
+    },
+    "https://vercel.com/changelog/deepseek-v4-flash-is-90-off-through-novita": {
+      "first_seen": "2026-08-06",
+      "last_seen": "2026-08-06",
+      "title": "DeepSeek V4 Flash 90% discount via Novita"
+    },
+    "https://vercel.com/changelog/qwen-3-8-max-now-available-on-vercel-ai-gateway": {
+      "first_seen": "2026-08-06",
+      "last_seen": "2026-08-06",
+      "title": "Qwen 3.8 Max on Vercel AI Gateway"
+    },
+    "https://vercel.com/changelog/muse-spark-1-2-is-now-available-on-vercel-ai-gateway": {
+      "first_seen": "2026-08-06",
+      "last_seen": "2026-08-06",
+      "title": "Muse Spark 1.2 on Vercel AI Gateway"
+    },
     "https://developers.cloudflare.com/changelog/post/2026-08-03-cloudflare-computer": {
       "first_seen": "2026-08-05",
       "last_seen": "2026-08-05",

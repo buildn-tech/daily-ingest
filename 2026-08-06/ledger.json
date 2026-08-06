@@ -1,0 +1,47 @@
+{
+  "date": "2026-08-06",
+  "generated_at": "2026-08-06T10:01:06+02:00",
+  "editorial_thesis": "The useful shift today is from an undifferentiated model endpoint to an accountable operating layer: identity, cost, traces, state, and design-system context now travel with agent work.",
+  "topic_groups": [
+    {
+      "slug": "attributed-ai-operations",
+      "title": "Attributed AI Operations",
+      "selection_rationale": "Fresh primary releases make per-user spend, identity, and request-level tracing practical; this is a coverage gap after yesterday's runtime-observability overview.",
+      "sources": [
+        {"title":"Cloudflare AI Gateway User Insights","url":"https://developers.cloudflare.com/changelog/post/2026-08-05-user-insights/","source_type":"release","published_or_updated":"2026-08-05","why_selected":"Adds no-setup per-user cost and anomaly signals on existing gateway traffic.","usefulness":"Instrument a client or Buildn agent fleet before cost and credential incidents become opaque."},
+        {"title":"Cloudflare AI Gateway identity-aware controls","url":"https://developers.cloudflare.com/changelog/post/2026-08-05-access-user-id-metadata/","source_type":"release","published_or_updated":"2026-08-05","why_selected":"Verified Access identity can drive gateway limits, access and log filters.","usefulness":"Avoid trusting a client-supplied user identifier for agent budgets and audit trails."},
+        {"title":"Vercel AI Gateway Trace Drains","url":"https://vercel.com/changelog/export-ai-gateway-traces-with-vercel-drains","source_type":"release","published_or_updated":"2026-08-05","why_selected":"Exports routing, retries, cost and latency to standard OTLP endpoints without prompt content.","usefulness":"Send a sampled production trace stream to the existing observability stack."},
+        {"title":"Vercel AI Gateway on AWS Marketplace","url":"https://vercel.com/changelog/ai-gateway-is-now-available-on-aws-marketplace","source_type":"release","published_or_updated":"2026-08-05","why_selected":"Moves gateway procurement into an existing cloud billing and private-offer path.","usefulness":"A concrete client option when procurement, not API mechanics, blocks adoption."}
+      ]
+    },
+    {
+      "slug": "stateless-agent-infrastructure",
+      "title": "Stateless Agent Infrastructure",
+      "selection_rationale": "The MCP transport change has material deployment consequences and is complemented by new practical guidance for real-time session capacity.",
+      "sources": [
+        {"title":"Google: MCP stateless transport updates","url":"https://developers.googleblog.com/scaling-ai-agent-infrastructure-with-the-mcp-stateless-updates/","source_type":"blog","published_or_updated":"2026-08-05","why_selected":"The MCP 2026-07-28 release candidate removes handshake-held transport state.","usefulness":"Revisit sticky sessions and Redis dependencies in remote MCP server designs."},
+        {"title":"Google: session-aware load balancing for real-time agents","url":"https://developers.googleblog.com/scaling-real-time-ai-agents-with-session-aware-load-balancing/","source_type":"blog","published_or_updated":"2026-08-03","why_selected":"Makes active sessions a first-class capacity signal alongside QPS and CPU.","usefulness":"Prevent voice or browser-agent streams from being misrouted by request-only balancing."},
+        {"title":"Visual Studio Code 1.132","url":"https://code.visualstudio.com/updates","source_type":"release","published_or_updated":"2026-08-05","why_selected":"Introduces a dedicated agent host and a window for monitoring multiple agent sessions.","usefulness":"A practical local control surface for parallel Copilot, Claude, or Codex work."}
+      ]
+    },
+    {
+      "slug": "design-context-agent-delivery",
+      "title": "Design Context for Agent Delivery",
+      "selection_rationale": "A new measured Figma result fills a neglected connection between design-system maintenance and coding-agent reliability.",
+      "sources": [
+        {"title":"Figma: Code Connect in MCP","url":"https://www.figma.com/blog/the-benefits-of-code-connect-in-mcp/","source_type":"blog","published_or_updated":"2026-08-05","why_selected":"A controlled 27-task study reports better code quality with lower token and task cost when design components map to production code.","usefulness":"Treat Code Connect coverage as agent-delivery infrastructure rather than design-system documentation."},
+        {"title":"Visual Studio Code 1.132 — integrated-browser feedback","url":"https://code.visualstudio.com/updates","source_type":"release","published_or_updated":"2026-08-05","why_selected":"Element-level browser comments tighten the feedback loop between a rendered UI and an active agent.","usefulness":"Use precise visual annotations rather than broad chat descriptions for polish passes."}
+      ]
+    },
+    {
+      "slug": "model-portfolio-trials",
+      "title": "Model Portfolio Trials",
+      "selection_rationale": "New model availability and a time-boxed price change justify controlled trials, not a recurring model-news roundup.",
+      "sources": [
+        {"title":"DeepSeek V4 Flash 90% discount via Novita","url":"https://vercel.com/changelog/deepseek-v4-flash-is-90-off-through-novita","source_type":"release","published_or_updated":"2026-08-06","why_selected":"The discounted window ends August 11 and supports a low-cost workload-specific trial.","usefulness":"Run a bounded regression suite against a cheap alternate route before the deadline."},
+        {"title":"Qwen 3.8 Max on Vercel AI Gateway","url":"https://vercel.com/changelog/qwen-3-8-max-now-available-on-vercel-ai-gateway","source_type":"release","published_or_updated":"2026-08-06","why_selected":"Adds a 1M-context text-and-vision model to a unified gateway and coding-agent setup flow.","usefulness":"Test visual QA or design-to-page workloads under one governed API."},
+        {"title":"Muse Spark 1.2 on Vercel AI Gateway","url":"https://vercel.com/changelog/muse-spark-1-2-is-now-available-on-vercel-ai-gateway","source_type":"release","published_or_updated":"2026-08-06","why_selected":"A coding-focused long-horizon model update is available behind the same routing and cost controls.","usefulness":"Compare multi-round migration or debugging tasks against the incumbent harness."}
+      ]
+    }
+  ]
+}
