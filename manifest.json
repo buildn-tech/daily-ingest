@@ -1,6 +1,27 @@
 {
-  "updated_at": "2026-08-06T08:08:33.688612+00:00",
+  "updated_at": "2026-08-07T08:05:15.905417+00:00",
   "days": [
+    {
+      "date": "2026-08-07",
+      "path": "2026-08-07",
+      "reports": [
+        {
+          "lane": "realtime-agent-systems",
+          "title": "Realtime Agent Systems",
+          "url": "2026-08-07/realtime-agent-systems.html"
+        },
+        {
+          "lane": "collaborative-agent-delivery",
+          "title": "Collaborative Agent Delivery",
+          "url": "2026-08-07/collaborative-agent-delivery.html"
+        },
+        {
+          "lane": "safety-classifiers-trusted-access",
+          "title": "Safety Classifiers + Trusted Access",
+          "url": "2026-08-07/safety-classifiers-trusted-access.html"
+        }
+      ]
+    },
     {
       "date": "2026-08-06",
       "path": "2026-08-06",

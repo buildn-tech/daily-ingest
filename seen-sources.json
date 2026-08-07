@@ -1,6 +1,41 @@
 {
-  "updated_at": "2026-08-06T08:08:33.688612+00:00",
+  "updated_at": "2026-08-07T08:05:15.905417+00:00",
   "sources": {
+    "https://openai.com/index/continuous-voice-interaction-with-gpt-live": {
+      "first_seen": "2026-08-07",
+      "last_seen": "2026-08-07",
+      "title": "How OpenAI built GPT-Live"
+    },
+    "https://blog.cloudflare.com/internal-dns": {
+      "first_seen": "2026-08-07",
+      "last_seen": "2026-08-07",
+      "title": "Cloudflare Internal DNS is generally available"
+    },
+    "https://developer.chrome.com/docs/devtools/release-notes": {
+      "first_seen": "2026-08-07",
+      "last_seen": "2026-08-07",
+      "title": "Chrome DevTools 151 release notes"
+    },
+    "https://www.figma.com/blog/code-craft-and-the-making-of-nested-folders": {
+      "first_seen": "2026-08-07",
+      "last_seen": "2026-08-07",
+      "title": "Code, craft, and the making of nested folders"
+    },
+    "https://github.com/Tracewell-code/Tracewell": {
+      "first_seen": "2026-08-07",
+      "last_seen": "2026-08-07",
+      "title": "Tracewell"
+    },
+    "https://github.com/adrida/hud-mode": {
+      "first_seen": "2026-08-07",
+      "last_seen": "2026-08-07",
+      "title": "hud-mode"
+    },
+    "https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards": {
+      "first_seen": "2026-08-07",
+      "last_seen": "2026-08-07",
+      "title": "Improving Fable 5\u2019s biology safeguards"
+    },
     "https://developers.cloudflare.com/changelog/post/2026-08-05-user-insights": {
       "first_seen": "2026-08-06",
       "last_seen": "2026-08-06",

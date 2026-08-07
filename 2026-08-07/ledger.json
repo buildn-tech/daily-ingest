@@ -1,0 +1,119 @@
+{
+  "date": "2026-08-07",
+  "generated_at": "2026-08-07T08:05:02.940431+00:00",
+  "editorial_thesis": "Today’s strongest practical signal is not another general-purpose agent: it is the operating detail around live interaction, cross-functional delivery, and narrow safety controls that lets automation become usable in real work.",
+  "topic_groups": [
+    {
+      "slug": "realtime-agent-systems",
+      "title": "Realtime Agent Systems",
+      "selection_rationale": "A new primary architecture write-up makes the fast-path/slow-path split concrete, while current browser tooling offers an immediately testable client-side feedback surface.",
+      "sources": [
+        {
+          "title": "How OpenAI built GPT-Live",
+          "url": "https://openai.com/index/continuous-voice-interaction-with-gpt-live/",
+          "source_type": "engineering blog",
+          "published_or_updated": "2026-08-03",
+          "why_selected": "It documents a production full-duplex voice architecture rather than announcing a model feature.",
+          "usefulness": "Use its fast-path boundary as a design review checklist for voice, browser, and streaming client work.",
+          "what": "A six-month rebuild of realtime voice around continuous, stateful audio; tools, persistence, and deeper reasoning run asynchronously.",
+          "matters": "The decisive design is isolation: a slow tool must not interrupt the media loop.",
+          "use": "For Buildn/client voice copilots, keep audio transport and frame scheduling independent from retrieval, CRM calls, or approval workflows.",
+          "caveat": "This is an architectural account, not a reusable hosted component; measure end-to-end jitter and interruption behavior yourself.",
+          "action": "Diagram one proposed live workflow and label every synchronous dependency."
+        },
+        {
+          "title": "Cloudflare Internal DNS is generally available",
+          "url": "https://blog.cloudflare.com/internal-dns/",
+          "source_type": "product release",
+          "published_or_updated": "2026-08-06",
+          "why_selected": "It consolidates private authoritative DNS, recursive resolution, policy, and auditability in one control plane.",
+          "usefulness": "It is a credible option when private tool endpoints and split-horizon names become deployment friction.",
+          "what": "Private authoritative zones, DNS views, and Gateway resolver policies on Cloudflare’s network.",
+          "matters": "Agent tools often need internal services; name resolution and who can resolve a name are part of the boundary.",
+          "use": "Assess it for client environments that already use Cloudflare Gateway and need private MCP, staging, or database service names.",
+          "caveat": "Enterprise Gateway availability and a Cloudflare control-plane dependency make this unsuitable as a casual local-dev default.",
+          "action": "Inventory internal hostnames and identify where split-horizon DNS is currently duplicated."
+        },
+        {
+          "title": "Chrome DevTools 151 release notes",
+          "url": "https://developer.chrome.com/docs/devtools/release-notes",
+          "source_type": "release notes",
+          "published_or_updated": "2026-07-28",
+          "why_selected": "The latest release adds CSS specificity breakdowns and AI-assistance widgets; the same release stream documents stable DevTools-for-agents tooling.",
+          "usefulness": "It provides a local, inspectable feedback loop before automating visual fixes in a client site.",
+          "what": "Chrome 151’s DevTools update, including CSS specificity inspection and AI-assistance UI improvements.",
+          "matters": "Visual-agent reliability improves when the agent can interrogate the actual rendering and CSS cascade.",
+          "use": "Add a DevTools MCP-assisted reproduction step to front-end QA, then retain human review for the final diff.",
+          "caveat": "Treat browser assistance as diagnostic support; it does not validate product intent, accessibility, or regression coverage.",
+          "action": "Try it on one stubborn CSS override and record whether the diagnosis reduces edit/retest cycles."
+        }
+      ]
+    },
+    {
+      "slug": "collaborative-agent-delivery",
+      "title": "Collaborative Agent Delivery",
+      "selection_rationale": "Figma’s fresh account of shipping a complex permissions feature and two newly visible open-source workflow surfaces point to a coverage gap: agents help most when the team’s proposal-and-review loop is explicit.",
+      "sources": [
+        {
+          "title": "Code, craft, and the making of nested folders",
+          "url": "https://www.figma.com/blog/code-craft-and-the-making-of-nested-folders/",
+          "source_type": "engineering blog",
+          "published_or_updated": "2026-08-03",
+          "why_selected": "It is a detailed primary case study of changing collaboration mechanics during a difficult permissions-model rebuild.",
+          "usefulness": "It gives Buildn a practical operating pattern: prototype in code, test in staging, then converge with cross-functional review.",
+          "what": "Figma’s account of delivering nested folders by using code and staging as proposals instead of waiting for complete handoffs.",
+          "matters": "The valuable pattern is not role blur; it is short, inspectable feedback loops with a real artifact.",
+          "use": "Run client discovery as a thin vertical slice in staging, with a named decision owner and visible acceptance checks.",
+          "caveat": "Merging rough work into staging is safe only with containment, rollback, and a clear distinction from production.",
+          "action": "For the next ambiguous request, open a small proposal PR before drafting a full implementation plan."
+        },
+        {
+          "title": "Tracewell",
+          "url": "https://github.com/Tracewell-code/Tracewell",
+          "source_type": "repo",
+          "published_or_updated": "2026-08-05",
+          "why_selected": "This newly created open-source workspace focuses on building, running, and observing workflow automations rather than only prompting them.",
+          "usefulness": "It is a quick scan candidate for teams that need a visual operations surface around repeatable automations.",
+          "what": "An early open-source visual workspace for workflow automation construction, execution, and observation.",
+          "matters": "The interface framing—build, run, observe—matches the operational lifecycle client automations need.",
+          "use": "Evaluate its workflow model for internal prototypes; borrow the surface pattern even if the project is not adopted.",
+          "caveat": "A very new repository: validate maintainer activity, security model, and deployment maturity before client use.",
+          "action": "Open the repo and assess licensing, persistence, credentials, and run-history design in 30 minutes."
+        },
+        {
+          "title": "hud-mode",
+          "url": "https://github.com/adrida/hud-mode",
+          "source_type": "repo",
+          "published_or_updated": "2026-08-05",
+          "why_selected": "A small new open-source HUD targets the neglected moment while a coding agent works and when it stops.",
+          "usefulness": "It may reduce context-switching for supervised Claude Code, Codex, or OpenCode work.",
+          "what": "A compact heads-up display for coding-agent status and completion state.",
+          "matters": "Supervision fails when an agent’s state is invisible; a minimal status surface can make review timing deliberate.",
+          "use": "Try it on one local coding task and compare interruption frequency with the current terminal-only workflow.",
+          "caveat": "It is early-stage and should receive no credentials or privileged execution rights merely for convenience.",
+          "action": "Test it in an isolated repository and keep the existing terminal log as the source of truth."
+        }
+      ]
+    },
+    {
+      "slug": "safety-classifiers-trusted-access",
+      "title": "Safety Classifiers + Trusted Access",
+      "selection_rationale": "Anthropic’s same-day update is unusually concrete about a hard operational trade-off: reduce false positives without flattening safeguards for genuinely dual-use work.",
+      "sources": [
+        {
+          "title": "Improving Fable 5’s biology safeguards",
+          "url": "https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards",
+          "source_type": "product announcement",
+          "published_or_updated": "2026-08-07",
+          "why_selected": "It reports an explicit classifier refinement, quantified fallback reductions, and continued restrictions for dual-use professional biology tasks.",
+          "usefulness": "It is a useful governance pattern for any high-impact workflow: tune the routing boundary, preserve escalation, and measure collateral friction.",
+          "what": "Anthropic refined Fable 5’s biology classifier, reporting about 85% fewer biology-related fallbacks while retaining restricted routing for dual-use work.",
+          "matters": "A blanket block is not a durable product boundary; the operational question is how to lower benign friction without expanding hazardous access.",
+          "use": "Apply the pattern to Buildn/client agent controls: classify requests, log uncertainty, route sensitive cases to a less-capable path or human approval.",
+          "caveat": "The figures are vendor-reported and biology-specific. Do not infer equivalent accuracy for finance, HR, security, or legal workflows.",
+          "action": "Choose one risky tool action and define the benign path, escalation path, evidence captured, and reviewer."
+        }
+      ]
+    }
+  ]
+}
