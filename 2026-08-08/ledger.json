@@ -1,0 +1,145 @@
+{
+  "date": "2026-08-08",
+  "generated_at": "2026-08-08T08:04:55.814460+00:00",
+  "editorial_thesis": "The practical shift today is control-plane maturity: measure which agent actually works, isolate where it runs, and make every external integration explicitly admissible and observable.",
+  "topic_groups": [
+    {
+      "slug": "agent-portfolio-controls",
+      "title": "Agent Portfolio Controls",
+      "selection_rationale": "Yesterday’s GitHub releases turn agent rollout from a single adoption number into review depth, per-agent activity, and directional spend/output evidence—a fresh operational lane after recent runtime coverage.",
+      "sources": [
+        {
+          "title": "Copilot code review effort levels are generally available",
+          "url": "https://github.blog/changelog/2026-08-07-copilot-code-review-effort-levels-are-generally-available/",
+          "source_type": "release",
+          "published_or_updated": "2026-08-07",
+          "why_selected": "GA effort levels make review depth a deliberate policy choice rather than an invisible model setting.",
+          "usefulness": "Map Lite and Balanced review to change risk in a client or Buildn repository.",
+          "what": "GitHub Copilot code review now offers GA Lite and Balanced effort levels, configurable per review or as organization defaults.",
+          "matters": "Routine documentation edits and cross-service or security-sensitive changes should not consume the same review budget.",
+          "use": "Set a default for routine changes; require Balanced on sensitive paths, migrations, and externally exposed code.",
+          "caveat": "Review effort is not an acceptance test. Preserve CI, human ownership, and security review for high-consequence changes.",
+          "action": "Write a one-page PR risk rubric that assigns Lite, Balanced, or human-only review."
+        },
+        {
+          "title": "Copilot usage metrics API adds agent app activity",
+          "url": "https://github.blog/changelog/2026-08-07-copilot-usage-metrics-api-adds-agent-app-activity/",
+          "source_type": "API release",
+          "published_or_updated": "2026-08-07",
+          "why_selected": "It separates recognized third-party agent activity by stable agent identifier in 1- and 28-day reports.",
+          "usefulness": "It supplies a practical schema for evaluating a mixed agent fleet rather than relying on anecdotes.",
+          "what": "The Copilot usage metrics API adds optional totals_by_3rd_party_agent entries, including agent_id, job starts, and aggregate session counts.",
+          "matters": "A shared “agent usage” bucket hides whether a new harness is complementing or displacing the one it was meant to improve.",
+          "use": "If a client uses GitHub enterprise controls, join reports on agent_id and compare adoption, cost, cycle time, and accepted output by agent.",
+          "caveat": "Unrecognized agents are omitted; job starts are not the same metric as top-level prompts, and activity is not outcome quality.",
+          "action": "Add agent_id, accepted PRs, rework rate, and human-review time to a 28-day experiment sheet."
+        },
+        {
+          "title": "Copilot impact dashboard adds a return on investment section",
+          "url": "https://github.blog/changelog/2026-08-07-copilot-impact-dashboard-adds-a-return-on-investment-section/",
+          "source_type": "product update",
+          "published_or_updated": "2026-08-07",
+          "why_selected": "It puts actual AI-credit-derived cost beside pull-request output for passive and agent-first adoption cohorts.",
+          "usefulness": "Use the framing to start a better client conversation about enablement without treating PR volume as ROI.",
+          "what": "GitHub’s impact dashboard adds a potential ROI view with cost per developer, payroll percentage, and pull requests per month across adoption cohorts.",
+          "matters": "The release makes the cost/output trade-off visible, while also showing why volume alone must not become the success metric.",
+          "use": "Pair dashboard data with defect escapes, reviewer burden, and delivery lead time before choosing an agent rollout path.",
+          "caveat": "GitHub labels the figures directional: salary is modeled, costs are estimates, and pull-request volume does not prove value or quality.",
+          "action": "Use the dashboard only as one panel in a scorecard with quality and cycle-time guardrails."
+        }
+      ]
+    },
+    {
+      "slug": "bounded-agent-execution",
+      "title": "Bounded Agent Execution",
+      "selection_rationale": "New browser and microVM options are concrete enough to test now, while avoiding a repeat of this week’s runtime/observability lens: the focus here is where untrusted work is allowed to execute.",
+      "sources": [
+        {
+          "title": "Introducing Kitesurf, an agent-first browser on Browser Run",
+          "url": "https://developers.cloudflare.com/changelog/post/2026-08-06-kitesurf/",
+          "source_type": "beta release",
+          "published_or_updated": "2026-08-06",
+          "why_selected": "It offers a stateless browser designed for agent workloads with an opt-in compatibility path through existing Browser Run endpoints.",
+          "usefulness": "It is a viable benchmark candidate for bursty screenshot and extraction jobs.",
+          "what": "Cloudflare’s Kitesurf is a beta stateless browser on Workers; Cloudflare reports 3–7× lower CPU and memory for common agent screenshots and HTML extraction.",
+          "matters": "Browser sessions are expensive and high-risk. Stateless, elastic execution can reduce capacity pressure when tasks are narrow and repeatable.",
+          "use": "Benchmark one research or QA job against the existing browser path, keeping credentials, uploads, and destructive interactions out of the trial.",
+          "caveat": "Vendor performance figures need workload-specific validation; beta status and browser compatibility differences can surface at the edges.",
+          "action": "Run a 20-job screenshot/extraction benchmark with latency, error, and fidelity checks."
+        },
+        {
+          "title": "Vercel AI Gateway and Vercel Sandbox now available on Hermes Agent",
+          "url": "https://vercel.com/changelog/vercel-ai-gateway-and-vercel-sandbox-now-available-on-hermes-agent",
+          "source_type": "integration release",
+          "published_or_updated": "2026-08-07",
+          "why_selected": "The integration joins multi-model routing with a configurable microVM command backend in the agent workflow used for this ingest.",
+          "usefulness": "It gives a direct path to trial cloud-isolated commands without rebuilding the orchestration layer.",
+          "what": "Hermes Agent can use Vercel AI Gateway and switch terminal commands to Vercel Sandbox microVMs, with a workspace rooted in the sandbox.",
+          "matters": "Model access and command execution are separate boundaries; treating the latter as a backend makes containment an explicit operating choice.",
+          "use": "Prototype a client automation with read-only inputs and an isolated workspace, then promote only reviewed artifacts to the real repository.",
+          "caveat": "A sandbox limits execution blast radius but does not remove the need for secret scoping, egress policy, artifact review, or cost controls.",
+          "action": "Run one non-production task in a sandbox and document filesystem, network, credential, and promotion boundaries."
+        },
+        {
+          "title": "Give every agent in Herdr its own Vercel Sandbox",
+          "url": "https://vercel.com/changelog/give-every-agent-in-herdr-its-own-vercel-sandbox",
+          "source_type": "integration release",
+          "published_or_updated": "2026-08-07",
+          "why_selected": "It shows a practical multi-agent pattern: local orchestration with separate sandboxes, reviewed uploads, conflict checks, and human-confirmed deletion.",
+          "usefulness": "Borrow the boundary design even if neither product becomes the production platform.",
+          "what": "Herdr can assign terminal agents their own Vercel Sandboxes while retaining local orchestration and review controls around files and deletion.",
+          "matters": "Concurrency is safer when agents do not share mutable workspace state by default and transfers have named checkpoints.",
+          "use": "For parallel client work, give each agent a disposable branch/workspace and merge only reviewable patches with provenance.",
+          "caveat": "Isolation does not solve conflicting requirements or validate output. Human acceptance criteria still need to be explicit.",
+          "action": "Adopt per-task worktrees today; add stronger runtime isolation only after the workflow proves valuable."
+        }
+      ]
+    },
+    {
+      "slug": "integration-trust-boundaries",
+      "title": "Integration Trust Boundaries",
+      "selection_rationale": "This lane fills a gap between agent capability and real deployment: current releases expose the three seams that fail first—tool admission, application permissions, and security-event evidence.",
+      "sources": [
+        {
+          "title": "MCP allowlists in enterprise managed settings",
+          "url": "https://github.blog/changelog/2026-08-06-mcp-allowlists-in-enterprise-managed-settings",
+          "source_type": "security release",
+          "published_or_updated": "2026-08-06",
+          "why_selected": "GitHub now provides centrally managed, fail-closed MCP allow/deny policies across Copilot app, CLI, and VS Code.",
+          "usefulness": "It is an immediately usable reference for a client MCP admission policy.",
+          "what": "Enterprise settings can allow or deny MCP servers by canonicalized remote URL, exact local command/arguments, or name; malformed or unverifiable configurations are blocked.",
+          "matters": "Tool discovery turns an integration into effective agent authority. An allowlist makes that authority reviewable before it reaches developer machines.",
+          "use": "Maintain a small approved-server inventory; match remote URLs or exact commands, not friendly server names, and specify an owner and renewal date.",
+          "caveat": "This is GitHub-specific enforcement. Names are explicitly not a security control, and policy coverage is limited to supported clients.",
+          "action": "Inventory every MCP server in use and classify it approved, experimental, blocked, or unknown."
+        },
+        {
+          "title": "Enterprises can now install third-party GitHub Apps",
+          "url": "https://github.blog/changelog/2026-08-07-enterprises-can-now-install-third-party-github-apps/",
+          "source_type": "platform release",
+          "published_or_updated": "2026-08-07",
+          "why_selected": "It opens an enterprise-level installation path while preserving an important restriction for the most powerful organization-installation permissions.",
+          "usefulness": "It creates a clearer delivery route for Buildn integrations that need enterprise-management scope.",
+          "what": "GitHub enterprise owners can install external public GitHub Apps; apps with enterprise organization-installation permissions cannot be installed across enterprise boundaries.",
+          "matters": "Enterprise-level distribution is useful, but the permission model must be designed for the blast radius rather than for the easiest onboarding flow.",
+          "use": "For any client app, request the smallest permission set, document the installation scope, and avoid cross-enterprise plans if restricted permissions are required.",
+          "caveat": "Installing at enterprise scope does not grant organization or repository access by itself; every follow-on permission still needs explicit review.",
+          "action": "Create a permission table for the next GitHub App: user, org, repository, enterprise, data read, data write, and exit plan."
+        },
+        {
+          "title": "Audit Log Drains now support Datadog, Splunk, and Panther",
+          "url": "https://vercel.com/changelog/audit-log-drains-now-support-datadog-splunk-and-panther",
+          "source_type": "observability release",
+          "published_or_updated": "2026-08-07",
+          "why_selected": "It adds direct audit-event destinations and a migration away from the prior custom SIEM streaming path.",
+          "usefulness": "It closes the evidence loop for hosted client delivery where deployment and configuration actions need independent visibility.",
+          "what": "Vercel Audit Log Drains now stream team activity events plus audit metadata to Datadog, Splunk, or Panther, alongside HTTPS and S3 destinations.",
+          "matters": "A permission boundary cannot be reviewed after an incident if deployment, access, and configuration actions remain trapped in a vendor console.",
+          "use": "For Enterprise clients, send audit logs to the existing detection platform and verify retention, alert ownership, and the migration from Custom SIEM Log Streaming.",
+          "caveat": "The feature is Enterprise-only; log forwarding is not monitoring until high-signal rules, retention, and response ownership are configured.",
+          "action": "Choose three auditable events—access change, production deploy, secret change—and prove they arrive in the team’s response system."
+        }
+      ]
+    }
+  ]
+}

@@ -1,6 +1,51 @@
 {
-  "updated_at": "2026-08-07T08:05:15.905417+00:00",
+  "updated_at": "2026-08-08T08:05:07.898986+00:00",
   "sources": {
+    "https://github.blog/changelog/2026-08-07-copilot-code-review-effort-levels-are-generally-available": {
+      "first_seen": "2026-08-08",
+      "last_seen": "2026-08-08",
+      "title": "Copilot code review effort levels are generally available"
+    },
+    "https://github.blog/changelog/2026-08-07-copilot-usage-metrics-api-adds-agent-app-activity": {
+      "first_seen": "2026-08-08",
+      "last_seen": "2026-08-08",
+      "title": "Copilot usage metrics API adds agent app activity"
+    },
+    "https://github.blog/changelog/2026-08-07-copilot-impact-dashboard-adds-a-return-on-investment-section": {
+      "first_seen": "2026-08-08",
+      "last_seen": "2026-08-08",
+      "title": "Copilot impact dashboard adds a return on investment section"
+    },
+    "https://developers.cloudflare.com/changelog/post/2026-08-06-kitesurf": {
+      "first_seen": "2026-08-08",
+      "last_seen": "2026-08-08",
+      "title": "Introducing Kitesurf, an agent-first browser on Browser Run"
+    },
+    "https://vercel.com/changelog/vercel-ai-gateway-and-vercel-sandbox-now-available-on-hermes-agent": {
+      "first_seen": "2026-08-08",
+      "last_seen": "2026-08-08",
+      "title": "Vercel AI Gateway and Vercel Sandbox now available on Hermes Agent"
+    },
+    "https://vercel.com/changelog/give-every-agent-in-herdr-its-own-vercel-sandbox": {
+      "first_seen": "2026-08-08",
+      "last_seen": "2026-08-08",
+      "title": "Give every agent in Herdr its own Vercel Sandbox"
+    },
+    "https://github.blog/changelog/2026-08-06-mcp-allowlists-in-enterprise-managed-settings": {
+      "first_seen": "2026-08-08",
+      "last_seen": "2026-08-08",
+      "title": "MCP allowlists in enterprise managed settings"
+    },
+    "https://github.blog/changelog/2026-08-07-enterprises-can-now-install-third-party-github-apps": {
+      "first_seen": "2026-08-08",
+      "last_seen": "2026-08-08",
+      "title": "Enterprises can now install third-party GitHub Apps"
+    },
+    "https://vercel.com/changelog/audit-log-drains-now-support-datadog-splunk-and-panther": {
+      "first_seen": "2026-08-08",
+      "last_seen": "2026-08-08",
+      "title": "Audit Log Drains now support Datadog, Splunk, and Panther"
+    },
     "https://openai.com/index/continuous-voice-interaction-with-gpt-live": {
       "first_seen": "2026-08-07",
       "last_seen": "2026-08-07",

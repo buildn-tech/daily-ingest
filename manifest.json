@@ -1,6 +1,27 @@
 {
-  "updated_at": "2026-08-07T08:05:15.905417+00:00",
+  "updated_at": "2026-08-08T08:05:07.898986+00:00",
   "days": [
+    {
+      "date": "2026-08-08",
+      "path": "2026-08-08",
+      "reports": [
+        {
+          "lane": "agent-portfolio-controls",
+          "title": "Agent Portfolio Controls",
+          "url": "2026-08-08/agent-portfolio-controls.html"
+        },
+        {
+          "lane": "bounded-agent-execution",
+          "title": "Bounded Agent Execution",
+          "url": "2026-08-08/bounded-agent-execution.html"
+        },
+        {
+          "lane": "integration-trust-boundaries",
+          "title": "Integration Trust Boundaries",
+          "url": "2026-08-08/integration-trust-boundaries.html"
+        }
+      ]
+    },
     {
       "date": "2026-08-07",
       "path": "2026-08-07",

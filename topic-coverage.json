@@ -397,6 +397,21 @@
       "title": "Safety Classifiers + Trusted Access",
       "times_covered": 1,
       "last_covered": "2026-08-07"
+    },
+    "agent-portfolio-controls": {
+      "title": "Agent Portfolio Controls",
+      "times_covered": 1,
+      "last_covered": "2026-08-08"
+    },
+    "bounded-agent-execution": {
+      "title": "Bounded Agent Execution",
+      "times_covered": 1,
+      "last_covered": "2026-08-08"
+    },
+    "integration-trust-boundaries": {
+      "title": "Integration Trust Boundaries",
+      "times_covered": 1,
+      "last_covered": "2026-08-08"
     }
   },
   "item_history": [
@@ -2895,6 +2910,78 @@
       "url": "https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards",
       "source_type": "product announcement",
       "selection_rationale": "It reports an explicit classifier refinement, quantified fallback reductions, and continued restrictions for dual-use professional biology tasks."
+    },
+    {
+      "date": "2026-08-08",
+      "lane": "agent-portfolio-controls",
+      "title": "Copilot code review effort levels are generally available",
+      "url": "https://github.blog/changelog/2026-08-07-copilot-code-review-effort-levels-are-generally-available/",
+      "source_type": "release",
+      "selection_rationale": "GA effort levels make review depth a deliberate policy choice rather than an invisible model setting."
+    },
+    {
+      "date": "2026-08-08",
+      "lane": "agent-portfolio-controls",
+      "title": "Copilot usage metrics API adds agent app activity",
+      "url": "https://github.blog/changelog/2026-08-07-copilot-usage-metrics-api-adds-agent-app-activity/",
+      "source_type": "API release",
+      "selection_rationale": "It separates recognized third-party agent activity by stable agent identifier in 1- and 28-day reports."
+    },
+    {
+      "date": "2026-08-08",
+      "lane": "agent-portfolio-controls",
+      "title": "Copilot impact dashboard adds a return on investment section",
+      "url": "https://github.blog/changelog/2026-08-07-copilot-impact-dashboard-adds-a-return-on-investment-section/",
+      "source_type": "product update",
+      "selection_rationale": "It puts actual AI-credit-derived cost beside pull-request output for passive and agent-first adoption cohorts."
+    },
+    {
+      "date": "2026-08-08",
+      "lane": "bounded-agent-execution",
+      "title": "Introducing Kitesurf, an agent-first browser on Browser Run",
+      "url": "https://developers.cloudflare.com/changelog/post/2026-08-06-kitesurf/",
+      "source_type": "beta release",
+      "selection_rationale": "It offers a stateless browser designed for agent workloads with an opt-in compatibility path through existing Browser Run endpoints."
+    },
+    {
+      "date": "2026-08-08",
+      "lane": "bounded-agent-execution",
+      "title": "Vercel AI Gateway and Vercel Sandbox now available on Hermes Agent",
+      "url": "https://vercel.com/changelog/vercel-ai-gateway-and-vercel-sandbox-now-available-on-hermes-agent",
+      "source_type": "integration release",
+      "selection_rationale": "The integration joins multi-model routing with a configurable microVM command backend in the agent workflow used for this ingest."
+    },
+    {
+      "date": "2026-08-08",
+      "lane": "bounded-agent-execution",
+      "title": "Give every agent in Herdr its own Vercel Sandbox",
+      "url": "https://vercel.com/changelog/give-every-agent-in-herdr-its-own-vercel-sandbox",
+      "source_type": "integration release",
+      "selection_rationale": "It shows a practical multi-agent pattern: local orchestration with separate sandboxes, reviewed uploads, conflict checks, and human-confirmed deletion."
+    },
+    {
+      "date": "2026-08-08",
+      "lane": "integration-trust-boundaries",
+      "title": "MCP allowlists in enterprise managed settings",
+      "url": "https://github.blog/changelog/2026-08-06-mcp-allowlists-in-enterprise-managed-settings",
+      "source_type": "security release",
+      "selection_rationale": "GitHub now provides centrally managed, fail-closed MCP allow/deny policies across Copilot app, CLI, and VS Code."
+    },
+    {
+      "date": "2026-08-08",
+      "lane": "integration-trust-boundaries",
+      "title": "Enterprises can now install third-party GitHub Apps",
+      "url": "https://github.blog/changelog/2026-08-07-enterprises-can-now-install-third-party-github-apps/",
+      "source_type": "platform release",
+      "selection_rationale": "It opens an enterprise-level installation path while preserving an important restriction for the most powerful organization-installation permissions."
+    },
+    {
+      "date": "2026-08-08",
+      "lane": "integration-trust-boundaries",
+      "title": "Audit Log Drains now support Datadog, Splunk, and Panther",
+      "url": "https://vercel.com/changelog/audit-log-drains-now-support-datadog-splunk-and-panther",
+      "source_type": "observability release",
+      "selection_rationale": "It adds direct audit-event destinations and a migration away from the prior custom SIEM streaming path."
     }
   ],
   "runs": [
@@ -3038,15 +3125,15 @@
       "editorial_thesis": "Today’s practical advantage is evidence hygiene: preserve document fidelity before enrichment, make agent state recoverable and private, and ship consequential claims with an inspectable verification trail."
     }
   ],
-  "updated_at": "2026-08-07T08:05:02.940431+00:00",
+  "updated_at": "2026-08-08T08:04:55.814460+00:00",
   "last_run": {
-    "date": "2026-08-07",
+    "date": "2026-08-08",
     "selected_lanes": [
-      "realtime-agent-systems",
-      "collaborative-agent-delivery",
-      "safety-classifiers-trusted-access"
+      "agent-portfolio-controls",
+      "bounded-agent-execution",
+      "integration-trust-boundaries"
     ],
-    "editorial_thesis": "Today’s strongest practical signal is not another general-purpose agent: it is the operating detail around live interaction, cross-functional delivery, and narrow safety controls that lets automation become usable in real work."
+    "editorial_thesis": "The practical shift today is control-plane maturity: measure which agent actually works, isolate where it runs, and make every external integration explicitly admissible and observable."
   },
   "last_editorial_thesis": "Today’s practical advantage is evidence hygiene: preserve document fidelity before enrichment, make agent state recoverable and private, and ship consequential claims with an inspectable verification trail.",
   "coverage_history": [
