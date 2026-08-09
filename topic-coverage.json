@@ -412,6 +412,21 @@
       "title": "Integration Trust Boundaries",
       "times_covered": 1,
       "last_covered": "2026-08-08"
+    },
+    "agent-harness": {
+      "title": "Agent Harnesses",
+      "times_covered": 1,
+      "last_covered": "2026-08-09"
+    },
+    "knowledge-maintenance": {
+      "title": "Knowledge Maintenance",
+      "times_covered": 1,
+      "last_covered": "2026-08-09"
+    },
+    "edge-reliability": {
+      "title": "Edge Reliability",
+      "times_covered": 1,
+      "last_covered": "2026-08-09"
     }
   },
   "item_history": [
@@ -2982,6 +2997,30 @@
       "url": "https://vercel.com/changelog/audit-log-drains-now-support-datadog-splunk-and-panther",
       "source_type": "observability release",
       "selection_rationale": "It adds direct audit-event destinations and a migration away from the prior custom SIEM streaming path."
+    },
+    {
+      "date": "2026-08-09",
+      "lane": "agent-harness",
+      "title": "How Building AI Agents Has Changed in 2026",
+      "url": "https://www.pulumi.com/blog/how-building-ai-agents-has-changed/",
+      "source_type": "blog",
+      "selection_rationale": "It documents the shift from rebuilding generic tools to designing the harness and domain actions."
+    },
+    {
+      "date": "2026-08-09",
+      "lane": "knowledge-maintenance",
+      "title": "Best personal knowledge management tools in 2026",
+      "url": "https://tana.inc/blog/best-pkm-tools-2026",
+      "source_type": "blog",
+      "selection_rationale": "It raises the bar from storing notes to capturing work and updating existing knowledge."
+    },
+    {
+      "date": "2026-08-09",
+      "lane": "edge-reliability",
+      "title": "The Technical Challenges of Building Cloudflare WARP",
+      "url": "https://blog.cloudflare.com/warp-technical-challenges/",
+      "source_type": "blog",
+      "selection_rationale": "It exposes the network primitives behind resilient global client and automation paths."
     }
   ],
   "runs": [
@@ -3123,19 +3162,20 @@
         "proof-carrying-research"
       ],
       "editorial_thesis": "Today’s practical advantage is evidence hygiene: preserve document fidelity before enrichment, make agent state recoverable and private, and ship consequential claims with an inspectable verification trail."
+    },
+    {
+      "date": "2026-08-09",
+      "selected_lanes": [
+        "agent-harness",
+        "knowledge-maintenance",
+        "edge-reliability"
+      ],
+      "editorial_thesis": "Today’s strongest practical signal is a move from novelty to maintenance: agent SDKs absorb generic plumbing, knowledge systems are judged by freshness, and network engineering remains the reliability substrate beneath remote automation."
     }
   ],
-  "updated_at": "2026-08-08T08:04:55.814460+00:00",
-  "last_run": {
-    "date": "2026-08-08",
-    "selected_lanes": [
-      "agent-portfolio-controls",
-      "bounded-agent-execution",
-      "integration-trust-boundaries"
-    ],
-    "editorial_thesis": "The practical shift today is control-plane maturity: measure which agent actually works, isolate where it runs, and make every external integration explicitly admissible and observable."
-  },
-  "last_editorial_thesis": "Today’s practical advantage is evidence hygiene: preserve document fidelity before enrichment, make agent state recoverable and private, and ship consequential claims with an inspectable verification trail.",
+  "updated_at": "2026-08-09T08:00:45Z",
+  "last_run": "2026-08-09",
+  "last_editorial_thesis": "Today’s strongest practical signal is a move from novelty to maintenance: agent SDKs absorb generic plumbing, knowledge systems are judged by freshness, and network engineering remains the reliability substrate beneath remote automation.",
   "coverage_history": [
     {
       "date": "2026-07-28",
