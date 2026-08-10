@@ -1,6 +1,27 @@
 {
-  "updated_at": "2026-08-09T08:04:55.815222+00:00",
+  "updated_at": "2026-08-10T08:09:06.394970+00:00",
   "days": [
+    {
+      "date": "2026-08-10",
+      "path": "2026-08-10",
+      "reports": [
+        {
+          "lane": "persistent-agent-compute",
+          "title": "Persistent Agent Compute",
+          "url": "2026-08-10/persistent-agent-compute.html"
+        },
+        {
+          "lane": "design-system-controls",
+          "title": "Design System Controls",
+          "url": "2026-08-10/design-system-controls.html"
+        },
+        {
+          "lane": "agent-identity-posture",
+          "title": "Agent Identity + Posture",
+          "url": "2026-08-10/agent-identity-posture.html"
+        }
+      ]
+    },
     {
       "date": "2026-08-09",
       "path": "2026-08-09",
