@@ -1,0 +1,24 @@
+{
+  "date":"2026-08-11",
+  "generated_at":"2026-08-11T08:00:33Z",
+  "editorial_thesis":"Agent systems are becoming operational products: portable packaging, elastic execution boundaries, and outcome-based economics now form a practical stack to test.",
+  "topic_groups":[
+    {"slug":"agent-portability","title":"Agent Portability","selection_rationale":"Coverage gap after recent focus on identity and runtime; fresh August packaging and distribution updates create a practical standardization lane.","sources":[
+      {"title":"Agent Plugins package your Skills, Tools, and more","url":"https://developers.googleblog.com/agent-plugins-package-your-skills-tools-and-more/","source_type":"spec","published_or_updated":"2026-08-06","why_selected":"Agent Plugins 1.0.0 standardizes a portable wrapper for skills and MCP servers.","usefulness":"A direct template for packaging Buildn capabilities across clients."},
+      {"title":"Skill packs are now available on skills.sh","url":"https://vercel.com/changelog/skill-packs-are-now-available","source_type":"release","published_or_updated":"2026-08-07","why_selected":"Shareable, updateable skill bundles make team distribution practical.","usefulness":"Enables a small Buildn authoring pack pilot."},
+      {"title":"ADK for Java 1.0.0","url":"https://developers.googleblog.com/announcing-adk-for-java-100-building-the-future-of-ai-agents-in-java/","source_type":"release","published_or_updated":"2026-03-30","why_selected":"The plugin and approval architecture supplies a concrete cross-agent control pattern.","usefulness":"Informs global hooks for logging, guardrails, and artifact publication."}
+    ]},
+    {"slug":"agent-runtime-boundaries","title":"Agent Runtime Boundaries","selection_rationale":"Fresh runtime launches show a useful architecture gap: separate lightweight coordination from heavyweight execution, with reproducibility and cost controls.","sources":[
+      {"title":"Your agent needs a computer, not a container","url":"https://blog.cloudflare.com/cloudflare-computer/","source_type":"product","published_or_updated":"2026-08-03","why_selected":"Cloudflare introduces an open-source multi-runtime computer abstraction.","usefulness":"Maps to Buildn’s worker escalation and shared artifact workspace."},
+      {"title":"Vercel Sandbox now runs on Vercel Managed Images","url":"https://vercel.com/changelog/vercel-sandbox-managed-images","source_type":"release","published_or_updated":"2026-08-10","why_selected":"Versioned managed images make patching versus immutability explicit.","usefulness":"Provides a practical sandbox image policy."},
+      {"title":"Everything we launched during Agents Week","url":"https://blog.cloudflare.com/agents-week-review-august-2026/","source_type":"blog","published_or_updated":"2026-08-10","why_selected":"The review consolidates ADLC, traces, approvals, and software-factory primitives.","usefulness":"Frames a complete artifact production lifecycle."},
+      {"title":"Billable Usage API","url":"https://blog.cloudflare.com/billable-usage-api/","source_type":"product","published_or_updated":"2026-08-03","why_selected":"Programmatic cost visibility is essential for elastic runtime decisions.","usefulness":"Supports workflow-level cost attribution."}
+    ]},
+    {"slug":"ai-operating-economics","title":"AI Operating Economics","selection_rationale":"Under-covered operator lane with fresh evidence on workflow redesign, capacity segmentation, model cost-performance, and infrastructure spend visibility.","sources":[
+      {"title":"What building an AI-native finance function taught me","url":"https://openai.com/index/building-an-ai-native-finance-function/","source_type":"blog","published_or_updated":"2026-08-10","why_selected":"OpenAI publishes concrete lessons on outcome-based AI operations.","usefulness":"Gives Buildn a workflow and measurement framework."},
+      {"title":"Premium seats are coming to ChatGPT Business","url":"https://openai.com/index/premium-seats-chatgpt-business/","source_type":"product","published_or_updated":"2026-08-10","why_selected":"Mixed seat tiers tie capacity to user demand.","usefulness":"Useful for client AI budget design."},
+      {"title":"Introducing Claude Sonnet 5","url":"https://www.anthropic.com/news/claude-sonnet-5","source_type":"release","published_or_updated":"2026-06-30","why_selected":"Permanent lower introductory pricing changes routing economics.","usefulness":"Justifies a measured model-routing replay."},
+      {"title":"Vercel Sandbox managed images","url":"https://vercel.com/changelog/vercel-sandbox-managed-images","source_type":"release","published_or_updated":"2026-08-10","why_selected":"Standard images expose setup and reproducibility economics.","usefulness":"Supports before/after environment measurement."}
+    ]}
+  ]
+}

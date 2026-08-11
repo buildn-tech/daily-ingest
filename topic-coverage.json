@@ -3459,6 +3459,42 @@
       "editorial_thesis": "Today’s practical signal is control at the boundary: persistent compute needs explicit capacity policy, design generation needs budgets and hierarchy, and agents need identities that can be monitored and remediated.",
       "items": [
         {
+          "title": "Agent Plugins package your Skills, Tools, and more",
+          "url": "https://developers.googleblog.com/agent-plugins-package-your-skills-tools-and-more/",
+          "source_type": "spec",
+          "selection_rationale": "Fresh packaging standard for portable skills and MCP servers."
+        },
+        {
+          "title": "Skill packs are now available on skills.sh",
+          "url": "https://vercel.com/changelog/skill-packs-are-now-available",
+          "source_type": "release",
+          "selection_rationale": "Fresh distribution mechanism for controlled team skill bundles."
+        },
+        {
+          "title": "Your agent needs a computer, not a container",
+          "url": "https://blog.cloudflare.com/cloudflare-computer/",
+          "source_type": "product",
+          "selection_rationale": "New isolate/container runtime split for cost-aware execution."
+        },
+        {
+          "title": "Vercel Sandbox now runs on Vercel Managed Images",
+          "url": "https://vercel.com/changelog/vercel-sandbox-managed-images",
+          "source_type": "release",
+          "selection_rationale": "New rolling-image and digest-pin reproducibility policy."
+        },
+        {
+          "title": "What building an AI-native finance function taught me",
+          "url": "https://openai.com/index/building-an-ai-native-finance-function/",
+          "source_type": "blog",
+          "selection_rationale": "Fresh operator guidance on outcome-based AI measurement."
+        },
+        {
+          "title": "Premium seats are coming to ChatGPT Business",
+          "url": "https://openai.com/index/premium-seats-chatgpt-business/",
+          "source_type": "product",
+          "selection_rationale": "Fresh workload-based capacity segmentation."
+        },
+        {
           "title": "AgentCore runtime instances are now generally available",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-bedrock-agentcore-runtime-instances-generally-available/",
           "source_type": "release"
@@ -3733,6 +3769,54 @@
       "url": "https://www.microsoft.com/en-us/security/blog/2026/07/16/least-privilege-for-ai-agents-identity-access-and-tool-binding/",
       "source_type": "blog",
       "selection_rationale": "The guidance names tool binding as a key least-privilege control."
+    },
+    {
+      "date": "2026-08-11",
+      "lane": "agent-portability",
+      "title": "Agent Plugins package your Skills, Tools, and more",
+      "url": "https://developers.googleblog.com/agent-plugins-package-your-skills-tools-and-more/",
+      "source_type": "spec",
+      "selection_rationale": "Fresh packaging standard for portable skills and MCP servers."
+    },
+    {
+      "date": "2026-08-11",
+      "lane": "agent-portability",
+      "title": "Skill packs are now available on skills.sh",
+      "url": "https://vercel.com/changelog/skill-packs-are-now-available",
+      "source_type": "release",
+      "selection_rationale": "Fresh distribution mechanism for controlled team skill bundles."
+    },
+    {
+      "date": "2026-08-11",
+      "lane": "agent-runtime-boundaries",
+      "title": "Your agent needs a computer, not a container",
+      "url": "https://blog.cloudflare.com/cloudflare-computer/",
+      "source_type": "product",
+      "selection_rationale": "New isolate/container runtime split for cost-aware execution."
+    },
+    {
+      "date": "2026-08-11",
+      "lane": "agent-runtime-boundaries",
+      "title": "Vercel Sandbox now runs on Vercel Managed Images",
+      "url": "https://vercel.com/changelog/vercel-sandbox-managed-images",
+      "source_type": "release",
+      "selection_rationale": "New rolling-image and digest-pin reproducibility policy."
+    },
+    {
+      "date": "2026-08-11",
+      "lane": "ai-operating-economics",
+      "title": "What building an AI-native finance function taught me",
+      "url": "https://openai.com/index/building-an-ai-native-finance-function/",
+      "source_type": "blog",
+      "selection_rationale": "Fresh operator guidance on outcome-based AI measurement."
+    },
+    {
+      "date": "2026-08-11",
+      "lane": "ai-operating-economics",
+      "title": "Premium seats are coming to ChatGPT Business",
+      "url": "https://openai.com/index/premium-seats-chatgpt-business/",
+      "source_type": "product",
+      "selection_rationale": "Fresh workload-based capacity segmentation."
     }
   ]
 }
