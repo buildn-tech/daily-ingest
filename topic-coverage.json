@@ -442,6 +442,21 @@
       "title": "Agent Identity + Posture",
       "times_covered": 1,
       "last_covered": "2026-08-10"
+    },
+    "agent-cost-memory-controls": {
+      "title": "Agent Cost + Memory Controls",
+      "times_covered": 1,
+      "last_covered": "2026-08-12"
+    },
+    "edge-resilience-under-machine-speed": {
+      "title": "Edge Resilience Under Machine-Speed Attacks",
+      "times_covered": 1,
+      "last_covered": "2026-08-12"
+    },
+    "open-infrastructure-beyond-models": {
+      "title": "Open Infrastructure Beyond Models",
+      "times_covered": 1,
+      "last_covered": "2026-08-12"
     }
   },
   "item_history": [
@@ -3100,6 +3115,54 @@
       "url": "https://www.microsoft.com/en-us/security/blog/2026/07/16/least-privilege-for-ai-agents-identity-access-and-tool-binding/",
       "source_type": "blog",
       "selection_rationale": "The guidance names tool binding as a key least-privilege control."
+    },
+    {
+      "date": "2026-08-12",
+      "lane": "agent-cost-memory-controls",
+      "title": "Copilot memory and Ollama in JetBrains",
+      "url": "https://github.blog/changelog/2026-08-11-copilot-memory-and-ollama-in-github-copilot-for-jetbrains/",
+      "source_type": "release",
+      "selection_rationale": "Persistent cross-session memory, Ollama BYOK, enterprise-managed settings, and better MCP/Codex reliability arrive together."
+    },
+    {
+      "date": "2026-08-12",
+      "lane": "agent-cost-memory-controls",
+      "title": "Per-model token breakdown in usage reports",
+      "url": "https://github.blog/changelog/2026-08-11-per-model-token-breakdown-in-the-usage-report/",
+      "source_type": "release",
+      "selection_rationale": "Admins can now see input, output, cache-read, and cache-write tokens per model alongside AI credits."
+    },
+    {
+      "date": "2026-08-12",
+      "lane": "agent-cost-memory-controls",
+      "title": "MAI-Code-1.1-Flash in GitHub Copilot",
+      "url": "https://github.blog/changelog/2026-08-11-mai-code-1-1-flash-available-in-github-copilot",
+      "source_type": "release",
+      "selection_rationale": "A smaller coding model adds vision, improved tool use, and a 73% lower list price than its predecessor; the old model is being deprecated."
+    },
+    {
+      "date": "2026-08-12",
+      "lane": "edge-resilience-under-machine-speed",
+      "title": "Cloudflare DDoS Threat Report — H1 2026",
+      "url": "https://blog.cloudflare.com/ddos-threat-report-2026-h1/",
+      "source_type": "report",
+      "selection_rationale": "Cloudflare reports 23.2 million network-layer attacks in H1, 935 above 1 Tbps, and a shift toward DNS reflection/amplification."
+    },
+    {
+      "date": "2026-08-12",
+      "lane": "open-infrastructure-beyond-models",
+      "title": "Google joins the OpenROAD Initiative",
+      "url": "https://opensource.googleblog.com/2026/%20google-joins-the-openroad-initiative-as-principal-member-to-accelerate-open-source-silicon-innovation.html",
+      "source_type": "announcement",
+      "selection_rationale": "Google joined OpenROAD as a principal member to accelerate open-source silicon innovation."
+    },
+    {
+      "date": "2026-08-12",
+      "lane": "open-infrastructure-beyond-models",
+      "title": "Open source reaches the physical stack",
+      "url": "https://opensource.googleblog.com/2026/",
+      "source_type": "ecosystem",
+      "selection_rationale": "Google’s 2026 open-source blog places OpenROAD in a broader ecosystem of tools, standards, and infrastructure contributions."
     }
   ],
   "runs": [
@@ -3285,11 +3348,47 @@
         }
       ],
       "editorial_thesis": "Today’s practical signal is control at the boundary: persistent compute needs explicit capacity policy, design generation needs budgets and hierarchy, and agents need identities that can be monitored and remediated."
+    },
+    {
+      "date": "2026-08-12",
+      "selected_lanes": [
+        {
+          "slug": "agent-cost-memory-controls",
+          "title": "Agent Cost + Memory Controls",
+          "selection_rationale": "GitHub’s same-day Copilot updates connect three operational controls that are usually shipped separately: persistent context, local-model escape hatches, and token-level cost attribution.",
+          "items": [
+            "Copilot memory and Ollama in JetBrains",
+            "Per-model token breakdown in usage reports",
+            "MAI-Code-1.1-Flash in GitHub Copilot"
+          ]
+        },
+        {
+          "slug": "edge-resilience-under-machine-speed",
+          "title": "Edge Resilience Under Machine-Speed Attacks",
+          "selection_rationale": "The latest Cloudflare threat report fills a security and infrastructure gap with quantified evidence that short attacks can still demand always-on controls.",
+          "items": [
+            "Cloudflare DDoS Threat Report — H1 2026",
+            "1 Tbps attacks rose 519% quarter over quarter",
+            "DNS attacks became the dominant vector"
+          ]
+        },
+        {
+          "slug": "open-infrastructure-beyond-models",
+          "title": "Open Infrastructure Beyond Models",
+          "selection_rationale": "Google’s August 11 OpenROAD commitment opens a neglected hardware and open-infrastructure lane: the leverage may be in reproducible compute foundations, not another model wrapper.",
+          "items": [
+            "Google joins the OpenROAD Initiative",
+            "Open source reaches the physical stack",
+            "Reproducibility is the common thread"
+          ]
+        }
+      ],
+      "editorial_thesis": "Today’s signal moves the operating surface outward: agents need cost and memory controls, internet-facing systems need always-on resilience, and open infrastructure is expanding below the software layer."
     }
   ],
-  "updated_at": "2026-08-10T08:01:08Z",
-  "last_run": "2026-08-10",
-  "last_editorial_thesis": "Today’s practical signal is control at the boundary: persistent compute needs explicit capacity policy, design generation needs budgets and hierarchy, and agents need identities that can be monitored and remediated.",
+  "updated_at": "2026-08-12T08:06:32.546846+00:00",
+  "last_run": "2026-08-12",
+  "last_editorial_thesis": "Today’s signal moves the operating surface outward: agents need cost and memory controls, internet-facing systems need always-on resilience, and open infrastructure is expanding below the software layer.",
   "coverage_history": [
     {
       "date": "2026-07-28",
