@@ -1,6 +1,36 @@
 {
-  "updated_at": "2026-08-11T08:10:38.765371+00:00",
+  "updated_at": "2026-08-12T08:05:58.310264+00:00",
   "sources": {
+    "https://github.blog/changelog/2026-08-11-copilot-memory-and-ollama-in-github-copilot-for-jetbrains": {
+      "first_seen": "2026-08-12",
+      "last_seen": "2026-08-12",
+      "title": "Copilot memory and Ollama in JetBrains"
+    },
+    "https://github.blog/changelog/2026-08-11-per-model-token-breakdown-in-the-usage-report": {
+      "first_seen": "2026-08-12",
+      "last_seen": "2026-08-12",
+      "title": "Per-model token breakdown in usage reports"
+    },
+    "https://github.blog/changelog/2026-08-11-mai-code-1-1-flash-available-in-github-copilot": {
+      "first_seen": "2026-08-12",
+      "last_seen": "2026-08-12",
+      "title": "MAI-Code-1.1-Flash in GitHub Copilot"
+    },
+    "https://blog.cloudflare.com/ddos-threat-report-2026-h1": {
+      "first_seen": "2026-08-12",
+      "last_seen": "2026-08-12",
+      "title": "DNS attacks became the dominant vector"
+    },
+    "https://opensource.googleblog.com/2026/%20google-joins-the-openroad-initiative-as-principal-member-to-accelerate-open-source-silicon-innovation.html": {
+      "first_seen": "2026-08-12",
+      "last_seen": "2026-08-12",
+      "title": "Reproducibility is the common thread"
+    },
+    "https://opensource.googleblog.com/2026": {
+      "first_seen": "2026-08-12",
+      "last_seen": "2026-08-12",
+      "title": "Open source reaches the physical stack"
+    },
     "https://developers.googleblog.com/agent-plugins-package-your-skills-tools-and-more": {
       "first_seen": "2026-08-11",
       "last_seen": "2026-08-11",

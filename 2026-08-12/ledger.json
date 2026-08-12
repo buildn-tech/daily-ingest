@@ -1,0 +1,100 @@
+{
+  "date": "2026-08-12",
+  "generated_at": "2026-08-12T08:05:50.287686+00:00",
+  "editorial_thesis": "Today’s signal moves the operating surface outward: agents need cost and memory controls, internet-facing systems need always-on resilience, and open infrastructure is expanding below the software layer.",
+  "topic_groups": [
+    {
+      "slug": "agent-cost-memory-controls",
+      "title": "Agent Cost + Memory Controls",
+      "selection_rationale": "GitHub’s same-day Copilot updates connect three operational controls that are usually shipped separately: persistent context, local-model escape hatches, and token-level cost attribution.",
+      "sources": [
+        {
+          "title": "Copilot memory and Ollama in JetBrains",
+          "url": "https://github.blog/changelog/2026-08-11-copilot-memory-and-ollama-in-github-copilot-for-jetbrains/",
+          "source_type": "release",
+          "published_or_updated": "2026-08-11",
+          "why_selected": "Persistent cross-session memory, Ollama BYOK, enterprise-managed settings, and better MCP/Codex reliability arrive together.",
+          "usefulness": "Pilot memory only for stable project preferences; route sensitive or repetitive tasks to a local Ollama model where quality permits."
+        },
+        {
+          "title": "Per-model token breakdown in usage reports",
+          "url": "https://github.blog/changelog/2026-08-11-per-model-token-breakdown-in-the-usage-report/",
+          "source_type": "release",
+          "published_or_updated": "2026-08-11",
+          "why_selected": "Admins can now see input, output, cache-read, and cache-write tokens per model alongside AI credits.",
+          "usefulness": "Use the export as a baseline for workflow cost attribution and cache hygiene, then feed it into a weekly route review."
+        },
+        {
+          "title": "MAI-Code-1.1-Flash in GitHub Copilot",
+          "url": "https://github.blog/changelog/2026-08-11-mai-code-1-1-flash-available-in-github-copilot",
+          "source_type": "release",
+          "published_or_updated": "2026-08-11",
+          "why_selected": "A smaller coding model adds vision, improved tool use, and a 73% lower list price than its predecessor; the old model is being deprecated.",
+          "usefulness": "Use it for low-risk triage, visual bug intake, and first-pass edits while reserving larger models for design or architecture decisions."
+        }
+      ]
+    },
+    {
+      "slug": "edge-resilience-under-machine-speed",
+      "title": "Edge Resilience Under Machine-Speed Attacks",
+      "selection_rationale": "The latest Cloudflare threat report fills a security and infrastructure gap with quantified evidence that short attacks can still demand always-on controls.",
+      "sources": [
+        {
+          "title": "Cloudflare DDoS Threat Report — H1 2026",
+          "url": "https://blog.cloudflare.com/ddos-threat-report-2026-h1/",
+          "source_type": "report",
+          "published_or_updated": "2026-08-11",
+          "why_selected": "Cloudflare reports 23.2 million network-layer attacks in H1, 935 above 1 Tbps, and a shift toward DNS reflection/amplification.",
+          "usefulness": "Treat edge protection, DNS resilience, and rate limits as default client architecture rather than add-ons."
+        },
+        {
+          "title": "1 Tbps attacks rose 519% quarter over quarter",
+          "url": "https://blog.cloudflare.com/ddos-threat-report-2026-h1/",
+          "source_type": "finding",
+          "published_or_updated": "2026-08-11",
+          "why_selected": "Q2 accounted for 805 attacks above 1 Tbps, while 90.60% of attacks ended within ten minutes.",
+          "usefulness": "Short duration strengthens the case for pre-authorized automated controls and clear rollback paths."
+        },
+        {
+          "title": "DNS attacks became the dominant vector",
+          "url": "https://blog.cloudflare.com/ddos-threat-report-2026-h1/",
+          "source_type": "finding",
+          "published_or_updated": "2026-08-11",
+          "why_selected": "DNS-based attacks represented 34.3% of H1 network-layer activity; DNS floods reached 40% in Q2.",
+          "usefulness": "Make DNS provider health, TTL strategy, and authoritative-path monitoring part of the service map."
+        }
+      ]
+    },
+    {
+      "slug": "open-infrastructure-beyond-models",
+      "title": "Open Infrastructure Beyond Models",
+      "selection_rationale": "Google’s August 11 OpenROAD commitment opens a neglected hardware and open-infrastructure lane: the leverage may be in reproducible compute foundations, not another model wrapper.",
+      "sources": [
+        {
+          "title": "Google joins the OpenROAD Initiative",
+          "url": "https://opensource.googleblog.com/2026/%20google-joins-the-openroad-initiative-as-principal-member-to-accelerate-open-source-silicon-innovation.html",
+          "source_type": "announcement",
+          "published_or_updated": "2026-08-11",
+          "why_selected": "Google joined OpenROAD as a principal member to accelerate open-source silicon innovation.",
+          "usefulness": "Track the project as a reference for transparent, inspectable infrastructure pipelines and future edge-compute experiments."
+        },
+        {
+          "title": "Open source reaches the physical stack",
+          "url": "https://opensource.googleblog.com/2026/",
+          "source_type": "ecosystem",
+          "published_or_updated": "2026-08-11",
+          "why_selected": "Google’s 2026 open-source blog places OpenROAD in a broader ecosystem of tools, standards, and infrastructure contributions.",
+          "usefulness": "Use the signal to widen technology scouting beyond SaaS and model releases when evaluating durable client leverage."
+        },
+        {
+          "title": "Reproducibility is the common thread",
+          "url": "https://opensource.googleblog.com/2026/%20google-joins-the-openroad-initiative-as-principal-member-to-accelerate-open-source-silicon-innovation.html",
+          "source_type": "lens",
+          "published_or_updated": "2026-08-11",
+          "why_selected": "A transparent design toolchain makes artifacts, versions, and build conditions inspectable—similar to a well-governed agent runtime.",
+          "usefulness": "Borrow the pattern for Buildn: version prompts, tools, environments, and outputs as one reviewable chain."
+        }
+      ]
+    }
+  ]
+}
