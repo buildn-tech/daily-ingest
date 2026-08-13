@@ -1,0 +1,60 @@
+{
+  "date": "2026-08-13",
+  "generated_at": "2026-08-13T08:08:21.155019+00:00",
+  "editorial_thesis": "The operating surface is consolidating: shared agent control planes, bounded execution, practical local inference, and simpler MCP transport.",
+  "topic_groups": [
+    {
+      "slug": "agent-control-plane",
+      "title": "Agent Control Plane: Setup, Spend, and Egress",
+      "selection_rationale": "The operating surface is consolidating: shared agent control planes, bounded execution, practical local inference, and simpler MCP transport.",
+      "sources": [
+        {
+          "title": "Vercel AI Gateway coding-agent setup",
+          "url": "https://vercel.com/changelog/set-up-coding-agents-in-one-command-with-ai-gateway",
+          "source_type": "release",
+          "published_or_updated": "2026-08-11",
+          "why_selected": "A one-command setup routes Claude Code, Codex, OpenCode, Hermes, and others through 200+ models with budgets, provider policy, and traces.",
+          "usefulness": "Use as a shared model control plane for Buildn experiments and client work."
+        },
+        {
+          "title": "Vercel Sandbox egress firewall on Hobby",
+          "url": "https://vercel.com/changelog/full-sandbox-egress-firewall-now-available-on-hobby-plan",
+          "source_type": "release",
+          "published_or_updated": "2026-08-11",
+          "why_selected": "Network policies can deny all egress, allow selected domains, and inject secrets at the boundary without exposing tokens to generated code.",
+          "usefulness": "Use deny-by-default sandboxes for untrusted or agent-generated code."
+        }
+      ]
+    },
+    {
+      "slug": "edge-ai-local-inference",
+      "title": "Edge AI: Private, Narrow, and Fast Enough",
+      "selection_rationale": "The operating surface is consolidating: shared agent control planes, bounded execution, practical local inference, and simpler MCP transport.",
+      "sources": [
+        {
+          "title": "Local edge AI on Raspberry Pi 5",
+          "url": "https://developers.googleblog.com/mastering-edge-ai-on-raspberry-pi-with-litert-and-gemma/",
+          "source_type": "blog",
+          "published_or_updated": "2026-08-11",
+          "why_selected": "Google documents LiteRT, LiteRT-LM, Gemma, WebGPU/Vulkan, embeddings, speech, and vision for offline local inference.",
+          "usefulness": "Prototype privacy-sensitive retrieval or narrow sensor loops without cloud upload."
+        }
+      ]
+    },
+    {
+      "slug": "mcp-stateless-transport",
+      "title": "MCP v2: Make Protocol State Explicit",
+      "selection_rationale": "The operating surface is consolidating: shared agent control planes, bounded execution, practical local inference, and simpler MCP transport.",
+      "sources": [
+        {
+          "title": "MCP 2026-07-28 stateless core",
+          "url": "https://blog.cloudflare.com/mcp-v2/",
+          "source_type": "blog",
+          "published_or_updated": "2026-08-11",
+          "why_selected": "MCP removes the required session handshake and protocol sessions from the normal request path while strengthening headers and authorization.",
+          "usefulness": "Separate protocol transport from application state and simplify autoscaling."
+        }
+      ]
+    }
+  ]
+}
