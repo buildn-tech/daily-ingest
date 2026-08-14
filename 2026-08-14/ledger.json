@@ -1,0 +1,37 @@
+{
+  "date": "2026-08-14",
+  "generated_at": "2026-08-14T08:00:39Z",
+  "editorial_thesis": "Today’s useful edge is not another model wrapper: it is faster feedback, explicit agent identity, and reusable design workflows that can cross tool boundaries.",
+  "topic_groups": [
+    {
+      "slug": "realtime-agent-feedback",
+      "title": "Real-time Agent Feedback Loops",
+      "selection_rationale": "Fresh Aug 13 signal on frontier-model latency creates a materially new lane after recent coverage focused on control planes and persistence.",
+      "sources": [
+        {"title":"Previewing Ultrafast mode: GPT-5.6 Sol at up to 14X the speed","url":"https://openai.com/index/previewing-ultrafast/","source_type":"release","published_or_updated":"2026-08-13","why_selected":"OpenAI is previewing a Cerebras-backed tier with up to 750 output tokens per second.","usefulness":"Test whether lower latency changes interactive incident response, voice, or research workflows."},
+        {"title":"The next evolution of the Agents SDK","url":"https://openai.com/index/the-next-evolution-of-the-agents-sdk/","source_type":"product","published_or_updated":"2026-04-15","why_selected":"Native sandbox execution and portable workspace manifests make the speed signal operationally actionable.","usefulness":"Use sandboxed, file-grounded experiments instead of building bespoke harnesses."},
+        {"title":"Build long-running AI agents that pause, resume, and never lose context with ADK","url":"https://developers.googleblog.com/build-long-running-ai-agents-that-pause-resume-and-never-lose-context-with-adk/","source_type":"blog","published_or_updated":"2026-05-12","why_selected":"It supplies the durable-state pattern needed when faster models increase action frequency.","usefulness":"Model approvals and resumptions as explicit checkpoints, not chat-history inference."}
+      ]
+    },
+    {
+      "slug": "agent-identity-governance",
+      "title": "Agent Identity + Governance",
+      "selection_rationale": "The CSA’s Aug 13 threat ranking elevates identity and AI compromise together, filling a security/governance gap in the last several days.",
+      "sources": [
+        {"title":"CSA 2026 Top Cloud Threats Report","url":"https://cloudsecurityalliance.org/press-releases/2026/08/13/ai-emerges-as-an-attack-enabler-and-target-in-csa-2026-top-threats-report","source_type":"report","published_or_updated":"2026-08-13","why_selected":"IAM ranks first; AI-enhanced attacks and AI system compromise enter the top threats.","usefulness":"Turn non-human identity, privilege, and AI asset ownership into first-class review fields."},
+        {"title":"Agent Access Model","url":"https://blog.cloudflare.com/agent-access-model/","source_type":"blog","published_or_updated":"2026-08-13","why_selected":"Cloudflare’s emerging architecture frames task-scoped agents around identity brokering and continuous mediation.","usefulness":"Use as a design reference for task-scoped credentials and revocable access."},
+        {"title":"Certificate Transparency Monitoring is now generally available","url":"https://blog.cloudflare.com/certificate-transparency-monitoring-ga/","source_type":"release","published_or_updated":"2026-08-13","why_selected":"Certificate alerts now require more operator scrutiny because issued certificates are no longer emailed by default.","usefulness":"Add CT monitoring to client domain hygiene and incident triage playbooks."}
+      ]
+    },
+    {
+      "slug": "design-agent-workflows",
+      "title": "Design Workflows Become Agent-Portable",
+      "selection_rationale": "Figma’s Aug 13 skills release is a fresh, practical product/design signal and a meaningful extension of the previously covered Figma controls.",
+      "sources": [
+        {"title":"Try skills from the Community and make your own with the Figma agent","url":"https://www.figma.com/release-notes/","source_type":"release","published_or_updated":"2026-08-13","why_selected":"Figma now offers 50+ community skills, custom skill authoring, and publishing through Community.","usefulness":"Package Buildn’s repeatable design-review and handoff conventions as portable Markdown skills."},
+        {"title":"Figma MCP: Run Weave tools from your favorite agent","url":"https://www.figma.com/release-notes/","source_type":"release","published_or_updated":"2026-08-11","why_selected":"External clients can invoke Figma Weave tools through MCP while preserving context and brand guidance.","usefulness":"Prototype agent-to-design actions without forcing a context switch."},
+        {"title":"The new business case for design systems","url":"https://www.figma.com/blog/the-new-business-case-for-design-systems/","source_type":"blog","published_or_updated":"2026-08-06","why_selected":"Design-system governance provides the durable substrate for reusable skills and AI-assisted production.","usefulness":"Make tokens, components, and review rules inspectable inputs to client delivery."}
+      ]
+    }
+  ]
+}

@@ -99,7 +99,7 @@
       "last_covered": "2026-07-20"
     },
     "design-production-loop": {
-      "title": "Design \u2192 Production Loop",
+      "title": "Design → Production Loop",
       "times_covered": 1,
       "last_covered": "2026-07-20"
     },
@@ -472,6 +472,21 @@
       "title": "MCP v2: Make Protocol State Explicit",
       "times_covered": 1,
       "last_covered": "2026-08-13"
+    },
+    "realtime-agent-feedback": {
+      "title": "Real-time Agent Feedback Loops",
+      "times_covered": 1,
+      "last_covered": "2026-08-14"
+    },
+    "agent-identity-governance": {
+      "title": "Agent Identity + Governance",
+      "times_covered": 1,
+      "last_covered": "2026-08-14"
+    },
+    "design-agent-workflows": {
+      "title": "Design Workflows Become Agent-Portable",
+      "times_covered": 1,
+      "last_covered": "2026-08-14"
     }
   },
   "item_history": [
@@ -494,7 +509,7 @@
     {
       "date": "2026-07-23",
       "lane": "agent-adoption-measurement",
-      "title": "Vercel AI Gateway Production Index \u2014 July 2026",
+      "title": "Vercel AI Gateway Production Index — July 2026",
       "url": "https://vercel.com/blog/ai-gateway-production-index-july-2026",
       "source_type": "blog",
       "selection_rationale": "The split is a useful warning against treating token volume, capability, and operating economics as the same metric."
@@ -545,7 +560,7 @@
       "title": "Agents SDK reduces MCP schema conversion and adds exposure controls",
       "url": "https://developers.cloudflare.com/changelog/post/2026-07-22-mcp-codemode-updates/",
       "source_type": "release",
-      "selection_rationale": "Automatic tool discovery is convenient but expands an agent\u2019s effective authority. An explicit opt-in creates a review point."
+      "selection_rationale": "Automatic tool discovery is convenient but expands an agent’s effective authority. An explicit opt-in creates a review point."
     },
     {
       "date": "2026-07-23",
@@ -569,7 +584,7 @@
       "title": "Gemini Enterprise supports unauthenticated Custom MCP Server data stores (Preview)",
       "url": "https://docs.cloud.google.com/release-notes",
       "source_type": "release notes",
-      "selection_rationale": "This is a sharp reminder that \u201ceasy connector setup\u201d can turn an unauthenticated endpoint into part of a business answer path."
+      "selection_rationale": "This is a sharp reminder that “easy connector setup” can turn an unauthenticated endpoint into part of a business answer path."
     },
     {
       "date": "2026-07-22",
@@ -585,7 +600,7 @@
       "title": "Visual Studio 2026 July Update release notes",
       "url": "https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes",
       "source_type": "release notes",
-      "selection_rationale": "The update puts skills, organization-level custom instructions, selected-code review, and usage alerts inside an established IDE\u2014useful evidence that agent adoption needs governed workflow surfaces, not just a chatbot tab."
+      "selection_rationale": "The update puts skills, organization-level custom instructions, selected-code review, and usage alerts inside an established IDE—useful evidence that agent adoption needs governed workflow surfaces, not just a chatbot tab."
     },
     {
       "date": "2026-07-22",
@@ -622,7 +637,7 @@
     {
       "date": "2026-07-21",
       "lane": "patch-priority-and-exposure",
-      "title": "Android Security Bulletin \u2014 July 2026",
+      "title": "Android Security Bulletin — July 2026",
       "url": "https://source.android.com/docs/security/bulletin/2026/2026-07-01",
       "source_type": "docs",
       "selection_rationale": "It adds an endpoint/mobile layer to an otherwise server-focused patch sweep."
@@ -630,7 +645,7 @@
     {
       "date": "2026-07-21",
       "lane": "patch-priority-and-exposure",
-      "title": "Zero Day Initiative \u2014 July 2026 Security Update Review",
+      "title": "Zero Day Initiative — July 2026 Security Update Review",
       "url": "https://www.thezdi.com/blog/2026/7/14/the-july-2026-security-update-review",
       "source_type": "blog",
       "selection_rationale": "It provides an exposure-first ordering for a record-scale Microsoft release, including actively exploited AD FS and SharePoint flaws."
@@ -638,7 +653,7 @@
     {
       "date": "2026-07-21",
       "lane": "agentic-code-review",
-      "title": "Self-Host Weekly \u2014 17 July 2026",
+      "title": "Self-Host Weekly — 17 July 2026",
       "url": "https://selfh.st/weekly/2026-07-17/",
       "source_type": "news",
       "selection_rationale": "It records the maintainer-level signal around Sashiko: adoption is being debated as a review-assistance problem, not an autonomous commit problem."
@@ -646,7 +661,7 @@
     {
       "date": "2026-07-21",
       "lane": "agentic-code-review",
-      "title": "Sashiko \u2014 agentic review of Linux kernel code changes",
+      "title": "Sashiko — agentic review of Linux kernel code changes",
       "url": "https://github.com/sashiko-dev/sashiko",
       "source_type": "repo",
       "selection_rationale": "The Linux Foundation project exposes a concrete 11-stage review protocol rather than an opaque agent product."
@@ -654,7 +669,7 @@
     {
       "date": "2026-07-21",
       "lane": "self-hosted-trust-and-knowledge",
-      "title": "Logseq 2.0.1 \u2014 DB version beta",
+      "title": "Logseq 2.0.1 — DB version beta",
       "url": "https://github.com/logseq/logseq/releases/tag/2.0.1",
       "source_type": "release",
       "selection_rationale": "The first DB-version 2.0 beta is a material architectural shift for a widely used local knowledge tool."
@@ -678,7 +693,7 @@
     {
       "date": "2026-07-21",
       "lane": "production-model-operations",
-      "title": "Vercel AI Gateway Production Index \u2014 July 2026",
+      "title": "Vercel AI Gateway Production Index — July 2026",
       "url": "https://vercel.com/blog/ai-gateway-production-index-july-2026",
       "source_type": "blog",
       "selection_rationale": "Aggregated production routing data shows open-weight models at 29% of token volume but under 4% of spend."
@@ -929,7 +944,7 @@
       "title": "Hermes Agent v0.18.2",
       "url": "https://github.com/NousResearch/hermes-agent/releases",
       "source_type": "release",
-      "selection_rationale": "Hermes is directly relevant to Abdelrahman\u2019s scheduled ingest/reporting workflow and agent execution environment."
+      "selection_rationale": "Hermes is directly relevant to Abdelrahman’s scheduled ingest/reporting workflow and agent execution environment."
     },
     {
       "date": "2026-07-09",
@@ -937,7 +952,7 @@
       "title": "OpenHands Agent Canvas 1.43.0",
       "url": "https://github.com/OpenHands/openhands",
       "source_type": "repo",
-      "selection_rationale": "The market is converging on \u201cagent operations\u201d dashboards: run agents continuously, not only in a chat pane."
+      "selection_rationale": "The market is converging on “agent operations” dashboards: run agents continuously, not only in a chat pane."
     },
     {
       "date": "2026-07-09",
@@ -969,7 +984,7 @@
       "title": "Graphiti temporal context graphs",
       "url": "https://github.com/getzep/graphiti",
       "source_type": "repo",
-      "selection_rationale": "Temporal graphs solve the \u201cwhat was true then vs what is true now\u201d memory problem better than flat chunks."
+      "selection_rationale": "Temporal graphs solve the “what was true then vs what is true now” memory problem better than flat chunks."
     },
     {
       "date": "2026-07-09",
@@ -1041,7 +1056,7 @@
       "title": "SWE-bench leaderboards + mini-SWE harness",
       "url": "https://www.swebench.com/",
       "source_type": "benchmark",
-      "selection_rationale": "Benchmarks are shifting from \u201cwhich agent UI?\u201d to \u201cwhich model under a controlled harness?\u201d"
+      "selection_rationale": "Benchmarks are shifting from “which agent UI?” to “which model under a controlled harness?”"
     },
     {
       "date": "2026-07-09",
@@ -1174,7 +1189,7 @@
     {
       "date": "2026-07-10",
       "lane": "ai-marketing-growth",
-      "title": "Product Hunt growth tooling: SEORCE + Inr\u014d",
+      "title": "Product Hunt growth tooling: SEORCE + Inrō",
       "url": "https://www.producthunt.com/products/seorce",
       "source_type": "product",
       "selection_rationale": "The small-tool market is converging on two practical jobs: AI-era discoverability and conversational lead capture."
@@ -1241,7 +1256,7 @@
       "title": "Agent Memory Paper List: taxonomy for a fragmented field",
       "url": "https://github.com/Shichun-Liu/Agent-Memory-Paper-List",
       "source_type": "repo/survey",
-      "selection_rationale": "The field\u2019s terminology is messy; this gives a map for factual, experiential, and working memory."
+      "selection_rationale": "The field’s terminology is messy; this gives a map for factual, experiential, and working memory."
     },
     {
       "date": "2026-07-11",
@@ -1281,7 +1296,7 @@
       "title": "Mem0 State of AI Agent Memory 2026",
       "url": "https://mem0.ai/blog/state-of-ai-agent-memory-2026",
       "source_type": "blog/report",
-      "selection_rationale": "Memory systems need accuracy, token cost, and latency trade-offs\u2014not just longer context."
+      "selection_rationale": "Memory systems need accuracy, token cost, and latency trade-offs—not just longer context."
     },
     {
       "date": "2026-07-11",
@@ -1446,7 +1461,7 @@
     {
       "date": "2026-07-12",
       "lane": "ai-marketing-growth",
-      "title": "Inr\u014d for Instagram DM automation",
+      "title": "Inrō for Instagram DM automation",
       "url": "https://www.producthunt.com/products/inro",
       "source_type": "product",
       "selection_rationale": "Social DMs can become a measurable acquisition and support channel for creator-led or local businesses."
@@ -1526,7 +1541,7 @@
     {
       "date": "2026-07-13",
       "lane": "open-source-coding",
-      "title": "Agent S \u2014 open computer-use agent framework",
+      "title": "Agent S — open computer-use agent framework",
       "url": "https://github.com/simular-ai/agent-s",
       "source_type": "repo",
       "selection_rationale": "Computer-use agents are moving from demos toward benchmarked systems; Agent S3 claims strong OSWorld, WindowsAgentArena, and AndroidWorld results."
@@ -1566,7 +1581,7 @@
     {
       "date": "2026-07-13",
       "lane": "ai-marketing-growth",
-      "title": "Klaviyo What\u2019s New \u2014 AI, Composer, Customer Agent, MCP",
+      "title": "Klaviyo What’s New — AI, Composer, Customer Agent, MCP",
       "url": "https://www.klaviyo.com/whats-new/all",
       "source_type": "release",
       "selection_rationale": "Lifecycle marketing is becoming an agent stack: create, segment, analyze, personalize, support, and hand off with profile data."
@@ -1574,7 +1589,7 @@
     {
       "date": "2026-07-13",
       "lane": "ai-marketing-growth",
-      "title": "Gauge \u2014 marketing agent for organic, paid, and AI search",
+      "title": "Gauge — marketing agent for organic, paid, and AI search",
       "url": "https://www.producthunt.com/products/gauge",
       "source_type": "product",
       "selection_rationale": "AI search/GEO lacks a clean Search Console equivalent; prompt-set design and exportability are now strategic."
@@ -1641,7 +1656,7 @@
       "title": "Google Marketing Live 2026",
       "url": "https://blog.google/products/ads-commerce/google-marketing-live-2026-collection/",
       "source_type": "blog",
-      "selection_rationale": "It lays out Google\u2019s AI-search advertising, advisor and measurement direction."
+      "selection_rationale": "It lays out Google’s AI-search advertising, advisor and measurement direction."
     },
     {
       "date": "2026-07-14",
@@ -1721,7 +1736,7 @@
       "title": "GPT-Live",
       "url": "https://openai.com/index/introducing-gpt-live/",
       "source_type": "product",
-      "selection_rationale": "Voice becomes a control plane for field notes, meeting capture and quick task delegation\u2014not only a dictation layer."
+      "selection_rationale": "Voice becomes a control plane for field notes, meeting capture and quick task delegation—not only a dictation layer."
     },
     {
       "date": "2026-07-15",
@@ -1758,7 +1773,7 @@
     {
       "date": "2026-07-15",
       "lane": "security-governance",
-      "title": "Microsoft MDASH and Defender\u2013GitHub Code Security integration",
+      "title": "Microsoft MDASH and Defender–GitHub Code Security integration",
       "url": "https://www.microsoft.com/en-us/security/blog/2026/06/02/microsoft-build-2026-securing-code-agents-and-models-across-the-development-lifecycle/",
       "source_type": "release",
       "selection_rationale": "The direction is clear: agent security needs evidence of exploitability and production exposure, not a larger pile of alerts."
@@ -1769,7 +1784,7 @@
       "title": "Secure Future Initiative: July progress report",
       "url": "https://www.microsoft.com/en-us/security/blog/2026/07/10/securing-our-future-july-2026-progress-report-on-microsofts-secure-future-initiative/",
       "source_type": "report",
-      "selection_rationale": "It turns \u201csecure by default\u201d into measurable foundations that translate directly to small teams."
+      "selection_rationale": "It turns “secure by default” into measurable foundations that translate directly to small teams."
     },
     {
       "date": "2026-07-15",
@@ -2057,12 +2072,12 @@
       "title": "Dashboard Equations for Application Metrics",
       "url": "https://sentry.io/changelog/dashboards-now-support-equations-for-application-metrics/",
       "source_type": "release",
-      "selection_rationale": "Operational questions are often ratios\u2014error share, cache efficiency, or cost per completed job\u2014not raw series."
+      "selection_rationale": "Operational questions are often ratios—error share, cache efficiency, or cost per completed job—not raw series."
     },
     {
       "date": "2026-07-19",
       "lane": "self-hosted-data-operations",
-      "title": "Developer Update \u2014 July 2026",
+      "title": "Developer Update — July 2026",
       "url": "https://supabase.com/changelog/47796-developer-update-july-2026",
       "source_type": "release",
       "selection_rationale": "It collects several integration and operational changes that otherwise arrive as separate surprises."
@@ -2129,7 +2144,7 @@
       "title": "GitHub MCP Server supports the next MCP specification",
       "url": "https://github.blog/changelog/2026-07-23-github-mcp-server-supports-the-next-mcp-specification/",
       "source_type": "release",
-      "selection_rationale": "GitHub has shipped ahead of MCP\u2019s July 28 stateless-core transition; sessions and initialize disappear while backwards compatibility remains."
+      "selection_rationale": "GitHub has shipped ahead of MCP’s July 28 stateless-core transition; sessions and initialize disappear while backwards compatibility remains."
     },
     {
       "date": "2026-07-24",
@@ -2214,7 +2229,7 @@
     {
       "date": "2026-07-25",
       "lane": "frontier-agent-runtime",
-      "title": "Claude Platform release notes \u2014 July 24",
+      "title": "Claude Platform release notes — July 24",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
       "source_type": "docs",
       "selection_rationale": "The API release adds claude-opus-5 with 1M context and effort tiers, allows mid-conversation tool changes in beta, and removes Opus 4.7 fast mode."
@@ -2225,7 +2240,7 @@
       "title": "OKF v0.2 adds trust signals",
       "url": "https://cloud.google.com/blog/products/data-analytics/okf-v0-2-adds-trust-signals/",
       "source_type": "blog",
-      "selection_rationale": "Google\u2019s Open Knowledge Format v0.2 adds optional provenance, generated/verified, stale_after, status, and attestation vocabulary to Markdown/YAML knowledge bundles."
+      "selection_rationale": "Google’s Open Knowledge Format v0.2 adds optional provenance, generated/verified, stale_after, status, and attestation vocabulary to Markdown/YAML knowledge bundles."
     },
     {
       "date": "2026-07-25",
@@ -2310,7 +2325,7 @@
     {
       "date": "2026-07-26",
       "lane": "delegated-work-intake",
-      "title": "AI Agents \u2014 Linear Docs",
+      "title": "AI Agents — Linear Docs",
       "url": "https://linear.app/docs/agents-in-linear",
       "source_type": "docs",
       "selection_rationale": "Linear keeps the human as primary assignee when work is delegated, supports team-scoped agent access, and records guidance with full history."
@@ -2342,7 +2357,7 @@
     {
       "date": "2026-07-26",
       "lane": "consented-personal-context",
-      "title": "Health and fitness apps \u2014 Apple Developer",
+      "title": "Health and fitness apps — Apple Developer",
       "url": "https://developer.apple.com/health-fitness/",
       "source_type": "docs",
       "selection_rationale": "Apple describes HealthKit as a permissioned repository and asks apps to clearly explain intended use when requesting health, motion, or location data."
@@ -2414,7 +2429,7 @@
     {
       "date": "2026-07-27",
       "lane": "design-to-production",
-      "title": "Figma\u2019s design agent: custom tools, context, and reusable skills",
+      "title": "Figma’s design agent: custom tools, context, and reusable skills",
       "url": "https://www.figma.com/blog/agent-custom-tools-context-skills/",
       "source_type": "blog",
       "selection_rationale": "It adds reusable context and Skills to the design surface."
@@ -2473,7 +2488,7 @@
       "title": "Grok 4.5 is now available in GitHub Copilot",
       "url": "https://github.blog/changelog/2026-07-28-grok-4-5-is-now-available-in-github-copilot/",
       "source_type": "release",
-      "selection_rationale": "A candidate model is available inside existing PR, audit, and policy controls\u2014useful for a bounded comparison, not blanket rollout."
+      "selection_rationale": "A candidate model is available inside existing PR, audit, and policy controls—useful for a bounded comparison, not blanket rollout."
     },
     {
       "date": "2026-07-29",
@@ -2497,7 +2512,7 @@
       "title": "Use AI Search with the Agents SDK, AI SDK, and LangChain",
       "url": "https://developers.cloudflare.com/changelog/post/2026-07-30-ai-search-agent-sdks/",
       "source_type": "release",
-      "selection_rationale": "Today\u2019s release makes Cloudflare AI Search directly usable from three popular agent frameworks."
+      "selection_rationale": "Today’s release makes Cloudflare AI Search directly usable from three popular agent frameworks."
     },
     {
       "date": "2026-07-30",
@@ -2561,7 +2576,7 @@
       "title": "Realtime voice, speech, and transcription now supported on AI Gateway",
       "url": "https://vercel.com/changelog/realtime-voice-speech-and-transcription-now-supported-on-ai-gateway",
       "source_type": "release",
-      "selection_rationale": "The gateway\u2019s realtime surface supports voice, speech generation, and transcription through a common API."
+      "selection_rationale": "The gateway’s realtime surface supports voice, speech generation, and transcription through a common API."
     },
     {
       "date": "2026-07-31",
@@ -2569,7 +2584,7 @@
       "title": "Advancing the price-performance frontier with GPT-5.6",
       "url": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6/",
       "source_type": "product",
-      "selection_rationale": "OpenAI cut Luna API pricing by 80% and Terra by 20%, while introducing Sol Fast mode at a stated 2\u00d7 price for up to 2.5\u00d7 speed."
+      "selection_rationale": "OpenAI cut Luna API pricing by 80% and Terra by 20%, while introducing Sol Fast mode at a stated 2× price for up to 2.5× speed."
     },
     {
       "date": "2026-07-31",
@@ -2734,7 +2749,7 @@
     {
       "date": "2026-08-03",
       "lane": "private-agent-channel-controls",
-      "title": "Ephemeral Messages \u2014 Chat SDK",
+      "title": "Ephemeral Messages — Chat SDK",
       "url": "https://chat-sdk.dev/docs/ephemeral-messages",
       "source_type": "docs",
       "selection_rationale": "The same API has materially different records behavior across Teams, Slack, Google Chat, and Discord."
@@ -2806,7 +2821,7 @@
     {
       "date": "2026-08-04",
       "lane": "developer-workstation-blast-radius",
-      "title": "Vercel WAF for Blob \u2014 general availability",
+      "title": "Vercel WAF for Blob — general availability",
       "url": "https://vercel.com/changelog/vercel-waf-for-blob-is-now-generally-available",
       "source_type": "release",
       "selection_rationale": "Agent-generated media, uploads, and paid files are often treated as passive storage; edge rejection reduces both exposure and transfer cost before a request reaches the store."
@@ -2830,7 +2845,7 @@
     {
       "date": "2026-08-04",
       "lane": "continuous-cyber-remediation",
-      "title": "Defense at AI speed: Microsoft\u2019s MDASH system",
+      "title": "Defense at AI speed: Microsoft’s MDASH system",
       "url": "https://www.microsoft.com/en-us/security/blog/2026/05/12/defense-at-ai-speed-microsofts-new-multi-model-agentic-security-system-tops-leading-industry-benchmark/",
       "source_type": "blog",
       "selection_rationale": "The harness is the important unit of evaluation: model selection, validation, and remediation controls need to be assessed together."
@@ -2966,7 +2981,7 @@
     {
       "date": "2026-08-07",
       "lane": "safety-classifiers-trusted-access",
-      "title": "Improving Fable 5\u2019s biology safeguards",
+      "title": "Improving Fable 5’s biology safeguards",
       "url": "https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards",
       "source_type": "product announcement",
       "selection_rationale": "It reports an explicit classifier refinement, quantified fallback reductions, and continued restrictions for dual-use professional biology tasks."
@@ -3110,7 +3125,7 @@
     {
       "date": "2026-08-10",
       "lane": "agent-identity-posture",
-      "title": "Microsoft Defender Monthly News \u2014 August 2026",
+      "title": "Microsoft Defender Monthly News — August 2026",
       "url": "https://techcommunity.microsoft.com/blog/microsoftthreatprotectionblog/monthly-news-august-2026/4544388",
       "source_type": "release",
       "selection_rationale": "Defender adds public-preview posture-risk assessment and GA tenant-agent protection capabilities."
@@ -3121,7 +3136,7 @@
       "title": "Okta Identity Engine API release notes 2026",
       "url": "https://developer.okta.com/docs/release-notes/2026-okta-identity-engine/",
       "source_type": "docs",
-      "selection_rationale": "Okta\u2019s August release explicitly supports AI agents as workload principals."
+      "selection_rationale": "Okta’s August release explicitly supports AI agents as workload principals."
     },
     {
       "date": "2026-08-10",
@@ -3158,7 +3173,7 @@
     {
       "date": "2026-08-12",
       "lane": "edge-resilience-under-machine-speed",
-      "title": "Cloudflare DDoS Threat Report \u2014 H1 2026",
+      "title": "Cloudflare DDoS Threat Report — H1 2026",
       "url": "https://blog.cloudflare.com/ddos-threat-report-2026-h1/",
       "source_type": "report",
       "selection_rationale": "Cloudflare reports 23.2 million network-layer attacks in H1, 935 above 1 Tbps, and a shift toward DNS reflection/amplification."
@@ -3177,7 +3192,7 @@
       "title": "Open source reaches the physical stack",
       "url": "https://opensource.googleblog.com/2026/",
       "source_type": "ecosystem",
-      "selection_rationale": "Google\u2019s 2026 open-source blog places OpenROAD in a broader ecosystem of tools, standards, and infrastructure contributions."
+      "selection_rationale": "Google’s 2026 open-source blog places OpenROAD in a broader ecosystem of tools, standards, and infrastructure contributions."
     },
     {
       "date": "2026-08-13",
@@ -3210,6 +3225,78 @@
       "url": "https://blog.cloudflare.com/mcp-v2/",
       "source_type": "blog",
       "selection_rationale": "MCP removes the required session handshake and protocol sessions from the normal request path while strengthening headers and authorization."
+    },
+    {
+      "date": "2026-08-14",
+      "lane": "realtime-agent-feedback",
+      "title": "Previewing Ultrafast mode: GPT-5.6 Sol at up to 14X the speed",
+      "url": "https://openai.com/index/previewing-ultrafast/",
+      "source_type": "release",
+      "selection_rationale": "Fresh Aug 13 signal on frontier-model latency creates a materially new lane after recent coverage focused on control planes and persistence."
+    },
+    {
+      "date": "2026-08-14",
+      "lane": "realtime-agent-feedback",
+      "title": "The next evolution of the Agents SDK",
+      "url": "https://openai.com/index/the-next-evolution-of-the-agents-sdk/",
+      "source_type": "product",
+      "selection_rationale": "Fresh Aug 13 signal on frontier-model latency creates a materially new lane after recent coverage focused on control planes and persistence."
+    },
+    {
+      "date": "2026-08-14",
+      "lane": "realtime-agent-feedback",
+      "title": "Build long-running AI agents that pause, resume, and never lose context with ADK",
+      "url": "https://developers.googleblog.com/build-long-running-ai-agents-that-pause-resume-and-never-lose-context-with-adk/",
+      "source_type": "blog",
+      "selection_rationale": "Fresh Aug 13 signal on frontier-model latency creates a materially new lane after recent coverage focused on control planes and persistence."
+    },
+    {
+      "date": "2026-08-14",
+      "lane": "agent-identity-governance",
+      "title": "CSA 2026 Top Cloud Threats Report",
+      "url": "https://cloudsecurityalliance.org/press-releases/2026/08/13/ai-emerges-as-an-attack-enabler-and-target-in-csa-2026-top-threats-report",
+      "source_type": "report",
+      "selection_rationale": "The CSA’s Aug 13 threat ranking elevates identity and AI compromise together, filling a security/governance gap in the last several days."
+    },
+    {
+      "date": "2026-08-14",
+      "lane": "agent-identity-governance",
+      "title": "Agent Access Model",
+      "url": "https://blog.cloudflare.com/agent-access-model/",
+      "source_type": "blog",
+      "selection_rationale": "The CSA’s Aug 13 threat ranking elevates identity and AI compromise together, filling a security/governance gap in the last several days."
+    },
+    {
+      "date": "2026-08-14",
+      "lane": "agent-identity-governance",
+      "title": "Certificate Transparency Monitoring is now generally available",
+      "url": "https://blog.cloudflare.com/certificate-transparency-monitoring-ga/",
+      "source_type": "release",
+      "selection_rationale": "The CSA’s Aug 13 threat ranking elevates identity and AI compromise together, filling a security/governance gap in the last several days."
+    },
+    {
+      "date": "2026-08-14",
+      "lane": "design-agent-workflows",
+      "title": "Try skills from the Community and make your own with the Figma agent",
+      "url": "https://www.figma.com/release-notes/",
+      "source_type": "release",
+      "selection_rationale": "Figma’s Aug 13 skills release is a fresh product/design signal and a meaningful extension of the previously covered Figma controls."
+    },
+    {
+      "date": "2026-08-14",
+      "lane": "design-agent-workflows",
+      "title": "Figma MCP: Run Weave tools from your favorite agent",
+      "url": "https://www.figma.com/release-notes/",
+      "source_type": "release",
+      "selection_rationale": "Figma’s Aug 13 skills release is a fresh product/design signal and a meaningful extension of the previously covered Figma controls."
+    },
+    {
+      "date": "2026-08-14",
+      "lane": "design-agent-workflows",
+      "title": "The new business case for design systems",
+      "url": "https://www.figma.com/blog/the-new-business-case-for-design-systems/",
+      "source_type": "blog",
+      "selection_rationale": "Figma’s Aug 13 skills release is a fresh product/design signal and a meaningful extension of the previously covered Figma controls."
     }
   ],
   "runs": [
@@ -3265,7 +3352,7 @@
         {
           "slug": "mcp-portability",
           "title": "MCP Portability + Agent Extensions",
-          "selection_rationale": "The protocol\u2019s July 28 stateless transition and fresh package-based extension surfaces make portable, versioned agent capability a timely practical seam."
+          "selection_rationale": "The protocol’s July 28 stateless transition and fresh package-based extension surfaces make portable, versioned agent capability a timely practical seam."
         },
         {
           "slug": "governed-agent-delivery",
@@ -3317,7 +3404,7 @@
         {
           "slug": "consented-personal-context",
           "title": "Consented Personal Context",
-          "selection_rationale": "A personal-leverage lane earns inclusion because a new consumer health connector makes selective, revocable context a concrete product pattern\u2014not merely a privacy principle."
+          "selection_rationale": "A personal-leverage lane earns inclusion because a new consumer health connector makes selective, revocable context a concrete product pattern—not merely a privacy principle."
         }
       ],
       "editorial_thesis": "The strongest current signal is operational: expanded agent capacity must be paired with visible runtime boundaries, accountable work intake, and narrowly consented context."
@@ -3350,7 +3437,7 @@
         "durable-agent-state",
         "proof-carrying-research"
       ],
-      "editorial_thesis": "Today\u2019s practical advantage is evidence hygiene: preserve document fidelity before enrichment, make agent state recoverable and private, and ship consequential claims with an inspectable verification trail."
+      "editorial_thesis": "Today’s practical advantage is evidence hygiene: preserve document fidelity before enrichment, make agent state recoverable and private, and ship consequential claims with an inspectable verification trail."
     },
     {
       "date": "2026-08-09",
@@ -3359,7 +3446,7 @@
         "knowledge-maintenance",
         "edge-reliability"
       ],
-      "editorial_thesis": "Today\u2019s strongest practical signal is a move from novelty to maintenance: agent SDKs absorb generic plumbing, knowledge systems are judged by freshness, and network engineering remains the reliability substrate beneath remote automation."
+      "editorial_thesis": "Today’s strongest practical signal is a move from novelty to maintenance: agent SDKs absorb generic plumbing, knowledge systems are judged by freshness, and network engineering remains the reliability substrate beneath remote automation."
     },
     {
       "date": "2026-08-10",
@@ -3388,13 +3475,13 @@
           "title": "Agent Identity + Posture",
           "selection_rationale": "Current Microsoft and Okta updates make agents visible to security and identity systems; this is a practical governance lane with direct client applicability and limited recent coverage overlap.",
           "items": [
-            "Microsoft Defender Monthly News \u2014 August 2026",
+            "Microsoft Defender Monthly News — August 2026",
             "Okta Identity Engine API release notes 2026",
             "Least privilege for AI agents: Identity, access, and tool binding"
           ]
         }
       ],
-      "editorial_thesis": "Today\u2019s practical signal is control at the boundary: persistent compute needs explicit capacity policy, design generation needs budgets and hierarchy, and agents need identities that can be monitored and remediated."
+      "editorial_thesis": "Today’s practical signal is control at the boundary: persistent compute needs explicit capacity policy, design generation needs budgets and hierarchy, and agents need identities that can be monitored and remediated."
     },
     {
       "date": "2026-08-12",
@@ -3402,7 +3489,7 @@
         {
           "slug": "agent-cost-memory-controls",
           "title": "Agent Cost + Memory Controls",
-          "selection_rationale": "GitHub\u2019s same-day Copilot updates connect three operational controls that are usually shipped separately: persistent context, local-model escape hatches, and token-level cost attribution.",
+          "selection_rationale": "GitHub’s same-day Copilot updates connect three operational controls that are usually shipped separately: persistent context, local-model escape hatches, and token-level cost attribution.",
           "items": [
             "Copilot memory and Ollama in JetBrains",
             "Per-model token breakdown in usage reports",
@@ -3414,7 +3501,7 @@
           "title": "Edge Resilience Under Machine-Speed Attacks",
           "selection_rationale": "The latest Cloudflare threat report fills a security and infrastructure gap with quantified evidence that short attacks can still demand always-on controls.",
           "items": [
-            "Cloudflare DDoS Threat Report \u2014 H1 2026",
+            "Cloudflare DDoS Threat Report — H1 2026",
             "1 Tbps attacks rose 519% quarter over quarter",
             "DNS attacks became the dominant vector"
           ]
@@ -3422,7 +3509,7 @@
         {
           "slug": "open-infrastructure-beyond-models",
           "title": "Open Infrastructure Beyond Models",
-          "selection_rationale": "Google\u2019s August 11 OpenROAD commitment opens a neglected hardware and open-infrastructure lane: the leverage may be in reproducible compute foundations, not another model wrapper.",
+          "selection_rationale": "Google’s August 11 OpenROAD commitment opens a neglected hardware and open-infrastructure lane: the leverage may be in reproducible compute foundations, not another model wrapper.",
           "items": [
             "Google joins the OpenROAD Initiative",
             "Open source reaches the physical stack",
@@ -3430,12 +3517,48 @@
           ]
         }
       ],
-      "editorial_thesis": "Today\u2019s signal moves the operating surface outward: agents need cost and memory controls, internet-facing systems need always-on resilience, and open infrastructure is expanding below the software layer."
+      "editorial_thesis": "Today’s signal moves the operating surface outward: agents need cost and memory controls, internet-facing systems need always-on resilience, and open infrastructure is expanding below the software layer."
+    },
+    {
+      "date": "2026-08-14",
+      "selected_lanes": [
+        {
+          "slug": "realtime-agent-feedback",
+          "title": "Real-time Agent Feedback Loops",
+          "selection_rationale": "Fresh Aug 13 signal on frontier-model latency creates a materially new lane after recent coverage focused on control planes and persistence.",
+          "items": [
+            "Previewing Ultrafast mode: GPT-5.6 Sol at up to 14X the speed",
+            "The next evolution of the Agents SDK",
+            "Build long-running AI agents that pause, resume, and never lose context with ADK"
+          ]
+        },
+        {
+          "slug": "agent-identity-governance",
+          "title": "Agent Identity + Governance",
+          "selection_rationale": "The CSA’s Aug 13 threat ranking elevates identity and AI compromise together, filling a security/governance gap in the last several days.",
+          "items": [
+            "CSA 2026 Top Cloud Threats Report",
+            "Agent Access Model",
+            "Certificate Transparency Monitoring is now generally available"
+          ]
+        },
+        {
+          "slug": "design-agent-workflows",
+          "title": "Design Workflows Become Agent-Portable",
+          "selection_rationale": "Figma’s Aug 13 skills release is a fresh product/design signal and a meaningful extension of the previously covered Figma controls.",
+          "items": [
+            "Try skills from the Community and make your own with the Figma agent",
+            "Figma MCP: Run Weave tools from your favorite agent",
+            "The new business case for design systems"
+          ]
+        }
+      ],
+      "editorial_thesis": "Today’s useful edge is not another model wrapper: it is faster feedback, explicit agent identity, and reusable design workflows that can cross tool boundaries."
     }
   ],
-  "updated_at": "2026-08-13T08:08:40.172773+00:00",
-  "last_run": "2026-08-13",
-  "last_editorial_thesis": "Today\u2019s signal moves the operating surface outward: agents need cost and memory controls, internet-facing systems need always-on resilience, and open infrastructure is expanding below the software layer.",
+  "updated_at": "2026-08-14T08:00:39+00:00",
+  "last_run": "2026-08-14",
+  "last_editorial_thesis": "Today’s useful edge is not another model wrapper: it is faster feedback, explicit agent identity, and reusable design workflows that can cross tool boundaries.",
   "coverage_history": [
     {
       "date": "2026-07-28",
@@ -3500,7 +3623,7 @@
           "selection_rationale": "The separation guards against a polished answer being mistaken for an adequately supported one."
         }
       ],
-      "editorial_thesis": "The day\u2019s leverage is operational evidence: make protocol state explicit, verify where requests run, and make agent memory and research support inspectable before action."
+      "editorial_thesis": "The day’s leverage is operational evidence: make protocol state explicit, verify where requests run, and make agent memory and research support inspectable before action."
     },
     {
       "date": "2026-08-02",
@@ -3513,12 +3636,12 @@
         {
           "slug": "durable-agent-state",
           "title": "Durable Agent State + Local Privacy",
-          "selection_rationale": "Agent controls were covered yesterday; today\u2019s distinct operational signal is durability below the model layer\u2014recoverable state, dead-lettered channel ingress, and owner-only histories/logs."
+          "selection_rationale": "Agent controls were covered yesterday; today’s distinct operational signal is durability below the model layer—recoverable state, dead-lettered channel ingress, and owner-only histories/logs."
         },
         {
           "slug": "proof-carrying-research",
           "title": "Proof-Carrying Research Outputs",
-          "selection_rationale": "A fresh research release earns a deliberately non-product lane because it publishes not only claims, but papers, narrated reasoning, Lean certificates, and instructions for independent checking\u2014an unusually practical pattern for evidence-heavy work."
+          "selection_rationale": "A fresh research release earns a deliberately non-product lane because it publishes not only claims, but papers, narrated reasoning, Lean certificates, and instructions for independent checking—an unusually practical pattern for evidence-heavy work."
         }
       ],
       "items": [
@@ -3541,7 +3664,7 @@
           "title": "Paperless-ngx AI suggestion documentation",
           "url": "https://docs.paperless-ngx.com/usage/#ai-powered-document-suggestions",
           "source_type": "docs",
-          "selection_rationale": "It supplies the operating context for the cache-isolation fix: suggestions should enrich an archive\u2019s metadata, not become the archive of record."
+          "selection_rationale": "It supplies the operating context for the cache-isolation fix: suggestions should enrich an archive’s metadata, not become the archive of record."
         },
         {
           "lane": "durable-agent-state",
@@ -3576,7 +3699,7 @@
           "title": "openai/ten-proofs Lean certificates",
           "url": "https://github.com/openai/ten-proofs",
           "source_type": "repo",
-          "selection_rationale": "A certificate repository turns \u201ctrust us\u201d into an artifact that a separate toolchain can build and inspect."
+          "selection_rationale": "A certificate repository turns “trust us” into an artifact that a separate toolchain can build and inspect."
         },
         {
           "lane": "proof-carrying-research",
@@ -3593,7 +3716,7 @@
           "selection_rationale": "Process artifacts let reviewers assess the route to a conclusion, not only the final polished result."
         }
       ],
-      "editorial_thesis": "Today\u2019s practical advantage is evidence hygiene: preserve document fidelity before enrichment, make agent state recoverable and private, and ship consequential claims with an inspectable verification trail."
+      "editorial_thesis": "Today’s practical advantage is evidence hygiene: preserve document fidelity before enrichment, make agent state recoverable and private, and ship consequential claims with an inspectable verification trail."
     },
     {
       "date": "2026-08-10",
@@ -3602,7 +3725,7 @@
         "design-system-controls",
         "agent-identity-posture"
       ],
-      "editorial_thesis": "Today\u2019s practical signal is control at the boundary: persistent compute needs explicit capacity policy, design generation needs budgets and hierarchy, and agents need identities that can be monitored and remediated.",
+      "editorial_thesis": "Today’s practical signal is control at the boundary: persistent compute needs explicit capacity policy, design generation needs budgets and hierarchy, and agents need identities that can be monitored and remediated.",
       "items": [
         {
           "title": "Agent Plugins package your Skills, Tools, and more",
@@ -3666,7 +3789,7 @@
           "source_type": "blog"
         },
         {
-          "title": "Microsoft Defender Monthly News \u2014 August 2026",
+          "title": "Microsoft Defender Monthly News — August 2026",
           "url": "https://techcommunity.microsoft.com/blog/microsoftthreatprotectionblog/monthly-news-august-2026/4544388",
           "source_type": "release"
         },
@@ -3706,7 +3829,7 @@
       "title": "Paperless-ngx AI suggestion documentation",
       "url": "https://docs.paperless-ngx.com/usage/#ai-powered-document-suggestions",
       "source_type": "docs",
-      "selection_rationale": "It supplies the operating context for the cache-isolation fix: suggestions should enrich an archive\u2019s metadata, not become the archive of record."
+      "selection_rationale": "It supplies the operating context for the cache-isolation fix: suggestions should enrich an archive’s metadata, not become the archive of record."
     },
     {
       "date": "2026-08-02",
@@ -3746,7 +3869,7 @@
       "title": "openai/ten-proofs Lean certificates",
       "url": "https://github.com/openai/ten-proofs",
       "source_type": "repo",
-      "selection_rationale": "A certificate repository turns \u201ctrust us\u201d into an artifact that a separate toolchain can build and inspect."
+      "selection_rationale": "A certificate repository turns “trust us” into an artifact that a separate toolchain can build and inspect."
     },
     {
       "date": "2026-08-02",
@@ -3895,7 +4018,7 @@
     {
       "date": "2026-08-10",
       "lane": "agent-identity-posture",
-      "title": "Microsoft Defender Monthly News \u2014 August 2026",
+      "title": "Microsoft Defender Monthly News — August 2026",
       "url": "https://techcommunity.microsoft.com/blog/microsoftthreatprotectionblog/monthly-news-august-2026/4544388",
       "source_type": "release",
       "selection_rationale": "Defender adds public-preview posture-risk assessment and GA tenant-agent protection capabilities."
@@ -3906,7 +4029,7 @@
       "title": "Okta Identity Engine API release notes 2026",
       "url": "https://developer.okta.com/docs/release-notes/2026-okta-identity-engine/",
       "source_type": "docs",
-      "selection_rationale": "Okta\u2019s August release explicitly supports AI agents as workload principals."
+      "selection_rationale": "Okta’s August release explicitly supports AI agents as workload principals."
     },
     {
       "date": "2026-08-10",
@@ -3965,13 +4088,9 @@
       "selection_rationale": "Fresh workload-based capacity segmentation."
     }
   ],
-  "last_run_selection": {
-    "date": "2026-08-13",
-    "lanes": [
-      "agent-control-plane",
-      "edge-ai-local-inference",
-      "mcp-stateless-transport"
-    ],
-    "rationale": "Rotated toward under-covered control-plane, edge/local inference, and protocol transport signals; avoided repeating the previous day\u2019s cost/memory, DDoS, and open-silicon lanes."
-  }
+  "last_run_selection": [
+    "realtime-agent-feedback",
+    "agent-identity-governance",
+    "design-agent-workflows"
+  ]
 }

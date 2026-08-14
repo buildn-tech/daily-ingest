@@ -1,6 +1,46 @@
 {
-  "updated_at": "2026-08-13T08:08:22.004723+00:00",
+  "updated_at": "2026-08-14T08:06:31.168447+00:00",
   "sources": {
+    "https://openai.com/index/previewing-ultrafast": {
+      "first_seen": "2026-08-14",
+      "last_seen": "2026-08-14",
+      "title": "Previewing Ultrafast mode: GPT-5.6 Sol at up to 14X the speed"
+    },
+    "https://openai.com/index/the-next-evolution-of-the-agents-sdk": {
+      "first_seen": "2026-08-14",
+      "last_seen": "2026-08-14",
+      "title": "The next evolution of the Agents SDK"
+    },
+    "https://developers.googleblog.com/build-long-running-ai-agents-that-pause-resume-and-never-lose-context-with-adk": {
+      "first_seen": "2026-08-14",
+      "last_seen": "2026-08-14",
+      "title": "Build long-running AI agents that pause, resume, and never lose context with ADK"
+    },
+    "https://cloudsecurityalliance.org/press-releases/2026/08/13/ai-emerges-as-an-attack-enabler-and-target-in-csa-2026-top-threats-report": {
+      "first_seen": "2026-08-14",
+      "last_seen": "2026-08-14",
+      "title": "CSA 2026 Top Cloud Threats Report"
+    },
+    "https://blog.cloudflare.com/agent-access-model": {
+      "first_seen": "2026-08-14",
+      "last_seen": "2026-08-14",
+      "title": "Agent Access Model"
+    },
+    "https://blog.cloudflare.com/certificate-transparency-monitoring-ga": {
+      "first_seen": "2026-08-14",
+      "last_seen": "2026-08-14",
+      "title": "Certificate Transparency Monitoring is now generally available"
+    },
+    "https://www.figma.com/release-notes": {
+      "first_seen": "2026-08-14",
+      "last_seen": "2026-08-10",
+      "title": "Figma product news and release notes"
+    },
+    "https://www.figma.com/blog/the-new-business-case-for-design-systems": {
+      "first_seen": "2026-08-14",
+      "last_seen": "2026-08-14",
+      "title": "The new business case for design systems"
+    },
     "https://vercel.com/changelog/set-up-coding-agents-in-one-command-with-ai-gateway": {
       "first_seen": "2026-08-13",
       "last_seen": "2026-08-13",
@@ -110,11 +150,6 @@
       "first_seen": "2026-08-10",
       "last_seen": "2026-08-10",
       "title": "Runtime instances: persistent compute for production AI agents"
-    },
-    "https://www.figma.com/release-notes": {
-      "first_seen": "2026-08-10",
-      "last_seen": "2026-08-10",
-      "title": "Figma product news and release notes"
     },
     "https://www.figma.com/blog/code-craft-and-the-making-of-nested-folders": {
       "first_seen": "2026-08-10",
