@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-14T08:06:31.168447+00:00",
+  "updated_at": "2026-08-14T08:08:25.289555+00:00",
   "sources": {
     "https://openai.com/index/previewing-ultrafast": {
       "first_seen": "2026-08-14",
@@ -21,7 +21,7 @@
       "last_seen": "2026-08-14",
       "title": "CSA 2026 Top Cloud Threats Report"
     },
-    "https://blog.cloudflare.com/agent-access-model": {
+    "https://blog.cloudflare.com/the-agent-access-model": {
       "first_seen": "2026-08-14",
       "last_seen": "2026-08-14",
       "title": "Agent Access Model"

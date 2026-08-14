@@ -3262,7 +3262,7 @@
       "date": "2026-08-14",
       "lane": "agent-identity-governance",
       "title": "Agent Access Model",
-      "url": "https://blog.cloudflare.com/agent-access-model/",
+      "url": "https://blog.cloudflare.com/the-agent-access-model/",
       "source_type": "blog",
       "selection_rationale": "The CSA’s Aug 13 threat ranking elevates identity and AI compromise together, filling a security/governance gap in the last several days."
     },
