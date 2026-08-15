@@ -487,6 +487,21 @@
       "title": "Design Workflows Become Agent-Portable",
       "times_covered": 1,
       "last_covered": "2026-08-14"
+    },
+    "agent-platform-operations": {
+      "title": "Agent Platform Operations",
+      "times_covered": 1,
+      "last_covered": "2026-08-15"
+    },
+    "agent-security-control-plane": {
+      "title": "Agent Security Control Plane",
+      "times_covered": 1,
+      "last_covered": "2026-08-15"
+    },
+    "local-first-knowledge-ops": {
+      "title": "Local-First Knowledge Operations",
+      "times_covered": 1,
+      "last_covered": "2026-08-15"
     }
   },
   "item_history": [
@@ -3297,6 +3312,66 @@
       "url": "https://www.figma.com/blog/the-new-business-case-for-design-systems/",
       "source_type": "blog",
       "selection_rationale": "Figma’s Aug 13 skills release is a fresh product/design signal and a meaningful extension of the previously covered Figma controls."
+    },
+    {
+      "date": "2026-08-15",
+      "topic": "agent-platform-operations",
+      "title": "Agent Platform Operations",
+      "urls": [
+        "https://docs.cloud.google.com/vertex-ai/docs/release-notes",
+        "https://developers.google.com/workspace/release-notes",
+        "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+        "https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes",
+        "https://developers.googleblog.com/build-long-running-ai-agents-that-pause-resume-and-never-lose-context-with-adk/"
+      ],
+      "source_types": [
+        "docs",
+        "release",
+        "release",
+        "release",
+        "blog"
+      ],
+      "selection_rationale": "Fresh Aug 14–15 release-note signal shows the agent stack moving from model choice to durable workspaces, governed collaboration surfaces, and platform migration hygiene."
+    },
+    {
+      "date": "2026-08-15",
+      "topic": "agent-security-control-plane",
+      "title": "Agent Security Control Plane",
+      "urls": [
+        "https://securitydocs.cisco.com/docs/ai-def/user/168305.dita",
+        "https://www.gravitee.io/state-of-ai-agent-security",
+        "https://research.checkpoint.com/2026/ai-security-report-2026/",
+        "https://labs.cloudsecurityalliance.org/research/csa-research-note-ai-agent-governance-framework-gap-20260403/",
+        "https://csrc.nist.gov/pubs/other/2026/02/05/accelerating-the-adoption-of-software-and-ai-agent/ipd"
+      ],
+      "source_types": [
+        "release",
+        "report",
+        "report",
+        "research",
+        "paper"
+      ],
+      "selection_rationale": "Security coverage is under-rotated in the recent archive, while fresh Cisco and current research make the practical control surface unusually concrete: inventory, inline checks, accountability, and revocation."
+    },
+    {
+      "date": "2026-08-15",
+      "topic": "local-first-knowledge-ops",
+      "title": "Local-First Knowledge Operations",
+      "urls": [
+        "https://github.com/vrtmrz/obsidian-livesync/releases",
+        "https://github.com/nocodb/nocodb/releases",
+        "https://github.com/langfuse/langfuse/discussions/1902",
+        "https://github.com/mikeroyal/self-hosting-guide",
+        "https://plane.so/blog/why-teams-are-switching-to-self-hosted-project-management-tools"
+      ],
+      "source_types": [
+        "release",
+        "release",
+        "discussion",
+        "guide",
+        "blog"
+      ],
+      "selection_rationale": "After several cloud-agent days, this lane deliberately tests the neglected practical alternative: owned data, sync reliability, and self-hosted observability for knowledge-heavy workflows."
     }
   ],
   "runs": [
@@ -3556,7 +3631,7 @@
       "editorial_thesis": "Today’s useful edge is not another model wrapper: it is faster feedback, explicit agent identity, and reusable design workflows that can cross tool boundaries."
     }
   ],
-  "updated_at": "2026-08-14T08:00:39+00:00",
+  "updated_at": "2026-08-15T08:08:10.075124Z",
   "last_run": "2026-08-14",
   "last_editorial_thesis": "Today’s useful edge is not another model wrapper: it is faster feedback, explicit agent identity, and reusable design workflows that can cross tool boundaries.",
   "coverage_history": [

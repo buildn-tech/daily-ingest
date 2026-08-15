@@ -1,6 +1,27 @@
 {
-  "updated_at": "2026-08-14T08:08:25.289555+00:00",
+  "updated_at": "2026-08-15T08:08:32.317473+00:00",
   "days": [
+    {
+      "date": "2026-08-15",
+      "path": "2026-08-15",
+      "reports": [
+        {
+          "lane": "agent-platform-operations",
+          "title": "Agent Platform Operations",
+          "url": "2026-08-15/agent-platform-operations.html"
+        },
+        {
+          "lane": "agent-security-control-plane",
+          "title": "Agent Security Control Plane",
+          "url": "2026-08-15/agent-security-control-plane.html"
+        },
+        {
+          "lane": "local-first-knowledge-ops",
+          "title": "Local-First Knowledge Operations",
+          "url": "2026-08-15/local-first-knowledge-ops.html"
+        }
+      ]
+    },
     {
       "date": "2026-08-14",
       "path": "2026-08-14",

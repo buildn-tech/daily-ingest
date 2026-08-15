@@ -1,6 +1,81 @@
 {
-  "updated_at": "2026-08-14T08:08:25.289555+00:00",
+  "updated_at": "2026-08-15T08:08:32.317473+00:00",
   "sources": {
+    "https://docs.cloud.google.com/vertex-ai/docs/release-notes": {
+      "first_seen": "2026-08-15",
+      "last_seen": "2026-08-15",
+      "title": "Vertex AI becomes Gemini Enterprise Agent Platform"
+    },
+    "https://developers.google.com/workspace/release-notes": {
+      "first_seen": "2026-08-15",
+      "last_seen": "2026-08-15",
+      "title": "Workspace Chat and Sheets/Slides MCP capabilities"
+    },
+    "https://help.openai.com/en/articles/6825453-chatgpt-release-notes": {
+      "first_seen": "2026-08-15",
+      "last_seen": "2026-08-15",
+      "title": "ChatGPT project-only memory and Linux preview"
+    },
+    "https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes": {
+      "first_seen": "2026-08-15",
+      "last_seen": "2026-07-22",
+      "title": "Visual Studio 2026 July Update release notes"
+    },
+    "https://developers.googleblog.com/build-long-running-ai-agents-that-pause-resume-and-never-lose-context-with-adk": {
+      "first_seen": "2026-08-15",
+      "last_seen": "2026-08-14",
+      "title": "Build long-running AI agents that pause, resume, and never lose context with ADK"
+    },
+    "https://securitydocs.cisco.com/docs/ai-def/user/168305.dita": {
+      "first_seen": "2026-08-15",
+      "last_seen": "2026-08-15",
+      "title": "Cisco AI Defense 2026.8.1"
+    },
+    "https://www.gravitee.io/state-of-ai-agent-security": {
+      "first_seen": "2026-08-15",
+      "last_seen": "2026-08-15",
+      "title": "State of AI Agent Security 2026"
+    },
+    "https://research.checkpoint.com/2026/ai-security-report-2026": {
+      "first_seen": "2026-08-15",
+      "last_seen": "2026-08-15",
+      "title": "AI Security Report 2026"
+    },
+    "https://labs.cloudsecurityalliance.org/research/csa-research-note-ai-agent-governance-framework-gap-20260403": {
+      "first_seen": "2026-08-15",
+      "last_seen": "2026-08-15",
+      "title": "AI agent identity governance gap"
+    },
+    "https://csrc.nist.gov/pubs/other/2026/02/05/accelerating-the-adoption-of-software-and-ai-agent/ipd": {
+      "first_seen": "2026-08-15",
+      "last_seen": "2026-08-15",
+      "title": "NIST software and AI-agent adoption concept paper"
+    },
+    "https://github.com/vrtmrz/obsidian-livesync/releases": {
+      "first_seen": "2026-08-15",
+      "last_seen": "2026-08-15",
+      "title": "Obsidian LiveSync releases"
+    },
+    "https://github.com/nocodb/nocodb/releases": {
+      "first_seen": "2026-08-15",
+      "last_seen": "2026-08-15",
+      "title": "NocoDB releases"
+    },
+    "https://github.com/langfuse/langfuse/discussions/1902": {
+      "first_seen": "2026-08-15",
+      "last_seen": "2026-08-15",
+      "title": "Langfuse v3 self-hosted architecture"
+    },
+    "https://github.com/mikeroyal/self-hosting-guide": {
+      "first_seen": "2026-08-15",
+      "last_seen": "2026-08-15",
+      "title": "Self-Hosting Guide"
+    },
+    "https://plane.so/blog/why-teams-are-switching-to-self-hosted-project-management-tools": {
+      "first_seen": "2026-08-15",
+      "last_seen": "2026-08-15",
+      "title": "Plane on self-hosted project management"
+    },
     "https://openai.com/index/previewing-ultrafast": {
       "first_seen": "2026-08-14",
       "last_seen": "2026-08-14",
@@ -10,11 +85,6 @@
       "first_seen": "2026-08-14",
       "last_seen": "2026-08-14",
       "title": "The next evolution of the Agents SDK"
-    },
-    "https://developers.googleblog.com/build-long-running-ai-agents-that-pause-resume-and-never-lose-context-with-adk": {
-      "first_seen": "2026-08-14",
-      "last_seen": "2026-08-14",
-      "title": "Build long-running AI agents that pause, resume, and never lose context with ADK"
     },
     "https://cloudsecurityalliance.org/press-releases/2026/08/13/ai-emerges-as-an-attack-enabler-and-target-in-csa-2026-top-threats-report": {
       "first_seen": "2026-08-14",
@@ -965,11 +1035,6 @@
       "first_seen": "2026-07-22",
       "last_seen": "2026-07-22",
       "title": "Introducing the ChatGPT for Small Business Program"
-    },
-    "https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes": {
-      "first_seen": "2026-07-22",
-      "last_seen": "2026-07-22",
-      "title": "Visual Studio 2026 July Update release notes"
     },
     "https://github.com/pocket-id/pocket-id/releases": {
       "first_seen": "2026-07-21",

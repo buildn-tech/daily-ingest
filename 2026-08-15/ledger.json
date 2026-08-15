@@ -1,0 +1,148 @@
+{
+  "date": "2026-08-15",
+  "generated_at": "2026-08-15T08:08:10.071267Z",
+  "editorial_thesis": "Prefer a small, testable control or data-boundary improvement over another generic model roundup.",
+  "topic_groups": [
+    {
+      "slug": "agent-platform-operations",
+      "title": "Agent Platform Operations",
+      "selection_rationale": "Fresh Aug 14–15 release-note signal shows the agent stack moving from model choice to durable workspaces, governed collaboration surfaces, and platform migration hygiene.",
+      "sources": [
+        {
+          "title": "Vertex AI becomes Gemini Enterprise Agent Platform",
+          "url": "https://docs.cloud.google.com/vertex-ai/docs/release-notes",
+          "source_type": "docs",
+          "published_or_updated": "2026-08-15",
+          "why_selected": "Google’s own release notes now point readers to Gemini Enterprise Agent Platform as the current home for Vertex AI services.",
+          "usefulness": "Audit any Buildn/client architecture references that still assume Vertex AI is the stable product boundary."
+        },
+        {
+          "title": "Workspace Chat and Sheets/Slides MCP capabilities",
+          "url": "https://developers.google.com/workspace/release-notes",
+          "source_type": "release",
+          "published_or_updated": "2026-08-15",
+          "why_selected": "Workspace release notes expose richer Chat search/events and developer-preview MCP servers for Sheets and Slides.",
+          "usefulness": "Prototype an agent that reads a brief, updates a planning sheet, and leaves an auditable Chat trace."
+        },
+        {
+          "title": "ChatGPT project-only memory and Linux preview",
+          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+          "source_type": "release",
+          "published_or_updated": "2026-08-14",
+          "why_selected": "Project-only memory is now configurable, while ChatGPT and Codex are in public preview on major Linux distributions.",
+          "usefulness": "Use project-only memory as a clean boundary for client dossiers and test Linux-native operator workflows."
+        },
+        {
+          "title": "Visual Studio 2026 release notes",
+          "url": "https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes",
+          "source_type": "release",
+          "published_or_updated": "2026-08-15",
+          "why_selected": "Microsoft’s 2026 release line positions AI integration alongside performance and platform fundamentals.",
+          "usefulness": "Compare its agent ergonomics with the tools used in client engineering handoffs."
+        },
+        {
+          "title": "Google ADK long-running agents",
+          "url": "https://developers.googleblog.com/build-long-running-ai-agents-that-pause-resume-and-never-lose-context-with-adk/",
+          "source_type": "blog",
+          "published_or_updated": "2026-05-12",
+          "why_selected": "The durable pattern remains operationally relevant: pause, resume, and checkpoint long-running work instead of relying on chat history.",
+          "usefulness": "Reuse the pattern for research and publishing jobs that can survive retries or approvals."
+        }
+      ]
+    },
+    {
+      "slug": "agent-security-control-plane",
+      "title": "Agent Security Control Plane",
+      "selection_rationale": "Security coverage is under-rotated in the recent archive, while fresh Cisco and current research make the practical control surface unusually concrete: inventory, inline checks, accountability, and revocation.",
+      "sources": [
+        {
+          "title": "Cisco AI Defense 2026.8.1",
+          "url": "https://securitydocs.cisco.com/docs/ai-def/user/168305.dita",
+          "source_type": "release",
+          "published_or_updated": "2026-08-14",
+          "why_selected": "Cisco added project-scoped AI asset management and native LiteLLM guardrails with fail-closed behavior and structured decision logs.",
+          "usefulness": "Use project ownership plus inline prompt/tool inspection as a reference architecture for governed agent delivery."
+        },
+        {
+          "title": "State of AI Agent Security 2026",
+          "url": "https://www.gravitee.io/state-of-ai-agent-security",
+          "source_type": "report",
+          "published_or_updated": "2026-06-15",
+          "why_selected": "A 750-person survey reports fleets doubling while roughly 48% of production agents remain unsecured or unmonitored.",
+          "usefulness": "Turn the confidence-versus-coverage gap into a client discovery question and an agent inventory metric."
+        },
+        {
+          "title": "AI Security Report 2026",
+          "url": "https://research.checkpoint.com/2026/ai-security-report-2026/",
+          "source_type": "report",
+          "published_or_updated": "2026-01-27",
+          "why_selected": "Check Point frames AI as an active operator inside live intrusions, not merely a development aid.",
+          "usefulness": "Use the report to broaden threat modeling from prompt injection to AI-assisted attacker workflows."
+        },
+        {
+          "title": "AI agent identity governance gap",
+          "url": "https://labs.cloudsecurityalliance.org/research/csa-research-note-ai-agent-governance-framework-gap-20260403/",
+          "source_type": "research",
+          "published_or_updated": "2026-04-03",
+          "why_selected": "CSA research highlights missing visibility into agent identities and weak confidence in governance readiness.",
+          "usefulness": "Make agent owner, delegated authority, expiry, and revocation mandatory fields in delivery artifacts."
+        },
+        {
+          "title": "NIST software and AI-agent adoption concept paper",
+          "url": "https://csrc.nist.gov/pubs/other/2026/02/05/accelerating-the-adoption-of-software-and-ai-agent/ipd",
+          "source_type": "paper",
+          "published_or_updated": "2026-02-05",
+          "why_selected": "NIST’s concept paper gives a standards-oriented frame for accelerating adoption without treating agents as ordinary software components.",
+          "usefulness": "Use it as a neutral reference when clients need governance language beyond vendor claims."
+        }
+      ]
+    },
+    {
+      "slug": "local-first-knowledge-ops",
+      "title": "Local-First Knowledge Operations",
+      "selection_rationale": "After several cloud-agent days, this lane deliberately tests the neglected practical alternative: owned data, sync reliability, and self-hosted observability for knowledge-heavy workflows.",
+      "sources": [
+        {
+          "title": "Obsidian LiveSync releases",
+          "url": "https://github.com/vrtmrz/obsidian-livesync/releases",
+          "source_type": "release",
+          "published_or_updated": "2026-08-05",
+          "why_selected": "Recent fixes address remote configuration and local database access during sync setup, a small but meaningful reliability signal for private knowledge systems.",
+          "usefulness": "Use it to test a local-first research notebook with a separately controlled sync backend."
+        },
+        {
+          "title": "NocoDB releases",
+          "url": "https://github.com/nocodb/nocodb/releases",
+          "source_type": "release",
+          "published_or_updated": "unknown",
+          "why_selected": "NocoDB’s release stream calls out self-hosting notes and clearer boundaries around SQLite as an external data source.",
+          "usefulness": "Evaluate it as a lightweight, inspectable intake layer for client evidence and content operations."
+        },
+        {
+          "title": "Langfuse v3 self-hosted architecture",
+          "url": "https://github.com/langfuse/langfuse/discussions/1902",
+          "source_type": "discussion",
+          "published_or_updated": "2026-08-15",
+          "why_selected": "Langfuse’s v3 discussion documents a stable self-hosted architecture path for observability workloads.",
+          "usefulness": "Use self-hosted traces when client data cannot leave the environment, while preserving evaluation and cost visibility."
+        },
+        {
+          "title": "Self-Hosting Guide",
+          "url": "https://github.com/mikeroyal/self-hosting-guide",
+          "source_type": "guide",
+          "published_or_updated": "2026-08-15",
+          "why_selected": "A maintained practical guide aggregates deployment, storage, monitoring, and security choices across private infrastructure.",
+          "usefulness": "Use it as a checklist for a small Buildn lab rather than a shopping list of services."
+        },
+        {
+          "title": "Plane on self-hosted project management",
+          "url": "https://plane.so/blog/why-teams-are-switching-to-self-hosted-project-management-tools",
+          "source_type": "blog",
+          "published_or_updated": "2026-08-15",
+          "why_selected": "Plane connects self-hosting demand to upcoming SaaS data-use changes, making deployment choice a governance question as well as a cost question.",
+          "usefulness": "Frame project-system selection around data control, exportability, and operational burden."
+        }
+      ]
+    }
+  ]
+}
