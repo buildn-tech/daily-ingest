@@ -3659,121 +3659,121 @@
           "title": "Agent Development Lifecycle",
           "url": "architecture",
           "source_type": "release",
-          "selection_rationale": "https://blog.cloudflare.com/agent-development-lifecycle/"
+          "selection_rationale": "Cloudflare proposes a lifecycle in which agents plan, implement, test, deploy, observe, improve, and retire software using Workflows, traces, artifacts, and programmable infrastructure."
         },
         {
           "title": "Cloudflare OS",
           "url": "platform",
           "source_type": "release",
-          "selection_rationale": "https://blog.cloudflare.com/cloudflare-os/"
+          "selection_rationale": "An open platform combining agent workspaces, company context, secure internal access, live apps, and reusable skills."
         },
         {
           "title": "OpenTelemetry traces in local development",
           "url": "observability",
           "source_type": "release",
-          "selection_rationale": "https://blog.cloudflare.com/local-tracing/"
+          "selection_rationale": "Local development can expose production-like agent traces so agents and humans can inspect tool calls and failures before deployment."
         },
         {
           "title": "Software factory issue triage",
           "url": "workflow",
           "source_type": "release",
-          "selection_rationale": "https://blog.cloudflare.com/astro-issue-triage/"
+          "selection_rationale": "Cloudflare describes an agent workflow that triages, reproduces, verifies, and fixes issues at scale."
         },
         {
           "title": "ADLC as an operating thesis",
           "url": "strategy",
           "source_type": "release",
-          "selection_rationale": "https://blog.cloudflare.com/agent-development-lifecycle/"
+          "selection_rationale": "A strategic argument that software factories should own the full lifecycle while people focus on product judgment, design, and customer context."
         },
         {
           "title": "Zero Trust Assessment for AI",
           "url": "control plane",
           "source_type": "release",
-          "selection_rationale": "https://www.microsoft.com/en-us/security/blog/2026/08/04/advance-zero-trust-for-ai-new-tools-and-guidance-to-secure-ai-agents-and-devsecops/"
+          "selection_rationale": "Microsoft expanded its assessment with AI, SecOps, and infrastructure pillars and added a DevSecOps workshop pillar with 15 control groups and 91 tasks."
         },
         {
           "title": "AI memory and runtime guidance",
           "url": "architecture",
           "source_type": "release",
-          "selection_rationale": "https://www.microsoft.com/en-us/security/blog/2026/08/04/advance-zero-trust-for-ai-new-tools-and-guidance-to-secure-ai-agents-and-devsecops/"
+          "selection_rationale": "The guidance treats memory, tools, data, and runtime behavior as distinct trust surfaces."
         },
         {
           "title": "GHES 3.22 disconnected Copilot CLI",
           "url": "air-gapped",
           "source_type": "release",
-          "selection_rationale": "https://github.blog/changelog/2026-08-11-github-enterprise-server-3-22-release-candidate/"
+          "selection_rationale": "The release candidate supports Copilot CLI in disconnected or air-gapped GHES deployments with a centrally configured model provider."
         },
         {
           "title": "Individual bypasses and required reviewers",
           "url": "repository policy",
           "source_type": "release",
-          "selection_rationale": "https://github.blog/changelog/2026-08-11-github-enterprise-server-3-22-release-candidate/"
+          "selection_rationale": "GHES rulesets can target individual bypasses and require reviewers by path, including security, QA, design, or data teams."
         },
         {
           "title": "Threat model beyond prompts",
           "url": "method",
           "source_type": "release",
-          "selection_rationale": "https://www.microsoft.com/en-us/security/blog/2026/08/04/advance-zero-trust-for-ai-new-tools-and-guidance-to-secure-ai-agents-and-devsecops/"
+          "selection_rationale": "The combined guidance covers dependencies, build artifacts, infrastructure-as-code, memory, and runtime operations."
         },
         {
           "title": "Agent Plugins 1.0",
           "url": "portable tooling",
           "source_type": "release",
-          "selection_rationale": "https://github.blog/changelog/2026-08-12-agent-plugins-1-0-in-vs-code-copilot-cli-and-the-copilot-app/"
+          "selection_rationale": "A plugin can be built once and used across VS Code, Copilot CLI, the Copilot SDK, and the Copilot app."
         },
         {
           "title": "Headless plan + autopilot",
           "url": "execution",
           "source_type": "release",
-          "selection_rationale": "https://github.blog/changelog/2026-08-13-github-copilot-weekly-releases-august-10/"
+          "selection_rationale": "Copilot CLI can create a plan and implement it headlessly, while centralized task management handles subagents and queued work."
         },
         {
           "title": "Non-destructive rewind",
           "url": "recovery",
           "source_type": "release",
-          "selection_rationale": "https://github.blog/changelog/2026-08-13-github-copilot-weekly-releases-august-10/"
+          "selection_rationale": "The CLI can restore agent changes without requiring Git or discarding user edits."
         },
         {
           "title": "Copilot memory in JetBrains",
           "url": "continuity",
           "source_type": "release",
-          "selection_rationale": "https://github.blog/changelog/2026-08-11-copilot-memory-and-ollama-in-github-copilot-for-jetbrains/"
+          "selection_rationale": "JetBrains sessions can preserve project details and preferences across agent chats."
         },
         {
           "title": "Ollama BYOK in JetBrains",
           "url": "local inference",
           "source_type": "release",
-          "selection_rationale": "https://github.blog/changelog/2026-08-11-copilot-memory-and-ollama-in-github-copilot-for-jetbrains/"
+          "selection_rationale": "JetBrains users can route Copilot through local Ollama models as a BYOK provider."
         },
         {
           "title": "Enterprise-managed MCP authorization",
           "url": "identity",
           "source_type": "release",
-          "selection_rationale": "https://linear.app/changelog/2026-08-13-team-initiatives"
+          "selection_rationale": "Linear MCP access can be managed through existing Okta-managed identity."
         },
         {
           "title": "Agent widgets on project milestones",
           "url": "collaboration",
           "source_type": "release",
-          "selection_rationale": "https://linear.app/changelog/2026-08-13-team-initiatives"
+          "selection_rationale": "Linear added project milestone agent widgets on iOS alongside broader initiative and project improvements."
         },
         {
           "title": "Branch-status visibility",
           "url": "delivery",
           "source_type": "release",
-          "selection_rationale": "https://linear.app/changelog/2026-08-13-team-initiatives"
+          "selection_rationale": "A branch-status widget shows whether a branch is up to date, behind, or conflicted."
         },
         {
           "title": "Mermaid diagram comments",
           "url": "design ops",
           "source_type": "release",
-          "selection_rationale": "https://linear.app/changelog/2026-08-13-team-initiatives"
+          "selection_rationale": "Linear editor comments now support Mermaid diagrams."
         },
         {
           "title": "GPT-5.6 Luna in coding sessions",
           "url": "model choice",
           "source_type": "release",
-          "selection_rationale": "https://linear.app/changelog/2026-08-13-team-initiatives"
+          "selection_rationale": "Linear added GPT-5.6 Luna as a coding-session model option."
         }
       ],
       "selection_rationale": "Rotated toward lifecycle design, operational security, portable execution, and identity-aware collaboration; all selected URLs were absent from prior coverage memory."
@@ -4355,121 +4355,121 @@
         "title": "Agent Development Lifecycle",
         "url": "architecture",
         "source_type": "release",
-        "selection_rationale": "https://blog.cloudflare.com/agent-development-lifecycle/"
+        "selection_rationale": "Cloudflare proposes a lifecycle in which agents plan, implement, test, deploy, observe, improve, and retire software using Workflows, traces, artifacts, and programmable infrastructure."
       },
       {
         "title": "Cloudflare OS",
         "url": "platform",
         "source_type": "release",
-        "selection_rationale": "https://blog.cloudflare.com/cloudflare-os/"
+        "selection_rationale": "An open platform combining agent workspaces, company context, secure internal access, live apps, and reusable skills."
       },
       {
         "title": "OpenTelemetry traces in local development",
         "url": "observability",
         "source_type": "release",
-        "selection_rationale": "https://blog.cloudflare.com/local-tracing/"
+        "selection_rationale": "Local development can expose production-like agent traces so agents and humans can inspect tool calls and failures before deployment."
       },
       {
         "title": "Software factory issue triage",
         "url": "workflow",
         "source_type": "release",
-        "selection_rationale": "https://blog.cloudflare.com/astro-issue-triage/"
+        "selection_rationale": "Cloudflare describes an agent workflow that triages, reproduces, verifies, and fixes issues at scale."
       },
       {
         "title": "ADLC as an operating thesis",
         "url": "strategy",
         "source_type": "release",
-        "selection_rationale": "https://blog.cloudflare.com/agent-development-lifecycle/"
+        "selection_rationale": "A strategic argument that software factories should own the full lifecycle while people focus on product judgment, design, and customer context."
       },
       {
         "title": "Zero Trust Assessment for AI",
         "url": "control plane",
         "source_type": "release",
-        "selection_rationale": "https://www.microsoft.com/en-us/security/blog/2026/08/04/advance-zero-trust-for-ai-new-tools-and-guidance-to-secure-ai-agents-and-devsecops/"
+        "selection_rationale": "Microsoft expanded its assessment with AI, SecOps, and infrastructure pillars and added a DevSecOps workshop pillar with 15 control groups and 91 tasks."
       },
       {
         "title": "AI memory and runtime guidance",
         "url": "architecture",
         "source_type": "release",
-        "selection_rationale": "https://www.microsoft.com/en-us/security/blog/2026/08/04/advance-zero-trust-for-ai-new-tools-and-guidance-to-secure-ai-agents-and-devsecops/"
+        "selection_rationale": "The guidance treats memory, tools, data, and runtime behavior as distinct trust surfaces."
       },
       {
         "title": "GHES 3.22 disconnected Copilot CLI",
         "url": "air-gapped",
         "source_type": "release",
-        "selection_rationale": "https://github.blog/changelog/2026-08-11-github-enterprise-server-3-22-release-candidate/"
+        "selection_rationale": "The release candidate supports Copilot CLI in disconnected or air-gapped GHES deployments with a centrally configured model provider."
       },
       {
         "title": "Individual bypasses and required reviewers",
         "url": "repository policy",
         "source_type": "release",
-        "selection_rationale": "https://github.blog/changelog/2026-08-11-github-enterprise-server-3-22-release-candidate/"
+        "selection_rationale": "GHES rulesets can target individual bypasses and require reviewers by path, including security, QA, design, or data teams."
       },
       {
         "title": "Threat model beyond prompts",
         "url": "method",
         "source_type": "release",
-        "selection_rationale": "https://www.microsoft.com/en-us/security/blog/2026/08/04/advance-zero-trust-for-ai-new-tools-and-guidance-to-secure-ai-agents-and-devsecops/"
+        "selection_rationale": "The combined guidance covers dependencies, build artifacts, infrastructure-as-code, memory, and runtime operations."
       },
       {
         "title": "Agent Plugins 1.0",
         "url": "portable tooling",
         "source_type": "release",
-        "selection_rationale": "https://github.blog/changelog/2026-08-12-agent-plugins-1-0-in-vs-code-copilot-cli-and-the-copilot-app/"
+        "selection_rationale": "A plugin can be built once and used across VS Code, Copilot CLI, the Copilot SDK, and the Copilot app."
       },
       {
         "title": "Headless plan + autopilot",
         "url": "execution",
         "source_type": "release",
-        "selection_rationale": "https://github.blog/changelog/2026-08-13-github-copilot-weekly-releases-august-10/"
+        "selection_rationale": "Copilot CLI can create a plan and implement it headlessly, while centralized task management handles subagents and queued work."
       },
       {
         "title": "Non-destructive rewind",
         "url": "recovery",
         "source_type": "release",
-        "selection_rationale": "https://github.blog/changelog/2026-08-13-github-copilot-weekly-releases-august-10/"
+        "selection_rationale": "The CLI can restore agent changes without requiring Git or discarding user edits."
       },
       {
         "title": "Copilot memory in JetBrains",
         "url": "continuity",
         "source_type": "release",
-        "selection_rationale": "https://github.blog/changelog/2026-08-11-copilot-memory-and-ollama-in-github-copilot-for-jetbrains/"
+        "selection_rationale": "JetBrains sessions can preserve project details and preferences across agent chats."
       },
       {
         "title": "Ollama BYOK in JetBrains",
         "url": "local inference",
         "source_type": "release",
-        "selection_rationale": "https://github.blog/changelog/2026-08-11-copilot-memory-and-ollama-in-github-copilot-for-jetbrains/"
+        "selection_rationale": "JetBrains users can route Copilot through local Ollama models as a BYOK provider."
       },
       {
         "title": "Enterprise-managed MCP authorization",
         "url": "identity",
         "source_type": "release",
-        "selection_rationale": "https://linear.app/changelog/2026-08-13-team-initiatives"
+        "selection_rationale": "Linear MCP access can be managed through existing Okta-managed identity."
       },
       {
         "title": "Agent widgets on project milestones",
         "url": "collaboration",
         "source_type": "release",
-        "selection_rationale": "https://linear.app/changelog/2026-08-13-team-initiatives"
+        "selection_rationale": "Linear added project milestone agent widgets on iOS alongside broader initiative and project improvements."
       },
       {
         "title": "Branch-status visibility",
         "url": "delivery",
         "source_type": "release",
-        "selection_rationale": "https://linear.app/changelog/2026-08-13-team-initiatives"
+        "selection_rationale": "A branch-status widget shows whether a branch is up to date, behind, or conflicted."
       },
       {
         "title": "Mermaid diagram comments",
         "url": "design ops",
         "source_type": "release",
-        "selection_rationale": "https://linear.app/changelog/2026-08-13-team-initiatives"
+        "selection_rationale": "Linear editor comments now support Mermaid diagrams."
       },
       {
         "title": "GPT-5.6 Luna in coding sessions",
         "url": "model choice",
         "source_type": "release",
-        "selection_rationale": "https://linear.app/changelog/2026-08-13-team-initiatives"
+        "selection_rationale": "Linear added GPT-5.6 Luna as a coding-session model option."
       }
     ],
     "selection_rationale": "Rotated toward lifecycle design, operational security, portable execution, and identity-aware collaboration; all selected URLs were absent from prior coverage memory."

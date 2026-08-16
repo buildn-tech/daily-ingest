@@ -58,7 +58,7 @@ lanes={
 ledger={'date':'2026-08-16','generated_at':datetime.datetime.now(datetime.timezone.utc).isoformat(),'editorial_thesis':'The useful frontier is operational: durable agent lifecycles, explicit security controls, portable execution, and identity-aware collaboration outperform another generic model roundup.','topic_groups':[]}
 for slug,(title,dek,labels,items,rows,actions) in lanes.items():
  (OUT/f'daily-ingest-{slug}-{DATE}.html').write_text(lane(slug,title,dek,labels,items,rows,actions),encoding='utf-8')
- ledger['topic_groups'].append({'slug':slug,'title':title,'selection_rationale':dek,'sources':[{'title':x[0],'url':x[2],'source_type':'blog' if 'blog' in x[2] else 'release','published_or_updated':'2026-08-13' if 'linear' in x[2] else '2026-08-11','why_selected':x[3],'usefulness':x[5]} for x in items]})
+ ledger['topic_groups'].append({'slug':slug,'title':title,'selection_rationale':dek,'sources':[{'title':x[0],'url':x[2],'source_type':'blog' if 'blog' in x[2] else 'release','published_or_updated':'2026-08-13' if 'linear' in x[2] else '2026-08-11','why_selected':x[4],'usefulness':x[6]} for x in items]})
 
 links=''.join(f'<article class="card"><h2>{t}</h2><p>{d}</p><a href="{slug}.html">Open lane report →</a></article>' for slug,(t,d,*_) in lanes.items())
 top='<ol><li>Map one Buildn workflow to an ADLC with checkpoints, traces, and a human gate.</li><li>Run a zero-trust gap assessment across one agent’s identity, tools, memory, and runtime.</li><li>Package one recurring task as a portable plugin contract with plan and rewind semantics.</li></ol>'
