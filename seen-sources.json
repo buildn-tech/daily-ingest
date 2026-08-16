@@ -1,6 +1,101 @@
 {
-  "updated_at": "2026-08-15T08:08:32.317473+00:00",
+  "updated_at": "2026-08-16T08:06:23.132356+00:00",
   "sources": {
+    "architecture": {
+      "first_seen": "2026-08-16",
+      "last_seen": "2026-08-16",
+      "title": "AI memory and runtime guidance"
+    },
+    "platform": {
+      "first_seen": "2026-08-16",
+      "last_seen": "2026-08-16",
+      "title": "Cloudflare OS"
+    },
+    "observability": {
+      "first_seen": "2026-08-16",
+      "last_seen": "2026-08-16",
+      "title": "OpenTelemetry traces in local development"
+    },
+    "workflow": {
+      "first_seen": "2026-08-16",
+      "last_seen": "2026-08-16",
+      "title": "Software factory issue triage"
+    },
+    "strategy": {
+      "first_seen": "2026-08-16",
+      "last_seen": "2026-08-16",
+      "title": "ADLC as an operating thesis"
+    },
+    "control plane": {
+      "first_seen": "2026-08-16",
+      "last_seen": "2026-08-16",
+      "title": "Zero Trust Assessment for AI"
+    },
+    "air-gapped": {
+      "first_seen": "2026-08-16",
+      "last_seen": "2026-08-16",
+      "title": "GHES 3.22 disconnected Copilot CLI"
+    },
+    "repository policy": {
+      "first_seen": "2026-08-16",
+      "last_seen": "2026-08-16",
+      "title": "Individual bypasses and required reviewers"
+    },
+    "method": {
+      "first_seen": "2026-08-16",
+      "last_seen": "2026-08-16",
+      "title": "Threat model beyond prompts"
+    },
+    "portable tooling": {
+      "first_seen": "2026-08-16",
+      "last_seen": "2026-08-16",
+      "title": "Agent Plugins 1.0"
+    },
+    "execution": {
+      "first_seen": "2026-08-16",
+      "last_seen": "2026-08-16",
+      "title": "Headless plan + autopilot"
+    },
+    "recovery": {
+      "first_seen": "2026-08-16",
+      "last_seen": "2026-08-16",
+      "title": "Non-destructive rewind"
+    },
+    "continuity": {
+      "first_seen": "2026-08-16",
+      "last_seen": "2026-08-16",
+      "title": "Copilot memory in JetBrains"
+    },
+    "local inference": {
+      "first_seen": "2026-08-16",
+      "last_seen": "2026-08-16",
+      "title": "Ollama BYOK in JetBrains"
+    },
+    "identity": {
+      "first_seen": "2026-08-16",
+      "last_seen": "2026-08-16",
+      "title": "Enterprise-managed MCP authorization"
+    },
+    "collaboration": {
+      "first_seen": "2026-08-16",
+      "last_seen": "2026-08-16",
+      "title": "Agent widgets on project milestones"
+    },
+    "delivery": {
+      "first_seen": "2026-08-16",
+      "last_seen": "2026-08-16",
+      "title": "Branch-status visibility"
+    },
+    "design ops": {
+      "first_seen": "2026-08-16",
+      "last_seen": "2026-08-16",
+      "title": "Mermaid diagram comments"
+    },
+    "model choice": {
+      "first_seen": "2026-08-16",
+      "last_seen": "2026-08-16",
+      "title": "GPT-5.6 Luna in coding sessions"
+    },
     "https://docs.cloud.google.com/vertex-ai/docs/release-notes": {
       "first_seen": "2026-08-15",
       "last_seen": "2026-08-15",

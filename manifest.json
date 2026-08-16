@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-08-15T08:08:32.317473+00:00",
+  "updated_at": "2026-08-16T08:06:23.132356+00:00",
   "days": [
+    {
+      "date": "2026-08-16",
+      "path": "2026-08-16",
+      "reports": [
+        {
+          "lane": "agent-development-lifecycle",
+          "title": "Agent Development Lifecycle",
+          "url": "2026-08-16/agent-development-lifecycle.html"
+        },
+        {
+          "lane": "agent-security-governance",
+          "title": "Agent Security Governance",
+          "url": "2026-08-16/agent-security-governance.html"
+        },
+        {
+          "lane": "portable-agent-workflows",
+          "title": "Portable Agent Workflows",
+          "url": "2026-08-16/portable-agent-workflows.html"
+        },
+        {
+          "lane": "identity-aware-collaboration",
+          "title": "Identity-Aware Collaboration",
+          "url": "2026-08-16/identity-aware-collaboration.html"
+        }
+      ]
+    },
     {
       "date": "2026-08-15",
       "path": "2026-08-15",

@@ -502,6 +502,22 @@
       "title": "Local-First Knowledge Operations",
       "times_covered": 1,
       "last_covered": "2026-08-15"
+    },
+    "agent-development-lifecycle": {
+      "count": 1,
+      "last_covered": "2026-08-16"
+    },
+    "agent-security-governance": {
+      "count": 1,
+      "last_covered": "2026-08-16"
+    },
+    "portable-agent-workflows": {
+      "count": 1,
+      "last_covered": "2026-08-16"
+    },
+    "identity-aware-collaboration": {
+      "count": 1,
+      "last_covered": "2026-08-16"
     }
   },
   "item_history": [
@@ -3629,11 +3645,143 @@
         }
       ],
       "editorial_thesis": "Today’s useful edge is not another model wrapper: it is faster feedback, explicit agent identity, and reusable design workflows that can cross tool boundaries."
+    },
+    {
+      "date": "2026-08-16",
+      "selected_lanes": [
+        "agent-development-lifecycle",
+        "agent-security-governance",
+        "portable-agent-workflows",
+        "identity-aware-collaboration"
+      ],
+      "items": [
+        {
+          "title": "Agent Development Lifecycle",
+          "url": "architecture",
+          "source_type": "release",
+          "selection_rationale": "https://blog.cloudflare.com/agent-development-lifecycle/"
+        },
+        {
+          "title": "Cloudflare OS",
+          "url": "platform",
+          "source_type": "release",
+          "selection_rationale": "https://blog.cloudflare.com/cloudflare-os/"
+        },
+        {
+          "title": "OpenTelemetry traces in local development",
+          "url": "observability",
+          "source_type": "release",
+          "selection_rationale": "https://blog.cloudflare.com/local-tracing/"
+        },
+        {
+          "title": "Software factory issue triage",
+          "url": "workflow",
+          "source_type": "release",
+          "selection_rationale": "https://blog.cloudflare.com/astro-issue-triage/"
+        },
+        {
+          "title": "ADLC as an operating thesis",
+          "url": "strategy",
+          "source_type": "release",
+          "selection_rationale": "https://blog.cloudflare.com/agent-development-lifecycle/"
+        },
+        {
+          "title": "Zero Trust Assessment for AI",
+          "url": "control plane",
+          "source_type": "release",
+          "selection_rationale": "https://www.microsoft.com/en-us/security/blog/2026/08/04/advance-zero-trust-for-ai-new-tools-and-guidance-to-secure-ai-agents-and-devsecops/"
+        },
+        {
+          "title": "AI memory and runtime guidance",
+          "url": "architecture",
+          "source_type": "release",
+          "selection_rationale": "https://www.microsoft.com/en-us/security/blog/2026/08/04/advance-zero-trust-for-ai-new-tools-and-guidance-to-secure-ai-agents-and-devsecops/"
+        },
+        {
+          "title": "GHES 3.22 disconnected Copilot CLI",
+          "url": "air-gapped",
+          "source_type": "release",
+          "selection_rationale": "https://github.blog/changelog/2026-08-11-github-enterprise-server-3-22-release-candidate/"
+        },
+        {
+          "title": "Individual bypasses and required reviewers",
+          "url": "repository policy",
+          "source_type": "release",
+          "selection_rationale": "https://github.blog/changelog/2026-08-11-github-enterprise-server-3-22-release-candidate/"
+        },
+        {
+          "title": "Threat model beyond prompts",
+          "url": "method",
+          "source_type": "release",
+          "selection_rationale": "https://www.microsoft.com/en-us/security/blog/2026/08/04/advance-zero-trust-for-ai-new-tools-and-guidance-to-secure-ai-agents-and-devsecops/"
+        },
+        {
+          "title": "Agent Plugins 1.0",
+          "url": "portable tooling",
+          "source_type": "release",
+          "selection_rationale": "https://github.blog/changelog/2026-08-12-agent-plugins-1-0-in-vs-code-copilot-cli-and-the-copilot-app/"
+        },
+        {
+          "title": "Headless plan + autopilot",
+          "url": "execution",
+          "source_type": "release",
+          "selection_rationale": "https://github.blog/changelog/2026-08-13-github-copilot-weekly-releases-august-10/"
+        },
+        {
+          "title": "Non-destructive rewind",
+          "url": "recovery",
+          "source_type": "release",
+          "selection_rationale": "https://github.blog/changelog/2026-08-13-github-copilot-weekly-releases-august-10/"
+        },
+        {
+          "title": "Copilot memory in JetBrains",
+          "url": "continuity",
+          "source_type": "release",
+          "selection_rationale": "https://github.blog/changelog/2026-08-11-copilot-memory-and-ollama-in-github-copilot-for-jetbrains/"
+        },
+        {
+          "title": "Ollama BYOK in JetBrains",
+          "url": "local inference",
+          "source_type": "release",
+          "selection_rationale": "https://github.blog/changelog/2026-08-11-copilot-memory-and-ollama-in-github-copilot-for-jetbrains/"
+        },
+        {
+          "title": "Enterprise-managed MCP authorization",
+          "url": "identity",
+          "source_type": "release",
+          "selection_rationale": "https://linear.app/changelog/2026-08-13-team-initiatives"
+        },
+        {
+          "title": "Agent widgets on project milestones",
+          "url": "collaboration",
+          "source_type": "release",
+          "selection_rationale": "https://linear.app/changelog/2026-08-13-team-initiatives"
+        },
+        {
+          "title": "Branch-status visibility",
+          "url": "delivery",
+          "source_type": "release",
+          "selection_rationale": "https://linear.app/changelog/2026-08-13-team-initiatives"
+        },
+        {
+          "title": "Mermaid diagram comments",
+          "url": "design ops",
+          "source_type": "release",
+          "selection_rationale": "https://linear.app/changelog/2026-08-13-team-initiatives"
+        },
+        {
+          "title": "GPT-5.6 Luna in coding sessions",
+          "url": "model choice",
+          "source_type": "release",
+          "selection_rationale": "https://linear.app/changelog/2026-08-13-team-initiatives"
+        }
+      ],
+      "selection_rationale": "Rotated toward lifecycle design, operational security, portable execution, and identity-aware collaboration; all selected URLs were absent from prior coverage memory."
     }
   ],
-  "updated_at": "2026-08-15T08:08:10.075124Z",
-  "last_run": "2026-08-14",
-  "last_editorial_thesis": "Today’s useful edge is not another model wrapper: it is faster feedback, explicit agent identity, and reusable design workflows that can cross tool boundaries.",
+  "updated_at": "2026-08-16T08:06:19.100268+00:00",
+  "last_run": "2026-08-16",
+  "last_editorial_thesis": "The useful frontier is operational: durable agent lifecycles, explicit security controls, portable execution, and identity-aware collaboration outperform another generic model roundup.",
   "coverage_history": [
     {
       "date": "2026-07-28",
@@ -3878,6 +4026,37 @@
           "url": "https://www.microsoft.com/en-us/security/blog/2026/07/16/least-privilege-for-ai-agents-identity-access-and-tool-binding/",
           "source_type": "blog"
         }
+      ]
+    },
+    {
+      "date": "2026-08-16",
+      "topics": [
+        "agent-development-lifecycle",
+        "agent-security-governance",
+        "portable-agent-workflows",
+        "identity-aware-collaboration"
+      ],
+      "items": [
+        "Agent Development Lifecycle",
+        "Cloudflare OS",
+        "OpenTelemetry traces in local development",
+        "Software factory issue triage",
+        "ADLC as an operating thesis",
+        "Zero Trust Assessment for AI",
+        "AI memory and runtime guidance",
+        "GHES 3.22 disconnected Copilot CLI",
+        "Individual bypasses and required reviewers",
+        "Threat model beyond prompts",
+        "Agent Plugins 1.0",
+        "Headless plan + autopilot",
+        "Non-destructive rewind",
+        "Copilot memory in JetBrains",
+        "Ollama BYOK in JetBrains",
+        "Enterprise-managed MCP authorization",
+        "Agent widgets on project milestones",
+        "Branch-status visibility",
+        "Mermaid diagram comments",
+        "GPT-5.6 Luna in coding sessions"
       ]
     }
   ],
@@ -4163,9 +4342,233 @@
       "selection_rationale": "Fresh workload-based capacity segmentation."
     }
   ],
-  "last_run_selection": [
-    "realtime-agent-feedback",
-    "agent-identity-governance",
-    "design-agent-workflows"
-  ]
+  "last_run_selection": {
+    "date": "2026-08-16",
+    "selected_lanes": [
+      "agent-development-lifecycle",
+      "agent-security-governance",
+      "portable-agent-workflows",
+      "identity-aware-collaboration"
+    ],
+    "items": [
+      {
+        "title": "Agent Development Lifecycle",
+        "url": "architecture",
+        "source_type": "release",
+        "selection_rationale": "https://blog.cloudflare.com/agent-development-lifecycle/"
+      },
+      {
+        "title": "Cloudflare OS",
+        "url": "platform",
+        "source_type": "release",
+        "selection_rationale": "https://blog.cloudflare.com/cloudflare-os/"
+      },
+      {
+        "title": "OpenTelemetry traces in local development",
+        "url": "observability",
+        "source_type": "release",
+        "selection_rationale": "https://blog.cloudflare.com/local-tracing/"
+      },
+      {
+        "title": "Software factory issue triage",
+        "url": "workflow",
+        "source_type": "release",
+        "selection_rationale": "https://blog.cloudflare.com/astro-issue-triage/"
+      },
+      {
+        "title": "ADLC as an operating thesis",
+        "url": "strategy",
+        "source_type": "release",
+        "selection_rationale": "https://blog.cloudflare.com/agent-development-lifecycle/"
+      },
+      {
+        "title": "Zero Trust Assessment for AI",
+        "url": "control plane",
+        "source_type": "release",
+        "selection_rationale": "https://www.microsoft.com/en-us/security/blog/2026/08/04/advance-zero-trust-for-ai-new-tools-and-guidance-to-secure-ai-agents-and-devsecops/"
+      },
+      {
+        "title": "AI memory and runtime guidance",
+        "url": "architecture",
+        "source_type": "release",
+        "selection_rationale": "https://www.microsoft.com/en-us/security/blog/2026/08/04/advance-zero-trust-for-ai-new-tools-and-guidance-to-secure-ai-agents-and-devsecops/"
+      },
+      {
+        "title": "GHES 3.22 disconnected Copilot CLI",
+        "url": "air-gapped",
+        "source_type": "release",
+        "selection_rationale": "https://github.blog/changelog/2026-08-11-github-enterprise-server-3-22-release-candidate/"
+      },
+      {
+        "title": "Individual bypasses and required reviewers",
+        "url": "repository policy",
+        "source_type": "release",
+        "selection_rationale": "https://github.blog/changelog/2026-08-11-github-enterprise-server-3-22-release-candidate/"
+      },
+      {
+        "title": "Threat model beyond prompts",
+        "url": "method",
+        "source_type": "release",
+        "selection_rationale": "https://www.microsoft.com/en-us/security/blog/2026/08/04/advance-zero-trust-for-ai-new-tools-and-guidance-to-secure-ai-agents-and-devsecops/"
+      },
+      {
+        "title": "Agent Plugins 1.0",
+        "url": "portable tooling",
+        "source_type": "release",
+        "selection_rationale": "https://github.blog/changelog/2026-08-12-agent-plugins-1-0-in-vs-code-copilot-cli-and-the-copilot-app/"
+      },
+      {
+        "title": "Headless plan + autopilot",
+        "url": "execution",
+        "source_type": "release",
+        "selection_rationale": "https://github.blog/changelog/2026-08-13-github-copilot-weekly-releases-august-10/"
+      },
+      {
+        "title": "Non-destructive rewind",
+        "url": "recovery",
+        "source_type": "release",
+        "selection_rationale": "https://github.blog/changelog/2026-08-13-github-copilot-weekly-releases-august-10/"
+      },
+      {
+        "title": "Copilot memory in JetBrains",
+        "url": "continuity",
+        "source_type": "release",
+        "selection_rationale": "https://github.blog/changelog/2026-08-11-copilot-memory-and-ollama-in-github-copilot-for-jetbrains/"
+      },
+      {
+        "title": "Ollama BYOK in JetBrains",
+        "url": "local inference",
+        "source_type": "release",
+        "selection_rationale": "https://github.blog/changelog/2026-08-11-copilot-memory-and-ollama-in-github-copilot-for-jetbrains/"
+      },
+      {
+        "title": "Enterprise-managed MCP authorization",
+        "url": "identity",
+        "source_type": "release",
+        "selection_rationale": "https://linear.app/changelog/2026-08-13-team-initiatives"
+      },
+      {
+        "title": "Agent widgets on project milestones",
+        "url": "collaboration",
+        "source_type": "release",
+        "selection_rationale": "https://linear.app/changelog/2026-08-13-team-initiatives"
+      },
+      {
+        "title": "Branch-status visibility",
+        "url": "delivery",
+        "source_type": "release",
+        "selection_rationale": "https://linear.app/changelog/2026-08-13-team-initiatives"
+      },
+      {
+        "title": "Mermaid diagram comments",
+        "url": "design ops",
+        "source_type": "release",
+        "selection_rationale": "https://linear.app/changelog/2026-08-13-team-initiatives"
+      },
+      {
+        "title": "GPT-5.6 Luna in coding sessions",
+        "url": "model choice",
+        "source_type": "release",
+        "selection_rationale": "https://linear.app/changelog/2026-08-13-team-initiatives"
+      }
+    ],
+    "selection_rationale": "Rotated toward lifecycle design, operational security, portable execution, and identity-aware collaboration; all selected URLs were absent from prior coverage memory."
+  },
+  "sources": {
+    "architecture": {
+      "first_seen": "2026-08-16",
+      "last_seen": "2026-08-16",
+      "title": "AI memory and runtime guidance"
+    },
+    "platform": {
+      "first_seen": "2026-08-16",
+      "last_seen": "2026-08-16",
+      "title": "Cloudflare OS"
+    },
+    "observability": {
+      "first_seen": "2026-08-16",
+      "last_seen": "2026-08-16",
+      "title": "OpenTelemetry traces in local development"
+    },
+    "workflow": {
+      "first_seen": "2026-08-16",
+      "last_seen": "2026-08-16",
+      "title": "Software factory issue triage"
+    },
+    "strategy": {
+      "first_seen": "2026-08-16",
+      "last_seen": "2026-08-16",
+      "title": "ADLC as an operating thesis"
+    },
+    "control plane": {
+      "first_seen": "2026-08-16",
+      "last_seen": "2026-08-16",
+      "title": "Zero Trust Assessment for AI"
+    },
+    "air-gapped": {
+      "first_seen": "2026-08-16",
+      "last_seen": "2026-08-16",
+      "title": "GHES 3.22 disconnected Copilot CLI"
+    },
+    "repository policy": {
+      "first_seen": "2026-08-16",
+      "last_seen": "2026-08-16",
+      "title": "Individual bypasses and required reviewers"
+    },
+    "method": {
+      "first_seen": "2026-08-16",
+      "last_seen": "2026-08-16",
+      "title": "Threat model beyond prompts"
+    },
+    "portable tooling": {
+      "first_seen": "2026-08-16",
+      "last_seen": "2026-08-16",
+      "title": "Agent Plugins 1.0"
+    },
+    "execution": {
+      "first_seen": "2026-08-16",
+      "last_seen": "2026-08-16",
+      "title": "Headless plan + autopilot"
+    },
+    "recovery": {
+      "first_seen": "2026-08-16",
+      "last_seen": "2026-08-16",
+      "title": "Non-destructive rewind"
+    },
+    "continuity": {
+      "first_seen": "2026-08-16",
+      "last_seen": "2026-08-16",
+      "title": "Copilot memory in JetBrains"
+    },
+    "local inference": {
+      "first_seen": "2026-08-16",
+      "last_seen": "2026-08-16",
+      "title": "Ollama BYOK in JetBrains"
+    },
+    "identity": {
+      "first_seen": "2026-08-16",
+      "last_seen": "2026-08-16",
+      "title": "Enterprise-managed MCP authorization"
+    },
+    "collaboration": {
+      "first_seen": "2026-08-16",
+      "last_seen": "2026-08-16",
+      "title": "Agent widgets on project milestones"
+    },
+    "delivery": {
+      "first_seen": "2026-08-16",
+      "last_seen": "2026-08-16",
+      "title": "Branch-status visibility"
+    },
+    "design ops": {
+      "first_seen": "2026-08-16",
+      "last_seen": "2026-08-16",
+      "title": "Mermaid diagram comments"
+    },
+    "model choice": {
+      "first_seen": "2026-08-16",
+      "last_seen": "2026-08-16",
+      "title": "GPT-5.6 Luna in coding sessions"
+    }
+  }
 }
