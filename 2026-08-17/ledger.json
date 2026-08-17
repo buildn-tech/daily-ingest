@@ -1,6 +1,6 @@
 {
   "date": "2026-08-17",
-  "generated_at": "2026-08-17T08:03:45.330854+00:00",
+  "generated_at": "2026-08-17T08:05:36.356593+00:00",
   "editorial_thesis": "Today’s strongest fresh signal is practical boundary-setting: secure MCP paths, give agents organizational context, govern specialized cyber models, and keep personal knowledge work source-bounded.",
   "topic_groups": [
     {
@@ -65,7 +65,7 @@
         },
         {
           "title": "Teamwork Graph as context substrate",
-          "url": "https://www.atlassian.com/software/teamwork-graph",
+          "url": "https://developer.atlassian.com/platform/teamwork-graph/what-is-teamwork-graph/",
           "source_type": "docs",
           "published_or_updated": "2026-08",
           "why_selected": "The practical lesson is to model relationships explicitly instead of stuffing more text into prompts.",

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-17T08:04:10.618487+00:00",
+  "updated_at": "2026-08-17T08:05:36.585050+00:00",
   "sources": {
     "https://blog.cloudflare.com/mcp-security-updates": {
       "first_seen": "2026-08-17",
@@ -31,7 +31,7 @@
       "last_seen": "2026-08-17",
       "title": "Atlassian Code Context"
     },
-    "https://www.atlassian.com/software/teamwork-graph": {
+    "https://developer.atlassian.com/platform/teamwork-graph/what-is-teamwork-graph": {
       "first_seen": "2026-08-17",
       "last_seen": "2026-08-17",
       "title": "Teamwork Graph as context substrate"

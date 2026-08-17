@@ -4413,7 +4413,7 @@
       "date": "2026-08-17",
       "lane": "code-context-and-team-graphs",
       "title": "Teamwork Graph as context substrate",
-      "url": "https://www.atlassian.com/software/teamwork-graph",
+      "url": "https://developer.atlassian.com/platform/teamwork-graph/what-is-teamwork-graph/",
       "source_type": "docs",
       "selection_rationale": "The practical lesson is to model relationships explicitly instead of stuffing more text into prompts."
     },
@@ -4569,7 +4569,7 @@
       },
       {
         "title": "Teamwork Graph as context substrate",
-        "url": "https://www.atlassian.com/software/teamwork-graph",
+        "url": "https://developer.atlassian.com/platform/teamwork-graph/what-is-teamwork-graph/",
         "source_type": "docs",
         "selection_rationale": "The practical lesson is to model relationships explicitly instead of stuffing more text into prompts."
       },
