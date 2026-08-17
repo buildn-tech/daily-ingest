@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-08-16T08:06:50.735368+00:00",
+  "updated_at": "2026-08-17T08:04:10.618487+00:00",
   "days": [
+    {
+      "date": "2026-08-17",
+      "path": "2026-08-17",
+      "reports": [
+        {
+          "lane": "mcp-security-controls",
+          "title": "MCP Security Controls",
+          "url": "2026-08-17/mcp-security-controls.html"
+        },
+        {
+          "lane": "code-context-and-team-graphs",
+          "title": "Code Context + Team Graphs",
+          "url": "2026-08-17/code-context-and-team-graphs.html"
+        },
+        {
+          "lane": "cyber-defense-model-access",
+          "title": "Cyber Defense Model Access",
+          "url": "2026-08-17/cyber-defense-model-access.html"
+        },
+        {
+          "lane": "personal-knowledge-workspaces",
+          "title": "Personal Knowledge Workspaces",
+          "url": "2026-08-17/personal-knowledge-workspaces.html"
+        }
+      ]
+    },
     {
       "date": "2026-08-16",
       "path": "2026-08-16",

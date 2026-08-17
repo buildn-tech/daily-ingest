@@ -1,6 +1,101 @@
 {
-  "updated_at": "2026-08-16T08:06:50.735368+00:00",
+  "updated_at": "2026-08-17T08:04:10.618487+00:00",
   "sources": {
+    "https://blog.cloudflare.com/mcp-security-updates": {
+      "first_seen": "2026-08-17",
+      "last_seen": "2026-08-17",
+      "title": "Cloudflare detects MCP traffic"
+    },
+    "https://developers.cloudflare.com/changelog/post/2026-08-12-mcp-detection-and-dashboard": {
+      "first_seen": "2026-08-17",
+      "last_seen": "2026-08-17",
+      "title": "MCP protocol detection dashboard"
+    },
+    "https://developers.cloudflare.com/cloudflare-one/tutorials/detect-mcp-traffic-gateway-logs": {
+      "first_seen": "2026-08-17",
+      "last_seen": "2026-08-17",
+      "title": "Detect MCP traffic in Gateway logs"
+    },
+    "https://blog.cloudflare.com/": {
+      "first_seen": "2026-08-17",
+      "last_seen": "2026-08-17",
+      "title": "Cloudflare Access for Workers"
+    },
+    "https://blog.cloudflare.com/certificate-transparency-monitoring-ga": {
+      "first_seen": "2026-08-17",
+      "last_seen": "2026-08-14",
+      "title": "Certificate Transparency Monitoring is now generally available"
+    },
+    "https://www.atlassian.com/blog/development/code-context": {
+      "first_seen": "2026-08-17",
+      "last_seen": "2026-08-17",
+      "title": "Atlassian Code Context"
+    },
+    "https://www.atlassian.com/software/teamwork-graph": {
+      "first_seen": "2026-08-17",
+      "last_seen": "2026-08-17",
+      "title": "Teamwork Graph as context substrate"
+    },
+    "https://marketchameleon.com/articles/b/2026/8/13/atlassian-code-context-improves-coding-agent-accuracy": {
+      "first_seen": "2026-08-17",
+      "last_seen": "2026-08-17",
+      "title": "Codebase-level context improves agent accuracy"
+    },
+    "https://developers.googleblog.com/agent-plugins-package-your-skills-tools-and-more": {
+      "first_seen": "2026-08-17",
+      "last_seen": "2026-08-11",
+      "title": "Agent Plugins package your Skills, Tools, and more"
+    },
+    "https://linear.app/changelog/2026-08-13-team-initiatives": {
+      "first_seen": "2026-08-17",
+      "last_seen": "2026-08-17",
+      "title": "Linear agent context and release updates"
+    },
+    "https://aws.amazon.com/about-aws/whats-new/2026/08/openai-daybreak-red-and-blue-on-amazon-bedrock": {
+      "first_seen": "2026-08-17",
+      "last_seen": "2026-08-17",
+      "title": "OpenAI Daybreak on Amazon Bedrock"
+    },
+    "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-openai-gpt-56-cyber.html": {
+      "first_seen": "2026-08-17",
+      "last_seen": "2026-08-17",
+      "title": "Daybreak Red: GPT-5.6 Cyber"
+    },
+    "https://openai.com/index/daybreak-models-are-now-available-on-aws": {
+      "first_seen": "2026-08-17",
+      "last_seen": "2026-08-17",
+      "title": "OpenAI\u2019s AWS Daybreak overview"
+    },
+    "https://aws.amazon.com/blogs/machine-learning/accelerate-cyber-defense-with-openai-and-aws-daybreak-red-daybreak-blue-now-available-to-eligible-customers-on-amazon-bedrock": {
+      "first_seen": "2026-08-17",
+      "last_seen": "2026-08-17",
+      "title": "AWS Daybreak security architecture"
+    },
+    "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash": {
+      "first_seen": "2026-08-17",
+      "last_seen": "2026-08-17",
+      "title": "Gemini 3.7 Flash for agentic work"
+    },
+    "https://blog.google/innovation-and-ai/products/gemini-app/notebooks-gemini-notebooklm": {
+      "first_seen": "2026-08-17",
+      "last_seen": "2026-08-17",
+      "title": "Notebooks in Gemini"
+    },
+    "https://notebooklm.google/": {
+      "first_seen": "2026-08-17",
+      "last_seen": "2026-08-17",
+      "title": "NotebookLM research workflow"
+    },
+    "https://github.com/vrtmrz/obsidian-livesync/releases": {
+      "first_seen": "2026-08-17",
+      "last_seen": "2026-08-15",
+      "title": "Obsidian LiveSync releases"
+    },
+    "https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements": {
+      "first_seen": "2026-08-17",
+      "last_seen": "2026-08-17",
+      "title": "Google\u2019s AI product announcement index"
+    },
     "architecture": {
       "first_seen": "2026-08-16",
       "last_seen": "2026-08-16",
@@ -146,11 +241,6 @@
       "last_seen": "2026-08-15",
       "title": "NIST software and AI-agent adoption concept paper"
     },
-    "https://github.com/vrtmrz/obsidian-livesync/releases": {
-      "first_seen": "2026-08-15",
-      "last_seen": "2026-08-15",
-      "title": "Obsidian LiveSync releases"
-    },
     "https://github.com/nocodb/nocodb/releases": {
       "first_seen": "2026-08-15",
       "last_seen": "2026-08-15",
@@ -190,11 +280,6 @@
       "first_seen": "2026-08-14",
       "last_seen": "2026-08-14",
       "title": "Agent Access Model"
-    },
-    "https://blog.cloudflare.com/certificate-transparency-monitoring-ga": {
-      "first_seen": "2026-08-14",
-      "last_seen": "2026-08-14",
-      "title": "Certificate Transparency Monitoring is now generally available"
     },
     "https://www.figma.com/release-notes": {
       "first_seen": "2026-08-14",
@@ -255,11 +340,6 @@
       "first_seen": "2026-08-12",
       "last_seen": "2026-08-12",
       "title": "Open source reaches the physical stack"
-    },
-    "https://developers.googleblog.com/agent-plugins-package-your-skills-tools-and-more": {
-      "first_seen": "2026-08-11",
-      "last_seen": "2026-08-11",
-      "title": "Agent Plugins package your Skills, Tools, and more"
     },
     "https://vercel.com/changelog/skill-packs-are-now-available": {
       "first_seen": "2026-08-11",

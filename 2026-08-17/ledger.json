@@ -1,0 +1,195 @@
+{
+  "date": "2026-08-17",
+  "generated_at": "2026-08-17T08:03:45.330854+00:00",
+  "editorial_thesis": "Today’s strongest fresh signal is practical boundary-setting: secure MCP paths, give agents organizational context, govern specialized cyber models, and keep personal knowledge work source-bounded.",
+  "topic_groups": [
+    {
+      "slug": "mcp-security-controls",
+      "title": "MCP Security Controls",
+      "selection_rationale": "The MCP security story moved from inventory to enforceable network policy: detect protocol traffic, expose shadow connections, then narrow access to approved portals. The useful move is to establish visibility before blocking, because local stdio and off-network paths remain outside the same lens.",
+      "sources": [
+        {
+          "title": "Cloudflare detects MCP traffic",
+          "url": "https://blog.cloudflare.com/mcp-security-updates/",
+          "source_type": "blog",
+          "published_or_updated": "2026-08-14",
+          "why_selected": "Teams can discover shadow MCP without maintaining a brittle domain list, then turn detection into an allow/block policy.",
+          "usefulness": "Add an MCP inventory checkpoint to client security reviews and map approved servers to portal-only access."
+        },
+        {
+          "title": "MCP protocol detection dashboard",
+          "url": "https://developers.cloudflare.com/changelog/post/2026-08-12-mcp-detection-and-dashboard/",
+          "source_type": "release",
+          "published_or_updated": "2026-08-12",
+          "why_selected": "A dashboard turns protocol adoption into an observable control-plane surface rather than a developer-by-developer guess.",
+          "usefulness": "Use the dashboard as the first artifact in an agent connector onboarding workflow."
+        },
+        {
+          "title": "Detect MCP traffic in Gateway logs",
+          "url": "https://developers.cloudflare.com/cloudflare-one/tutorials/detect-mcp-traffic-gateway-logs/",
+          "source_type": "docs",
+          "published_or_updated": "2026-08-14",
+          "why_selected": "It provides a concrete bridge from detection to policy, including shadow traffic and portal-mediated traffic.",
+          "usefulness": "Turn the tutorial into a client runbook with monitor-only, warn, and block phases."
+        },
+        {
+          "title": "Cloudflare Access for Workers",
+          "url": "https://blog.cloudflare.com/",
+          "source_type": "release",
+          "published_or_updated": "2026-08-14",
+          "why_selected": "Private MCP and agent endpoints need an identity boundary close to the workload, not only a public URL and shared secret.",
+          "usefulness": "Evaluate it for a client portal or Buildn-side worker that exposes narrow tools."
+        },
+        {
+          "title": "Certificate Transparency Monitoring GA",
+          "url": "https://blog.cloudflare.com/certificate-transparency-monitoring-ga",
+          "source_type": "release",
+          "published_or_updated": "2026-08-13",
+          "why_selected": "New agent endpoints and temporary environments can create accidental public exposure; certificate signals help catch it early.",
+          "usefulness": "Pair CT alerts with a lightweight agent-endpoint inventory for client infrastructure."
+        }
+      ]
+    },
+    {
+      "slug": "code-context-and-team-graphs",
+      "title": "Code Context + Team Graphs",
+      "selection_rationale": "The next coding-agent advantage is organizational context, not another isolated model. Atlassian’s Code Context connects multi-repo code understanding to the Teamwork Graph, making architecture, ownership, and work history available to the same reasoning loop.",
+      "sources": [
+        {
+          "title": "Atlassian Code Context",
+          "url": "https://www.atlassian.com/blog/development/code-context",
+          "source_type": "product",
+          "published_or_updated": "2026-08-13",
+          "why_selected": "Agents fail when they see a repository but not ownership, linked work, conventions, or system boundaries.",
+          "usefulness": "Use the concept as a reference architecture for Buildn project context: repos, issues, decisions, and evidence in one graph."
+        },
+        {
+          "title": "Teamwork Graph as context substrate",
+          "url": "https://www.atlassian.com/software/teamwork-graph",
+          "source_type": "docs",
+          "published_or_updated": "2026-08",
+          "why_selected": "The practical lesson is to model relationships explicitly instead of stuffing more text into prompts.",
+          "usefulness": "Translate project knowledge into typed links: owns, depends on, changed by, verified by."
+        },
+        {
+          "title": "Codebase-level context improves agent accuracy",
+          "url": "https://marketchameleon.com/articles/b/2026/8/13/atlassian-code-context-improves-coding-agent-accuracy",
+          "source_type": "analysis",
+          "published_or_updated": "2026-08-13",
+          "why_selected": "Even if the exact lift is workload-specific, it makes context quality an eval variable worth measuring.",
+          "usefulness": "Benchmark the same task with repository-only versus repository-plus-ownership context."
+        },
+        {
+          "title": "GitHub Copilot Agent Plugins 1.0",
+          "url": "https://developers.googleblog.com/agent-plugins-package-your-skills-tools-and-more",
+          "source_type": "spec",
+          "published_or_updated": "2026-08-11",
+          "why_selected": "Portable plugins make context retrieval and project conventions reusable across agent surfaces.",
+          "usefulness": "Package a Buildn evidence/context lookup as a narrow plugin contract rather than a platform-specific prompt."
+        },
+        {
+          "title": "Linear agent context and release updates",
+          "url": "https://linear.app/changelog/2026-08-13-team-initiatives",
+          "source_type": "release",
+          "published_or_updated": "2026-08-13",
+          "why_selected": "Context becomes useful when it is attached to current delivery state and accountable access.",
+          "usefulness": "Keep agent output beside milestone and release state rather than in a detached chat archive."
+        }
+      ]
+    },
+    {
+      "slug": "cyber-defense-model-access",
+      "title": "Cyber Defense Model Access",
+      "selection_rationale": "Frontier cybersecurity models are moving into governed cloud environments. The strategic signal is not “use a stronger model”; it is specialized capability plus enrollment, monitoring, regionality, and explicit authorization for high-risk tasks.",
+      "sources": [
+        {
+          "title": "OpenAI Daybreak on Amazon Bedrock",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/openai-daybreak-red-and-blue-on-amazon-bedrock/",
+          "source_type": "release",
+          "published_or_updated": "2026-08-13",
+          "why_selected": "Security teams can keep inference inside an existing cloud control plane while accessing specialized vulnerability and response capabilities.",
+          "usefulness": "Offer a bounded client pilot for code vulnerability discovery with strict scope, logging, and human approval."
+        },
+        {
+          "title": "Daybreak Red: GPT-5.6 Cyber",
+          "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-openai-gpt-56-cyber.html",
+          "source_type": "model card",
+          "published_or_updated": "2026-08",
+          "why_selected": "Model cards make deployment constraints, endpoint location, and programmatic access explicit enough to evaluate responsibly.",
+          "usefulness": "Use model-card fields as the minimum record for any production model trial."
+        },
+        {
+          "title": "OpenAI’s AWS Daybreak overview",
+          "url": "https://openai.com/index/daybreak-models-are-now-available-on-aws/",
+          "source_type": "primary source",
+          "published_or_updated": "2026-08-13",
+          "why_selected": "The two-tier posture is a useful pattern for matching capability to risk rather than giving every operator the strongest tool.",
+          "usefulness": "Build a client-facing capability ladder: triage, detection engineering, validation, then restricted research."
+        },
+        {
+          "title": "AWS Daybreak security architecture",
+          "url": "https://aws.amazon.com/blogs/machine-learning/accelerate-cyber-defense-with-openai-and-aws-daybreak-red-daybreak-blue-now-available-to-eligible-customers-on-amazon-bedrock/",
+          "source_type": "architecture",
+          "published_or_updated": "2026-08-13",
+          "why_selected": "Procurement questions become architecture questions: who can access prompts, where inference runs, and what is retained.",
+          "usefulness": "Turn these claims into a verification checklist for client security and legal review."
+        },
+        {
+          "title": "Gemini 3.7 Flash",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
+          "source_type": "model release",
+          "published_or_updated": "2026-08-13",
+          "why_selected": "A practical cyber workflow needs a cheaper baseline for triage before escalating to a specialized model.",
+          "usefulness": "Compare it against a cyber-specialized model on redacted findings, not only generic benchmarks."
+        }
+      ]
+    },
+    {
+      "slug": "personal-knowledge-workspaces",
+      "title": "Personal Knowledge Workspaces",
+      "selection_rationale": "Knowledge tools are converging on project-scoped context: notebooks, chats, and research sources become a durable workspace rather than a transient conversation. The leverage comes from explicit boundaries and source traceability, not from invisible memory.",
+      "sources": [
+        {
+          "title": "Notebooks in Gemini",
+          "url": "https://blog.google/innovation-and-ai/products/gemini-app/notebooks-gemini-notebooklm/",
+          "source_type": "product",
+          "published_or_updated": "2026-08",
+          "why_selected": "A bounded notebook is a more inspectable memory unit than one global assistant history.",
+          "usefulness": "Use project-scoped notebooks for client discovery, with source links and a clear archive boundary."
+        },
+        {
+          "title": "NotebookLM research workflow",
+          "url": "https://notebooklm.google/",
+          "source_type": "product",
+          "published_or_updated": "2026-08",
+          "why_selected": "The useful primitive is source-bounded synthesis: the workspace knows what evidence it is allowed to use.",
+          "usefulness": "Mirror this in Buildn reports by keeping source ledger, findings, and recommendations together."
+        },
+        {
+          "title": "Gemini 3.7 Flash for agentic work",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
+          "source_type": "model release",
+          "published_or_updated": "2026-08-13",
+          "why_selected": "Fast models are useful for indexing, tagging, and first-pass extraction before slower editorial review.",
+          "usefulness": "Use a fast model for metadata normalization, never as the sole source of truth."
+        },
+        {
+          "title": "Obsidian LiveSync releases",
+          "url": "https://github.com/vrtmrz/obsidian-livesync/releases",
+          "source_type": "open source",
+          "published_or_updated": "2026-08",
+          "why_selected": "Local-first storage keeps the archive portable and makes the sync boundary explicit.",
+          "usefulness": "Evaluate it for a personal research vault where offline access and ownership matter."
+        },
+        {
+          "title": "Google’s AI product announcement index",
+          "url": "https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements/",
+          "source_type": "primary source",
+          "published_or_updated": "2026-08",
+          "why_selected": "A source index is useful as a discovery surface, but each item still needs primary-page verification and novelty checks.",
+          "usefulness": "Use it as one input to a coverage ledger, not as the dossier itself."
+        }
+      ]
+    }
+  ]
+}
