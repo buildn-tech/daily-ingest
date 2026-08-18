@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-08-17T08:05:36.585050+00:00",
+  "updated_at": "2026-08-18T08:04:57.067309+00:00",
   "days": [
+    {
+      "date": "2026-08-18",
+      "path": "2026-08-18",
+      "reports": [
+        {
+          "lane": "robotics-simulation",
+          "title": "Robotics Simulation",
+          "url": "2026-08-18/robotics-simulation.html"
+        },
+        {
+          "lane": "creative-agent-production",
+          "title": "Creative Agent Production",
+          "url": "2026-08-18/creative-agent-production.html"
+        },
+        {
+          "lane": "edge-ai",
+          "title": "Edge AI",
+          "url": "2026-08-18/edge-ai.html"
+        },
+        {
+          "lane": "self-hosted-automation",
+          "title": "Self-hosted Automation",
+          "url": "2026-08-18/self-hosted-automation.html"
+        }
+      ]
+    },
     {
       "date": "2026-08-17",
       "path": "2026-08-17",

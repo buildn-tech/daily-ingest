@@ -538,6 +538,26 @@
       "title": "Personal Knowledge Workspaces",
       "times_covered": 1,
       "last_covered": "2026-08-17"
+    },
+    "robotics-simulation": {
+      "title": "Robotics Simulation",
+      "times_covered": 1,
+      "last_covered": "2026-08-18"
+    },
+    "creative-agent-production": {
+      "title": "Creative Agent Production",
+      "times_covered": 1,
+      "last_covered": "2026-08-18"
+    },
+    "edge-ai": {
+      "title": "Edge AI",
+      "times_covered": 1,
+      "last_covered": "2026-08-18"
+    },
+    "self-hosted-automation": {
+      "title": "Self-hosted Automation",
+      "times_covered": 1,
+      "last_covered": "2026-08-18"
     }
   },
   "item_history": [
@@ -3797,9 +3817,87 @@
         }
       ],
       "selection_rationale": "Rotated toward lifecycle design, operational security, portable execution, and identity-aware collaboration; all selected URLs were absent from prior coverage memory."
+    },
+    {
+      "date": "2026-08-18",
+      "selected_lanes": [
+        "robotics-simulation",
+        "creative-agent-production",
+        "edge-ai",
+        "self-hosted-automation"
+      ],
+      "items": [
+        {
+          "title": "Newton v1.5.0 releases",
+          "url": "https://github.com/newton-physics/newton/releases",
+          "source_type": "release",
+          "selection_rationale": "Expands scalable batched simulation and robot-control workflows."
+        },
+        {
+          "title": "Isaac Lab releases",
+          "url": "https://github.com/isaac-sim/IsaacLab/releases",
+          "source_type": "release",
+          "selection_rationale": "Expands Newton and kit-less workflows."
+        },
+        {
+          "title": "Genesis release notes",
+          "url": "https://github.com/Genesis-Embodied-AI/genesis-world/blob/main/RELEASE.md",
+          "source_type": "release",
+          "selection_rationale": "Improves differentiable rigid-body simulation and numerical robustness."
+        },
+        {
+          "title": "Firefly AI Assistant",
+          "url": "https://blog.adobe.com/en/disciplines/video",
+          "source_type": "product",
+          "selection_rationale": "Brings creative workflows into a conversational agent surface."
+        },
+        {
+          "title": "Adobe Blog updates",
+          "url": "https://blog.adobe.com/",
+          "source_type": "blog",
+          "selection_rationale": "Highlights Precision Flow and AI Markup for controlled edits."
+        },
+        {
+          "title": "Credentio C2PA library",
+          "url": "https://developers.googleblog.com/introducing-credentio-open-source-c-library-for-c2pa-content-credentials-from-google/",
+          "source_type": "release",
+          "selection_rationale": "Makes provenance infrastructure more portable."
+        },
+        {
+          "title": "LiteRT + Gemma on Raspberry Pi",
+          "url": "https://developers.googleblog.com/mastering-edge-ai-on-raspberry-pi-with-litert-and-gemma/",
+          "source_type": "docs",
+          "selection_rationale": "Provides a practical path to local inference on inexpensive hardware."
+        },
+        {
+          "title": "Model routing with Google Cloud API Gateway",
+          "url": "https://developers.googleblog.com/a-unified-api-for-ai-model-routing/",
+          "source_type": "blog",
+          "selection_rationale": "Frames escalation as a routing policy."
+        },
+        {
+          "title": "n8n repository",
+          "url": "https://github.com/n8n-io/n8n",
+          "source_type": "repo",
+          "selection_rationale": "Offers self-hostable workflow automation and agent building blocks."
+        },
+        {
+          "title": "Self-hosting sweet spot",
+          "url": "https://codecapsules.io/blog/self-hosting-sweet-spot-services-worth-hosting-2026/",
+          "source_type": "blog",
+          "selection_rationale": "Provides a boundary-oriented decision framework."
+        },
+        {
+          "title": "Dify repository",
+          "url": "https://github.com/langgenius/dify",
+          "source_type": "repo",
+          "selection_rationale": "Supports cloud, VPC, and self-hosted agentic workflows."
+        }
+      ],
+      "selection_rationale": "Today’s strongest practical signal sits at the edge of execution: GPU simulation makes physical AI more testable, creative agents are moving into production surfaces, local inference is becoming a real deployment option, and self-hosting is best treated as a deliberate boundary."
     }
   ],
-  "updated_at": "2026-08-17T08:00:00+00:00",
+  "updated_at": "2026-08-18T08:00:19Z",
   "last_run": "2026-08-16",
   "last_editorial_thesis": "The useful frontier is operational: durable agent lifecycles, explicit security controls, portable execution, and identity-aware collaboration outperform another generic model roundup.",
   "coverage_history": [

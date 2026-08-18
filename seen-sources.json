@@ -1,6 +1,61 @@
 {
-  "updated_at": "2026-08-17T08:05:36.585050+00:00",
+  "updated_at": "2026-08-18T08:04:57.067309+00:00",
   "sources": {
+    "https://github.com/newton-physics/newton/releases": {
+      "first_seen": "2026-08-18",
+      "last_seen": "2026-08-18",
+      "title": "Newton v1.5.0 releases"
+    },
+    "https://github.com/isaac-sim/IsaacLab/releases": {
+      "first_seen": "2026-08-18",
+      "last_seen": "2026-08-18",
+      "title": "Isaac Lab releases"
+    },
+    "https://github.com/Genesis-Embodied-AI/genesis-world/blob/main/RELEASE.md": {
+      "first_seen": "2026-08-18",
+      "last_seen": "2026-08-18",
+      "title": "Genesis release notes"
+    },
+    "https://blog.adobe.com/en/disciplines/video": {
+      "first_seen": "2026-08-18",
+      "last_seen": "2026-08-18",
+      "title": "Firefly AI Assistant"
+    },
+    "https://blog.adobe.com/": {
+      "first_seen": "2026-08-18",
+      "last_seen": "2026-08-18",
+      "title": "Adobe Blog updates"
+    },
+    "https://developers.googleblog.com/introducing-credentio-open-source-c-library-for-c2pa-content-credentials-from-google": {
+      "first_seen": "2026-08-18",
+      "last_seen": "2026-08-18",
+      "title": "Credentio C2PA library"
+    },
+    "https://developers.googleblog.com/mastering-edge-ai-on-raspberry-pi-with-litert-and-gemma": {
+      "first_seen": "2026-08-18",
+      "last_seen": "2026-08-13",
+      "title": "Local edge AI on Raspberry Pi 5"
+    },
+    "https://developers.googleblog.com/a-unified-api-for-ai-model-routing": {
+      "first_seen": "2026-08-18",
+      "last_seen": "2026-08-18",
+      "title": "Model routing with Google Cloud API Gateway"
+    },
+    "https://github.com/n8n-io/n8n": {
+      "first_seen": "2026-08-18",
+      "last_seen": "2026-08-18",
+      "title": "n8n repository"
+    },
+    "https://codecapsules.io/blog/self-hosting-sweet-spot-services-worth-hosting-2026": {
+      "first_seen": "2026-08-18",
+      "last_seen": "2026-08-18",
+      "title": "Self-hosting sweet spot"
+    },
+    "https://github.com/langgenius/dify": {
+      "first_seen": "2026-08-18",
+      "last_seen": "2026-08-18",
+      "title": "Dify repository"
+    },
     "https://blog.cloudflare.com/mcp-security-updates": {
       "first_seen": "2026-08-17",
       "last_seen": "2026-08-17",
@@ -300,11 +355,6 @@
       "first_seen": "2026-08-13",
       "last_seen": "2026-08-13",
       "title": "Vercel Sandbox egress firewall on Hobby"
-    },
-    "https://developers.googleblog.com/mastering-edge-ai-on-raspberry-pi-with-litert-and-gemma": {
-      "first_seen": "2026-08-13",
-      "last_seen": "2026-08-13",
-      "title": "Local edge AI on Raspberry Pi 5"
     },
     "https://blog.cloudflare.com/mcp-v2": {
       "first_seen": "2026-08-13",
