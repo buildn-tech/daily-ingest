@@ -1,6 +1,27 @@
 {
-  "updated_at": "2026-08-18T08:04:57.067309+00:00",
+  "updated_at": "2026-08-19T08:07:41.011873+00:00",
   "days": [
+    {
+      "date": "2026-08-19",
+      "path": "2026-08-19",
+      "reports": [
+        {
+          "lane": "agent-skills",
+          "title": "Agent Skills + Reliable Automation",
+          "url": "2026-08-19/agent-skills.html"
+        },
+        {
+          "lane": "knowledge-graphs",
+          "title": "Knowledge Graphs + Agent-Ready Data",
+          "url": "2026-08-19/knowledge-graphs.html"
+        },
+        {
+          "lane": "mcp-infrastructure",
+          "title": "MCP Infrastructure + Control Planes",
+          "url": "2026-08-19/mcp-infrastructure.html"
+        }
+      ]
+    },
     {
       "date": "2026-08-18",
       "path": "2026-08-18",

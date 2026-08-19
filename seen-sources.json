@@ -1,6 +1,46 @@
 {
-  "updated_at": "2026-08-18T08:04:57.067309+00:00",
+  "updated_at": "2026-08-19T08:07:41.011873+00:00",
   "sources": {
+    "https://cloud.google.com/blog/ja/topics/developers-practitioners/behind-the-scenes-how-we-build-test-and-scale-google-agent-skills": {
+      "first_seen": "2026-08-19",
+      "last_seen": "2026-08-19",
+      "title": "Google Agent Skills operations"
+    },
+    "https://github.com/google/skills": {
+      "first_seen": "2026-08-19",
+      "last_seen": "2026-08-19",
+      "title": "Google skills repository"
+    },
+    "https://devops.com/system-initiative-adds-ai-agents-to-infrastructure-automation-platform": {
+      "first_seen": "2026-08-19",
+      "last_seen": "2026-08-19",
+      "title": "System Initiative infrastructure agents"
+    },
+    "https://blog.cloudflare.com/workers-ai-gateway-unification": {
+      "first_seen": "2026-08-19",
+      "last_seen": "2026-08-19",
+      "title": "Cloudflare AI control plane"
+    },
+    "https://cloud.google.com/blog/ja/products/databases/unify-public-and-private-data-with-data-commons-on-spanner-graph": {
+      "first_seen": "2026-08-19",
+      "last_seen": "2026-08-19",
+      "title": "Spanner Graph + Data Commons"
+    },
+    "https://cloud.google.com/blog/ja/products/sap-google-cloud/cortex-framework-v7-power-ai-agents-with-sap-data-faster": {
+      "first_seen": "2026-08-19",
+      "last_seen": "2026-08-19",
+      "title": "Cortex Framework v7"
+    },
+    "https://www.apqc.org/resource-library/resource-listing/2026-knowledge-management-priorities-and-trends-survey-report": {
+      "first_seen": "2026-08-19",
+      "last_seen": "2026-08-19",
+      "title": "2026 KM Priorities and Trends Survey"
+    },
+    "https://blog.cloudflare.com/mcp-v2": {
+      "first_seen": "2026-08-19",
+      "last_seen": "2026-08-13",
+      "title": "MCP 2026-07-28 stateless core"
+    },
     "https://github.com/newton-physics/newton/releases": {
       "first_seen": "2026-08-18",
       "last_seen": "2026-08-18",
@@ -355,11 +395,6 @@
       "first_seen": "2026-08-13",
       "last_seen": "2026-08-13",
       "title": "Vercel Sandbox egress firewall on Hobby"
-    },
-    "https://blog.cloudflare.com/mcp-v2": {
-      "first_seen": "2026-08-13",
-      "last_seen": "2026-08-13",
-      "title": "MCP 2026-07-28 stateless core"
     },
     "https://github.blog/changelog/2026-08-11-copilot-memory-and-ollama-in-github-copilot-for-jetbrains": {
       "first_seen": "2026-08-12",

@@ -1,0 +1,38 @@
+{
+  "date": "2026-08-19",
+  "generated_at": "2026-08-19T08:00:43Z",
+  "editorial_thesis": "The durable advantage is moving up one layer—from model novelty to maintained execution infrastructure: skills, semantic data, and governed protocol control planes.",
+  "topic_groups": [
+    {
+      "slug": "agent-skills",
+      "title": "Agent Skills + Reliable Automation",
+      "selection_rationale": "Fresh Google Cloud engineering detail turns reusable agent instructions into a testable product discipline; System Initiative and Cloudflare add practical execution controls.",
+      "sources": [
+        {"title":"Google Agent Skills operations","url":"https://cloud.google.com/blog/ja/topics/developers-practitioners/behind-the-scenes-how-we-build-test-and-scale-google-agent-skills","source_type":"blog","published_or_updated":"2026-08-19","why_selected":"Describes standardized skills, CI checks, ownership, and recurring evaluations.","usefulness":"Provides a concrete template for Buildn skill packaging and regression tests."},
+        {"title":"Google skills repository","url":"https://github.com/google/skills","source_type":"repo","published_or_updated":"2026-08","why_selected":"Primary implementation surface for the skills approach.","usefulness":"Can be compared directly with existing Buildn skills."},
+        {"title":"System Initiative infrastructure agents","url":"https://devops.com/system-initiative-adds-ai-agents-to-infrastructure-automation-platform/","source_type":"news","published_or_updated":"2026-08","why_selected":"Shows a plan-review-approve-execute model against a digital twin.","usefulness":"Useful pattern for bounded automation and client delivery workflows."},
+        {"title":"Cloudflare unified AI control plane","url":"https://blog.cloudflare.com/workers-ai-gateway-unification/","source_type":"blog","published_or_updated":"2026-08","why_selected":"Connects model routing with cost, latency, and request observability.","usefulness":"Supports provider-neutral, attributable inference adapters."}
+      ]
+    },
+    {
+      "slug": "knowledge-graphs",
+      "title": "Knowledge Graphs + Agent-Ready Data",
+      "selection_rationale": "Knowledge management and data semantics are under-covered relative to agent tooling; today’s Google Cloud signals make graph-backed, permissioned context concrete.",
+      "sources": [
+        {"title":"Spanner Graph + Data Commons","url":"https://cloud.google.com/blog/ja/products/databases/unify-public-and-private-data-with-data-commons-on-spanner-graph","source_type":"blog","published_or_updated":"2026-08-19","why_selected":"Announces graph-backed integration of public and private data with GraphRAG patterns.","usefulness":"Informs connected artifact, evidence, and decision retrieval."},
+        {"title":"Cortex Framework v7","url":"https://cloud.google.com/blog/ja/products/sap-google-cloud/cortex-framework-v7-power-ai-agents-with-sap-data-faster","source_type":"release","published_or_updated":"2026-08-19","why_selected":"Shows semantic enterprise data products, incremental pipelines, and extensibility boundaries.","usefulness":"Provides a model for stable canonical schemas plus client extensions."},
+        {"title":"2026 KM Priorities and Trends Survey","url":"https://www.apqc.org/resource-library/resource-listing/2026-knowledge-management-priorities-and-trends-survey-report","source_type":"paper","published_or_updated":"2026-01-07","why_selected":"Supplies a current knowledge-management baseline around AI integration and maturity.","usefulness":"Suggests ownership, freshness, and reuse metrics for Buildn knowledge health."}
+      ]
+    },
+    {
+      "slug": "mcp-infrastructure",
+      "title": "MCP Infrastructure + Control Planes",
+      "selection_rationale": "The MCP protocol and model gateway layer are converging on ordinary web infrastructure, creating immediate portability and observability decisions.",
+      "sources": [
+        {"title":"The next generation of MCP","url":"https://blog.cloudflare.com/mcp-v2/","source_type":"docs","published_or_updated":"2026-07-28","why_selected":"Explains stateless MCP, request-scoped deployment, routing, and authorization changes.","usefulness":"Guides classification of tools by state and idempotency."},
+        {"title":"Cloudflare AI control plane","url":"https://blog.cloudflare.com/workers-ai-gateway-unification/","source_type":"blog","published_or_updated":"2026-08","why_selected":"Adds unified model access, telemetry, billing, and routing direction.","usefulness":"Supports mandatory cost and latency fields on agent calls."},
+        {"title":"System Initiative infrastructure agents","url":"https://devops.com/system-initiative-adds-ai-agents-to-infrastructure-automation-platform/","source_type":"news","published_or_updated":"2026-08","why_selected":"Demonstrates control boundaries around autonomous infrastructure changes.","usefulness":"Provides a plan/approval/publish/verify workflow pattern."}
+      ]
+    }
+  ]
+}
