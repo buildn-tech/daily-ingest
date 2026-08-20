@@ -1,6 +1,106 @@
 {
-  "updated_at": "2026-08-19T08:07:41.011873+00:00",
+  "updated_at": "2026-08-20T08:06:09.126664+00:00",
   "sources": {
+    "https://www.nist.gov/artificial-intelligence/ai-agent-standards-initiative": {
+      "first_seen": "2026-08-20",
+      "last_seen": "2026-08-20",
+      "title": "NIST AI Agent Standards Initiative"
+    },
+    "https://www.nccoe.nist.gov/projects/software-and-ai-agent-identity-and-authorization": {
+      "first_seen": "2026-08-20",
+      "last_seen": "2026-08-20",
+      "title": "NCCoE Software and AI Agent Identity and Authorization"
+    },
+    "https://genai.owasp.org/": {
+      "first_seen": "2026-08-20",
+      "last_seen": "2026-08-20",
+      "title": "OWASP GenAI Security Project"
+    },
+    "https://modelcontextprotocol.io/specification/2025-11-25": {
+      "first_seen": "2026-08-20",
+      "last_seen": "2026-08-20",
+      "title": "Model Context Protocol specification"
+    },
+    "https://cloudsecurityalliance.org/research/artificial-intelligence": {
+      "first_seen": "2026-08-20",
+      "last_seen": "2026-08-20",
+      "title": "CSA AI Safety Initiative"
+    },
+    "https://huggingface.co/blog/state-of-open-models-summer-2026": {
+      "first_seen": "2026-08-20",
+      "last_seen": "2026-08-20",
+      "title": "State of Open Models: Summer 2026"
+    },
+    "https://www.kimi.ai/blog/kimi-k3": {
+      "first_seen": "2026-08-20",
+      "last_seen": "2026-08-20",
+      "title": "Kimi K3 technical blog"
+    },
+    "https://docs.vllm.ai/en/latest": {
+      "first_seen": "2026-08-20",
+      "last_seen": "2026-08-20",
+      "title": "vLLM documentation"
+    },
+    "https://github.com/ggml-org/llama.cpp": {
+      "first_seen": "2026-08-20",
+      "last_seen": "2026-08-20",
+      "title": "llama.cpp repository"
+    },
+    "https://mlcommons.org/benchmarks/inference": {
+      "first_seen": "2026-08-20",
+      "last_seen": "2026-08-20",
+      "title": "MLCommons MLPerf Inference"
+    },
+    "https://openai.com/index/harness-engineering": {
+      "first_seen": "2026-08-20",
+      "last_seen": "2026-08-20",
+      "title": "Harness engineering: leveraging Codex in an agent-first world"
+    },
+    "https://docs.github.com/en/copilot/using-github-copilot/coding-agent": {
+      "first_seen": "2026-08-20",
+      "last_seen": "2026-08-20",
+      "title": "GitHub Copilot agent mode documentation"
+    },
+    "https://github.com/openai/codex": {
+      "first_seen": "2026-08-20",
+      "last_seen": "2026-08-20",
+      "title": "OpenAI Codex CLI repository"
+    },
+    "https://www.mabl.com/blog/how-we-built-a-system-for-ai-agents-to-ship-real-code-across-75-repos": {
+      "first_seen": "2026-08-20",
+      "last_seen": "2026-08-20",
+      "title": "Mabl: agents shipping across 75+ repos"
+    },
+    "https://www.swebench.com/": {
+      "first_seen": "2026-08-20",
+      "last_seen": "2026-07-08",
+      "title": "SWE-bench Verified + mini-SWE-agent v2"
+    },
+    "https://www.apqc.org/expertise/knowledge-management": {
+      "first_seen": "2026-08-20",
+      "last_seen": "2026-08-20",
+      "title": "APQC Knowledge Management"
+    },
+    "https://zettelkasten.de/introduction": {
+      "first_seen": "2026-08-20",
+      "last_seen": "2026-08-20",
+      "title": "Zettelkasten method overview"
+    },
+    "https://help.obsidian.md/properties": {
+      "first_seen": "2026-08-20",
+      "last_seen": "2026-08-20",
+      "title": "Obsidian Help: Properties"
+    },
+    "https://www.zotero.org/support": {
+      "first_seen": "2026-08-20",
+      "last_seen": "2026-08-20",
+      "title": "Zotero documentation"
+    },
+    "https://readwise.io/read": {
+      "first_seen": "2026-08-20",
+      "last_seen": "2026-08-20",
+      "title": "Readwise Reader"
+    },
     "https://cloud.google.com/blog/ja/topics/developers-practitioners/behind-the-scenes-how-we-build-test-and-scale-google-agent-skills": {
       "first_seen": "2026-08-19",
       "last_seen": "2026-08-19",
@@ -1845,11 +1945,6 @@
       "first_seen": "2026-07-11",
       "last_seen": "2026-07-10",
       "title": "mini-swe-agent v2.4.5"
-    },
-    "https://www.swebench.com/": {
-      "first_seen": "2026-07-11",
-      "last_seen": "2026-07-08",
-      "title": "SWE-bench Verified + mini-SWE-agent v2"
     },
     "https://github.com/joylarkin/AI-Coding-Landscape": {
       "first_seen": "2026-07-11",

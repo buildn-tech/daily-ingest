@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "chainId": "chain_5eda9b5c22ef62087c5be707",
+  "subject": {
+    "kind": "html",
+    "origin": "2026-08-19/knowledge-graphs.html"
+  },
+  "status": "pending",
+  "reviewCount": 1,
+  "revisionCount": 1,
+  "activeReviewId": "review_497df87c-113a-4401-b3ae-31660e66319b",
+  "reviews": [
+    {
+      "id": "review_497df87c-113a-4401-b3ae-31660e66319b",
+      "previousReviewId": null,
+      "status": "pending",
+      "revision": {
+        "id": "revision_6a9f674332124d2c288622ad",
+        "hash": "ce8a8c6c193da84ab3e98140415dc435aeb3e1cf0b1dfd6f4ab85fef4d642da2",
+        "file": "revision_6a9f674332124d2c288622ad.html",
+        "mediaKind": "text/html"
+      },
+      "annotations": [],
+      "concernAssessments": [],
+      "decision": null
+    }
+  ]
+}

@@ -573,6 +573,26 @@
       "title": "MCP Infrastructure + Control Planes",
       "times_covered": 1,
       "last_covered": "2026-08-19"
+    },
+    "agent-standards": {
+      "title": "AI Agent Standards + Identity",
+      "times_covered": 1,
+      "last_covered": "2026-08-20"
+    },
+    "open-model-ecosystem": {
+      "title": "Open Models + Deployment Reality",
+      "times_covered": 1,
+      "last_covered": "2026-08-20"
+    },
+    "agent-first-engineering": {
+      "title": "Agent-First Engineering Environments",
+      "times_covered": 1,
+      "last_covered": "2026-08-20"
+    },
+    "personal-knowledge-leverage": {
+      "title": "Knowledge Work + Personal Leverage",
+      "times_covered": 1,
+      "last_covered": "2026-08-20"
     }
   },
   "item_history": [
@@ -1593,6 +1613,166 @@
         "news"
       ],
       "selection_rationale": "Rotated toward under-covered semantic data and protocol infrastructure while following fresh execution-quality signals."
+    },
+    {
+      "date": "2026-08-20",
+      "lane": "agent-standards",
+      "title": "NIST AI Agent Standards Initiative",
+      "url": "https://www.nist.gov/artificial-intelligence/ai-agent-standards-initiative",
+      "source_type": "docs",
+      "selection_rationale": "NIST refreshed its agent standards initiative on August 14, making identity, authorization, interoperability, and measurable security the clearest under-covered lane after several days of product-heavy agent coverage."
+    },
+    {
+      "date": "2026-08-20",
+      "lane": "agent-standards",
+      "title": "NCCoE Software and AI Agent Identity and Authorization",
+      "url": "https://www.nccoe.nist.gov/projects/software-and-ai-agent-identity-and-authorization",
+      "source_type": "docs",
+      "selection_rationale": "NIST refreshed its agent standards initiative on August 14, making identity, authorization, interoperability, and measurable security the clearest under-covered lane after several days of product-heavy agent coverage."
+    },
+    {
+      "date": "2026-08-20",
+      "lane": "agent-standards",
+      "title": "OWASP GenAI Security Project",
+      "url": "https://genai.owasp.org/",
+      "source_type": "docs",
+      "selection_rationale": "NIST refreshed its agent standards initiative on August 14, making identity, authorization, interoperability, and measurable security the clearest under-covered lane after several days of product-heavy agent coverage."
+    },
+    {
+      "date": "2026-08-20",
+      "lane": "agent-standards",
+      "title": "Model Context Protocol specification",
+      "url": "https://modelcontextprotocol.io/specification/2025-11-25",
+      "source_type": "spec",
+      "selection_rationale": "NIST refreshed its agent standards initiative on August 14, making identity, authorization, interoperability, and measurable security the clearest under-covered lane after several days of product-heavy agent coverage."
+    },
+    {
+      "date": "2026-08-20",
+      "lane": "agent-standards",
+      "title": "CSA AI Safety Initiative",
+      "url": "https://cloudsecurityalliance.org/research/artificial-intelligence",
+      "source_type": "research",
+      "selection_rationale": "NIST refreshed its agent standards initiative on August 14, making identity, authorization, interoperability, and measurable security the clearest under-covered lane after several days of product-heavy agent coverage."
+    },
+    {
+      "date": "2026-08-20",
+      "lane": "open-model-ecosystem",
+      "title": "State of Open Models: Summer 2026",
+      "url": "https://huggingface.co/blog/state-of-open-models-summer-2026",
+      "source_type": "research",
+      "selection_rationale": "Open-model coverage has been absent from the recent archive, while Hugging Face published a fresh summer analysis that separates frontier excitement from the small-model deployment layer."
+    },
+    {
+      "date": "2026-08-20",
+      "lane": "open-model-ecosystem",
+      "title": "Kimi K3 technical blog",
+      "url": "https://www.kimi.ai/blog/kimi-k3",
+      "source_type": "blog",
+      "selection_rationale": "Open-model coverage has been absent from the recent archive, while Hugging Face published a fresh summer analysis that separates frontier excitement from the small-model deployment layer."
+    },
+    {
+      "date": "2026-08-20",
+      "lane": "open-model-ecosystem",
+      "title": "vLLM documentation",
+      "url": "https://docs.vllm.ai/en/latest/",
+      "source_type": "docs",
+      "selection_rationale": "Open-model coverage has been absent from the recent archive, while Hugging Face published a fresh summer analysis that separates frontier excitement from the small-model deployment layer."
+    },
+    {
+      "date": "2026-08-20",
+      "lane": "open-model-ecosystem",
+      "title": "llama.cpp repository",
+      "url": "https://github.com/ggml-org/llama.cpp",
+      "source_type": "repo",
+      "selection_rationale": "Open-model coverage has been absent from the recent archive, while Hugging Face published a fresh summer analysis that separates frontier excitement from the small-model deployment layer."
+    },
+    {
+      "date": "2026-08-20",
+      "lane": "open-model-ecosystem",
+      "title": "MLCommons MLPerf Inference",
+      "url": "https://mlcommons.org/benchmarks/inference/",
+      "source_type": "benchmark",
+      "selection_rationale": "Open-model coverage has been absent from the recent archive, while Hugging Face published a fresh summer analysis that separates frontier excitement from the small-model deployment layer."
+    },
+    {
+      "date": "2026-08-20",
+      "lane": "agent-first-engineering",
+      "title": "Harness engineering: leveraging Codex in an agent-first world",
+      "url": "https://openai.com/index/harness-engineering/",
+      "source_type": "blog",
+      "selection_rationale": "OpenAI’s February engineering report is a durable but not previously covered primary source; it provides a concrete operating model for shifting human effort from code typing to legibility, feedback, and recovery."
+    },
+    {
+      "date": "2026-08-20",
+      "lane": "agent-first-engineering",
+      "title": "GitHub Copilot agent mode documentation",
+      "url": "https://docs.github.com/en/copilot/using-github-copilot/coding-agent",
+      "source_type": "docs",
+      "selection_rationale": "OpenAI’s February engineering report is a durable but not previously covered primary source; it provides a concrete operating model for shifting human effort from code typing to legibility, feedback, and recovery."
+    },
+    {
+      "date": "2026-08-20",
+      "lane": "agent-first-engineering",
+      "title": "OpenAI Codex CLI repository",
+      "url": "https://github.com/openai/codex",
+      "source_type": "repo",
+      "selection_rationale": "OpenAI’s February engineering report is a durable but not previously covered primary source; it provides a concrete operating model for shifting human effort from code typing to legibility, feedback, and recovery."
+    },
+    {
+      "date": "2026-08-20",
+      "lane": "agent-first-engineering",
+      "title": "Mabl: agents shipping across 75+ repos",
+      "url": "https://www.mabl.com/blog/how-we-built-a-system-for-ai-agents-to-ship-real-code-across-75-repos",
+      "source_type": "blog",
+      "selection_rationale": "OpenAI’s February engineering report is a durable but not previously covered primary source; it provides a concrete operating model for shifting human effort from code typing to legibility, feedback, and recovery."
+    },
+    {
+      "date": "2026-08-20",
+      "lane": "agent-first-engineering",
+      "title": "SWE-bench",
+      "url": "https://www.swebench.com/",
+      "source_type": "benchmark",
+      "selection_rationale": "OpenAI’s February engineering report is a durable but not previously covered primary source; it provides a concrete operating model for shifting human effort from code typing to legibility, feedback, and recovery."
+    },
+    {
+      "date": "2026-08-20",
+      "lane": "personal-knowledge-leverage",
+      "title": "APQC Knowledge Management",
+      "url": "https://www.apqc.org/expertise/knowledge-management",
+      "source_type": "research",
+      "selection_rationale": "Learning and memory have not appeared in the last several days; this lane returns to practical knowledge operations, but with source-bounded retrieval and freshness rather than another generic note-taking roundup."
+    },
+    {
+      "date": "2026-08-20",
+      "lane": "personal-knowledge-leverage",
+      "title": "Zettelkasten method overview",
+      "url": "https://zettelkasten.de/introduction/",
+      "source_type": "guide",
+      "selection_rationale": "Learning and memory have not appeared in the last several days; this lane returns to practical knowledge operations, but with source-bounded retrieval and freshness rather than another generic note-taking roundup."
+    },
+    {
+      "date": "2026-08-20",
+      "lane": "personal-knowledge-leverage",
+      "title": "Obsidian Help: Properties",
+      "url": "https://help.obsidian.md/properties",
+      "source_type": "docs",
+      "selection_rationale": "Learning and memory have not appeared in the last several days; this lane returns to practical knowledge operations, but with source-bounded retrieval and freshness rather than another generic note-taking roundup."
+    },
+    {
+      "date": "2026-08-20",
+      "lane": "personal-knowledge-leverage",
+      "title": "Zotero documentation",
+      "url": "https://www.zotero.org/support/",
+      "source_type": "docs",
+      "selection_rationale": "Learning and memory have not appeared in the last several days; this lane returns to practical knowledge operations, but with source-bounded retrieval and freshness rather than another generic note-taking roundup."
+    },
+    {
+      "date": "2026-08-20",
+      "lane": "personal-knowledge-leverage",
+      "title": "Readwise Reader",
+      "url": "https://readwise.io/read",
+      "source_type": "product",
+      "selection_rationale": "Learning and memory have not appeared in the last several days; this lane returns to practical knowledge operations, but with source-bounded retrieval and freshness rather than another generic note-taking roundup."
     }
   ],
   "runs": [
@@ -2107,11 +2287,21 @@
         }
       ],
       "selection_rationale": "Rotated toward under-covered semantic data and protocol infrastructure while following fresh execution-quality signals."
+    },
+    {
+      "date": "2026-08-20",
+      "selected_lanes": [
+        "agent-standards",
+        "open-model-ecosystem",
+        "agent-first-engineering",
+        "personal-knowledge-leverage"
+      ],
+      "rationale": "Rotated toward standards, open-model deployment, engineering harnesses, and knowledge work after recent MCP/robotics/creative/self-hosting coverage."
     }
   ],
-  "updated_at": "2026-08-19T08:07:37.057439+00:00",
-  "last_run": "2026-08-19",
-  "last_editorial_thesis": "Rotated toward under-covered semantic data and protocol infrastructure while following fresh execution-quality signals.",
+  "updated_at": "2026-08-20T08:00:00Z",
+  "last_run": "2026-08-20",
+  "last_editorial_thesis": "Today’s strongest fresh signal is that practical leverage is moving from novelty to operating substrate: agent trust, maintainable open-model deployment, executable engineering harnesses, and source-bounded knowledge work.",
   "coverage_history": [
     {
       "date": "2026-07-28",
@@ -2896,15 +3086,12 @@
       "selection_rationale": "Bounded plan-review-execute workflow for infrastructure."
     }
   ],
-  "last_run_selection": {
-    "date": "2026-08-19",
-    "selected_lanes": [
-      "agent-skills",
-      "knowledge-graphs",
-      "mcp-infrastructure"
-    ],
-    "rationale": "Rotated toward under-covered semantic data and protocol infrastructure while following fresh execution-quality signals."
-  },
+  "last_run_selection": [
+    "agent-standards",
+    "open-model-ecosystem",
+    "agent-first-engineering",
+    "personal-knowledge-leverage"
+  ],
   "sources": {
     "architecture": {
       "first_seen": "2026-08-16",

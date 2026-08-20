@@ -1,0 +1,195 @@
+{
+  "date": "2026-08-20",
+  "generated_at": "2026-08-20T08:00:00Z",
+  "editorial_thesis": "Today’s strongest fresh signal is that practical leverage is moving from novelty to operating substrate: agent trust, maintainable open-model deployment, executable engineering harnesses, and source-bounded knowledge work.",
+  "topic_groups": [
+    {
+      "slug": "agent-standards",
+      "title": "AI Agent Standards + Identity",
+      "selection_rationale": "NIST refreshed its agent standards initiative on August 14, making identity, authorization, interoperability, and measurable security the clearest under-covered lane after several days of product-heavy agent coverage.",
+      "sources": [
+        {
+          "title": "NIST AI Agent Standards Initiative",
+          "url": "https://www.nist.gov/artificial-intelligence/ai-agent-standards-initiative",
+          "source_type": "docs",
+          "published_or_updated": "2026-08-14",
+          "why_selected": "Identity, authentication, interoperability, and security evaluation are explicit priorities.",
+          "usefulness": "Turn its pillars into a Buildn agent-readiness checklist."
+        },
+        {
+          "title": "NCCoE Software and AI Agent Identity and Authorization",
+          "url": "https://www.nccoe.nist.gov/projects/software-and-ai-agent-identity-and-authorization",
+          "source_type": "docs",
+          "published_or_updated": "2026",
+          "why_selected": "A primary project surface for applying identity standards to enterprise agent use cases.",
+          "usefulness": "Prototype ownership, grant, expiry, and revocation records."
+        },
+        {
+          "title": "OWASP GenAI Security Project",
+          "url": "https://genai.owasp.org/",
+          "source_type": "docs",
+          "published_or_updated": "2026",
+          "why_selected": "Maintains practical threat and control guidance for generative and agentic systems.",
+          "usefulness": "Map tool permissions and prompt-injection controls to client reviews."
+        },
+        {
+          "title": "Model Context Protocol specification",
+          "url": "https://modelcontextprotocol.io/specification/2025-11-25",
+          "source_type": "spec",
+          "published_or_updated": "2025-11-25",
+          "why_selected": "The protocol surface gives portability a concrete contract instead of a vendor promise.",
+          "usefulness": "Keep Buildn connectors spec-first and capability-scoped."
+        },
+        {
+          "title": "CSA AI Safety Initiative",
+          "url": "https://cloudsecurityalliance.org/research/artificial-intelligence",
+          "source_type": "research",
+          "published_or_updated": "2026",
+          "why_selected": "Security research frames governance gaps around visibility, ownership, and access.",
+          "usefulness": "Use as a second opinion when scoping enterprise pilots."
+        }
+      ]
+    },
+    {
+      "slug": "open-model-ecosystem",
+      "title": "Open Models + Deployment Reality",
+      "selection_rationale": "Open-model coverage has been absent from the recent archive, while Hugging Face published a fresh summer analysis that separates frontier excitement from the small-model deployment layer.",
+      "sources": [
+        {
+          "title": "State of Open Models: Summer 2026",
+          "url": "https://huggingface.co/blog/state-of-open-models-summer-2026",
+          "source_type": "research",
+          "published_or_updated": "2026-08-14",
+          "why_selected": "The analysis shows downloads concentrated in small practical models while frontier releases attract attention.",
+          "usefulness": "Use deployment fit, derivatives, and ecosystem health as selection signals."
+        },
+        {
+          "title": "Kimi K3 technical blog",
+          "url": "https://www.kimi.ai/blog/kimi-k3",
+          "source_type": "blog",
+          "published_or_updated": "2026-07",
+          "why_selected": "A frontier open-weight release illustrates the gap between headline scale and realistic serving requirements.",
+          "usefulness": "Treat it as a research benchmark, not an automatic production candidate."
+        },
+        {
+          "title": "vLLM documentation",
+          "url": "https://docs.vllm.ai/en/latest/",
+          "source_type": "docs",
+          "published_or_updated": "2026",
+          "why_selected": "The serving layer exposes the operational reality of batching, caching, quantization, and hardware fit.",
+          "usefulness": "Run a pinned local inference benchmark before vendor selection."
+        },
+        {
+          "title": "llama.cpp repository",
+          "url": "https://github.com/ggml-org/llama.cpp",
+          "source_type": "repo",
+          "published_or_updated": "2026",
+          "why_selected": "Small and quantized deployment remains the practical edge of the open ecosystem.",
+          "usefulness": "Test offline fallback and private document workflows."
+        },
+        {
+          "title": "MLCommons MLPerf Inference",
+          "url": "https://mlcommons.org/benchmarks/inference/",
+          "source_type": "benchmark",
+          "published_or_updated": "2026",
+          "why_selected": "A standardized benchmark gives hardware and latency context beyond model marketing.",
+          "usefulness": "Record throughput, tail latency, and cost for comparable tasks."
+        }
+      ]
+    },
+    {
+      "slug": "agent-first-engineering",
+      "title": "Agent-First Engineering Environments",
+      "selection_rationale": "OpenAI’s February engineering report is a durable but not previously covered primary source; it provides a concrete operating model for shifting human effort from code typing to legibility, feedback, and recovery.",
+      "sources": [
+        {
+          "title": "Harness engineering: leveraging Codex in an agent-first world",
+          "url": "https://openai.com/index/harness-engineering/",
+          "source_type": "blog",
+          "published_or_updated": "2026-02-11",
+          "why_selected": "OpenAI reports a large internal build where agents generated code, tests, tooling, and documentation while humans shaped the harness.",
+          "usefulness": "Translate the pattern into a small Buildn pilot with measurable loops."
+        },
+        {
+          "title": "GitHub Copilot agent mode documentation",
+          "url": "https://docs.github.com/en/copilot/using-github-copilot/coding-agent",
+          "source_type": "docs",
+          "published_or_updated": "2026",
+          "why_selected": "Documents an agent surface built around repository tasks, pull requests, and review.",
+          "usefulness": "Compare the workflow to existing issue-to-PR delivery."
+        },
+        {
+          "title": "OpenAI Codex CLI repository",
+          "url": "https://github.com/openai/codex",
+          "source_type": "repo",
+          "published_or_updated": "2026",
+          "why_selected": "The open client makes tools, approvals, and local execution inspectable.",
+          "usefulness": "Study permission boundaries and reusable repo instructions."
+        },
+        {
+          "title": "Mabl: agents shipping across 75+ repos",
+          "url": "https://www.mabl.com/blog/how-we-built-a-system-for-ai-agents-to-ship-real-code-across-75-repos",
+          "source_type": "blog",
+          "published_or_updated": "2026",
+          "why_selected": "Cross-repo dependency context is presented as a prerequisite for safe scale.",
+          "usefulness": "Use dependency maps as an explicit context artifact."
+        },
+        {
+          "title": "SWE-bench",
+          "url": "https://www.swebench.com/",
+          "source_type": "benchmark",
+          "published_or_updated": "2026",
+          "why_selected": "A task benchmark anchors coding-agent claims in reproducible repository work.",
+          "usefulness": "Build a tiny private eval set instead of relying on generic scores."
+        }
+      ]
+    },
+    {
+      "slug": "personal-knowledge-leverage",
+      "title": "Knowledge Work + Personal Leverage",
+      "selection_rationale": "Learning and memory have not appeared in the last several days; this lane returns to practical knowledge operations, but with source-bounded retrieval and freshness rather than another generic note-taking roundup.",
+      "sources": [
+        {
+          "title": "APQC Knowledge Management",
+          "url": "https://www.apqc.org/expertise/knowledge-management",
+          "source_type": "research",
+          "published_or_updated": "2026",
+          "why_selected": "APQC provides current KM practices, metrics, and maturity framing for knowledge reuse.",
+          "usefulness": "Borrow freshness, ownership, and reuse metrics for personal and client knowledge."
+        },
+        {
+          "title": "Zettelkasten method overview",
+          "url": "https://zettelkasten.de/introduction/",
+          "source_type": "guide",
+          "published_or_updated": "2026",
+          "why_selected": "A durable method for atomic notes and linked retrieval remains useful when paired with source provenance.",
+          "usefulness": "Use atomic evidence notes for recurring client decisions."
+        },
+        {
+          "title": "Obsidian Help: Properties",
+          "url": "https://help.obsidian.md/properties",
+          "source_type": "docs",
+          "published_or_updated": "2026",
+          "why_selected": "Structured properties make local-first notes queryable without forcing a hosted system.",
+          "usefulness": "Define source, confidence, status, and review dates."
+        },
+        {
+          "title": "Zotero documentation",
+          "url": "https://www.zotero.org/support/",
+          "source_type": "docs",
+          "published_or_updated": "2026",
+          "why_selected": "Reference management keeps citations and source files attached to claims.",
+          "usefulness": "Use it as the evidence boundary for research-heavy work."
+        },
+        {
+          "title": "Readwise Reader",
+          "url": "https://readwise.io/read",
+          "source_type": "product",
+          "published_or_updated": "2026",
+          "why_selected": "A capture-and-review surface shows the value of keeping highlights connected to a review loop.",
+          "usefulness": "Test only if review friction is lower than the current workflow."
+        }
+      ]
+    }
+  ]
+}

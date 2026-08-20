@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "chainId": "chain_e5839299b90364335a0fdaf4",
+  "subject": {
+    "kind": "html",
+    "origin": "2026-08-19/agent-skills.html"
+  },
+  "status": "pending",
+  "reviewCount": 1,
+  "revisionCount": 1,
+  "activeReviewId": "review_381ee969-dae9-4bdb-9495-ab577da955d4",
+  "reviews": [
+    {
+      "id": "review_381ee969-dae9-4bdb-9495-ab577da955d4",
+      "previousReviewId": null,
+      "status": "pending",
+      "revision": {
+        "id": "revision_79747f4114acd7e3e78b372a",
+        "hash": "6be84b2f618a89a422ac194933eeb623114892887e97997c8033028a44671263",
+        "file": "revision_79747f4114acd7e3e78b372a.html",
+        "mediaKind": "text/html"
+      },
+      "annotations": [],
+      "concernAssessments": [],
+      "decision": null
+    }
+  ]
+}
