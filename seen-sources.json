@@ -1,6 +1,81 @@
 {
-  "updated_at": "2026-08-20T08:06:09.126664+00:00",
+  "updated_at": "2026-08-21T08:11:10.229073+00:00",
   "sources": {
+    "https://blog.postman.com/the-prompts-only-the-postman-ai-engineer-can-answer": {
+      "first_seen": "2026-08-21",
+      "last_seen": "2026-08-21",
+      "title": "Postman AI Engineer"
+    },
+    "https://blog.postman.com/api-specification-drift-why-context-beats-code-alone": {
+      "first_seen": "2026-08-21",
+      "last_seen": "2026-08-21",
+      "title": "Three-way API specification drift"
+    },
+    "https://www.postman.com/product/ai": {
+      "first_seen": "2026-08-21",
+      "last_seen": "2026-08-21",
+      "title": "Postman AI"
+    },
+    "https://spec.openapis.org/oas/latest.html": {
+      "first_seen": "2026-08-21",
+      "last_seen": "2026-08-21",
+      "title": "OpenAPI Specification"
+    },
+    "https://www.postman.com/state-of-api": {
+      "first_seen": "2026-08-21",
+      "last_seen": "2026-08-21",
+      "title": "State of the API"
+    },
+    "https://blog.talosintelligence.com/uat-10147-deploys-spectre-a-cross-platform-implant-with-linux-rootkit-and-byovd-capabilities": {
+      "first_seen": "2026-08-21",
+      "last_seen": "2026-08-21",
+      "title": "UAT-10147 / SPECTRE"
+    },
+    "https://blogs.microsoft.com/blog/2026/07/27/rethinking-security-for-the-age-of-ai": {
+      "first_seen": "2026-08-21",
+      "last_seen": "2026-08-21",
+      "title": "Rethinking security for the age of AI"
+    },
+    "https://blog.checkpoint.com/ai-security/reading-the-signals-in-the-owasp-llm-top-10-2026": {
+      "first_seen": "2026-08-21",
+      "last_seen": "2026-08-21",
+      "title": "Reading the signals in OWASP LLM Top 10 2026"
+    },
+    "https://www.cisa.gov/ai": {
+      "first_seen": "2026-08-21",
+      "last_seen": "2026-08-21",
+      "title": "CISA AI resources"
+    },
+    "https://www.microsoft.com/en-us/security/business/ai-machine-learning": {
+      "first_seen": "2026-08-21",
+      "last_seen": "2026-08-21",
+      "title": "Microsoft AI security"
+    },
+    "https://blog.mozilla.org/en/mozilla/ai/open-source-ai-framework": {
+      "first_seen": "2026-08-21",
+      "last_seen": "2026-08-21",
+      "title": "Mozilla framework for openness"
+    },
+    "https://cacm.acm.org/research/unpacking-open-source-artificial-intelligence-toward-a-framework-for-openness-in-foundation-models": {
+      "first_seen": "2026-08-21",
+      "last_seen": "2026-08-21",
+      "title": "Framework research paper"
+    },
+    "https://openai.com/index/stampli": {
+      "first_seen": "2026-08-21",
+      "last_seen": "2026-08-21",
+      "title": "Stampli launch workflow"
+    },
+    "https://www.apqc.org/resource-library/resource-listing/2026-knowledge-management-priorities-and-trends-survey-report": {
+      "first_seen": "2026-08-21",
+      "last_seen": "2026-08-19",
+      "title": "2026 KM Priorities and Trends Survey"
+    },
+    "https://www.mozilla.org/en-US/about/manifesto": {
+      "first_seen": "2026-08-21",
+      "last_seen": "2026-08-21",
+      "title": "Mozilla principles"
+    },
     "https://www.nist.gov/artificial-intelligence/ai-agent-standards-initiative": {
       "first_seen": "2026-08-20",
       "last_seen": "2026-08-20",
@@ -130,11 +205,6 @@
       "first_seen": "2026-08-19",
       "last_seen": "2026-08-19",
       "title": "Cortex Framework v7"
-    },
-    "https://www.apqc.org/resource-library/resource-listing/2026-knowledge-management-priorities-and-trends-survey-report": {
-      "first_seen": "2026-08-19",
-      "last_seen": "2026-08-19",
-      "title": "2026 KM Priorities and Trends Survey"
     },
     "https://blog.cloudflare.com/mcp-v2": {
       "first_seen": "2026-08-19",

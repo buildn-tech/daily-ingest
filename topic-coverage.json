@@ -3191,6 +3191,13 @@
   },
   "recent_runs": [
     {
+      "date": "2026-08-21",
+      "topics": ["api-context", "ai-security", "open-ai-practice"],
+      "items": ["Postman AI Engineer", "UAT-10147 / SPECTRE", "Mozilla framework for openness", "Stampli launch workflow", "APQC 2026 KM priorities"],
+      "sources": ["https://blog.postman.com/the-prompts-only-the-postman-ai-engineer-can-answer/", "https://blog.talosintelligence.com/uat-10147-deploys-spectre-a-cross-platform-implant-with-linux-rootkit-and-byovd-capabilities/", "https://blog.mozilla.org/en/mozilla/ai/open-source-ai-framework/", "https://openai.com/index/stampli/", "https://www.apqc.org/resource-library/resource-listing/2026-knowledge-management-priorities-and-trends-survey-report"],
+      "selection_rationale": "Fresh API context-graph and threat research signals, plus a rotated openness/knowledge lane."
+    },
+    {
       "date": "2026-08-19",
       "topics": [
         "agent-skills",
