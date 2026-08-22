@@ -1,6 +1,66 @@
 {
-  "updated_at": "2026-08-21T08:11:10.229073+00:00",
+  "updated_at": "2026-08-22T08:11:28.698318+00:00",
   "sources": {
+    "https://openai.com/index/introducing-agentkit": {
+      "first_seen": "2026-08-22",
+      "last_seen": "2026-08-22",
+      "title": "Introducing AgentKit"
+    },
+    "https://openai.com/index/the-next-evolution-of-the-agents-sdk": {
+      "first_seen": "2026-08-22",
+      "last_seen": "2026-08-14",
+      "title": "The next evolution of the Agents SDK"
+    },
+    "https://github.blog/changelog/2026-08-12-agent-plugins-1-0-in-vs-code-copilot-cli-and-the-copilot-app": {
+      "first_seen": "2026-08-22",
+      "last_seen": "2026-08-22",
+      "title": "Agent Plugins 1.0"
+    },
+    "https://blog.cloudflare.com/agents-week-review-august-2026": {
+      "first_seen": "2026-08-22",
+      "last_seen": "2026-08-11",
+      "title": "Everything we launched during Agents Week"
+    },
+    "https://openai.com/index/how-agents-are-transforming-work": {
+      "first_seen": "2026-08-22",
+      "last_seen": "2026-08-22",
+      "title": "How agents are transforming work"
+    },
+    "https://blog.cloudflare.com/workers-ai-gateway-unification": {
+      "first_seen": "2026-08-22",
+      "last_seen": "2026-08-19",
+      "title": "Cloudflare AI control plane"
+    },
+    "https://blog.cloudflare.com/introducing-radar-researcher": {
+      "first_seen": "2026-08-22",
+      "last_seen": "2026-08-22",
+      "title": "Introducing Radar Researcher"
+    },
+    "https://artificialintelligenceact.eu/article/50": {
+      "first_seen": "2026-08-22",
+      "last_seen": "2026-08-22",
+      "title": "Article 50 transparency obligations"
+    },
+    "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai": {
+      "first_seen": "2026-08-22",
+      "last_seen": "2026-08-22",
+      "title": "European Commission AI Act framework"
+    },
+    "https://www.actuia.com/en/news/ai-act-the-countdown-is-on-for-businesses-ahead-of-2-august-2026": {
+      "first_seen": "2026-08-22",
+      "last_seen": "2026-08-22",
+      "title": "AI Act countdown for businesses"
+    },
+    "https://github.blog/open-source/maintainers/what-50-open-source-projects-taught-us-about-security-in-the-ai-era": {
+      "first_seen": "2026-08-22",
+      "last_seen": "2026-08-22",
+      "title": "What 50 open source projects taught us"
+    },
+    "https://www.anthropic.com/news/claude-text-watermark": {
+      "first_seen": "2026-08-22",
+      "last_seen": "2026-08-22",
+      "title": "How Claude\u2019s text watermarking works"
+    },
     "https://blog.postman.com/the-prompts-only-the-postman-ai-engineer-can-answer": {
       "first_seen": "2026-08-21",
       "last_seen": "2026-08-21",
@@ -190,11 +250,6 @@
       "first_seen": "2026-08-19",
       "last_seen": "2026-08-19",
       "title": "System Initiative infrastructure agents"
-    },
-    "https://blog.cloudflare.com/workers-ai-gateway-unification": {
-      "first_seen": "2026-08-19",
-      "last_seen": "2026-08-19",
-      "title": "Cloudflare AI control plane"
     },
     "https://cloud.google.com/blog/ja/products/databases/unify-public-and-private-data-with-data-commons-on-spanner-graph": {
       "first_seen": "2026-08-19",
@@ -531,11 +586,6 @@
       "last_seen": "2026-08-14",
       "title": "Previewing Ultrafast mode: GPT-5.6 Sol at up to 14X the speed"
     },
-    "https://openai.com/index/the-next-evolution-of-the-agents-sdk": {
-      "first_seen": "2026-08-14",
-      "last_seen": "2026-08-14",
-      "title": "The next evolution of the Agents SDK"
-    },
     "https://cloudsecurityalliance.org/press-releases/2026/08/13/ai-emerges-as-an-attack-enabler-and-target-in-csa-2026-top-threats-report": {
       "first_seen": "2026-08-14",
       "last_seen": "2026-08-14",
@@ -615,11 +665,6 @@
       "first_seen": "2026-08-11",
       "last_seen": "2026-08-11",
       "title": "Vercel Sandbox managed images"
-    },
-    "https://blog.cloudflare.com/agents-week-review-august-2026": {
-      "first_seen": "2026-08-11",
-      "last_seen": "2026-08-11",
-      "title": "Everything we launched during Agents Week"
     },
     "https://blog.cloudflare.com/billable-usage-api": {
       "first_seen": "2026-08-11",

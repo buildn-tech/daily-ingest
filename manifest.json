@@ -1,6 +1,27 @@
 {
-  "updated_at": "2026-08-21T08:11:10.229073+00:00",
+  "updated_at": "2026-08-22T08:11:28.698318+00:00",
   "days": [
+    {
+      "date": "2026-08-22",
+      "path": "2026-08-22",
+      "reports": [
+        {
+          "lane": "agent-execution",
+          "title": "Agent Execution + Portable Skills",
+          "url": "2026-08-22/agent-execution.html"
+        },
+        {
+          "lane": "ai-control-planes",
+          "title": "AI Control Planes + Research Interfaces",
+          "url": "2026-08-22/ai-control-planes.html"
+        },
+        {
+          "lane": "ai-transparency",
+          "title": "AI Transparency + Secure Supply Chain",
+          "url": "2026-08-22/ai-transparency.html"
+        }
+      ]
+    },
     {
       "date": "2026-08-21",
       "path": "2026-08-21",

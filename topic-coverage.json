@@ -2299,9 +2299,9 @@
       "rationale": "Rotated toward standards, open-model deployment, engineering harnesses, and knowledge work after recent MCP/robotics/creative/self-hosting coverage."
     }
   ],
-  "updated_at": "2026-08-20T08:00:00Z",
-  "last_run": "2026-08-20",
-  "last_editorial_thesis": "Today’s strongest fresh signal is that practical leverage is moving from novelty to operating substrate: agent trust, maintainable open-model deployment, executable engineering harnesses, and source-bounded knowledge work.",
+  "updated_at": "2026-08-22T08:01:06Z",
+  "last_run": "2026-08-22",
+  "last_editorial_thesis": "Agent infrastructure is converging on explicit execution boundaries, portable capability packages, observable control planes, and legally visible provenance.",
   "coverage_history": [
     {
       "date": "2026-07-28",
@@ -3261,6 +3261,12 @@
         }
       ],
       "selection_rationale": "Rotated toward under-covered semantic data and protocol infrastructure while following fresh execution-quality signals."
+    },
+    {
+      "date": "2026-08-22",
+      "selected_lanes": ["agent-execution", "ai-control-planes", "ai-transparency"],
+      "items": ["Introducing AgentKit", "The next evolution of the Agents SDK", "Agent Plugins 1.0", "Workers AI + AI Gateway unified control plane", "Radar Researcher", "EU AI Act Article 50", "GitHub Secure Open Source Fund", "Claude text watermarking"],
+      "selection_rationale": "Selected fresh primary signals around explicit execution boundaries, provider-neutral observability, and the now-active transparency milestone; avoided repeating yesterday’s API-context lane."
     }
   ]
 }
