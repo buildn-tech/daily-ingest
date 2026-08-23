@@ -1,6 +1,31 @@
 {
-  "updated_at": "2026-08-22T08:11:28.698318+00:00",
+  "updated_at": "2026-08-23T08:06:32.810870+00:00",
   "sources": {
+    "https://vercel.com/changelog/always-on-tracing-for-production-and-preview-traffic": {
+      "first_seen": "2026-08-23",
+      "last_seen": "2026-08-23",
+      "title": "Always-on tracing for production and preview traffic"
+    },
+    "https://vercel.com/changelog/gpt-5-6-sol-is-now-50-percent-off-a-lower-price": {
+      "first_seen": "2026-08-23",
+      "last_seen": "2026-08-23",
+      "title": "GPT-5.6 Sol is now 50 percent off a lower price"
+    },
+    "https://vercel.com/changelog/deepseek-v4-flash-with-vision-now-available-on-ai-gateway": {
+      "first_seen": "2026-08-23",
+      "last_seen": "2026-08-23",
+      "title": "DeepSeek V4 Flash Vision Experimental now available on AI Gateway"
+    },
+    "https://openai.com/index/patch-the-planet": {
+      "first_seen": "2026-08-23",
+      "last_seen": "2026-08-23",
+      "title": "Patch the Planet: A Daybreak Initiative to Support Open-Source Maintainers"
+    },
+    "https://blog.google/innovation-and-ai/products/gemini-app/new-connected-apps-services-gemini-august-2026": {
+      "first_seen": "2026-08-23",
+      "last_seen": "2026-08-23",
+      "title": "Now you can connect even more of your favorite apps and services to Gemini"
+    },
     "https://openai.com/index/introducing-agentkit": {
       "first_seen": "2026-08-22",
       "last_seen": "2026-08-22",

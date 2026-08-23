@@ -593,6 +593,35 @@
       "title": "Knowledge Work + Personal Leverage",
       "times_covered": 1,
       "last_covered": "2026-08-20"
+    },
+    "agent-observability": {
+      "count": 1,
+      "last_covered": "2026-08-23",
+      "recent_titles": [
+        "Always-on tracing for production and preview traffic"
+      ]
+    },
+    "model-routing-economics": {
+      "count": 1,
+      "last_covered": "2026-08-23",
+      "recent_titles": [
+        "GPT-5.6 Sol is now 50 percent off a lower price",
+        "DeepSeek V4 Flash Vision Experimental now available on AI Gateway"
+      ]
+    },
+    "open-source-security": {
+      "count": 1,
+      "last_covered": "2026-08-23",
+      "recent_titles": [
+        "Patch the Planet: A Daybreak Initiative to Support Open-Source Maintainers"
+      ]
+    },
+    "connected-product-workflows": {
+      "count": 1,
+      "last_covered": "2026-08-23",
+      "recent_titles": [
+        "Now you can connect even more of your favorite apps and services to Gemini"
+      ]
     }
   },
   "item_history": [
@@ -1773,6 +1802,46 @@
       "url": "https://readwise.io/read",
       "source_type": "product",
       "selection_rationale": "Learning and memory have not appeared in the last several days; this lane returns to practical knowledge operations, but with source-bounded retrieval and freshness rather than another generic note-taking roundup."
+    },
+    {
+      "date": "2026-08-23",
+      "topic": "agent-observability",
+      "title": "Always-on tracing for production and preview traffic",
+      "url": "https://vercel.com/changelog/always-on-tracing-for-production-and-preview-traffic",
+      "source_type": "release",
+      "rationale": "Scoped live tracing with path rules and bounded retention is a concrete way to capture unreproducible agent failures."
+    },
+    {
+      "date": "2026-08-23",
+      "topic": "model-routing-economics",
+      "title": "GPT-5.6 Sol is now 50 percent off a lower price",
+      "url": "https://vercel.com/changelog/gpt-5-6-sol-is-now-50-percent-off-a-lower-price",
+      "source_type": "release",
+      "rationale": "The model ID is unchanged while input and output pricing fall, enabling a low-friction cost trial."
+    },
+    {
+      "date": "2026-08-23",
+      "topic": "model-routing-economics",
+      "title": "DeepSeek V4 Flash Vision Experimental now available on AI Gateway",
+      "url": "https://vercel.com/changelog/deepseek-v4-flash-with-vision-now-available-on-ai-gateway",
+      "source_type": "release",
+      "rationale": "A new image-capable experimental route supports screenshot and chart triage."
+    },
+    {
+      "date": "2026-08-23",
+      "topic": "open-source-security",
+      "title": "Patch the Planet: A Daybreak Initiative to Support Open-Source Maintainers",
+      "url": "https://openai.com/index/patch-the-planet/",
+      "source_type": "blog",
+      "rationale": "The program pairs AI-assisted discovery with validation, patching, testing, disclosure, and maintainer control."
+    },
+    {
+      "date": "2026-08-23",
+      "topic": "connected-product-workflows",
+      "title": "Now you can connect even more of your favorite apps and services to Gemini",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/new-connected-apps-services-gemini-august-2026/",
+      "source_type": "product",
+      "rationale": "Google is extending Gemini across productivity, commerce, local services, music, home, and health."
     }
   ],
   "runs": [
@@ -2297,11 +2366,52 @@
         "personal-knowledge-leverage"
       ],
       "rationale": "Rotated toward standards, open-model deployment, engineering harnesses, and knowledge work after recent MCP/robotics/creative/self-hosting coverage."
+    },
+    {
+      "date": "2026-08-23",
+      "selected_lanes": [
+        "agent-observability",
+        "model-routing-economics",
+        "open-source-security",
+        "connected-product-workflows"
+      ],
+      "items": [
+        {
+          "title": "Always-on tracing for production and preview traffic",
+          "url": "https://vercel.com/changelog/always-on-tracing-for-production-and-preview-traffic",
+          "source_type": "release",
+          "rationale": "Scoped live tracing with path rules and bounded retention is a concrete way to capture unreproducible agent failures."
+        },
+        {
+          "title": "GPT-5.6 Sol is now 50 percent off a lower price",
+          "url": "https://vercel.com/changelog/gpt-5-6-sol-is-now-50-percent-off-a-lower-price",
+          "source_type": "release",
+          "rationale": "The model ID is unchanged while input and output pricing fall, enabling a low-friction cost trial."
+        },
+        {
+          "title": "DeepSeek V4 Flash Vision Experimental now available on AI Gateway",
+          "url": "https://vercel.com/changelog/deepseek-v4-flash-with-vision-now-available-on-ai-gateway",
+          "source_type": "release",
+          "rationale": "A new image-capable experimental route supports screenshot and chart triage."
+        },
+        {
+          "title": "Patch the Planet: A Daybreak Initiative to Support Open-Source Maintainers",
+          "url": "https://openai.com/index/patch-the-planet/",
+          "source_type": "blog",
+          "rationale": "The program pairs AI-assisted discovery with validation, patching, testing, disclosure, and maintainer control."
+        },
+        {
+          "title": "Now you can connect even more of your favorite apps and services to Gemini",
+          "url": "https://blog.google/innovation-and-ai/products/gemini-app/new-connected-apps-services-gemini-august-2026/",
+          "source_type": "product",
+          "rationale": "Google is extending Gemini across productivity, commerce, local services, music, home, and health."
+        }
+      ]
     }
   ],
-  "updated_at": "2026-08-22T08:01:06Z",
-  "last_run": "2026-08-22",
-  "last_editorial_thesis": "Agent infrastructure is converging on explicit execution boundaries, portable capability packages, observable control planes, and legally visible provenance.",
+  "updated_at": "2026-08-23T08:00:22Z",
+  "last_run": "2026-08-23",
+  "last_editorial_thesis": "Practical agent leverage is moving into the seams: observe real behavior, route by task economics, ship governed remediation, and compose connected services around explicit confirmation.",
   "coverage_history": [
     {
       "date": "2026-07-28",
@@ -3087,10 +3197,10 @@
     }
   ],
   "last_run_selection": [
-    "agent-standards",
-    "open-model-ecosystem",
-    "agent-first-engineering",
-    "personal-knowledge-leverage"
+    "agent-observability",
+    "model-routing-economics",
+    "open-source-security",
+    "connected-product-workflows"
   ],
   "sources": {
     "architecture": {
@@ -3187,14 +3297,55 @@
       "first_seen": "2026-08-16",
       "last_seen": "2026-08-16",
       "title": "GPT-5.6 Luna in coding sessions"
+    },
+    "https://vercel.com/changelog/always-on-tracing-for-production-and-preview-traffic": {
+      "first_seen": "2026-08-23",
+      "last_seen": "2026-08-23",
+      "title": "Always-on tracing for production and preview traffic"
+    },
+    "https://vercel.com/changelog/gpt-5-6-sol-is-now-50-percent-off-a-lower-price": {
+      "first_seen": "2026-08-23",
+      "last_seen": "2026-08-23",
+      "title": "GPT-5.6 Sol is now 50 percent off a lower price"
+    },
+    "https://vercel.com/changelog/deepseek-v4-flash-with-vision-now-available-on-ai-gateway": {
+      "first_seen": "2026-08-23",
+      "last_seen": "2026-08-23",
+      "title": "DeepSeek V4 Flash Vision Experimental now available on AI Gateway"
+    },
+    "https://openai.com/index/patch-the-planet/": {
+      "first_seen": "2026-08-23",
+      "last_seen": "2026-08-23",
+      "title": "Patch the Planet: A Daybreak Initiative to Support Open-Source Maintainers"
+    },
+    "https://blog.google/innovation-and-ai/products/gemini-app/new-connected-apps-services-gemini-august-2026/": {
+      "first_seen": "2026-08-23",
+      "last_seen": "2026-08-23",
+      "title": "Now you can connect even more of your favorite apps and services to Gemini"
     }
   },
   "recent_runs": [
     {
       "date": "2026-08-21",
-      "topics": ["api-context", "ai-security", "open-ai-practice"],
-      "items": ["Postman AI Engineer", "UAT-10147 / SPECTRE", "Mozilla framework for openness", "Stampli launch workflow", "APQC 2026 KM priorities"],
-      "sources": ["https://blog.postman.com/the-prompts-only-the-postman-ai-engineer-can-answer/", "https://blog.talosintelligence.com/uat-10147-deploys-spectre-a-cross-platform-implant-with-linux-rootkit-and-byovd-capabilities/", "https://blog.mozilla.org/en/mozilla/ai/open-source-ai-framework/", "https://openai.com/index/stampli/", "https://www.apqc.org/resource-library/resource-listing/2026-knowledge-management-priorities-and-trends-survey-report"],
+      "topics": [
+        "api-context",
+        "ai-security",
+        "open-ai-practice"
+      ],
+      "items": [
+        "Postman AI Engineer",
+        "UAT-10147 / SPECTRE",
+        "Mozilla framework for openness",
+        "Stampli launch workflow",
+        "APQC 2026 KM priorities"
+      ],
+      "sources": [
+        "https://blog.postman.com/the-prompts-only-the-postman-ai-engineer-can-answer/",
+        "https://blog.talosintelligence.com/uat-10147-deploys-spectre-a-cross-platform-implant-with-linux-rootkit-and-byovd-capabilities/",
+        "https://blog.mozilla.org/en/mozilla/ai/open-source-ai-framework/",
+        "https://openai.com/index/stampli/",
+        "https://www.apqc.org/resource-library/resource-listing/2026-knowledge-management-priorities-and-trends-survey-report"
+      ],
       "selection_rationale": "Fresh API context-graph and threat research signals, plus a rotated openness/knowledge lane."
     },
     {
@@ -3211,6 +3362,47 @@
         "The next generation of MCP",
         "Cloudflare unified AI control plane",
         "System Initiative infrastructure agents"
+      ]
+    },
+    {
+      "date": "2026-08-23",
+      "selected_lanes": [
+        "agent-observability",
+        "model-routing-economics",
+        "open-source-security",
+        "connected-product-workflows"
+      ],
+      "items": [
+        {
+          "title": "Always-on tracing for production and preview traffic",
+          "url": "https://vercel.com/changelog/always-on-tracing-for-production-and-preview-traffic",
+          "source_type": "release",
+          "rationale": "Scoped live tracing with path rules and bounded retention is a concrete way to capture unreproducible agent failures."
+        },
+        {
+          "title": "GPT-5.6 Sol is now 50 percent off a lower price",
+          "url": "https://vercel.com/changelog/gpt-5-6-sol-is-now-50-percent-off-a-lower-price",
+          "source_type": "release",
+          "rationale": "The model ID is unchanged while input and output pricing fall, enabling a low-friction cost trial."
+        },
+        {
+          "title": "DeepSeek V4 Flash Vision Experimental now available on AI Gateway",
+          "url": "https://vercel.com/changelog/deepseek-v4-flash-with-vision-now-available-on-ai-gateway",
+          "source_type": "release",
+          "rationale": "A new image-capable experimental route supports screenshot and chart triage."
+        },
+        {
+          "title": "Patch the Planet: A Daybreak Initiative to Support Open-Source Maintainers",
+          "url": "https://openai.com/index/patch-the-planet/",
+          "source_type": "blog",
+          "rationale": "The program pairs AI-assisted discovery with validation, patching, testing, disclosure, and maintainer control."
+        },
+        {
+          "title": "Now you can connect even more of your favorite apps and services to Gemini",
+          "url": "https://blog.google/innovation-and-ai/products/gemini-app/new-connected-apps-services-gemini-august-2026/",
+          "source_type": "product",
+          "rationale": "Google is extending Gemini across productivity, commerce, local services, music, home, and health."
+        }
       ]
     }
   ],
@@ -3264,9 +3456,63 @@
     },
     {
       "date": "2026-08-22",
-      "selected_lanes": ["agent-execution", "ai-control-planes", "ai-transparency"],
-      "items": ["Introducing AgentKit", "The next evolution of the Agents SDK", "Agent Plugins 1.0", "Workers AI + AI Gateway unified control plane", "Radar Researcher", "EU AI Act Article 50", "GitHub Secure Open Source Fund", "Claude text watermarking"],
+      "selected_lanes": [
+        "agent-execution",
+        "ai-control-planes",
+        "ai-transparency"
+      ],
+      "items": [
+        "Introducing AgentKit",
+        "The next evolution of the Agents SDK",
+        "Agent Plugins 1.0",
+        "Workers AI + AI Gateway unified control plane",
+        "Radar Researcher",
+        "EU AI Act Article 50",
+        "GitHub Secure Open Source Fund",
+        "Claude text watermarking"
+      ],
       "selection_rationale": "Selected fresh primary signals around explicit execution boundaries, provider-neutral observability, and the now-active transparency milestone; avoided repeating yesterday’s API-context lane."
+    },
+    {
+      "date": "2026-08-23",
+      "selected_lanes": [
+        "agent-observability",
+        "model-routing-economics",
+        "open-source-security",
+        "connected-product-workflows"
+      ],
+      "items": [
+        {
+          "title": "Always-on tracing for production and preview traffic",
+          "url": "https://vercel.com/changelog/always-on-tracing-for-production-and-preview-traffic",
+          "source_type": "release",
+          "rationale": "Scoped live tracing with path rules and bounded retention is a concrete way to capture unreproducible agent failures."
+        },
+        {
+          "title": "GPT-5.6 Sol is now 50 percent off a lower price",
+          "url": "https://vercel.com/changelog/gpt-5-6-sol-is-now-50-percent-off-a-lower-price",
+          "source_type": "release",
+          "rationale": "The model ID is unchanged while input and output pricing fall, enabling a low-friction cost trial."
+        },
+        {
+          "title": "DeepSeek V4 Flash Vision Experimental now available on AI Gateway",
+          "url": "https://vercel.com/changelog/deepseek-v4-flash-with-vision-now-available-on-ai-gateway",
+          "source_type": "release",
+          "rationale": "A new image-capable experimental route supports screenshot and chart triage."
+        },
+        {
+          "title": "Patch the Planet: A Daybreak Initiative to Support Open-Source Maintainers",
+          "url": "https://openai.com/index/patch-the-planet/",
+          "source_type": "blog",
+          "rationale": "The program pairs AI-assisted discovery with validation, patching, testing, disclosure, and maintainer control."
+        },
+        {
+          "title": "Now you can connect even more of your favorite apps and services to Gemini",
+          "url": "https://blog.google/innovation-and-ai/products/gemini-app/new-connected-apps-services-gemini-august-2026/",
+          "source_type": "product",
+          "rationale": "Google is extending Gemini across productivity, commerce, local services, music, home, and health."
+        }
+      ]
     }
   ]
 }
