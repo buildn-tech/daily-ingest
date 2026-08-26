@@ -1,6 +1,81 @@
 {
-  "updated_at": "2026-08-24T08:05:12.539706+00:00",
+  "updated_at": "2026-08-26T08:06:35.552054+00:00",
   "sources": {
+    "https://blogs.nvidia.com/blog/local-ai-open-source-models-agents-nemotron": {
+      "first_seen": "2026-08-26",
+      "last_seen": "2026-08-26",
+      "title": "Nemotron 3.5 Lightning for agentic tasks"
+    },
+    "https://pplx-dgx-spark-lp-demo.pplx.app/": {
+      "first_seen": "2026-08-26",
+      "last_seen": "2026-08-26",
+      "title": "Portable Computer: local-first personal agent"
+    },
+    "https://huggingface.co/ggml-org/Qwen3.8-27B-GGUF": {
+      "first_seen": "2026-08-26",
+      "last_seen": "2026-08-26",
+      "title": "Qwen3.8-27B on RTX"
+    },
+    "https://developer.nvidia.com/nemo": {
+      "first_seen": "2026-08-26",
+      "last_seen": "2026-08-26",
+      "title": "NeMo Switchyard routing"
+    },
+    "https://openai.com/index/gpt-5-6-in-kiro": {
+      "first_seen": "2026-08-26",
+      "last_seen": "2026-08-26",
+      "title": "Model choice as a development-stage policy"
+    },
+    "https://kiro.dev/": {
+      "first_seen": "2026-08-26",
+      "last_seen": "2026-08-26",
+      "title": "Kiro spec-driven workflow"
+    },
+    "https://blog.cloudflare.com/the-agentic-internet": {
+      "first_seen": "2026-08-26",
+      "last_seen": "2026-08-26",
+      "title": "PACT privacy and authorization"
+    },
+    "https://developers.cloudflare.com/fundamentals/reference/markdown-for-agents": {
+      "first_seen": "2026-08-26",
+      "last_seen": "2026-08-26",
+      "title": "Markdown for Agents"
+    },
+    "https://developers.cloudflare.com/bots/concepts/bot-behavior": {
+      "first_seen": "2026-08-26",
+      "last_seen": "2026-08-26",
+      "title": "Web Bot Auth"
+    },
+    "https://www.x402.org/": {
+      "first_seen": "2026-08-26",
+      "last_seen": "2026-08-26",
+      "title": "x402 payment protocol"
+    },
+    "https://developer.chrome.com/blog/cws-policy-updates-2026": {
+      "first_seen": "2026-08-26",
+      "last_seen": "2026-08-26",
+      "title": "Chrome Web Store limited-use policy"
+    },
+    "https://developer.chrome.com/docs/webstore/program-policies/malicious-and-prohibited": {
+      "first_seen": "2026-08-26",
+      "last_seen": "2026-08-26",
+      "title": "AI-safety circumvention prohibition"
+    },
+    "https://developer.chrome.com/docs/webstore/program-policies/disclosure-requirements": {
+      "first_seen": "2026-08-26",
+      "last_seen": "2026-08-26",
+      "title": "Disclosure changes after install"
+    },
+    "https://developer.apple.com/news/releases?id=08252026a": {
+      "first_seen": "2026-08-26",
+      "last_seen": "2026-08-26",
+      "title": "TestFlight update"
+    },
+    "https://developer.apple.com/videos/play/wwdc2026/8009": {
+      "first_seen": "2026-08-26",
+      "last_seen": "2026-08-26",
+      "title": "Apple privacy and security lab guidance"
+    },
     "https://blog.jetbrains.com/research/2026/08/ai-coding-agent-adoption-2026": {
       "first_seen": "2026-08-24",
       "last_seen": "2026-08-24",

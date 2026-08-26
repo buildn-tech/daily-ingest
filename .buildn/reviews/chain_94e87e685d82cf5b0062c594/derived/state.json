@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "chainId": "chain_94e87e685d82cf5b0062c594",
+  "subject": {
+    "kind": "html",
+    "origin": "2026-08-24/index.html"
+  },
+  "status": "pending",
+  "reviewCount": 1,
+  "revisionCount": 1,
+  "activeReviewId": "review_725c6829-6019-47ed-8bbd-40f30e77bf30",
+  "reviews": [
+    {
+      "id": "review_725c6829-6019-47ed-8bbd-40f30e77bf30",
+      "previousReviewId": null,
+      "status": "pending",
+      "revision": {
+        "id": "revision_d759ee821787c57f98f37edb",
+        "hash": "5591a627db289b9e09070f40927b14c7cdbb1426c0da35b59510e4df7b3db35c",
+        "file": "revision_d759ee821787c57f98f37edb.html",
+        "mediaKind": "text/html"
+      },
+      "annotations": [],
+      "concernAssessments": [],
+      "decision": null
+    }
+  ]
+}

@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-08-24T08:05:12.539706+00:00",
+  "updated_at": "2026-08-26T08:06:35.552054+00:00",
   "days": [
+    {
+      "date": "2026-08-26",
+      "path": "2026-08-26",
+      "reports": [
+        {
+          "lane": "local-ai-edge",
+          "title": "Local AI Edge + Open Models",
+          "url": "2026-08-26/local-ai-edge.html"
+        },
+        {
+          "lane": "agentic-dev-economics",
+          "title": "Agentic Development: Price-Performance + Specs",
+          "url": "2026-08-26/agentic-dev-economics.html"
+        },
+        {
+          "lane": "agentic-web-contracts",
+          "title": "The Agentic Web: Readable, Callable, Payable",
+          "url": "2026-08-26/agentic-web-contracts.html"
+        },
+        {
+          "lane": "extension-privacy",
+          "title": "Platform Privacy + Extension Integrity",
+          "url": "2026-08-26/extension-privacy.html"
+        }
+      ]
+    },
     {
       "date": "2026-08-24",
       "path": "2026-08-24",
