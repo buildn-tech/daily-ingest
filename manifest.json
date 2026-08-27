@@ -1,6 +1,27 @@
 {
-  "updated_at": "2026-08-26T08:07:59.567256+00:00",
+  "updated_at": "2026-08-27T08:05:31.959206+00:00",
   "days": [
+    {
+      "date": "2026-08-27",
+      "path": "2026-08-27",
+      "reports": [
+        {
+          "lane": "physical-ai-simulation",
+          "title": "Physical AI: Simulation Becomes Agent-Callable",
+          "url": "2026-08-27/physical-ai-simulation.html"
+        },
+        {
+          "lane": "creative-agent-workflows",
+          "title": "Creative AI is becoming an editable production system",
+          "url": "2026-08-27/creative-agent-workflows.html"
+        },
+        {
+          "lane": "agent-security-incidents",
+          "title": "Agent security is moving from principles to incident-shaped controls",
+          "url": "2026-08-27/agent-security-incidents.html"
+        }
+      ]
+    },
     {
       "date": "2026-08-26",
       "path": "2026-08-26",

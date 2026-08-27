@@ -1,0 +1,148 @@
+{
+  "date": "2026-08-27",
+  "generated_at": "2026-08-27T08:04:36.932902+00:00",
+  "editorial_thesis": "Today\u2019s strongest signal is operational: physical AI is exposing staged toolchains, creative products are exposing editable steering loops, and security guidance is turning agent trust into per-action controls.",
+  "topic_groups": [
+    {
+      "slug": "physical-ai-simulation",
+      "title": "Physical AI: Simulation Becomes Agent-Callable",
+      "selection_rationale": "Selected for fresh primary-source signal, practical Buildn/client leverage, and a coverage gap after yesterday\u2019s local AI, agentic-web, extension-privacy, and development-economics lanes.",
+      "sources": [
+        {
+          "title": "Omniverse libraries for agent workflows",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-agent-toolkit-expands-with-new-omniverse-libraries-putting-ai-agents-to-work-building-simulation-ready-worlds",
+          "source_type": "official announcement",
+          "published_or_updated": "2026-08-27",
+          "why_selected": "It makes physical-AI preparation composable instead of a manual specialist queue.",
+          "usefulness": "Prototype a Buildn client-work lane that validates 3D assets and generates a review packet before any deployment step."
+        },
+        {
+          "title": "Alpamayo 2: open reasoning for robotaxis",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-alpamayo-2-super-robotaxis",
+          "source_type": "model + toolkit",
+          "published_or_updated": "2026-08-27",
+          "why_selected": "The important pattern is a complete data-to-validation loop, not a single model benchmark.",
+          "usefulness": "Borrow the loop for client automation: source evidence, transform it, test edge cases, and produce an auditable decision artifact."
+        },
+        {
+          "title": "Open physical-AI skills collection",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-releases-major-collection-of-open-source-agent-tools-and-skills-for-physical-ai",
+          "source_type": "open-source release",
+          "published_or_updated": "2026-08-27",
+          "why_selected": "Skills packages are becoming the portable unit for domain-specific agent competence.",
+          "usefulness": "Use the packaging pattern for Buildn skills: explicit inputs, tool permissions, expected evidence, and failure exits."
+        },
+        {
+          "title": "Jetson Orin Nano 2 targets edge experimentation",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-announces-jetson-orin-nano-2-robotics-computer-to-redefine-entry-level-edge-ai",
+          "source_type": "hardware announcement",
+          "published_or_updated": "2026-08-27",
+          "why_selected": "Lower-cost edge hardware makes local, bounded perception experiments easier to stage.",
+          "usefulness": "Run a privacy-first client prototype where images or sensor data are summarized locally before escalation."
+        },
+        {
+          "title": "The reusable idea: staged physical toolchains",
+          "url": "https://www.nvidia.com/en-us/industries/robotics/",
+          "source_type": "editorial synthesis",
+          "published_or_updated": "2026-08-27",
+          "why_selected": "That is the transferable design pattern for high-consequence client automations.",
+          "usefulness": "Add stage boundaries and approval gates to any Buildn workflow that changes external state."
+        }
+      ]
+    },
+    {
+      "slug": "creative-agent-workflows",
+      "title": "Creative AI is becoming an editable production system",
+      "selection_rationale": "Selected for fresh primary-source signal, practical Buildn/client leverage, and a coverage gap after yesterday\u2019s local AI, agentic-web, extension-privacy, and development-economics lanes.",
+      "sources": [
+        {
+          "title": "Google Pics puts controlled creation in Workspace",
+          "url": "https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements/",
+          "source_type": "official roundup",
+          "published_or_updated": "2026-05-20",
+          "why_selected": "Controls and editability are more valuable to client work than one-shot output quality.",
+          "usefulness": "Turn a client brief into constrained variants with brand tokens, dimensions, and an approval state."
+        },
+        {
+          "title": "Pomelli adds agentic brand-content workflows",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/pomelli-agentic-capabilities/",
+          "source_type": "official product update",
+          "published_or_updated": "2026-05-20",
+          "why_selected": "Brand context is becoming an active input to generation, not a PDF attached after the fact.",
+          "usefulness": "Maintain a structured client brand context: voice, palette, claims, prohibited patterns, and examples."
+        },
+        {
+          "title": "Stitch emphasizes real-time steering",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/stitch-updates/",
+          "source_type": "official product update",
+          "published_or_updated": "2026-05-20",
+          "why_selected": "Steering is the missing interaction between \u201cgenerate\u201d and \u201caccept\u201d; it preserves creative judgment.",
+          "usefulness": "Design client review flows around named decisions rather than vague feedback rounds."
+        },
+        {
+          "title": "Flow lets teams build bespoke creative tools",
+          "url": "https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements/",
+          "source_type": "official product update",
+          "published_or_updated": "2026-05-20",
+          "why_selected": "The opportunity shifts from choosing a universal app to composing a small tool for a repeated workflow.",
+          "usefulness": "Build narrowly scoped client utilities: resize, localize, annotate, or produce review sheets."
+        },
+        {
+          "title": "Transferable pattern: editable artifacts with human steering",
+          "url": "https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements/",
+          "source_type": "editorial synthesis",
+          "published_or_updated": "2026-08-27",
+          "why_selected": "That is a better operating model for client trust than exporting opaque final media.",
+          "usefulness": "Keep prompt/context, variants, edits, approvals, and final exports as one linked delivery record."
+        }
+      ]
+    },
+    {
+      "slug": "agent-security-incidents",
+      "title": "Agent security is moving from principles to incident-shaped controls",
+      "selection_rationale": "Selected for fresh primary-source signal, practical Buildn/client leverage, and a coverage gap after yesterday\u2019s local AI, agentic-web, extension-privacy, and development-economics lanes.",
+      "sources": [
+        {
+          "title": "OpenAI\u2019s Hugging Face incident write-up",
+          "url": "https://openai.com/index/hugging-face-incident-and-the-road-ahead/",
+          "source_type": "security analysis",
+          "published_or_updated": "2026-08-26",
+          "why_selected": "Third-party model and tool ecosystems turn supply-chain trust into an agent runtime concern.",
+          "usefulness": "Maintain an allowlist and provenance record for skills, model files, connectors, and package updates."
+        },
+        {
+          "title": "Safe link clicking needs an agent-specific model",
+          "url": "https://openai.com/index/ai-agent-link-safety/",
+          "source_type": "security guidance",
+          "published_or_updated": "2026-08-27",
+          "why_selected": "Browsing combines untrusted content, credentials, side effects, and instruction injection in one step.",
+          "usefulness": "Split fetch from act: retrieve in a sandbox, extract evidence, then require scoped authorization for mutations."
+        },
+        {
+          "title": "Zero data retention as a workflow choice",
+          "url": "https://openai.com/index/offering-zero-data-retention-for-frontier-models/",
+          "source_type": "service policy",
+          "published_or_updated": "2026-08-19",
+          "why_selected": "Retention posture can be selected per job rather than accepted as a global default.",
+          "usefulness": "Add data-residency and retention fields to client intake, then route only eligible tasks to each provider."
+        },
+        {
+          "title": "Rubrik frames agent identity around each action",
+          "url": "https://www.rubrik.com/company/newsroom/press-releases/26/rubrik-unveils-agent-identity-to-secure-agentic-actions-in-real-time",
+          "source_type": "security product",
+          "published_or_updated": "2026-08-04",
+          "why_selected": "Identity at the agent/tool-call boundary is more precise than one broad service account.",
+          "usefulness": "Model Buildn actions with actor, purpose, scope, expiry, and audit receipt."
+        },
+        {
+          "title": "Agent identity becomes the enterprise perimeter",
+          "url": "https://www.pingidentity.com/en/resources/blog/post/ai-agent-identity-enterprise-security-perimeter.html",
+          "source_type": "industry analysis",
+          "published_or_updated": "2026-08-20",
+          "why_selected": "The framing connects authentication, fine-grained authorization, and continuous monitoring.",
+          "usefulness": "Use it as a client conversation starter for ownership, revocation, and non-repudiation."
+        }
+      ]
+    }
+  ]
+}
