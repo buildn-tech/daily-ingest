@@ -1,0 +1,195 @@
+{
+  "date": "2026-08-28",
+  "generated_at": "2026-08-28T08:06:09.229658+00:00",
+  "editorial_thesis": "Today’s signal is practical rather than flashy: agent delivery gets more reviewable, design context becomes executable, memory gets evaluated for restraint, and deployment security becomes a continuous findings loop.",
+  "topic_groups": [
+    {
+      "slug": "developer-delivery",
+      "title": "Developer Delivery: Agents Need Better Boundaries",
+      "selection_rationale": "Fresh primary-source releases make agent-generated changes more reviewable and production routing more programmable; this is a practical Buildn/client delivery gap after yesterday’s physical-AI and incident-security coverage.",
+      "sources": [
+        {
+          "title": "Copilot code review expands to bot-authored and very large PRs",
+          "url": "https://github.blog/changelog/2026-08-27-copilot-code-review-resolution-reasons-and-expanded-capabilities/",
+          "source_type": "release",
+          "published_or_updated": "2026-08-27",
+          "why_selected": "GitHub now reviews bot-authored PRs, including Copilot cloud-agent PRs, removes prior 300-file/20,000-line limits, and adds Addressed/Won’t fix/Incorrect resolution reasons.",
+          "usefulness": "Route bot PRs through automatic review, then use resolution labels as a feedback signal for policy and prompt improvements."
+        },
+        {
+          "title": "Python projects gain staged CDN routing rules",
+          "url": "https://vercel.com/changelog/python-projects-now-support-routing-rules",
+          "source_type": "release",
+          "published_or_updated": "2026-08-26",
+          "why_selected": "FastAPI, Django, and Flask projects can stage, diff, publish, and roll back rewrites and headers before requests reach the app.",
+          "usefulness": "Use route changes as a safe, reversible control plane for client migrations and legacy URL cleanup."
+        },
+        {
+          "title": "Notion adapter lands in Chat SDK",
+          "url": "https://vercel.com/changelog/notion-chat-sdk",
+          "source_type": "release",
+          "published_or_updated": "2026-08-26",
+          "why_selected": "The same agent can join Notion comments alongside Slack, Discord, GitHub, Teams, and WhatsApp; page/channel and comment/thread map cleanly.",
+          "usefulness": "Put project decision agents where briefs already live, without a second bot codebase."
+        },
+        {
+          "title": "Vercel MCP supports the 2026-07-28 specification",
+          "url": "https://vercel.com/changelog/vercel-mcp-now-supports-the-2026-07-28-mcp-specification",
+          "source_type": "release",
+          "published_or_updated": "2026-08-26",
+          "why_selected": "Vercel MCP adds the newer stateless request model and updated authorization behavior without client setup changes.",
+          "usefulness": "Check connector compatibility and prefer stateless, scoped requests in new integrations."
+        },
+        {
+          "title": "GitHub label archiving is generally available",
+          "url": "https://github.blog/changelog/2026-08-27-label-archiving-is-generally-available",
+          "source_type": "release",
+          "published_or_updated": "2026-08-27",
+          "why_selected": "Repositories with growing issue taxonomies can archive stale labels while preserving historical references.",
+          "usefulness": "Keep agent triage vocabularies small and current; archive labels rather than teaching agents obsolete terms."
+        }
+      ]
+    },
+    {
+      "slug": "product-design",
+      "title": "Product Design: Context Is the New Handoff",
+      "selection_rationale": "Figma’s August 26 workflow lab supplies unusually concrete design-to-code practice; the lane is selected to turn yesterday’s editable-creative signal into an implementation discipline.",
+      "sources": [
+        {
+          "title": "Figma Workflow Lab: design and code stay synchronized",
+          "url": "https://www.figma.com/blog/workflow-lab-moving-between-design-and-code-with-agents/",
+          "source_type": "blog",
+          "published_or_updated": "2026-08-26",
+          "why_selected": "A workflow combines Figma Design, FigJam, Figma MCP, Code Connect, and coding agents so behavior, tokens, components, and implementation stay linked.",
+          "usefulness": "Pilot one Buildn/client feature with a behavior diagram, approved tokens, and mapped code components before prompting implementation."
+        },
+        {
+          "title": "FigJam behavior diagrams become agent context",
+          "url": "https://www.figma.com/blog/workflow-lab-moving-between-design-and-code-with-agents/",
+          "source_type": "blog",
+          "published_or_updated": "2026-08-26",
+          "why_selected": "The example uses editable flow diagrams to expose missing states and transitions before code is written.",
+          "usefulness": "Require state/transition artifacts for agent-built flows such as approvals, undo, retry, and failure."
+        },
+        {
+          "title": "Code Connect maps approved components to implementation",
+          "url": "https://www.figma.com/blog/workflow-lab-moving-between-design-and-code-with-agents/",
+          "source_type": "blog",
+          "published_or_updated": "2026-08-26",
+          "why_selected": "Design components are paired with real code implementations so agents reuse the right primitives instead of guessing.",
+          "usefulness": "Create a small “design-to-code contract” for recurring client UI patterns."
+        },
+        {
+          "title": "Sightlines: trust is priority zero for agentic products",
+          "url": "https://www.figma.com/blog/sightlines-issue-no2/",
+          "source_type": "blog",
+          "published_or_updated": "2026-08-26",
+          "why_selected": "Figma’s leadership synthesis emphasizes sources, visible work, governance checkpoints, and explicit human accountability.",
+          "usefulness": "Add explainability and escalation states to product requirements, not just model prompts."
+        },
+        {
+          "title": "Editable artifacts beat opaque exports",
+          "url": "https://www.figma.com/blog/workflow-lab-moving-between-design-and-code-with-agents/",
+          "source_type": "blog",
+          "published_or_updated": "2026-08-26",
+          "why_selected": "The workflow keeps requirements, diagrams, tokens, components, and implementation inspectable as a connected record.",
+          "usefulness": "Make every agent handoff leave a reviewable artifact and a named decision owner."
+        }
+      ]
+    },
+    {
+      "slug": "memory-evaluation",
+      "title": "Memory + Learning: Measure Restraint, Not Recall Alone",
+      "selection_rationale": "Memory is a coverage gap: recent runs emphasized runtime/security and physical AI, while these fresh papers provide a practical evaluation lens for personal and agent memory systems.",
+      "sources": [
+        {
+          "title": "AgentMemBench standardizes long-term memory evaluation",
+          "url": "https://arxiv.org/abs/2608.00009",
+          "source_type": "paper",
+          "published_or_updated": "2026-08-27",
+          "why_selected": "The benchmark compares windowing, key-value, graph, summarization, and web-augmented memory across recall, faithfulness, footprint, and latency.",
+          "usefulness": "Use its metric set to evaluate Buildn memory changes instead of judging only by anecdotal recall."
+        },
+        {
+          "title": "External key-value memory wins long-range retrieval",
+          "url": "https://arxiv.org/abs/2608.00009",
+          "source_type": "paper",
+          "published_or_updated": "2026-08-27",
+          "why_selected": "In the reported comparison, EKV dominates quality, while carrying a larger context footprint than short-window approaches.",
+          "usefulness": "Prototype explicit memory records with retrieval budgets and inspectable provenance."
+        },
+        {
+          "title": "SuperLocalMemory V3.3 explores zero-LLM local memory",
+          "url": "https://arxiv.org/abs/2604.04514",
+          "source_type": "paper",
+          "published_or_updated": "2026-08-26",
+          "why_selected": "The system combines forgetting, compression, and seven retrieval channels for CPU-only local operation.",
+          "usefulness": "Test local memory for sensitive notes where cloud calls are undesirable."
+        },
+        {
+          "title": "OP-Bench measures over-personalization",
+          "url": "https://arxiv.org/abs/2601.13722",
+          "source_type": "paper",
+          "published_or_updated": "2026-08-26",
+          "why_selected": "OP-Bench treats irrelevance, repetition, and sycophancy as failures even when the agent remembers correctly.",
+          "usefulness": "Add “should memory be used?” checks to personal assistants and client knowledge agents."
+        },
+        {
+          "title": "Self-ReCheck offers a lightweight memory filter",
+          "url": "https://arxiv.org/abs/2601.13722",
+          "source_type": "paper",
+          "published_or_updated": "2026-08-26",
+          "why_selected": "The proposed model-agnostic step reconsiders whether retrieved memories are relevant before response generation.",
+          "usefulness": "Implement a small relevance/necessity gate and log false positives and negatives."
+        }
+      ]
+    },
+    {
+      "slug": "deployment-security",
+      "title": "Deployment Security: Turn Findings into a Loop",
+      "selection_rationale": "A current Next.js disclosure plus an all-plan security dashboard creates an immediate, actionable security lane distinct from yesterday’s agent-incident theme.",
+      "sources": [
+        {
+          "title": "Next.js August 2026 security release",
+          "url": "https://vercel.com/changelog/nextjs-august-2026-security-release",
+          "source_type": "release",
+          "published_or_updated": "2026-08-26",
+          "why_selected": "Two critical issues include crafted AVIF remote code execution and a Windows-hosted server RCE; self-hosted apps must upgrade to 15.5.24 or 16.3.3.",
+          "usefulness": "Check every self-hosted Next.js deployment and upgrade; verify image-processing and OS assumptions."
+        },
+        {
+          "title": "Vercel Security Dashboard is generally available",
+          "url": "https://vercel.com/changelog/vercel-security-dashboard-is-now-generally-available",
+          "source_type": "release",
+          "published_or_updated": "2026-08-26",
+          "why_selected": "All plans get centralized checks for 2FA, OIDC opportunities, public previews, and stale/non-sensitive environment variables.",
+          "usefulness": "Run the dashboard once per project portfolio, export findings, and assign owners."
+        },
+        {
+          "title": "Security checks expose structured JSON in CI",
+          "url": "https://vercel.com/changelog/vercel-security-dashboard-is-now-generally-available",
+          "source_type": "release",
+          "published_or_updated": "2026-08-26",
+          "why_selected": "vercel security check emits machine-readable output in non-interactive environments and supports --findings.",
+          "usefulness": "Make security checks a gate in Buildn delivery pipelines and let agents remediate only scoped findings."
+        },
+        {
+          "title": "Managed AVIF mitigation changes image behavior",
+          "url": "https://vercel.com/changelog/nextjs-august-2026-security-release",
+          "source_type": "release",
+          "published_or_updated": "2026-08-26",
+          "why_selected": "Vercel disabled AVIF optimization; patched releases serve AVIF inputs as-is until a fixed libheif version is available.",
+          "usefulness": "Add image-format behavior to regression tests and client release notes."
+        },
+        {
+          "title": "Security posture is now an operating artifact",
+          "url": "https://vercel.com/changelog/vercel-security-dashboard-is-now-generally-available",
+          "source_type": "release",
+          "published_or_updated": "2026-08-26",
+          "why_selected": "Risk-ordered findings, direct remediation links, CSV export, and project scoping turn security from a periodic audit into a repeatable loop.",
+          "usefulness": "Keep a dated finding export beside deployment evidence and close the loop after fixes."
+        }
+      ]
+    }
+  ]
+}

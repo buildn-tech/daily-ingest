@@ -1,6 +1,66 @@
 {
-  "updated_at": "2026-08-27T08:06:44.953396+00:00",
+  "updated_at": "2026-08-28T08:06:17.802296+00:00",
   "sources": {
+    "https://github.blog/changelog/2026-08-27-copilot-code-review-resolution-reasons-and-expanded-capabilities": {
+      "first_seen": "2026-08-28",
+      "last_seen": "2026-08-28",
+      "title": "Copilot code review expands to bot-authored and very large PRs"
+    },
+    "https://vercel.com/changelog/python-projects-now-support-routing-rules": {
+      "first_seen": "2026-08-28",
+      "last_seen": "2026-08-28",
+      "title": "Python projects gain staged CDN routing rules"
+    },
+    "https://vercel.com/changelog/notion-chat-sdk": {
+      "first_seen": "2026-08-28",
+      "last_seen": "2026-08-28",
+      "title": "Notion adapter lands in Chat SDK"
+    },
+    "https://vercel.com/changelog/vercel-mcp-now-supports-the-2026-07-28-mcp-specification": {
+      "first_seen": "2026-08-28",
+      "last_seen": "2026-08-01",
+      "title": "Vercel MCP now supports the 2026-07-28 MCP specification"
+    },
+    "https://github.blog/changelog/2026-08-27-label-archiving-is-generally-available": {
+      "first_seen": "2026-08-28",
+      "last_seen": "2026-08-28",
+      "title": "GitHub label archiving is generally available"
+    },
+    "https://www.figma.com/blog/workflow-lab-moving-between-design-and-code-with-agents": {
+      "first_seen": "2026-08-28",
+      "last_seen": "2026-08-28",
+      "title": "Editable artifacts beat opaque exports"
+    },
+    "https://www.figma.com/blog/sightlines-issue-no2": {
+      "first_seen": "2026-08-28",
+      "last_seen": "2026-08-28",
+      "title": "Sightlines: trust is priority zero for agentic products"
+    },
+    "https://arxiv.org/abs/2608.00009": {
+      "first_seen": "2026-08-28",
+      "last_seen": "2026-08-28",
+      "title": "External key-value memory wins long-range retrieval"
+    },
+    "https://arxiv.org/abs/2604.04514": {
+      "first_seen": "2026-08-28",
+      "last_seen": "2026-08-28",
+      "title": "SuperLocalMemory V3.3 explores zero-LLM local memory"
+    },
+    "https://arxiv.org/abs/2601.13722": {
+      "first_seen": "2026-08-28",
+      "last_seen": "2026-08-28",
+      "title": "Self-ReCheck offers a lightweight memory filter"
+    },
+    "https://vercel.com/changelog/nextjs-august-2026-security-release": {
+      "first_seen": "2026-08-28",
+      "last_seen": "2026-08-28",
+      "title": "Managed AVIF mitigation changes image behavior"
+    },
+    "https://vercel.com/changelog/vercel-security-dashboard-is-now-generally-available": {
+      "first_seen": "2026-08-28",
+      "last_seen": "2026-08-28",
+      "title": "Security posture is now an operating artifact"
+    },
     "https://nvidianews.nvidia.com/news/nvidia-agent-toolkit-expands-with-new-omniverse-libraries-putting-ai-agents-to-work-building-simulation-ready-worlds": {
       "first_seen": "2026-08-27",
       "last_seen": "2026-08-27",
@@ -1250,11 +1310,6 @@
       "first_seen": "2026-08-01",
       "last_seen": "2026-08-01",
       "title": "Static OAuth client credentials for MCP server portals"
-    },
-    "https://vercel.com/changelog/vercel-mcp-now-supports-the-2026-07-28-mcp-specification": {
-      "first_seen": "2026-08-01",
-      "last_seen": "2026-08-01",
-      "title": "Vercel MCP now supports the 2026-07-28 MCP specification"
     },
     "https://github.blog/changelog/2026-07-31-restricting-npm-bypass-2fa-granular-access-tokens": {
       "first_seen": "2026-08-01",

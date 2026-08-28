@@ -2936,9 +2936,19 @@
         }
       ],
       "selection_rationale": "Fresh primary-source signal; rotated away from the 2026-08-26 local AI, agentic development, agentic web, and extension privacy lanes."
+    },
+    {
+      "date": "2026-08-28",
+      "lanes": [
+        "developer-delivery",
+        "product-design",
+        "memory-evaluation",
+        "deployment-security"
+      ],
+      "rationale": "Current primary sources plus coverage gaps; avoid repeating yesterday’s physical-AI, creative, and incident-security lanes."
     }
   ],
-  "updated_at": "2026-08-27T08:04:36.932902+00:00",
+  "updated_at": "2026-08-28T08:06:09.229658+00:00",
   "last_run": "2026-08-27",
   "last_editorial_thesis": "Today’s strongest signal is operational: physical AI is exposing staged toolchains, creative products are exposing editable steering loops, and security guidance is turning agent trust into per-action controls.",
   "coverage_history": [
@@ -3995,6 +4005,66 @@
       "first_seen": "2026-08-23",
       "last_seen": "2026-08-23",
       "title": "Now you can connect even more of your favorite apps and services to Gemini"
+    },
+    "https://github.blog/changelog/2026-08-27-copilot-code-review-resolution-reasons-and-expanded-capabilities/": {
+      "first_seen": "2026-08-28",
+      "last_seen": "2026-08-28",
+      "title": "Copilot code review expands to bot-authored and very large PRs"
+    },
+    "https://vercel.com/changelog/python-projects-now-support-routing-rules": {
+      "first_seen": "2026-08-28",
+      "last_seen": "2026-08-28",
+      "title": "Python projects gain staged CDN routing rules"
+    },
+    "https://vercel.com/changelog/notion-chat-sdk": {
+      "first_seen": "2026-08-28",
+      "last_seen": "2026-08-28",
+      "title": "Notion adapter lands in Chat SDK"
+    },
+    "https://vercel.com/changelog/vercel-mcp-now-supports-the-2026-07-28-mcp-specification": {
+      "first_seen": "2026-08-28",
+      "last_seen": "2026-08-28",
+      "title": "Vercel MCP supports the 2026-07-28 specification"
+    },
+    "https://github.blog/changelog/2026-08-27-label-archiving-is-generally-available": {
+      "first_seen": "2026-08-28",
+      "last_seen": "2026-08-28",
+      "title": "GitHub label archiving is generally available"
+    },
+    "https://www.figma.com/blog/workflow-lab-moving-between-design-and-code-with-agents/": {
+      "first_seen": "2026-08-28",
+      "last_seen": "2026-08-28",
+      "title": "Editable artifacts beat opaque exports"
+    },
+    "https://www.figma.com/blog/sightlines-issue-no2/": {
+      "first_seen": "2026-08-28",
+      "last_seen": "2026-08-28",
+      "title": "Sightlines: trust is priority zero for agentic products"
+    },
+    "https://arxiv.org/abs/2608.00009": {
+      "first_seen": "2026-08-28",
+      "last_seen": "2026-08-28",
+      "title": "External key-value memory wins long-range retrieval"
+    },
+    "https://arxiv.org/abs/2604.04514": {
+      "first_seen": "2026-08-28",
+      "last_seen": "2026-08-28",
+      "title": "SuperLocalMemory V3.3 explores zero-LLM local memory"
+    },
+    "https://arxiv.org/abs/2601.13722": {
+      "first_seen": "2026-08-28",
+      "last_seen": "2026-08-28",
+      "title": "Self-ReCheck offers a lightweight memory filter"
+    },
+    "https://vercel.com/changelog/nextjs-august-2026-security-release": {
+      "first_seen": "2026-08-28",
+      "last_seen": "2026-08-28",
+      "title": "Managed AVIF mitigation changes image behavior"
+    },
+    "https://vercel.com/changelog/vercel-security-dashboard-is-now-generally-available": {
+      "first_seen": "2026-08-28",
+      "last_seen": "2026-08-28",
+      "title": "Security posture is now an operating artifact"
     }
   },
   "recent_runs": [
@@ -5043,5 +5113,27 @@
         }
       ]
     }
-  ]
+  ],
+  "themes": {
+    "developer-delivery": {
+      "count": 1,
+      "last_covered": "2026-08-28",
+      "title": "Developer Delivery: Agents Need Better Boundaries"
+    },
+    "product-design": {
+      "count": 1,
+      "last_covered": "2026-08-28",
+      "title": "Product Design: Context Is the New Handoff"
+    },
+    "memory-evaluation": {
+      "count": 1,
+      "last_covered": "2026-08-28",
+      "title": "Memory + Learning: Measure Restraint, Not Recall Alone"
+    },
+    "deployment-security": {
+      "count": 1,
+      "last_covered": "2026-08-28",
+      "title": "Deployment Security: Turn Findings into a Loop"
+    }
+  }
 }
