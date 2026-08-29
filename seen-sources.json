@@ -1,10 +1,50 @@
 {
-  "updated_at": "2026-08-28T08:06:17.802296+00:00",
+  "updated_at": "2026-08-29T08:08:53.991552+00:00",
   "sources": {
+    "https://github.blog/changelog/2026-08-28-github-copilot-in-visual-studio-august-update-2": {
+      "first_seen": "2026-08-29",
+      "last_seen": "2026-08-29",
+      "title": "Visual Studio Copilot August update"
+    },
+    "https://github.blog/changelog/2026-08-28-upcoming-changes-to-github-copilot-policies-and-billing": {
+      "first_seen": "2026-08-29",
+      "last_seen": "2026-08-29",
+      "title": "Upcoming Copilot policy and billing changes"
+    },
+    "https://blog.jetbrains.com/research/2026/08/ai-coding-agent-adoption-2026": {
+      "first_seen": "2026-08-29",
+      "last_seen": "2026-08-24",
+      "title": "AI Coding Agents: Adoption Trends"
+    },
     "https://github.blog/changelog/2026-08-27-copilot-code-review-resolution-reasons-and-expanded-capabilities": {
-      "first_seen": "2026-08-28",
+      "first_seen": "2026-08-29",
       "last_seen": "2026-08-28",
       "title": "Copilot code review expands to bot-authored and very large PRs"
+    },
+    "https://blog.cloudflare.com/agent-development-lifecycle": {
+      "first_seen": "2026-08-29",
+      "last_seen": "2026-08-24",
+      "title": "Agent Development Lifecycle"
+    },
+    "https://cloud.google.com/blog/products/ai-machine-learning/google-managed-mcp-servers-are-available-for-everyone": {
+      "first_seen": "2026-08-29",
+      "last_seen": "2026-08-29",
+      "title": "Google-managed MCP servers"
+    },
+    "https://cloud.google.com/blog/products/ai-machine-learning/what-google-cloud-announced-in-ai-this-month": {
+      "first_seen": "2026-08-29",
+      "last_seen": "2026-08-29",
+      "title": "Google Agent Platform recap"
+    },
+    "https://www.anthropic.com/news/model-hardware-standard-research-preview": {
+      "first_seen": "2026-08-29",
+      "last_seen": "2026-08-29",
+      "title": "Machine-readable physical constraints"
+    },
+    "https://stripe.com/blog/machine-payments-protocol": {
+      "first_seen": "2026-08-29",
+      "last_seen": "2026-08-29",
+      "title": "Agent-native service examples"
     },
     "https://vercel.com/changelog/python-projects-now-support-routing-rules": {
       "first_seen": "2026-08-28",
@@ -201,11 +241,6 @@
       "last_seen": "2026-08-26",
       "title": "Apple privacy and security lab guidance"
     },
-    "https://blog.jetbrains.com/research/2026/08/ai-coding-agent-adoption-2026": {
-      "first_seen": "2026-08-24",
-      "last_seen": "2026-08-24",
-      "title": "AI Coding Agents: Adoption Trends"
-    },
     "https://github.blog/changelog/2026-08-11-copilot-memory-and-ollama-in-github-copilot-for-jetbrains": {
       "first_seen": "2026-08-24",
       "last_seen": "2026-08-12",
@@ -230,11 +265,6 @@
       "first_seen": "2026-08-24",
       "last_seen": "2026-08-24",
       "title": "WriteGuard"
-    },
-    "https://blog.cloudflare.com/agent-development-lifecycle": {
-      "first_seen": "2026-08-24",
-      "last_seen": "2026-08-24",
-      "title": "Agent Development Lifecycle"
     },
     "https://vercel.com/changelog/always-on-tracing-for-production-and-preview-traffic": {
       "first_seen": "2026-08-23",

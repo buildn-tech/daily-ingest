@@ -1,0 +1,147 @@
+{
+  "date": "2026-08-29",
+  "generated_at": "2026-08-29T08:08:22.675851+00:00",
+  "editorial_thesis": "Agent systems are becoming operational surfaces: govern the delivery factory, standardize tool boundaries, and make cost and approval visible before action.",
+  "topic_groups": [
+    {
+      "slug": "agent-delivery-governance",
+      "title": "Agent Delivery: Govern the Factory, Not Just the Prompt",
+      "selection_rationale": "Fresh Aug 28 GitHub policy and IDE updates plus current adoption research make governance and economics immediately actionable after yesterday’s developer-delivery lane.",
+      "sources": [
+        {
+          "title": "Visual Studio Copilot August update",
+          "url": "https://github.blog/changelog/2026-08-28-github-copilot-in-visual-studio-august-update-2",
+          "source_type": "release",
+          "published_or_updated": "2026-08-28",
+          "why_selected": "New shared agents, effort controls, usage visibility, model management, and pre-PR review make governance actionable.",
+          "usefulness": "Pilot a scoped organizational agent and track review/cost evidence."
+        },
+        {
+          "title": "Upcoming Copilot policy and billing changes",
+          "url": "https://github.blog/changelog/2026-08-28-upcoming-changes-to-github-copilot-policies-and-billing",
+          "source_type": "release",
+          "published_or_updated": "2026-08-28",
+          "why_selected": "September and October changes affect policy, retention, review defaults, and billing.",
+          "usefulness": "Audit tenant settings and calendar the change windows."
+        },
+        {
+          "title": "AI coding agent adoption trends",
+          "url": "https://blog.jetbrains.com/research/2026/08/ai-coding-agent-adoption-2026/",
+          "source_type": "research",
+          "published_or_updated": "2026-08-18",
+          "why_selected": "Survey data shows weekly agent use at 90% and daily use at 68%, with rapid tool-share movement.",
+          "usefulness": "Measure task-level tool economics instead of standardizing by habit."
+        },
+        {
+          "title": "Copilot code review resolution reasons",
+          "url": "https://github.blog/changelog/2026-08-27-copilot-code-review-resolution-reasons-and-expanded-capabilities",
+          "source_type": "release",
+          "published_or_updated": "2026-08-27",
+          "why_selected": "Review outcomes become structured feedback for agent and repository improvement.",
+          "usefulness": "Sample resolution reasons and prioritize repeat false positives."
+        }
+      ]
+    },
+    {
+      "slug": "agent-development-lifecycle",
+      "title": "Agent Infrastructure: Build the Full Lifecycle",
+      "selection_rationale": "Cloudflare’s ADLC framing and managed-connector primitives fill a coverage gap: the practical bottleneck is now lifecycle control, not code generation.",
+      "sources": [
+        {
+          "title": "The Agent Development Lifecycle",
+          "url": "https://blog.cloudflare.com/agent-development-lifecycle/",
+          "source_type": "blog",
+          "published_or_updated": "2026-08-04",
+          "why_selected": "Cloudflare argues agents should participate across the full lifecycle, not only implementation.",
+          "usefulness": "Map one workflow across every lifecycle stage."
+        },
+        {
+          "title": "Google-managed MCP servers",
+          "url": "https://cloud.google.com/blog/products/ai-machine-learning/google-managed-mcp-servers-are-available-for-everyone",
+          "source_type": "release",
+          "published_or_updated": "2026-04-28",
+          "why_selected": "Managed endpoints add centralized discovery, IAM, safety, traces, and audit logs.",
+          "usefulness": "Inventory connectors and replace fragile point-to-point links where appropriate."
+        },
+        {
+          "title": "Google Agent Platform recap",
+          "url": "https://cloud.google.com/blog/products/ai-machine-learning/what-google-cloud-announced-in-ai-this-month",
+          "source_type": "blog",
+          "published_or_updated": "2026-08-01",
+          "why_selected": "Agent Runtime, Identity, long-running agents, Designer, Gallery, and Memory Bank show the platform shape.",
+          "usefulness": "Draft a minimum agent run record and approval surface."
+        },
+        {
+          "title": "Local traces for agent development",
+          "url": "https://blog.cloudflare.com/agent-development-lifecycle/",
+          "source_type": "blog",
+          "published_or_updated": "2026-08-04",
+          "why_selected": "Production-like OTel traces in local development make failures reconstructable.",
+          "usefulness": "Add trace IDs and tool-call evidence to one skill."
+        }
+      ]
+    },
+    {
+      "slug": "hardware-interoperability",
+      "title": "Physical Systems: Standardize the Instrument Boundary",
+      "selection_rationale": "Anthropic’s Aug 27 MHS preview is a material update to physical-AI coverage, shifting the focus from simulation to interoperable device contracts.",
+      "sources": [
+        {
+          "title": "Model Hardware Standard research preview",
+          "url": "https://www.anthropic.com/news/model-hardware-standard-research-preview",
+          "source_type": "release",
+          "published_or_updated": "2026-08-27",
+          "why_selected": "A model-agnostic driver and constraint layer targets interoperable agent control of lab and manufacturing equipment.",
+          "usefulness": "Draft a capability manifest for one external system."
+        },
+        {
+          "title": "Exploratory reasoning to deterministic script",
+          "url": "https://www.anthropic.com/news/model-hardware-standard-research-preview",
+          "source_type": "blog",
+          "published_or_updated": "2026-08-27",
+          "why_selected": "Exploration can be compiled into bounded, repeatable execution.",
+          "usefulness": "Define promotion evidence and an approval gate."
+        },
+        {
+          "title": "Machine-readable physical constraints",
+          "url": "https://www.anthropic.com/news/model-hardware-standard-research-preview",
+          "source_type": "blog",
+          "published_or_updated": "2026-08-27",
+          "why_selected": "Drivers expose capabilities, adjustable parameters, and safety limits.",
+          "usefulness": "Lint tool manifests and fail closed on missing limits."
+        }
+      ]
+    },
+    {
+      "slug": "machine-payments",
+      "title": "Agent Commerce: Make Payment a Tool Contract",
+      "selection_rationale": "Stripe provides a concrete payment implementation for the agentic-web lane; it is revisited only because the protocol adds a materially new operational path beyond earlier x402 coverage.",
+      "sources": [
+        {
+          "title": "Machine Payments Protocol",
+          "url": "https://stripe.com/blog/machine-payments-protocol",
+          "source_type": "release",
+          "published_or_updated": "2026-08-11",
+          "why_selected": "MPP makes agent payment a protocol interaction for microtransactions and recurring payments.",
+          "usefulness": "Prototype one fixed-price sandbox service."
+        },
+        {
+          "title": "Payment request as the interface",
+          "url": "https://stripe.com/blog/machine-payments-protocol",
+          "source_type": "blog",
+          "published_or_updated": "2026-08-11",
+          "why_selected": "Services can return payment terms before delivering an API, MCP, or HTTP resource.",
+          "usefulness": "Define price, purpose, cap, expiry, and refund fields in receipts."
+        },
+        {
+          "title": "Agent-native service examples",
+          "url": "https://stripe.com/blog/machine-payments-protocol",
+          "source_type": "blog",
+          "published_or_updated": "2026-08-11",
+          "why_selected": "Browser sessions, mail, food, climate, and API access illustrate bounded fulfillment.",
+          "usefulness": "Calculate unit margin for one narrowly scoped service."
+        }
+      ]
+    }
+  ]
+}
