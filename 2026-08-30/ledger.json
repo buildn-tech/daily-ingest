@@ -1,0 +1,148 @@
+{
+  "date": "2026-08-30",
+  "generated_at": "2026-08-30T08:06:25.405055+00:00",
+  "editorial_thesis": "The next durable advantage is not more autonomous behavior; it is the operating evidence that makes autonomy safe to adopt, cheaper to run, and easier to correct.",
+  "topic_groups": [
+    {
+      "slug": "agent-runtime-observability",
+      "title": "Agent Runtime: Trace the Work, Not Just the Request",
+      "selection_rationale": "Fresh practical signal in a coverage gap; selected for direct Buildn/client leverage and non-repetition versus the 2026-08-29 dossier.",
+      "sources": [
+        {
+          "title": "Cloudflare Agents",
+          "url": "https://blog.cloudflare.com/agents-on-cloudflare/",
+          "source_type": "blog",
+          "published_or_updated": "2026-08-30 or earlier",
+          "why_selected": "A hosted-agent layer built around live tracing, session replay, model/tool spans, approvals, and cost metadata.",
+          "usefulness": "Payload recording depends on the harness; privacy settings must be explicit before collecting messages."
+        },
+        {
+          "title": "Local tracing for Workers",
+          "url": "https://blog.cloudflare.com/local-tracing/",
+          "source_type": "blog",
+          "published_or_updated": "2026-08-30 or earlier",
+          "why_selected": "Cloudflare’s local tracing work brings production-like distributed traces into development.",
+          "usefulness": "A trace is evidence, not a correctness proof; pair it with task-level evals."
+        },
+        {
+          "title": "Billable Usage API",
+          "url": "https://blog.cloudflare.com/billable-usage-api/",
+          "source_type": "blog",
+          "published_or_updated": "2026-08-30 or earlier",
+          "why_selected": "A programmable usage and cost surface for Cloudflare self-serve products.",
+          "usefulness": "Provider billing dimensions may not map cleanly to business outcomes."
+        },
+        {
+          "title": "Workers RPC across Python and JavaScript",
+          "url": "https://blog.cloudflare.com/python-workers-rpc/",
+          "source_type": "blog",
+          "published_or_updated": "2026-08-30 or earlier",
+          "why_selected": "Direct communication between Python and JavaScript Workers.",
+          "usefulness": "Cross-runtime contracts still need schema, timeout, and observability discipline."
+        },
+        {
+          "title": "Computer-oriented agent runtime",
+          "url": "https://blog.cloudflare.com/cloudflare-computer/",
+          "source_type": "blog",
+          "published_or_updated": "2026-08-30 or earlier",
+          "why_selected": "An environment-selection model that treats a computer, filesystem, shell, and packages as first-class agent infrastructure.",
+          "usefulness": "More capability increases blast radius; isolation and egress policy are prerequisites."
+        }
+      ]
+    },
+    {
+      "slug": "task-scoped-agent-access",
+      "title": "Agent Access: Bind Authority to the Task",
+      "selection_rationale": "Fresh practical signal in a coverage gap; selected for direct Buildn/client leverage and non-repetition versus the 2026-08-29 dossier.",
+      "sources": [
+        {
+          "title": "Agent Access Model",
+          "url": "https://blog.cloudflare.com/the-agent-access-model/",
+          "source_type": "blog",
+          "published_or_updated": "2026-08-30 or earlier",
+          "why_selected": "Cloudflare’s proposed model binds short-lived credentials and least privilege to a task execution graph.",
+          "usefulness": "This is a proposed architecture, not a universal standard; map it to the client’s IAM stack."
+        },
+        {
+          "title": "Codex Security",
+          "url": "https://openai.com/index/codex-security-now-in-research-preview/",
+          "source_type": "research",
+          "published_or_updated": "2026-08-30 or earlier",
+          "why_selected": "An application-security agent combining project threat models, sandboxed validation, context-aware patches, and feedback.",
+          "usefulness": "Research-preview claims and supported environments require independent validation."
+        },
+        {
+          "title": "Open Secure AI Alliance / SAFE",
+          "url": "https://blogs.nvidia.com/blog/open-secure-ai-alliance-contributions/",
+          "source_type": "blog",
+          "published_or_updated": "2026-08-30 or earlier",
+          "why_selected": "An industry collaboration around cybersecurity transparency, agent runtime controls, verified skills, identity, and production evaluation.",
+          "usefulness": "Alliance guidance and projects vary in maturity and interoperability."
+        },
+        {
+          "title": "State of AI Agent Security 2026",
+          "url": "https://www.gravitee.io/state-of-ai-agent-security",
+          "source_type": "research",
+          "published_or_updated": "2026-08-30 or earlier",
+          "why_selected": "A current survey/report highlighting low coverage of deployed-agent monitoring and uneven security practice.",
+          "usefulness": "Vendor research can include sampling and definition bias; treat the exact percentages as directional."
+        },
+        {
+          "title": "Monitoring internal coding agents for misalignment",
+          "url": "https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment/",
+          "source_type": "research",
+          "published_or_updated": "2026-08-30 or earlier",
+          "why_selected": "OpenAI describes monitoring patterns for detecting and understanding misaligned behavior in coding agents.",
+          "usefulness": "Internal monitoring methods may not transfer directly to small teams."
+        }
+      ]
+    },
+    {
+      "slug": "long-term-agent-memory",
+      "title": "Long-Term Memory: Store Evidence, Not Just Context",
+      "selection_rationale": "Fresh practical signal in a coverage gap; selected for direct Buildn/client leverage and non-repetition versus the 2026-08-29 dossier.",
+      "sources": [
+        {
+          "title": "Titans + MIRAS",
+          "url": "https://research.google/blog/titans-miras-helping-ai-have-long-term-memory/",
+          "source_type": "blog",
+          "published_or_updated": "2026-08-30 or earlier",
+          "why_selected": "Google Research presents a long-term memory architecture and framework using selective, surprise-driven updates during inference.",
+          "usefulness": "Research architecture is not a drop-in agent-memory product."
+        },
+        {
+          "title": "Differentiated memory for scientific cognition",
+          "url": "https://www.frontiersin.org/journals/big-data/articles/10.3389/fdata.2026.1916523/full",
+          "source_type": "research",
+          "published_or_updated": "2026-08-30 or earlier",
+          "why_selected": "A 2026 framework proposal arguing that research agents need differentiated memory types for scientific work.",
+          "usefulness": "Framework proposals need empirical validation and careful schema design."
+        },
+        {
+          "title": "Evidence-linked retrieval",
+          "url": "https://research.google/blog/titans-miras-helping-ai-have-long-term-memory/",
+          "source_type": "blog",
+          "published_or_updated": "2026-08-30 or earlier",
+          "why_selected": "A practical design pattern: retrieve claims with source, timestamp, confidence, and update path rather than naked text snippets.",
+          "usefulness": "Provenance itself can become stale and needs refresh policy."
+        },
+        {
+          "title": "Forgetting as a product decision",
+          "url": "https://www.frontiersin.org/journals/big-data/articles/10.3389/fdata.2026.1916523/full",
+          "source_type": "research",
+          "published_or_updated": "2026-08-30 or earlier",
+          "why_selected": "Selective forgetting treats outdated, low-value, or contradicted state as a first-class lifecycle event.",
+          "usefulness": "Automatic forgetting can remove useful context; preserve an audit trail where appropriate."
+        },
+        {
+          "title": "Memory evaluation loop",
+          "url": "https://research.google/blog/titans-miras-helping-ai-have-long-term-memory/",
+          "source_type": "blog",
+          "published_or_updated": "2026-08-30 or earlier",
+          "why_selected": "Evaluate memory by downstream task improvement and correction cost, not by recall alone.",
+          "usefulness": "Metrics need a task-specific baseline and can be gamed by over-retention."
+        }
+      ]
+    }
+  ]
+}

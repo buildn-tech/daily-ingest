@@ -1,6 +1,27 @@
 {
-  "updated_at": "2026-08-29T08:08:53.991552+00:00",
+  "updated_at": "2026-08-30T08:06:28.943322+00:00",
   "days": [
+    {
+      "date": "2026-08-30",
+      "path": "2026-08-30",
+      "reports": [
+        {
+          "lane": "agent-runtime-observability",
+          "title": "Agent Runtime: Trace the Work, Not Just the Request",
+          "url": "2026-08-30/agent-runtime-observability.html"
+        },
+        {
+          "lane": "task-scoped-agent-access",
+          "title": "Agent Access: Bind Authority to the Task",
+          "url": "2026-08-30/task-scoped-agent-access.html"
+        },
+        {
+          "lane": "long-term-agent-memory",
+          "title": "Long-Term Memory: Store Evidence, Not Just Context",
+          "url": "2026-08-30/long-term-agent-memory.html"
+        }
+      ]
+    },
     {
       "date": "2026-08-29",
       "path": "2026-08-29",
