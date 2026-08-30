@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "chainId": "chain_b16202edf7ac9501cff9b167",
+  "subject": {
+    "kind": "html",
+    "origin": "2026-08-30/agent-runtime-observability.html"
+  },
+  "status": "pending",
+  "reviewCount": 1,
+  "revisionCount": 1,
+  "activeReviewId": "review_e9886ea7-c133-4280-8e66-bf56bbc04783",
+  "reviews": [
+    {
+      "id": "review_e9886ea7-c133-4280-8e66-bf56bbc04783",
+      "previousReviewId": null,
+      "status": "pending",
+      "revision": {
+        "id": "revision_af016bdbe230e4aab679a850",
+        "hash": "4d060d5911e78f48fa3b177bd2980b7b7934ee423d6922168fffcfa5d2a270d5",
+        "file": "revision_af016bdbe230e4aab679a850.html",
+        "mediaKind": "text/html"
+      },
+      "annotations": [],
+      "concernAssessments": [],
+      "decision": null
+    }
+  ]
+}

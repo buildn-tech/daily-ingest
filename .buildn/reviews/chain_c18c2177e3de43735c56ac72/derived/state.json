@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "chainId": "chain_c18c2177e3de43735c56ac72",
+  "subject": {
+    "kind": "html",
+    "origin": "2026-08-30/long-term-agent-memory.html"
+  },
+  "status": "pending",
+  "reviewCount": 1,
+  "revisionCount": 1,
+  "activeReviewId": "review_6af8b5af-a4d0-4e56-956d-5f0dc51c32a2",
+  "reviews": [
+    {
+      "id": "review_6af8b5af-a4d0-4e56-956d-5f0dc51c32a2",
+      "previousReviewId": null,
+      "status": "pending",
+      "revision": {
+        "id": "revision_af449439bc56c4acbef3e5ca",
+        "hash": "cef95b04a08d28cdfcfdc3b43d6760885681d57bbe018dcee57c9249c8023f01",
+        "file": "revision_af449439bc56c4acbef3e5ca.html",
+        "mediaKind": "text/html"
+      },
+      "annotations": [],
+      "concernAssessments": [],
+      "decision": null
+    }
+  ]
+}

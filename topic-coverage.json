@@ -699,102 +699,6 @@
   "item_history": [
     {
       "date": "2026-08-26",
-      "topic": "extension-privacy",
-      "title": "Chrome Web Store limited-use policy",
-      "url": "https://developer.chrome.com/blog/cws-policy-updates-2026",
-      "source_type": "policy",
-      "rationale": "Extensions that quietly become data brokers or context collectors face platform and trust risk."
-    },
-    {
-      "date": "2026-08-26",
-      "topic": "extension-privacy",
-      "title": "Disclosure changes after install",
-      "url": "https://developer.chrome.com/docs/webstore/program-policies/disclosure-requirements",
-      "source_type": "privacy",
-      "rationale": "Agentic features often expand data access after launch; disclosure cannot remain a one-time checkbox."
-    },
-    {
-      "date": "2026-08-26",
-      "topic": "extension-privacy",
-      "title": "AI-safety circumvention prohibition",
-      "url": "https://developer.chrome.com/docs/webstore/program-policies/malicious-and-prohibited",
-      "source_type": "policy",
-      "rationale": "Browser automation and agent tooling can cross from enablement into circumvention quickly."
-    },
-    {
-      "date": "2026-08-26",
-      "topic": "local-ai-edge",
-      "title": "NeMo Switchyard routing",
-      "url": "https://developer.nvidia.com/nemo",
-      "source_type": "architecture",
-      "rationale": "Routing at step level is more actionable than selecting one “best” model for an entire agent."
-    },
-    {
-      "date": "2026-08-26",
-      "topic": "agentic-web-contracts",
-      "title": "Web Bot Auth",
-      "url": "https://developers.cloudflare.com/bots/concepts/bot-behavior/",
-      "source_type": "identity",
-      "rationale": "A caller that can identify itself is easier to rate-limit, authorize, and audit than an anonymous browser imitation."
-    },
-    {
-      "date": "2026-08-26",
-      "topic": "agentic-web-contracts",
-      "title": "Markdown for Agents",
-      "url": "https://developers.cloudflare.com/fundamentals/reference/markdown-for-agents/",
-      "source_type": "interface",
-      "rationale": "Cleaner content lowers retrieval noise and token cost while improving citation and extraction."
-    },
-    {
-      "date": "2026-08-26",
-      "topic": "local-ai-edge",
-      "title": "Qwen3.8-27B on RTX",
-      "url": "https://huggingface.co/ggml-org/Qwen3.8-27B-GGUF",
-      "source_type": "model",
-      "rationale": "A single-GPU coding companion can reduce cloud exposure for repository navigation and repetitive edits."
-    },
-    {
-      "date": "2026-08-26",
-      "topic": "agentic-dev-economics",
-      "title": "Kiro spec-driven workflow",
-      "url": "https://kiro.dev/",
-      "source_type": "workflow",
-      "rationale": "Externalized intent gives agents a stable contract and gives humans reviewable checkpoints."
-    },
-    {
-      "date": "2026-08-26",
-      "topic": "agentic-dev-economics",
-      "title": "GPT-5.6 family arrives in Kiro",
-      "url": "https://openai.com/index/gpt-5-6-in-kiro/",
-      "source_type": "release",
-      "rationale": "The combination of requirements, design, codebase context, and checkpoints is a reusable operating pattern."
-    },
-    {
-      "date": "2026-08-26",
-      "topic": "agentic-dev-economics",
-      "title": "Property-based testing in agent delivery",
-      "url": "https://openai.com/index/gpt-5-6-in-kiro/",
-      "source_type": "practice",
-      "rationale": "Properties catch broad classes of failures that example-only tests miss, especially in transformations and parsers."
-    },
-    {
-      "date": "2026-08-26",
-      "topic": "agentic-dev-economics",
-      "title": "Model choice as a development-stage policy",
-      "url": "https://openai.com/index/gpt-5-6-in-kiro/",
-      "source_type": "governance",
-      "rationale": "This is a better portfolio rule than assigning one model to planning, coding, review, and repair."
-    },
-    {
-      "date": "2026-08-26",
-      "topic": "local-ai-edge",
-      "title": "Portable Computer: local-first personal agent",
-      "url": "https://pplx-dgx-spark-lp-demo.pplx.app/",
-      "source_type": "product",
-      "rationale": "The hybrid boundary is the interesting part: sensitive routine work can stay local while difficult work escalates."
-    },
-    {
-      "date": "2026-08-26",
       "topic": "agentic-web-contracts",
       "title": "x402 payment protocol",
       "url": "https://www.x402.org/",
@@ -1035,99 +939,123 @@
     },
     {
       "date": "2026-08-30",
-      "lane": "agent-runtime-observability",
-      "items": [
-        {
-          "title": "Cloudflare Agents",
-          "url": "https://blog.cloudflare.com/agents-on-cloudflare/",
-          "source_type": "blog"
-        },
-        {
-          "title": "Local tracing for Workers",
-          "url": "https://blog.cloudflare.com/local-tracing/",
-          "source_type": "blog"
-        },
-        {
-          "title": "Billable Usage API",
-          "url": "https://blog.cloudflare.com/billable-usage-api/",
-          "source_type": "blog"
-        },
-        {
-          "title": "Workers RPC across Python and JavaScript",
-          "url": "https://blog.cloudflare.com/python-workers-rpc/",
-          "source_type": "blog"
-        },
-        {
-          "title": "Computer-oriented agent runtime",
-          "url": "https://blog.cloudflare.com/cloudflare-computer/",
-          "source_type": "blog"
-        }
-      ],
-      "selection_rationale": "Fresh practical signal and coverage gap."
+      "topic": "agent-runtime-observability",
+      "title": "Cloudflare Agents",
+      "url": "https://blog.cloudflare.com/agents-on-cloudflare/",
+      "source_type": "blog",
+      "rationale": "A hosted-agent layer built around live tracing, session replay, model/tool spans, approvals, and cost metadata."
     },
     {
       "date": "2026-08-30",
-      "lane": "task-scoped-agent-access",
-      "items": [
-        {
-          "title": "Agent Access Model",
-          "url": "https://blog.cloudflare.com/the-agent-access-model/",
-          "source_type": "blog"
-        },
-        {
-          "title": "Codex Security",
-          "url": "https://openai.com/index/codex-security-now-in-research-preview/",
-          "source_type": "research"
-        },
-        {
-          "title": "Open Secure AI Alliance / SAFE",
-          "url": "https://blogs.nvidia.com/blog/open-secure-ai-alliance-contributions/",
-          "source_type": "blog"
-        },
-        {
-          "title": "State of AI Agent Security 2026",
-          "url": "https://www.gravitee.io/state-of-ai-agent-security",
-          "source_type": "research"
-        },
-        {
-          "title": "Monitoring internal coding agents for misalignment",
-          "url": "https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment/",
-          "source_type": "research"
-        }
-      ],
-      "selection_rationale": "Fresh practical signal and coverage gap."
+      "topic": "agent-runtime-observability",
+      "title": "Local tracing for Workers",
+      "url": "https://blog.cloudflare.com/local-tracing/",
+      "source_type": "blog",
+      "rationale": "Cloudflare’s local tracing work brings production-like distributed traces into development."
     },
     {
       "date": "2026-08-30",
-      "lane": "long-term-agent-memory",
-      "items": [
-        {
-          "title": "Titans + MIRAS",
-          "url": "https://research.google/blog/titans-miras-helping-ai-have-long-term-memory/",
-          "source_type": "blog"
-        },
-        {
-          "title": "Differentiated memory for scientific cognition",
-          "url": "https://www.frontiersin.org/journals/big-data/articles/10.3389/fdata.2026.1916523/full",
-          "source_type": "research"
-        },
-        {
-          "title": "Evidence-linked retrieval",
-          "url": "https://research.google/blog/titans-miras-helping-ai-have-long-term-memory/",
-          "source_type": "blog"
-        },
-        {
-          "title": "Forgetting as a product decision",
-          "url": "https://www.frontiersin.org/journals/big-data/articles/10.3389/fdata.2026.1916523/full",
-          "source_type": "research"
-        },
-        {
-          "title": "Memory evaluation loop",
-          "url": "https://research.google/blog/titans-miras-helping-ai-have-long-term-memory/",
-          "source_type": "blog"
-        }
-      ],
-      "selection_rationale": "Fresh practical signal and coverage gap."
+      "topic": "agent-runtime-observability",
+      "title": "Billable Usage API",
+      "url": "https://blog.cloudflare.com/billable-usage-api/",
+      "source_type": "blog",
+      "rationale": "A programmable usage and cost surface for Cloudflare self-serve products."
+    },
+    {
+      "date": "2026-08-30",
+      "topic": "agent-runtime-observability",
+      "title": "Workers RPC across Python and JavaScript",
+      "url": "https://blog.cloudflare.com/python-workers-rpc/",
+      "source_type": "blog",
+      "rationale": "Direct communication between Python and JavaScript Workers."
+    },
+    {
+      "date": "2026-08-30",
+      "topic": "agent-runtime-observability",
+      "title": "Computer-oriented agent runtime",
+      "url": "https://blog.cloudflare.com/cloudflare-computer/",
+      "source_type": "blog",
+      "rationale": "An environment-selection model that treats a computer, filesystem, shell, and packages as first-class agent infrastructure."
+    },
+    {
+      "date": "2026-08-30",
+      "topic": "task-scoped-agent-access",
+      "title": "Agent Access Model",
+      "url": "https://blog.cloudflare.com/the-agent-access-model/",
+      "source_type": "blog",
+      "rationale": "Cloudflare’s proposed model binds short-lived credentials and least privilege to a task execution graph."
+    },
+    {
+      "date": "2026-08-30",
+      "topic": "task-scoped-agent-access",
+      "title": "Codex Security",
+      "url": "https://openai.com/index/codex-security-now-in-research-preview/",
+      "source_type": "research",
+      "rationale": "An application-security agent combining project threat models, sandboxed validation, context-aware patches, and feedback."
+    },
+    {
+      "date": "2026-08-30",
+      "topic": "task-scoped-agent-access",
+      "title": "Open Secure AI Alliance / SAFE",
+      "url": "https://blogs.nvidia.com/blog/open-secure-ai-alliance-contributions/",
+      "source_type": "blog",
+      "rationale": "An industry collaboration around cybersecurity transparency, agent runtime controls, verified skills, identity, and production evaluation."
+    },
+    {
+      "date": "2026-08-30",
+      "topic": "task-scoped-agent-access",
+      "title": "State of AI Agent Security 2026",
+      "url": "https://www.gravitee.io/state-of-ai-agent-security",
+      "source_type": "research",
+      "rationale": "A current survey/report highlighting low coverage of deployed-agent monitoring and uneven security practice."
+    },
+    {
+      "date": "2026-08-30",
+      "topic": "task-scoped-agent-access",
+      "title": "Monitoring internal coding agents for misalignment",
+      "url": "https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment/",
+      "source_type": "research",
+      "rationale": "OpenAI describes monitoring patterns for detecting and understanding misaligned behavior in coding agents."
+    },
+    {
+      "date": "2026-08-30",
+      "topic": "long-term-agent-memory",
+      "title": "Titans + MIRAS",
+      "url": "https://research.google/blog/titans-miras-helping-ai-have-long-term-memory/",
+      "source_type": "blog",
+      "rationale": "Google Research presents a long-term memory architecture and framework using selective, surprise-driven updates during inference."
+    },
+    {
+      "date": "2026-08-30",
+      "topic": "long-term-agent-memory",
+      "title": "Differentiated memory for scientific cognition",
+      "url": "https://www.frontiersin.org/journals/big-data/articles/10.3389/fdata.2026.1916523/full",
+      "source_type": "research",
+      "rationale": "A 2026 framework proposal arguing that research agents need differentiated memory types for scientific work."
+    },
+    {
+      "date": "2026-08-30",
+      "topic": "long-term-agent-memory",
+      "title": "Evidence-linked retrieval",
+      "url": "https://research.google/blog/titans-miras-helping-ai-have-long-term-memory/",
+      "source_type": "blog",
+      "rationale": "A practical design pattern: retrieve claims with source, timestamp, confidence, and update path rather than naked text snippets."
+    },
+    {
+      "date": "2026-08-30",
+      "topic": "long-term-agent-memory",
+      "title": "Forgetting as a product decision",
+      "url": "https://www.frontiersin.org/journals/big-data/articles/10.3389/fdata.2026.1916523/full",
+      "source_type": "research",
+      "rationale": "Selective forgetting treats outdated, low-value, or contradicted state as a first-class lifecycle event."
+    },
+    {
+      "date": "2026-08-30",
+      "topic": "long-term-agent-memory",
+      "title": "Memory evaluation loop",
+      "url": "https://research.google/blog/titans-miras-helping-ai-have-long-term-memory/",
+      "source_type": "blog",
+      "rationale": "Evaluate memory by downstream task improvement and correction cost, not by recall alone."
     }
   ],
   "runs": [
@@ -1935,9 +1863,9 @@
       "rationale": "Fresh primary-source signal with deliberate rotation; machine payments is a material update to the earlier agentic-web lane and MHS is a material interoperability update to physical AI."
     }
   ],
-  "updated_at": "2026-08-30T08:06:25.405055+00:00",
-  "last_run": "2026-08-29",
-  "last_editorial_thesis": "Agent systems are becoming operational surfaces: govern the delivery factory, standardize tool boundaries, and make cost and approval visible before action.",
+  "updated_at": "2026-08-30T08:00:22+00:00",
+  "last_run": "2026-08-30",
+  "last_editorial_thesis": "The next durable advantage is not more autonomous behavior; it is the operating evidence that makes autonomy safe to adopt, cheaper to run, and easier to correct.",
   "coverage_history": [
     {
       "date": "2026-07-28",
@@ -2868,10 +2796,9 @@
     }
   ],
   "last_run_selection": [
-    "agent-delivery-governance",
-    "agent-development-lifecycle",
-    "hardware-interoperability",
-    "machine-payments"
+    "agent-runtime-observability",
+    "task-scoped-agent-access",
+    "long-term-agent-memory"
   ],
   "sources": {
     "architecture": {
@@ -3056,29 +2983,6 @@
     }
   },
   "recent_runs": [
-    {
-      "date": "2026-08-21",
-      "topics": [
-        "api-context",
-        "ai-security",
-        "open-ai-practice"
-      ],
-      "items": [
-        "Postman AI Engineer",
-        "UAT-10147 / SPECTRE",
-        "Mozilla framework for openness",
-        "Stampli launch workflow",
-        "APQC 2026 KM priorities"
-      ],
-      "sources": [
-        "https://blog.postman.com/the-prompts-only-the-postman-ai-engineer-can-answer/",
-        "https://blog.talosintelligence.com/uat-10147-deploys-spectre-a-cross-platform-implant-with-linux-rootkit-and-byovd-capabilities/",
-        "https://blog.mozilla.org/en/mozilla/ai/open-source-ai-framework/",
-        "https://openai.com/index/stampli/",
-        "https://www.apqc.org/resource-library/resource-listing/2026-knowledge-management-priorities-and-trends-survey-report"
-      ],
-      "selection_rationale": "Fresh API context-graph and threat research signals, plus a rotated openness/knowledge lane."
-    },
     {
       "date": "2026-08-19",
       "topics": [
@@ -3479,6 +3383,15 @@
         }
       ],
       "selection_rationale": "Fresh primary-source signal plus coverage gaps; rotated away from yesterday’s developer delivery, product design, memory evaluation, and deployment security lanes."
+    },
+    {
+      "date": "2026-08-30",
+      "topics": [
+        "agent-runtime-observability",
+        "task-scoped-agent-access",
+        "long-term-agent-memory"
+      ],
+      "rationale": "Fresh practical signal and coverage gaps."
     }
   ],
   "run_history": [

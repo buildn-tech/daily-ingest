@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "chainId": "chain_6b84caf70994fdcfaa2b33e7",
+  "subject": {
+    "kind": "html",
+    "origin": "2026-08-30/task-scoped-agent-access.html"
+  },
+  "status": "pending",
+  "reviewCount": 1,
+  "revisionCount": 1,
+  "activeReviewId": "review_dfea2998-af5b-4552-a65f-c34fce5bd4d1",
+  "reviews": [
+    {
+      "id": "review_dfea2998-af5b-4552-a65f-c34fce5bd4d1",
+      "previousReviewId": null,
+      "status": "pending",
+      "revision": {
+        "id": "revision_6913619e02e30128261207ee",
+        "hash": "97e3fa31a7c6a61a3c2ca63b9db2ebcba3d896b86a912dea5b84751a5d7a4d78",
+        "file": "revision_6913619e02e30128261207ee.html",
+        "mediaKind": "text/html"
+      },
+      "annotations": [],
+      "concernAssessments": [],
+      "decision": null
+    }
+  ]
+}
