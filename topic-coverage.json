@@ -694,6 +694,21 @@
       "title": "Long-Term Memory: Store Evidence, Not Just Context",
       "times_covered": 1,
       "last_covered": "2026-08-30"
+    },
+    "ai-native-delivery": {
+      "title": "AI-Native Delivery: Learn the Whole Loop",
+      "times_covered": 1,
+      "last_covered": "2026-08-31"
+    },
+    "physical-ai-sensing": {
+      "title": "Physical AI Sensing: Give Agents an Ear",
+      "times_covered": 1,
+      "last_covered": "2026-08-31"
+    },
+    "agent-ready-web": {
+      "title": "Agent-Ready Web: Make the Interface Legible",
+      "times_covered": 1,
+      "last_covered": "2026-08-31"
     }
   },
   "item_history": [
@@ -1056,6 +1071,46 @@
       "url": "https://research.google/blog/titans-miras-helping-ai-have-long-term-memory/",
       "source_type": "blog",
       "rationale": "Evaluate memory by downstream task improvement and correction cost, not by recall alone."
+    },
+    {
+      "date": "2026-08-31",
+      "topic": "ai-native-delivery",
+      "title": "AI Dev Tools Zoomcamp 2026",
+      "url": "https://datatalks.club/blog/ai-dev-tools-zoomcamp.html",
+      "source_type": "course",
+      "rationale": "Free cohort starts today and covers specification through security and audit."
+    },
+    {
+      "date": "2026-08-31",
+      "topic": "ai-native-delivery",
+      "title": "Claude Managed Agents with Chat SDK",
+      "url": "https://vercel.com/changelog/claude-managed-agents-with-chat-sdk",
+      "source_type": "release",
+      "rationale": "Persistent sessions, streamed activity, and portable chat make a bounded research pilot practical."
+    },
+    {
+      "date": "2026-08-31",
+      "topic": "physical-ai-sensing",
+      "title": "Task-Aware Unified Source Separation",
+      "url": "https://www.mitsubishielectric.com/en/pr/2026/0831_di/",
+      "source_type": "research",
+      "rationale": "A new promptable sound-separation model addresses noisy physical-AI environments."
+    },
+    {
+      "date": "2026-08-31",
+      "topic": "agent-ready-web",
+      "title": "Agent Readiness score",
+      "url": "https://blog.cloudflare.com/agent-readiness/",
+      "source_type": "product",
+      "rationale": "Makes discoverability and machine-readable content an auditable site property."
+    },
+    {
+      "date": "2026-08-31",
+      "topic": "agent-ready-web",
+      "title": "Kitesurf agent-first browser",
+      "url": "https://blog.cloudflare.com/kitesurf/",
+      "source_type": "product",
+      "rationale": "Offers a lower-overhead browser runtime for agent extraction and automation."
     }
   ],
   "runs": [
@@ -1861,11 +1916,47 @@
         "machine-payments"
       ],
       "rationale": "Fresh primary-source signal with deliberate rotation; machine payments is a material update to the earlier agentic-web lane and MHS is a material interoperability update to physical AI."
+    },
+    {
+      "date": "2026-08-31",
+      "selected_lanes": [
+        "ai-native-delivery",
+        "physical-ai-sensing",
+        "agent-ready-web"
+      ],
+      "selection_rationale": "Rotated toward a neglected learning/operator lane, a fresh physical-AI sensing release, and an agent-ready web gap; avoided repeating the 2026-08-30 runtime-observability and task-access lanes.",
+      "items": [
+        {
+          "title": "AI Dev Tools Zoomcamp 2026",
+          "url": "https://datatalks.club/blog/ai-dev-tools-zoomcamp.html",
+          "source_type": "course"
+        },
+        {
+          "title": "Claude Managed Agents with Chat SDK",
+          "url": "https://vercel.com/changelog/claude-managed-agents-with-chat-sdk",
+          "source_type": "release"
+        },
+        {
+          "title": "Task-Aware Unified Source Separation",
+          "url": "https://www.mitsubishielectric.com/en/pr/2026/0831_di/",
+          "source_type": "research"
+        },
+        {
+          "title": "Agent Readiness score",
+          "url": "https://blog.cloudflare.com/agent-readiness/",
+          "source_type": "product"
+        },
+        {
+          "title": "Kitesurf agent-first browser",
+          "url": "https://blog.cloudflare.com/kitesurf/",
+          "source_type": "product"
+        }
+      ]
     }
   ],
-  "updated_at": "2026-08-30T08:00:22+00:00",
-  "last_run": "2026-08-30",
-  "last_editorial_thesis": "The next durable advantage is not more autonomous behavior; it is the operating evidence that makes autonomy safe to adopt, cheaper to run, and easier to correct.",
+  "updated_at": "2026-08-31T08:00:00+00:00",
+  "last_run": "2026-08-31",
+  "last_editorial_thesis": "Today’s strongest practical signal connects disciplined AI-assisted delivery, agent-ready publishing, and selective perception for physical systems: make the path observable and typed before making it autonomous.",
   "coverage_history": [
     {
       "date": "2026-07-28",
@@ -2796,9 +2887,9 @@
     }
   ],
   "last_run_selection": [
-    "agent-runtime-observability",
-    "task-scoped-agent-access",
-    "long-term-agent-memory"
+    "ai-native-delivery",
+    "physical-ai-sensing",
+    "agent-ready-web"
   ],
   "sources": {
     "architecture": {

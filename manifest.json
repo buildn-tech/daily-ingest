@@ -1,6 +1,27 @@
 {
-  "updated_at": "2026-08-30T08:08:18.568676+00:00",
+  "updated_at": "2026-08-31T08:13:50.369173+00:00",
   "days": [
+    {
+      "date": "2026-08-31",
+      "path": "2026-08-31",
+      "reports": [
+        {
+          "lane": "ai-native-delivery",
+          "title": "AI-Native Delivery: Learn the Whole Loop",
+          "url": "2026-08-31/ai-native-delivery.html"
+        },
+        {
+          "lane": "physical-ai-sensing",
+          "title": "Physical AI Sensing: Give Agents an Ear",
+          "url": "2026-08-31/physical-ai-sensing.html"
+        },
+        {
+          "lane": "agent-ready-web",
+          "title": "Agent-Ready Web: Make the Interface Legible",
+          "url": "2026-08-31/agent-ready-web.html"
+        }
+      ]
+    },
     {
       "date": "2026-08-30",
       "path": "2026-08-30",
