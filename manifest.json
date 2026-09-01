@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-08-31T08:13:50.369173+00:00",
+  "updated_at": "2026-09-01T08:08:02.860470+00:00",
   "days": [
+    {
+      "date": "2026-09-01",
+      "path": "2026-09-01",
+      "reports": [
+        {
+          "lane": "privacy-first-ai-infrastructure",
+          "title": "Privacy-First AI Infrastructure",
+          "url": "2026-09-01/privacy-first-ai-infrastructure.html"
+        },
+        {
+          "lane": "agent-runtimes-and-sandboxes",
+          "title": "Agent Runtimes + Sandboxes",
+          "url": "2026-09-01/agent-runtimes-and-sandboxes.html"
+        },
+        {
+          "lane": "embodied-ai-research-signals",
+          "title": "Embodied AI: Research Signals",
+          "url": "2026-09-01/embodied-ai-research-signals.html"
+        },
+        {
+          "lane": "agentic-commerce-and-wallets",
+          "title": "Agentic Commerce + Wallets",
+          "url": "2026-09-01/agentic-commerce-and-wallets.html"
+        }
+      ]
+    },
     {
       "date": "2026-08-31",
       "path": "2026-08-31",

@@ -1,0 +1,179 @@
+{
+  "date": "2026-09-01",
+  "generated_at": "2026-09-01T08:07:35.625262+00:00",
+  "editorial_thesis": "The most useful frontier signal today is moving from autonomous demos to bounded systems: redact sensitive inputs, isolate generated actions, evaluate recovery, and require scoped authorization for spend.",
+  "topic_groups": [
+    {
+      "slug": "privacy-first-ai-infrastructure",
+      "title": "Privacy-First AI Infrastructure",
+      "selection_rationale": "A practical gap after several agent-runtime days: local PII and secret handling is a prerequisite for useful memory, logs, and client data workflows.",
+      "sources": [
+        {
+          "title": "OpenAI Privacy Filter",
+          "url": "https://openai.com/index/introducing-openai-privacy-filter/",
+          "source_type": "release",
+          "published_or_updated": "2026-09-01 or earlier",
+          "why_selected": "Open-weight 1.5B/50M-active token classifier for local PII and secret detection, with 128k-token inputs and tunable precision/recall.",
+          "usefulness": "Add a redaction gate before Buildn research indexing, logs, and client handoffs."
+        },
+        {
+          "title": "Cloudflare: new AI traffic options",
+          "url": "https://blog.cloudflare.com/content-independence-day-ai-options/",
+          "source_type": "blog",
+          "published_or_updated": "2026-09-01 or earlier",
+          "why_selected": "Controls for deciding how site content is exposed to AI crawlers and agents.",
+          "usefulness": "Use as a client content-governance checklist: allow, block, or monetize machine access by route."
+        },
+        {
+          "title": "OpenAI Zero Data Retention for frontier models",
+          "url": "https://openai.com/index/offering-zero-data-retention-for-frontier-models/",
+          "source_type": "product",
+          "published_or_updated": "2026-09-01 or earlier",
+          "why_selected": "A privacy posture for frontier-model use, with Private Safety Processing planned for September.",
+          "usefulness": "Map provider retention modes to each workflow\u2019s data classification."
+        },
+        {
+          "title": "OWASP GenAI Security Project",
+          "url": "https://genai.owasp.org/",
+          "source_type": "docs",
+          "published_or_updated": "2026-09-01 or earlier",
+          "why_selected": "A living reference for threat classes and mitigations across generative-AI systems.",
+          "usefulness": "Turn threat categories into acceptance tests for agent features."
+        }
+      ]
+    },
+    {
+      "slug": "agent-runtimes-and-sandboxes",
+      "title": "Agent Runtimes + Sandboxes",
+      "selection_rationale": "Fresh implementation signal spans isolate-level execution, policy-driven sandboxes, durable serving, and user-facing event protocols\u2014an under-covered bridge from demo to production.",
+      "sources": [
+        {
+          "title": "Cloudflare Dynamic Worker Loader",
+          "url": "https://blog.cloudflare.com/dynamic-workers/",
+          "source_type": "release",
+          "published_or_updated": "2026-09-01 or earlier",
+          "why_selected": "Open-beta runtime-loadable Workers provide millisecond isolates, capability injection, and outbound-network controls for generated code.",
+          "usefulness": "Prototype high-volume Code Mode tasks without a container per request."
+        },
+        {
+          "title": "NVIDIA OpenShell",
+          "url": "https://github.com/NVIDIA/OpenShell",
+          "source_type": "repo",
+          "published_or_updated": "2026-09-01 or earlier",
+          "why_selected": "Policy-driven sandbox runtime using kernel controls, Rego policy, and network mediation for autonomous agents.",
+          "usefulness": "Compare its enforcement points with Hermes environment backends."
+        },
+        {
+          "title": "AgentScope Runtime",
+          "url": "https://github.com/agentscope-ai/agentscope-runtime",
+          "source_type": "repo",
+          "published_or_updated": "2026-09-01 or earlier",
+          "why_selected": "Open-source runtime focused on durable agent serving and secure sandbox lifecycle management.",
+          "usefulness": "Evaluate as a reference architecture for \u201cagent as API\u201d with stateful sessions."
+        },
+        {
+          "title": "NEAR AI IronClaw",
+          "url": "https://github.com/nearai/ironclaw",
+          "source_type": "repo",
+          "published_or_updated": "2026-09-01 or earlier",
+          "why_selected": "Privacy-first agent harness with WASM tools, capability permissions, encrypted local storage, memory, and MCP support.",
+          "usefulness": "Test a local-first assistant where tools and credentials cross an explicit host boundary."
+        },
+        {
+          "title": "AG-UI protocol",
+          "url": "https://github.com/ag-ui-protocol/ag-ui",
+          "source_type": "repo",
+          "published_or_updated": "2026-09-01 or earlier",
+          "why_selected": "Event-based protocol for connecting agents to user-facing applications.",
+          "usefulness": "Use typed events to make approvals, progress, and partial results visible in client work."
+        }
+      ]
+    },
+    {
+      "slug": "embodied-ai-research-signals",
+      "title": "Embodied AI: Research Signals",
+      "selection_rationale": "Today\u2019s robotics feed offers a genuinely fresh lane with same-day papers, complementing recent physical-AI coverage with concrete research directions rather than another platform announcement.",
+      "sources": [
+        {
+          "title": "SUN: Persistent Programs for Language-Grounded Control",
+          "url": "https://arxiv.org/abs/2608.31167",
+          "source_type": "paper",
+          "published_or_updated": "2026-09-01 or earlier",
+          "why_selected": "A program-like approach to language-grounded control, learning, and real-robot policies.",
+          "usefulness": "Borrow the persistent-program framing for long-running agent workflows with checkpoints."
+        },
+        {
+          "title": "Language-Driven Quality-Diversity Manipulation",
+          "url": "https://arxiv.org/abs/2608.30983",
+          "source_type": "paper",
+          "published_or_updated": "2026-09-01 or earlier",
+          "why_selected": "Uses language to acquire diverse manipulation skills rather than optimizing one behavior.",
+          "usefulness": "Explore skill libraries that expose multiple viable strategies to a client workflow."
+        },
+        {
+          "title": "LightNav-0",
+          "url": "https://arxiv.org/abs/2608.30935",
+          "source_type": "paper",
+          "published_or_updated": "2026-09-01 or earlier",
+          "why_selected": "A VLM navigation report targeting spatial intelligence for generalist embodied navigation.",
+          "usefulness": "Track spatial grounding as a distinct eval dimension for multimodal agents."
+        },
+        {
+          "title": "Zeva: In-Context Causal Learning",
+          "url": "https://arxiv.org/abs/2608.30880",
+          "source_type": "paper",
+          "published_or_updated": "2026-09-01 or earlier",
+          "why_selected": "In-context causal learning for more generalizable embodied manipulation.",
+          "usefulness": "Use causal hypotheses and intervention logs as a design pattern for tool recovery."
+        },
+        {
+          "title": "Temporal Forcing for VLA Models",
+          "url": "https://arxiv.org/abs/2608.30643",
+          "source_type": "paper",
+          "published_or_updated": "2026-09-01 or earlier",
+          "why_selected": "4D representation alignment aimed at improving temporal action understanding.",
+          "usefulness": "Add temporal alignment checks to video-to-action or inspection workflows."
+        }
+      ]
+    },
+    {
+      "slug": "agentic-commerce-and-wallets",
+      "title": "Agentic Commerce + Wallets",
+      "selection_rationale": "A new payments surface earns inclusion because it converts agent authorization from an abstract protocol question into a concrete, reviewable spend flow with merchant-level restrictions.",
+      "sources": [
+        {
+          "title": "Link\u2019s wallet for agents",
+          "url": "https://stripe.com/blog/giving-agents-the-ability-to-pay",
+          "source_type": "product",
+          "published_or_updated": "2026-09-01 or earlier",
+          "why_selected": "Stripe lets agents request one-time cards or Shared Payment Tokens without receiving raw credentials; users approve in Link.",
+          "usefulness": "Prototype approval-gated purchasing or paid API access with explicit intent."
+        },
+        {
+          "title": "Stripe Sessions 2026 announcements",
+          "url": "https://stripe.com/blog/everything-we-announced-at-sessions-2026",
+          "source_type": "blog",
+          "published_or_updated": "2026-09-01 or earlier",
+          "why_selected": "Stripe describes agentic-commerce expansion, agent wallets, and Checkout Studio alongside broader payment infrastructure.",
+          "usefulness": "Use the announcement as a map of primitives to watch, not as an implementation spec."
+        },
+        {
+          "title": "Machine Payments Protocol",
+          "url": "https://stripe.com/blog/machine-payments-protocol",
+          "source_type": "protocol",
+          "published_or_updated": "2026-09-01 or earlier",
+          "why_selected": "An internet-native approach to pay-per-call and pay-per-task agent requests.",
+          "usefulness": "Model small paid tool calls as explicit business events with idempotency and webhooks."
+        },
+        {
+          "title": "Agentic Commerce Suite",
+          "url": "https://stripe.com/blog/agentic-commerce-suite",
+          "source_type": "product",
+          "published_or_updated": "2026-09-01 or earlier",
+          "why_selected": "A seller-facing stack for making products discoverable and purchasable through AI agents.",
+          "usefulness": "Audit a client catalog for agent-readable product data and bounded offers."
+        }
+      ]
+    }
+  ]
+}

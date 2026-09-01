@@ -1,6 +1,96 @@
 {
-  "updated_at": "2026-08-31T08:13:50.369173+00:00",
+  "updated_at": "2026-09-01T08:08:02.860470+00:00",
   "sources": {
+    "https://openai.com/index/introducing-openai-privacy-filter": {
+      "first_seen": "2026-09-01",
+      "last_seen": "2026-09-01",
+      "title": "OpenAI Privacy Filter"
+    },
+    "https://blog.cloudflare.com/content-independence-day-ai-options": {
+      "first_seen": "2026-09-01",
+      "last_seen": "2026-09-01",
+      "title": "Cloudflare: new AI traffic options"
+    },
+    "https://openai.com/index/offering-zero-data-retention-for-frontier-models": {
+      "first_seen": "2026-09-01",
+      "last_seen": "2026-08-27",
+      "title": "Zero data retention as a workflow choice"
+    },
+    "https://genai.owasp.org/": {
+      "first_seen": "2026-09-01",
+      "last_seen": "2026-08-20",
+      "title": "OWASP GenAI Security Project"
+    },
+    "https://blog.cloudflare.com/dynamic-workers": {
+      "first_seen": "2026-09-01",
+      "last_seen": "2026-09-01",
+      "title": "Cloudflare Dynamic Worker Loader"
+    },
+    "https://github.com/NVIDIA/OpenShell": {
+      "first_seen": "2026-09-01",
+      "last_seen": "2026-09-01",
+      "title": "NVIDIA OpenShell"
+    },
+    "https://github.com/agentscope-ai/agentscope-runtime": {
+      "first_seen": "2026-09-01",
+      "last_seen": "2026-09-01",
+      "title": "AgentScope Runtime"
+    },
+    "https://github.com/nearai/ironclaw": {
+      "first_seen": "2026-09-01",
+      "last_seen": "2026-09-01",
+      "title": "NEAR AI IronClaw"
+    },
+    "https://github.com/ag-ui-protocol/ag-ui": {
+      "first_seen": "2026-09-01",
+      "last_seen": "2026-09-01",
+      "title": "AG-UI protocol"
+    },
+    "https://arxiv.org/abs/2608.31167": {
+      "first_seen": "2026-09-01",
+      "last_seen": "2026-09-01",
+      "title": "SUN: Persistent Programs for Language-Grounded Control"
+    },
+    "https://arxiv.org/abs/2608.30983": {
+      "first_seen": "2026-09-01",
+      "last_seen": "2026-09-01",
+      "title": "Language-Driven Quality-Diversity Manipulation"
+    },
+    "https://arxiv.org/abs/2608.30935": {
+      "first_seen": "2026-09-01",
+      "last_seen": "2026-09-01",
+      "title": "LightNav-0"
+    },
+    "https://arxiv.org/abs/2608.30880": {
+      "first_seen": "2026-09-01",
+      "last_seen": "2026-09-01",
+      "title": "Zeva: In-Context Causal Learning"
+    },
+    "https://arxiv.org/abs/2608.30643": {
+      "first_seen": "2026-09-01",
+      "last_seen": "2026-09-01",
+      "title": "Temporal Forcing for VLA Models"
+    },
+    "https://stripe.com/blog/giving-agents-the-ability-to-pay": {
+      "first_seen": "2026-09-01",
+      "last_seen": "2026-09-01",
+      "title": "Link\u2019s wallet for agents"
+    },
+    "https://stripe.com/blog/everything-we-announced-at-sessions-2026": {
+      "first_seen": "2026-09-01",
+      "last_seen": "2026-09-01",
+      "title": "Stripe Sessions 2026 announcements"
+    },
+    "https://stripe.com/blog/machine-payments-protocol": {
+      "first_seen": "2026-09-01",
+      "last_seen": "2026-08-29",
+      "title": "Agent-native service examples"
+    },
+    "https://stripe.com/blog/agentic-commerce-suite": {
+      "first_seen": "2026-09-01",
+      "last_seen": "2026-09-01",
+      "title": "Agentic Commerce Suite"
+    },
     "https://datatalks.club/blog/ai-dev-tools-zoomcamp.html": {
       "first_seen": "2026-08-31",
       "last_seen": "2026-08-31",
@@ -156,11 +246,6 @@
       "last_seen": "2026-08-29",
       "title": "Google Agent Platform recap"
     },
-    "https://stripe.com/blog/machine-payments-protocol": {
-      "first_seen": "2026-08-29",
-      "last_seen": "2026-08-29",
-      "title": "Agent-native service examples"
-    },
     "https://vercel.com/changelog/python-projects-now-support-routing-rules": {
       "first_seen": "2026-08-28",
       "last_seen": "2026-08-28",
@@ -265,11 +350,6 @@
       "first_seen": "2026-08-27",
       "last_seen": "2026-08-27",
       "title": "Safe link clicking needs an agent-specific model"
-    },
-    "https://openai.com/index/offering-zero-data-retention-for-frontier-models": {
-      "first_seen": "2026-08-27",
-      "last_seen": "2026-08-27",
-      "title": "Zero data retention as a workflow choice"
     },
     "https://www.rubrik.com/company/newsroom/press-releases/26/rubrik-unveils-agent-identity-to-secure-agentic-actions-in-real-time": {
       "first_seen": "2026-08-27",
@@ -540,11 +620,6 @@
       "first_seen": "2026-08-20",
       "last_seen": "2026-08-20",
       "title": "NCCoE Software and AI Agent Identity and Authorization"
-    },
-    "https://genai.owasp.org/": {
-      "first_seen": "2026-08-20",
-      "last_seen": "2026-08-20",
-      "title": "OWASP GenAI Security Project"
     },
     "https://modelcontextprotocol.io/specification/2025-11-25": {
       "first_seen": "2026-08-20",
