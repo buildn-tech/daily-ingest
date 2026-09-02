@@ -1,25 +1,110 @@
 {
-  "updated_at": "2026-09-01T08:08:02.860470+00:00",
+  "updated_at": "2026-09-02T08:10:18.968942+00:00",
   "sources": {
-    "https://openai.com/index/introducing-openai-privacy-filter": {
-      "first_seen": "2026-09-01",
-      "last_seen": "2026-09-01",
-      "title": "OpenAI Privacy Filter"
+    "https://github.blog/news-insights/product-news/github-copilot-app-the-agent-native-desktop-experience": {
+      "first_seen": "2026-09-02",
+      "last_seen": "2026-09-02",
+      "title": "GitHub Copilot app"
+    },
+    "https://github.blog/news-insights/product-news/take-your-local-github-sessions-anywhere": {
+      "first_seen": "2026-09-02",
+      "last_seen": "2026-09-02",
+      "title": "Copilot remote sessions"
+    },
+    "https://github.blog/news-insights/product-news/your-stack-your-rules-introducing-custom-agents-in-github-copilot-for-observability-iac-and-security": {
+      "first_seen": "2026-09-02",
+      "last_seen": "2026-09-02",
+      "title": "Custom agents for observability, IaC, security"
+    },
+    "https://github.blog/news-insights/product-news/whats-coming-to-our-github-actions-2026-security-roadmap": {
+      "first_seen": "2026-09-02",
+      "last_seen": "2026-09-02",
+      "title": "GitHub Actions security roadmap"
+    },
+    "https://github.blog/news-insights/product-news/copilot-new-embedding-model-vs-code": {
+      "first_seen": "2026-09-02",
+      "last_seen": "2026-09-02",
+      "title": "Copilot embedding model"
+    },
+    "https://vercel.com/changelog/qwen-3-8-max-0902-now-available-on-ai-gateway": {
+      "first_seen": "2026-09-02",
+      "last_seen": "2026-09-02",
+      "title": "Qwen 3.8 Max 0902 on AI Gateway"
+    },
+    "https://vercel.com/changelog/set-per-user-budgets-on-ai-gateway": {
+      "first_seen": "2026-09-02",
+      "last_seen": "2026-09-02",
+      "title": "Per-user AI Gateway budgets"
+    },
+    "https://vercel.com/changelog/aws-privatelink-is-now-available-on-pro-and-enterprise": {
+      "first_seen": "2026-09-02",
+      "last_seen": "2026-09-02",
+      "title": "AWS PrivateLink on Vercel"
+    },
+    "https://vercel.com/changelog/vercel-sandbox-now-calculates-snapshot-storage-costs-daily": {
+      "first_seen": "2026-09-02",
+      "last_seen": "2026-09-02",
+      "title": "Vercel Sandbox daily snapshot billing"
+    },
+    "https://vercel.com/changelog/gpt-5-6-sol-is-50-off-on-ai-gateway-for-the-next-month": {
+      "first_seen": "2026-09-02",
+      "last_seen": "2026-09-02",
+      "title": "GPT-5.6 Sol discount window"
+    },
+    "https://arxiv.org/abs/2609.01596": {
+      "first_seen": "2026-09-02",
+      "last_seen": "2026-09-02",
+      "title": "Facet-0"
+    },
+    "https://arxiv.org/abs/2609.01281": {
+      "first_seen": "2026-09-02",
+      "last_seen": "2026-09-02",
+      "title": "EmbodiedSkills"
+    },
+    "https://arxiv.org/abs/2609.00908": {
+      "first_seen": "2026-09-02",
+      "last_seen": "2026-09-02",
+      "title": "Knowing When to Stop"
+    },
+    "https://arxiv.org/abs/2609.01215": {
+      "first_seen": "2026-09-02",
+      "last_seen": "2026-09-02",
+      "title": "REFACTOR-VLA"
+    },
+    "https://arxiv.org/abs/2609.01404": {
+      "first_seen": "2026-09-02",
+      "last_seen": "2026-09-02",
+      "title": "Drone-control VLM evaluation"
+    },
+    "https://openai.com/index/path-to-astra": {
+      "first_seen": "2026-09-02",
+      "last_seen": "2026-09-02",
+      "title": "Path to Astra"
+    },
+    "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows": {
+      "first_seen": "2026-09-02",
+      "last_seen": "2026-09-02",
+      "title": "Expanding Daybreak"
+    },
+    "https://genai.owasp.org/": {
+      "first_seen": "2026-09-02",
+      "last_seen": "2026-08-20",
+      "title": "OWASP GenAI Security Project"
     },
     "https://blog.cloudflare.com/content-independence-day-ai-options": {
-      "first_seen": "2026-09-01",
+      "first_seen": "2026-09-02",
       "last_seen": "2026-09-01",
       "title": "Cloudflare: new AI traffic options"
+    },
+    "https://openai.com/index/introducing-openai-privacy-filter": {
+      "first_seen": "2026-09-02",
+      "last_seen": "2026-09-01",
+      "title": "OpenAI Privacy Filter"
     },
     "https://openai.com/index/offering-zero-data-retention-for-frontier-models": {
       "first_seen": "2026-09-01",
       "last_seen": "2026-08-27",
       "title": "Zero data retention as a workflow choice"
-    },
-    "https://genai.owasp.org/": {
-      "first_seen": "2026-09-01",
-      "last_seen": "2026-08-20",
-      "title": "OWASP GenAI Security Project"
     },
     "https://blog.cloudflare.com/dynamic-workers": {
       "first_seen": "2026-09-01",

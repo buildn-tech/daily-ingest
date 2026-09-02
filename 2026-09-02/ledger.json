@@ -1,0 +1,195 @@
+{
+  "date": "2026-09-02",
+  "generated_at": "2026-09-02T08:10:01.227901+00:00",
+  "editorial_thesis": "The practical frontier is supervised leverage: dispatch agent work, route it with cost controls, compose typed skills, and enforce identity and data boundaries.",
+  "topic_groups": [
+    {
+      "slug": "agent-native-engineering",
+      "title": "Agent-Native Engineering Surfaces",
+      "selection_rationale": "GitHub’s current product direction is practical signal: agents are becoming dispatchable workers with remote supervision, specialized roles, and stronger delivery controls. The useful design question is no longer “can it code?” but “can an operator inspect and safely resume the work?”",
+      "sources": [
+        {
+          "title": "GitHub Copilot app",
+          "url": "https://github.blog/news-insights/product-news/github-copilot-app-the-agent-native-desktop-experience/",
+          "source_type": "release",
+          "published_or_updated": "2026 or earlier",
+          "why_selected": "A desktop surface designed around delegating and supervising agent work rather than only completing code.",
+          "usefulness": "Use as a reference for Buildn operator surfaces: queue work, show evidence, and keep approval visible."
+        },
+        {
+          "title": "Copilot remote sessions",
+          "url": "https://github.blog/news-insights/product-news/take-your-local-github-sessions-anywhere/",
+          "source_type": "release",
+          "published_or_updated": "2026 or earlier",
+          "why_selected": "Remote control for local Copilot sessions through GitHub.com and mobile.",
+          "usefulness": "Prototype mobile-safe checkpoints for research and client delivery jobs."
+        },
+        {
+          "title": "Custom agents for observability, IaC, security",
+          "url": "https://github.blog/news-insights/product-news/your-stack-your-rules-introducing-custom-agents-in-github-copilot-for-observability-iac-and-security/",
+          "source_type": "release",
+          "published_or_updated": "2026 or earlier",
+          "why_selected": "Partner-built agents exposed across terminal, editor, and GitHub.com.",
+          "usefulness": "Package client-specific runbooks as bounded roles with explicit tool permissions."
+        },
+        {
+          "title": "GitHub Actions security roadmap",
+          "url": "https://github.blog/news-insights/product-news/whats-coming-to-our-github-actions-2026-security-roadmap/",
+          "source_type": "release",
+          "published_or_updated": "2026 or earlier",
+          "why_selected": "A roadmap emphasizing secure defaults, policy controls, and CI/CD observability.",
+          "usefulness": "Use the roadmap as a checklist for agent PR pipelines and audit trails."
+        },
+        {
+          "title": "Copilot embedding model",
+          "url": "https://github.blog/news-insights/product-news/copilot-new-embedding-model-vs-code/",
+          "source_type": "release",
+          "published_or_updated": "2026 or earlier",
+          "why_selected": "A code-search embedding update focused on speed, memory efficiency, and accuracy.",
+          "usefulness": "Borrow the principle: benchmark retrieval separately from generation in Buildn knowledge work."
+        }
+      ]
+    },
+    {
+      "slug": "model-routing-and-controls",
+      "title": "Model Routing + Cost Controls",
+      "selection_rationale": "Today’s strongest infrastructure signal is not another model launch. It is the control plane around model choice: portable routing, per-user budgets, private connectivity, and cost-aware sandbox persistence.",
+      "sources": [
+        {
+          "title": "Qwen 3.8 Max 0902 on AI Gateway",
+          "url": "https://vercel.com/changelog/qwen-3-8-max-0902-now-available-on-ai-gateway",
+          "source_type": "release",
+          "published_or_updated": "2026-09-02",
+          "why_selected": "A newly available model behind one gateway key, with fallbacks, spend tracking, and traces.",
+          "usefulness": "Use gateway abstraction for client pilots where provider choice may change weekly."
+        },
+        {
+          "title": "Per-user AI Gateway budgets",
+          "url": "https://vercel.com/changelog/set-per-user-budgets-on-ai-gateway",
+          "source_type": "release",
+          "published_or_updated": "2026-09-02",
+          "why_selected": "Budget limits scoped to individual users in addition to team, project, and API-key budgets.",
+          "usefulness": "Add per-operator cost ceilings to Buildn agent profiles and client environments."
+        },
+        {
+          "title": "AWS PrivateLink on Vercel",
+          "url": "https://vercel.com/changelog/aws-privatelink-is-now-available-on-pro-and-enterprise",
+          "source_type": "release",
+          "published_or_updated": "2026-09-02",
+          "why_selected": "Private network connectivity from Vercel deployments to AWS-hosted databases and services.",
+          "usefulness": "Use for client systems where AI features must reach private operational data."
+        },
+        {
+          "title": "Vercel Sandbox daily snapshot billing",
+          "url": "https://vercel.com/changelog/vercel-sandbox-now-calculates-snapshot-storage-costs-daily",
+          "source_type": "release",
+          "published_or_updated": "2026-09-02",
+          "why_selected": "Snapshot storage charges are calculated daily, with pricing unchanged at $0.08/GB-month.",
+          "usefulness": "Track sandbox lifetime, snapshot size, and cleanup in delivery telemetry."
+        },
+        {
+          "title": "GPT-5.6 Sol discount window",
+          "url": "https://vercel.com/changelog/gpt-5-6-sol-is-50-off-on-ai-gateway-for-the-next-month",
+          "source_type": "release",
+          "published_or_updated": "2026-09-02",
+          "why_selected": "A temporary 50% AI Gateway price reduction through September 18.",
+          "usefulness": "Use the window to measure quality-per-dollar, not to silently increase autonomy."
+        }
+      ]
+    },
+    {
+      "slug": "embodied-ai-skill-lifecycles",
+      "title": "Embodied AI: Skill Lifecycles",
+      "selection_rationale": "The September 2 robotics feed is unusually useful as a design signal rather than a product roundup. New work clusters around contact-aware foundation models, typed skills, action stopping, and task-level evaluation—patterns that transfer to long-running software agents.",
+      "sources": [
+        {
+          "title": "Facet-0",
+          "url": "https://arxiv.org/abs/2609.01596",
+          "source_type": "paper",
+          "published_or_updated": "2026-09-02",
+          "why_selected": "A robotic foundation model aimed at contact-rich, precise manipulation.",
+          "usefulness": "Track its project artifacts for inspection, grasping, or assembly workflows."
+        },
+        {
+          "title": "EmbodiedSkills",
+          "url": "https://arxiv.org/abs/2609.01281",
+          "source_type": "paper",
+          "published_or_updated": "2026-09-02",
+          "why_selected": "A framework for orchestrating, training, and deploying vision-language-action agents.",
+          "usefulness": "Borrow the separation of skill training, deployment, and runtime evaluation for multimodal client tools."
+        },
+        {
+          "title": "Knowing When to Stop",
+          "url": "https://arxiv.org/abs/2609.00908",
+          "source_type": "paper",
+          "published_or_updated": "2026-09-02",
+          "why_selected": "Adaptive action chunking using internal cross-attention dynamics in VLA models.",
+          "usefulness": "Use the idea as a design prompt for agents that should yield control when confidence drops."
+        },
+        {
+          "title": "REFACTOR-VLA",
+          "url": "https://arxiv.org/abs/2609.01215",
+          "source_type": "paper",
+          "published_or_updated": "2026-09-02",
+          "why_selected": "Unsupervised library learning of typed motor programs.",
+          "usefulness": "Translate the concept into typed tool contracts and reusable client workflow modules."
+        },
+        {
+          "title": "Drone-control VLM evaluation",
+          "url": "https://arxiv.org/abs/2609.01404",
+          "source_type": "paper",
+          "published_or_updated": "2026-09-02",
+          "why_selected": "An evaluation of multimodal LLMs as generalist vision-language-action agents for drone tasks.",
+          "usefulness": "Borrow task decomposition for video inspection and visual research agents."
+        }
+      ]
+    },
+    {
+      "slug": "security-identity-and-data-boundaries",
+      "title": "Security: Identity + Data Boundaries",
+      "selection_rationale": "The most actionable security signal today is operational, not theatrical: frontier capability claims raise the stakes, while hardware-backed identity, threat catalogs, route-level AI access policy, and local redaction provide concrete controls.",
+      "sources": [
+        {
+          "title": "Path to Astra",
+          "url": "https://openai.com/index/path-to-astra/",
+          "source_type": "release",
+          "published_or_updated": "2026 or earlier",
+          "why_selected": "OpenAI describes a frontier model reaching a critical cybersecurity capability threshold and associated safeguards.",
+          "usefulness": "Use the capability-threshold framing in client risk reviews and agent release gates."
+        },
+        {
+          "title": "Expanding Daybreak",
+          "url": "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows/",
+          "source_type": "release",
+          "published_or_updated": "2026 or earlier",
+          "why_selected": "A cyber-defense program requiring hardware security keys for individual accounts beginning September 1, 2026.",
+          "usefulness": "Make phishing-resistant authentication a prerequisite for high-impact Buildn actions."
+        },
+        {
+          "title": "OWASP GenAI Security Project",
+          "url": "https://genai.owasp.org/",
+          "source_type": "release",
+          "published_or_updated": "2026 or earlier",
+          "why_selected": "A living reference for generative-AI threat classes and mitigations.",
+          "usefulness": "Map prompt injection, tool abuse, and data leakage to client acceptance criteria."
+        },
+        {
+          "title": "Cloudflare AI traffic options",
+          "url": "https://blog.cloudflare.com/content-independence-day-ai-options/",
+          "source_type": "release",
+          "published_or_updated": "2026 or earlier",
+          "why_selected": "Controls for deciding how website content is exposed to AI crawlers and agents.",
+          "usefulness": "Offer clients an allow/block/monetize content-access review by route."
+        },
+        {
+          "title": "OpenAI Privacy Filter",
+          "url": "https://openai.com/index/introducing-openai-privacy-filter/",
+          "source_type": "release",
+          "published_or_updated": "2026 or earlier",
+          "why_selected": "An open-weight classifier for local PII and secret detection, with tunable precision and recall.",
+          "usefulness": "Place redaction before Buildn indexing, client handoff, and agent traces."
+        }
+      ]
+    }
+  ]
+}

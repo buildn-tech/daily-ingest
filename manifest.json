@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-09-01T08:08:02.860470+00:00",
+  "updated_at": "2026-09-02T08:10:18.968942+00:00",
   "days": [
+    {
+      "date": "2026-09-02",
+      "path": "2026-09-02",
+      "reports": [
+        {
+          "lane": "agent-native-engineering",
+          "title": "Agent-Native Engineering Surfaces",
+          "url": "2026-09-02/agent-native-engineering.html"
+        },
+        {
+          "lane": "model-routing-and-controls",
+          "title": "Model Routing + Cost Controls",
+          "url": "2026-09-02/model-routing-and-controls.html"
+        },
+        {
+          "lane": "embodied-ai-skill-lifecycles",
+          "title": "Embodied AI: Skill Lifecycles",
+          "url": "2026-09-02/embodied-ai-skill-lifecycles.html"
+        },
+        {
+          "lane": "security-identity-and-data-boundaries",
+          "title": "Security: Identity + Data Boundaries",
+          "url": "2026-09-02/security-identity-and-data-boundaries.html"
+        }
+      ]
+    },
     {
       "date": "2026-09-01",
       "path": "2026-09-01",
