@@ -1,6 +1,27 @@
 {
-  "updated_at": "2026-09-02T08:10:18.968942+00:00",
+  "updated_at": "2026-09-03T08:04:50.397326+00:00",
   "days": [
+    {
+      "date": "2026-09-03",
+      "path": "2026-09-03",
+      "reports": [
+        {
+          "lane": "model-and-product-surfaces",
+          "title": "Model + Product Surfaces",
+          "url": "2026-09-03/model-and-product-surfaces.html"
+        },
+        {
+          "lane": "identity-and-agent-security",
+          "title": "Identity + Agent Security",
+          "url": "2026-09-03/identity-and-agent-security.html"
+        },
+        {
+          "lane": "simulation-to-real-robotics",
+          "title": "Simulation \u2192 Real Robotics",
+          "url": "2026-09-03/simulation-to-real-robotics.html"
+        }
+      ]
+    },
     {
       "date": "2026-09-02",
       "path": "2026-09-02",

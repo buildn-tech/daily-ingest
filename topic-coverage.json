@@ -749,6 +749,21 @@
       "title": "Security: Identity + Data Boundaries",
       "times_covered": 1,
       "last_covered": "2026-09-02"
+    },
+    "model-and-product-surfaces": {
+      "title": "Model + Product Surfaces",
+      "times_covered": 1,
+      "last_covered": "2026-09-03"
+    },
+    "identity-and-agent-security": {
+      "title": "Identity + Agent Security",
+      "times_covered": 1,
+      "last_covered": "2026-09-03"
+    },
+    "simulation-to-real-robotics": {
+      "title": "Simulation → Real Robotics",
+      "times_covered": 1,
+      "last_covered": "2026-09-03"
     }
   },
   "item_history": [
@@ -1215,6 +1230,88 @@
         }
       ],
       "selection_rationale": "Fresh primary-source signals with deliberate rotation away from yesterday’s privacy/runtime/commerce themes."
+    },
+    {
+      "date": "2026-09-03",
+      "selected_lanes": [
+        "model-and-product-surfaces",
+        "identity-and-agent-security",
+        "simulation-to-real-robotics"
+      ],
+      "items": [
+        {
+          "title": "Google AI announcements from August 2026",
+          "url": "https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026/",
+          "source_type": "blog",
+          "selection_rationale": "Lower model cost changes the feasible shape of background research, retries, and evaluation—not just the vendor bill."
+        },
+        {
+          "title": "Google AI announcements from August 2026",
+          "url": "https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026/",
+          "source_type": "blog",
+          "selection_rationale": "Audio is often the richest client-work input and the least operationalized. Transcription quality is only valuable when downstream actions are reviewable."
+        },
+        {
+          "title": "Win across all three eras of the web",
+          "url": "https://about.ads.microsoft.com/en/blog/post/april-2026/win-across-all-three-eras-of-the-web",
+          "source_type": "blog",
+          "selection_rationale": "SEO and click-through are no longer enough to explain demand. Clients need evidence of how systems represent their offer when no human click occurs."
+        },
+        {
+          "title": "AI in Design 2026: the inflection point is here",
+          "url": "https://designerfund.com/blog/ai-in-design-2026",
+          "source_type": "blog",
+          "selection_rationale": "The leverage is in the handoff: editable artifacts, constraints, and review loops preserve quality as throughput rises."
+        },
+        {
+          "title": "Saviynt UNLOCK 2026 Roadshow",
+          "url": "https://saviynt.com/press-release/saviynt-unlock-2026-roadshow?hsLang=en",
+          "source_type": "product",
+          "selection_rationale": "The important shift is ownership: agent identity is becoming an operational perimeter, not a checkbox attached to an API key."
+        },
+        {
+          "title": "Strategies to improve AI agent data privacy and security",
+          "url": "https://www.okta.com/identity-101/improve-ai-agent-data-privacy-and-security/",
+          "source_type": "product",
+          "selection_rationale": "“The agent can read the database” is too coarse. Permission needs to be evaluated at user, task, record, field, and action boundaries."
+        },
+        {
+          "title": "Top Agentic AI Security Threats in Late 2026",
+          "url": "https://stellarcyber.ai/learn/agentic-ai-securiry-threats/",
+          "source_type": "product",
+          "selection_rationale": "Long-lived memory turns a one-off malicious input into a future instruction. Trust must attach to memory entries, not only the current prompt."
+        },
+        {
+          "title": "Expanding Daybreak as the Cyber Defense Window Narrows",
+          "url": "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows/",
+          "source_type": "product",
+          "selection_rationale": "When agents can change code, spend money, or reach private data, phishing-resistant operator authentication is a sensible release gate."
+        },
+        {
+          "title": "Intrinsic AI for Industry Challenge",
+          "url": "https://www.intrinsic.ai/events/ai-for-industry-challenge",
+          "source_type": "product",
+          "selection_rationale": "The staged ladder makes failure cheaper and evidence comparable. It is a concrete pattern for any agent that can affect the physical or business world."
+        },
+        {
+          "title": "Intrinsic participant toolkit",
+          "url": "https://github.com/intrinsic-dev/aic",
+          "source_type": "repo",
+          "selection_rationale": "A benchmark is only reusable when inputs, actions, and evaluation surfaces are explicit. Hidden glue code makes comparison impossible."
+        },
+        {
+          "title": "Intrinsic challenge technical brief",
+          "url": "https://www.intrinsic.ai/events/ai-for-industry-challenge",
+          "source_type": "product",
+          "selection_rationale": "The analogous software task is messy client data or changing UI state. Success depends on detecting drift and recovering, not only executing the nominal path."
+        },
+        {
+          "title": "Intrinsic challenge timeline",
+          "url": "https://www.intrinsic.ai/events/ai-for-industry-challenge",
+          "source_type": "product",
+          "selection_rationale": "Teams improve faster when evaluation is scheduled and promotion criteria are known before the system is impressive."
+        }
+      ]
     }
   ],
   "runs": [
@@ -2214,7 +2311,7 @@
       "selection_rationale": "Fresh primary-source signal; rotated toward privacy infrastructure, runtime enforcement, same-day embodied-AI research, and scoped agentic commerce."
     }
   ],
-  "updated_at": "2026-09-02T08:10:01.227901+00:00",
+  "updated_at": "2026-09-03T08:00:22Z",
   "last_run": "2026-09-01",
   "last_editorial_thesis": "The most useful frontier signal today is moving from autonomous demos to bounded systems: redact sensitive inputs, isolate generated actions, evaluate recovery, and require scoped authorization for spend.",
   "coverage_history": [

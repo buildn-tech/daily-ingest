@@ -1,6 +1,51 @@
 {
-  "updated_at": "2026-09-02T08:10:18.968942+00:00",
+  "updated_at": "2026-09-03T08:04:50.397326+00:00",
   "sources": {
+    "https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026": {
+      "first_seen": "2026-09-03",
+      "last_seen": "2026-09-03",
+      "title": "Google AI announcements from August 2026"
+    },
+    "https://about.ads.microsoft.com/en/blog/post/april-2026/win-across-all-three-eras-of-the-web": {
+      "first_seen": "2026-09-03",
+      "last_seen": "2026-09-03",
+      "title": "Win across all three eras of the web"
+    },
+    "https://designerfund.com/blog/ai-in-design-2026": {
+      "first_seen": "2026-09-03",
+      "last_seen": "2026-09-03",
+      "title": "AI in Design 2026: the inflection point is here"
+    },
+    "https://saviynt.com/press-release/saviynt-unlock-2026-roadshow?hsLang=en": {
+      "first_seen": "2026-09-03",
+      "last_seen": "2026-09-03",
+      "title": "Saviynt UNLOCK 2026 Roadshow"
+    },
+    "https://www.okta.com/identity-101/improve-ai-agent-data-privacy-and-security": {
+      "first_seen": "2026-09-03",
+      "last_seen": "2026-09-03",
+      "title": "Strategies to improve AI agent data privacy and security"
+    },
+    "https://stellarcyber.ai/learn/agentic-ai-securiry-threats": {
+      "first_seen": "2026-09-03",
+      "last_seen": "2026-09-03",
+      "title": "Top Agentic AI Security Threats in Late 2026"
+    },
+    "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows": {
+      "first_seen": "2026-09-03",
+      "last_seen": "2026-09-02",
+      "title": "Expanding Daybreak"
+    },
+    "https://www.intrinsic.ai/events/ai-for-industry-challenge": {
+      "first_seen": "2026-09-03",
+      "last_seen": "2026-09-03",
+      "title": "Intrinsic challenge timeline"
+    },
+    "https://github.com/intrinsic-dev/aic": {
+      "first_seen": "2026-09-03",
+      "last_seen": "2026-09-03",
+      "title": "Intrinsic participant toolkit"
+    },
     "https://github.blog/news-insights/product-news/github-copilot-app-the-agent-native-desktop-experience": {
       "first_seen": "2026-09-02",
       "last_seen": "2026-09-02",
@@ -80,11 +125,6 @@
       "first_seen": "2026-09-02",
       "last_seen": "2026-09-02",
       "title": "Path to Astra"
-    },
-    "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows": {
-      "first_seen": "2026-09-02",
-      "last_seen": "2026-09-02",
-      "title": "Expanding Daybreak"
     },
     "https://genai.owasp.org/": {
       "first_seen": "2026-09-02",

@@ -1,0 +1,124 @@
+{
+  "date": "2026-09-03",
+  "generated_at": "2026-09-03T08:00:22Z",
+  "editorial_thesis": "The useful frontier is the operating surface around capability: cheaper workers, agent-readable products, named identities, and staged promotion from sandbox to reality.",
+  "topic_groups": [
+    {
+      "slug": "model-and-product-surfaces",
+      "title": "Model + Product Surfaces",
+      "selection_rationale": "Google\u2019s August recap is useful less as a launch list than as a portfolio pattern: cheaper workhorse models, speech interfaces, learning surfaces, and on-device assistance. Microsoft\u2019s \u201cthree webs\u201d framing turns that capability shift into a concrete client question: can a business be found, understood, and acted on by machines?",
+      "sources": [
+        {
+          "title": "Google AI announcements from August 2026",
+          "url": "https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026/",
+          "source_type": "blog",
+          "published_or_updated": "2026-09-01",
+          "why_selected": "Lower model cost changes the feasible shape of background research, retries, and evaluation\u2014not just the vendor bill.",
+          "usefulness": "Run a small quality-per-dollar bakeoff for Buildn research jobs; keep routing policy separate from workflow logic."
+        },
+        {
+          "title": "Google AI announcements from August 2026",
+          "url": "https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026/",
+          "source_type": "blog",
+          "published_or_updated": "2026-09-02 or earlier",
+          "why_selected": "Audio is often the richest client-work input and the least operationalized. Transcription quality is only valuable when downstream actions are reviewable.",
+          "usefulness": "Prototype call-to-brief pipelines that retain timestamps, confidence, and links to the original audio."
+        },
+        {
+          "title": "Win across all three eras of the web",
+          "url": "https://about.ads.microsoft.com/en/blog/post/april-2026/win-across-all-three-eras-of-the-web",
+          "source_type": "blog",
+          "published_or_updated": "2026-09-02 or earlier",
+          "why_selected": "SEO and click-through are no longer enough to explain demand. Clients need evidence of how systems represent their offer when no human click occurs.",
+          "usefulness": "Add an \u201cAI representation audit\u201d to discovery: authoritative pages, structured facts, route policies, and citation gaps."
+        },
+        {
+          "title": "AI in Design 2026: the inflection point is here",
+          "url": "https://designerfund.com/blog/ai-in-design-2026",
+          "source_type": "blog",
+          "published_or_updated": "2026-09-02 or earlier",
+          "why_selected": "The leverage is in the handoff: editable artifacts, constraints, and review loops preserve quality as throughput rises.",
+          "usefulness": "Package client design work as inspectable decisions: tokens, states, content rules, and acceptance screenshots."
+        }
+      ]
+    },
+    {
+      "slug": "identity-and-agent-security",
+      "title": "Identity + Agent Security",
+      "selection_rationale": "A fresh security signal is forming around AI identity as a first-class enterprise object. Saviynt\u2019s UNLOCK announcement, alongside identity-first guidance, points toward a practical control: every agent action should carry a distinct identity, scoped authority, and a reviewable reason\u2014not a shared service credential.",
+      "sources": [
+        {
+          "title": "Saviynt UNLOCK 2026 Roadshow",
+          "url": "https://saviynt.com/press-release/saviynt-unlock-2026-roadshow?hsLang=en",
+          "source_type": "product",
+          "published_or_updated": "2026-09-02 or earlier",
+          "why_selected": "The important shift is ownership: agent identity is becoming an operational perimeter, not a checkbox attached to an API key.",
+          "usefulness": "Model Buildn agents as principals with owner, purpose, expiry, tools, and action history."
+        },
+        {
+          "title": "Strategies to improve AI agent data privacy and security",
+          "url": "https://www.okta.com/identity-101/improve-ai-agent-data-privacy-and-security/",
+          "source_type": "product",
+          "published_or_updated": "2026-09-02 or earlier",
+          "why_selected": "\u201cThe agent can read the database\u201d is too coarse. Permission needs to be evaluated at user, task, record, field, and action boundaries.",
+          "usefulness": "Add policy checks before retrieval and before mutation; log the policy decision beside the tool call."
+        },
+        {
+          "title": "Top Agentic AI Security Threats in Late 2026",
+          "url": "https://stellarcyber.ai/learn/agentic-ai-securiry-threats/",
+          "source_type": "product",
+          "published_or_updated": "2026-09-02 or earlier",
+          "why_selected": "Long-lived memory turns a one-off malicious input into a future instruction. Trust must attach to memory entries, not only the current prompt.",
+          "usefulness": "Tag stored memories with source, confidence, expiry, and sensitivity; require revalidation before high-impact use."
+        },
+        {
+          "title": "Expanding Daybreak as the Cyber Defense Window Narrows",
+          "url": "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows/",
+          "source_type": "product",
+          "published_or_updated": "2026-09-02 or earlier",
+          "why_selected": "When agents can change code, spend money, or reach private data, phishing-resistant operator authentication is a sensible release gate.",
+          "usefulness": "Require a hardware-backed operator step for privilege elevation, policy changes, and irreversible client actions."
+        }
+      ]
+    },
+    {
+      "slug": "simulation-to-real-robotics",
+      "title": "Simulation \u2192 Real Robotics",
+      "selection_rationale": "The strongest robotics signal is operational: Intrinsic\u2019s AI for Industry Challenge makes the sim-to-real boundary explicit, with standardized ROS interfaces, staged qualification, and physical validation. The transferable lesson for software agents is to separate capability development, sandbox evaluation, and real-world execution.",
+      "sources": [
+        {
+          "title": "Intrinsic AI for Industry Challenge",
+          "url": "https://www.intrinsic.ai/events/ai-for-industry-challenge",
+          "source_type": "product",
+          "published_or_updated": "2026-09-02 or earlier",
+          "why_selected": "The staged ladder makes failure cheaper and evidence comparable. It is a concrete pattern for any agent that can affect the physical or business world.",
+          "usefulness": "Design Buildn agent pilots with sandbox qualification, staged client data, and a narrow production canary\u2014not a direct jump from demo to live."
+        },
+        {
+          "title": "Intrinsic participant toolkit",
+          "url": "https://github.com/intrinsic-dev/aic",
+          "source_type": "repo",
+          "published_or_updated": "2026-09-02 or earlier",
+          "why_selected": "A benchmark is only reusable when inputs, actions, and evaluation surfaces are explicit. Hidden glue code makes comparison impossible.",
+          "usefulness": "Publish typed tool contracts, fixture data, and evaluator APIs alongside Buildn workflow templates."
+        },
+        {
+          "title": "Intrinsic challenge technical brief",
+          "url": "https://www.intrinsic.ai/events/ai-for-industry-challenge",
+          "source_type": "product",
+          "published_or_updated": "2026-09-02 or earlier",
+          "why_selected": "The analogous software task is messy client data or changing UI state. Success depends on detecting drift and recovering, not only executing the nominal path.",
+          "usefulness": "Add explicit \u201cstate mismatch\u201d detectors and recovery branches to browser, data, and document agents."
+        },
+        {
+          "title": "Intrinsic challenge timeline",
+          "url": "https://www.intrinsic.ai/events/ai-for-industry-challenge",
+          "source_type": "product",
+          "published_or_updated": "2026-09-02 or earlier",
+          "why_selected": "Teams improve faster when evaluation is scheduled and promotion criteria are known before the system is impressive.",
+          "usefulness": "Give each Buildn agent pilot a weekly eval set, promotion gate, owner, and sunset date."
+        }
+      ]
+    }
+  ]
+}
