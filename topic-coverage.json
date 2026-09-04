@@ -764,6 +764,21 @@
       "title": "Simulation → Real Robotics",
       "times_covered": 1,
       "last_covered": "2026-09-03"
+    },
+    "model-change-control": {
+      "title": "Model Change Control",
+      "times_covered": 1,
+      "last_covered": "2026-09-04"
+    },
+    "frontline-cyber-defense": {
+      "title": "Frontline Cyber Defense",
+      "times_covered": 1,
+      "last_covered": "2026-09-04"
+    },
+    "ai-assisted-threat-intelligence": {
+      "title": "AI-Assisted Threat Intelligence",
+      "times_covered": 1,
+      "last_covered": "2026-09-04"
     }
   },
   "item_history": [
@@ -1312,6 +1327,78 @@
           "selection_rationale": "Teams improve faster when evaluation is scheduled and promotion criteria are known before the system is impressive."
         }
       ]
+    },
+    {
+      "date": "2026-09-04",
+      "topic": "model-change-control",
+      "title": "Upcoming deprecation of selected GitHub Copilot models",
+      "url": "https://github.blog/changelog/2026-09-03-upcoming-deprecation-of-selected-github-copilot-models",
+      "source_type": "release",
+      "rationale": "October 2 retirement date creates an immediate inventory and migration task."
+    },
+    {
+      "date": "2026-09-04",
+      "topic": "model-change-control",
+      "title": "Gemini 3.8 Flash is now available in GitHub Copilot",
+      "url": "https://github.blog/changelog/2026-09-03-gemini-3-8-flash-is-now-available-in-github-copilot",
+      "source_type": "release",
+      "rationale": "New terminal-oriented model makes a bounded compatibility trial timely."
+    },
+    {
+      "date": "2026-09-04",
+      "topic": "model-change-control",
+      "title": "Content exclusions generally available in Copilot app and CLI",
+      "url": "https://github.blog/changelog/2026-09-02-content-exclusions-generally-available-in-copilot-app-and-cli",
+      "source_type": "release",
+      "rationale": "Repository exclusion policy now follows context into app and CLI agent workflows."
+    },
+    {
+      "date": "2026-09-04",
+      "topic": "model-change-control",
+      "title": "Copilot code review can now approve pull requests",
+      "url": "https://github.blog/changelog/2026-09-01-copilot-code-review-can-now-approve-pull-requests",
+      "source_type": "release",
+      "rationale": "Machine approval is now an explicit, scoped branch-policy option."
+    },
+    {
+      "date": "2026-09-04",
+      "topic": "frontline-cyber-defense",
+      "title": "Daybreak for Frontline Defenders",
+      "url": "https://openai.com/index/daybreak-for-frontline-defenders/",
+      "source_type": "product",
+      "rationale": "A $1B commitment makes authorized cyber-defense access and training a current operational signal."
+    },
+    {
+      "date": "2026-09-04",
+      "topic": "frontline-cyber-defense",
+      "title": "Safety overview: GPT-6 Astra",
+      "url": "https://openai.com/index/safety-overview-gpt-6-astra/",
+      "source_type": "research",
+      "rationale": "Critical cyber capability and monitorability limitations need separate release-gate treatment."
+    },
+    {
+      "date": "2026-09-04",
+      "topic": "frontline-cyber-defense",
+      "title": "GPT-6 Astra system card",
+      "url": "https://deploymentsafety.openai.com/gpt-6-astra",
+      "source_type": "research",
+      "rationale": "Primary evidence surface for capability, alignment, and monitoring claims."
+    },
+    {
+      "date": "2026-09-04",
+      "topic": "ai-assisted-threat-intelligence",
+      "title": "Introducing the 2026 Cloudflare Threat Report",
+      "url": "https://blog.cloudflare.com/2026-threat-report/",
+      "source_type": "research",
+      "rationale": "Current threat reporting describes AI-assisted self-vulnerability analysis and a critical RCE discovery."
+    },
+    {
+      "date": "2026-09-04",
+      "topic": "ai-assisted-threat-intelligence",
+      "title": "CVE-2026-22813 advisory",
+      "url": "https://github.com/anomalyco/opencode/security/advisories/GHSA-c83v-7274-4vgp",
+      "source_type": "docs",
+      "rationale": "Concrete markdown-rendering RCE example makes renderer and preview audits actionable."
     }
   ],
   "runs": [
@@ -2309,6 +2396,27 @@
         }
       ],
       "selection_rationale": "Fresh primary-source signal; rotated toward privacy infrastructure, runtime enforcement, same-day embodied-AI research, and scoped agentic commerce."
+    },
+    {
+      "date": "2026-09-04",
+      "selected_lanes": [
+        {
+          "slug": "model-change-control",
+          "title": "Model Change Control",
+          "selection_rationale": "Fresh Sep 3 GitHub notices make model retirement, evaluation, context exclusion, and approval policy one migration surface."
+        },
+        {
+          "slug": "frontline-cyber-defense",
+          "title": "Frontline Cyber Defense",
+          "selection_rationale": "Fresh Sep 3 OpenAI updates connect frontier cyber capability, monitorability limits, and subsidized defender access."
+        },
+        {
+          "slug": "ai-assisted-threat-intelligence",
+          "title": "AI-Assisted Threat Intelligence",
+          "selection_rationale": "Fresh Sep 4 Cloudflare reporting turns self-testing and critical vulnerability discovery into an evidence workflow."
+        }
+      ],
+      "editorial_thesis": "The useful frontier is shifting from adding agent capability to governing change: model portfolios need migration plans, cyber-capable systems need evidence-backed safeguards, and internet defense needs AI-assisted validation with human authorization."
     }
   ],
   "updated_at": "2026-09-03T08:00:22Z",

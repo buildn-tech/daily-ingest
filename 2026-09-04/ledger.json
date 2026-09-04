@@ -1,0 +1,40 @@
+{
+  "date": "2026-09-04",
+  "generated_at": "2026-09-04T08:00:51+00:00",
+  "editorial_thesis": "The useful frontier is shifting from adding agent capability to governing change: model portfolios need migration plans, cyber-capable systems need evidence-backed safeguards, and internet defense needs AI-assisted validation with human authorization.",
+  "topic_groups": [
+    {
+      "slug": "model-change-control",
+      "title": "Model Change Control",
+      "selection_rationale": "Fresh September 3 GitHub notices create an immediate migration and policy task, while model availability and deprecation are now coupled operational events.",
+      "sources": [
+        {"title":"Upcoming deprecation of selected GitHub Copilot models","url":"https://github.blog/changelog/2026-09-03-upcoming-deprecation-of-selected-github-copilot-models","source_type":"release","published_or_updated":"2026-09-03","why_selected":"Four Copilot models have a stated October 2 retirement date and named replacements.","usefulness":"Turn provider notices into an inventory, compatibility test, and rollback plan."},
+        {"title":"Gemini 3.8 Flash is now available in GitHub Copilot","url":"https://github.blog/changelog/2026-09-03-gemini-3-8-flash-is-now-available-in-github-copilot","source_type":"release","published_or_updated":"2026-09-03","why_selected":"A new broadly available model is positioned for terminal coding, validation, and recovery.","usefulness":"Run a bounded A/B trial against real repository tasks before changing defaults."},
+        {"title":"Content exclusions generally available in Copilot app and CLI","url":"https://github.blog/changelog/2026-09-02-content-exclusions-generally-available-in-copilot-app-and-cli","source_type":"release","published_or_updated":"2026-09-02","why_selected":"Exclusion policy now follows code into app and CLI agent workflows.","usefulness":"Protect secrets, regulated folders, and client-specific context at the repository boundary."},
+        {"title":"Copilot code review can now approve pull requests","url":"https://github.blog/changelog/2026-09-01-copilot-code-review-can-now-approve-pull-requests","source_type":"release","published_or_updated":"2026-09-01","why_selected":"Approval can count toward required reviews when explicitly enabled and scoped by path.","usefulness":"Pilot only on low-risk paths with explicit branch-protection and post-commit rules."}
+      ]
+    },
+    {
+      "slug": "frontline-cyber-defense",
+      "title": "Frontline Cyber Defense",
+      "selection_rationale": "OpenAI published two September 3 updates that connect frontier cyber capability, monitoring limits, and a practical subsidy model for under-resourced defenders.",
+      "sources": [
+        {"title":"Daybreak for Frontline Defenders: $1B to protect essential services","url":"https://openai.com/index/daybreak-for-frontline-defenders/","source_type":"product","published_or_updated":"2026-09-03","why_selected":"A $1B commitment targets subsidized access, training, and technical support for essential-service defenders.","usefulness":"Watch eligibility and reuse its authorized assess-prioritize-patch-verify workflow for client security work."},
+        {"title":"Safety overview: GPT-6 Astra","url":"https://openai.com/index/safety-overview-gpt-6-astra/","source_type":"research","published_or_updated":"2026-09-03","why_selected":"Astra is reported at Critical cyber capability with stronger safeguards but reduced monitorability in some tests.","usefulness":"Treat capability claims and monitorability limits as separate release-gate inputs."},
+        {"title":"GPT-6 Astra system card","url":"https://deploymentsafety.openai.com/gpt-6-astra","source_type":"research","published_or_updated":"2026-09-03","why_selected":"The linked technical dossier is the primary evidence surface behind the safety overview.","usefulness":"Build a small evidence table: capability, misuse control, monitorability, residual risk."},
+        {"title":"OpenAI and Hugging Face partner to address security incident","url":"https://openai.com/index/hugging-face-model-evaluation-security-incident/","source_type":"research","published_or_updated":"2026-07-21; updated context 2026-08-26","why_selected":"The incident remains a concrete reminder that evaluation sandboxes and package infrastructure can become attack paths.","usefulness":"Add dependency caches, credentials, egress, and benchmark artifacts to agent threat models."}
+      ]
+    },
+    {
+      "slug": "ai-assisted-threat-intelligence",
+      "title": "AI-Assisted Threat Intelligence",
+      "selection_rationale": "Cloudflare’s current threat report supplies a distinct, incident-shaped lane: use agents to discover weaknesses, but keep remediation evidence and authorization visible.",
+      "sources": [
+        {"title":"Introducing the 2026 Cloudflare Threat Report","url":"https://blog.cloudflare.com/2026-threat-report/","source_type":"research","published_or_updated":"2026-09-04","why_selected":"The report describes AI-assisted self-vulnerability analysis and a critical markdown-rendering RCE discovery.","usefulness":"Use the dogfooding pattern to test Buildn-style agent surfaces against their own trust boundaries."},
+        {"title":"CVE-2026-22813 advisory","url":"https://github.com/anomalyco/opencode/security/advisories/GHSA-c83v-7274-4vgp","source_type":"docs","published_or_updated":"2026-09-04","why_selected":"The incident points to a critical unauthenticated RCE in a markdown rendering pipeline.","usefulness":"Audit renderers, preview routes, and generated-artifact handling for equivalent paths."},
+        {"title":"Cloudflare Agent Access Model","url":"https://blog.cloudflare.com/the-agent-access-model/","source_type":"blog","published_or_updated":"2026-08-06; used as framework reference","why_selected":"Its task-scoped identity and activity-log pattern makes the threat report operationally actionable.","usefulness":"Record actor, task, tool, target, decision, and outcome for every high-impact agent action."},
+        {"title":"Sandboxing AI agents, 100x faster","url":"https://blog.cloudflare.com/dynamic-workers/","source_type":"release","published_or_updated":"2026-09-01; used as runtime reference","why_selected":"Runtime-loadable isolates show how generated code can be made fast without dropping capability and network controls.","usefulness":"Compare isolate, egress, capability-injection, and patch cadence assumptions before scaling Code Mode."}
+      ]
+    }
+  ]
+}
