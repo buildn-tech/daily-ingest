@@ -1,6 +1,27 @@
 {
-  "updated_at": "2026-09-04T08:05:56.131601+00:00",
+  "updated_at": "2026-09-05T08:10:26.379636+00:00",
   "days": [
+    {
+      "date": "2026-09-05",
+      "path": "2026-09-05",
+      "reports": [
+        {
+          "lane": "agent-runtime-release",
+          "title": "Agent Runtime Release Surface",
+          "url": "2026-09-05/agent-runtime-release.html"
+        },
+        {
+          "lane": "personal-context-and-access",
+          "title": "Personal Context + Access",
+          "url": "2026-09-05/personal-context-and-access.html"
+        },
+        {
+          "lane": "evaluation-harness-integrity",
+          "title": "Evaluation Harness Integrity",
+          "url": "2026-09-05/evaluation-harness-integrity.html"
+        }
+      ]
+    },
     {
       "date": "2026-09-04",
       "path": "2026-09-04",

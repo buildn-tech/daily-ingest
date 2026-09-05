@@ -1,0 +1,40 @@
+{
+  "date":"2026-09-05",
+  "generated_at":"2026-09-05T08:00:19Z",
+  "editorial_thesis":"The strongest new signal is not another model launch: agent work is becoming a managed operating surface, personal context is becoming portable infrastructure, and evaluation quality now depends on testing the harness around the model.",
+  "topic_groups":[
+    {
+      "slug":"agent-runtime-release",
+      "title":"Agent Runtime Release Surface",
+      "selection_rationale":"Fresh September 4 GitHub releases add long-horizon model capability, multi-root sessions, merge automation, and privacy-safe analytics; this is a concrete workflow shift rather than yesterday’s deprecation notice.",
+      "sources":[
+        {"title":"GPT-6 Astra is generally available in GitHub Copilot","url":"https://github.blog/changelog/2026-09-04-gpt-6-astra-is-generally-available-in-github-copilot/","source_type":"release","published_or_updated":"2026-09-04","why_selected":"GitHub positions the model around planning, execution, diagnosis, and independent validation.","usefulness":"Benchmark it on bounded repository tasks and inspect cost per verified outcome."},
+        {"title":"GitHub Copilot weekly releases — August 31","url":"https://github.blog/changelog/2026-09-04-github-copilot-weekly-releases-august-31/","source_type":"release","published_or_updated":"2026-09-04","why_selected":"The weekly bundle connects model choice with content exclusions, Agent Merge, multi-root workspaces, and session organization.","usefulness":"Treat the IDE as an agent control plane: scope context, sessions, and merge permissions together."},
+        {"title":"New API endpoint provides privacy-safe star history data","url":"https://github.blog/changelog/2026-09-04-new-api-endpoint-provides-privacy-safe-star-history-data/","source_type":"release","published_or_updated":"2026-09-04","why_selected":"It replaces identity-exposing stargazer scraping with aggregate historical counts.","usefulness":"Restore repository trend analytics without retaining user-level engagement data."},
+        {"title":"Supported GitHub Copilot models","url":"https://docs.github.com/copilot/reference/ai-models/supported-models","source_type":"docs","published_or_updated":"current","why_selected":"The model catalog is the operational reference for availability, plans, and migration decisions.","usefulness":"Maintain a small compatibility matrix instead of hard-coding one provider default."}
+      ]
+    },
+    {
+      "slug":"personal-context-and-access",
+      "title":"Personal Context + Access",
+      "selection_rationale":"Coverage has underweighted user-facing context and collaboration infrastructure. September Android features and Microsoft’s model-diverse local-to-cloud stack show where agent utility meets permissions and accessibility.",
+      "sources":[
+        {"title":"September Android Drop","url":"https://blog.google/products-and-platforms/platforms/android/android-drop-september-2026/","source_type":"product","published_or_updated":"2026-09-01","why_selected":"Remembered items, Guided vision, and shared Keep notes turn ambient context into user-controlled utility.","usefulness":"Design memory features around explicit capture, retrieval, correction, and safety boundaries."},
+        {"title":"Microsoft Build 2026: Be yourself at work","url":"https://blogs.microsoft.com/blog/2026/06/02/microsoft-build-2026-be-yourself-at-work/","source_type":"product","published_or_updated":"2026-06-02","why_selected":"Microsoft frames Work IQ, Fabric IQ, Foundry IQ, local sandboxing, and multi-model choice as one governed stack.","usefulness":"Use the model/context/runtime split as a reference architecture for client discovery."},
+        {"title":"Announcing OpenAI DevDay 2026","url":"https://openai.com/index/devday-2026/","source_type":"product","published_or_updated":"2026-09-04","why_selected":"The September 29 event is a near-term primary-source checkpoint for API and agent platform changes.","usefulness":"Reserve a review slot; update Buildn assumptions only from shipped announcements."},
+        {"title":"Google AI updates from August 2026","url":"https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026/","source_type":"product","published_or_updated":"2026-08-31","why_selected":"The roundup identifies Gemini 3.7 Flash as a workhorse model for coding and agents.","usefulness":"Compare workhorse-model positioning against long-horizon specialist models."}
+      ]
+    },
+    {
+      "slug":"evaluation-harness-integrity",
+      "title":"Evaluation Harness Integrity",
+      "selection_rationale":"A current arXiv scan exposes a practical gap: agent reliability, monitorability, and benchmark scores can change with state, serving adapters, and interface design even when model weights do not.",
+      "sources":[
+        {"title":"arXiv cs.AI new submissions — 4 September 2026","url":"https://arxiv.org/list/cs.AI/new","source_type":"paper","published_or_updated":"2026-09-04","why_selected":"New work reports stale-plan failures, harness attacks, monitorability gaps, and large serving-adapter score shifts.","usefulness":"Test the whole agent harness: state freshness, tools, serving, monitors, and abstention."},
+        {"title":"Self-Host Weekly — 4 September 2026","url":"https://selfh.st/weekly/2026-09-04/","source_type":"news","published_or_updated":"2026-09-04","why_selected":"The issue records SourceHut’s LLM-code policy, Home Assistant 2026.9, Tailcat, and a Plex security update.","usefulness":"Keep a pragmatic local-first lane: provenance rules, patch cadence, and reversible infrastructure."},
+        {"title":"Home Assistant 2026.9","url":"https://www.home-assistant.io/blog/2026/09/02/release-20269/","source_type":"release","published_or_updated":"2026-09-02","why_selected":"The release improves cloud-login visibility, security alerts, activity entries, and Matter support.","usefulness":"Borrow clearer activity and alert surfaces for agent actions in Buildn OS."},
+        {"title":"Changes to SourceHut’s terms regarding LLMs","url":"https://sourcehut.org/blog/2026-08-27/tos-changes-and-llms/","source_type":"docs","published_or_updated":"2026-08-27","why_selected":"It is a concrete governance response to low-provenance generated contributions.","usefulness":"Make contribution provenance and human review explicit in client workflows."}
+      ]
+    }
+  ]
+}

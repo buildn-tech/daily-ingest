@@ -1,6 +1,66 @@
 {
-  "updated_at": "2026-09-04T08:05:56.131601+00:00",
+  "updated_at": "2026-09-05T08:10:26.379636+00:00",
   "sources": {
+    "https://github.blog/changelog/2026-09-04-gpt-6-astra-is-generally-available-in-github-copilot": {
+      "first_seen": "2026-09-05",
+      "last_seen": "2026-09-05",
+      "title": "GPT-6 Astra is generally available in GitHub Copilot"
+    },
+    "https://github.blog/changelog/2026-09-04-github-copilot-weekly-releases-august-31": {
+      "first_seen": "2026-09-05",
+      "last_seen": "2026-09-05",
+      "title": "GitHub Copilot weekly releases \u2014 August 31"
+    },
+    "https://github.blog/changelog/2026-09-04-new-api-endpoint-provides-privacy-safe-star-history-data": {
+      "first_seen": "2026-09-05",
+      "last_seen": "2026-09-05",
+      "title": "New API endpoint provides privacy-safe star history data"
+    },
+    "https://docs.github.com/copilot/reference/ai-models/supported-models": {
+      "first_seen": "2026-09-05",
+      "last_seen": "2026-09-05",
+      "title": "Supported GitHub Copilot models"
+    },
+    "https://blog.google/products-and-platforms/platforms/android/android-drop-september-2026": {
+      "first_seen": "2026-09-05",
+      "last_seen": "2026-09-05",
+      "title": "September Android Drop"
+    },
+    "https://blogs.microsoft.com/blog/2026/06/02/microsoft-build-2026-be-yourself-at-work": {
+      "first_seen": "2026-09-05",
+      "last_seen": "2026-09-05",
+      "title": "Microsoft Build 2026: Be yourself at work"
+    },
+    "https://openai.com/index/devday-2026": {
+      "first_seen": "2026-09-05",
+      "last_seen": "2026-09-05",
+      "title": "Announcing OpenAI DevDay 2026"
+    },
+    "https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026": {
+      "first_seen": "2026-09-05",
+      "last_seen": "2026-09-03",
+      "title": "Google AI announcements from August 2026"
+    },
+    "https://arxiv.org/list/cs.AI/new": {
+      "first_seen": "2026-09-05",
+      "last_seen": "2026-09-05",
+      "title": "arXiv cs.AI new submissions \u2014 4 September 2026"
+    },
+    "https://selfh.st/weekly/2026-09-04": {
+      "first_seen": "2026-09-05",
+      "last_seen": "2026-09-05",
+      "title": "Self-Host Weekly \u2014 4 September 2026"
+    },
+    "https://www.home-assistant.io/blog/2026/09/02/release-20269": {
+      "first_seen": "2026-09-05",
+      "last_seen": "2026-09-05",
+      "title": "Home Assistant 2026.9"
+    },
+    "https://sourcehut.org/blog/2026-08-27/tos-changes-and-llms": {
+      "first_seen": "2026-09-05",
+      "last_seen": "2026-09-05",
+      "title": "Changes to SourceHut\u2019s terms regarding LLMs"
+    },
     "https://github.blog/changelog/2026-09-03-upcoming-deprecation-of-selected-github-copilot-models": {
       "first_seen": "2026-09-04",
       "last_seen": "2026-09-04",
@@ -60,11 +120,6 @@
       "first_seen": "2026-09-04",
       "last_seen": "2026-09-01",
       "title": "Cloudflare Dynamic Worker Loader"
-    },
-    "https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026": {
-      "first_seen": "2026-09-03",
-      "last_seen": "2026-09-03",
-      "title": "Google AI announcements from August 2026"
     },
     "https://about.ads.microsoft.com/en/blog/post/april-2026/win-across-all-three-eras-of-the-web": {
       "first_seen": "2026-09-03",
