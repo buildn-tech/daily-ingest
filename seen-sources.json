@@ -1,6 +1,61 @@
 {
-  "updated_at": "2026-09-05T08:10:26.379636+00:00",
+  "updated_at": "2026-09-06T08:11:30.926541+00:00",
   "sources": {
+    "https://docs.devin.ai/desktop/changelog-next": {
+      "first_seen": "2026-09-06",
+      "last_seen": "2026-09-06",
+      "title": "Devin Desktop v3.9.1018"
+    },
+    "https://blog.google/innovation-and-ai/technology/developers-tools/managed-agents-gemini-api": {
+      "first_seen": "2026-09-06",
+      "last_seen": "2026-09-06",
+      "title": "Build managed agents with the Gemini API"
+    },
+    "https://docs.cloud.google.com/vertex-ai/docs/release-notes": {
+      "first_seen": "2026-09-06",
+      "last_seen": "2026-08-15",
+      "title": "Vertex AI becomes Gemini Enterprise Agent Platform"
+    },
+    "https://vercel.com/changelog/gemini-3-8-flash-now-available-on-ai-gateway": {
+      "first_seen": "2026-09-06",
+      "last_seen": "2026-09-06",
+      "title": "Gemini 3.8 Flash"
+    },
+    "https://www.anthropic.com/news/enterprise-frontier-safeguards": {
+      "first_seen": "2026-09-06",
+      "last_seen": "2026-09-06",
+      "title": "Enterprise Frontier Safeguards"
+    },
+    "https://securitydocs.cisco.com/docs/ai-def/user/168305.dita": {
+      "first_seen": "2026-09-06",
+      "last_seen": "2026-08-15",
+      "title": "Cisco AI Defense 2026.8.1"
+    },
+    "https://www.anthropic.com/news/wellbeing-research-grants": {
+      "first_seen": "2026-09-06",
+      "last_seen": "2026-09-06",
+      "title": "Funding better evaluations of AI\u2019s impact on wellbeing"
+    },
+    "https://www.anthropic.com/news/disrupting-AI-espionage": {
+      "first_seen": "2026-09-06",
+      "last_seen": "2026-09-06",
+      "title": "AI-orchestrated cyber espionage campaign"
+    },
+    "https://vercel.com/changelog/ling-3-0-flash-fin-now-available-on-ai-gateway-for-free": {
+      "first_seen": "2026-09-06",
+      "last_seen": "2026-09-06",
+      "title": "Ling 3.0 Flash Fin"
+    },
+    "https://vercel.com/changelog/minimax-m3-and-m2-7-are-free-on-ai-gateway": {
+      "first_seen": "2026-09-06",
+      "last_seen": "2026-09-06",
+      "title": "MiniMax M3 and M2.7 free route"
+    },
+    "https://www.anthropic.com/claude-fable-and-mythos-5-1": {
+      "first_seen": "2026-09-06",
+      "last_seen": "2026-09-06",
+      "title": "Claude Fable 5.1 and Mythos 5.1"
+    },
     "https://github.blog/changelog/2026-09-04-gpt-6-astra-is-generally-available-in-github-copilot": {
       "first_seen": "2026-09-05",
       "last_seen": "2026-09-05",
@@ -1206,11 +1261,6 @@
       "last_seen": "2026-08-16",
       "title": "GPT-5.6 Luna in coding sessions"
     },
-    "https://docs.cloud.google.com/vertex-ai/docs/release-notes": {
-      "first_seen": "2026-08-15",
-      "last_seen": "2026-08-15",
-      "title": "Vertex AI becomes Gemini Enterprise Agent Platform"
-    },
     "https://developers.google.com/workspace/release-notes": {
       "first_seen": "2026-08-15",
       "last_seen": "2026-08-15",
@@ -1230,11 +1280,6 @@
       "first_seen": "2026-08-15",
       "last_seen": "2026-08-14",
       "title": "Build long-running AI agents that pause, resume, and never lose context with ADK"
-    },
-    "https://securitydocs.cisco.com/docs/ai-def/user/168305.dita": {
-      "first_seen": "2026-08-15",
-      "last_seen": "2026-08-15",
-      "title": "Cisco AI Defense 2026.8.1"
     },
     "https://research.checkpoint.com/2026/ai-security-report-2026": {
       "first_seen": "2026-08-15",

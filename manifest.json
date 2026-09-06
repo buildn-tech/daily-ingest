@@ -1,6 +1,27 @@
 {
-  "updated_at": "2026-09-05T08:10:26.379636+00:00",
+  "updated_at": "2026-09-06T08:11:30.926541+00:00",
   "days": [
+    {
+      "date": "2026-09-06",
+      "path": "2026-09-06",
+      "reports": [
+        {
+          "lane": "agent-runtime-and-local-execution",
+          "title": "Agent Runtime + Local Execution",
+          "url": "2026-09-06/agent-runtime-and-local-execution.html"
+        },
+        {
+          "lane": "security-and-evaluation",
+          "title": "Security + Evaluation",
+          "url": "2026-09-06/security-and-evaluation.html"
+        },
+        {
+          "lane": "model-portfolio-and-cost",
+          "title": "Model Portfolio + Cost",
+          "url": "2026-09-06/model-portfolio-and-cost.html"
+        }
+      ]
+    },
     {
       "date": "2026-09-05",
       "path": "2026-09-05",

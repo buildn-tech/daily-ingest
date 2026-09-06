@@ -1,0 +1,40 @@
+{
+  "date": "2026-09-06",
+  "generated_at": "2026-09-06T08:00:19Z",
+  "editorial_thesis": "Agent advantage is moving into the operating layer: explicit runtime placement, customer-owned security evidence, and model portfolios that turn temporary price windows into durable evaluation data.",
+  "topic_groups": [
+    {
+      "slug": "agent-runtime-and-local-execution",
+      "title": "Agent Runtime + Local Execution",
+      "selection_rationale": "Rotates away from the prior day’s runtime release recap toward the deeper placement decision: local, worktree, cloud, or managed sandbox.",
+      "sources": [
+        {"title":"Devin Desktop v3.9.1018","url":"https://docs.devin.ai/desktop/changelog-next","source_type":"release","published_or_updated":"2026-09-05","why_selected":"Latest release makes execution location explicit and removes Cascade.","usefulness":"Provides a concrete placement-and-review pattern to test."},
+        {"title":"Build managed agents with the Gemini API","url":"https://blog.google/innovation-and-ai/technology/developers-tools/managed-agents-gemini-api/","source_type":"product","published_or_updated":"2026-05-19","why_selected":"Shows versioned AGENTS.md/SKILL.md plus resumable isolated environments.","usefulness":"Useful template for packaging repeatable research and artifact workflows."},
+        {"title":"Vertex AI release notes","url":"https://docs.cloud.google.com/vertex-ai/docs/release-notes","source_type":"docs","published_or_updated":"2026-09-06","why_selected":"Current documentation now points users to Gemini Enterprise Agent Platform.","usefulness":"Creates an immediate vendor-reference and migration audit task."},
+        {"title":"Gemini 3.8 Flash on AI Gateway","url":"https://vercel.com/changelog/gemini-3-8-flash-now-available-on-ai-gateway","source_type":"release","published_or_updated":"2026-09-04","why_selected":"Adds a cheap multimodal, tool-capable route for real agent trials.","usefulness":"Supports a common harness for PDFs, screenshots, video, and code tasks."}
+      ]
+    },
+    {
+      "slug": "security-and-evaluation",
+      "title": "Security + Evaluation",
+      "selection_rationale": "Fills the gap between model safety principles and operational evidence: inventory, cross-session monitoring, multi-turn grading, and chain-level response.",
+      "sources": [
+        {"title":"Enterprise Frontier Safeguards","url":"https://www.anthropic.com/news/enterprise-frontier-safeguards","source_type":"product","published_or_updated":"2026-09-01","why_selected":"Introduces customer-controlled storage and cross-session misuse monitoring.","usefulness":"Direct pattern for regulated, privacy-sensitive agent telemetry."},
+        {"title":"Cisco AI Defense release notes","url":"https://securitydocs.cisco.com/docs/ai-def/user/168305.dita","source_type":"release","published_or_updated":"2026-09-04","why_selected":"Recent update expands MCP inventory, dynamic tool extraction, and resumable validation.","usefulness":"Makes preflight rescans and tool-diff checks actionable."},
+        {"title":"Funding better evaluations of AI’s impact on wellbeing","url":"https://www.anthropic.com/news/wellbeing-research-grants","source_type":"research","published_or_updated":"2026-08-25","why_selected":"Offers a rigorous multi-turn, expert-validated evaluation template.","usefulness":"Reusable rubric shape for any high-stakes agent workflow."},
+        {"title":"AI-orchestrated cyber espionage campaign","url":"https://www.anthropic.com/news/disrupting-AI-espionage","source_type":"research","published_or_updated":"2025-11-13","why_selected":"Newly covered source concretizes how benign subtasks compose into a harmful campaign.","usefulness":"Motivates chain-level egress, identity, and escalation controls."}
+      ]
+    },
+    {
+      "slug": "model-portfolio-and-cost",
+      "title": "Model Portfolio + Cost",
+      "selection_rationale": "Rotates from yesterday’s model availability into portfolio economics: specialization, expiry-safe promotions, multimodality, cache reuse, and accepted-artifact cost.",
+      "sources": [
+        {"title":"Ling 3.0 Flash Fin","url":"https://vercel.com/changelog/ling-3-0-flash-fin-now-available-on-ai-gateway-for-free","source_type":"release","published_or_updated":"2026-09-05","why_selected":"Finance specialization and 256K context create a bounded document-research trial.","usefulness":"Lets Buildn test financial extraction and tool use cheaply."},
+        {"title":"MiniMax M3 and M2.7 free route","url":"https://vercel.com/changelog/minimax-m3-and-m2-7-are-free-on-ai-gateway","source_type":"release","published_or_updated":"2026-09-05","why_selected":"Explicitly expiring IDs demonstrate a safer promotion pattern.","usefulness":"Supports no-surprise batch experiments with fallback behavior."},
+        {"title":"Gemini 3.8 Flash","url":"https://vercel.com/changelog/gemini-3-8-flash-now-available-on-ai-gateway","source_type":"release","published_or_updated":"2026-09-04","why_selected":"Broad multimodal input and tool calling make it a portfolio baseline.","usefulness":"One route can cover mixed client artifacts."},
+        {"title":"Claude Fable 5.1 and Mythos 5.1","url":"https://www.anthropic.com/claude-fable-and-mythos-5-1","source_type":"release","published_or_updated":"2026-09-01","why_selected":"Cache-read reductions materially affect long-running tool-heavy agents.","usefulness":"Creates a direct cache-reuse and correction-cost benchmark."}
+      ]
+    }
+  ]
+}
