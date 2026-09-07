@@ -809,6 +809,21 @@
       "title": "Model Portfolio + Cost",
       "times_covered": 1,
       "last_covered": "2026-09-06"
+    },
+    "persistent-agent-state": {
+      "title": "Persistent Agent State",
+      "times_covered": 1,
+      "last_covered": "2026-09-07"
+    },
+    "local-inference-and-edge": {
+      "title": "Local Inference + Edge Capacity",
+      "times_covered": 1,
+      "last_covered": "2026-09-07"
+    },
+    "agent-ready-web-and-sandboxing": {
+      "title": "Agent-Ready Web + Sandboxing",
+      "times_covered": 1,
+      "last_covered": "2026-09-07"
     }
   },
   "item_history": [
@@ -2493,7 +2508,7 @@
       "editorial_thesis": "Agent advantage is moving into the operating layer: explicit runtime placement, customer-owned security evidence, and model portfolios that turn temporary price windows into durable evaluation data."
     }
   ],
-  "updated_at": "2026-09-06T08:00:19Z",
+  "updated_at": "2026-09-07T08:05:00Z",
   "last_run": "2026-09-01",
   "last_editorial_thesis": "The most useful frontier signal today is moving from autonomous demos to bounded systems: redact sensitive inputs, isolate generated actions, evaluate recovery, and require scoped authorization for spend.",
   "coverage_history": [
@@ -5711,5 +5726,90 @@
       "evaluation-harness-integrity"
     ],
     "item_count": 12
-  }
+  },
+  "history": [
+    {
+      "date": "2026-09-07",
+      "selected_lanes": [
+        "persistent-agent-state",
+        "local-inference-and-edge",
+        "agent-ready-web-and-sandboxing"
+      ],
+      "items": [
+        {
+          "title": "Runtime-Independent Persistent Agents",
+          "url": "https://arxiv.org/abs/2609.00546",
+          "source_type": "paper",
+          "rationale": "Defines a migration protocol for identity, memory, code lineage, and continuation authority."
+        },
+        {
+          "title": "Building a Memory-Driven Agent with NVIDIA NemoClaw",
+          "url": "https://developer.nvidia.com/blog/building-a-memory-driven-agent-with-nvidia-nemoclaw/",
+          "source_type": "blog",
+          "rationale": "Separates evidence, human-readable knowledge, operational judgment, and governed execution."
+        },
+        {
+          "title": "NVIDIA OpenShell",
+          "url": "https://github.com/NVIDIA/OpenShell",
+          "source_type": "repo",
+          "rationale": "Provides the sandbox/runtime governance layer referenced by the memory-driven agent pattern."
+        },
+        {
+          "title": "AgentScope Runtime",
+          "url": "https://github.com/agentscope-ai/agentscope-runtime",
+          "source_type": "repo",
+          "rationale": "Fresh runtime infrastructure signal for deploying and operating agent applications."
+        },
+        {
+          "title": "NVIDIA PAIR Virtual Inference Router",
+          "url": "https://developer.nvidia.com/blog/nvidia-pair-virtual-inference-router-expands-available-compute-on-your-local-network/",
+          "source_type": "product",
+          "rationale": "Routes independent Ollama/LM Studio jobs across changing local machines without harness changes."
+        },
+        {
+          "title": "Personal AI Router repository",
+          "url": "https://github.com/NVIDIA/Personal-AI-Router",
+          "source_type": "repo",
+          "rationale": "Makes the local routing idea inspectable and trialable rather than a hosted promise."
+        },
+        {
+          "title": "Building a memory-driven agent with NemoClaw",
+          "url": "https://developer.nvidia.com/blog/building-a-memory-driven-agent-with-nvidia-nemoclaw/",
+          "source_type": "blog",
+          "rationale": "Connects local/runtime governance to a useful, stateful agent workload."
+        },
+        {
+          "title": "NVIDIA AI agents hub",
+          "url": "https://www.nvidia.com/en-us/ai/",
+          "source_type": "product",
+          "rationale": "Current hub surfaces PAIR and NemoClaw as adjacent local-agent building blocks."
+        },
+        {
+          "title": "Agent Readiness Score",
+          "url": "https://blog.cloudflare.com/agent-readiness/",
+          "source_type": "product",
+          "rationale": "Offers a practical audit across discoverability, content, access control, and protocol discovery."
+        },
+        {
+          "title": "Sandboxing AI Agents, 100× Faster",
+          "url": "https://blog.cloudflare.com/dynamic-workers/",
+          "source_type": "product",
+          "rationale": "Shows isolate-per-request execution for generated code with explicit capabilities and egress control."
+        },
+        {
+          "title": "Markdown for Agents",
+          "url": "https://developers.cloudflare.com/fundamentals/reference/markdown-for-agents/",
+          "source_type": "docs",
+          "rationale": "Concrete content-negotiation pattern for machine-readable web delivery."
+        },
+        {
+          "title": "Agent Access Model",
+          "url": "https://blog.cloudflare.com/the-agent-access-model/",
+          "source_type": "blog",
+          "rationale": "Frames agents as software principals requiring identity, authorization, and accountability."
+        }
+      ],
+      "selection_rationale": "The useful frontier is becoming operational: persistent identity, local inference capacity, and agent-readable web surfaces turn capable models into systems that can migrate, scale, and be used."
+    }
+  ]
 }

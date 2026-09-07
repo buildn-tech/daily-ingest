@@ -1,6 +1,61 @@
 {
-  "updated_at": "2026-09-06T08:11:30.926541+00:00",
+  "updated_at": "2026-09-07T08:06:25.420178+00:00",
   "sources": {
+    "https://arxiv.org/abs/2609.00546": {
+      "first_seen": "2026-09-07",
+      "last_seen": "2026-09-07",
+      "title": "Runtime-Independent Persistent Agents"
+    },
+    "https://developer.nvidia.com/blog/building-a-memory-driven-agent-with-nvidia-nemoclaw": {
+      "first_seen": "2026-09-07",
+      "last_seen": "2026-09-07",
+      "title": "Building a memory-driven agent with NemoClaw"
+    },
+    "https://github.com/NVIDIA/OpenShell": {
+      "first_seen": "2026-09-07",
+      "last_seen": "2026-09-01",
+      "title": "NVIDIA OpenShell"
+    },
+    "https://github.com/agentscope-ai/agentscope-runtime": {
+      "first_seen": "2026-09-07",
+      "last_seen": "2026-09-01",
+      "title": "AgentScope Runtime"
+    },
+    "https://developer.nvidia.com/blog/nvidia-pair-virtual-inference-router-expands-available-compute-on-your-local-network": {
+      "first_seen": "2026-09-07",
+      "last_seen": "2026-09-07",
+      "title": "NVIDIA PAIR Virtual Inference Router"
+    },
+    "https://github.com/NVIDIA/Personal-AI-Router": {
+      "first_seen": "2026-09-07",
+      "last_seen": "2026-09-07",
+      "title": "Personal AI Router repository"
+    },
+    "https://www.nvidia.com/en-us/ai": {
+      "first_seen": "2026-09-07",
+      "last_seen": "2026-09-07",
+      "title": "NVIDIA AI agents hub"
+    },
+    "https://blog.cloudflare.com/agent-readiness": {
+      "first_seen": "2026-09-07",
+      "last_seen": "2026-08-31",
+      "title": "Agent Readiness score"
+    },
+    "https://blog.cloudflare.com/dynamic-workers": {
+      "first_seen": "2026-09-07",
+      "last_seen": "2026-09-01",
+      "title": "Cloudflare Dynamic Worker Loader"
+    },
+    "https://developers.cloudflare.com/fundamentals/reference/markdown-for-agents": {
+      "first_seen": "2026-09-07",
+      "last_seen": "2026-08-26",
+      "title": "Markdown for Agents"
+    },
+    "https://blog.cloudflare.com/the-agent-access-model": {
+      "first_seen": "2026-09-07",
+      "last_seen": "2026-08-14",
+      "title": "Agent Access Model"
+    },
     "https://docs.devin.ai/desktop/changelog-next": {
       "first_seen": "2026-09-06",
       "last_seen": "2026-09-06",
@@ -166,16 +221,6 @@
       "last_seen": "2026-09-04",
       "title": "CVE-2026-22813 advisory"
     },
-    "https://blog.cloudflare.com/the-agent-access-model": {
-      "first_seen": "2026-09-04",
-      "last_seen": "2026-08-14",
-      "title": "Agent Access Model"
-    },
-    "https://blog.cloudflare.com/dynamic-workers": {
-      "first_seen": "2026-09-04",
-      "last_seen": "2026-09-01",
-      "title": "Cloudflare Dynamic Worker Loader"
-    },
     "https://about.ads.microsoft.com/en/blog/post/april-2026/win-across-all-three-eras-of-the-web": {
       "first_seen": "2026-09-03",
       "last_seen": "2026-09-03",
@@ -316,16 +361,6 @@
       "last_seen": "2026-08-27",
       "title": "Zero data retention as a workflow choice"
     },
-    "https://github.com/NVIDIA/OpenShell": {
-      "first_seen": "2026-09-01",
-      "last_seen": "2026-09-01",
-      "title": "NVIDIA OpenShell"
-    },
-    "https://github.com/agentscope-ai/agentscope-runtime": {
-      "first_seen": "2026-09-01",
-      "last_seen": "2026-09-01",
-      "title": "AgentScope Runtime"
-    },
     "https://github.com/nearai/ironclaw": {
       "first_seen": "2026-09-01",
       "last_seen": "2026-09-01",
@@ -421,20 +456,10 @@
       "last_seen": "2026-08-29",
       "title": "Machine-readable physical constraints"
     },
-    "https://blog.cloudflare.com/agent-readiness": {
-      "first_seen": "2026-08-31",
-      "last_seen": "2026-08-31",
-      "title": "Agent Readiness score"
-    },
     "https://blog.cloudflare.com/kitesurf": {
       "first_seen": "2026-08-31",
       "last_seen": "2026-08-31",
       "title": "Kitesurf agent-first browser"
-    },
-    "https://developers.cloudflare.com/fundamentals/reference/markdown-for-agents": {
-      "first_seen": "2026-08-31",
-      "last_seen": "2026-08-26",
-      "title": "Markdown for Agents"
     },
     "https://blog.cloudflare.com/the-agentic-internet": {
       "first_seen": "2026-08-31",

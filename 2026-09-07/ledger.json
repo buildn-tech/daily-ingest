@@ -1,0 +1,40 @@
+{
+  "date": "2026-09-07",
+  "generated_at": "2026-09-07T08:05:00Z",
+  "editorial_thesis": "The useful frontier is becoming operational: persistent identity, local inference capacity, and agent-readable web surfaces turn capable models into systems that can migrate, scale, and be used.",
+  "topic_groups": [
+    {
+      "slug": "persistent-agent-state",
+      "title": "Persistent Agent State",
+      "selection_rationale": "Coverage gap: the last dossier covered runtime placement, but not the durable identity, memory, code, and authority that make migration safe.",
+      "sources": [
+        {"title":"Runtime-Independent Persistent Agents","url":"https://arxiv.org/abs/2609.00546","source_type":"paper","published_or_updated":"2026-09-01","why_selected":"Defines a migration protocol for identity, memory, code lineage, and continuation authority.","usefulness":"Provides a concrete checklist for durable agent state in Buildn workflows."},
+        {"title":"Building a Memory-Driven Agent with NVIDIA NemoClaw","url":"https://developer.nvidia.com/blog/building-a-memory-driven-agent-with-nvidia-nemoclaw/","source_type":"blog","published_or_updated":"2026-09-04","why_selected":"Separates evidence, human-readable knowledge, operational judgment, and governed execution.","usefulness":"Useful pattern for auditable client context and correction handling."},
+        {"title":"NVIDIA OpenShell","url":"https://github.com/NVIDIA/OpenShell","source_type":"repo","published_or_updated":"2026-09-01","why_selected":"Provides the sandbox/runtime governance layer referenced by the memory-driven agent pattern.","usefulness":"Candidate boundary for experiments that should not inherit host credentials."},
+        {"title":"AgentScope Runtime","url":"https://github.com/agentscope-ai/agentscope-runtime","source_type":"repo","published_or_updated":"2026-09-01","why_selected":"Fresh runtime infrastructure signal for deploying and operating agent applications.","usefulness":"Worth comparing with Hermes runtime abstractions before adding another control plane."}
+      ]
+    },
+    {
+      "slug": "local-inference-and-edge",
+      "title": "Local Inference + Edge Capacity",
+      "selection_rationale": "Under-covered practical lane: local hardware can now be treated as a dynamic pool for parallel agent work instead of a single workstation endpoint.",
+      "sources": [
+        {"title":"NVIDIA PAIR Virtual Inference Router","url":"https://developer.nvidia.com/blog/nvidia-pair-virtual-inference-router-expands-available-compute-on-your-local-network/","source_type":"product","published_or_updated":"2026-09-03","why_selected":"Routes independent Ollama/LM Studio jobs across changing local machines without harness changes.","usefulness":"A low-friction way to test private multi-agent throughput."},
+        {"title":"Personal AI Router repository","url":"https://github.com/NVIDIA/Personal-AI-Router","source_type":"repo","published_or_updated":"2026-09-03","why_selected":"Makes the local routing idea inspectable and trialable rather than a hosted promise.","usefulness":"Supports a bounded benchmark using existing local models."},
+        {"title":"Building a memory-driven agent with NemoClaw","url":"https://developer.nvidia.com/blog/building-a-memory-driven-agent-with-nvidia-nemoclaw/","source_type":"blog","published_or_updated":"2026-09-04","why_selected":"Connects local/runtime governance to a useful, stateful agent workload.","usefulness":"Suggests a realistic benchmark beyond raw tokens-per-second."},
+        {"title":"NVIDIA AI agents hub","url":"https://www.nvidia.com/en-us/ai/","source_type":"product","published_or_updated":"2026-09-07","why_selected":"Current hub surfaces PAIR and NemoClaw as adjacent local-agent building blocks.","usefulness":"Good launchpad for checking compatibility and available reference implementations."}
+      ]
+    },
+    {
+      "slug": "agent-ready-web-and-sandboxing",
+      "title": "Agent-Ready Web + Sandboxing",
+      "selection_rationale": "Coverage gap: moves from agent runtime internals to the public interface and execution surface—how sites expose machine-readable capability while generated code remains bounded.",
+      "sources": [
+        {"title":"Agent Readiness Score","url":"https://blog.cloudflare.com/agent-readiness/","source_type":"product","published_or_updated":"2026-08-31","why_selected":"Offers a practical audit across discoverability, content, access control, and protocol discovery.","usefulness":"Immediate checklist for making Buildn and client sites easier for agents to use."},
+        {"title":"Sandboxing AI Agents, 100× Faster","url":"https://blog.cloudflare.com/dynamic-workers/","source_type":"product","published_or_updated":"2026-08-28","why_selected":"Shows isolate-per-request execution for generated code with explicit capabilities and egress control.","usefulness":"Relevant architecture for safe code-mode experiments."},
+        {"title":"Markdown for Agents","url":"https://developers.cloudflare.com/fundamentals/reference/markdown-for-agents/","source_type":"docs","published_or_updated":"2026-08-26","why_selected":"Concrete content-negotiation pattern for machine-readable web delivery.","usefulness":"A small implementation that can improve retrieval quality immediately."},
+        {"title":"Agent Access Model","url":"https://blog.cloudflare.com/the-agent-access-model/","source_type":"blog","published_or_updated":"2026-08-14","why_selected":"Frames agents as software principals requiring identity, authorization, and accountability.","usefulness":"Keeps agent-readiness work from becoming an access-control afterthought."}
+      ]
+    }
+  ]
+}

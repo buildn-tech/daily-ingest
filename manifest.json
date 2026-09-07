@@ -1,6 +1,27 @@
 {
-  "updated_at": "2026-09-06T08:11:30.926541+00:00",
+  "updated_at": "2026-09-07T08:06:25.420178+00:00",
   "days": [
+    {
+      "date": "2026-09-07",
+      "path": "2026-09-07",
+      "reports": [
+        {
+          "lane": "persistent-agent-state",
+          "title": "Persistent Agent State",
+          "url": "2026-09-07/persistent-agent-state.html"
+        },
+        {
+          "lane": "local-inference-and-edge",
+          "title": "Local Inference + Edge Capacity",
+          "url": "2026-09-07/local-inference-and-edge.html"
+        },
+        {
+          "lane": "agent-ready-web-and-sandboxing",
+          "title": "Agent-Ready Web + Sandboxing",
+          "url": "2026-09-07/agent-ready-web-and-sandboxing.html"
+        }
+      ]
+    },
     {
       "date": "2026-09-06",
       "path": "2026-09-06",
