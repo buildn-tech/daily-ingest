@@ -1,6 +1,106 @@
 {
-  "updated_at": "2026-09-07T08:06:25.420178+00:00",
+  "updated_at": "2026-09-08T08:06:03.694944+00:00",
   "sources": {
+    "https://developer.chrome.com/blog/chrome-at-io26": {
+      "first_seen": "2026-09-08",
+      "last_seen": "2026-09-08",
+      "title": "WebMCP at Chrome I/O 2026"
+    },
+    "https://developer.chrome.com/docs/devtools/agents": {
+      "first_seen": "2026-09-08",
+      "last_seen": "2026-09-08",
+      "title": "Chrome DevTools for agents"
+    },
+    "https://developer.chrome.com/docs/modern-web-guidance": {
+      "first_seen": "2026-09-08",
+      "last_seen": "2026-09-08",
+      "title": "Modern Web Guidance"
+    },
+    "https://developer.chrome.com/docs/ai/built-in-apis": {
+      "first_seen": "2026-09-08",
+      "last_seen": "2026-09-08",
+      "title": "Chrome built-in AI APIs"
+    },
+    "https://developer.chrome.com/docs/devtools/ai-assistance/get-started": {
+      "first_seen": "2026-09-08",
+      "last_seen": "2026-09-08",
+      "title": "Chrome at I/O: AI-assisted debugging"
+    },
+    "https://crowdstrike.com/en-us/blog/crowdstrike-announces-agentic-identity-provider": {
+      "first_seen": "2026-09-08",
+      "last_seen": "2026-09-08",
+      "title": "CrowdStrike Agentic Identity Provider"
+    },
+    "https://blogs.nvidia.com/blog/open-secure-ai-alliance-contributions": {
+      "first_seen": "2026-09-08",
+      "last_seen": "2026-08-30",
+      "title": "Open Secure AI Alliance / SAFE"
+    },
+    "https://www.ory.com/agentic-artificial-intelligence-ai-agents": {
+      "first_seen": "2026-09-08",
+      "last_seen": "2026-09-08",
+      "title": "Ory Agent Security"
+    },
+    "https://github.com/OpenSecureAIAlliance/RFCs": {
+      "first_seen": "2026-09-08",
+      "last_seen": "2026-09-08",
+      "title": "Open Secure AI Alliance RFCs"
+    },
+    "https://github.com/NVIDIA/OpenShell": {
+      "first_seen": "2026-09-08",
+      "last_seen": "2026-09-01",
+      "title": "NVIDIA OpenShell"
+    },
+    "https://blogs.nvidia.com/blog/cvpr-physical-ai-research-agent-skills": {
+      "first_seen": "2026-09-08",
+      "last_seen": "2026-09-08",
+      "title": "NVIDIA Physical AI Agent Skills at CVPR"
+    },
+    "https://github.com/NVIDIA/skills": {
+      "first_seen": "2026-09-08",
+      "last_seen": "2026-09-08",
+      "title": "NVIDIA Skills catalog"
+    },
+    "https://graspgenx.github.io/": {
+      "first_seen": "2026-09-08",
+      "last_seen": "2026-09-08",
+      "title": "GraspGen-X research"
+    },
+    "https://github.com/MineDojo/NitroGen": {
+      "first_seen": "2026-09-08",
+      "last_seen": "2026-09-08",
+      "title": "NitroGen embodied agents"
+    },
+    "https://developer.nvidia.com/isaac/sim": {
+      "first_seen": "2026-09-08",
+      "last_seen": "2026-09-08",
+      "title": "NVIDIA Isaac Sim"
+    },
+    "https://openai.com/index/research-acceleration-view-inside-openai": {
+      "first_seen": "2026-09-08",
+      "last_seen": "2026-09-08",
+      "title": "Research acceleration: the view inside OpenAI"
+    },
+    "https://openai.com/index/scientific-computing-agentic-ai": {
+      "first_seen": "2026-09-08",
+      "last_seen": "2026-09-08",
+      "title": "Scientific computing in the age of agentic AI"
+    },
+    "https://openai.com/index/how-agents-are-transforming-work": {
+      "first_seen": "2026-09-08",
+      "last_seen": "2026-08-22",
+      "title": "How agents are transforming work"
+    },
+    "https://openai.com/index/path-to-astra": {
+      "first_seen": "2026-09-08",
+      "last_seen": "2026-09-02",
+      "title": "Path to Astra"
+    },
+    "https://openai.com/index/introducing-chatgpt-agent": {
+      "first_seen": "2026-09-08",
+      "last_seen": "2026-09-08",
+      "title": "ChatGPT agent: bridging research and action"
+    },
     "https://arxiv.org/abs/2609.00546": {
       "first_seen": "2026-09-07",
       "last_seen": "2026-09-07",
@@ -10,11 +110,6 @@
       "first_seen": "2026-09-07",
       "last_seen": "2026-09-07",
       "title": "Building a memory-driven agent with NemoClaw"
-    },
-    "https://github.com/NVIDIA/OpenShell": {
-      "first_seen": "2026-09-07",
-      "last_seen": "2026-09-01",
-      "title": "NVIDIA OpenShell"
     },
     "https://github.com/agentscope-ai/agentscope-runtime": {
       "first_seen": "2026-09-07",
@@ -336,11 +431,6 @@
       "last_seen": "2026-09-02",
       "title": "Drone-control VLM evaluation"
     },
-    "https://openai.com/index/path-to-astra": {
-      "first_seen": "2026-09-02",
-      "last_seen": "2026-09-02",
-      "title": "Path to Astra"
-    },
     "https://genai.owasp.org/": {
       "first_seen": "2026-09-02",
       "last_seen": "2026-08-20",
@@ -495,11 +585,6 @@
       "first_seen": "2026-08-30",
       "last_seen": "2026-08-30",
       "title": "Codex Security"
-    },
-    "https://blogs.nvidia.com/blog/open-secure-ai-alliance-contributions": {
-      "first_seen": "2026-08-30",
-      "last_seen": "2026-08-30",
-      "title": "Open Secure AI Alliance / SAFE"
     },
     "https://www.gravitee.io/state-of-ai-agent-security": {
       "first_seen": "2026-08-30",
@@ -805,11 +890,6 @@
       "first_seen": "2026-08-22",
       "last_seen": "2026-08-11",
       "title": "Everything we launched during Agents Week"
-    },
-    "https://openai.com/index/how-agents-are-transforming-work": {
-      "first_seen": "2026-08-22",
-      "last_seen": "2026-08-22",
-      "title": "How agents are transforming work"
     },
     "https://blog.cloudflare.com/workers-ai-gateway-unification": {
       "first_seen": "2026-08-22",

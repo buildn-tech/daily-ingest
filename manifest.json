@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-09-07T08:06:25.420178+00:00",
+  "updated_at": "2026-09-08T08:06:03.694944+00:00",
   "days": [
+    {
+      "date": "2026-09-08",
+      "path": "2026-09-08",
+      "reports": [
+        {
+          "lane": "agent-native-web-and-devtools",
+          "title": "Agent-Native Web + DevTools",
+          "url": "2026-09-08/agent-native-web-and-devtools.html"
+        },
+        {
+          "lane": "agent-identity-and-incident-sharing",
+          "title": "Agent Identity + Incident Sharing",
+          "url": "2026-09-08/agent-identity-and-incident-sharing.html"
+        },
+        {
+          "lane": "physical-ai-agent-skills",
+          "title": "Physical AI Agent Skills",
+          "url": "2026-09-08/physical-ai-agent-skills.html"
+        },
+        {
+          "lane": "research-agents-and-accepted-work",
+          "title": "Research Agents + Accepted Work",
+          "url": "2026-09-08/research-agents-and-accepted-work.html"
+        }
+      ]
+    },
     {
       "date": "2026-09-07",
       "path": "2026-09-07",

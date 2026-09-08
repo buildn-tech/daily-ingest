@@ -1,0 +1,195 @@
+{
+  "date": "2026-09-08",
+  "generated_at": "2026-09-08T08:00:50Z",
+  "editorial_thesis": "The agent advantage is moving below the chat layer: typed web capabilities, explicit non-human identity, portable physical-AI skills, and accepted-artifact measurement make autonomy more usable and governable.",
+  "topic_groups": [
+    {
+      "slug": "agent-native-web-and-devtools",
+      "title": "Agent-Native Web + DevTools",
+      "selection_rationale": "Fresh web-platform signal and a neglected implementation lane: structured site actions, browser debugging, and local inference are moving agent UX below the chat layer.",
+      "sources": [
+        {
+          "title": "WebMCP at Chrome I/O 2026",
+          "url": "https://developer.chrome.com/blog/chrome-at-io26",
+          "source_type": "blog",
+          "published_or_updated": "May 19, 2026",
+          "why_selected": "WebMCP exposes structured JavaScript functions and HTML forms so agents can call site capabilities instead of simulating clicks.",
+          "usefulness": "Prototype one typed action on a Buildn/client page; compare completion rate and auditability with browser automation."
+        },
+        {
+          "title": "Chrome DevTools for agents",
+          "url": "https://developer.chrome.com/docs/devtools/agents",
+          "source_type": "docs",
+          "published_or_updated": "2026",
+          "why_selected": "Agents can inspect console logs, network traffic, and accessibility trees for browser-side verification.",
+          "usefulness": "Turn visual QA into a repeatable agent check that attaches evidence to a report."
+        },
+        {
+          "title": "Modern Web Guidance",
+          "url": "https://developer.chrome.com/docs/modern-web-guidance",
+          "source_type": "docs",
+          "published_or_updated": "2026",
+          "why_selected": "Google’s preview packages accessibility, performance, security, and Baseline guidance as installable agent skills.",
+          "usefulness": "Use it as a second-pass checklist for generated frontends and client handoffs."
+        },
+        {
+          "title": "Chrome built-in AI APIs",
+          "url": "https://developer.chrome.com/docs/ai/built-in-apis",
+          "source_type": "docs",
+          "published_or_updated": "2026",
+          "why_selected": "On-device Prompt, translation, and language APIs can remove server inference from small personalized interactions.",
+          "usefulness": "Test a privacy-first summarizer or content classifier on local browser hardware."
+        },
+        {
+          "title": "Chrome at I/O: AI-assisted debugging",
+          "url": "https://developer.chrome.com/docs/devtools/ai-assistance/get-started",
+          "source_type": "docs",
+          "published_or_updated": "2026",
+          "why_selected": "DevTools AI combines Lighthouse context, broader search, and interactive widgets for open-ended debugging.",
+          "usefulness": "Measure whether agent explanations shorten time-to-fix on one real page, not a synthetic demo."
+        }
+      ]
+    },
+    {
+      "slug": "agent-identity-and-incident-sharing",
+      "title": "Agent Identity + Incident Sharing",
+      "selection_rationale": "Security coverage has focused on evaluation and access boundaries; today’s fresh signal shifts toward non-human identity, short-lived authority, and shared incident learning.",
+      "sources": [
+        {
+          "title": "CrowdStrike Agentic Identity Provider",
+          "url": "https://crowdstrike.com/en-us/blog/crowdstrike-announces-agentic-identity-provider/",
+          "source_type": "blog",
+          "published_or_updated": "September 2, 2026",
+          "why_selected": "CrowdStrike proposes cryptographically verifiable agent identities, human/workload linkage, and short-lived least-privilege access.",
+          "usefulness": "Map Hermes tool calls to a task identity and produce an action ledger that survives delegation."
+        },
+        {
+          "title": "SAFE guidelines for cybersecurity transparency",
+          "url": "https://blogs.nvidia.com/blog/open-secure-ai-alliance-contributions/",
+          "source_type": "blog",
+          "published_or_updated": "2026",
+          "why_selected": "The Open Secure AI Alliance and Linux Foundation propose a shared process for confidential AI incident and near-miss reporting.",
+          "usefulness": "Create a lightweight internal near-miss schema: trigger, authority, tool, impact, mitigation, regression test."
+        },
+        {
+          "title": "Ory Agent Security",
+          "url": "https://www.ory.com/agentic-artificial-intelligence-ai-agents",
+          "source_type": "product",
+          "published_or_updated": "2026",
+          "why_selected": "Ory frames agent IAM around machine-scale authentication, MCP compatibility, and fine-grained RBAC/ReBAC.",
+          "usefulness": "Compare an API-first policy model against current service-account assumptions in a client architecture."
+        },
+        {
+          "title": "Open Secure AI Alliance RFCs",
+          "url": "https://github.com/OpenSecureAIAlliance/RFCs",
+          "source_type": "repo",
+          "published_or_updated": "2026",
+          "why_selected": "The public RFC repository makes proposed AI-security findings and control language inspectable.",
+          "usefulness": "Watch for a stable incident taxonomy worth importing into Buildn reviews."
+        },
+        {
+          "title": "NVIDIA OpenShell",
+          "url": "https://github.com/NVIDIA/OpenShell",
+          "source_type": "repo",
+          "published_or_updated": "2026",
+          "why_selected": "OpenShell is presented as a runtime boundary for what agents can see, touch, and do.",
+          "usefulness": "Run a disposable tool experiment with explicit filesystem and egress policy."
+        }
+      ]
+    },
+    {
+      "slug": "physical-ai-agent-skills",
+      "title": "Physical AI Agent Skills",
+      "selection_rationale": "Physical AI has been covered as simulation and models; this fresh lane earns inclusion because portable skills now connect reconstruction, data generation, simulation, training, and evaluation.",
+      "sources": [
+        {
+          "title": "NVIDIA Physical AI Agent Skills at CVPR",
+          "url": "https://blogs.nvidia.com/blog/cvpr-physical-ai-research-agent-skills/",
+          "source_type": "blog",
+          "published_or_updated": "2026",
+          "why_selected": "NVIDIA connects Cosmos 3 and open skills to scene reconstruction, synthetic edge cases, simulation, policy training, and evaluation.",
+          "usefulness": "Borrow the pipeline shape for vision QA: ingest, generate edge cases, test, compare, publish evidence."
+        },
+        {
+          "title": "NVIDIA Skills catalog",
+          "url": "https://github.com/NVIDIA/skills",
+          "source_type": "repo",
+          "published_or_updated": "2026",
+          "why_selected": "A public catalog packages portable instructions for Codex, Claude Code, and other agents across physical AI, CUDA, RAG, and infrastructure.",
+          "usefulness": "Inspect the metadata and install one skill in a sandbox to evaluate portability and update behavior."
+        },
+        {
+          "title": "GraspGen-X research",
+          "url": "https://graspgenx.github.io/",
+          "source_type": "research",
+          "published_or_updated": "2026",
+          "why_selected": "A foundation-model approach targets zero-shot grasp proposals across unfamiliar grippers and objects.",
+          "usefulness": "Track embodiment-generalization as a model-eval dimension for future robotics clients."
+        },
+        {
+          "title": "NitroGen embodied agents",
+          "url": "https://github.com/MineDojo/NitroGen",
+          "source_type": "repo",
+          "published_or_updated": "2026",
+          "why_selected": "NVIDIA’s gameplay-trained embodied-agent direction uses diverse virtual interaction to seek generalization.",
+          "usefulness": "Use virtual-world task diversity as inspiration for synthetic regression suites."
+        },
+        {
+          "title": "NVIDIA Isaac Sim",
+          "url": "https://developer.nvidia.com/isaac/sim",
+          "source_type": "product",
+          "published_or_updated": "2026",
+          "why_selected": "Simulation provides the controlled environment where agent-generated scenarios can be replayed and evaluated.",
+          "usefulness": "Prototype scenario replay only if a client has a measurable physical-world failure mode."
+        }
+      ]
+    },
+    {
+      "slug": "research-agents-and-accepted-work",
+      "title": "Research Agents + Accepted Work",
+      "selection_rationale": "Coverage gap: move beyond agent capability announcements to evidence about throughput, supervision, costs, and the human decisions that remain non-delegated.",
+      "sources": [
+        {
+          "title": "Research acceleration: the view inside OpenAI",
+          "url": "https://openai.com/index/research-acceleration-view-inside-openai/",
+          "source_type": "research",
+          "published_or_updated": "September 6, 2026",
+          "why_selected": "OpenAI reports median researcher agent spend above $600/day, 3.1 agent-workdays per human workday, and continued human supervision.",
+          "usefulness": "Use accepted artifacts—not token volume—as the unit for measuring agent leverage in Buildn delivery."
+        },
+        {
+          "title": "Scientific computing in the age of agentic AI",
+          "url": "https://openai.com/index/scientific-computing-agentic-ai/",
+          "source_type": "research",
+          "published_or_updated": "September 2026",
+          "why_selected": "A field report describes coding agents modernizing scientific software in genomics and other data-rich domains.",
+          "usefulness": "Look for client workflows where an agent can improve a testable analysis pipeline, not just write prose."
+        },
+        {
+          "title": "How agents are transforming work",
+          "url": "https://openai.com/index/how-agents-are-transforming-work/",
+          "source_type": "paper",
+          "published_or_updated": "2026",
+          "why_selected": "OpenAI’s economic research frames agents as systems for longer, more complex tasks and measures frontier productivity potential.",
+          "usefulness": "Translate the framing into a task inventory: duration, handoffs, verification cost, and business outcome."
+        },
+        {
+          "title": "Path to Astra: critical capabilities and frontier safeguards",
+          "url": "https://openai.com/index/path-to-astra/",
+          "source_type": "research",
+          "published_or_updated": "September 1, 2026",
+          "why_selected": "The report links capability progress to safeguards and argues that deployment evidence must scale with autonomy.",
+          "usefulness": "Add a release gate that couples new capability with tests for authority, monitoring, and rollback."
+        },
+        {
+          "title": "ChatGPT agent: bridging research and action",
+          "url": "https://openai.com/index/introducing-chatgpt-agent/",
+          "source_type": "product",
+          "published_or_updated": "2025",
+          "why_selected": "The product pattern combines browser, code, and file actions for multi-step office workflows with editable outputs.",
+          "usefulness": "Use editable artifact output as the acceptance contract for research and client operations."
+        }
+      ]
+    }
+  ]
+}
