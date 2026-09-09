@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-09-08T08:06:03.694944+00:00",
+  "updated_at": "2026-09-09T08:07:27.196828+00:00",
   "days": [
+    {
+      "date": "2026-09-09",
+      "path": "2026-09-09",
+      "reports": [
+        {
+          "lane": "agentic-dev-environments",
+          "title": "Agentic Development Environments",
+          "url": "2026-09-09/agentic-dev-environments.html"
+        },
+        {
+          "lane": "privacy-first-user-control",
+          "title": "Privacy-First User Control",
+          "url": "2026-09-09/privacy-first-user-control.html"
+        },
+        {
+          "lane": "security-resilience-and-crypto",
+          "title": "Security Resilience + Cryptography",
+          "url": "2026-09-09/security-resilience-and-crypto.html"
+        },
+        {
+          "lane": "operator-leverage-and-adoption",
+          "title": "Operator Leverage + Adoption Evidence",
+          "url": "2026-09-09/operator-leverage-and-adoption.html"
+        }
+      ]
+    },
     {
       "date": "2026-09-08",
       "path": "2026-09-08",

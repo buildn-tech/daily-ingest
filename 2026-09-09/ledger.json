@@ -1,0 +1,195 @@
+{
+  "date": "2026-09-09",
+  "generated_at": "2026-09-09T08:07:21.546611+00:00",
+  "editorial_thesis": "The useful frontier is becoming operational: bounded agent workspaces, explicit user control, trusted-path resilience, and accepted-outcome measurement make autonomy easier to ship responsibly.",
+  "topic_groups": [
+    {
+      "slug": "agentic-dev-environments",
+      "title": "Agentic Development Environments",
+      "selection_rationale": "Fresh implementation signal: agent coding is moving from chat panes into concurrent workspaces, enterprise sandboxes, and CI/CD surfaces with explicit policy controls.",
+      "sources": [
+        {
+          "title": "JetBrains Air",
+          "url": "https://blog.jetbrains.com/air/2026/03/air-launches-as-public-preview-a-new-wave-of-dev-tooling-built-on-26-years-of-experience/",
+          "source_type": "blog",
+          "published_or_updated": "2026",
+          "why_selected": "Public preview workspace for concurrent Codex, Claude Agent, Gemini CLI, and Junie tasks. It supplies structured code context, worktrees/containers, terminal, Git, and review in on",
+          "usefulness": "Try it as a parallel-task cockpit for client prototypes; compare worktree isolation and review latency against terminal-only workflows."
+        },
+        {
+          "title": "TeamCity 2026.2",
+          "url": "https://blog.jetbrains.com/teamcity/2026/09/teamcity-20262/",
+          "source_type": "blog",
+          "published_or_updated": "2026",
+          "why_selected": "Pipelines are generally available, with job debugging, partial-chain promotion, automatic retries, BYOK, and MCP tools for pipeline CRUD behind Brave mode.",
+          "usefulness": "Model a Buildn delivery pipeline where an agent can inspect status but mutations require an explicit escalation path."
+        },
+        {
+          "title": "Enterprise-managed sandbox in Copilot for JetBrains",
+          "url": "https://github.blog/changelog/2026-09-08-enterprise-managed-sandbox-in-copilot-for-jetbrains",
+          "source_type": "blog",
+          "published_or_updated": "2026-09-08",
+          "why_selected": "The September 8 release adds centrally managed filesystem, network, proxy, developer-tool, and keychain sandbox policies plus policy diagnostics.",
+          "usefulness": "Use the policy model as a reference for client-facing agent workstations and evidence that controls are actually enforced."
+        },
+        {
+          "title": "The next evolution of the Agents SDK",
+          "url": "https://openai.com/index/the-next-evolution-of-the-agents-sdk/",
+          "source_type": "docs",
+          "published_or_updated": "2026",
+          "why_selected": "OpenAI describes a model-native harness with file tools, shell, MCP, skills, AGENTS.md, checkpointing, and native sandbox execution for long-running work.",
+          "usefulness": "Prototype artifact-producing agents that operate only on mounted evidence and return cited outputs."
+        },
+        {
+          "title": "GPT-6 Astra in GitHub Copilot",
+          "url": "https://github.blog/changelog/2026-09-04-gpt-6-astra-is-generally-available-in-github-copilot/",
+          "source_type": "blog",
+          "published_or_updated": "2026",
+          "why_selected": "GitHub positions Astra for planning, diagnosis, verification, and independent completion checks across coding surfaces, with usage-based billing.",
+          "usefulness": "Benchmark accepted outcomes, not token volume: test one multi-file change with explicit tests and rollback."
+        }
+      ]
+    },
+    {
+      "slug": "privacy-first-user-control",
+      "title": "Privacy-First User Control",
+      "selection_rationale": "Coverage gap: after several agent-native web days, this lane returns to the user’s side of the boundary—choice, local-first ownership, and controllable AI exposure.",
+      "sources": [
+        {
+          "title": "Firefox AI on your terms",
+          "url": "https://blog.mozilla.org/en/firefox/firefox-ai-on-your-terms/",
+          "source_type": "blog",
+          "published_or_updated": "2026",
+          "why_selected": "Firefox offers a single control to block current and future AI features, individual feature toggles, multiple chatbot providers, and Smart Window for user-approved context.",
+          "usefulness": "Borrow the pattern for Buildn: one obvious global switch plus per-capability controls and visible provenance."
+        },
+        {
+          "title": "Browsers compete on privacy",
+          "url": "https://blog.mozilla.org/netpolicy/2026/09/01/browsers-compete-on-privacy-when-the-operating-system-allows/",
+          "source_type": "blog",
+          "published_or_updated": "2026",
+          "why_selected": "Mozilla argues that mobile OS and distribution rules can limit independent browsers’ ability to provide extensions and privacy features, illustrated by Firefox’s iOS content blocke",
+          "usefulness": "Treat platform constraints as product requirements: document what can be enforced in-app versus delegated to the OS."
+        },
+        {
+          "title": "Local-first software",
+          "url": "https://www.inkandswitch.com/essay/local-first/",
+          "source_type": "docs",
+          "published_or_updated": "2026",
+          "why_selected": "The local-first model makes the device the primary copy and servers supporting replicas for sync, backup, discovery, and collaboration.",
+          "usefulness": "Use local-first principles for client notes, evidence packs, and drafts that should remain useful during outages or vendor changes."
+        },
+        {
+          "title": "Cloudflare AI traffic options",
+          "url": "https://blog.cloudflare.com/content-independence-day-ai-options/",
+          "source_type": "blog",
+          "published_or_updated": "2026",
+          "why_selected": "Cloudflare separates Search, Agent, and Training traffic, exposes controls to all customers, and adds content-use signals instead of one broad AI-bot switch.",
+          "usefulness": "Translate “what is the caller doing?” into a policy dimension for Buildn/client APIs: inspect, act, train, or transact."
+        },
+        {
+          "title": "Markdown for Agents",
+          "url": "https://developers.cloudflare.com/fundamentals/reference/markdown-for-agents/",
+          "source_type": "docs",
+          "published_or_updated": "2026",
+          "why_selected": "Cloudflare documents content negotiation for machine-readable Markdown so agents can retrieve structured content without scraping rendered UI.",
+          "usefulness": "Offer a clean, cited content surface for reports and client docs while retaining the human HTML view."
+        }
+      ]
+    },
+    {
+      "slug": "security-resilience-and-crypto",
+      "title": "Security Resilience + Cryptography",
+      "selection_rationale": "A neglected operational lane: the strongest current security signal is about trusted SaaS, stolen sessions, and migration deadlines—not only model misuse.",
+      "sources": [
+        {
+          "title": "2026 Cloudflare Threat Report",
+          "url": "https://blog.cloudflare.com/2026-threat-report/",
+          "source_type": "blog",
+          "published_or_updated": "2026",
+          "why_selected": "Cloudflare’s report centers on attackers abusing legitimate identities, SaaS integrations, cloud tools, stolen session tokens, and automation; it proposes effort-to-outcome as a Me",
+          "usefulness": "Use MOE as a client risk-review lens: which identity or integration gives the most result for the least attacker effort?"
+        },
+        {
+          "title": "Post-Quantum Executive Order analysis",
+          "url": "https://blog.cloudflare.com/post-quantum-eo-2026/",
+          "source_type": "blog",
+          "published_or_updated": "2026",
+          "why_selected": "The analysis describes federal PQC targets for encryption by 2030 and signatures/authentication by 2031, with September 2026 planning guidance.",
+          "usefulness": "Add cryptographic agility and inventory questions to long-lived client architecture reviews."
+        },
+        {
+          "title": "NIST Post-Quantum Cryptography",
+          "url": "https://csrc.nist.gov/projects/post-quantum-cryptography",
+          "source_type": "docs",
+          "published_or_updated": "2026",
+          "why_selected": "NIST’s PQC project is the standards reference point for algorithms, transition guidance, and implementation material.",
+          "usefulness": "Prefer standards-backed migration plans over vendor-specific “quantum safe” claims."
+        },
+        {
+          "title": "Session-token exposure",
+          "url": "https://www.cisa.gov/topics/cyber-threats-and-advisories",
+          "source_type": "docs",
+          "published_or_updated": "2026",
+          "why_selected": "CISA’s cyber guidance provides a government reference for identity, incident response, and resilience controls that complement threat-report findings.",
+          "usefulness": "Turn session theft into a concrete tabletop: token lifetime, device binding, revocation, and evidence collection."
+        },
+        {
+          "title": "Living off trusted services",
+          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories",
+          "source_type": "docs",
+          "published_or_updated": "2026",
+          "why_selected": "Advisories are a durable source for tracking abuse of legitimate cloud services and converting incidents into defensive controls.",
+          "usefulness": "Use advisories as regression-test inputs for agent tools, webhooks, and outbound connectors."
+        }
+      ]
+    },
+    {
+      "slug": "operator-leverage-and-adoption",
+      "title": "Operator Leverage + Adoption Evidence",
+      "selection_rationale": "Coverage gap: today’s useful signals connect product analytics, accepted work, and cost controls—turning agent enthusiasm into decisions a small team can defend.",
+      "sources": [
+        {
+          "title": "Cloudflare Apps Platform — September edition",
+          "url": "https://blog.cloudflare.com/cloudflare-apps-platform-update-september-edition/",
+          "source_type": "blog",
+          "published_or_updated": "2026",
+          "why_selected": "Cloudflare adds app usage charts, revenue/churn views, install/remove feedback, page selectors, release notes, and a developer marketing playbook.",
+          "usefulness": "Mirror this loop for Buildn artifacts: activation, repeat use, drop-off reason, and the smallest next product change."
+        },
+        {
+          "title": "Research acceleration: the view inside OpenAI",
+          "url": "https://openai.com/index/research-acceleration-view-inside-openai/",
+          "source_type": "docs",
+          "published_or_updated": "2026",
+          "why_selected": "OpenAI reports agent-workday throughput and substantial spend while emphasizing continued human supervision and accepted outputs.",
+          "usefulness": "Use accepted artifacts and reviewer time as the unit of internal agent ROI."
+        },
+        {
+          "title": "AI coding tools developers use at work",
+          "url": "https://blog.jetbrains.com/research/2026/04/which-ai-coding-tools-do-developers-actually-use-at-work/",
+          "source_type": "blog",
+          "published_or_updated": "2026",
+          "why_selected": "JetBrains’ research surfaces the difference between tool availability and tools developers actually use in production work.",
+          "usefulness": "Use a small survey to learn which agent surfaces clients trust, not which tools they have licenses for."
+        },
+        {
+          "title": "Copilot policy and billing changes",
+          "url": "https://github.blog/changelog/2026-08-28-upcoming-changes-to-github-copilot-policies-and-billing/",
+          "source_type": "blog",
+          "published_or_updated": "2026",
+          "why_selected": "GitHub announced prepaid seat behavior, unified experiences, longer chat retention, and a Balanced default for code review from September 28.",
+          "usefulness": "Create a model/tool change-control note that covers spend, retention, defaults, and opt-out impact."
+        },
+        {
+          "title": "OpenAI Agents SDK",
+          "url": "https://openai.com/index/the-next-evolution-of-the-agents-sdk/",
+          "source_type": "docs",
+          "published_or_updated": "2026",
+          "why_selected": "The SDK’s sandbox and checkpointing primitives make it easier to build long-running agents that return files and evidence instead of only chat.",
+          "usefulness": "A direct fit for dossier generation, evidence packs, and reviewable client deliverables."
+        }
+      ]
+    }
+  ]
+}

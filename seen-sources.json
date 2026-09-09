@@ -1,6 +1,101 @@
 {
-  "updated_at": "2026-09-08T08:06:03.694944+00:00",
+  "updated_at": "2026-09-09T08:07:27.196828+00:00",
   "sources": {
+    "https://blog.jetbrains.com/air/2026/03/air-launches-as-public-preview-a-new-wave-of-dev-tooling-built-on-26-years-of-experience": {
+      "first_seen": "2026-09-09",
+      "last_seen": "2026-09-09",
+      "title": "JetBrains Air"
+    },
+    "https://blog.jetbrains.com/teamcity/2026/09/teamcity-20262": {
+      "first_seen": "2026-09-09",
+      "last_seen": "2026-09-09",
+      "title": "TeamCity 2026.2"
+    },
+    "https://github.blog/changelog/2026-09-08-enterprise-managed-sandbox-in-copilot-for-jetbrains": {
+      "first_seen": "2026-09-09",
+      "last_seen": "2026-09-09",
+      "title": "Enterprise-managed sandbox in Copilot for JetBrains"
+    },
+    "https://openai.com/index/the-next-evolution-of-the-agents-sdk": {
+      "first_seen": "2026-09-09",
+      "last_seen": "2026-08-14",
+      "title": "The next evolution of the Agents SDK"
+    },
+    "https://github.blog/changelog/2026-09-04-gpt-6-astra-is-generally-available-in-github-copilot": {
+      "first_seen": "2026-09-09",
+      "last_seen": "2026-09-05",
+      "title": "GPT-6 Astra is generally available in GitHub Copilot"
+    },
+    "https://blog.mozilla.org/en/firefox/firefox-ai-on-your-terms": {
+      "first_seen": "2026-09-09",
+      "last_seen": "2026-09-09",
+      "title": "Firefox AI on your terms"
+    },
+    "https://blog.mozilla.org/netpolicy/2026/09/01/browsers-compete-on-privacy-when-the-operating-system-allows": {
+      "first_seen": "2026-09-09",
+      "last_seen": "2026-09-09",
+      "title": "Browsers compete on privacy"
+    },
+    "https://www.inkandswitch.com/essay/local-first": {
+      "first_seen": "2026-09-09",
+      "last_seen": "2026-09-09",
+      "title": "Local-first software"
+    },
+    "https://blog.cloudflare.com/content-independence-day-ai-options": {
+      "first_seen": "2026-09-09",
+      "last_seen": "2026-09-01",
+      "title": "Cloudflare: new AI traffic options"
+    },
+    "https://developers.cloudflare.com/fundamentals/reference/markdown-for-agents": {
+      "first_seen": "2026-09-09",
+      "last_seen": "2026-08-26",
+      "title": "Markdown for Agents"
+    },
+    "https://blog.cloudflare.com/2026-threat-report": {
+      "first_seen": "2026-09-09",
+      "last_seen": "2026-09-04",
+      "title": "Introducing the 2026 Cloudflare Threat Report"
+    },
+    "https://blog.cloudflare.com/post-quantum-eo-2026": {
+      "first_seen": "2026-09-09",
+      "last_seen": "2026-09-09",
+      "title": "Post-Quantum Executive Order analysis"
+    },
+    "https://csrc.nist.gov/projects/post-quantum-cryptography": {
+      "first_seen": "2026-09-09",
+      "last_seen": "2026-09-09",
+      "title": "NIST Post-Quantum Cryptography"
+    },
+    "https://www.cisa.gov/topics/cyber-threats-and-advisories": {
+      "first_seen": "2026-09-09",
+      "last_seen": "2026-09-09",
+      "title": "Session-token exposure"
+    },
+    "https://www.cisa.gov/news-events/cybersecurity-advisories": {
+      "first_seen": "2026-09-09",
+      "last_seen": "2026-09-09",
+      "title": "Living off trusted services"
+    },
+    "https://blog.cloudflare.com/cloudflare-apps-platform-update-september-edition": {
+      "first_seen": "2026-09-09",
+      "last_seen": "2026-09-09",
+      "title": "Cloudflare Apps Platform \u2014 September edition"
+    },
+    "https://openai.com/index/research-acceleration-view-inside-openai": {
+      "first_seen": "2026-09-09",
+      "last_seen": "2026-09-08",
+      "title": "Research acceleration: the view inside OpenAI"
+    },
+    "https://blog.jetbrains.com/research/2026/04/which-ai-coding-tools-do-developers-actually-use-at-work": {
+      "first_seen": "2026-09-09",
+      "last_seen": "2026-09-09",
+      "title": "AI coding tools developers use at work"
+    },
+    "https://github.blog/changelog/2026-08-28-upcoming-changes-to-github-copilot-policies-and-billing": {
+      "first_seen": "2026-09-09",
+      "last_seen": "2026-08-29",
+      "title": "Upcoming Copilot policy and billing changes"
+    },
     "https://developer.chrome.com/blog/chrome-at-io26": {
       "first_seen": "2026-09-08",
       "last_seen": "2026-09-08",
@@ -76,11 +171,6 @@
       "last_seen": "2026-09-08",
       "title": "NVIDIA Isaac Sim"
     },
-    "https://openai.com/index/research-acceleration-view-inside-openai": {
-      "first_seen": "2026-09-08",
-      "last_seen": "2026-09-08",
-      "title": "Research acceleration: the view inside OpenAI"
-    },
     "https://openai.com/index/scientific-computing-agentic-ai": {
       "first_seen": "2026-09-08",
       "last_seen": "2026-09-08",
@@ -141,11 +231,6 @@
       "last_seen": "2026-09-01",
       "title": "Cloudflare Dynamic Worker Loader"
     },
-    "https://developers.cloudflare.com/fundamentals/reference/markdown-for-agents": {
-      "first_seen": "2026-09-07",
-      "last_seen": "2026-08-26",
-      "title": "Markdown for Agents"
-    },
     "https://blog.cloudflare.com/the-agent-access-model": {
       "first_seen": "2026-09-07",
       "last_seen": "2026-08-14",
@@ -205,11 +290,6 @@
       "first_seen": "2026-09-06",
       "last_seen": "2026-09-06",
       "title": "Claude Fable 5.1 and Mythos 5.1"
-    },
-    "https://github.blog/changelog/2026-09-04-gpt-6-astra-is-generally-available-in-github-copilot": {
-      "first_seen": "2026-09-05",
-      "last_seen": "2026-09-05",
-      "title": "GPT-6 Astra is generally available in GitHub Copilot"
     },
     "https://github.blog/changelog/2026-09-04-github-copilot-weekly-releases-august-31": {
       "first_seen": "2026-09-05",
@@ -305,11 +385,6 @@
       "first_seen": "2026-09-04",
       "last_seen": "2026-07-22",
       "title": "OpenAI and Hugging Face partner to address security incident during model evaluation"
-    },
-    "https://blog.cloudflare.com/2026-threat-report": {
-      "first_seen": "2026-09-04",
-      "last_seen": "2026-09-04",
-      "title": "Introducing the 2026 Cloudflare Threat Report"
     },
     "https://github.com/anomalyco/opencode/security/advisories/GHSA-c83v-7274-4vgp": {
       "first_seen": "2026-09-04",
@@ -435,11 +510,6 @@
       "first_seen": "2026-09-02",
       "last_seen": "2026-08-20",
       "title": "OWASP GenAI Security Project"
-    },
-    "https://blog.cloudflare.com/content-independence-day-ai-options": {
-      "first_seen": "2026-09-02",
-      "last_seen": "2026-09-01",
-      "title": "Cloudflare: new AI traffic options"
     },
     "https://openai.com/index/introducing-openai-privacy-filter": {
       "first_seen": "2026-09-02",
@@ -610,11 +680,6 @@
       "first_seen": "2026-08-29",
       "last_seen": "2026-08-29",
       "title": "Visual Studio Copilot August update"
-    },
-    "https://github.blog/changelog/2026-08-28-upcoming-changes-to-github-copilot-policies-and-billing": {
-      "first_seen": "2026-08-29",
-      "last_seen": "2026-08-29",
-      "title": "Upcoming Copilot policy and billing changes"
     },
     "https://blog.jetbrains.com/research/2026/08/ai-coding-agent-adoption-2026": {
       "first_seen": "2026-08-29",
@@ -875,11 +940,6 @@
       "first_seen": "2026-08-22",
       "last_seen": "2026-08-22",
       "title": "Introducing AgentKit"
-    },
-    "https://openai.com/index/the-next-evolution-of-the-agents-sdk": {
-      "first_seen": "2026-08-22",
-      "last_seen": "2026-08-14",
-      "title": "The next evolution of the Agents SDK"
     },
     "https://github.blog/changelog/2026-08-12-agent-plugins-1-0-in-vs-code-copilot-cli-and-the-copilot-app": {
       "first_seen": "2026-08-22",

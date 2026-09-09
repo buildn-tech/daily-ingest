@@ -824,6 +824,26 @@
       "title": "Agent-Ready Web + Sandboxing",
       "times_covered": 1,
       "last_covered": "2026-09-07"
+    },
+    "agentic-dev-environments": {
+      "title": "Agentic Development Environments",
+      "times_covered": 1,
+      "last_covered": "2026-09-09"
+    },
+    "privacy-first-user-control": {
+      "title": "Privacy-First User Control",
+      "times_covered": 1,
+      "last_covered": "2026-09-09"
+    },
+    "security-resilience-and-crypto": {
+      "title": "Security Resilience + Cryptography",
+      "times_covered": 1,
+      "last_covered": "2026-09-09"
+    },
+    "operator-leverage-and-adoption": {
+      "title": "Operator Leverage + Adoption Evidence",
+      "times_covered": 1,
+      "last_covered": "2026-09-09"
     }
   },
   "item_history": [
@@ -4979,6 +4999,118 @@
         }
       ],
       "selection_rationale": "Fresh primary-source signal; rotated toward privacy infrastructure, runtime enforcement, same-day embodied-AI research, and scoped agentic commerce."
+    },
+    {
+      "date": "2026-09-09",
+      "selected_lanes": [
+        "agentic-dev-environments",
+        "privacy-first-user-control",
+        "security-resilience-and-crypto",
+        "operator-leverage-and-adoption"
+      ],
+      "items": [
+        {
+          "title": "JetBrains Air",
+          "url": "https://blog.jetbrains.com/air/2026/03/air-launches-as-public-preview-a-new-wave-of-dev-tooling-built-on-26-years-of-experience/",
+          "source_type": "blog"
+        },
+        {
+          "title": "TeamCity 2026.2",
+          "url": "https://blog.jetbrains.com/teamcity/2026/09/teamcity-20262/",
+          "source_type": "blog"
+        },
+        {
+          "title": "Enterprise-managed sandbox in Copilot for JetBrains",
+          "url": "https://github.blog/changelog/2026-09-08-enterprise-managed-sandbox-in-copilot-for-jetbrains",
+          "source_type": "blog"
+        },
+        {
+          "title": "The next evolution of the Agents SDK",
+          "url": "https://openai.com/index/the-next-evolution-of-the-agents-sdk/",
+          "source_type": "docs"
+        },
+        {
+          "title": "GPT-6 Astra in GitHub Copilot",
+          "url": "https://github.blog/changelog/2026-09-04-gpt-6-astra-is-generally-available-in-github-copilot/",
+          "source_type": "blog"
+        },
+        {
+          "title": "Firefox AI on your terms",
+          "url": "https://blog.mozilla.org/en/firefox/firefox-ai-on-your-terms/",
+          "source_type": "blog"
+        },
+        {
+          "title": "Browsers compete on privacy",
+          "url": "https://blog.mozilla.org/netpolicy/2026/09/01/browsers-compete-on-privacy-when-the-operating-system-allows/",
+          "source_type": "blog"
+        },
+        {
+          "title": "Local-first software",
+          "url": "https://www.inkandswitch.com/essay/local-first/",
+          "source_type": "docs"
+        },
+        {
+          "title": "Cloudflare AI traffic options",
+          "url": "https://blog.cloudflare.com/content-independence-day-ai-options/",
+          "source_type": "blog"
+        },
+        {
+          "title": "Markdown for Agents",
+          "url": "https://developers.cloudflare.com/fundamentals/reference/markdown-for-agents/",
+          "source_type": "docs"
+        },
+        {
+          "title": "2026 Cloudflare Threat Report",
+          "url": "https://blog.cloudflare.com/2026-threat-report/",
+          "source_type": "blog"
+        },
+        {
+          "title": "Post-Quantum Executive Order analysis",
+          "url": "https://blog.cloudflare.com/post-quantum-eo-2026/",
+          "source_type": "blog"
+        },
+        {
+          "title": "NIST Post-Quantum Cryptography",
+          "url": "https://csrc.nist.gov/projects/post-quantum-cryptography",
+          "source_type": "docs"
+        },
+        {
+          "title": "Session-token exposure",
+          "url": "https://www.cisa.gov/topics/cyber-threats-and-advisories",
+          "source_type": "docs"
+        },
+        {
+          "title": "Living off trusted services",
+          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories",
+          "source_type": "docs"
+        },
+        {
+          "title": "Cloudflare Apps Platform — September edition",
+          "url": "https://blog.cloudflare.com/cloudflare-apps-platform-update-september-edition/",
+          "source_type": "blog"
+        },
+        {
+          "title": "Research acceleration: the view inside OpenAI",
+          "url": "https://openai.com/index/research-acceleration-view-inside-openai/",
+          "source_type": "docs"
+        },
+        {
+          "title": "AI coding tools developers use at work",
+          "url": "https://blog.jetbrains.com/research/2026/04/which-ai-coding-tools-do-developers-actually-use-at-work/",
+          "source_type": "blog"
+        },
+        {
+          "title": "Copilot policy and billing changes",
+          "url": "https://github.blog/changelog/2026-08-28-upcoming-changes-to-github-copilot-policies-and-billing/",
+          "source_type": "blog"
+        },
+        {
+          "title": "OpenAI Agents SDK",
+          "url": "https://openai.com/index/the-next-evolution-of-the-agents-sdk/",
+          "source_type": "docs"
+        }
+      ],
+      "selection_rationale": "Rotated away from yesterday’s web/identity/physical-AI/research emphasis toward control, resilience, CI/CD boundaries, and adoption evidence."
     }
   ],
   "daily_history": [
