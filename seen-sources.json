@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-10T08:06:07.744269+00:00",
+  "updated_at": "2026-09-10T08:07:58.939868+00:00",
   "sources": {
     "https://github.blog/changelog/2026-09-09-enterprise-managed-permissions-for-github-copilot-agent-operations": {
       "first_seen": "2026-09-10",
@@ -54,17 +54,17 @@
     "https://openai.com/index/introducing-workspace-agents-in-chatgpt": {
       "first_seen": "2026-09-10",
       "last_seen": "2026-09-10",
-      "title": "Workspace agents as durable process, not chat history"
+      "title": "Introducing Workspace Agents in ChatGPT"
     },
     "https://vercel.com/changelog/gpt-6-astra-now-available-on-vercel-ai-gateway": {
       "first_seen": "2026-09-10",
       "last_seen": "2026-09-10",
       "title": "GPT-6 Astra now available on Vercel AI Gateway"
     },
-    "https://openai.com/index/research-acceleration-view-inside-openai": {
+    "https://openai.com/index/introducing-openai-presence": {
       "first_seen": "2026-09-10",
-      "last_seen": "2026-09-08",
-      "title": "Research acceleration: the view inside OpenAI"
+      "last_seen": "2026-09-10",
+      "title": "Introducing OpenAI Presence"
     },
     "https://blog.jetbrains.com/air/2026/03/air-launches-as-public-preview-a-new-wave-of-dev-tooling-built-on-26-years-of-experience": {
       "first_seen": "2026-09-09",
@@ -145,6 +145,11 @@
       "first_seen": "2026-09-09",
       "last_seen": "2026-09-09",
       "title": "Cloudflare Apps Platform \u2014 September edition"
+    },
+    "https://openai.com/index/research-acceleration-view-inside-openai": {
+      "first_seen": "2026-09-09",
+      "last_seen": "2026-09-08",
+      "title": "Research acceleration: the view inside OpenAI"
     },
     "https://blog.jetbrains.com/research/2026/04/which-ai-coding-tools-do-developers-actually-use-at-work": {
       "first_seen": "2026-09-09",

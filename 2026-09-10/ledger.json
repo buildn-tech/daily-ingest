@@ -1,6 +1,6 @@
 {
   "date": "2026-09-10",
-  "generated_at": "2026-09-10T08:06:03.868203+00:00",
+  "generated_at": "2026-09-10T08:07:58.626566+00:00",
   "editorial_thesis": "The useful frontier is the control plane: task-scoped authority, layered execution boundaries, and accepted-artifact measurement are what make more capable agents deployable.",
   "topic_groups": [
     {
@@ -127,20 +127,12 @@
           "usefulness": "Run the same acceptance suite through the existing gateway, keeping prompts, tools, and artifact checks constant."
         },
         {
-          "title": "Research acceleration: accepted work over token volume",
-          "url": "https://openai.com/index/research-acceleration-view-inside-openai/",
-          "source_type": "research",
-          "published_or_updated": "2026-09-08",
-          "why_selected": "It gives a better ROI unit for agents: accepted artifacts and reviewer time, not raw calls, tokens, or generated text.",
-          "usefulness": "Use accepted report sections, merged patches, and resolved issues as Buildn delivery metrics."
-        },
-        {
-          "title": "Workspace agents as durable process, not chat history",
-          "url": "https://openai.com/index/introducing-workspace-agents-in-chatgpt/",
+          "title": "Introducing OpenAI Presence",
+          "url": "https://openai.com/index/introducing-openai-presence/",
           "source_type": "product",
-          "published_or_updated": "2026",
-          "why_selected": "The durable asset is the tested process and its guardrails; the chat transcript is only one invocation.",
-          "usefulness": "Create versioned agent briefs with owner, data scope, approval points, and rollback instructions."
+          "published_or_updated": "2026-07-22",
+          "why_selected": "It is a concrete example of treating deployment as an operating system around the model: scope, test, monitor, propose, approve, and roll out.",
+          "usefulness": "Borrow the improvement loop for Buildn/client agents that need recurring evaluation and controlled changes."
         }
       ]
     }

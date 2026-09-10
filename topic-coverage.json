@@ -847,17 +847,17 @@
     },
     "governed-agent-operations": {
       "title": "Governed Agent Operations",
-      "times_covered": 1,
+      "times_covered": 2,
       "last_covered": "2026-09-10"
     },
     "safe-agent-code-execution": {
       "title": "Safe Agent Code Execution",
-      "times_covered": 1,
+      "times_covered": 2,
       "last_covered": "2026-09-10"
     },
     "frontier-work-surfaces": {
       "title": "Frontier Work Surfaces",
-      "times_covered": 1,
+      "times_covered": 2,
       "last_covered": "2026-09-10"
     }
   },
@@ -1610,18 +1610,10 @@
     {
       "date": "2026-09-10",
       "topic": "frontier-work-surfaces",
-      "title": "Research acceleration: accepted work over token volume",
-      "url": "https://openai.com/index/research-acceleration-view-inside-openai/",
-      "source_type": "research",
-      "rationale": "It gives a better ROI unit for agents: accepted artifacts and reviewer time, not raw calls, tokens, or generated text."
-    },
-    {
-      "date": "2026-09-10",
-      "topic": "frontier-work-surfaces",
-      "title": "Workspace agents as durable process, not chat history",
-      "url": "https://openai.com/index/introducing-workspace-agents-in-chatgpt/",
+      "title": "Introducing OpenAI Presence",
+      "url": "https://openai.com/index/introducing-openai-presence/",
       "source_type": "product",
-      "rationale": "The durable asset is the tested process and its guardrails; the chat transcript is only one invocation."
+      "rationale": "It is a concrete example of treating deployment as an operating system around the model: scope, test, monitor, propose, approve, and roll out."
     }
   ],
   "runs": [
