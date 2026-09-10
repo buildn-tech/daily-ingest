@@ -844,6 +844,21 @@
       "title": "Operator Leverage + Adoption Evidence",
       "times_covered": 1,
       "last_covered": "2026-09-09"
+    },
+    "governed-agent-operations": {
+      "title": "Governed Agent Operations",
+      "times_covered": 1,
+      "last_covered": "2026-09-10"
+    },
+    "safe-agent-code-execution": {
+      "title": "Safe Agent Code Execution",
+      "times_covered": 1,
+      "last_covered": "2026-09-10"
+    },
+    "frontier-work-surfaces": {
+      "title": "Frontier Work Surfaces",
+      "times_covered": 1,
+      "last_covered": "2026-09-10"
     }
   },
   "item_history": [
@@ -1487,6 +1502,126 @@
       "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
       "source_type": "release",
       "rationale": "Cache-read reductions materially affect long-running tool-heavy agents."
+    },
+    {
+      "date": "2026-09-10",
+      "topic": "governed-agent-operations",
+      "title": "Enterprise managed permissions for Copilot agent operations",
+      "url": "https://github.blog/changelog/2026-09-09-enterprise-managed-permissions-for-github-copilot-agent-operations/",
+      "source_type": "release",
+      "rationale": "It turns agent authority into a typed policy surface that users cannot weaken with local auto-approval or saved approvals."
+    },
+    {
+      "date": "2026-09-10",
+      "topic": "governed-agent-operations",
+      "title": "Agentic autofix for code-quality findings",
+      "url": "https://github.blog/changelog/2026-09-09-remediate-code-quality-findings-with-agentic-autofix/",
+      "source_type": "release",
+      "rationale": "Batching turns security debt into a queue while preserving a branch and human merge decision."
+    },
+    {
+      "date": "2026-09-10",
+      "topic": "governed-agent-operations",
+      "title": "CodeQL 2.27.0 adds Linux ARM64 support",
+      "url": "https://github.blog/changelog/2026-09-09-codeql-2-27-0-adds-support-for-linux-arm64/",
+      "source_type": "release",
+      "rationale": "Security scanning can follow lower-cost or edge-oriented build infrastructure instead of forcing every repository onto x86 runners."
+    },
+    {
+      "date": "2026-09-10",
+      "topic": "governed-agent-operations",
+      "title": "Block pull requests with exposed secrets from merging",
+      "url": "https://github.blog/changelog/2026-09-09-block-pull-requests-with-exposed-secrets-from-merging/",
+      "source_type": "release",
+      "rationale": "It moves secret detection from notification to a delivery gate, where an agent’s generated patch must satisfy the same safety rule as human code."
+    },
+    {
+      "date": "2026-09-10",
+      "topic": "governed-agent-operations",
+      "title": "GitHub Advanced Security expands trial availability",
+      "url": "https://github.blog/changelog/2026-09-09-github-advanced-security-expands-trial-availability/",
+      "source_type": "release",
+      "rationale": "A short trial can produce evidence about finding volume, remediation throughput, and review load before a broader commitment."
+    },
+    {
+      "date": "2026-09-10",
+      "topic": "safe-agent-code-execution",
+      "title": "What infrastructure do AI agents need to run code safely?",
+      "url": "https://northflank.com/blog/ai-agent-code-execution-infrastructure",
+      "source_type": "blog",
+      "rationale": "It makes the hidden operational dependencies visible: a container does not decide credentials, network reach, expiry, cleanup, or promotion."
+    },
+    {
+      "date": "2026-09-10",
+      "topic": "safe-agent-code-execution",
+      "title": "Cursor Cloud Agents can run in Vercel Sandbox",
+      "url": "https://vercel.com/changelog/run-cursor-cloud-agents-vercel-sandbox",
+      "source_type": "release",
+      "rationale": "Execution location becomes a deployment choice: teams can align sandbox region, account boundary, observability, and cost with the rest of the application."
+    },
+    {
+      "date": "2026-09-10",
+      "topic": "safe-agent-code-execution",
+      "title": "Vercel Sandbox routing is 18× faster globally",
+      "url": "https://vercel.com/changelog/vercel-sandbox-routing-is-now-18x-faster-globally",
+      "source_type": "release",
+      "rationale": "Lower routing latency matters for interactive agent loops and short-lived preview environments, especially when the work is distributed geographically."
+    },
+    {
+      "date": "2026-09-10",
+      "topic": "safe-agent-code-execution",
+      "title": "Persistent memory for eve agents",
+      "url": "https://vercel.com/changelog/persistent-memory-for-eve-agents",
+      "source_type": "release",
+      "rationale": "Memory becomes a declared storage component with an ownership boundary instead of an invisible prompt trick."
+    },
+    {
+      "date": "2026-09-10",
+      "topic": "safe-agent-code-execution",
+      "title": "Sandbox architecture: promote artifacts, not mutable runtimes",
+      "url": "https://northflank.com/blog/ai-agent-code-execution-infrastructure",
+      "source_type": "blog",
+      "rationale": "This separates experimentation from deployment and prevents a compromised or drifted runtime from becoming the release authority."
+    },
+    {
+      "date": "2026-09-10",
+      "topic": "frontier-work-surfaces",
+      "title": "GPT-6 Astra: the next generation in intelligence for work",
+      "url": "https://openai.com/index/gpt-6-astra-next-generation-work/",
+      "source_type": "product",
+      "rationale": "The practical claim is reduced integration work: the model can operate through existing applications even when no API exists."
+    },
+    {
+      "date": "2026-09-10",
+      "topic": "frontier-work-surfaces",
+      "title": "Introducing Workspace Agents in ChatGPT",
+      "url": "https://openai.com/index/introducing-workspace-agents-in-chatgpt/",
+      "source_type": "product",
+      "rationale": "The unit of adoption shifts from an individual prompt to a reusable team process with permissions, memory, and continuous correction."
+    },
+    {
+      "date": "2026-09-10",
+      "topic": "frontier-work-surfaces",
+      "title": "GPT-6 Astra now available on Vercel AI Gateway",
+      "url": "https://vercel.com/changelog/gpt-6-astra-now-available-on-vercel-ai-gateway",
+      "source_type": "release",
+      "rationale": "A common gateway reduces the cost of a controlled trial and makes model selection a routing configuration rather than a rewrite."
+    },
+    {
+      "date": "2026-09-10",
+      "topic": "frontier-work-surfaces",
+      "title": "Research acceleration: accepted work over token volume",
+      "url": "https://openai.com/index/research-acceleration-view-inside-openai/",
+      "source_type": "research",
+      "rationale": "It gives a better ROI unit for agents: accepted artifacts and reviewer time, not raw calls, tokens, or generated text."
+    },
+    {
+      "date": "2026-09-10",
+      "topic": "frontier-work-surfaces",
+      "title": "Workspace agents as durable process, not chat history",
+      "url": "https://openai.com/index/introducing-workspace-agents-in-chatgpt/",
+      "source_type": "product",
+      "rationale": "The durable asset is the tested process and its guardrails; the chat transcript is only one invocation."
     }
   ],
   "runs": [
@@ -2526,6 +2661,15 @@
         }
       ],
       "editorial_thesis": "Agent advantage is moving into the operating layer: explicit runtime placement, customer-owned security evidence, and model portfolios that turn temporary price windows into durable evaluation data."
+    },
+    {
+      "date": "2026-09-10",
+      "selected_lanes": [
+        "governed-agent-operations",
+        "safe-agent-code-execution",
+        "frontier-work-surfaces"
+      ],
+      "editorial_thesis": "The useful frontier is the control plane: task-scoped authority, layered execution boundaries, and accepted-artifact measurement are what make more capable agents deployable."
     }
   ],
   "updated_at": "2026-09-08T08:00:50Z",

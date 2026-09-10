@@ -1,6 +1,27 @@
 {
-  "updated_at": "2026-09-09T08:07:27.196828+00:00",
+  "updated_at": "2026-09-10T08:06:07.744269+00:00",
   "days": [
+    {
+      "date": "2026-09-10",
+      "path": "2026-09-10",
+      "reports": [
+        {
+          "lane": "governed-agent-operations",
+          "title": "Governed Agent Operations",
+          "url": "2026-09-10/governed-agent-operations.html"
+        },
+        {
+          "lane": "safe-agent-code-execution",
+          "title": "Safe Agent Code Execution",
+          "url": "2026-09-10/safe-agent-code-execution.html"
+        },
+        {
+          "lane": "frontier-work-surfaces",
+          "title": "Frontier Work Surfaces",
+          "url": "2026-09-10/frontier-work-surfaces.html"
+        }
+      ]
+    },
     {
       "date": "2026-09-09",
       "path": "2026-09-09",
