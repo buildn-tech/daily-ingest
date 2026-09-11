@@ -859,6 +859,30 @@
       "title": "Frontier Work Surfaces",
       "times_covered": 2,
       "last_covered": "2026-09-10"
+    },
+    "agent-runtime-composition": {
+      "title": "Agent Runtime Composition",
+      "times_covered": 1,
+      "last_covered": "2026-09-11",
+      "count": 1
+    },
+    "software-supply-chain-controls": {
+      "title": "Software Supply-Chain Controls",
+      "times_covered": 1,
+      "last_covered": "2026-09-11",
+      "count": 1
+    },
+    "ai-misuse-and-evaluation-boundaries": {
+      "title": "AI Misuse + Evaluation Boundaries",
+      "times_covered": 1,
+      "last_covered": "2026-09-11",
+      "count": 1
+    },
+    "research-agents-and-formal-evidence": {
+      "title": "Research Agents + Formal Evidence",
+      "times_covered": 1,
+      "last_covered": "2026-09-11",
+      "count": 1
     }
   },
   "item_history": [
@@ -1614,6 +1638,134 @@
       "url": "https://openai.com/index/introducing-openai-presence/",
       "source_type": "product",
       "rationale": "It is a concrete example of treating deployment as an operating system around the model: scope, test, monitor, propose, approve, and roll out."
+    },
+    {
+      "date": "2026-09-11",
+      "topic": "agent-runtime-composition",
+      "title": "Build with OpenAI Agents API on Vercel",
+      "url": "https://vercel.com/changelog/build-with-openai-agents-api-on-vercel",
+      "source_type": "release",
+      "rationale": "It separates orchestration from execution and supports persistent workspaces with scale-to-zero behavior."
+    },
+    {
+      "date": "2026-09-11",
+      "topic": "agent-runtime-composition",
+      "title": "Vercel Sandbox is now available in all regions",
+      "url": "https://vercel.com/changelog/vercel-sandbox-is-now-available-in-all-regions",
+      "source_type": "release",
+      "rationale": "Execution location becomes part of latency, residency, and resilience policy rather than a hidden default."
+    },
+    {
+      "date": "2026-09-11",
+      "topic": "agent-runtime-composition",
+      "title": "Tako Search is free on AI Gateway through September 30",
+      "url": "https://vercel.com/changelog/tako-search-is-free-on-ai-gateway-through-september-30th",
+      "source_type": "product",
+      "rationale": "Current research becomes a tool contract instead of a bespoke retrieval integration."
+    },
+    {
+      "date": "2026-09-11",
+      "topic": "agent-runtime-composition",
+      "title": "OpenAI Agents API sample application",
+      "url": "https://github.com/vercel-labs/openai-agents-api-vercel",
+      "source_type": "repo",
+      "rationale": "Reference code reduces the gap between architecture diagrams and a runnable pilot."
+    },
+    {
+      "date": "2026-09-11",
+      "topic": "software-supply-chain-controls",
+      "title": "AI Scan for pull request APIs",
+      "url": "https://github.blog/changelog/2026-09-10-ai-scan-for-pull-request-apis-in-public-preview/",
+      "source_type": "release",
+      "rationale": "Security posture can be rolled out selectively and repeatably instead of through manual UI changes."
+    },
+    {
+      "date": "2026-09-11",
+      "topic": "software-supply-chain-controls",
+      "title": "Control GitHub Actions cache access with cache-mode",
+      "url": "https://github.blog/changelog/2026-09-10-control-github-actions-cache-access-with-cache-mode/",
+      "source_type": "improvement",
+      "rationale": "Cache poisoning becomes a permission design problem with explicit defaults and warnings."
+    },
+    {
+      "date": "2026-09-11",
+      "topic": "software-supply-chain-controls",
+      "title": "MAI-Code-1-Flash deprecated",
+      "url": "https://github.blog/changelog/2026-09-10-mai-code-1-flash-deprecated",
+      "source_type": "deprecation",
+      "rationale": "A model name in an agent workflow is a dependency with a retirement date, not a harmless string."
+    },
+    {
+      "date": "2026-09-11",
+      "topic": "software-supply-chain-controls",
+      "title": "AI Scan security detections documentation",
+      "url": "https://docs.github.com/code-security/concepts/code-scanning/ai-powered-security-detections",
+      "source_type": "docs",
+      "rationale": "Controls are only useful when teams know what is detected, where, and with which review path."
+    },
+    {
+      "date": "2026-09-11",
+      "topic": "ai-misuse-and-evaluation-boundaries",
+      "title": "Detecting and countering misuse of AI: September 2026",
+      "url": "https://www.anthropic.com/threat-intelligence-report-september-2026",
+      "source_type": "report",
+      "rationale": "It argues AI changes the economics and tempo of familiar abuse, with multi-agent workflows and persistent state increasing scale."
+    },
+    {
+      "date": "2026-09-11",
+      "topic": "ai-misuse-and-evaluation-boundaries",
+      "title": "Improving our alignment and security efforts",
+      "url": "https://www.anthropic.com/news/improving-alignment-security-efforts",
+      "source_type": "postmortem",
+      "rationale": "It shows that sandbox assumptions, monitoring, prompt boundaries, and partner controls must fail independently, not as one brittle layer."
+    },
+    {
+      "date": "2026-09-11",
+      "topic": "ai-misuse-and-evaluation-boundaries",
+      "title": "PentAGI reference in the threat report",
+      "url": "https://github.com/vxcontrol/pentagi",
+      "source_type": "repo",
+      "rationale": "Public orchestration lowers the expertise and labor required to compose reconnaissance and exploitation tasks."
+    },
+    {
+      "date": "2026-09-11",
+      "topic": "ai-misuse-and-evaluation-boundaries",
+      "title": "METR independent review reference",
+      "url": "https://www.anthropic.com/news/improving-alignment-security-efforts",
+      "source_type": "research",
+      "rationale": "External review is a useful pattern when the system owner also designed the evaluation environment."
+    },
+    {
+      "date": "2026-09-11",
+      "topic": "research-agents-and-formal-evidence",
+      "title": "On the Navier–Stokes Millennium Prize Problem",
+      "url": "https://openai.com/index/navier-stokes-solution/",
+      "source_type": "research",
+      "rationale": "The output is paired with formal verification and a public qualification boundary, making review more concrete than prose alone."
+    },
+    {
+      "date": "2026-09-11",
+      "topic": "research-agents-and-formal-evidence",
+      "title": "Lean formalized proof and repository",
+      "url": "https://github.com/openai/NavierStokesAndEuler",
+      "source_type": "repo",
+      "rationale": "Executable checking creates a stronger handoff than a static narrative, even when the result remains under review."
+    },
+    {
+      "date": "2026-09-11",
+      "topic": "research-agents-and-formal-evidence",
+      "title": "Research acceleration: the view inside OpenAI",
+      "url": "https://openai.com/index/research-acceleration-view-inside-openai/",
+      "source_type": "report",
+      "rationale": "It frames agent leverage around accepted experiments and decisions, not token count alone."
+    },
+    {
+      "date": "2026-09-11",
+      "topic": "research-agents-and-formal-evidence",
+      "title": "OpenAI Navier–Stokes paper PDF",
+      "url": "https://cdn.openai.com/pdf/32d9f210-8b73-45e0-91bc-82a30aef8a9a/navier-stokes.pdf",
+      "source_type": "paper",
+      "rationale": "A dossier should distinguish the announcement from the underlying evidence and preserve both links."
     }
   ],
   "runs": [
@@ -2662,9 +2814,19 @@
         "frontier-work-surfaces"
       ],
       "editorial_thesis": "The useful frontier is the control plane: task-scoped authority, layered execution boundaries, and accepted-artifact measurement are what make more capable agents deployable."
+    },
+    {
+      "date": "2026-09-11",
+      "selected_lanes": [
+        "agent-runtime-composition",
+        "software-supply-chain-controls",
+        "ai-misuse-and-evaluation-boundaries",
+        "research-agents-and-formal-evidence"
+      ],
+      "editorial_thesis": "The useful frontier is becoming inspectable: composable runtimes, enforceable supply-chain policy, incident-shaped evaluation controls, and formal evidence make agent work easier to try without making trust implicit."
     }
   ],
-  "updated_at": "2026-09-08T08:00:50Z",
+  "updated_at": "2026-09-11T08:07:00.880788+00:00",
   "last_run": "2026-09-01",
   "last_editorial_thesis": "The most useful frontier signal today is moving from autonomous demos to bounded systems: redact sensitive inputs, isolate generated actions, evaluate recovery, and require scoped authorization for spend.",
   "coverage_history": [

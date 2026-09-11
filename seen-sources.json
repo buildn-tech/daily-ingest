@@ -1,6 +1,81 @@
 {
-  "updated_at": "2026-09-10T08:07:58.939868+00:00",
+  "updated_at": "2026-09-11T08:07:06.591360+00:00",
   "sources": {
+    "https://vercel.com/changelog/build-with-openai-agents-api-on-vercel": {
+      "first_seen": "2026-09-11",
+      "last_seen": "2026-09-11",
+      "title": "Build with OpenAI Agents API on Vercel"
+    },
+    "https://vercel.com/changelog/vercel-sandbox-is-now-available-in-all-regions": {
+      "first_seen": "2026-09-11",
+      "last_seen": "2026-09-11",
+      "title": "Vercel Sandbox is now available in all regions"
+    },
+    "https://vercel.com/changelog/tako-search-is-free-on-ai-gateway-through-september-30th": {
+      "first_seen": "2026-09-11",
+      "last_seen": "2026-09-11",
+      "title": "Tako Search is free on AI Gateway through September 30"
+    },
+    "https://github.com/vercel-labs/openai-agents-api-vercel": {
+      "first_seen": "2026-09-11",
+      "last_seen": "2026-09-11",
+      "title": "OpenAI Agents API sample application"
+    },
+    "https://github.blog/changelog/2026-09-10-ai-scan-for-pull-request-apis-in-public-preview": {
+      "first_seen": "2026-09-11",
+      "last_seen": "2026-09-11",
+      "title": "AI Scan for pull request APIs"
+    },
+    "https://github.blog/changelog/2026-09-10-control-github-actions-cache-access-with-cache-mode": {
+      "first_seen": "2026-09-11",
+      "last_seen": "2026-09-11",
+      "title": "Control GitHub Actions cache access with cache-mode"
+    },
+    "https://github.blog/changelog/2026-09-10-mai-code-1-flash-deprecated": {
+      "first_seen": "2026-09-11",
+      "last_seen": "2026-09-11",
+      "title": "MAI-Code-1-Flash deprecated"
+    },
+    "https://docs.github.com/code-security/concepts/code-scanning/ai-powered-security-detections": {
+      "first_seen": "2026-09-11",
+      "last_seen": "2026-09-11",
+      "title": "AI Scan security detections documentation"
+    },
+    "https://www.anthropic.com/threat-intelligence-report-september-2026": {
+      "first_seen": "2026-09-11",
+      "last_seen": "2026-09-11",
+      "title": "Detecting and countering misuse of AI: September 2026"
+    },
+    "https://www.anthropic.com/news/improving-alignment-security-efforts": {
+      "first_seen": "2026-09-11",
+      "last_seen": "2026-09-11",
+      "title": "METR independent review reference"
+    },
+    "https://github.com/vxcontrol/pentagi": {
+      "first_seen": "2026-09-11",
+      "last_seen": "2026-09-11",
+      "title": "PentAGI reference in the threat report"
+    },
+    "https://openai.com/index/navier-stokes-solution": {
+      "first_seen": "2026-09-11",
+      "last_seen": "2026-09-11",
+      "title": "On the Navier\u2013Stokes Millennium Prize Problem"
+    },
+    "https://github.com/openai/NavierStokesAndEuler": {
+      "first_seen": "2026-09-11",
+      "last_seen": "2026-09-11",
+      "title": "Lean formalized proof and repository"
+    },
+    "https://openai.com/index/research-acceleration-view-inside-openai": {
+      "first_seen": "2026-09-11",
+      "last_seen": "2026-09-08",
+      "title": "Research acceleration: the view inside OpenAI"
+    },
+    "https://cdn.openai.com/pdf/32d9f210-8b73-45e0-91bc-82a30aef8a9a/navier-stokes.pdf": {
+      "first_seen": "2026-09-11",
+      "last_seen": "2026-09-11",
+      "title": "OpenAI Navier\u2013Stokes paper PDF"
+    },
     "https://github.blog/changelog/2026-09-09-enterprise-managed-permissions-for-github-copilot-agent-operations": {
       "first_seen": "2026-09-10",
       "last_seen": "2026-09-10",
@@ -145,11 +220,6 @@
       "first_seen": "2026-09-09",
       "last_seen": "2026-09-09",
       "title": "Cloudflare Apps Platform \u2014 September edition"
-    },
-    "https://openai.com/index/research-acceleration-view-inside-openai": {
-      "first_seen": "2026-09-09",
-      "last_seen": "2026-09-08",
-      "title": "Research acceleration: the view inside OpenAI"
     },
     "https://blog.jetbrains.com/research/2026/04/which-ai-coding-tools-do-developers-actually-use-at-work": {
       "first_seen": "2026-09-09",

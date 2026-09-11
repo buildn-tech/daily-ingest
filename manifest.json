@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-09-10T08:07:58.939868+00:00",
+  "updated_at": "2026-09-11T08:07:06.591360+00:00",
   "days": [
+    {
+      "date": "2026-09-11",
+      "path": "2026-09-11",
+      "reports": [
+        {
+          "lane": "agent-runtime-composition",
+          "title": "Agent Runtime Composition",
+          "url": "2026-09-11/agent-runtime-composition.html"
+        },
+        {
+          "lane": "software-supply-chain-controls",
+          "title": "Software Supply-Chain Controls",
+          "url": "2026-09-11/software-supply-chain-controls.html"
+        },
+        {
+          "lane": "ai-misuse-and-evaluation-boundaries",
+          "title": "AI Misuse + Evaluation Boundaries",
+          "url": "2026-09-11/ai-misuse-and-evaluation-boundaries.html"
+        },
+        {
+          "lane": "research-agents-and-formal-evidence",
+          "title": "Research Agents + Formal Evidence",
+          "url": "2026-09-11/research-agents-and-formal-evidence.html"
+        }
+      ]
+    },
     {
       "date": "2026-09-10",
       "path": "2026-09-10",

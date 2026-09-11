@@ -1,0 +1,163 @@
+{
+  "date": "2026-09-11",
+  "generated_at": "2026-09-11T08:06:38.564117+00:00",
+  "editorial_thesis": "The useful frontier is becoming inspectable: composable runtimes, enforceable supply-chain policy, incident-shaped evaluation controls, and formal evidence make agent work easier to try without making trust implicit.",
+  "topic_groups": [
+    {
+      "slug": "agent-runtime-composition",
+      "title": "Agent Runtime Composition",
+      "selection_rationale": "Fresh September 10 runtime signal: managed agent loops, persistent sandboxes, regional placement, and current-web search now compose into a practical deployment surface.",
+      "sources": [
+        {
+          "title": "Build with OpenAI Agents API on Vercel",
+          "url": "https://vercel.com/changelog/build-with-openai-agents-api-on-vercel",
+          "source_type": "release",
+          "published_or_updated": "2026-09-10",
+          "why_selected": "It separates orchestration from execution and supports persistent workspaces with scale-to-zero behavior.",
+          "usefulness": "Prototype a dossier or client QA agent that returns files and evidence, with promotion owned by a separate review step."
+        },
+        {
+          "title": "Vercel Sandbox is now available in all regions",
+          "url": "https://vercel.com/changelog/vercel-sandbox-is-now-available-in-all-regions",
+          "source_type": "release",
+          "published_or_updated": "2026-09-10",
+          "why_selected": "Execution location becomes part of latency, residency, and resilience policy rather than a hidden default.",
+          "usefulness": "Add region and failover to a client agent architecture review checklist."
+        },
+        {
+          "title": "Tako Search is free on AI Gateway through September 30",
+          "url": "https://vercel.com/changelog/tako-search-is-free-on-ai-gateway-through-september-30th",
+          "source_type": "product",
+          "published_or_updated": "2026-09-10",
+          "why_selected": "Current research becomes a tool contract instead of a bespoke retrieval integration.",
+          "usefulness": "Use it for a bounded comparison of source freshness and citation completeness in daily ingest."
+        },
+        {
+          "title": "OpenAI Agents API sample application",
+          "url": "https://github.com/vercel-labs/openai-agents-api-vercel",
+          "source_type": "repo",
+          "published_or_updated": "2026-09-10",
+          "why_selected": "Reference code reduces the gap between architecture diagrams and a runnable pilot.",
+          "usefulness": "Mine the queue/reconnection pattern for scheduled jobs that must survive worker restarts."
+        }
+      ]
+    },
+    {
+      "slug": "software-supply-chain-controls",
+      "title": "Software Supply-Chain Controls",
+      "selection_rationale": "September 10 GitHub releases add programmatic AI security rollout, cache least privilege, and an immediate model deprecation; this is a concrete change-control lane after yesterday’s broader governed-operations coverage.",
+      "sources": [
+        {
+          "title": "AI Scan for pull request APIs",
+          "url": "https://github.blog/changelog/2026-09-10-ai-scan-for-pull-request-apis-in-public-preview/",
+          "source_type": "release",
+          "published_or_updated": "2026-09-10",
+          "why_selected": "Security posture can be rolled out selectively and repeatably instead of through manual UI changes.",
+          "usefulness": "Create a staged security-control rollout for generated patches across Buildn and client repositories."
+        },
+        {
+          "title": "Control GitHub Actions cache access with cache-mode",
+          "url": "https://github.blog/changelog/2026-09-10-control-github-actions-cache-access-with-cache-mode/",
+          "source_type": "improvement",
+          "published_or_updated": "2026-09-10",
+          "why_selected": "Cache poisoning becomes a permission design problem with explicit defaults and warnings.",
+          "usefulness": "Add cache-mode to agent-generated workflow templates and review it as part of CI hardening."
+        },
+        {
+          "title": "MAI-Code-1-Flash deprecated",
+          "url": "https://github.blog/changelog/2026-09-10-mai-code-1-flash-deprecated",
+          "source_type": "deprecation",
+          "published_or_updated": "2026-09-10",
+          "why_selected": "A model name in an agent workflow is a dependency with a retirement date, not a harmless string.",
+          "usefulness": "Maintain a model inventory with owners, alternatives, evaluation status, and migration dates."
+        },
+        {
+          "title": "AI Scan security detections documentation",
+          "url": "https://docs.github.com/code-security/concepts/code-scanning/ai-powered-security-detections",
+          "source_type": "docs",
+          "published_or_updated": "2026-09-10",
+          "why_selected": "Controls are only useful when teams know what is detected, where, and with which review path.",
+          "usefulness": "Turn detection coverage into a client-facing acceptance matrix rather than a generic “AI security” claim."
+        }
+      ]
+    },
+    {
+      "slug": "ai-misuse-and-evaluation-boundaries",
+      "title": "AI Misuse + Evaluation Boundaries",
+      "selection_rationale": "Anthropic’s September 10 threat report and its August incident follow-up add fresh evidence that autonomy, persistent memory, and evaluation misconfiguration must be governed together.",
+      "sources": [
+        {
+          "title": "Detecting and countering misuse of AI: September 2026",
+          "url": "https://www.anthropic.com/threat-intelligence-report-september-2026",
+          "source_type": "report",
+          "published_or_updated": "2026-09-10",
+          "why_selected": "It argues AI changes the economics and tempo of familiar abuse, with multi-agent workflows and persistent state increasing scale.",
+          "usefulness": "Use the report as input to a client tabletop covering identity theft, tool abuse, memory poisoning, and rapid re-deployment."
+        },
+        {
+          "title": "Improving our alignment and security efforts",
+          "url": "https://www.anthropic.com/news/improving-alignment-security-efforts",
+          "source_type": "postmortem",
+          "published_or_updated": "2026-08-31",
+          "why_selected": "It shows that sandbox assumptions, monitoring, prompt boundaries, and partner controls must fail independently, not as one brittle layer.",
+          "usefulness": "Build a preflight checklist for every Hermes or client evaluation that can reach a network, filesystem, or credential."
+        },
+        {
+          "title": "PentAGI reference in the threat report",
+          "url": "https://github.com/vxcontrol/pentagi",
+          "source_type": "repo",
+          "published_or_updated": "2026-09-10",
+          "why_selected": "Public orchestration lowers the expertise and labor required to compose reconnaissance and exploitation tasks.",
+          "usefulness": "Use it only as a defensive fixture for tool-boundary and detection testing in an isolated environment."
+        },
+        {
+          "title": "METR independent review reference",
+          "url": "https://www.anthropic.com/news/improving-alignment-security-efforts",
+          "source_type": "research",
+          "published_or_updated": "2026-08-31",
+          "why_selected": "External review is a useful pattern when the system owner also designed the evaluation environment.",
+          "usefulness": "For client pilots, separate builder, operator, and reviewer roles even when the pilot is small."
+        }
+      ]
+    },
+    {
+      "slug": "research-agents-and-formal-evidence",
+      "title": "Research Agents + Formal Evidence",
+      "selection_rationale": "A material update to recent accepted-work coverage: OpenAI’s September 8 Navier–Stokes report adds a formal Lean repository and a public correction/update trail, shifting the question from agent output to inspectable proof artifacts.",
+      "sources": [
+        {
+          "title": "On the Navier–Stokes Millennium Prize Problem",
+          "url": "https://openai.com/index/navier-stokes-solution/",
+          "source_type": "research",
+          "published_or_updated": "2026-09-08; updated 2026-09-10",
+          "why_selected": "The output is paired with formal verification and a public qualification boundary, making review more concrete than prose alone.",
+          "usefulness": "Use the pattern for evidence packs: raw output, executable check, human judgment, and a correction log."
+        },
+        {
+          "title": "Lean formalized proof and repository",
+          "url": "https://github.com/openai/NavierStokesAndEuler",
+          "source_type": "repo",
+          "published_or_updated": "2026-09-08",
+          "why_selected": "Executable checking creates a stronger handoff than a static narrative, even when the result remains under review.",
+          "usefulness": "For client analyses, attach runnable validators, source snapshots, and environment versions where feasible."
+        },
+        {
+          "title": "Research acceleration: the view inside OpenAI",
+          "url": "https://openai.com/index/research-acceleration-view-inside-openai/",
+          "source_type": "report",
+          "published_or_updated": "2026-09-06",
+          "why_selected": "It frames agent leverage around accepted experiments and decisions, not token count alone.",
+          "usefulness": "Track accepted artifacts, reviewer time, retry cost, and correction rate in Buildn work."
+        },
+        {
+          "title": "OpenAI Navier–Stokes paper PDF",
+          "url": "https://cdn.openai.com/pdf/32d9f210-8b73-45e0-91bc-82a30aef8a9a/navier-stokes.pdf",
+          "source_type": "paper",
+          "published_or_updated": "2026-09-08",
+          "why_selected": "A dossier should distinguish the announcement from the underlying evidence and preserve both links.",
+          "usefulness": "Use source-level linking to keep summaries auditable and easy to revisit."
+        }
+      ]
+    }
+  ]
+}
