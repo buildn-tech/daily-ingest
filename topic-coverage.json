@@ -883,6 +883,21 @@
       "times_covered": 1,
       "last_covered": "2026-09-11",
       "count": 1
+    },
+    "agentic-platforms-and-data": {
+      "title": "Agentic Platforms + Governed Data Work",
+      "times_covered": 1,
+      "last_covered": "2026-09-12"
+    },
+    "agent-identity-and-egress": {
+      "title": "Agent Identity + Egress Boundaries",
+      "times_covered": 1,
+      "last_covered": "2026-09-12"
+    },
+    "agent-delivery-measurement": {
+      "title": "Agent Delivery + Adoption Measurement",
+      "times_covered": 1,
+      "last_covered": "2026-09-12"
     }
   },
   "item_history": [
@@ -2824,11 +2839,119 @@
         "research-agents-and-formal-evidence"
       ],
       "editorial_thesis": "The useful frontier is becoming inspectable: composable runtimes, enforceable supply-chain policy, incident-shaped evaluation controls, and formal evidence make agent work easier to try without making trust implicit."
+    },
+    {
+      "date": "2026-09-12",
+      "topic_groups": [
+        {
+          "slug": "agentic-platforms-and-data",
+          "title": "Agentic Platforms + Governed Data Work",
+          "selection_rationale": "Fresh September 10–11 product signal makes long-running agents, governed data analysis, and evidence-producing software tests more concrete than another model announcement.",
+          "items": [
+            {
+              "title": "OpenAI Agents API",
+              "url": "https://openai.com/index/introducing-the-agents-api/",
+              "source_type": "runtime",
+              "published_or_updated": "2026-09-10"
+            },
+            {
+              "title": "Data agent in ChatGPT Work",
+              "url": "https://openai.com/index/put-data-to-work/",
+              "source_type": "analytics",
+              "published_or_updated": "2026-09-10"
+            },
+            {
+              "title": "Devin tests its own work with GPT-6 Astra",
+              "url": "https://openai.com/index/cognition-devin-testing-with-astra/",
+              "source_type": "case study",
+              "published_or_updated": "2026-09-11"
+            },
+            {
+              "title": "Cloudflare’s agentic-cloud stack",
+              "url": "https://blog.cloudflare.com/agents-week-in-review/",
+              "source_type": "infrastructure",
+              "published_or_updated": "2026-04-13–17; surfaced in current platform coverage"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-12",
+      "topic_groups": [
+        {
+          "slug": "agent-identity-and-egress",
+          "title": "Agent Identity + Egress Boundaries",
+          "selection_rationale": "A coverage gap remains around the identity and network mechanics that make agent action attributable. Current Cloudflare releases provide concrete patterns for user-delegated OAuth, private access, and dynamic outbound policy.",
+          "items": [
+            {
+              "title": "Managed OAuth for Access",
+              "url": "https://blog.cloudflare.com/managed-oauth-for-access/",
+              "source_type": "security",
+              "published_or_updated": "2026-04-14; current relevance"
+            },
+            {
+              "title": "Cloudflare Mesh",
+              "url": "https://blog.cloudflare.com/mesh/",
+              "source_type": "network",
+              "published_or_updated": "2026-04-14; current relevance"
+            },
+            {
+              "title": "Identity-aware Sandbox egress",
+              "url": "https://blog.cloudflare.com/sandbox-auth/",
+              "source_type": "execution",
+              "published_or_updated": "2026-04-13; current relevance"
+            },
+            {
+              "title": "Agent Memory with exportability",
+              "url": "https://blog.cloudflare.com/introducing-agent-memory/",
+              "source_type": "memory",
+              "published_or_updated": "2026-04-17; current relevance"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-12",
+      "topic_groups": [
+        {
+          "slug": "agent-delivery-measurement",
+          "title": "Agent Delivery + Adoption Measurement",
+          "selection_rationale": "Fresh GitHub changes make two neglected operational surfaces measurable: review quality can use deeper checks and ensembles, while agent adoption can be observed through dedicated usage metrics.",
+          "items": [
+            {
+              "title": "Copilot code review: deeper analysis + ensembles",
+              "url": "https://github.blog/changelog/2026-09-11-auto-resolution-and-analysis-updates-in-copilot-code-review/",
+              "source_type": "delivery",
+              "published_or_updated": "2026-09-11"
+            },
+            {
+              "title": "Auto-resolution keeps the review queue meaningful",
+              "url": "https://github.blog/changelog/2026-09-11-auto-resolution-and-analysis-updates-in-copilot-code-review/",
+              "source_type": "collaboration",
+              "published_or_updated": "2026-09-11"
+            },
+            {
+              "title": "VS Code Agents enter Copilot usage metrics",
+              "url": "https://github.blog/changelog/2026-09-11-add-vs-code-agents-to-copilot-usage-metrics/",
+              "source_type": "measurement",
+              "published_or_updated": "2026-09-11"
+            },
+            {
+              "title": "The durable metric: accepted work",
+              "url": "https://github.blog/changelog/2026-09-11-add-vs-code-agents-to-copilot-usage-metrics/",
+              "source_type": "operator playbook",
+              "published_or_updated": "2026-09-12"
+            }
+          ]
+        }
+      ]
     }
   ],
-  "updated_at": "2026-09-11T08:07:00.880788+00:00",
-  "last_run": "2026-09-01",
-  "last_editorial_thesis": "The most useful frontier signal today is moving from autonomous demos to bounded systems: redact sensitive inputs, isolate generated actions, evaluate recovery, and require scoped authorization for spend.",
+  "updated_at": "2026-09-12T08:05:03.637967+00:00",
+  "last_run": "2026-09-12",
+  "last_editorial_thesis": "More capable agents become usable when runtime, authority, evidence, and adoption are designed as one loop.",
   "coverage_history": [
     {
       "date": "2026-07-28",
@@ -4056,6 +4179,102 @@
       "published_or_updated": "2026-09-01 or earlier",
       "why_selected": "A seller-facing stack for making products discoverable and purchasable through AI agents.",
       "usefulness": "Audit a client catalog for agent-readable product data and bounded offers."
+    },
+    {
+      "date": "2026-09-12",
+      "topic": "agentic-platforms-and-data",
+      "title": "OpenAI Agents API",
+      "url": "https://openai.com/index/introducing-the-agents-api/",
+      "source_type": "runtime",
+      "rationale": "Fresh September 10–11 product signal makes long-running agents, governed data analysis, and evidence-producing software tests more concrete than another model announcement."
+    },
+    {
+      "date": "2026-09-12",
+      "topic": "agentic-platforms-and-data",
+      "title": "Data agent in ChatGPT Work",
+      "url": "https://openai.com/index/put-data-to-work/",
+      "source_type": "analytics",
+      "rationale": "Fresh September 10–11 product signal makes long-running agents, governed data analysis, and evidence-producing software tests more concrete than another model announcement."
+    },
+    {
+      "date": "2026-09-12",
+      "topic": "agentic-platforms-and-data",
+      "title": "Devin tests its own work with GPT-6 Astra",
+      "url": "https://openai.com/index/cognition-devin-testing-with-astra/",
+      "source_type": "case study",
+      "rationale": "Fresh September 10–11 product signal makes long-running agents, governed data analysis, and evidence-producing software tests more concrete than another model announcement."
+    },
+    {
+      "date": "2026-09-12",
+      "topic": "agentic-platforms-and-data",
+      "title": "Cloudflare’s agentic-cloud stack",
+      "url": "https://blog.cloudflare.com/agents-week-in-review/",
+      "source_type": "infrastructure",
+      "rationale": "Fresh September 10–11 product signal makes long-running agents, governed data analysis, and evidence-producing software tests more concrete than another model announcement."
+    },
+    {
+      "date": "2026-09-12",
+      "topic": "agent-identity-and-egress",
+      "title": "Managed OAuth for Access",
+      "url": "https://blog.cloudflare.com/managed-oauth-for-access/",
+      "source_type": "security",
+      "rationale": "A coverage gap remains around the identity and network mechanics that make agent action attributable. Current Cloudflare releases provide concrete patterns for user-delegated OAuth, private access, and dynamic outbound policy."
+    },
+    {
+      "date": "2026-09-12",
+      "topic": "agent-identity-and-egress",
+      "title": "Cloudflare Mesh",
+      "url": "https://blog.cloudflare.com/mesh/",
+      "source_type": "network",
+      "rationale": "A coverage gap remains around the identity and network mechanics that make agent action attributable. Current Cloudflare releases provide concrete patterns for user-delegated OAuth, private access, and dynamic outbound policy."
+    },
+    {
+      "date": "2026-09-12",
+      "topic": "agent-identity-and-egress",
+      "title": "Identity-aware Sandbox egress",
+      "url": "https://blog.cloudflare.com/sandbox-auth/",
+      "source_type": "execution",
+      "rationale": "A coverage gap remains around the identity and network mechanics that make agent action attributable. Current Cloudflare releases provide concrete patterns for user-delegated OAuth, private access, and dynamic outbound policy."
+    },
+    {
+      "date": "2026-09-12",
+      "topic": "agent-identity-and-egress",
+      "title": "Agent Memory with exportability",
+      "url": "https://blog.cloudflare.com/introducing-agent-memory/",
+      "source_type": "memory",
+      "rationale": "A coverage gap remains around the identity and network mechanics that make agent action attributable. Current Cloudflare releases provide concrete patterns for user-delegated OAuth, private access, and dynamic outbound policy."
+    },
+    {
+      "date": "2026-09-12",
+      "topic": "agent-delivery-measurement",
+      "title": "Copilot code review: deeper analysis + ensembles",
+      "url": "https://github.blog/changelog/2026-09-11-auto-resolution-and-analysis-updates-in-copilot-code-review/",
+      "source_type": "delivery",
+      "rationale": "Fresh GitHub changes make two neglected operational surfaces measurable: review quality can use deeper checks and ensembles, while agent adoption can be observed through dedicated usage metrics."
+    },
+    {
+      "date": "2026-09-12",
+      "topic": "agent-delivery-measurement",
+      "title": "Auto-resolution keeps the review queue meaningful",
+      "url": "https://github.blog/changelog/2026-09-11-auto-resolution-and-analysis-updates-in-copilot-code-review/",
+      "source_type": "collaboration",
+      "rationale": "Fresh GitHub changes make two neglected operational surfaces measurable: review quality can use deeper checks and ensembles, while agent adoption can be observed through dedicated usage metrics."
+    },
+    {
+      "date": "2026-09-12",
+      "topic": "agent-delivery-measurement",
+      "title": "VS Code Agents enter Copilot usage metrics",
+      "url": "https://github.blog/changelog/2026-09-11-add-vs-code-agents-to-copilot-usage-metrics/",
+      "source_type": "measurement",
+      "rationale": "Fresh GitHub changes make two neglected operational surfaces measurable: review quality can use deeper checks and ensembles, while agent adoption can be observed through dedicated usage metrics."
+    },
+    {
+      "date": "2026-09-12",
+      "topic": "agent-delivery-measurement",
+      "title": "The durable metric: accepted work",
+      "url": "https://github.blog/changelog/2026-09-11-add-vs-code-agents-to-copilot-usage-metrics/",
+      "source_type": "operator playbook",
+      "rationale": "Fresh GitHub changes make two neglected operational surfaces measurable: review quality can use deeper checks and ensembles, while agent adoption can be observed through dedicated usage metrics."
     }
   ],
   "last_run_selection": [
@@ -6104,6 +6323,39 @@
         }
       ],
       "selection_rationale": "Fresh primary-source signal; rotated toward privacy infrastructure, runtime enforcement, same-day embodied-AI research, and scoped agentic commerce."
+    },
+    {
+      "date": "2026-09-12",
+      "slug": "agentic-platforms-and-data",
+      "title": "Agentic Platforms + Governed Data Work",
+      "items": [
+        "OpenAI Agents API",
+        "Data agent in ChatGPT Work",
+        "Devin tests its own work with GPT-6 Astra",
+        "Cloudflare’s agentic-cloud stack"
+      ]
+    },
+    {
+      "date": "2026-09-12",
+      "slug": "agent-identity-and-egress",
+      "title": "Agent Identity + Egress Boundaries",
+      "items": [
+        "Managed OAuth for Access",
+        "Cloudflare Mesh",
+        "Identity-aware Sandbox egress",
+        "Agent Memory with exportability"
+      ]
+    },
+    {
+      "date": "2026-09-12",
+      "slug": "agent-delivery-measurement",
+      "title": "Agent Delivery + Adoption Measurement",
+      "items": [
+        "Copilot code review: deeper analysis + ensembles",
+        "Auto-resolution keeps the review queue meaningful",
+        "VS Code Agents enter Copilot usage metrics",
+        "The durable metric: accepted work"
+      ]
     }
   ],
   "themes": {
@@ -6168,16 +6420,7 @@
       "last_covered": "2026-09-08"
     }
   },
-  "last_successful_run": {
-    "date": "2026-09-08",
-    "selected_lanes": [
-      "agent-native-web-and-devtools",
-      "agent-identity-and-incident-sharing",
-      "physical-ai-agent-skills",
-      "research-agents-and-accepted-work"
-    ],
-    "item_count": 20
-  },
+  "last_successful_run": "2026-09-12",
   "history": [
     {
       "date": "2026-09-07",
