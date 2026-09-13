@@ -898,6 +898,26 @@
       "title": "Agent Delivery + Adoption Measurement",
       "times_covered": 1,
       "last_covered": "2026-09-12"
+    },
+    "agent-native-web-and-runtime": {
+      "title": "Agent-Native Web + Runtime",
+      "times_covered": 1,
+      "last_covered": "2026-09-13"
+    },
+    "developer-workflow-portability": {
+      "title": "Developer Workflow Portability",
+      "times_covered": 1,
+      "last_covered": "2026-09-13"
+    },
+    "agent-research-and-memory": {
+      "title": "Agent Research + Memory",
+      "times_covered": 1,
+      "last_covered": "2026-09-13"
+    },
+    "privacy-first-mobile-and-edge": {
+      "title": "Privacy-First Mobile + Edge",
+      "times_covered": 1,
+      "last_covered": "2026-09-13"
     }
   },
   "item_history": [
@@ -1781,6 +1801,134 @@
       "url": "https://cdn.openai.com/pdf/32d9f210-8b73-45e0-91bc-82a30aef8a9a/navier-stokes.pdf",
       "source_type": "paper",
       "rationale": "A dossier should distinguish the announcement from the underlying evidence and preserve both links."
+    },
+    {
+      "date": "2026-09-13",
+      "topic": "agent-native-web-and-runtime",
+      "title": "Cloudflare Agent Readiness score",
+      "url": "https://blog.cloudflare.com/agent-readiness/",
+      "source_type": "blog",
+      "rationale": "Use it as a Buildn/client preflight: score a public surface, then fix the highest-friction missing affordance instead of guessing what agents need."
+    },
+    {
+      "date": "2026-09-13",
+      "topic": "agent-native-web-and-runtime",
+      "title": "WebMCP developer preview",
+      "url": "https://blog.cloudflare.com/tag/agents-week/",
+      "source_type": "blog",
+      "rationale": "Prototype a report or intake flow that exposes safe, typed actions rather than asking a browser agent to infer UI clicks."
+    },
+    {
+      "date": "2026-09-13",
+      "topic": "agent-native-web-and-runtime",
+      "title": "MCP v2 stateless core",
+      "url": "https://blog.cloudflare.com/tag/mcp/",
+      "source_type": "blog",
+      "rationale": "Useful for portable client integrations where session affinity is a liability and tool calls need explicit state in payloads."
+    },
+    {
+      "date": "2026-09-13",
+      "topic": "agent-native-web-and-runtime",
+      "title": "Dynamic Workers sandboxing",
+      "url": "https://blog.cloudflare.com/dynamic-workers/",
+      "source_type": "blog",
+      "rationale": "A strong reference architecture for client automations: promote artifacts, cap egress, and discard mutable runtime state."
+    },
+    {
+      "date": "2026-09-13",
+      "topic": "developer-workflow-portability",
+      "title": "Visual Studio 2026 BYOK",
+      "url": "https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes",
+      "source_type": "docs",
+      "rationale": "A useful client pattern for sensitive work: preserve the editor workflow while routing data to an approved provider or local model."
+    },
+    {
+      "date": "2026-09-13",
+      "topic": "developer-workflow-portability",
+      "title": "VS Code agent usage metrics",
+      "url": "https://github.blog/changelog/2026-09-11-add-vs-code-agents-to-copilot-usage-metrics",
+      "source_type": "docs",
+      "rationale": "Connect usage to accepted pull requests, review time, and rework; avoid counting prompts as productivity."
+    },
+    {
+      "date": "2026-09-13",
+      "topic": "developer-workflow-portability",
+      "title": "Actions cache-mode controls",
+      "url": "https://github.blog/changelog/2026-09-10-control-github-actions-cache-access-with-cache-mode",
+      "source_type": "docs",
+      "rationale": "Use as a concrete checklist item for agent-generated CI changes: caches can contain secrets and should follow least privilege."
+    },
+    {
+      "date": "2026-09-13",
+      "topic": "developer-workflow-portability",
+      "title": "MAI-Code-1-Flash deprecation",
+      "url": "https://github.blog/changelog/2026-09-10-mai-code-1-flash-deprecated",
+      "source_type": "docs",
+      "rationale": "Build model-change notices, fallback routing, and regression tasks into agent workflows."
+    },
+    {
+      "date": "2026-09-13",
+      "topic": "agent-research-and-memory",
+      "title": "Memory Compression for High-Fanout Agent Sandboxes",
+      "url": "https://arxiv.org/list/cs.AI/recent",
+      "source_type": "paper",
+      "rationale": "The idea maps to long-running client workflows where every branch should not carry the entire transcript or artifact set."
+    },
+    {
+      "date": "2026-09-13",
+      "topic": "agent-research-and-memory",
+      "title": "Defining AI Agents: criteria and benchmarks",
+      "url": "https://arxiv.org/html/2609.11018v1",
+      "source_type": "paper",
+      "rationale": "Use its vocabulary to separate “agent” marketing from an actual capability contract in Buildn specs."
+    },
+    {
+      "date": "2026-09-13",
+      "topic": "agent-research-and-memory",
+      "title": "Memory in the Age of AI Agents",
+      "url": "https://arxiv.org/abs/2512.13564",
+      "source_type": "paper",
+      "rationale": "It offers a useful taxonomy for deciding what should be durable, editable, cited, or discarded in personal and client knowledge systems."
+    },
+    {
+      "date": "2026-09-13",
+      "topic": "agent-research-and-memory",
+      "title": "ResearchGym",
+      "url": "https://arxiv.org/html/2602.15112v2",
+      "source_type": "paper",
+      "rationale": "A good pattern for evidence-first client research: constrain budget, preserve artifacts, and evaluate task completion rather than eloquence."
+    },
+    {
+      "date": "2026-09-13",
+      "topic": "privacy-first-mobile-and-edge",
+      "title": "September Android Drop",
+      "url": "https://blog.google/products-and-platforms/platforms/android/android-drop-september-2026/",
+      "source_type": "blog",
+      "rationale": "It is a consumer-scale signal that contextual assistance wins when tied to a narrow, visible job."
+    },
+    {
+      "date": "2026-09-13",
+      "topic": "privacy-first-mobile-and-edge",
+      "title": "Gemma offline deployment direction",
+      "url": "https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026/",
+      "source_type": "blog",
+      "rationale": "This supports a Buildn principle: reserve local models for classification, routing, and private enrichment where latency and data control matter."
+    },
+    {
+      "date": "2026-09-13",
+      "topic": "privacy-first-mobile-and-edge",
+      "title": "Firefox AI on your terms",
+      "url": "https://blog.mozilla.org/en/firefox/firefox-ai-on-your-terms/",
+      "source_type": "blog",
+      "rationale": "A useful product posture for client-facing tools: make provider, memory, and permission choices legible."
+    },
+    {
+      "date": "2026-09-13",
+      "topic": "privacy-first-mobile-and-edge",
+      "title": "Local-first software principles",
+      "url": "https://www.inkandswitch.com/essay/local-first",
+      "source_type": "docs",
+      "rationale": "Use it to evaluate whether an agent feature should degrade gracefully when network, provider, or account access disappears."
     }
   ],
   "runs": [
@@ -2947,11 +3095,172 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2026-09-13",
+      "topic_groups": [
+        {
+          "slug": "agent-native-web-and-runtime",
+          "title": "Agent-Native Web + Runtime",
+          "selection_rationale": "Fresh Cloudflare agents-week material turns agent readiness, WebMCP, stateless MCP, and sandboxed code execution into a coherent platform lane; it extends rather than repeats the prior access-control coverage.",
+          "sources": [
+            {
+              "title": "Cloudflare Agent Readiness score",
+              "url": "https://blog.cloudflare.com/agent-readiness/",
+              "source_type": "blog",
+              "published_or_updated": "2026-09-10 to 2026-09-13",
+              "why_selected": "Use it as a Buildn/client preflight: score a public surface, then fix the highest-friction missing affordance instead of guessing what agents need.",
+              "usefulness": "The score is a heuristic, not evidence that an agent can complete a task end to end."
+            },
+            {
+              "title": "WebMCP developer preview",
+              "url": "https://blog.cloudflare.com/tag/agents-week/",
+              "source_type": "blog",
+              "published_or_updated": "2026-09-10 to 2026-09-13",
+              "why_selected": "Prototype a report or intake flow that exposes safe, typed actions rather than asking a browser agent to infer UI clicks.",
+              "usefulness": "Preview standards may shift; keep a thin adapter and explicit human confirmation."
+            },
+            {
+              "title": "MCP v2 stateless core",
+              "url": "https://blog.cloudflare.com/tag/mcp/",
+              "source_type": "blog",
+              "published_or_updated": "2026-09-10 to 2026-09-13",
+              "why_selected": "Useful for portable client integrations where session affinity is a liability and tool calls need explicit state in payloads.",
+              "usefulness": "Statelessness moves context design into the application; it does not remove state, it makes it visible."
+            },
+            {
+              "title": "Dynamic Workers sandboxing",
+              "url": "https://blog.cloudflare.com/dynamic-workers/",
+              "source_type": "blog",
+              "published_or_updated": "2026-09-10 to 2026-09-13",
+              "why_selected": "A strong reference architecture for client automations: promote artifacts, cap egress, and discard mutable runtime state.",
+              "usefulness": "Sandbox boundaries, quotas, and dependency supply chain still need independent tests."
+            }
+          ]
+        },
+        {
+          "slug": "developer-workflow-portability",
+          "title": "Developer Workflow Portability",
+          "selection_rationale": "Visual Studio 2026 and GitHub’s September changes create a practical lane around BYOK, model/provider portability, agent telemetry, and repository safety—not another generic coding-assistant roundup.",
+          "sources": [
+            {
+              "title": "Visual Studio 2026 BYOK",
+              "url": "https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes",
+              "source_type": "docs",
+              "published_or_updated": "2026-09-10 to 2026-09-13",
+              "why_selected": "A useful client pattern for sensitive work: preserve the editor workflow while routing data to an approved provider or local model.",
+              "usefulness": "Endpoint compatibility and enterprise policy are operational work, not a checkbox."
+            },
+            {
+              "title": "VS Code agent usage metrics",
+              "url": "https://github.blog/changelog/2026-09-11-add-vs-code-agents-to-copilot-usage-metrics",
+              "source_type": "docs",
+              "published_or_updated": "2026-09-10 to 2026-09-13",
+              "why_selected": "Connect usage to accepted pull requests, review time, and rework; avoid counting prompts as productivity.",
+              "usefulness": "Vendor metrics are directional and may not capture quality or local tools."
+            },
+            {
+              "title": "Actions cache-mode controls",
+              "url": "https://github.blog/changelog/2026-09-10-control-github-actions-cache-access-with-cache-mode",
+              "source_type": "docs",
+              "published_or_updated": "2026-09-10 to 2026-09-13",
+              "why_selected": "Use as a concrete checklist item for agent-generated CI changes: caches can contain secrets and should follow least privilege.",
+              "usefulness": "Cache policy is only one layer; review workflow permissions and untrusted forks too."
+            },
+            {
+              "title": "MAI-Code-1-Flash deprecation",
+              "url": "https://github.blog/changelog/2026-09-10-mai-code-1-flash-deprecated",
+              "source_type": "docs",
+              "published_or_updated": "2026-09-10 to 2026-09-13",
+              "why_selected": "Build model-change notices, fallback routing, and regression tasks into agent workflows.",
+              "usefulness": "A replacement may change latency, behavior, and cost even when the label looks similar."
+            }
+          ]
+        },
+        {
+          "slug": "agent-research-and-memory",
+          "title": "Agent Research + Memory",
+          "selection_rationale": "The September 11 arXiv stream exposes a neglected research lane: memory compression, temporal coherence, and criteria for defining agents. It complements recent research dossiers without repeating the prior formal-proof focus.",
+          "sources": [
+            {
+              "title": "Memory Compression for High-Fanout Agent Sandboxes",
+              "url": "https://arxiv.org/list/cs.AI/recent",
+              "source_type": "paper",
+              "published_or_updated": "2026-09-10 to 2026-09-13",
+              "why_selected": "The idea maps to long-running client workflows where every branch should not carry the entire transcript or artifact set.",
+              "usefulness": "A title in the recent-submissions list is an early signal; inspect the paper before adopting its claims."
+            },
+            {
+              "title": "Defining AI Agents: criteria and benchmarks",
+              "url": "https://arxiv.org/html/2609.11018v1",
+              "source_type": "paper",
+              "published_or_updated": "2026-09-10 to 2026-09-13",
+              "why_selected": "Use its vocabulary to separate “agent” marketing from an actual capability contract in Buildn specs.",
+              "usefulness": "Compendia are framing tools, not production validation."
+            },
+            {
+              "title": "Memory in the Age of AI Agents",
+              "url": "https://arxiv.org/abs/2512.13564",
+              "source_type": "paper",
+              "published_or_updated": "2026-09-10 to 2026-09-13",
+              "why_selected": "It offers a useful taxonomy for deciding what should be durable, editable, cited, or discarded in personal and client knowledge systems.",
+              "usefulness": "The survey is broad; implementation choices still require domain-specific tests."
+            },
+            {
+              "title": "ResearchGym",
+              "url": "https://arxiv.org/html/2602.15112v2",
+              "source_type": "paper",
+              "published_or_updated": "2026-09-10 to 2026-09-13",
+              "why_selected": "A good pattern for evidence-first client research: constrain budget, preserve artifacts, and evaluate task completion rather than eloquence.",
+              "usefulness": "Research benchmarks can overfit tool interfaces and may not reflect live client ambiguity."
+            }
+          ]
+        },
+        {
+          "slug": "privacy-first-mobile-and-edge",
+          "title": "Privacy-First Mobile + Edge",
+          "selection_rationale": "Google’s September Android Drop and the longer-running local/edge thread create a practical personal-leverage lane: useful on-device context without defaulting every task to a cloud transcript.",
+          "sources": [
+            {
+              "title": "September Android Drop",
+              "url": "https://blog.google/products-and-platforms/platforms/android/android-drop-september-2026/",
+              "source_type": "blog",
+              "published_or_updated": "2026-09-10 to 2026-09-13",
+              "why_selected": "It is a consumer-scale signal that contextual assistance wins when tied to a narrow, visible job.",
+              "usefulness": "Availability varies by device, region, language, and account settings."
+            },
+            {
+              "title": "Gemma offline deployment direction",
+              "url": "https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026/",
+              "source_type": "blog",
+              "published_or_updated": "2026-09-10 to 2026-09-13",
+              "why_selected": "This supports a Buildn principle: reserve local models for classification, routing, and private enrichment where latency and data control matter.",
+              "usefulness": "Local inference still has hardware, update, and quality costs."
+            },
+            {
+              "title": "Firefox AI on your terms",
+              "url": "https://blog.mozilla.org/en/firefox/firefox-ai-on-your-terms/",
+              "source_type": "blog",
+              "published_or_updated": "2026-09-10 to 2026-09-13",
+              "why_selected": "A useful product posture for client-facing tools: make provider, memory, and permission choices legible.",
+              "usefulness": "Positioning claims need testing against actual data flows and defaults."
+            },
+            {
+              "title": "Local-first software principles",
+              "url": "https://www.inkandswitch.com/essay/local-first",
+              "source_type": "docs",
+              "published_or_updated": "2026-09-10 to 2026-09-13",
+              "why_selected": "Use it to evaluate whether an agent feature should degrade gracefully when network, provider, or account access disappears.",
+              "usefulness": "Local-first increases sync and conflict complexity; it is a design commitment."
+            }
+          ]
+        }
+      ]
     }
   ],
-  "updated_at": "2026-09-12T08:05:03.637967+00:00",
-  "last_run": "2026-09-12",
-  "last_editorial_thesis": "More capable agents become usable when runtime, authority, evidence, and adoption are designed as one loop.",
+  "updated_at": "2026-09-13T08:00:46+00:00",
+  "last_run": "2026-09-13",
+  "last_editorial_thesis": "Build the interface, runtime boundary, portability layer, and consent model together—or the agent will be useful only in a demo.",
   "coverage_history": [
     {
       "date": "2026-07-28",
@@ -3425,6 +3734,146 @@
         }
       ],
       "selection_rationale": "Fresh primary-source signal; rotated toward privacy infrastructure, runtime enforcement, same-day embodied-AI research, and scoped agentic commerce."
+    },
+    {
+      "date": "2026-09-13",
+      "selected_lanes": [
+        "agent-native-web-and-runtime",
+        "developer-workflow-portability",
+        "agent-research-and-memory",
+        "privacy-first-mobile-and-edge"
+      ],
+      "items": [
+        {
+          "title": "Cloudflare Agent Readiness score",
+          "url": "https://blog.cloudflare.com/agent-readiness/",
+          "source_type": "blog",
+          "published_or_updated": "2026-09-10 to 2026-09-13",
+          "why_selected": "Use it as a Buildn/client preflight: score a public surface, then fix the highest-friction missing affordance instead of guessing what agents need.",
+          "usefulness": "The score is a heuristic, not evidence that an agent can complete a task end to end."
+        },
+        {
+          "title": "WebMCP developer preview",
+          "url": "https://blog.cloudflare.com/tag/agents-week/",
+          "source_type": "blog",
+          "published_or_updated": "2026-09-10 to 2026-09-13",
+          "why_selected": "Prototype a report or intake flow that exposes safe, typed actions rather than asking a browser agent to infer UI clicks.",
+          "usefulness": "Preview standards may shift; keep a thin adapter and explicit human confirmation."
+        },
+        {
+          "title": "MCP v2 stateless core",
+          "url": "https://blog.cloudflare.com/tag/mcp/",
+          "source_type": "blog",
+          "published_or_updated": "2026-09-10 to 2026-09-13",
+          "why_selected": "Useful for portable client integrations where session affinity is a liability and tool calls need explicit state in payloads.",
+          "usefulness": "Statelessness moves context design into the application; it does not remove state, it makes it visible."
+        },
+        {
+          "title": "Dynamic Workers sandboxing",
+          "url": "https://blog.cloudflare.com/dynamic-workers/",
+          "source_type": "blog",
+          "published_or_updated": "2026-09-10 to 2026-09-13",
+          "why_selected": "A strong reference architecture for client automations: promote artifacts, cap egress, and discard mutable runtime state.",
+          "usefulness": "Sandbox boundaries, quotas, and dependency supply chain still need independent tests."
+        },
+        {
+          "title": "Visual Studio 2026 BYOK",
+          "url": "https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes",
+          "source_type": "docs",
+          "published_or_updated": "2026-09-10 to 2026-09-13",
+          "why_selected": "A useful client pattern for sensitive work: preserve the editor workflow while routing data to an approved provider or local model.",
+          "usefulness": "Endpoint compatibility and enterprise policy are operational work, not a checkbox."
+        },
+        {
+          "title": "VS Code agent usage metrics",
+          "url": "https://github.blog/changelog/2026-09-11-add-vs-code-agents-to-copilot-usage-metrics",
+          "source_type": "docs",
+          "published_or_updated": "2026-09-10 to 2026-09-13",
+          "why_selected": "Connect usage to accepted pull requests, review time, and rework; avoid counting prompts as productivity.",
+          "usefulness": "Vendor metrics are directional and may not capture quality or local tools."
+        },
+        {
+          "title": "Actions cache-mode controls",
+          "url": "https://github.blog/changelog/2026-09-10-control-github-actions-cache-access-with-cache-mode",
+          "source_type": "docs",
+          "published_or_updated": "2026-09-10 to 2026-09-13",
+          "why_selected": "Use as a concrete checklist item for agent-generated CI changes: caches can contain secrets and should follow least privilege.",
+          "usefulness": "Cache policy is only one layer; review workflow permissions and untrusted forks too."
+        },
+        {
+          "title": "MAI-Code-1-Flash deprecation",
+          "url": "https://github.blog/changelog/2026-09-10-mai-code-1-flash-deprecated",
+          "source_type": "docs",
+          "published_or_updated": "2026-09-10 to 2026-09-13",
+          "why_selected": "Build model-change notices, fallback routing, and regression tasks into agent workflows.",
+          "usefulness": "A replacement may change latency, behavior, and cost even when the label looks similar."
+        },
+        {
+          "title": "Memory Compression for High-Fanout Agent Sandboxes",
+          "url": "https://arxiv.org/list/cs.AI/recent",
+          "source_type": "paper",
+          "published_or_updated": "2026-09-10 to 2026-09-13",
+          "why_selected": "The idea maps to long-running client workflows where every branch should not carry the entire transcript or artifact set.",
+          "usefulness": "A title in the recent-submissions list is an early signal; inspect the paper before adopting its claims."
+        },
+        {
+          "title": "Defining AI Agents: criteria and benchmarks",
+          "url": "https://arxiv.org/html/2609.11018v1",
+          "source_type": "paper",
+          "published_or_updated": "2026-09-10 to 2026-09-13",
+          "why_selected": "Use its vocabulary to separate “agent” marketing from an actual capability contract in Buildn specs.",
+          "usefulness": "Compendia are framing tools, not production validation."
+        },
+        {
+          "title": "Memory in the Age of AI Agents",
+          "url": "https://arxiv.org/abs/2512.13564",
+          "source_type": "paper",
+          "published_or_updated": "2026-09-10 to 2026-09-13",
+          "why_selected": "It offers a useful taxonomy for deciding what should be durable, editable, cited, or discarded in personal and client knowledge systems.",
+          "usefulness": "The survey is broad; implementation choices still require domain-specific tests."
+        },
+        {
+          "title": "ResearchGym",
+          "url": "https://arxiv.org/html/2602.15112v2",
+          "source_type": "paper",
+          "published_or_updated": "2026-09-10 to 2026-09-13",
+          "why_selected": "A good pattern for evidence-first client research: constrain budget, preserve artifacts, and evaluate task completion rather than eloquence.",
+          "usefulness": "Research benchmarks can overfit tool interfaces and may not reflect live client ambiguity."
+        },
+        {
+          "title": "September Android Drop",
+          "url": "https://blog.google/products-and-platforms/platforms/android/android-drop-september-2026/",
+          "source_type": "blog",
+          "published_or_updated": "2026-09-10 to 2026-09-13",
+          "why_selected": "It is a consumer-scale signal that contextual assistance wins when tied to a narrow, visible job.",
+          "usefulness": "Availability varies by device, region, language, and account settings."
+        },
+        {
+          "title": "Gemma offline deployment direction",
+          "url": "https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026/",
+          "source_type": "blog",
+          "published_or_updated": "2026-09-10 to 2026-09-13",
+          "why_selected": "This supports a Buildn principle: reserve local models for classification, routing, and private enrichment where latency and data control matter.",
+          "usefulness": "Local inference still has hardware, update, and quality costs."
+        },
+        {
+          "title": "Firefox AI on your terms",
+          "url": "https://blog.mozilla.org/en/firefox/firefox-ai-on-your-terms/",
+          "source_type": "blog",
+          "published_or_updated": "2026-09-10 to 2026-09-13",
+          "why_selected": "A useful product posture for client-facing tools: make provider, memory, and permission choices legible.",
+          "usefulness": "Positioning claims need testing against actual data flows and defaults."
+        },
+        {
+          "title": "Local-first software principles",
+          "url": "https://www.inkandswitch.com/essay/local-first",
+          "source_type": "docs",
+          "published_or_updated": "2026-09-10 to 2026-09-13",
+          "why_selected": "Use it to evaluate whether an agent feature should degrade gracefully when network, provider, or account access disappears.",
+          "usefulness": "Local-first increases sync and conflict complexity; it is a design commitment."
+        }
+      ],
+      "selection_rationale": "Rotated toward agent-native web/runtime, developer portability, research memory, and privacy-first edge use."
     }
   ],
   "items": [
@@ -4278,10 +4727,10 @@
     }
   ],
   "last_run_selection": [
-    "privacy-first-ai-infrastructure",
-    "agent-runtimes-and-sandboxes",
-    "embodied-ai-research-signals",
-    "agentic-commerce-and-wallets"
+    "agent-native-web-and-runtime",
+    "developer-workflow-portability",
+    "agent-research-and-memory",
+    "privacy-first-mobile-and-edge"
   ],
   "sources": {
     "architecture": {
@@ -5031,6 +5480,15 @@
         }
       ],
       "selection_rationale": "Fresh primary-source signal; rotated toward privacy infrastructure, runtime enforcement, same-day embodied-AI research, and scoped agentic commerce."
+    },
+    {
+      "date": "2026-09-13",
+      "selected_lanes": [
+        "agent-native-web-and-runtime",
+        "developer-workflow-portability",
+        "agent-research-and-memory",
+        "privacy-first-mobile-and-edge"
+      ]
     }
   ],
   "run_history": [
@@ -6356,6 +6814,29 @@
         "VS Code Agents enter Copilot usage metrics",
         "The durable metric: accepted work"
       ]
+    },
+    {
+      "date": "2026-09-13",
+      "slug": "adaptive-daily-ingest",
+      "title": "Adaptive Daily Ingest",
+      "items": [
+        "Cloudflare Agent Readiness score",
+        "WebMCP developer preview",
+        "MCP v2 stateless core",
+        "Dynamic Workers sandboxing",
+        "Visual Studio 2026 BYOK",
+        "VS Code agent usage metrics",
+        "Actions cache-mode controls",
+        "MAI-Code-1-Flash deprecation",
+        "Memory Compression for High-Fanout Agent Sandboxes",
+        "Defining AI Agents: criteria and benchmarks",
+        "Memory in the Age of AI Agents",
+        "ResearchGym",
+        "September Android Drop",
+        "Gemma offline deployment direction",
+        "Firefox AI on your terms",
+        "Local-first software principles"
+      ]
     }
   ],
   "themes": {
@@ -6420,7 +6901,7 @@
       "last_covered": "2026-09-08"
     }
   },
-  "last_successful_run": "2026-09-12",
+  "last_successful_run": "2026-09-13",
   "history": [
     {
       "date": "2026-09-07",

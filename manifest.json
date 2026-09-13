@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-09-12T08:06:50.305261+00:00",
+  "updated_at": "2026-09-13T08:05:55.917702+00:00",
   "days": [
+    {
+      "date": "2026-09-13",
+      "path": "2026-09-13",
+      "reports": [
+        {
+          "lane": "agent-native-web-and-runtime",
+          "title": "Agent-Native Web + Runtime",
+          "url": "2026-09-13/agent-native-web-and-runtime.html"
+        },
+        {
+          "lane": "developer-workflow-portability",
+          "title": "Developer Workflow Portability",
+          "url": "2026-09-13/developer-workflow-portability.html"
+        },
+        {
+          "lane": "agent-research-and-memory",
+          "title": "Agent Research + Memory",
+          "url": "2026-09-13/agent-research-and-memory.html"
+        },
+        {
+          "lane": "privacy-first-mobile-and-edge",
+          "title": "Privacy-First Mobile + Edge",
+          "url": "2026-09-13/privacy-first-mobile-and-edge.html"
+        }
+      ]
+    },
     {
       "date": "2026-09-11",
       "path": "2026-09-11",
