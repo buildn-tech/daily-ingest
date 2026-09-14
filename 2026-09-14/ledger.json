@@ -1,0 +1,124 @@
+{
+  "date": "2026-09-14",
+  "generated_at": "2026-09-14T08:05:25.943028+00:00",
+  "editorial_thesis": "Agents are moving from isolated demos to governed operating surfaces: portable harnesses, identity-bound access, and repeatable evaluation.",
+  "topic_groups": [
+    {
+      "slug": "agentic-dev-environments",
+      "title": "Agentic Development Environments",
+      "selection_rationale": "The developer surface is becoming a replaceable control layer: choose an agent harness, allocate enough isolated disk, and keep external connectors behind explicit ownership. That makes experimentation portable without making authority portable by accident.",
+      "sources": [
+        {
+          "title": "GitHub Copilot in AI SDK harness",
+          "url": "https://vercel.com/changelog/github-copilot-ai-sdk-harness-adapter",
+          "source_type": "release",
+          "published_or_updated": "2026-09",
+          "why_selected": "The application can switch among Copilot, Claude Code, Cline, Codex, Cursor, and others without rewriting orchestration.",
+          "usefulness": "Prototype a Buildn agent runner with a stable adapter boundary and provider-specific trials."
+        },
+        {
+          "title": "Vercel Sandbox: 64 GB default",
+          "url": "https://vercel.com/changelog/vercel-sandbox-64-gb-storage",
+          "source_type": "release",
+          "published_or_updated": "2026-09",
+          "why_selected": "Disk pressure is a hidden limit for dependency-heavy agents, build artifacts, and data workloads that spill to disk.",
+          "usefulness": "Give client code agents reproducible build sandboxes without treating the mutable runtime as production."
+        },
+        {
+          "title": "Connector Manager permissions",
+          "url": "https://vercel.com/changelog/control-who-can-manage-connectors-in-vercel-connect",
+          "source_type": "release",
+          "published_or_updated": "2026-09",
+          "why_selected": "Connector administration is a control-plane action, not a convenience setting.",
+          "usefulness": "Separate people who build agents from people who authorize external-system reach."
+        },
+        {
+          "title": "Visual Studio September Insiders",
+          "url": "https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes-insiders",
+          "source_type": "docs",
+          "published_or_updated": "2026-09",
+          "why_selected": "Agents need repository context and fast recovery, not only a chat panel.",
+          "usefulness": "Use the File System view and fail-fast builds as a checklist for agent-ready IDE workflows."
+        }
+      ]
+    },
+    {
+      "slug": "agent-security-control-plane",
+      "title": "Agent Security Control Plane",
+      "selection_rationale": "Today\u2019s security signal is operational rather than rhetorical: agents need user-bound OAuth, site owners need declared content terms, and infrastructure teams need to test protocol changes against real transport constraints.",
+      "sources": [
+        {
+          "title": "Managed OAuth for Cloudflare Access",
+          "url": "https://blog.cloudflare.com/managed-oauth-for-access/",
+          "source_type": "product",
+          "published_or_updated": "2026-09",
+          "why_selected": "It replaces shared service credentials with a user\u2013agent relationship and an auditable authorization flow.",
+          "usefulness": "Put a client wiki or internal tool behind an identity-aware boundary before adding an agent interface."
+        },
+        {
+          "title": "1.1.1.1 post-quantum DNSSEC",
+          "url": "https://blog.cloudflare.com/post-quantum-dnssec-1111/",
+          "source_type": "research",
+          "published_or_updated": "2026-09",
+          "why_selected": "The practical issue is migration engineering: PQ signatures are much larger and must coexist with conventional algorithms.",
+          "usefulness": "Add DNS and certificate-chain dependencies to Buildn availability and future cryptography reviews."
+        },
+        {
+          "title": "Agentic Internet bot report",
+          "url": "https://blog.cloudflare.com/agentic-internet-bot-report/",
+          "source_type": "report",
+          "published_or_updated": "2026-09",
+          "why_selected": "Client content now needs an explicit machine-access posture, not only SEO and analytics.",
+          "usefulness": "Offer a Buildn preflight covering agent discoverability, crawler terms, paid access, and referral measurement."
+        },
+        {
+          "title": "Cisco AI Defense 2026.8.2",
+          "url": "https://securitydocs.cisco.com/docs/ai-def/user/168305.dita",
+          "source_type": "release",
+          "published_or_updated": "2026-09",
+          "why_selected": "Tool inventories become stale when agents generate endpoints dynamically; discovery must observe activity and code.",
+          "usefulness": "Map client agent assets from source repositories and cloud activity before policy tuning."
+        }
+      ]
+    },
+    {
+      "slug": "physical-ai-evaluation",
+      "title": "Physical AI Evaluation + Open Tooling",
+      "selection_rationale": "Physical AI is becoming testable as a workflow, not just a model: open models, modular simulation benchmarks, and orchestration layers now expose a path from synthetic data to repeatable evaluation.",
+      "sources": [
+        {
+          "title": "Cosmos and GR00T open models",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-releases-new-physical-ai-models-as-global-partners-unveil-next-generation-robots",
+          "source_type": "release",
+          "published_or_updated": "2026-09",
+          "why_selected": "Open model components make it possible to test the perception\u2013reasoning\u2013action boundary without training every foundation model from scratch.",
+          "usefulness": "Track physical-AI patterns relevant to inspection, embodied interfaces, and video-based client operations."
+        },
+        {
+          "title": "Isaac Lab-Arena",
+          "url": "https://developer.nvidia.com/isaac/lab-arena",
+          "source_type": "repo",
+          "published_or_updated": "2026-09",
+          "why_selected": "Evaluation becomes a repeatable artifact instead of a bespoke demo.",
+          "usefulness": "Borrow its task\u2013scenario\u2013metric separation for agent evaluations in Buildn OS."
+        },
+        {
+          "title": "NVIDIA OSMO orchestration",
+          "url": "https://developer.nvidia.com/osmo",
+          "source_type": "product",
+          "published_or_updated": "2026-09",
+          "why_selected": "The scarce resource is often workflow coordination and provenance, not model access.",
+          "usefulness": "Use the pattern for multi-stage client automation with explicit artifact promotion."
+        },
+        {
+          "title": "Cosmos Reason 2 repository",
+          "url": "https://github.com/nvidia-cosmos/cosmos-reason2",
+          "source_type": "repo",
+          "published_or_updated": "2026-09",
+          "why_selected": "The repo exposes a more concrete trial surface than a launch claim.",
+          "usefulness": "Compare its input/output contract with video search, inspection, or safety-review tasks."
+        }
+      ]
+    }
+  ]
+}

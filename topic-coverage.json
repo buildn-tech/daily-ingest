@@ -495,8 +495,8 @@
     },
     "agent-security-control-plane": {
       "title": "Agent Security Control Plane",
-      "times_covered": 1,
-      "last_covered": "2026-08-15"
+      "times_covered": 2,
+      "last_covered": "2026-09-14"
     },
     "local-first-knowledge-ops": {
       "title": "Local-First Knowledge Operations",
@@ -827,8 +827,8 @@
     },
     "agentic-dev-environments": {
       "title": "Agentic Development Environments",
-      "times_covered": 1,
-      "last_covered": "2026-09-09"
+      "times_covered": 2,
+      "last_covered": "2026-09-14"
     },
     "privacy-first-user-control": {
       "title": "Privacy-First User Control",
@@ -918,6 +918,11 @@
       "title": "Privacy-First Mobile + Edge",
       "times_covered": 1,
       "last_covered": "2026-09-13"
+    },
+    "physical-ai-evaluation": {
+      "title": "Physical AI Evaluation + Open Tooling",
+      "times_covered": 1,
+      "last_covered": "2026-09-14"
     }
   },
   "item_history": [
@@ -1929,6 +1934,114 @@
       "url": "https://www.inkandswitch.com/essay/local-first",
       "source_type": "docs",
       "rationale": "Use it to evaluate whether an agent feature should degrade gracefully when network, provider, or account access disappears."
+    },
+    {
+      "date": "2026-09-14",
+      "topic": "agentic-dev-environments",
+      "lane": "agentic-dev-environments",
+      "title": "GitHub Copilot in AI SDK harness",
+      "url": "https://vercel.com/changelog/github-copilot-ai-sdk-harness-adapter",
+      "source_type": "release",
+      "selection_rationale": "The developer surface is becoming a replaceable control layer: choose an agent harness, allocate enough isolated disk, and keep external connectors behind explicit ownership. That "
+    },
+    {
+      "date": "2026-09-14",
+      "topic": "agentic-dev-environments",
+      "lane": "agentic-dev-environments",
+      "title": "Vercel Sandbox: 64 GB default",
+      "url": "https://vercel.com/changelog/vercel-sandbox-64-gb-storage",
+      "source_type": "release",
+      "selection_rationale": "The developer surface is becoming a replaceable control layer: choose an agent harness, allocate enough isolated disk, and keep external connectors behind explicit ownership. That "
+    },
+    {
+      "date": "2026-09-14",
+      "topic": "agentic-dev-environments",
+      "lane": "agentic-dev-environments",
+      "title": "Connector Manager permissions",
+      "url": "https://vercel.com/changelog/control-who-can-manage-connectors-in-vercel-connect",
+      "source_type": "release",
+      "selection_rationale": "The developer surface is becoming a replaceable control layer: choose an agent harness, allocate enough isolated disk, and keep external connectors behind explicit ownership. That "
+    },
+    {
+      "date": "2026-09-14",
+      "topic": "agentic-dev-environments",
+      "lane": "agentic-dev-environments",
+      "title": "Visual Studio September Insiders",
+      "url": "https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes-insiders",
+      "source_type": "docs",
+      "selection_rationale": "The developer surface is becoming a replaceable control layer: choose an agent harness, allocate enough isolated disk, and keep external connectors behind explicit ownership. That "
+    },
+    {
+      "date": "2026-09-14",
+      "topic": "agent-security-control-plane",
+      "lane": "agent-security-control-plane",
+      "title": "Managed OAuth for Cloudflare Access",
+      "url": "https://blog.cloudflare.com/managed-oauth-for-access/",
+      "source_type": "product",
+      "selection_rationale": "Today’s security signal is operational rather than rhetorical: agents need user-bound OAuth, site owners need declared content terms, and infrastructure teams need to test protocol"
+    },
+    {
+      "date": "2026-09-14",
+      "topic": "agent-security-control-plane",
+      "lane": "agent-security-control-plane",
+      "title": "1.1.1.1 post-quantum DNSSEC",
+      "url": "https://blog.cloudflare.com/post-quantum-dnssec-1111/",
+      "source_type": "research",
+      "selection_rationale": "Today’s security signal is operational rather than rhetorical: agents need user-bound OAuth, site owners need declared content terms, and infrastructure teams need to test protocol"
+    },
+    {
+      "date": "2026-09-14",
+      "topic": "agent-security-control-plane",
+      "lane": "agent-security-control-plane",
+      "title": "Agentic Internet bot report",
+      "url": "https://blog.cloudflare.com/agentic-internet-bot-report/",
+      "source_type": "report",
+      "selection_rationale": "Today’s security signal is operational rather than rhetorical: agents need user-bound OAuth, site owners need declared content terms, and infrastructure teams need to test protocol"
+    },
+    {
+      "date": "2026-09-14",
+      "topic": "agent-security-control-plane",
+      "lane": "agent-security-control-plane",
+      "title": "Cisco AI Defense 2026.8.2",
+      "url": "https://securitydocs.cisco.com/docs/ai-def/user/168305.dita",
+      "source_type": "release",
+      "selection_rationale": "Today’s security signal is operational rather than rhetorical: agents need user-bound OAuth, site owners need declared content terms, and infrastructure teams need to test protocol"
+    },
+    {
+      "date": "2026-09-14",
+      "topic": "physical-ai-evaluation",
+      "lane": "physical-ai-evaluation",
+      "title": "Cosmos and GR00T open models",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-releases-new-physical-ai-models-as-global-partners-unveil-next-generation-robots",
+      "source_type": "release",
+      "selection_rationale": "Physical AI is becoming testable as a workflow, not just a model: open models, modular simulation benchmarks, and orchestration layers now expose a path from synthetic data to repe"
+    },
+    {
+      "date": "2026-09-14",
+      "topic": "physical-ai-evaluation",
+      "lane": "physical-ai-evaluation",
+      "title": "Isaac Lab-Arena",
+      "url": "https://developer.nvidia.com/isaac/lab-arena",
+      "source_type": "repo",
+      "selection_rationale": "Physical AI is becoming testable as a workflow, not just a model: open models, modular simulation benchmarks, and orchestration layers now expose a path from synthetic data to repe"
+    },
+    {
+      "date": "2026-09-14",
+      "topic": "physical-ai-evaluation",
+      "lane": "physical-ai-evaluation",
+      "title": "NVIDIA OSMO orchestration",
+      "url": "https://developer.nvidia.com/osmo",
+      "source_type": "product",
+      "selection_rationale": "Physical AI is becoming testable as a workflow, not just a model: open models, modular simulation benchmarks, and orchestration layers now expose a path from synthetic data to repe"
+    },
+    {
+      "date": "2026-09-14",
+      "topic": "physical-ai-evaluation",
+      "lane": "physical-ai-evaluation",
+      "title": "Cosmos Reason 2 repository",
+      "url": "https://github.com/nvidia-cosmos/cosmos-reason2",
+      "source_type": "repo",
+      "selection_rationale": "Physical AI is becoming testable as a workflow, not just a model: open models, modular simulation benchmarks, and orchestration layers now expose a path from synthetic data to repe"
     }
   ],
   "runs": [
@@ -3256,11 +3369,33 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2026-09-14",
+      "selected_lanes": [
+        "agentic-dev-environments",
+        "agent-security-control-plane",
+        "physical-ai-evaluation"
+      ],
+      "items": [
+        "GitHub Copilot in AI SDK harness",
+        "Vercel Sandbox: 64 GB default",
+        "Connector Manager permissions",
+        "Visual Studio September Insiders",
+        "Managed OAuth for Cloudflare Access",
+        "1.1.1.1 post-quantum DNSSEC",
+        "Agentic Internet bot report",
+        "Cisco AI Defense 2026.8.2",
+        "Cosmos and GR00T open models",
+        "Isaac Lab-Arena",
+        "NVIDIA OSMO orchestration",
+        "Cosmos Reason 2 repository"
+      ]
     }
   ],
-  "updated_at": "2026-09-13T08:00:46+00:00",
-  "last_run": "2026-09-13",
-  "last_editorial_thesis": "Build the interface, runtime boundary, portability layer, and consent model together—or the agent will be useful only in a demo.",
+  "updated_at": "2026-09-14T08:05:25.943028+00:00",
+  "last_run": "2026-09-14",
+  "last_editorial_thesis": "Agents are moving from isolated demos to governed operating surfaces: portable harnesses, identity-bound access, and repeatable evaluation.",
   "coverage_history": [
     {
       "date": "2026-07-28",
@@ -3874,6 +4009,76 @@
         }
       ],
       "selection_rationale": "Rotated toward agent-native web/runtime, developer portability, research memory, and privacy-first edge use."
+    },
+    {
+      "date": "2026-09-14",
+      "selected_lanes": [
+        "agentic-dev-environments",
+        "agent-security-control-plane",
+        "physical-ai-evaluation"
+      ],
+      "items": [
+        {
+          "title": "GitHub Copilot in AI SDK harness",
+          "url": "https://vercel.com/changelog/github-copilot-ai-sdk-harness-adapter",
+          "source_type": "release"
+        },
+        {
+          "title": "Vercel Sandbox: 64 GB default",
+          "url": "https://vercel.com/changelog/vercel-sandbox-64-gb-storage",
+          "source_type": "release"
+        },
+        {
+          "title": "Connector Manager permissions",
+          "url": "https://vercel.com/changelog/control-who-can-manage-connectors-in-vercel-connect",
+          "source_type": "release"
+        },
+        {
+          "title": "Visual Studio September Insiders",
+          "url": "https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes-insiders",
+          "source_type": "docs"
+        },
+        {
+          "title": "Managed OAuth for Cloudflare Access",
+          "url": "https://blog.cloudflare.com/managed-oauth-for-access/",
+          "source_type": "product"
+        },
+        {
+          "title": "1.1.1.1 post-quantum DNSSEC",
+          "url": "https://blog.cloudflare.com/post-quantum-dnssec-1111/",
+          "source_type": "research"
+        },
+        {
+          "title": "Agentic Internet bot report",
+          "url": "https://blog.cloudflare.com/agentic-internet-bot-report/",
+          "source_type": "report"
+        },
+        {
+          "title": "Cisco AI Defense 2026.8.2",
+          "url": "https://securitydocs.cisco.com/docs/ai-def/user/168305.dita",
+          "source_type": "release"
+        },
+        {
+          "title": "Cosmos and GR00T open models",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-releases-new-physical-ai-models-as-global-partners-unveil-next-generation-robots",
+          "source_type": "release"
+        },
+        {
+          "title": "Isaac Lab-Arena",
+          "url": "https://developer.nvidia.com/isaac/lab-arena",
+          "source_type": "repo"
+        },
+        {
+          "title": "NVIDIA OSMO orchestration",
+          "url": "https://developer.nvidia.com/osmo",
+          "source_type": "product"
+        },
+        {
+          "title": "Cosmos Reason 2 repository",
+          "url": "https://github.com/nvidia-cosmos/cosmos-reason2",
+          "source_type": "repo"
+        }
+      ]
     }
   ],
   "items": [
@@ -4724,13 +4929,120 @@
       "url": "https://github.blog/changelog/2026-09-11-add-vs-code-agents-to-copilot-usage-metrics/",
       "source_type": "operator playbook",
       "rationale": "Fresh GitHub changes make two neglected operational surfaces measurable: review quality can use deeper checks and ensembles, while agent adoption can be observed through dedicated usage metrics."
+    },
+    {
+      "date": "2026-09-14",
+      "topic": "agentic-dev-environments",
+      "lane": "agentic-dev-environments",
+      "title": "GitHub Copilot in AI SDK harness",
+      "url": "https://vercel.com/changelog/github-copilot-ai-sdk-harness-adapter",
+      "source_type": "release",
+      "selection_rationale": "The developer surface is becoming a replaceable control layer: choose an agent harness, allocate enough isolated disk, and keep external connectors behind explicit ownership. That "
+    },
+    {
+      "date": "2026-09-14",
+      "topic": "agentic-dev-environments",
+      "lane": "agentic-dev-environments",
+      "title": "Vercel Sandbox: 64 GB default",
+      "url": "https://vercel.com/changelog/vercel-sandbox-64-gb-storage",
+      "source_type": "release",
+      "selection_rationale": "The developer surface is becoming a replaceable control layer: choose an agent harness, allocate enough isolated disk, and keep external connectors behind explicit ownership. That "
+    },
+    {
+      "date": "2026-09-14",
+      "topic": "agentic-dev-environments",
+      "lane": "agentic-dev-environments",
+      "title": "Connector Manager permissions",
+      "url": "https://vercel.com/changelog/control-who-can-manage-connectors-in-vercel-connect",
+      "source_type": "release",
+      "selection_rationale": "The developer surface is becoming a replaceable control layer: choose an agent harness, allocate enough isolated disk, and keep external connectors behind explicit ownership. That "
+    },
+    {
+      "date": "2026-09-14",
+      "topic": "agentic-dev-environments",
+      "lane": "agentic-dev-environments",
+      "title": "Visual Studio September Insiders",
+      "url": "https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes-insiders",
+      "source_type": "docs",
+      "selection_rationale": "The developer surface is becoming a replaceable control layer: choose an agent harness, allocate enough isolated disk, and keep external connectors behind explicit ownership. That "
+    },
+    {
+      "date": "2026-09-14",
+      "topic": "agent-security-control-plane",
+      "lane": "agent-security-control-plane",
+      "title": "Managed OAuth for Cloudflare Access",
+      "url": "https://blog.cloudflare.com/managed-oauth-for-access/",
+      "source_type": "product",
+      "selection_rationale": "Today’s security signal is operational rather than rhetorical: agents need user-bound OAuth, site owners need declared content terms, and infrastructure teams need to test protocol"
+    },
+    {
+      "date": "2026-09-14",
+      "topic": "agent-security-control-plane",
+      "lane": "agent-security-control-plane",
+      "title": "1.1.1.1 post-quantum DNSSEC",
+      "url": "https://blog.cloudflare.com/post-quantum-dnssec-1111/",
+      "source_type": "research",
+      "selection_rationale": "Today’s security signal is operational rather than rhetorical: agents need user-bound OAuth, site owners need declared content terms, and infrastructure teams need to test protocol"
+    },
+    {
+      "date": "2026-09-14",
+      "topic": "agent-security-control-plane",
+      "lane": "agent-security-control-plane",
+      "title": "Agentic Internet bot report",
+      "url": "https://blog.cloudflare.com/agentic-internet-bot-report/",
+      "source_type": "report",
+      "selection_rationale": "Today’s security signal is operational rather than rhetorical: agents need user-bound OAuth, site owners need declared content terms, and infrastructure teams need to test protocol"
+    },
+    {
+      "date": "2026-09-14",
+      "topic": "agent-security-control-plane",
+      "lane": "agent-security-control-plane",
+      "title": "Cisco AI Defense 2026.8.2",
+      "url": "https://securitydocs.cisco.com/docs/ai-def/user/168305.dita",
+      "source_type": "release",
+      "selection_rationale": "Today’s security signal is operational rather than rhetorical: agents need user-bound OAuth, site owners need declared content terms, and infrastructure teams need to test protocol"
+    },
+    {
+      "date": "2026-09-14",
+      "topic": "physical-ai-evaluation",
+      "lane": "physical-ai-evaluation",
+      "title": "Cosmos and GR00T open models",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-releases-new-physical-ai-models-as-global-partners-unveil-next-generation-robots",
+      "source_type": "release",
+      "selection_rationale": "Physical AI is becoming testable as a workflow, not just a model: open models, modular simulation benchmarks, and orchestration layers now expose a path from synthetic data to repe"
+    },
+    {
+      "date": "2026-09-14",
+      "topic": "physical-ai-evaluation",
+      "lane": "physical-ai-evaluation",
+      "title": "Isaac Lab-Arena",
+      "url": "https://developer.nvidia.com/isaac/lab-arena",
+      "source_type": "repo",
+      "selection_rationale": "Physical AI is becoming testable as a workflow, not just a model: open models, modular simulation benchmarks, and orchestration layers now expose a path from synthetic data to repe"
+    },
+    {
+      "date": "2026-09-14",
+      "topic": "physical-ai-evaluation",
+      "lane": "physical-ai-evaluation",
+      "title": "NVIDIA OSMO orchestration",
+      "url": "https://developer.nvidia.com/osmo",
+      "source_type": "product",
+      "selection_rationale": "Physical AI is becoming testable as a workflow, not just a model: open models, modular simulation benchmarks, and orchestration layers now expose a path from synthetic data to repe"
+    },
+    {
+      "date": "2026-09-14",
+      "topic": "physical-ai-evaluation",
+      "lane": "physical-ai-evaluation",
+      "title": "Cosmos Reason 2 repository",
+      "url": "https://github.com/nvidia-cosmos/cosmos-reason2",
+      "source_type": "repo",
+      "selection_rationale": "Physical AI is becoming testable as a workflow, not just a model: open models, modular simulation benchmarks, and orchestration layers now expose a path from synthetic data to repe"
     }
   ],
   "last_run_selection": [
-    "agent-native-web-and-runtime",
-    "developer-workflow-portability",
-    "agent-research-and-memory",
-    "privacy-first-mobile-and-edge"
+    "agentic-dev-environments",
+    "agent-security-control-plane",
+    "physical-ai-evaluation"
   ],
   "sources": {
     "architecture": {
@@ -5489,6 +5801,28 @@
         "agent-research-and-memory",
         "privacy-first-mobile-and-edge"
       ]
+    },
+    {
+      "date": "2026-09-14",
+      "selected_lanes": [
+        "agentic-dev-environments",
+        "agent-security-control-plane",
+        "physical-ai-evaluation"
+      ],
+      "items": [
+        "GitHub Copilot in AI SDK harness",
+        "Vercel Sandbox: 64 GB default",
+        "Connector Manager permissions",
+        "Visual Studio September Insiders",
+        "Managed OAuth for Cloudflare Access",
+        "1.1.1.1 post-quantum DNSSEC",
+        "Agentic Internet bot report",
+        "Cisco AI Defense 2026.8.2",
+        "Cosmos and GR00T open models",
+        "Isaac Lab-Arena",
+        "NVIDIA OSMO orchestration",
+        "Cosmos Reason 2 repository"
+      ]
     }
   ],
   "run_history": [
@@ -6086,6 +6420,76 @@
         }
       ],
       "selection_rationale": "Rotated away from yesterday’s web/identity/physical-AI/research emphasis toward control, resilience, CI/CD boundaries, and adoption evidence."
+    },
+    {
+      "date": "2026-09-14",
+      "selected_lanes": [
+        "agentic-dev-environments",
+        "agent-security-control-plane",
+        "physical-ai-evaluation"
+      ],
+      "items": [
+        {
+          "title": "GitHub Copilot in AI SDK harness",
+          "url": "https://vercel.com/changelog/github-copilot-ai-sdk-harness-adapter",
+          "source_type": "release"
+        },
+        {
+          "title": "Vercel Sandbox: 64 GB default",
+          "url": "https://vercel.com/changelog/vercel-sandbox-64-gb-storage",
+          "source_type": "release"
+        },
+        {
+          "title": "Connector Manager permissions",
+          "url": "https://vercel.com/changelog/control-who-can-manage-connectors-in-vercel-connect",
+          "source_type": "release"
+        },
+        {
+          "title": "Visual Studio September Insiders",
+          "url": "https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes-insiders",
+          "source_type": "docs"
+        },
+        {
+          "title": "Managed OAuth for Cloudflare Access",
+          "url": "https://blog.cloudflare.com/managed-oauth-for-access/",
+          "source_type": "product"
+        },
+        {
+          "title": "1.1.1.1 post-quantum DNSSEC",
+          "url": "https://blog.cloudflare.com/post-quantum-dnssec-1111/",
+          "source_type": "research"
+        },
+        {
+          "title": "Agentic Internet bot report",
+          "url": "https://blog.cloudflare.com/agentic-internet-bot-report/",
+          "source_type": "report"
+        },
+        {
+          "title": "Cisco AI Defense 2026.8.2",
+          "url": "https://securitydocs.cisco.com/docs/ai-def/user/168305.dita",
+          "source_type": "release"
+        },
+        {
+          "title": "Cosmos and GR00T open models",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-releases-new-physical-ai-models-as-global-partners-unveil-next-generation-robots",
+          "source_type": "release"
+        },
+        {
+          "title": "Isaac Lab-Arena",
+          "url": "https://developer.nvidia.com/isaac/lab-arena",
+          "source_type": "repo"
+        },
+        {
+          "title": "NVIDIA OSMO orchestration",
+          "url": "https://developer.nvidia.com/osmo",
+          "source_type": "product"
+        },
+        {
+          "title": "Cosmos Reason 2 repository",
+          "url": "https://github.com/nvidia-cosmos/cosmos-reason2",
+          "source_type": "repo"
+        }
+      ]
     }
   ],
   "daily_history": [
@@ -6837,6 +7241,76 @@
         "Firefox AI on your terms",
         "Local-first software principles"
       ]
+    },
+    {
+      "date": "2026-09-14",
+      "selected_lanes": [
+        "agentic-dev-environments",
+        "agent-security-control-plane",
+        "physical-ai-evaluation"
+      ],
+      "items": [
+        {
+          "title": "GitHub Copilot in AI SDK harness",
+          "url": "https://vercel.com/changelog/github-copilot-ai-sdk-harness-adapter",
+          "source_type": "release"
+        },
+        {
+          "title": "Vercel Sandbox: 64 GB default",
+          "url": "https://vercel.com/changelog/vercel-sandbox-64-gb-storage",
+          "source_type": "release"
+        },
+        {
+          "title": "Connector Manager permissions",
+          "url": "https://vercel.com/changelog/control-who-can-manage-connectors-in-vercel-connect",
+          "source_type": "release"
+        },
+        {
+          "title": "Visual Studio September Insiders",
+          "url": "https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes-insiders",
+          "source_type": "docs"
+        },
+        {
+          "title": "Managed OAuth for Cloudflare Access",
+          "url": "https://blog.cloudflare.com/managed-oauth-for-access/",
+          "source_type": "product"
+        },
+        {
+          "title": "1.1.1.1 post-quantum DNSSEC",
+          "url": "https://blog.cloudflare.com/post-quantum-dnssec-1111/",
+          "source_type": "research"
+        },
+        {
+          "title": "Agentic Internet bot report",
+          "url": "https://blog.cloudflare.com/agentic-internet-bot-report/",
+          "source_type": "report"
+        },
+        {
+          "title": "Cisco AI Defense 2026.8.2",
+          "url": "https://securitydocs.cisco.com/docs/ai-def/user/168305.dita",
+          "source_type": "release"
+        },
+        {
+          "title": "Cosmos and GR00T open models",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-releases-new-physical-ai-models-as-global-partners-unveil-next-generation-robots",
+          "source_type": "release"
+        },
+        {
+          "title": "Isaac Lab-Arena",
+          "url": "https://developer.nvidia.com/isaac/lab-arena",
+          "source_type": "repo"
+        },
+        {
+          "title": "NVIDIA OSMO orchestration",
+          "url": "https://developer.nvidia.com/osmo",
+          "source_type": "product"
+        },
+        {
+          "title": "Cosmos Reason 2 repository",
+          "url": "https://github.com/nvidia-cosmos/cosmos-reason2",
+          "source_type": "repo"
+        }
+      ]
     }
   ],
   "themes": {
@@ -6901,7 +7375,7 @@
       "last_covered": "2026-09-08"
     }
   },
-  "last_successful_run": "2026-09-13",
+  "last_successful_run": "2026-09-14",
   "history": [
     {
       "date": "2026-09-07",
@@ -7117,6 +7591,76 @@
         }
       ],
       "selection_rationale": "The agent advantage is moving below the chat layer: typed web capabilities, explicit non-human identity, portable physical-AI skills, and accepted-artifact measurement make autonomy more usable and governable."
+    },
+    {
+      "date": "2026-09-14",
+      "selected_lanes": [
+        "agentic-dev-environments",
+        "agent-security-control-plane",
+        "physical-ai-evaluation"
+      ],
+      "items": [
+        {
+          "title": "GitHub Copilot in AI SDK harness",
+          "url": "https://vercel.com/changelog/github-copilot-ai-sdk-harness-adapter",
+          "source_type": "release"
+        },
+        {
+          "title": "Vercel Sandbox: 64 GB default",
+          "url": "https://vercel.com/changelog/vercel-sandbox-64-gb-storage",
+          "source_type": "release"
+        },
+        {
+          "title": "Connector Manager permissions",
+          "url": "https://vercel.com/changelog/control-who-can-manage-connectors-in-vercel-connect",
+          "source_type": "release"
+        },
+        {
+          "title": "Visual Studio September Insiders",
+          "url": "https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes-insiders",
+          "source_type": "docs"
+        },
+        {
+          "title": "Managed OAuth for Cloudflare Access",
+          "url": "https://blog.cloudflare.com/managed-oauth-for-access/",
+          "source_type": "product"
+        },
+        {
+          "title": "1.1.1.1 post-quantum DNSSEC",
+          "url": "https://blog.cloudflare.com/post-quantum-dnssec-1111/",
+          "source_type": "research"
+        },
+        {
+          "title": "Agentic Internet bot report",
+          "url": "https://blog.cloudflare.com/agentic-internet-bot-report/",
+          "source_type": "report"
+        },
+        {
+          "title": "Cisco AI Defense 2026.8.2",
+          "url": "https://securitydocs.cisco.com/docs/ai-def/user/168305.dita",
+          "source_type": "release"
+        },
+        {
+          "title": "Cosmos and GR00T open models",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-releases-new-physical-ai-models-as-global-partners-unveil-next-generation-robots",
+          "source_type": "release"
+        },
+        {
+          "title": "Isaac Lab-Arena",
+          "url": "https://developer.nvidia.com/isaac/lab-arena",
+          "source_type": "repo"
+        },
+        {
+          "title": "NVIDIA OSMO orchestration",
+          "url": "https://developer.nvidia.com/osmo",
+          "source_type": "product"
+        },
+        {
+          "title": "Cosmos Reason 2 repository",
+          "url": "https://github.com/nvidia-cosmos/cosmos-reason2",
+          "source_type": "repo"
+        }
+      ]
     }
   ]
 }

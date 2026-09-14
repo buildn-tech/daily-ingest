@@ -1,6 +1,27 @@
 {
-  "updated_at": "2026-09-13T08:05:55.917702+00:00",
+  "updated_at": "2026-09-14T08:07:18.240341+00:00",
   "days": [
+    {
+      "date": "2026-09-14",
+      "path": "2026-09-14",
+      "reports": [
+        {
+          "lane": "agentic-dev-environments",
+          "title": "Agentic Development Environments",
+          "url": "2026-09-14/agentic-dev-environments.html"
+        },
+        {
+          "lane": "agent-security-control-plane",
+          "title": "Agent Security Control Plane",
+          "url": "2026-09-14/agent-security-control-plane.html"
+        },
+        {
+          "lane": "physical-ai-evaluation",
+          "title": "Physical AI Evaluation + Open Tooling",
+          "url": "2026-09-14/physical-ai-evaluation.html"
+        }
+      ]
+    },
     {
       "date": "2026-09-13",
       "path": "2026-09-13",

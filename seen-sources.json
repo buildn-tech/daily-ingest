@@ -1,6 +1,66 @@
 {
-  "updated_at": "2026-09-13T08:05:55.917702+00:00",
+  "updated_at": "2026-09-14T08:07:18.240341+00:00",
   "sources": {
+    "https://vercel.com/changelog/github-copilot-ai-sdk-harness-adapter": {
+      "first_seen": "2026-09-14",
+      "last_seen": "2026-09-14",
+      "title": "GitHub Copilot in AI SDK harness"
+    },
+    "https://vercel.com/changelog/vercel-sandbox-64-gb-storage": {
+      "first_seen": "2026-09-14",
+      "last_seen": "2026-09-14",
+      "title": "Vercel Sandbox: 64 GB default"
+    },
+    "https://vercel.com/changelog/control-who-can-manage-connectors-in-vercel-connect": {
+      "first_seen": "2026-09-14",
+      "last_seen": "2026-09-14",
+      "title": "Connector Manager permissions"
+    },
+    "https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes-insiders": {
+      "first_seen": "2026-09-14",
+      "last_seen": "2026-09-14",
+      "title": "Visual Studio September Insiders"
+    },
+    "https://blog.cloudflare.com/managed-oauth-for-access": {
+      "first_seen": "2026-09-14",
+      "last_seen": "2026-09-14",
+      "title": "Managed OAuth for Cloudflare Access"
+    },
+    "https://blog.cloudflare.com/post-quantum-dnssec-1111": {
+      "first_seen": "2026-09-14",
+      "last_seen": "2026-09-14",
+      "title": "1.1.1.1 post-quantum DNSSEC"
+    },
+    "https://blog.cloudflare.com/agentic-internet-bot-report": {
+      "first_seen": "2026-09-14",
+      "last_seen": "2026-09-14",
+      "title": "Agentic Internet bot report"
+    },
+    "https://securitydocs.cisco.com/docs/ai-def/user/168305.dita": {
+      "first_seen": "2026-09-14",
+      "last_seen": "2026-08-15",
+      "title": "Cisco AI Defense 2026.8.1"
+    },
+    "https://nvidianews.nvidia.com/news/nvidia-releases-new-physical-ai-models-as-global-partners-unveil-next-generation-robots": {
+      "first_seen": "2026-09-14",
+      "last_seen": "2026-09-14",
+      "title": "Cosmos and GR00T open models"
+    },
+    "https://developer.nvidia.com/isaac/lab-arena": {
+      "first_seen": "2026-09-14",
+      "last_seen": "2026-09-14",
+      "title": "Isaac Lab-Arena"
+    },
+    "https://developer.nvidia.com/osmo": {
+      "first_seen": "2026-09-14",
+      "last_seen": "2026-09-14",
+      "title": "NVIDIA OSMO orchestration"
+    },
+    "https://github.com/nvidia-cosmos/cosmos-reason2": {
+      "first_seen": "2026-09-14",
+      "last_seen": "2026-09-14",
+      "title": "Cosmos Reason 2 repository"
+    },
     "https://blog.cloudflare.com/agent-readiness": {
       "first_seen": "2026-09-13",
       "last_seen": "2026-08-31",
@@ -445,11 +505,6 @@
       "first_seen": "2026-09-06",
       "last_seen": "2026-09-06",
       "title": "Enterprise Frontier Safeguards"
-    },
-    "https://securitydocs.cisco.com/docs/ai-def/user/168305.dita": {
-      "first_seen": "2026-09-06",
-      "last_seen": "2026-08-15",
-      "title": "Cisco AI Defense 2026.8.1"
     },
     "https://www.anthropic.com/news/wellbeing-research-grants": {
       "first_seen": "2026-09-06",
