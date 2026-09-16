@@ -1,6 +1,27 @@
 {
-  "updated_at": "2026-09-16T08:04:55.735349+00:00",
+  "updated_at": "2026-09-16T08:05:24.850726+00:00",
   "days": [
+    {
+      "date": "2026-09-16",
+      "path": "2026-09-16",
+      "reports": [
+        {
+          "lane": "github-governance-and-supply-chain",
+          "title": "GitHub Governance + Supply Chain",
+          "url": "2026-09-16/github-governance-and-supply-chain.html"
+        },
+        {
+          "lane": "agent-substrate-and-workspaces",
+          "title": "Agent Substrate + Persistent Workspaces",
+          "url": "2026-09-16/agent-substrate-and-workspaces.html"
+        },
+        {
+          "lane": "edge-runtime-security-and-observability",
+          "title": "Edge Runtime Security + Observability",
+          "url": "2026-09-16/edge-runtime-security-and-observability.html"
+        }
+      ]
+    },
     {
       "date": "2026-09-14",
       "path": "2026-09-14",
