@@ -1,6 +1,41 @@
 {
-  "updated_at": "2026-09-14T08:08:29.124698+00:00",
+  "updated_at": "2026-09-16T08:04:55.735349+00:00",
   "sources": {
+    "https://github.blog/changelog/2026-09-15-sha-1-in-https-on-github-sunset": {
+      "first_seen": "2026-09-16",
+      "last_seen": "2026-09-16",
+      "title": "SHA-1 in HTTPS sunset"
+    },
+    "https://github.blog/changelog/2026-09-15-enforce-github-advanced-security-configurations": {
+      "first_seen": "2026-09-16",
+      "last_seen": "2026-09-16",
+      "title": "Enforce Advanced Security configurations"
+    },
+    "https://github.blog/changelog/2026-09-15-github-copilot-suggests-custom-properties-definitions": {
+      "first_seen": "2026-09-16",
+      "last_seen": "2026-09-16",
+      "title": "Copilot suggests custom property values"
+    },
+    "https://cloud.google.com/blog/products/containers-kubernetes/agent-substrate-available-on-gke": {
+      "first_seen": "2026-09-16",
+      "last_seen": "2026-09-16",
+      "title": "GKE sandbox lifecycle pattern"
+    },
+    "https://cloud.google.com/blog/products/storage-data-transfer/filestore-agent-volumes": {
+      "first_seen": "2026-09-16",
+      "last_seen": "2026-09-16",
+      "title": "Filestore agent volumes"
+    },
+    "https://developers.cloudflare.com/changelog/post/2026-09-15-waf-release": {
+      "first_seen": "2026-09-16",
+      "last_seen": "2026-09-16",
+      "title": "Log-to-block promotion"
+    },
+    "https://developers.cloudflare.com/changelog": {
+      "first_seen": "2026-09-16",
+      "last_seen": "2026-07-27",
+      "title": "Cloudflare changelog"
+    },
     "https://vercel.com/changelog/github-copilot-ai-sdk-harness-adapter": {
       "first_seen": "2026-09-14",
       "last_seen": "2026-09-14",
@@ -2365,11 +2400,6 @@
       "first_seen": "2026-07-27",
       "last_seen": "2026-07-27",
       "title": "Budget alerts now on by default for Pay-as-you-go accounts"
-    },
-    "https://developers.cloudflare.com/changelog": {
-      "first_seen": "2026-07-27",
-      "last_seen": "2026-07-27",
-      "title": "Cloudflare changelog"
     },
     "https://www.figma.com/blog/workflow-lab-deploying-designs-directly-with-figma-make": {
       "first_seen": "2026-07-27",

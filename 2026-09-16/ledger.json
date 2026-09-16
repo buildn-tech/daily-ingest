@@ -1,0 +1,100 @@
+{
+  "date": "2026-09-16",
+  "generated_at": "2026-09-16T08:04:36.190919+00:00",
+  "editorial_thesis": "Agent operations are becoming enforceable at three boundaries: fleet policy, isolated persistent workspaces, and observable edge security.",
+  "topic_groups": [
+    {
+      "slug": "github-governance-and-supply-chain",
+      "title": "GitHub Governance + Supply Chain",
+      "selection_rationale": "Fresh GitHub controls make repository policy, security configuration, and transport crypto enforceable across a fleet\u2014not just configurable per repository.",
+      "sources": [
+        {
+          "title": "SHA-1 in HTTPS sunset",
+          "url": "https://github.blog/changelog/2026-09-15-sha-1-in-https-on-github-sunset/",
+          "source_type": "release",
+          "published_or_updated": "2026-09-15",
+          "why_selected": "Fresh primary-source signal with a reversible Buildn/client application.",
+          "usefulness": "Converts directly into a control, pilot, or acceptance check."
+        },
+        {
+          "title": "Enforce Advanced Security configurations",
+          "url": "https://github.blog/changelog/2026-09-15-enforce-github-advanced-security-configurations/",
+          "source_type": "release",
+          "published_or_updated": "2026-09-15",
+          "why_selected": "Fresh primary-source signal with a reversible Buildn/client application.",
+          "usefulness": "Converts directly into a control, pilot, or acceptance check."
+        },
+        {
+          "title": "Copilot suggests custom property values",
+          "url": "https://github.blog/changelog/2026-09-15-github-copilot-suggests-custom-properties-definitions/",
+          "source_type": "release",
+          "published_or_updated": "2026-09-15",
+          "why_selected": "Fresh primary-source signal with a reversible Buildn/client application.",
+          "usefulness": "Converts directly into a control, pilot, or acceptance check."
+        }
+      ]
+    },
+    {
+      "slug": "agent-substrate-and-workspaces",
+      "title": "Agent Substrate + Persistent Workspaces",
+      "selection_rationale": "Google Cloud has made the agent runtime boundary concrete: isolated sandboxes, suspend/resume, and elastic file workspaces are one design surface.",
+      "sources": [
+        {
+          "title": "Agent Substrate on GKE",
+          "url": "https://cloud.google.com/blog/products/containers-kubernetes/agent-substrate-available-on-gke",
+          "source_type": "release",
+          "published_or_updated": "2026-09-15",
+          "why_selected": "Fresh primary-source signal with a reversible Buildn/client application.",
+          "usefulness": "Converts directly into a control, pilot, or acceptance check."
+        },
+        {
+          "title": "Filestore agent volumes",
+          "url": "https://cloud.google.com/blog/products/storage-data-transfer/filestore-agent-volumes",
+          "source_type": "release",
+          "published_or_updated": "2026-09-15",
+          "why_selected": "Fresh primary-source signal with a reversible Buildn/client application.",
+          "usefulness": "Converts directly into a control, pilot, or acceptance check."
+        },
+        {
+          "title": "GKE sandbox lifecycle pattern",
+          "url": "https://cloud.google.com/blog/products/containers-kubernetes/agent-substrate-available-on-gke",
+          "source_type": "release",
+          "published_or_updated": "2026-09-15",
+          "why_selected": "Fresh primary-source signal with a reversible Buildn/client application.",
+          "usefulness": "Converts directly into a control, pilot, or acceptance check."
+        }
+      ]
+    },
+    {
+      "slug": "edge-runtime-security-and-observability",
+      "title": "Edge Runtime Security + Observability",
+      "selection_rationale": "Cloudflare\u2019s September 15 changes pair stronger WAF blocks with workflow event streaming: constrain agent-facing ingress and retain enough evidence to debug and audit.",
+      "sources": [
+        {
+          "title": "WAF: SSRF, command injection, disclosure",
+          "url": "https://developers.cloudflare.com/changelog/post/2026-09-15-waf-release/",
+          "source_type": "docs",
+          "published_or_updated": "2026-09-15",
+          "why_selected": "Fresh primary-source signal with a reversible Buildn/client application.",
+          "usefulness": "Converts directly into a control, pilot, or acceptance check."
+        },
+        {
+          "title": "Workflow instance event streaming",
+          "url": "https://developers.cloudflare.com/changelog/",
+          "source_type": "docs",
+          "published_or_updated": "2026-09-15",
+          "why_selected": "Fresh primary-source signal with a reversible Buildn/client application.",
+          "usefulness": "Converts directly into a control, pilot, or acceptance check."
+        },
+        {
+          "title": "Log-to-block promotion",
+          "url": "https://developers.cloudflare.com/changelog/post/2026-09-15-waf-release/",
+          "source_type": "docs",
+          "published_or_updated": "2026-09-15",
+          "why_selected": "Fresh primary-source signal with a reversible Buildn/client application.",
+          "usefulness": "Converts directly into a control, pilot, or acceptance check."
+        }
+      ]
+    }
+  ]
+}
