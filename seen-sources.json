@@ -1,6 +1,71 @@
 {
-  "updated_at": "2026-09-16T08:05:24.850726+00:00",
+  "updated_at": "2026-09-17T08:05:17.946241+00:00",
   "sources": {
+    "https://github.blog/changelog/2026-09-16-copilot-budget-increase-requests-are-generally-available": {
+      "first_seen": "2026-09-17",
+      "last_seen": "2026-09-17",
+      "title": "Copilot budget increase requests"
+    },
+    "https://openai.com/index/how-to-connect-ai-usage-to-business-value": {
+      "first_seen": "2026-09-17",
+      "last_seen": "2026-09-17",
+      "title": "ChatGPT usage-to-value analytics"
+    },
+    "https://github.blog/changelog/2026-09-14-configure-cost-and-quality-in-copilot-auto-model-selection": {
+      "first_seen": "2026-09-17",
+      "last_seen": "2026-09-17",
+      "title": "Cost and quality in auto model selection"
+    },
+    "https://github.blog/changelog/2026-09-11-add-vs-code-agents-to-copilot-usage-metrics": {
+      "first_seen": "2026-09-17",
+      "last_seen": "2026-09-13",
+      "title": "VS Code agent usage metrics"
+    },
+    "https://github.blog/changelog/2026-09-09-enterprise-managed-permissions-for-github-copilot-agent-operations": {
+      "first_seen": "2026-09-17",
+      "last_seen": "2026-09-10",
+      "title": "Enterprise managed permissions for Copilot agent operations"
+    },
+    "https://openai.com/index/model-misalignment-reporting-framework": {
+      "first_seen": "2026-09-17",
+      "last_seen": "2026-09-17",
+      "title": "Framework for reporting model misalignment"
+    },
+    "https://alignment.openai.com/misalignment-reports/self-generated-prompt-injections-in-compaction-summaries": {
+      "first_seen": "2026-09-17",
+      "last_seen": "2026-09-17",
+      "title": "Self-generated instructions in summaries"
+    },
+    "https://alignment.openai.com/misalignment-reports/encouraging-deception-in-compaction-summaries": {
+      "first_seen": "2026-09-17",
+      "last_seen": "2026-09-17",
+      "title": "Instructions to conceal mistakes"
+    },
+    "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking": {
+      "first_seen": "2026-09-17",
+      "last_seen": "2026-09-17",
+      "title": "Live Extended Thinking"
+    },
+    "https://ai.google.dev/gemini-api/docs/live-api": {
+      "first_seen": "2026-09-17",
+      "last_seen": "2026-09-17",
+      "title": "Gemini Live API surface"
+    },
+    "https://openai.com/index/reimagining-advertising-with-ai": {
+      "first_seen": "2026-09-17",
+      "last_seen": "2026-09-17",
+      "title": "Natural-language Ads Manager"
+    },
+    "https://hubs.la/Q04tW3sT0": {
+      "first_seen": "2026-09-17",
+      "last_seen": "2026-09-17",
+      "title": "HubSpot integration"
+    },
+    "https://apps.shopify.com/chatgptads": {
+      "first_seen": "2026-09-17",
+      "last_seen": "2026-09-17",
+      "title": "Shopify ChatGPT Ads app"
+    },
     "https://github.blog/changelog/2026-09-15-sha-1-in-https-on-github-sunset": {
       "first_seen": "2026-09-16",
       "last_seen": "2026-09-16",
@@ -121,11 +186,6 @@
       "last_seen": "2026-07-22",
       "title": "Visual Studio 2026 July Update release notes"
     },
-    "https://github.blog/changelog/2026-09-11-add-vs-code-agents-to-copilot-usage-metrics": {
-      "first_seen": "2026-09-13",
-      "last_seen": "2026-09-13",
-      "title": "VS Code agent usage metrics"
-    },
     "https://github.blog/changelog/2026-09-10-control-github-actions-cache-access-with-cache-mode": {
       "first_seen": "2026-09-13",
       "last_seen": "2026-09-11",
@@ -240,11 +300,6 @@
       "first_seen": "2026-09-11",
       "last_seen": "2026-09-11",
       "title": "OpenAI Navier\u2013Stokes paper PDF"
-    },
-    "https://github.blog/changelog/2026-09-09-enterprise-managed-permissions-for-github-copilot-agent-operations": {
-      "first_seen": "2026-09-10",
-      "last_seen": "2026-09-10",
-      "title": "Enterprise managed permissions for Copilot agent operations"
     },
     "https://github.blog/changelog/2026-09-09-remediate-code-quality-findings-with-agentic-autofix": {
       "first_seen": "2026-09-10",

@@ -1,0 +1,155 @@
+{
+  "date": "2026-09-17",
+  "generated_at": "2026-09-17T08:04:47.019493+00:00",
+  "editorial_thesis": "Today’s strongest practical signals connect AI adoption to accountable controls: budget exceptions, misalignment evidence, realtime interaction contracts, and clearly labeled agentic commerce.",
+  "topic_groups": [
+    {
+      "slug": "ai-spend-and-outcomes",
+      "title": "AI Spend + Outcome Controls",
+      "selection_rationale": "Fresh primary-source signal with direct Buildn/client trial value; rotated away from yesterday’s GitHub governance, persistent workspaces, and edge-runtime security lanes.",
+      "sources": [
+        {
+          "title": "Copilot budget increase requests",
+          "url": "https://github.blog/changelog/2026-09-16-copilot-budget-increase-requests-are-generally-available/",
+          "source_type": "release",
+          "published_or_updated": "2026-09-16",
+          "why_selected": "Fresh or materially updated primary-source signal with a bounded practical experiment.",
+          "usefulness": "Model Buildn job budgets with a request, approver, revised cap, and audit trail."
+        },
+        {
+          "title": "ChatGPT usage-to-value analytics",
+          "url": "https://openai.com/index/how-to-connect-ai-usage-to-business-value/",
+          "source_type": "product",
+          "published_or_updated": "2026-09-16",
+          "why_selected": "Fresh or materially updated primary-source signal with a bounded practical experiment.",
+          "usefulness": "Turn Buildn client pilots into workflow scorecards with baseline, AI-assisted change, review cost, and accepted outcome."
+        },
+        {
+          "title": "Cost and quality in auto model selection",
+          "url": "https://github.blog/changelog/2026-09-14-configure-cost-and-quality-in-copilot-auto-model-selection",
+          "source_type": "release",
+          "published_or_updated": "2026-09-14",
+          "why_selected": "Fresh or materially updated primary-source signal with a bounded practical experiment.",
+          "usefulness": "Add route policy to agent jobs: fast/cheap for extraction, stronger models for synthesis or repair."
+        },
+        {
+          "title": "VS Code agents in usage metrics",
+          "url": "https://github.blog/changelog/2026-09-11-add-vs-code-agents-to-copilot-usage-metrics",
+          "source_type": "measurement",
+          "published_or_updated": "2026-09-11",
+          "why_selected": "Fresh or materially updated primary-source signal with a bounded practical experiment.",
+          "usefulness": "Use repository-level telemetry as one input to Buildn delivery reviews, not as a productivity proxy."
+        },
+        {
+          "title": "Enterprise-managed permissions for agent operations",
+          "url": "https://github.blog/changelog/2026-09-09-enterprise-managed-permissions-for-github-copilot-agent-operations",
+          "source_type": "governance",
+          "published_or_updated": "2026-09-09",
+          "why_selected": "Fresh or materially updated primary-source signal with a bounded practical experiment.",
+          "usefulness": "Separate agent builder, approver, and repository owner roles in client operating models."
+        }
+      ]
+    },
+    {
+      "slug": "model-misalignment-reporting",
+      "title": "Model Misalignment Reporting",
+      "selection_rationale": "Fresh primary-source signal with direct Buildn/client trial value; rotated away from yesterday’s GitHub governance, persistent workspaces, and edge-runtime security lanes.",
+      "sources": [
+        {
+          "title": "Framework for reporting model misalignment",
+          "url": "https://openai.com/index/model-misalignment-reporting-framework/",
+          "source_type": "safety",
+          "published_or_updated": "2026-09-16",
+          "why_selected": "Fresh or materially updated primary-source signal with a bounded practical experiment.",
+          "usefulness": "Create a Buildn incident template: trigger, model/version, tools, context, observed behavior, safeguards, impact, and mitigation state."
+        },
+        {
+          "title": "Self-generated instructions in summaries",
+          "url": "https://alignment.openai.com/misalignment-reports/self-generated-prompt-injections-in-compaction-summaries/",
+          "source_type": "incident",
+          "published_or_updated": "2026-09-16",
+          "why_selected": "Fresh or materially updated primary-source signal with a bounded practical experiment.",
+          "usefulness": "Treat summaries as untrusted state; label provenance and re-validate instructions after context rollover."
+        },
+        {
+          "title": "Instructions to conceal mistakes",
+          "url": "https://alignment.openai.com/misalignment-reports/encouraging-deception-in-compaction-summaries/",
+          "source_type": "incident",
+          "published_or_updated": "2026-09-16",
+          "why_selected": "Fresh or materially updated primary-source signal with a bounded practical experiment.",
+          "usefulness": "Make durable state editable, attributable, and visible to the operator; never let the agent be sole author of its recovery record."
+        }
+      ]
+    },
+    {
+      "slug": "realtime-voice-interfaces",
+      "title": "Realtime Voice + Multimodal Interfaces",
+      "selection_rationale": "Fresh primary-source signal with direct Buildn/client trial value; rotated away from yesterday’s GitHub governance, persistent workspaces, and edge-runtime security lanes.",
+      "sources": [
+        {
+          "title": "Gemini 3.8 Live",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/",
+          "source_type": "model",
+          "published_or_updated": "2026-09-15",
+          "why_selected": "Fresh or materially updated primary-source signal with a bounded practical experiment.",
+          "usefulness": "Prototype a client intake or troubleshooting flow with explicit spoken acknowledgement and tool status."
+        },
+        {
+          "title": "Live Extended Thinking",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/",
+          "source_type": "model",
+          "published_or_updated": "2026-09-15",
+          "why_selected": "Fresh or materially updated primary-source signal with a bounded practical experiment.",
+          "usefulness": "Use for guided onboarding, visual review, or a voice-driven build brief that produces a reviewable artifact."
+        },
+        {
+          "title": "Gemini Live API surface",
+          "url": "https://ai.google.dev/gemini-api/docs/live-api",
+          "source_type": "developer",
+          "published_or_updated": "2026-09-15",
+          "why_selected": "Fresh or materially updated primary-source signal with a bounded practical experiment.",
+          "usefulness": "Build a thin adapter that logs transcripts, tool calls, latency, and user confirmations as separate events."
+        }
+      ]
+    },
+    {
+      "slug": "ai-native-advertising",
+      "title": "AI-Native Advertising + Commerce",
+      "selection_rationale": "Fresh primary-source signal with direct Buildn/client trial value; rotated away from yesterday’s GitHub governance, persistent workspaces, and edge-runtime security lanes.",
+      "sources": [
+        {
+          "title": "Sponsored Agents",
+          "url": "https://openai.com/index/reimagining-advertising-with-ai/",
+          "source_type": "product",
+          "published_or_updated": "2026-09-16",
+          "why_selected": "Fresh or materially updated primary-source signal with a bounded practical experiment.",
+          "usefulness": "Design client campaign experiences that answer bounded questions and route qualified intent to a human or owned workflow."
+        },
+        {
+          "title": "Natural-language Ads Manager",
+          "url": "https://openai.com/index/reimagining-advertising-with-ai/",
+          "source_type": "workflow",
+          "published_or_updated": "2026-09-16",
+          "why_selected": "Fresh or materially updated primary-source signal with a bounded practical experiment.",
+          "usefulness": "Offer a brief-to-campaign pipeline that generates drafts, evidence links, and approval checkpoints rather than auto-publishing."
+        },
+        {
+          "title": "HubSpot integration",
+          "url": "https://hubs.la/Q04tW3sT0",
+          "source_type": "integration",
+          "published_or_updated": "2026-09-16",
+          "why_selected": "Fresh or materially updated primary-source signal with a bounded practical experiment.",
+          "usefulness": "Map campaign → conversation → consent → lead → follow-up as an auditable client workflow."
+        },
+        {
+          "title": "Shopify ChatGPT Ads app",
+          "url": "https://apps.shopify.com/chatgptads",
+          "source_type": "commerce",
+          "published_or_updated": "2026-09-16",
+          "why_selected": "Fresh or materially updated primary-source signal with a bounded practical experiment.",
+          "usefulness": "Audit catalog completeness, product eligibility, and post-click attribution before piloting agentic commerce."
+        }
+      ]
+    }
+  ]
+}

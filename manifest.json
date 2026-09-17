@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-09-16T08:05:24.850726+00:00",
+  "updated_at": "2026-09-17T08:05:17.946241+00:00",
   "days": [
+    {
+      "date": "2026-09-17",
+      "path": "2026-09-17",
+      "reports": [
+        {
+          "lane": "ai-spend-and-outcomes",
+          "title": "AI Spend + Outcome Controls",
+          "url": "2026-09-17/ai-spend-and-outcomes.html"
+        },
+        {
+          "lane": "model-misalignment-reporting",
+          "title": "Model Misalignment Reporting",
+          "url": "2026-09-17/model-misalignment-reporting.html"
+        },
+        {
+          "lane": "realtime-voice-interfaces",
+          "title": "Realtime Voice + Multimodal Interfaces",
+          "url": "2026-09-17/realtime-voice-interfaces.html"
+        },
+        {
+          "lane": "ai-native-advertising",
+          "title": "AI-Native Advertising + Commerce",
+          "url": "2026-09-17/ai-native-advertising.html"
+        }
+      ]
+    },
     {
       "date": "2026-09-16",
       "path": "2026-09-16",
