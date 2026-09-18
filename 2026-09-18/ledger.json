@@ -1,0 +1,195 @@
+{
+  "date": "2026-09-18",
+  "generated_at": "2026-09-18T08:04:59.085454+00:00",
+  "editorial_thesis": "The useful frontier is shifting from “can an agent do it?” to “can we measure, isolate, port, and govern the work?”",
+  "topic_groups": [
+    {
+      "slug": "agent-adoption-measurement",
+      "title": "Agent Adoption + Outcome Measurement",
+      "selection_rationale": "Fresh GitHub telemetry turns agent adoption from prompt volume into feature-level, rolling-window evidence; this fills a measurement gap after yesterday’s spend and governance coverage.",
+      "sources": [
+        {
+          "title": "Copilot impact dashboard feature engagement",
+          "url": "https://github.blog/changelog/2026-09-17-copilot-impact-dashboard-now-shows-feature-engagement/",
+          "source_type": "release",
+          "published_or_updated": "2026-09-17",
+          "why_selected": "Fresh primary-source signal with a bounded practical experiment.",
+          "usefulness": "Use feature adoption as a leading indicator, then pair it with accepted outcomes, review time, and rework."
+        },
+        {
+          "title": "Agentic CLI customizations in usage metrics API",
+          "url": "https://github.blog/changelog/2026-09-17-agentic-cli-customizations-now-in-the-usage-metrics-api",
+          "source_type": "release",
+          "published_or_updated": "2026-09-17",
+          "why_selected": "Fresh primary-source signal with a bounded practical experiment.",
+          "usefulness": "Create a monthly “what became reusable?” review for Buildn agent workflows and client enablement."
+        },
+        {
+          "title": "Copilot budget increase requests",
+          "url": "https://github.blog/changelog/2026-09-16-copilot-budget-increase-requests-are-generally-available/",
+          "source_type": "release",
+          "published_or_updated": "2026-09-17",
+          "why_selected": "Fresh primary-source signal with a bounded practical experiment.",
+          "usefulness": "Use the same pattern for agent jobs: cap, exception reason, approver, revised cap, and audit event."
+        },
+        {
+          "title": "ChatGPT usage-to-value analytics",
+          "url": "https://openai.com/index/how-to-connect-ai-usage-to-business-value",
+          "source_type": "product",
+          "published_or_updated": "2026-09-17",
+          "why_selected": "Fresh primary-source signal with a bounded practical experiment.",
+          "usefulness": "Define pilot scorecards around accepted deliverables, cycle time, and human review burden."
+        },
+        {
+          "title": "VS Code agents in usage metrics",
+          "url": "https://github.blog/changelog/2026-09-11-add-vs-code-agents-to-copilot-usage-metrics",
+          "source_type": "measurement",
+          "published_or_updated": "2026-09-17",
+          "why_selected": "Fresh primary-source signal with a bounded practical experiment.",
+          "usefulness": "Add repository-level telemetry to delivery reviews without turning it into an individual productivity score."
+        }
+      ]
+    },
+    {
+      "slug": "evaluation-sandboxes",
+      "title": "Evaluation Sandboxes + Reproducible Trials",
+      "selection_rationale": "Vercel’s Harbor integration makes isolated, parallel agent trials practical; it is a concrete next step from recent evaluation-harness and safe-execution coverage.",
+      "sources": [
+        {
+          "title": "Harbor evals on Vercel Sandbox",
+          "url": "https://vercel.com/changelog/run-terminal-bench-and-other-harbor-evals-on-vercel-sandbox",
+          "source_type": "release",
+          "published_or_updated": "2026-09-17",
+          "why_selected": "Fresh primary-source signal with a bounded practical experiment.",
+          "usefulness": "Run a small Buildn eval pack against two models with identical tasks, artifacts, and acceptance checks."
+        },
+        {
+          "title": "Harbor framework",
+          "url": "https://harborframework.com/",
+          "source_type": "docs",
+          "published_or_updated": "2026-09-17",
+          "why_selected": "Fresh primary-source signal with a bounded practical experiment.",
+          "usefulness": "Keep benchmark definitions portable so a client trial is not trapped in one provider."
+        },
+        {
+          "title": "Terminal-Bench",
+          "url": "https://www.tbench.ai/",
+          "source_type": "benchmark",
+          "published_or_updated": "2026-09-17",
+          "why_selected": "Fresh primary-source signal with a bounded practical experiment.",
+          "usefulness": "Use it as a sanity check for shell-heavy workflows and recovery behavior."
+        },
+        {
+          "title": "Vercel Sandbox",
+          "url": "https://vercel.com/docs/sandbox",
+          "source_type": "docs",
+          "published_or_updated": "2026-09-17",
+          "why_selected": "Fresh primary-source signal with a bounded practical experiment.",
+          "usefulness": "Adopt “artifact out, credential scope in” as the default shape for agent experiments."
+        },
+        {
+          "title": "AI Gateway model switching",
+          "url": "https://vercel.com/docs/ai-gateway",
+          "source_type": "docs",
+          "published_or_updated": "2026-09-17",
+          "why_selected": "Fresh primary-source signal with a bounded practical experiment.",
+          "usefulness": "Compare latency, cost, repair rate, and accepted result—not just pass rate."
+        }
+      ]
+    },
+    {
+      "slug": "portable-agent-skills",
+      "title": "Portable Agent Skills + Knowledge Workspaces",
+      "selection_rationale": "Notion-hosted skills make operational knowledge installable across agents without a Git repository; this opens a practical bridge between personal knowledge systems and governed client workflows.",
+      "sources": [
+        {
+          "title": "Skills CLI adds Notion hosted skills",
+          "url": "https://vercel.com/changelog/skills-cli-notion-skills",
+          "source_type": "release",
+          "published_or_updated": "2026-09-17",
+          "why_selected": "Fresh primary-source signal with a bounded practical experiment.",
+          "usefulness": "Turn Buildn playbooks into versioned, reviewable skill pages and test them in multiple agent runtimes."
+        },
+        {
+          "title": "Notion Agent Skills API",
+          "url": "https://developers.notion.com/guides/agent-skills/overview",
+          "source_type": "docs",
+          "published_or_updated": "2026-09-17",
+          "why_selected": "Fresh primary-source signal with a bounded practical experiment.",
+          "usefulness": "Separate durable method from runtime: author once, install into the agent that owns execution."
+        },
+        {
+          "title": "Skills CLI",
+          "url": "https://github.com/vercel-labs/skills",
+          "source_type": "repo",
+          "published_or_updated": "2026-09-17",
+          "why_selected": "Fresh primary-source signal with a bounded practical experiment.",
+          "usefulness": "Create a tiny “report review” and “source ledger” skill, then test portability."
+        },
+        {
+          "title": "Notion permissions",
+          "url": "https://developers.notion.com/docs/authorization",
+          "source_type": "docs",
+          "published_or_updated": "2026-09-17",
+          "why_selected": "Fresh primary-source signal with a bounded practical experiment.",
+          "usefulness": "Make access to a skill an explicit workspace permission rather than an invisible prompt convention."
+        },
+        {
+          "title": "Agent Skills overview",
+          "url": "https://agentskills.io/",
+          "source_type": "docs",
+          "published_or_updated": "2026-09-17",
+          "why_selected": "Fresh primary-source signal with a bounded practical experiment.",
+          "usefulness": "Use stable inputs, outputs, and test fixtures so the skill is inspectable before adoption."
+        }
+      ]
+    },
+    {
+      "slug": "agent-ready-web-and-specialized-workflows",
+      "title": "Agent-Ready Web + Specialized Workflows",
+      "selection_rationale": "Two fresh product signals show the interface is moving beyond chat: publishers can distinguish training from search, while domain workflows package specialized retrieval and human review.",
+      "sources": [
+        {
+          "title": "Disallow AI Training for mixed-use crawlers",
+          "url": "https://blog.cloudflare.com/accountable-mixed-use-ai-crawlers/",
+          "source_type": "product",
+          "published_or_updated": "2026-09-17",
+          "why_selected": "Fresh primary-source signal with a bounded practical experiment.",
+          "usefulness": "Add an agent-access policy review to client web work: search, training, and user-directed agents are different audiences."
+        },
+        {
+          "title": "Accountable crawler designation",
+          "url": "https://blog.cloudflare.com/accountable-mixed-use-ai-crawlers/",
+          "source_type": "policy",
+          "published_or_updated": "2026-09-17",
+          "why_selected": "Fresh primary-source signal with a bounded practical experiment.",
+          "usefulness": "Treat content rights and machine discoverability as separate product decisions."
+        },
+        {
+          "title": "Astra for Law",
+          "url": "https://openai.com/index/astra-for-law/",
+          "source_type": "product",
+          "published_or_updated": "2026-09-17",
+          "why_selected": "Fresh primary-source signal with a bounded practical experiment.",
+          "usefulness": "Generalize the pattern for clients: domain retrieval + workflow instructions + governance + reviewable sources."
+        },
+        {
+          "title": "Cooley GO Public",
+          "url": "https://openai.com/index/cooley-gopublic/",
+          "source_type": "case study",
+          "published_or_updated": "2026-09-17",
+          "why_selected": "Fresh primary-source signal with a bounded practical experiment.",
+          "usefulness": "Use “client-first context, precedent second” for strategy briefs, audits, and discovery work."
+        },
+        {
+          "title": "Agent Readiness score",
+          "url": "https://blog.cloudflare.com/agent-readiness/",
+          "source_type": "product",
+          "published_or_updated": "2026-09-17",
+          "why_selected": "Fresh primary-source signal with a bounded practical experiment.",
+          "usefulness": "Offer a short preflight: structured facts, typed actions, accessible content, and safe handoff paths."
+        }
+      ]
+    }
+  ]
+}

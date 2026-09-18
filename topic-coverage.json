@@ -154,9 +154,9 @@
       "last_covered": "2026-07-23"
     },
     "agent-adoption-measurement": {
-      "title": "Agent Adoption Measurement",
-      "times_covered": 1,
-      "last_covered": "2026-07-23"
+      "title": "Agent Adoption + Outcome Measurement",
+      "times_covered": 2,
+      "last_covered": "2026-09-18"
     },
     "mcp-portability": {
       "title": "MCP Portability + Agent Extensions",
@@ -943,6 +943,21 @@
       "title": "AI-Native Advertising + Commerce",
       "times_covered": 1,
       "last_covered": "2026-09-17"
+    },
+    "evaluation-sandboxes": {
+      "title": "Evaluation Sandboxes + Reproducible Trials",
+      "times_covered": 1,
+      "last_covered": "2026-09-18"
+    },
+    "portable-agent-skills": {
+      "title": "Portable Agent Skills + Knowledge Workspaces",
+      "times_covered": 1,
+      "last_covered": "2026-09-18"
+    },
+    "agent-ready-web-and-specialized-workflows": {
+      "title": "Agent-Ready Web + Specialized Workflows",
+      "times_covered": 1,
+      "last_covered": "2026-09-18"
     }
   },
   "item_history": [
@@ -2290,6 +2305,166 @@
       "published_or_updated": "2026-09-16",
       "selection_rationale": "Fresh or materially updated primary-source signal with a bounded practical experiment.",
       "usefulness": "Audit catalog completeness, product eligibility, and post-click attribution before piloting agentic commerce."
+    },
+    {
+      "date": "2026-09-18",
+      "topic": "agent-adoption-measurement",
+      "title": "Copilot impact dashboard feature engagement",
+      "url": "https://github.blog/changelog/2026-09-17-copilot-impact-dashboard-now-shows-feature-engagement/",
+      "source_type": "release",
+      "rationale": "Use feature adoption as a leading indicator, then pair it with accepted outcomes, review time, and rework."
+    },
+    {
+      "date": "2026-09-18",
+      "topic": "agent-adoption-measurement",
+      "title": "Agentic CLI customizations in usage metrics API",
+      "url": "https://github.blog/changelog/2026-09-17-agentic-cli-customizations-now-in-the-usage-metrics-api",
+      "source_type": "release",
+      "rationale": "Create a monthly “what became reusable?” review for Buildn agent workflows and client enablement."
+    },
+    {
+      "date": "2026-09-18",
+      "topic": "agent-adoption-measurement",
+      "title": "Copilot budget increase requests",
+      "url": "https://github.blog/changelog/2026-09-16-copilot-budget-increase-requests-are-generally-available/",
+      "source_type": "release",
+      "rationale": "Use the same pattern for agent jobs: cap, exception reason, approver, revised cap, and audit event."
+    },
+    {
+      "date": "2026-09-18",
+      "topic": "agent-adoption-measurement",
+      "title": "ChatGPT usage-to-value analytics",
+      "url": "https://openai.com/index/how-to-connect-ai-usage-to-business-value",
+      "source_type": "product",
+      "rationale": "Define pilot scorecards around accepted deliverables, cycle time, and human review burden."
+    },
+    {
+      "date": "2026-09-18",
+      "topic": "agent-adoption-measurement",
+      "title": "VS Code agents in usage metrics",
+      "url": "https://github.blog/changelog/2026-09-11-add-vs-code-agents-to-copilot-usage-metrics",
+      "source_type": "measurement",
+      "rationale": "Add repository-level telemetry to delivery reviews without turning it into an individual productivity score."
+    },
+    {
+      "date": "2026-09-18",
+      "topic": "evaluation-sandboxes",
+      "title": "Harbor evals on Vercel Sandbox",
+      "url": "https://vercel.com/changelog/run-terminal-bench-and-other-harbor-evals-on-vercel-sandbox",
+      "source_type": "release",
+      "rationale": "Run a small Buildn eval pack against two models with identical tasks, artifacts, and acceptance checks."
+    },
+    {
+      "date": "2026-09-18",
+      "topic": "evaluation-sandboxes",
+      "title": "Harbor framework",
+      "url": "https://harborframework.com/",
+      "source_type": "docs",
+      "rationale": "Keep benchmark definitions portable so a client trial is not trapped in one provider."
+    },
+    {
+      "date": "2026-09-18",
+      "topic": "evaluation-sandboxes",
+      "title": "Terminal-Bench",
+      "url": "https://www.tbench.ai/",
+      "source_type": "benchmark",
+      "rationale": "Use it as a sanity check for shell-heavy workflows and recovery behavior."
+    },
+    {
+      "date": "2026-09-18",
+      "topic": "evaluation-sandboxes",
+      "title": "Vercel Sandbox",
+      "url": "https://vercel.com/docs/sandbox",
+      "source_type": "docs",
+      "rationale": "Adopt “artifact out, credential scope in” as the default shape for agent experiments."
+    },
+    {
+      "date": "2026-09-18",
+      "topic": "evaluation-sandboxes",
+      "title": "AI Gateway model switching",
+      "url": "https://vercel.com/docs/ai-gateway",
+      "source_type": "docs",
+      "rationale": "Compare latency, cost, repair rate, and accepted result—not just pass rate."
+    },
+    {
+      "date": "2026-09-18",
+      "topic": "portable-agent-skills",
+      "title": "Skills CLI adds Notion hosted skills",
+      "url": "https://vercel.com/changelog/skills-cli-notion-skills",
+      "source_type": "release",
+      "rationale": "Turn Buildn playbooks into versioned, reviewable skill pages and test them in multiple agent runtimes."
+    },
+    {
+      "date": "2026-09-18",
+      "topic": "portable-agent-skills",
+      "title": "Notion Agent Skills API",
+      "url": "https://developers.notion.com/guides/agent-skills/overview",
+      "source_type": "docs",
+      "rationale": "Separate durable method from runtime: author once, install into the agent that owns execution."
+    },
+    {
+      "date": "2026-09-18",
+      "topic": "portable-agent-skills",
+      "title": "Skills CLI",
+      "url": "https://github.com/vercel-labs/skills",
+      "source_type": "repo",
+      "rationale": "Create a tiny “report review” and “source ledger” skill, then test portability."
+    },
+    {
+      "date": "2026-09-18",
+      "topic": "portable-agent-skills",
+      "title": "Notion permissions",
+      "url": "https://developers.notion.com/docs/authorization",
+      "source_type": "docs",
+      "rationale": "Make access to a skill an explicit workspace permission rather than an invisible prompt convention."
+    },
+    {
+      "date": "2026-09-18",
+      "topic": "portable-agent-skills",
+      "title": "Agent Skills overview",
+      "url": "https://agentskills.io/",
+      "source_type": "docs",
+      "rationale": "Use stable inputs, outputs, and test fixtures so the skill is inspectable before adoption."
+    },
+    {
+      "date": "2026-09-18",
+      "topic": "agent-ready-web-and-specialized-workflows",
+      "title": "Disallow AI Training for mixed-use crawlers",
+      "url": "https://blog.cloudflare.com/accountable-mixed-use-ai-crawlers/",
+      "source_type": "product",
+      "rationale": "Add an agent-access policy review to client web work: search, training, and user-directed agents are different audiences."
+    },
+    {
+      "date": "2026-09-18",
+      "topic": "agent-ready-web-and-specialized-workflows",
+      "title": "Accountable crawler designation",
+      "url": "https://blog.cloudflare.com/accountable-mixed-use-ai-crawlers/",
+      "source_type": "policy",
+      "rationale": "Treat content rights and machine discoverability as separate product decisions."
+    },
+    {
+      "date": "2026-09-18",
+      "topic": "agent-ready-web-and-specialized-workflows",
+      "title": "Astra for Law",
+      "url": "https://openai.com/index/astra-for-law/",
+      "source_type": "product",
+      "rationale": "Generalize the pattern for clients: domain retrieval + workflow instructions + governance + reviewable sources."
+    },
+    {
+      "date": "2026-09-18",
+      "topic": "agent-ready-web-and-specialized-workflows",
+      "title": "Cooley GO Public",
+      "url": "https://openai.com/index/cooley-gopublic/",
+      "source_type": "case study",
+      "rationale": "Use “client-first context, precedent second” for strategy briefs, audits, and discovery work."
+    },
+    {
+      "date": "2026-09-18",
+      "topic": "agent-ready-web-and-specialized-workflows",
+      "title": "Agent Readiness score",
+      "url": "https://blog.cloudflare.com/agent-readiness/",
+      "source_type": "product",
+      "rationale": "Offer a short preflight: structured facts, typed actions, accessible content, and safe handoff paths."
     }
   ],
   "runs": [
@@ -3667,7 +3842,7 @@
       ]
     }
   ],
-  "updated_at": "2026-09-17T08:05:16.961526+00:00",
+  "updated_at": "2026-09-18T08:05:28.310309+00:00",
   "last_run": "2026-09-17",
   "last_editorial_thesis": "Today’s strongest practical signals connect AI adoption to accountable controls: budget exceptions, misalignment evidence, realtime interaction contracts, and clearly labeled agentic commerce.",
   "coverage_history": [
@@ -8234,7 +8409,17 @@
       "last_covered": "2026-09-08"
     }
   },
-  "last_successful_run": "2026-09-17",
+  "last_successful_run": {
+    "date": "2026-09-18",
+    "generated_at": "2026-09-18T08:04:59.085454+00:00",
+    "selected_lanes": [
+      "agent-adoption-measurement",
+      "evaluation-sandboxes",
+      "portable-agent-skills",
+      "agent-ready-web-and-specialized-workflows"
+    ],
+    "selection_rationale": "Rotated from Sep 17 spend, misalignment, realtime voice, and advertising toward measurement, eval infrastructure, portable skills, and agent-ready web/domain workflows."
+  },
   "history": [
     {
       "date": "2026-09-07",

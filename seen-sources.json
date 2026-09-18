@@ -1,25 +1,105 @@
 {
-  "updated_at": "2026-09-17T08:05:17.946241+00:00",
+  "updated_at": "2026-09-18T08:09:19.489494+00:00",
   "sources": {
+    "https://github.blog/changelog/2026-09-17-copilot-impact-dashboard-now-shows-feature-engagement": {
+      "first_seen": "2026-09-18",
+      "last_seen": "2026-09-18",
+      "title": "Copilot impact dashboard feature engagement"
+    },
+    "https://github.blog/changelog/2026-09-17-agentic-cli-customizations-now-in-the-usage-metrics-api": {
+      "first_seen": "2026-09-18",
+      "last_seen": "2026-09-18",
+      "title": "Agentic CLI customizations in usage metrics API"
+    },
     "https://github.blog/changelog/2026-09-16-copilot-budget-increase-requests-are-generally-available": {
-      "first_seen": "2026-09-17",
+      "first_seen": "2026-09-18",
       "last_seen": "2026-09-17",
       "title": "Copilot budget increase requests"
     },
     "https://openai.com/index/how-to-connect-ai-usage-to-business-value": {
-      "first_seen": "2026-09-17",
+      "first_seen": "2026-09-18",
       "last_seen": "2026-09-17",
       "title": "ChatGPT usage-to-value analytics"
+    },
+    "https://github.blog/changelog/2026-09-11-add-vs-code-agents-to-copilot-usage-metrics": {
+      "first_seen": "2026-09-18",
+      "last_seen": "2026-09-13",
+      "title": "VS Code agent usage metrics"
+    },
+    "https://vercel.com/changelog/run-terminal-bench-and-other-harbor-evals-on-vercel-sandbox": {
+      "first_seen": "2026-09-18",
+      "last_seen": "2026-09-18",
+      "title": "Harbor evals on Vercel Sandbox"
+    },
+    "https://harborframework.com/": {
+      "first_seen": "2026-09-18",
+      "last_seen": "2026-09-18",
+      "title": "Harbor framework"
+    },
+    "https://www.tbench.ai/": {
+      "first_seen": "2026-09-18",
+      "last_seen": "2026-09-18",
+      "title": "Terminal-Bench"
+    },
+    "https://vercel.com/docs/sandbox": {
+      "first_seen": "2026-09-18",
+      "last_seen": "2026-09-18",
+      "title": "Vercel Sandbox"
+    },
+    "https://vercel.com/docs/ai-gateway": {
+      "first_seen": "2026-09-18",
+      "last_seen": "2026-09-18",
+      "title": "AI Gateway model switching"
+    },
+    "https://vercel.com/changelog/skills-cli-notion-skills": {
+      "first_seen": "2026-09-18",
+      "last_seen": "2026-09-18",
+      "title": "Skills CLI adds Notion hosted skills"
+    },
+    "https://developers.notion.com/guides/agent-skills/overview": {
+      "first_seen": "2026-09-18",
+      "last_seen": "2026-09-18",
+      "title": "Notion Agent Skills API"
+    },
+    "https://github.com/vercel-labs/skills": {
+      "first_seen": "2026-09-18",
+      "last_seen": "2026-09-18",
+      "title": "Skills CLI"
+    },
+    "https://developers.notion.com/docs/authorization": {
+      "first_seen": "2026-09-18",
+      "last_seen": "2026-09-18",
+      "title": "Notion permissions"
+    },
+    "https://agentskills.io/": {
+      "first_seen": "2026-09-18",
+      "last_seen": "2026-09-18",
+      "title": "Agent Skills overview"
+    },
+    "https://blog.cloudflare.com/accountable-mixed-use-ai-crawlers": {
+      "first_seen": "2026-09-18",
+      "last_seen": "2026-09-18",
+      "title": "Accountable crawler designation"
+    },
+    "https://openai.com/index/astra-for-law": {
+      "first_seen": "2026-09-18",
+      "last_seen": "2026-09-18",
+      "title": "Astra for Law"
+    },
+    "https://openai.com/index/cooley-gopublic": {
+      "first_seen": "2026-09-18",
+      "last_seen": "2026-09-18",
+      "title": "Cooley GO Public"
+    },
+    "https://blog.cloudflare.com/agent-readiness": {
+      "first_seen": "2026-09-18",
+      "last_seen": "2026-08-31",
+      "title": "Agent Readiness score"
     },
     "https://github.blog/changelog/2026-09-14-configure-cost-and-quality-in-copilot-auto-model-selection": {
       "first_seen": "2026-09-17",
       "last_seen": "2026-09-17",
       "title": "Cost and quality in auto model selection"
-    },
-    "https://github.blog/changelog/2026-09-11-add-vs-code-agents-to-copilot-usage-metrics": {
-      "first_seen": "2026-09-17",
-      "last_seen": "2026-09-13",
-      "title": "VS Code agent usage metrics"
     },
     "https://github.blog/changelog/2026-09-09-enterprise-managed-permissions-for-github-copilot-agent-operations": {
       "first_seen": "2026-09-17",
@@ -160,11 +240,6 @@
       "first_seen": "2026-09-14",
       "last_seen": "2026-09-14",
       "title": "Cosmos Reason 2 repository"
-    },
-    "https://blog.cloudflare.com/agent-readiness": {
-      "first_seen": "2026-09-13",
-      "last_seen": "2026-08-31",
-      "title": "Agent Readiness score"
     },
     "https://blog.cloudflare.com/tag/agents-week": {
       "first_seen": "2026-09-13",

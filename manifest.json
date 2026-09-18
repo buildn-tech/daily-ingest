@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-09-17T08:05:17.946241+00:00",
+  "updated_at": "2026-09-18T08:09:19.489494+00:00",
   "days": [
+    {
+      "date": "2026-09-18",
+      "path": "2026-09-18",
+      "reports": [
+        {
+          "lane": "agent-adoption-measurement",
+          "title": "Agent Adoption + Outcome Measurement",
+          "url": "2026-09-18/agent-adoption-measurement.html"
+        },
+        {
+          "lane": "evaluation-sandboxes",
+          "title": "Evaluation Sandboxes + Reproducible Trials",
+          "url": "2026-09-18/evaluation-sandboxes.html"
+        },
+        {
+          "lane": "portable-agent-skills",
+          "title": "Portable Agent Skills + Knowledge Workspaces",
+          "url": "2026-09-18/portable-agent-skills.html"
+        },
+        {
+          "lane": "agent-ready-web-and-specialized-workflows",
+          "title": "Agent-Ready Web + Specialized Workflows",
+          "url": "2026-09-18/agent-ready-web-and-specialized-workflows.html"
+        }
+      ]
+    },
     {
       "date": "2026-09-17",
       "path": "2026-09-17",
