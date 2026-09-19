@@ -1,6 +1,56 @@
 {
-  "updated_at": "2026-09-18T08:09:19.489494+00:00",
+  "updated_at": "2026-09-19T08:06:23.816196+00:00",
   "sources": {
+    "https://github.blog/changelog/2026-09-18-github-copilot-weekly-releases-september-14": {
+      "first_seen": "2026-09-19",
+      "last_seen": "2026-09-19",
+      "title": "Copilot weekly releases"
+    },
+    "https://github.blog/changelog/2026-09-18-copilot-code-review-an-improved-review-experience": {
+      "first_seen": "2026-09-19",
+      "last_seen": "2026-09-19",
+      "title": "Improved code review"
+    },
+    "https://vercel.com/changelog/v0-now-reads-npm-credentials-from-shared-environment-variables": {
+      "first_seen": "2026-09-19",
+      "last_seen": "2026-09-19",
+      "title": "Private dependencies"
+    },
+    "https://vercel.com/changelog/glm-5-3-flashx-now-available-on-ai-gateway": {
+      "first_seen": "2026-09-19",
+      "last_seen": "2026-09-19",
+      "title": "GLM 5.3 FlashX"
+    },
+    "https://vercel.com/changelog/sub-second-artifact-deployments-are-now-supported-in-vercel-cli": {
+      "first_seen": "2026-09-19",
+      "last_seen": "2026-09-19",
+      "title": "Sub-second deployments"
+    },
+    "https://arxiv.org/abs/2609.20804": {
+      "first_seen": "2026-09-19",
+      "last_seen": "2026-09-19",
+      "title": "Harness design"
+    },
+    "https://arxiv.org/abs/2609.20754": {
+      "first_seen": "2026-09-19",
+      "last_seen": "2026-09-19",
+      "title": "RAFT"
+    },
+    "https://arxiv.org/abs/2609.20455": {
+      "first_seen": "2026-09-19",
+      "last_seen": "2026-09-19",
+      "title": "SkillAA"
+    },
+    "https://arxiv.org/abs/2609.20301": {
+      "first_seen": "2026-09-19",
+      "last_seen": "2026-09-19",
+      "title": "AgentPProf"
+    },
+    "https://github.com/future-agi/future-agi": {
+      "first_seen": "2026-09-19",
+      "last_seen": "2026-09-19",
+      "title": "Future AGI features"
+    },
     "https://github.blog/changelog/2026-09-17-copilot-impact-dashboard-now-shows-feature-engagement": {
       "first_seen": "2026-09-18",
       "last_seen": "2026-09-18",

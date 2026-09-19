@@ -1,0 +1,147 @@
+{
+  "date": "2026-09-19",
+  "generated_at": "2026-09-19T08:05:53.470374+00:00",
+  "editorial_thesis": "The most useful new signal today is a shift from isolated model features toward durable operating surfaces: review state, bounded execution, fast artifact delivery, harness control, and evidence-bearing agent quality loops.",
+  "topic_groups": [
+    {
+      "slug": "agentic-code-review",
+      "title": "Agentic Code Review + Local Boundaries",
+      "selection_rationale": "GitHub is turning code review into a persistent, stateful workflow: findings survive commits, addressed comments close themselves, and agents can run inside local Dev Containers. The useful shift is not \u201cmore AI review\u201d; it is a review surface with memory, execution boundaries, and a clearer handoff into pull requests.",
+      "sources": [
+        {
+          "title": "Copilot weekly releases",
+          "url": "https://github.blog/changelog/2026-09-18-github-copilot-weekly-releases-september-14/",
+          "source_type": "release",
+          "published_or_updated": "2026-09-18",
+          "why_selected": "Teams can express a routing policy in a user-facing control without hand-picking a model for every task.",
+          "usefulness": "Translate client preferences into explicit cost/quality policies for agent runs and compare outcomes by tier."
+        },
+        {
+          "title": "Copilot weekly releases",
+          "url": "https://github.blog/changelog/2026-09-18-github-copilot-weekly-releases-september-14/",
+          "source_type": "release",
+          "published_or_updated": "2026-09-18",
+          "why_selected": "The agent inherits a reproducible project boundary instead of improvising against a workstation\u2019s ambient state.",
+          "usefulness": "Offer containerized \u201ctry this change\u201d workflows for client repos, with the environment definition committed beside the code."
+        },
+        {
+          "title": "Copilot weekly releases",
+          "url": "https://github.blog/changelog/2026-09-18-github-copilot-weekly-releases-september-14/",
+          "source_type": "release",
+          "published_or_updated": "2026-09-18",
+          "why_selected": "Production signals can enter the engineering loop with less context copying and fewer handoff gaps.",
+          "usefulness": "Prototype a Buildn incident card that links error evidence, proposed remediation, validation steps, and the resulting PR."
+        },
+        {
+          "title": "Improved code review",
+          "url": "https://github.blog/changelog/2026-09-18-copilot-code-review-an-improved-review-experience/",
+          "source_type": "release",
+          "published_or_updated": "2026-09-18",
+          "why_selected": "Review automation becomes auditable over time instead of resetting on every commit. That makes \u201cwhat remains?\u201d a first-class state.",
+          "usefulness": "Model Buildn review chains around durable findings, explicit resolution reasons, and a compact outstanding-work view."
+        }
+      ]
+    },
+    {
+      "slug": "agentic-delivery-surfaces",
+      "title": "Agentic Delivery Surfaces: Private Packages, Fast Models, Instant Pages",
+      "selection_rationale": "Vercel\u2019s September 18 updates connect three practical surfaces: agents can consume private design-system packages without exposing credentials, fast model routing is available behind one gateway, and small static artifacts can ship in under a second. Together they shorten the path from internal context to a shareable, governed output.",
+      "sources": [
+        {
+          "title": "Private dependencies",
+          "url": "https://vercel.com/changelog/v0-now-reads-npm-credentials-from-shared-environment-variables",
+          "source_type": "release",
+          "published_or_updated": "2026-09-18",
+          "why_selected": "Internal design systems become usable by an AI builder without putting registry credentials in the model context or sandbox filesystem.",
+          "usefulness": "Turn Buildn/client component libraries into safe inputs for rapid prototype generation while keeping access in the deployment environment."
+        },
+        {
+          "title": "GLM 5.3 FlashX",
+          "url": "https://vercel.com/changelog/glm-5-3-flashx-now-available-on-ai-gateway",
+          "source_type": "release",
+          "published_or_updated": "2026-09-18",
+          "why_selected": "Interactive tool loops are constrained by latency as much as by model quality; a gateway makes speed a tunable route rather than a rewrite.",
+          "usefulness": "Benchmark fast triage and UI iteration tasks against a stronger route, recording latency, cost, and completion quality."
+        },
+        {
+          "title": "Sub-second deployments",
+          "url": "https://vercel.com/changelog/sub-second-artifact-deployments-are-now-supported-in-vercel-cli",
+          "source_type": "release",
+          "published_or_updated": "2026-09-18",
+          "why_selected": "A report, prototype, or agent-generated page can move from local artifact to reviewable URL while the context is still fresh.",
+          "usefulness": "Use it for Buildn report previews, client concept links, and agent-generated evidence bundles."
+        }
+      ]
+    },
+    {
+      "slug": "agent-harness-research",
+      "title": "Agent Harness Research: Control the Loop, Not Just the Model",
+      "selection_rationale": "The September 18 research stream is unusually concrete about agent harnesses: state, release control, skill updates, profiling, and resource/performance trade-offs. The practical lesson is to evaluate the orchestration layer as a product surface, because planning information and context release can dominate the outcome.",
+      "sources": [
+        {
+          "title": "Harness design",
+          "url": "https://arxiv.org/abs/2609.20804",
+          "source_type": "paper",
+          "published_or_updated": "2026-09-18",
+          "why_selected": "It directs attention away from model leaderboard swaps and toward the tools, prompts, state, and feedback loops that shape actual work.",
+          "usefulness": "Use its framing to structure Buildn agent experiments by harness variant, not just by model name."
+        },
+        {
+          "title": "RAFT",
+          "url": "https://arxiv.org/abs/2609.20754",
+          "source_type": "paper",
+          "published_or_updated": "2026-09-18",
+          "why_selected": "Troubleshooting is where stale context, repeated symptoms, and incomplete histories make stateless retrieval brittle.",
+          "usefulness": "Shape Buildn support and incident workflows around evolving case state, not a fresh search on every turn."
+        },
+        {
+          "title": "SkillAA",
+          "url": "https://arxiv.org/abs/2609.20455",
+          "source_type": "paper",
+          "published_or_updated": "2026-09-18",
+          "why_selected": "Skills are mutable production logic; updating them without attribution or rollback turns learning into silent drift.",
+          "usefulness": "Apply versioned skill changes, targeted validation, and rollback to client-specific agent playbooks."
+        },
+        {
+          "title": "AgentPProf",
+          "url": "https://arxiv.org/abs/2609.20301",
+          "source_type": "paper",
+          "published_or_updated": "2026-09-18",
+          "why_selected": "Long tasks fail through accumulated latency, loops, and context decisions that ordinary request traces hide.",
+          "usefulness": "Instrument Buildn workflows around semantic steps: retrieval, tool choice, retries, context release, and completion."
+        }
+      ]
+    },
+    {
+      "slug": "open-agent-quality-stack",
+      "title": "Open Agent Quality Stack: One Feedback Loop, With Caution",
+      "selection_rationale": "Future AGI is an unusually broad open-source attempt to combine tracing, evaluation, simulation, guardrails, gateway routing, and optimization in one self-hostable platform. It is worth testing as a reference architecture for Buildn, but the project labels itself nightly and mixes Apache-licensed core with license-gated enterprise areas.",
+      "sources": [
+        {
+          "title": "Future AGI repository",
+          "url": "https://github.com/future-agi/future-agi",
+          "source_type": "repo",
+          "published_or_updated": "2026-09-17",
+          "why_selected": "The integrated feedback loop is the real idea: production traces can become evaluation data and guardrail improvements instead of remaining passive logs.",
+          "usefulness": "Borrow the system boundary for Buildn: connect report evidence, agent traces, review outcomes, and regression tests."
+        },
+        {
+          "title": "Future AGI features",
+          "url": "https://github.com/future-agi/future-agi#features",
+          "source_type": "repo",
+          "published_or_updated": "2026-09-17",
+          "why_selected": "A portable trace contract can keep agent workflows observable while tools and model providers change.",
+          "usefulness": "Define a minimal Buildn trace envelope that survives provider swaps: task, tool, evidence, decision, outcome."
+        },
+        {
+          "title": "Future AGI features",
+          "url": "https://github.com/future-agi/future-agi#features",
+          "source_type": "repo",
+          "published_or_updated": "2026-09-17",
+          "why_selected": "Safety controls are more useful when they are in the path of execution and leave evidence about what they blocked.",
+          "usefulness": "Prototype policy checks as visible workflow steps with a reason, threshold, and override owner."
+        }
+      ]
+    }
+  ]
+}

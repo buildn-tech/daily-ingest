@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-09-18T08:09:19.489494+00:00",
+  "updated_at": "2026-09-19T08:06:23.816196+00:00",
   "days": [
+    {
+      "date": "2026-09-19",
+      "path": "2026-09-19",
+      "reports": [
+        {
+          "lane": "agentic-code-review",
+          "title": "Agentic Code Review + Local Boundaries",
+          "url": "2026-09-19/agentic-code-review.html"
+        },
+        {
+          "lane": "agentic-delivery-surfaces",
+          "title": "Agentic Delivery Surfaces: Private Packages, Fast Models, Instant Pages",
+          "url": "2026-09-19/agentic-delivery-surfaces.html"
+        },
+        {
+          "lane": "agent-harness-research",
+          "title": "Agent Harness Research: Control the Loop, Not Just the Model",
+          "url": "2026-09-19/agent-harness-research.html"
+        },
+        {
+          "lane": "open-agent-quality-stack",
+          "title": "Open Agent Quality Stack: One Feedback Loop, With Caution",
+          "url": "2026-09-19/open-agent-quality-stack.html"
+        }
+      ]
+    },
     {
       "date": "2026-09-18",
       "path": "2026-09-18",
