@@ -1,0 +1,40 @@
+{
+  "date": "2026-09-20",
+  "generated_at": "2026-09-20T08:00:41Z",
+  "editorial_thesis": "Agent infrastructure is becoming managed, evaluation is becoming a living evidence system, and security is following the full tool-and-data call graph.",
+  "topic_groups": [
+    {
+      "slug": "agent-runtimes",
+      "title": "Agent Runtimes",
+      "selection_rationale": "Fresh managed-agent infrastructure signal with direct Buildn architecture leverage and a coverage gap versus recent code-review reports.",
+      "sources": [
+        {"title":"Introducing the Agents API","url":"https://openai.com/index/introducing-the-agents-api/","source_type":"product","published_or_updated":"2026-09-10","why_selected":"Public beta exposes durable sessions, harnesses, tools, subagents, and environments.","usefulness":"Provides a concrete runtime to prototype against while preserving Buildn-owned evidence contracts."},
+        {"title":"Agents API overview","url":"https://developers.openai.com/api/docs/guides/agents-api/overview","source_type":"docs","published_or_updated":"2026-09-10","why_selected":"Defines Agent, Environment, Session, and Events/Items as explicit primitives.","usefulness":"Useful vocabulary for Buildn job state, recovery, and operator UX."},
+        {"title":"HarnessDev","url":"https://arxiv.org/html/2609.01437v1","source_type":"paper","published_or_updated":"2026-09-01","why_selected":"Evaluates agents that create and evolve the harness itself.","usefulness":"Supports treating harnesses as versioned software artifacts."},
+        {"title":"The Unreliable Progress Bar","url":"https://arxiv.org/html/2609.08589v1","source_type":"paper","published_or_updated":"2026-09-08","why_selected":"Tests whether agents can report execution progress reliably.","usefulness":"Supports evidence-based milestone UX instead of model-authored percentages."}
+      ]
+    },
+    {
+      "slug": "evaluation-radar",
+      "title": "Evaluation Radar",
+      "selection_rationale": "Measurement is under-covered recently and the current research offers practical provenance, reliability, and continuity patterns.",
+      "sources": [
+        {"title":"Benchmark Radar","url":"https://arxiv.org/html/2609.11115v2","source_type":"paper","published_or_updated":"2026-09-13","why_selected":"Living catalog and search engine for benchmark artifacts and score provenance.","usefulness":"Can seed a maintained evaluation library for Buildn and client work."},
+        {"title":"DAREBench","url":"https://arxiv.org/html/2609.06059v1","source_type":"paper","published_or_updated":"2026-09-06","why_selected":"Frames evaluation around deployment-aware and reliable execution.","usefulness":"Adds operational constraints to capability testing."},
+        {"title":"Persistent identity benchmark","url":"https://arxiv.org/html/2609.13637v1","source_type":"paper","published_or_updated":"2026-09-05","why_selected":"Benchmarks identity continuity in deployed agents.","usefulness":"Useful for safe memory and cross-session invariants."},
+        {"title":"Mapping benchmark design","url":"https://arxiv.org/html/2609.19182v1","source_type":"paper","published_or_updated":"2026-09-17","why_selected":"Maps how benchmark design choices shape conclusions.","usefulness":"Encourages explicit blind spots and task definitions."}
+      ]
+    },
+    {
+      "slug": "agent-security",
+      "title": "Agent Security + Sovereignty",
+      "selection_rationale": "Current product and threat signals make the tool/data boundary concrete for client-safe agent deployment.",
+      "sources": [
+        {"title":"Cisco AI Defense release notes","url":"https://securitydocs.cisco.com/docs/ai-def/user/168305.dita","source_type":"release","published_or_updated":"2026-09-18","why_selected":"Adds MCP inventory, runtime inspection, red teaming, and hybrid policy enforcement.","usefulness":"Offers an asset and policy taxonomy for Buildn’s own inventory."},
+        {"title":"Cisco AI Defense Python SDK","url":"https://github.com/cisco-ai-defense/ai-defense-python-sdk","source_type":"repo","published_or_updated":"2026-09-18","why_selected":"Provides application-boundary inspection for LLM, HTTP, and MCP traffic.","usefulness":"A concrete monitor/enforce experiment target."},
+        {"title":"Anthropic threat intelligence report","url":"https://anthropic.com/threat-intelligence-report-september-2026","source_type":"report","published_or_updated":"2026-09-20","why_selected":"Documents current token theft, persistence, and exfiltration behaviors.","usefulness":"Improves worker threat models beyond prompt injection alone."},
+        {"title":"Sovereign and air-gapped AI security","url":"https://investors.sentinelone.com/press-releases/news-details/2026/SentinelOne-Brings-AI-Security-to-On-Premise-Regulated-Sovereign-Self-Hosted-and-Airgapped-Environments/default.aspx","source_type":"news","published_or_updated":"2026-03-23","why_selected":"Makes residency and offline operation explicit deployment requirements.","usefulness":"Supports client architecture options for local and disconnected evidence paths."}
+      ]
+    }
+  ]
+}

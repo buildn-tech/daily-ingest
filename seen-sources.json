@@ -1,6 +1,66 @@
 {
-  "updated_at": "2026-09-19T08:06:23.816196+00:00",
+  "updated_at": "2026-09-20T08:09:07.042068+00:00",
   "sources": {
+    "https://openai.com/index/introducing-the-agents-api": {
+      "first_seen": "2026-09-20",
+      "last_seen": "2026-09-20",
+      "title": "Introducing the Agents API"
+    },
+    "https://developers.openai.com/api/docs/guides/agents-api/overview": {
+      "first_seen": "2026-09-20",
+      "last_seen": "2026-09-20",
+      "title": "Agents API overview"
+    },
+    "https://arxiv.org/html/2609.01437v1": {
+      "first_seen": "2026-09-20",
+      "last_seen": "2026-09-20",
+      "title": "HarnessDev"
+    },
+    "https://arxiv.org/html/2609.08589v1": {
+      "first_seen": "2026-09-20",
+      "last_seen": "2026-09-20",
+      "title": "The Unreliable Progress Bar"
+    },
+    "https://arxiv.org/html/2609.11115v2": {
+      "first_seen": "2026-09-20",
+      "last_seen": "2026-09-20",
+      "title": "Benchmark Radar"
+    },
+    "https://arxiv.org/html/2609.06059v1": {
+      "first_seen": "2026-09-20",
+      "last_seen": "2026-09-20",
+      "title": "DAREBench"
+    },
+    "https://arxiv.org/html/2609.13637v1": {
+      "first_seen": "2026-09-20",
+      "last_seen": "2026-09-20",
+      "title": "Persistent identity benchmark"
+    },
+    "https://arxiv.org/html/2609.19182v1": {
+      "first_seen": "2026-09-20",
+      "last_seen": "2026-09-20",
+      "title": "Mapping benchmark design"
+    },
+    "https://securitydocs.cisco.com/docs/ai-def/user/168305.dita": {
+      "first_seen": "2026-09-20",
+      "last_seen": "2026-08-15",
+      "title": "Cisco AI Defense 2026.8.1"
+    },
+    "https://github.com/cisco-ai-defense/ai-defense-python-sdk": {
+      "first_seen": "2026-09-20",
+      "last_seen": "2026-09-20",
+      "title": "Cisco AI Defense Python SDK"
+    },
+    "https://anthropic.com/threat-intelligence-report-september-2026": {
+      "first_seen": "2026-09-20",
+      "last_seen": "2026-09-20",
+      "title": "Anthropic threat intelligence report"
+    },
+    "https://investors.sentinelone.com/press-releases/news-details/2026/SentinelOne-Brings-AI-Security-to-On-Premise-Regulated-Sovereign-Self-Hosted-and-Airgapped-Environments/default.aspx": {
+      "first_seen": "2026-09-20",
+      "last_seen": "2026-09-20",
+      "title": "Sovereign and air-gapped AI security"
+    },
     "https://github.blog/changelog/2026-09-18-github-copilot-weekly-releases-september-14": {
       "first_seen": "2026-09-19",
       "last_seen": "2026-09-19",
@@ -265,11 +325,6 @@
       "first_seen": "2026-09-14",
       "last_seen": "2026-09-14",
       "title": "Agentic Internet bot report"
-    },
-    "https://securitydocs.cisco.com/docs/ai-def/user/168305.dita": {
-      "first_seen": "2026-09-14",
-      "last_seen": "2026-08-15",
-      "title": "Cisco AI Defense 2026.8.1"
     },
     "https://nvidianews.nvidia.com/news/nvidia-releases-new-physical-ai-models-as-global-partners-unveil-next-generation-robots": {
       "first_seen": "2026-09-14",

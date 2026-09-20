@@ -3,6 +3,21 @@
   "initialized_at": "2026-07-14T11:03:50.128086+00:00",
   "purpose": "Rolling coverage memory for the adaptive daily ingest. Used to avoid repeated sources/themes and to rotate toward coverage gaps.",
   "rolling_theme_summary": {
+    "agent-runtimes": {
+      "title": "Agent Runtimes",
+      "times_covered": 1,
+      "last_covered": "2026-09-20"
+    },
+    "evaluation-radar": {
+      "title": "Evaluation Radar",
+      "times_covered": 1,
+      "last_covered": "2026-09-20"
+    },
+    "agent-security": {
+      "title": "Agent Security + Sovereignty",
+      "times_covered": 1,
+      "last_covered": "2026-09-20"
+    },
     "open-source-coding": {
       "title": "Open Source + Coding Agents",
       "times_covered": 7,
@@ -8993,6 +9008,19 @@
         }
       ],
       "selection_rationale": "The most useful new signal today is a shift from isolated model features toward durable operating surfaces: review state, bounded execution, fast artifact delivery, harness control, and evidence-bearing agent quality loops."
+    },
+    {
+      "date": "2026-09-20",
+      "selected_lanes": ["agent-runtimes", "evaluation-radar", "agent-security"],
+      "items": [
+        {"title":"Introducing the Agents API","url":"https://openai.com/index/introducing-the-agents-api/","source_type":"product","rationale":"Managed durable sessions make generic orchestration rentable while Buildn can own domain tools and evidence."},
+        {"title":"Benchmark Radar","url":"https://arxiv.org/html/2609.11115v2","source_type":"paper","rationale":"A living catalog makes evaluation discovery and provenance maintainable instead of ad hoc."},
+        {"title":"Cisco AI Defense release notes","url":"https://securitydocs.cisco.com/docs/ai-def/user/168305.dita","source_type":"release","rationale":"MCP inventory and runtime inspection make the agent security boundary operational."},
+        {"title":"HarnessDev","url":"https://arxiv.org/html/2609.01437v1","source_type":"paper","rationale":"Harnesses should be evaluated as persistent software artifacts across models and held-out tasks."},
+        {"title":"Cisco AI Defense Python SDK","url":"https://github.com/cisco-ai-defense/ai-defense-python-sdk","source_type":"repo","rationale":"Application-boundary inspection enables a bounded monitor-versus-enforce experiment."},
+        {"title":"Persistent identity benchmark","url":"https://arxiv.org/html/2609.13637v1","source_type":"paper","rationale":"Cross-session identity continuity is a practical memory and permission invariant."}
+      ],
+      "selection_rationale": "Rotated away from recent code-review and adoption-measurement coverage toward runtime substrate, evaluation integrity, and the security boundary around tools."
     }
   ]
 }
