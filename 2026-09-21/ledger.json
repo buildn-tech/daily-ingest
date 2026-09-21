@@ -1,0 +1,148 @@
+{
+  "date": "2026-09-21",
+  "generated_at": "2026-09-21T08:05:00Z",
+  "editorial_thesis": "The most useful new signal is operational: physical AI is closing the evidence-to-intervention loop, mobile platforms are turning security into layered defaults, and agent developers are open-sourcing the contract layer around tools and SDKs.",
+  "topic_groups": [
+    {
+      "slug": "physical-ai-operations",
+      "title": "Physical AI Operations",
+      "selection_rationale": "A fresh deployment-oriented signal: robotics tooling is moving from lab visualization toward agentic data triage, remote intervention, and auditable learning loops.",
+      "sources": [
+        {
+          "title": "Agentic Data Platform for Physical AI",
+          "url": "https://foxglove.dev/blog/introducing-the-agentic-data-platform-for-physical-ai",
+          "source_type": "release",
+          "published_or_updated": "2026-08-18",
+          "why_selected": "Unifies collection, search, comparison, curation, and agent-assisted reasoning over multimodal robot data.",
+          "usefulness": "Prototype an evidence-backed incident workspace: every answer cites topic, timestamp, or schema; every proposed dataset change is reviewable."
+        },
+        {
+          "title": "Foxglove goes agentic",
+          "url": "https://foxglove.dev/blog/foxglove-goes-agentic",
+          "source_type": "release",
+          "published_or_updated": "2026-08-18",
+          "why_selected": "Adds an in-app agent sidebar plus MCP so external agents can search recordings, build layouts, write scripts, and diagnose data.",
+          "usefulness": "Use MCP as a reference for controlled cross-application actions with local tools, cloud tools, skills, and evals separated."
+        },
+        {
+          "title": "Remote Visualization & Teleoperation",
+          "url": "https://foxglove.dev/blog/announcing-remote-visualization-teleoperation-private-beta",
+          "source_type": "release",
+          "published_or_updated": "2026-08-18",
+          "why_selected": "Streams live telemetry/video and supports intervention over lossy LTE, Wi-Fi, and VPN links.",
+          "usefulness": "Useful pattern for client field operations: degrade gracefully, preserve operator visibility, and keep control paths explicit."
+        },
+        {
+          "title": "Remote Access generally available",
+          "url": "https://foxglove.dev/blog/remote-access-is-generally-available",
+          "source_type": "product",
+          "published_or_updated": "2026-08-18",
+          "why_selected": "Uses device tokens, short-lived credentials, and WebRTC/SFU relaying so robots behind firewalls can be viewed and controlled.",
+          "usefulness": "Borrow the connection model for secure remote workers: outbound-only gateway, short-lived session grants, independent viewer quality."
+        },
+        {
+          "title": "Introducing Semantic Search",
+          "url": "https://foxglove.dev/blog/introducing-semantic-search",
+          "source_type": "release",
+          "published_or_updated": "2026-08-18",
+          "why_selected": "Searches image/video topics with natural-language scene descriptions and previews.",
+          "usefulness": "A model for searching Buildn\u2019s artifact corpus by behavior and outcome rather than filename or tag alone."
+        }
+      ]
+    },
+    {
+      "slug": "mobile-security-and-privacy",
+      "title": "Mobile Security + Privacy",
+      "selection_rationale": "The current Android bulletin combines an urgent patch obligation with a broader shift toward on-device detection, granular permissions, and privacy-preserving forensics.",
+      "sources": [
+        {
+          "title": "Android Security Bulletin \u2014 September 2026",
+          "url": "https://source.android.com/docs/security/bulletin/2026/2026-09-01",
+          "source_type": "bulletin",
+          "published_or_updated": "2026-09-17",
+          "why_selected": "The 2026-09-05 level addresses a critical system vulnerability enabling remote code execution without privileges or user interaction.",
+          "usefulness": "Turn patch-level evidence into a recurring client readiness check and an explicit exception queue."
+        },
+        {
+          "title": "Android Security and Privacy in 2026",
+          "url": "https://blog.google/security/whats-new-in-android-security-privacy-2026/",
+          "source_type": "official blog",
+          "published_or_updated": "2026-05-12",
+          "why_selected": "Adds live threat detection, verified financial calls, USB protection, intrusion logging, granular permissions, and hardware-backed AI privacy controls.",
+          "usefulness": "Use as a reference architecture for defense-in-depth around agent devices and sensitive personal context."
+        },
+        {
+          "title": "September Android Drop",
+          "url": "https://blog.google/products-and-platforms/platforms/android/android-drop-september-2026/",
+          "source_type": "product",
+          "published_or_updated": "2026-09-01",
+          "why_selected": "Introduces remembered items in Find Hub, Guided vision, Motion Assist, and collaborative Keep inside Messages.",
+          "usefulness": "Shows how ambient memory and multimodal assistance can be useful when scoped to a clear user task and reversible record."
+        },
+        {
+          "title": "September Pixel Drop",
+          "url": "https://blog.google/products-and-platforms/devices/pixel/september-2026-pixel-drop/",
+          "source_type": "product",
+          "published_or_updated": "2026-09-01",
+          "why_selected": "Adds Pixel-specific VIP, scam-detection, and Pixel Watch capabilities in the September release.",
+          "usefulness": "A practical reminder that security UX lands through device-level defaults and small, repeated interventions."
+        },
+        {
+          "title": "Android 17 features",
+          "url": "https://blog.google/products-and-platforms/platforms/android/android-17-features/",
+          "source_type": "product",
+          "published_or_updated": "2026-08-20",
+          "why_selected": "Combines temporary location/contact access, theft recovery, stronger PIN throttling, and expanded threat detection.",
+          "usefulness": "Translate temporary access and recovery modes into agent permissions that expire by task, not by vague role."
+        }
+      ]
+    },
+    {
+      "slug": "open-agent-developer-infrastructure",
+      "title": "Open Agent Developer Infrastructure",
+      "selection_rationale": "A neglected infrastructure lane earned inclusion because fresh Google and GitHub releases expose a practical boundary: use agents for customization, but keep formal interfaces deterministic and inspectable.",
+      "sources": [
+        {
+          "title": "Why client SDK generation belongs in the open",
+          "url": "https://developers.googleblog.com/why-client-sdk-generation-belongs-in-the-open/",
+          "source_type": "official blog",
+          "published_or_updated": "2026-09-17",
+          "why_selected": "Google and Speakeasy open-sourced an AGPL OpenAPI generator for multi-language SDKs, agent-friendly CLIs, and documentation MCP servers.",
+          "usefulness": "A direct pattern for turning stable API contracts into tools agents can call without inventing temporary HTTP scripts."
+        },
+        {
+          "title": "Agent Anomaly Detection",
+          "url": "https://developers.googleblog.com/agent-anomaly-detection-now-in-private-preview-on-the-gemini-enterprise-agent-platform/",
+          "source_type": "preview",
+          "published_or_updated": "2026-09-16",
+          "why_selected": "Asynchronously analyzes reasoning traces, tool calls, logs, and OpenTelemetry to surface suspicious but superficially successful sessions.",
+          "usefulness": "Use the layered detector pattern: statistical scan, deeper reasoning, then reconstructed evidence and policy action."
+        },
+        {
+          "title": "The Anatomy of Harness Engineering",
+          "url": "https://developers.googleblog.com/the-anatomy-of-harness-engineering-how-to-evaluate-iterate-and-guard-ai-coding-agents/",
+          "source_type": "how-to",
+          "published_or_updated": "2026-09-09",
+          "why_selected": "Google frames coding-agent reliability as a harness problem: evaluation, iteration, guardrails, and environment design around the model.",
+          "usefulness": "Supports treating worker harnesses as versioned, testable product assets\u2014not prompt text hidden in infrastructure."
+        },
+        {
+          "title": "ADK for Kotlin 1.0",
+          "url": "https://developers.googleblog.com/announcing-adk-for-kotlin-10-building-production-ready-ai-agents-in-kotlin-android-and-beyond/",
+          "source_type": "release",
+          "published_or_updated": "2026-09-09",
+          "why_selected": "Brings production-ready agent development primitives to Kotlin, Android, and adjacent JVM workflows.",
+          "usefulness": "Useful for client work where agent interaction must live close to mobile lifecycle, identity, and device permissions."
+        },
+        {
+          "title": "Genkit Go 1.0",
+          "url": "https://developers.googleblog.com/announcing-genkit-go-10-and-enhanced-ai-assisted-development/",
+          "source_type": "release",
+          "published_or_updated": "2026-09-09",
+          "why_selected": "Makes Genkit Go a stable path for building and instrumenting AI features in Go services.",
+          "usefulness": "A credible option for small, observable worker services where low operational overhead matters."
+        }
+      ]
+    }
+  ]
+}

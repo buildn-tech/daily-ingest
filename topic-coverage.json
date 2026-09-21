@@ -988,6 +988,21 @@
       "title": "Open Agent Quality Stack: One Feedback Loop, With Caution",
       "times_covered": 1,
       "last_covered": "2026-09-19"
+    },
+    "physical-ai-operations": {
+      "title": "Physical AI Operations",
+      "times_covered": 1,
+      "last_covered": "2026-09-21"
+    },
+    "mobile-security-and-privacy": {
+      "title": "Mobile Security + Privacy",
+      "times_covered": 1,
+      "last_covered": "2026-09-21"
+    },
+    "open-agent-developer-infrastructure": {
+      "title": "Open Agent Developer Infrastructure",
+      "times_covered": 1,
+      "last_covered": "2026-09-21"
     }
   },
   "item_history": [
@@ -3869,6 +3884,106 @@
         "Natural-language Ads Manager",
         "HubSpot integration",
         "Shopify ChatGPT Ads app"
+      ]
+    },
+    {
+      "date": "2026-09-21",
+      "selected_lanes": [
+        "physical-ai-operations",
+        "mobile-security-and-privacy",
+        "open-agent-developer-infrastructure"
+      ],
+      "items": [
+        {
+          "title": "Agentic Data Platform for Physical AI",
+          "url": "https://foxglove.dev/blog/introducing-the-agentic-data-platform-for-physical-ai",
+          "source_type": "release",
+          "rationale": "Prototype an evidence-backed incident workspace: every answer cites topic, timestamp, or schema; every proposed dataset change is reviewable."
+        },
+        {
+          "title": "Foxglove goes agentic",
+          "url": "https://foxglove.dev/blog/foxglove-goes-agentic",
+          "source_type": "release",
+          "rationale": "Use MCP as a reference for controlled cross-application actions with local tools, cloud tools, skills, and evals separated."
+        },
+        {
+          "title": "Remote Visualization & Teleoperation",
+          "url": "https://foxglove.dev/blog/announcing-remote-visualization-teleoperation-private-beta",
+          "source_type": "release",
+          "rationale": "Useful pattern for client field operations: degrade gracefully, preserve operator visibility, and keep control paths explicit."
+        },
+        {
+          "title": "Remote Access generally available",
+          "url": "https://foxglove.dev/blog/remote-access-is-generally-available",
+          "source_type": "product",
+          "rationale": "Borrow the connection model for secure remote workers: outbound-only gateway, short-lived session grants, independent viewer quality."
+        },
+        {
+          "title": "Introducing Semantic Search",
+          "url": "https://foxglove.dev/blog/introducing-semantic-search",
+          "source_type": "release",
+          "rationale": "A model for searching Buildn\u2019s artifact corpus by behavior and outcome rather than filename or tag alone."
+        },
+        {
+          "title": "Android Security Bulletin \u2014 September 2026",
+          "url": "https://source.android.com/docs/security/bulletin/2026/2026-09-01",
+          "source_type": "bulletin",
+          "rationale": "Turn patch-level evidence into a recurring client readiness check and an explicit exception queue."
+        },
+        {
+          "title": "Android Security and Privacy in 2026",
+          "url": "https://blog.google/security/whats-new-in-android-security-privacy-2026/",
+          "source_type": "official blog",
+          "rationale": "Use as a reference architecture for defense-in-depth around agent devices and sensitive personal context."
+        },
+        {
+          "title": "September Android Drop",
+          "url": "https://blog.google/products-and-platforms/platforms/android/android-drop-september-2026/",
+          "source_type": "product",
+          "rationale": "Shows how ambient memory and multimodal assistance can be useful when scoped to a clear user task and reversible record."
+        },
+        {
+          "title": "September Pixel Drop",
+          "url": "https://blog.google/products-and-platforms/devices/pixel/september-2026-pixel-drop/",
+          "source_type": "product",
+          "rationale": "A practical reminder that security UX lands through device-level defaults and small, repeated interventions."
+        },
+        {
+          "title": "Android 17 features",
+          "url": "https://blog.google/products-and-platforms/platforms/android/android-17-features/",
+          "source_type": "product",
+          "rationale": "Translate temporary access and recovery modes into agent permissions that expire by task, not by vague role."
+        },
+        {
+          "title": "Why client SDK generation belongs in the open",
+          "url": "https://developers.googleblog.com/why-client-sdk-generation-belongs-in-the-open/",
+          "source_type": "official blog",
+          "rationale": "A direct pattern for turning stable API contracts into tools agents can call without inventing temporary HTTP scripts."
+        },
+        {
+          "title": "Agent Anomaly Detection",
+          "url": "https://developers.googleblog.com/agent-anomaly-detection-now-in-private-preview-on-the-gemini-enterprise-agent-platform/",
+          "source_type": "preview",
+          "rationale": "Use the layered detector pattern: statistical scan, deeper reasoning, then reconstructed evidence and policy action."
+        },
+        {
+          "title": "The Anatomy of Harness Engineering",
+          "url": "https://developers.googleblog.com/the-anatomy-of-harness-engineering-how-to-evaluate-iterate-and-guard-ai-coding-agents/",
+          "source_type": "how-to",
+          "rationale": "Supports treating worker harnesses as versioned, testable product assets\u2014not prompt text hidden in infrastructure."
+        },
+        {
+          "title": "ADK for Kotlin 1.0",
+          "url": "https://developers.googleblog.com/announcing-adk-for-kotlin-10-building-production-ready-ai-agents-in-kotlin-android-and-beyond/",
+          "source_type": "release",
+          "rationale": "Useful for client work where agent interaction must live close to mobile lifecycle, identity, and device permissions."
+        },
+        {
+          "title": "Genkit Go 1.0",
+          "url": "https://developers.googleblog.com/announcing-genkit-go-10-and-enhanced-ai-assisted-development/",
+          "source_type": "release",
+          "rationale": "A credible option for small, observable worker services where low operational overhead matters."
+        }
       ]
     }
   ],
@@ -9011,14 +9126,48 @@
     },
     {
       "date": "2026-09-20",
-      "selected_lanes": ["agent-runtimes", "evaluation-radar", "agent-security"],
+      "selected_lanes": [
+        "agent-runtimes",
+        "evaluation-radar",
+        "agent-security"
+      ],
       "items": [
-        {"title":"Introducing the Agents API","url":"https://openai.com/index/introducing-the-agents-api/","source_type":"product","rationale":"Managed durable sessions make generic orchestration rentable while Buildn can own domain tools and evidence."},
-        {"title":"Benchmark Radar","url":"https://arxiv.org/html/2609.11115v2","source_type":"paper","rationale":"A living catalog makes evaluation discovery and provenance maintainable instead of ad hoc."},
-        {"title":"Cisco AI Defense release notes","url":"https://securitydocs.cisco.com/docs/ai-def/user/168305.dita","source_type":"release","rationale":"MCP inventory and runtime inspection make the agent security boundary operational."},
-        {"title":"HarnessDev","url":"https://arxiv.org/html/2609.01437v1","source_type":"paper","rationale":"Harnesses should be evaluated as persistent software artifacts across models and held-out tasks."},
-        {"title":"Cisco AI Defense Python SDK","url":"https://github.com/cisco-ai-defense/ai-defense-python-sdk","source_type":"repo","rationale":"Application-boundary inspection enables a bounded monitor-versus-enforce experiment."},
-        {"title":"Persistent identity benchmark","url":"https://arxiv.org/html/2609.13637v1","source_type":"paper","rationale":"Cross-session identity continuity is a practical memory and permission invariant."}
+        {
+          "title": "Introducing the Agents API",
+          "url": "https://openai.com/index/introducing-the-agents-api/",
+          "source_type": "product",
+          "rationale": "Managed durable sessions make generic orchestration rentable while Buildn can own domain tools and evidence."
+        },
+        {
+          "title": "Benchmark Radar",
+          "url": "https://arxiv.org/html/2609.11115v2",
+          "source_type": "paper",
+          "rationale": "A living catalog makes evaluation discovery and provenance maintainable instead of ad hoc."
+        },
+        {
+          "title": "Cisco AI Defense release notes",
+          "url": "https://securitydocs.cisco.com/docs/ai-def/user/168305.dita",
+          "source_type": "release",
+          "rationale": "MCP inventory and runtime inspection make the agent security boundary operational."
+        },
+        {
+          "title": "HarnessDev",
+          "url": "https://arxiv.org/html/2609.01437v1",
+          "source_type": "paper",
+          "rationale": "Harnesses should be evaluated as persistent software artifacts across models and held-out tasks."
+        },
+        {
+          "title": "Cisco AI Defense Python SDK",
+          "url": "https://github.com/cisco-ai-defense/ai-defense-python-sdk",
+          "source_type": "repo",
+          "rationale": "Application-boundary inspection enables a bounded monitor-versus-enforce experiment."
+        },
+        {
+          "title": "Persistent identity benchmark",
+          "url": "https://arxiv.org/html/2609.13637v1",
+          "source_type": "paper",
+          "rationale": "Cross-session identity continuity is a practical memory and permission invariant."
+        }
       ],
       "selection_rationale": "Rotated away from recent code-review and adoption-measurement coverage toward runtime substrate, evaluation integrity, and the security boundary around tools."
     }

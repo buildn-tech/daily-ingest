@@ -1,6 +1,27 @@
 {
-  "updated_at": "2026-09-20T08:09:07.042068+00:00",
+  "updated_at": "2026-09-21T08:09:42.529182+00:00",
   "days": [
+    {
+      "date": "2026-09-21",
+      "path": "2026-09-21",
+      "reports": [
+        {
+          "lane": "physical-ai-operations",
+          "title": "Physical AI Operations",
+          "url": "2026-09-21/physical-ai-operations.html"
+        },
+        {
+          "lane": "mobile-security-and-privacy",
+          "title": "Mobile Security + Privacy",
+          "url": "2026-09-21/mobile-security-and-privacy.html"
+        },
+        {
+          "lane": "open-agent-developer-infrastructure",
+          "title": "Open Agent Developer Infrastructure",
+          "url": "2026-09-21/open-agent-developer-infrastructure.html"
+        }
+      ]
+    },
     {
       "date": "2026-09-20",
       "path": "2026-09-20",
