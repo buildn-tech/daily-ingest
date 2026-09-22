@@ -1003,6 +1003,21 @@
       "title": "Open Agent Developer Infrastructure",
       "times_covered": 1,
       "last_covered": "2026-09-21"
+    },
+    "institutional-memory-and-context-graphs": {
+      "title": "Institutional Memory + Context Graphs",
+      "times_covered": 1,
+      "last_covered": "2026-09-22"
+    },
+    "agent-security-and-identity-operations": {
+      "title": "Agent Security + Identity Operations",
+      "times_covered": 1,
+      "last_covered": "2026-09-22"
+    },
+    "agent-runtime-and-model-portability": {
+      "title": "Agent Runtime + Model Portability",
+      "times_covered": 1,
+      "last_covered": "2026-09-22"
     }
   },
   "item_history": [
@@ -3985,9 +4000,98 @@
           "rationale": "A credible option for small, observable worker services where low operational overhead matters."
         }
       ]
+    },
+    {
+      "date": "2026-09-22",
+      "selected_lanes": [
+        "institutional-memory-and-context-graphs",
+        "agent-security-and-identity-operations",
+        "agent-runtime-and-model-portability"
+      ],
+      "items": [
+        {
+          "title": "V7 gives AI agents institutional memory",
+          "url": "https://openai.com/index/v7/",
+          "source_type": "primary",
+          "rationale": "V7 Go extracts entities, relationships, facts, and citations from enterprise files into a Context Graph, with RAG as fallback."
+        },
+        {
+          "title": "Context editing + memory tool",
+          "url": "https://www.anthropic.com/news/context-management",
+          "source_type": "primary",
+          "rationale": "Anthropic separates active context cleanup from durable, developer-managed memory files."
+        },
+        {
+          "title": "Externalization in LLM Agents",
+          "url": "https://arxiv.org/html/2604.08224v1",
+          "source_type": "primary",
+          "rationale": "The review frames memory, skills, and interaction protocols as capabilities that should be externalized rather than rediscovered inside weights."
+        },
+        {
+          "title": "Now everyone can put data to work",
+          "url": "https://openai.com/index/put-data-to-work/",
+          "source_type": "primary",
+          "rationale": "OpenAI\u2019s data-workflow direction reinforces that connecting enterprise data to repeatable workflows is the practical frontier."
+        },
+        {
+          "title": "How V7 exposes context through MCP",
+          "url": "https://openai.com/index/v7/",
+          "source_type": "primary",
+          "rationale": "V7 makes graph querying and workflow creation available through MCP in ChatGPT and Codex."
+        },
+        {
+          "title": "GitHub credential inventory exports",
+          "url": "https://github.blog/changelog/2026-09-21-github-enterprise-adds-credential-inventory-exports/",
+          "source_type": "primary",
+          "rationale": "Enterprise owners can export SSH keys, PATs, OAuth tokens, and GitHub App tokens with scope, age, expiry, last-used, and target metadata."
+        },
+        {
+          "title": "Remote MCP clients with auth and namespacing",
+          "url": "https://blog.cloudflare.com/building-ai-agents-with-mcp-authn-authz-and-durable-objects/",
+          "source_type": "primary",
+          "rationale": "Cloudflare\u2019s Agents SDK adds remote MCP clients, per-server auth, capability discovery, reconnection, and namespacing."
+        },
+        {
+          "title": "Agent Access Model",
+          "url": "https://blog.cloudflare.com/agent-access-model/",
+          "source_type": "primary",
+          "rationale": "Cloudflare\u2019s task-scoped architecture emphasizes identity brokering, continuous mediation, and stateful trust for agents."
+        },
+        {
+          "title": "GitHub enterprise credential inventory API",
+          "url": "https://docs.github.com/enterprise-cloud@latest/rest/enterprise-admin/token-inventory",
+          "source_type": "primary",
+          "rationale": "The REST endpoint turns credential visibility into an automatable feed rather than a dashboard-only exercise."
+        },
+        {
+          "title": "Grok 4.7 in GitHub Copilot",
+          "url": "https://github.blog/changelog/2026-09-21-grok-4-7-is-now-available-in-github-copilot/",
+          "source_type": "primary",
+          "rationale": "Grok 4.7 is rolling out across IDEs, CLI, cloud agent, and enterprise plans with administrator model policy controls."
+        },
+        {
+          "title": "Agents API: durable sessions and environments",
+          "url": "https://openai.com/index/introducing-the-agents-api/",
+          "source_type": "primary",
+          "rationale": "OpenAI\u2019s Agents API packages agents, environments, sessions, tools, subagents, and events as runtime primitives."
+        },
+        {
+          "title": "MCP + Durable Objects + Workflows",
+          "url": "https://blog.cloudflare.com/building-ai-agents-with-mcp-authn-authz-and-durable-objects/",
+          "source_type": "primary",
+          "rationale": "The same platform combines remote MCP, hibernating stateful servers, durable objects, and long-running workflows."
+        },
+        {
+          "title": "OpenAI: connecting AI usage to business value",
+          "url": "https://openai.com/index/how-to-connect-ai-usage-to-business-value/",
+          "source_type": "primary",
+          "rationale": "The operator question is shifting from model usage to measurable business outcomes."
+        }
+      ],
+      "selection_rationale": "Fresh primary-source signals with gaps in structured context, identity operations, and portability."
     }
   ],
-  "updated_at": "2026-09-19T08:05:53.470374+00:00",
+  "updated_at": "2026-09-22T08:06:48.756486+00:00",
   "last_run": "2026-09-17",
   "last_editorial_thesis": "Today\u2019s strongest practical signals connect AI adoption to accountable controls: budget exceptions, misalignment evidence, realtime interaction contracts, and clearly labeled agentic commerce.",
   "coverage_history": [

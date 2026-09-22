@@ -1,6 +1,61 @@
 {
-  "updated_at": "2026-09-21T08:09:42.529182+00:00",
+  "updated_at": "2026-09-22T08:08:40.585506+00:00",
   "sources": {
+    "https://openai.com/index/v7": {
+      "first_seen": "2026-09-22",
+      "last_seen": "2026-09-22",
+      "title": "How V7 exposes context through MCP"
+    },
+    "https://www.anthropic.com/news/context-management": {
+      "first_seen": "2026-09-22",
+      "last_seen": "2026-09-22",
+      "title": "Context editing + memory tool"
+    },
+    "https://arxiv.org/html/2604.08224v1": {
+      "first_seen": "2026-09-22",
+      "last_seen": "2026-09-22",
+      "title": "Externalization in LLM Agents"
+    },
+    "https://openai.com/index/put-data-to-work": {
+      "first_seen": "2026-09-22",
+      "last_seen": "2026-09-22",
+      "title": "Now everyone can put data to work"
+    },
+    "https://github.blog/changelog/2026-09-21-github-enterprise-adds-credential-inventory-exports": {
+      "first_seen": "2026-09-22",
+      "last_seen": "2026-09-22",
+      "title": "GitHub credential inventory exports"
+    },
+    "https://blog.cloudflare.com/building-ai-agents-with-mcp-authn-authz-and-durable-objects": {
+      "first_seen": "2026-09-22",
+      "last_seen": "2026-09-22",
+      "title": "MCP + Durable Objects + Workflows"
+    },
+    "https://blog.cloudflare.com/agent-access-model": {
+      "first_seen": "2026-09-22",
+      "last_seen": "2026-09-22",
+      "title": "Agent Access Model"
+    },
+    "https://docs.github.com/enterprise-cloud@latest/rest/enterprise-admin/token-inventory": {
+      "first_seen": "2026-09-22",
+      "last_seen": "2026-09-22",
+      "title": "GitHub enterprise credential inventory API"
+    },
+    "https://github.blog/changelog/2026-09-21-grok-4-7-is-now-available-in-github-copilot": {
+      "first_seen": "2026-09-22",
+      "last_seen": "2026-09-22",
+      "title": "Grok 4.7 in GitHub Copilot"
+    },
+    "https://openai.com/index/introducing-the-agents-api": {
+      "first_seen": "2026-09-22",
+      "last_seen": "2026-09-20",
+      "title": "Introducing the Agents API"
+    },
+    "https://openai.com/index/how-to-connect-ai-usage-to-business-value": {
+      "first_seen": "2026-09-22",
+      "last_seen": "2026-09-17",
+      "title": "ChatGPT usage-to-value analytics"
+    },
     "https://foxglove.dev/blog/introducing-the-agentic-data-platform-for-physical-ai": {
       "first_seen": "2026-09-21",
       "last_seen": "2026-09-21",
@@ -75,11 +130,6 @@
       "first_seen": "2026-09-21",
       "last_seen": "2026-09-21",
       "title": "Genkit Go 1.0"
-    },
-    "https://openai.com/index/introducing-the-agents-api": {
-      "first_seen": "2026-09-20",
-      "last_seen": "2026-09-20",
-      "title": "Introducing the Agents API"
     },
     "https://developers.openai.com/api/docs/guides/agents-api/overview": {
       "first_seen": "2026-09-20",
@@ -200,11 +250,6 @@
       "first_seen": "2026-09-18",
       "last_seen": "2026-09-17",
       "title": "Copilot budget increase requests"
-    },
-    "https://openai.com/index/how-to-connect-ai-usage-to-business-value": {
-      "first_seen": "2026-09-18",
-      "last_seen": "2026-09-17",
-      "title": "ChatGPT usage-to-value analytics"
     },
     "https://github.blog/changelog/2026-09-11-add-vs-code-agents-to-copilot-usage-metrics": {
       "first_seen": "2026-09-18",

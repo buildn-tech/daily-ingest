@@ -1,0 +1,132 @@
+{
+  "date": "2026-09-22",
+  "generated_at": "2026-09-22T08:06:48.751274+00:00",
+  "editorial_thesis": "Durable agent systems are converging on structured context, task-scoped identity, and replaceable model workers; keep evidence, permissions, and event history in the control plane.",
+  "topic_groups": [
+    {
+      "slug": "institutional-memory-and-context-graphs",
+      "title": "Institutional Memory + Context Graphs",
+      "selection_rationale": "A fresh enterprise pattern turns memory from chat history into cited, queryable business structure\u2014an under-covered bridge between knowledge management and agent reliability.",
+      "sources": [
+        {
+          "title": "V7 gives AI agents institutional memory",
+          "url": "https://openai.com/index/v7/",
+          "source_type": "product",
+          "published_or_updated": "2026-09-21",
+          "why_selected": "V7 Go extracts entities, relationships, facts, and citations from enterprise files into a Context Graph, with RAG as fallback.",
+          "usefulness": "Prototype a source-linked artifact graph for client dossiers; every answer points back to the file or record that supports it."
+        },
+        {
+          "title": "Context editing + memory tool",
+          "url": "https://www.anthropic.com/news/context-management",
+          "source_type": "report",
+          "published_or_updated": "unknown",
+          "why_selected": "Anthropic separates active context cleanup from durable, developer-managed memory files.",
+          "usefulness": "Use a two-tier memory policy: short-lived run state plus reviewed durable notes for decisions and constraints."
+        },
+        {
+          "title": "Externalization in LLM Agents",
+          "url": "https://arxiv.org/html/2604.08224v1",
+          "source_type": "paper",
+          "published_or_updated": "unknown",
+          "why_selected": "The review frames memory, skills, and interaction protocols as capabilities that should be externalized rather than rediscovered inside weights.",
+          "usefulness": "Use it to separate Buildn \u201cskills\u201d from memory and tool permissions, making each versionable and testable."
+        },
+        {
+          "title": "Now everyone can put data to work",
+          "url": "https://openai.com/index/put-data-to-work/",
+          "source_type": "product",
+          "published_or_updated": "unknown",
+          "why_selected": "OpenAI\u2019s data-workflow direction reinforces that connecting enterprise data to repeatable workflows is the practical frontier.",
+          "usefulness": "Offer a client discovery sprint that inventories data sources, joins, permissions, and the first evidence-backed workflow."
+        },
+        {
+          "title": "How V7 exposes context through MCP",
+          "url": "https://openai.com/index/v7/",
+          "source_type": "product",
+          "published_or_updated": "2026-09-21",
+          "why_selected": "V7 makes graph querying and workflow creation available through MCP in ChatGPT and Codex.",
+          "usefulness": "Use MCP as the thin interaction layer while keeping graph storage, citations, and policy inside Buildn-owned services."
+        }
+      ]
+    },
+    {
+      "slug": "agent-security-and-identity-operations",
+      "title": "Agent Security + Identity Operations",
+      "selection_rationale": "Fresh enterprise controls are moving from generic \u201cAI security\u201d toward inventories, scopes, last-used evidence, and explicit response paths\u2014high practical leverage for client-safe agents.",
+      "sources": [
+        {
+          "title": "GitHub credential inventory exports",
+          "url": "https://github.blog/changelog/2026-09-21-github-enterprise-adds-credential-inventory-exports/",
+          "source_type": "release",
+          "published_or_updated": "2026-09-21",
+          "why_selected": "Enterprise owners can export SSH keys, PATs, OAuth tokens, and GitHub App tokens with scope, age, expiry, last-used, and target metadata.",
+          "usefulness": "Build a credential exposure report that ranks stale, broad, and unobserved access before an incident."
+        },
+        {
+          "title": "Remote MCP clients with auth and namespacing",
+          "url": "https://blog.cloudflare.com/building-ai-agents-with-mcp-authn-authz-and-durable-objects/",
+          "source_type": "release",
+          "published_or_updated": "unknown",
+          "why_selected": "Cloudflare\u2019s Agents SDK adds remote MCP clients, per-server auth, capability discovery, reconnection, and namespacing.",
+          "usefulness": "Borrow the per-server consent and namespacing model for Buildn worker tools."
+        },
+        {
+          "title": "Agent Access Model",
+          "url": "https://blog.cloudflare.com/agent-access-model/",
+          "source_type": "release",
+          "published_or_updated": "unknown",
+          "why_selected": "Cloudflare\u2019s task-scoped architecture emphasizes identity brokering, continuous mediation, and stateful trust for agents.",
+          "usefulness": "Use task-scoped grants for high-impact client workflows instead of long-lived role access."
+        },
+        {
+          "title": "GitHub enterprise credential inventory API",
+          "url": "https://docs.github.com/enterprise-cloud@latest/rest/enterprise-admin/token-inventory",
+          "source_type": "report",
+          "published_or_updated": "unknown",
+          "why_selected": "The REST endpoint turns credential visibility into an automatable feed rather than a dashboard-only exercise.",
+          "usefulness": "Use the API as a source for a normalized access graph and remediation workflows."
+        }
+      ]
+    },
+    {
+      "slug": "agent-runtime-and-model-portability",
+      "title": "Agent Runtime + Model Portability",
+      "selection_rationale": "The latest developer signal is a separation of control plane from model choice: multiple providers, gradual rollouts, durable state, and explicit cost/quality policy are becoming normal operating requirements.",
+      "sources": [
+        {
+          "title": "Grok 4.7 in GitHub Copilot",
+          "url": "https://github.blog/changelog/2026-09-21-grok-4-7-is-now-available-in-github-copilot/",
+          "source_type": "release",
+          "published_or_updated": "2026-09-21",
+          "why_selected": "Grok 4.7 is rolling out across IDEs, CLI, cloud agent, and enterprise plans with administrator model policy controls.",
+          "usefulness": "Use a model bake-off harness for coding tasks, measuring completion, review findings, latency, and cost\u2014not vibes."
+        },
+        {
+          "title": "Agents API: durable sessions and environments",
+          "url": "https://openai.com/index/introducing-the-agents-api/",
+          "source_type": "product",
+          "published_or_updated": "unknown",
+          "why_selected": "OpenAI\u2019s Agents API packages agents, environments, sessions, tools, subagents, and events as runtime primitives.",
+          "usefulness": "Use the vocabulary to design Buildn job state and recovery without coupling the evidence model to one provider."
+        },
+        {
+          "title": "MCP + Durable Objects + Workflows",
+          "url": "https://blog.cloudflare.com/building-ai-agents-with-mcp-authn-authz-and-durable-objects/",
+          "source_type": "release",
+          "published_or_updated": "unknown",
+          "why_selected": "The same platform combines remote MCP, hibernating stateful servers, durable objects, and long-running workflows.",
+          "usefulness": "Use it as a reference architecture for low-idle-cost, resumable agent jobs with explicit external calls."
+        },
+        {
+          "title": "OpenAI: connecting AI usage to business value",
+          "url": "https://openai.com/index/how-to-connect-ai-usage-to-business-value/",
+          "source_type": "product",
+          "published_or_updated": "unknown",
+          "why_selected": "The operator question is shifting from model usage to measurable business outcomes.",
+          "usefulness": "Tie runtime experiments to task-level outcomes, cycle time, error rate, and review burden."
+        }
+      ]
+    }
+  ]
+}

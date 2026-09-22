@@ -1,6 +1,27 @@
 {
-  "updated_at": "2026-09-21T08:09:42.529182+00:00",
+  "updated_at": "2026-09-22T08:08:40.585506+00:00",
   "days": [
+    {
+      "date": "2026-09-22",
+      "path": "2026-09-22",
+      "reports": [
+        {
+          "lane": "institutional-memory-and-context-graphs",
+          "title": "Institutional Memory + Context Graphs",
+          "url": "2026-09-22/institutional-memory-and-context-graphs.html"
+        },
+        {
+          "lane": "agent-security-and-identity-operations",
+          "title": "Agent Security + Identity Operations",
+          "url": "2026-09-22/agent-security-and-identity-operations.html"
+        },
+        {
+          "lane": "agent-runtime-and-model-portability",
+          "title": "Agent Runtime + Model Portability",
+          "url": "2026-09-22/agent-runtime-and-model-portability.html"
+        }
+      ]
+    },
     {
       "date": "2026-09-21",
       "path": "2026-09-21",
