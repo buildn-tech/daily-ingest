@@ -1,0 +1,148 @@
+{
+  "date": "2026-09-23",
+  "generated_at": "2026-09-23T08:04:00+00:00",
+  "editorial_thesis": "Today’s useful signal is moving from agent capability to operating discipline: voice needs reversible actions, model choice needs evidence, and human-facing systems need provenance and reasons.",
+  "topic_groups": [
+    {
+      "slug": "realtime-voice-interfaces",
+      "title": "Realtime Voice Interfaces",
+      "selection_rationale": "Fresh, concrete API releases make voice a workflow surface rather than a demo: full-duplex turn-taking, translation, transcription, and tool control are now design inputs. This is a neglected lane relative to recent agent-runtime and security coverage.",
+      "sources": [
+        {
+          "title": "GPT‑Live‑1 in the API",
+          "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api/",
+          "source_type": "product",
+          "published_or_updated": "2026-09-22",
+          "why_selected": "Turn-taking and prosody become part of the workflow contract, not a separate speech layer.",
+          "usefulness": "Prototype a Buildn intake agent that captures a brief, reflects the structured summary, then opens a reviewable artifact."
+        },
+        {
+          "title": "New realtime voice models",
+          "url": "https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api/",
+          "source_type": "API_update",
+          "published_or_updated": "2026-09-22",
+          "why_selected": "One transport can support multilingual client calls, meeting notes, and spoken control surfaces.",
+          "usefulness": "Offer bilingual discovery calls that produce a cited brief plus unresolved questions."
+        },
+        {
+          "title": "Claude Agent SDK in Xcode",
+          "url": "https://www.anthropic.com/news/apple-xcode-claude-agent-sdk",
+          "source_type": "developer_workflow",
+          "published_or_updated": "2026-09",
+          "why_selected": "Voice and multimodal interfaces still need reliable native integration; agent access inside the IDE reduces handoff friction.",
+          "usefulness": "Build a small iOS voice capture shell whose output is a Buildn-compatible JSON artifact."
+        },
+        {
+          "title": "OpenAI Presence",
+          "url": "https://openai.com/index/introducing-openai-presence/",
+          "source_type": "platform",
+          "published_or_updated": "2026-09-22",
+          "why_selected": "Deployment, monitoring, and governance matter more than a one-off voice prototype.",
+          "usefulness": "Use the platform framing as a checklist for client proposals: identity, escalation, audit, and outcome metrics."
+        },
+        {
+          "title": "HCI research: written reasons before AI acceptance",
+          "url": "https://arxiv.org/list/cs.HC/recent",
+          "source_type": "paper_index",
+          "published_or_updated": "2026-09-22",
+          "why_selected": "Voice removes visual friction, so reasons and alternatives become an important trust surface.",
+          "usefulness": "Design spoken confirmations that state the proposed action, evidence, and a reversible alternative."
+        }
+      ]
+    },
+    {
+      "slug": "model-choice-and-evidence",
+      "title": "Model Choice + Evidence",
+      "selection_rationale": "September releases create a useful model-selection moment: frontier models, cheaper flashes, and agent platforms are moving quickly. The coverage gap is not model news; it is practical evidence for choosing without coupling the workflow to one vendor.",
+      "sources": [
+        {
+          "title": "Claude Opus 5.5",
+          "url": "https://www.anthropic.com/news",
+          "source_type": "model_release",
+          "published_or_updated": "2026-09-22",
+          "why_selected": "A new model is useful only if it changes a measured task outcome or operating cost.",
+          "usefulness": "Add it to a Buildn model bake-off for long-form synthesis, code review, and evidence extraction."
+        },
+        {
+          "title": "Gemini 3.8 Flash + Cyber",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
+          "source_type": "model_release",
+          "published_or_updated": "2026-09",
+          "why_selected": "Fast models can absorb high-volume classification and routing where frontier quality is unnecessary.",
+          "usefulness": "Use a cheap first pass for source labeling, then escalate ambiguous items to a stronger model."
+        },
+        {
+          "title": "Visual Studio 2026 BYOK",
+          "url": "https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes",
+          "source_type": "developer_tool",
+          "published_or_updated": "2026-09",
+          "why_selected": "Model portability is becoming a developer-environment feature, not only an infrastructure concern.",
+          "usefulness": "Keep client-sensitive experiments on approved endpoints while preserving the same task contract."
+        },
+        {
+          "title": "Production-ready agent guide",
+          "url": "https://cloud.google.com/blog/products/ai-machine-learning/a-devs-guide-to-production-ready-ai-agents",
+          "source_type": "architecture_guide",
+          "published_or_updated": "2026",
+          "why_selected": "It reinforces that observability, evaluation, identity, and deployment are the product—not prompt polish.",
+          "usefulness": "Use its production checklist during Buildn client discovery and architecture reviews."
+        },
+        {
+          "title": "Agent Payments Protocol",
+          "url": "https://cloud.google.com/blog/products/ai-machine-learning/announcing-agents-to-payments-ap2-protocol",
+          "source_type": "open_protocol",
+          "published_or_updated": "2026",
+          "why_selected": "Payments expose the difference between “can call a tool” and “can safely transact.”",
+          "usefulness": "Use it as a design prompt for consent receipts, spend limits, and human approval in client workflows."
+        }
+      ]
+    },
+    {
+      "slug": "human-centered-ai-controls",
+      "title": "Human-Centered AI Controls",
+      "selection_rationale": "A quieter but high-leverage lane: recent HCI, wellbeing, and content-authenticity work points toward better interaction contracts. It expands coverage beyond agent infrastructure into how people decide, trust, and recover.",
+      "sources": [
+        {
+          "title": "Embedded evaluation partnership",
+          "url": "https://www.anthropic.com/news/accenture-embedded-evaluation",
+          "source_type": "research_partnership",
+          "published_or_updated": "2026-09",
+          "why_selected": "Evaluation becomes part of deployment context rather than a detached benchmark exercise.",
+          "usefulness": "Borrow the pattern for client pilots: place an evaluator in the workflow and capture failure evidence as work happens."
+        },
+        {
+          "title": "Think Before You Accept",
+          "url": "https://arxiv.org/list/cs.HC/recent",
+          "source_type": "HCI_research",
+          "published_or_updated": "2026-09-22",
+          "why_selected": "A short rationale may be more effective than generic warnings when users are deciding quickly.",
+          "usefulness": "For generated proposals, show the key evidence and a plausible alternative before export."
+        },
+        {
+          "title": "Credentio: C2PA content credentials",
+          "url": "https://developers.googleblog.com/introducing-credentio-open-source-c-library-for-c2pa-content-credentials-from-google/",
+          "source_type": "open-source_library",
+          "published_or_updated": "2026-08-13",
+          "why_selected": "Provenance becomes a machine-readable property that can travel with generated or edited media.",
+          "usefulness": "Add content-credential checks to Buildn media deliverables and client approval records."
+        },
+        {
+          "title": "AI Search’s agentic direction",
+          "url": "https://blog.google/products-and-platforms/products/search/search-io-2026/",
+          "source_type": "product_direction",
+          "published_or_updated": "2026",
+          "why_selected": "Web discovery is shifting from ranked links toward delegated multi-step retrieval.",
+          "usefulness": "Design research outputs that preserve direct sources, query scope, and uncertainty rather than only a synthesized answer."
+        },
+        {
+          "title": "Parallel cuts research time and cost",
+          "url": "https://openai.com/index/parallel-cuts-time-and-cost-with-astra/",
+          "source_type": "case_study",
+          "published_or_updated": "2026-09-22",
+          "why_selected": "Parallelism can improve throughput, but only when outputs are merged with evidence and deduplicated.",
+          "usefulness": "Split a client research brief into bounded parallel questions, then require a cited synthesis pass."
+        }
+      ]
+    }
+  ]
+}

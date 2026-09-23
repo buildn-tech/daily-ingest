@@ -1,6 +1,76 @@
 {
-  "updated_at": "2026-09-22T08:08:40.585506+00:00",
+  "updated_at": "2026-09-23T08:05:41.456567+00:00",
   "sources": {
+    "https://openai.com/index/introducing-gpt-live-1-in-the-api": {
+      "first_seen": "2026-09-23",
+      "last_seen": "2026-09-23",
+      "title": "GPT\u2011Live\u20111 in the API"
+    },
+    "https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api": {
+      "first_seen": "2026-09-23",
+      "last_seen": "2026-09-23",
+      "title": "New realtime voice models"
+    },
+    "https://www.anthropic.com/news/apple-xcode-claude-agent-sdk": {
+      "first_seen": "2026-09-23",
+      "last_seen": "2026-09-23",
+      "title": "Claude Agent SDK in Xcode"
+    },
+    "https://openai.com/index/introducing-openai-presence": {
+      "first_seen": "2026-09-23",
+      "last_seen": "2026-09-10",
+      "title": "Introducing OpenAI Presence"
+    },
+    "https://arxiv.org/list/cs.HC/recent": {
+      "first_seen": "2026-09-23",
+      "last_seen": "2026-09-23",
+      "title": "Think Before You Accept"
+    },
+    "https://www.anthropic.com/news": {
+      "first_seen": "2026-09-23",
+      "last_seen": "2026-09-23",
+      "title": "Claude Opus 5.5"
+    },
+    "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber": {
+      "first_seen": "2026-09-23",
+      "last_seen": "2026-09-23",
+      "title": "Gemini 3.8 Flash + Cyber"
+    },
+    "https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes": {
+      "first_seen": "2026-09-23",
+      "last_seen": "2026-07-22",
+      "title": "Visual Studio 2026 July Update release notes"
+    },
+    "https://cloud.google.com/blog/products/ai-machine-learning/a-devs-guide-to-production-ready-ai-agents": {
+      "first_seen": "2026-09-23",
+      "last_seen": "2026-09-23",
+      "title": "Production-ready agent guide"
+    },
+    "https://cloud.google.com/blog/products/ai-machine-learning/announcing-agents-to-payments-ap2-protocol": {
+      "first_seen": "2026-09-23",
+      "last_seen": "2026-09-23",
+      "title": "Agent Payments Protocol"
+    },
+    "https://www.anthropic.com/news/accenture-embedded-evaluation": {
+      "first_seen": "2026-09-23",
+      "last_seen": "2026-09-23",
+      "title": "Embedded evaluation partnership"
+    },
+    "https://developers.googleblog.com/introducing-credentio-open-source-c-library-for-c2pa-content-credentials-from-google": {
+      "first_seen": "2026-09-23",
+      "last_seen": "2026-08-18",
+      "title": "Credentio C2PA library"
+    },
+    "https://blog.google/products-and-platforms/products/search/search-io-2026": {
+      "first_seen": "2026-09-23",
+      "last_seen": "2026-07-09",
+      "title": "Google Search I/O 2026: Search agents"
+    },
+    "https://openai.com/index/parallel-cuts-time-and-cost-with-astra": {
+      "first_seen": "2026-09-23",
+      "last_seen": "2026-09-23",
+      "title": "Parallel cuts research time and cost"
+    },
     "https://openai.com/index/v7": {
       "first_seen": "2026-09-22",
       "last_seen": "2026-09-22",
@@ -481,11 +551,6 @@
       "last_seen": "2026-09-01",
       "title": "Cloudflare Dynamic Worker Loader"
     },
-    "https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes": {
-      "first_seen": "2026-09-13",
-      "last_seen": "2026-07-22",
-      "title": "Visual Studio 2026 July Update release notes"
-    },
     "https://github.blog/changelog/2026-09-10-control-github-actions-cache-access-with-cache-mode": {
       "first_seen": "2026-09-13",
       "last_seen": "2026-09-11",
@@ -650,11 +715,6 @@
       "first_seen": "2026-09-10",
       "last_seen": "2026-09-10",
       "title": "GPT-6 Astra now available on Vercel AI Gateway"
-    },
-    "https://openai.com/index/introducing-openai-presence": {
-      "first_seen": "2026-09-10",
-      "last_seen": "2026-09-10",
-      "title": "Introducing OpenAI Presence"
     },
     "https://blog.jetbrains.com/air/2026/03/air-launches-as-public-preview-a-new-wave-of-dev-tooling-built-on-26-years-of-experience": {
       "first_seen": "2026-09-09",
@@ -1826,11 +1886,6 @@
       "last_seen": "2026-08-18",
       "title": "Adobe Blog updates"
     },
-    "https://developers.googleblog.com/introducing-credentio-open-source-c-library-for-c2pa-content-credentials-from-google": {
-      "first_seen": "2026-08-18",
-      "last_seen": "2026-08-18",
-      "title": "Credentio C2PA library"
-    },
     "https://developers.googleblog.com/mastering-edge-ai-on-raspberry-pi-with-litert-and-gemma": {
       "first_seen": "2026-08-18",
       "last_seen": "2026-08-13",
@@ -2855,11 +2910,6 @@
       "first_seen": "2026-07-25",
       "last_seen": "2026-07-25",
       "title": "Ask Claude about the Anthropic Economic Index"
-    },
-    "https://blog.google/products-and-platforms/products/search/search-io-2026": {
-      "first_seen": "2026-07-25",
-      "last_seen": "2026-07-09",
-      "title": "Google Search I/O 2026: Search agents"
     },
     "https://github.blog/changelog/2026-07-23-github-mcp-server-supports-the-next-mcp-specification": {
       "first_seen": "2026-07-24",
