@@ -1,6 +1,27 @@
 {
-  "updated_at": "2026-09-23T08:05:41.456567+00:00",
+  "updated_at": "2026-09-24T08:05:57.271355+00:00",
   "days": [
+    {
+      "date": "2026-09-24",
+      "path": "2026-09-24",
+      "reports": [
+        {
+          "lane": "agent-oversight-and-security",
+          "title": "Agent Oversight + Security Operations",
+          "url": "2026-09-24/agent-oversight-and-security.html"
+        },
+        {
+          "lane": "portable-agent-developer-surfaces",
+          "title": "Portable Agent Developer Surfaces",
+          "url": "2026-09-24/portable-agent-developer-surfaces.html"
+        },
+        {
+          "lane": "human-agent-boundaries",
+          "title": "Human\u2013Agent Boundaries",
+          "url": "2026-09-24/human-agent-boundaries.html"
+        }
+      ]
+    },
     {
       "date": "2026-09-23",
       "path": "2026-09-23",

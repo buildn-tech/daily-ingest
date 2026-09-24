@@ -1,6 +1,46 @@
 {
-  "updated_at": "2026-09-23T08:05:41.456567+00:00",
+  "updated_at": "2026-09-24T08:05:57.271355+00:00",
   "sources": {
+    "https://developers.googleblog.com/agent-anomaly-detection-now-in-private-preview-on-the-gemini-enterprise-agent-platform": {
+      "first_seen": "2026-09-24",
+      "last_seen": "2026-09-21",
+      "title": "Agent Anomaly Detection"
+    },
+    "https://securitydocs.cisco.com/docs/ai-def/user/168305.dita": {
+      "first_seen": "2026-09-24",
+      "last_seen": "2026-08-15",
+      "title": "Cisco AI Defense 2026.8.1"
+    },
+    "https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent": {
+      "first_seen": "2026-09-24",
+      "last_seen": "2026-09-24",
+      "title": "Muse Secure VM"
+    },
+    "https://github.blog/changelog/2026-09-10-github-copilot-weekly-releases-september-7": {
+      "first_seen": "2026-09-24",
+      "last_seen": "2026-09-24",
+      "title": "Recurring agent tasks in VS Code"
+    },
+    "https://developers.googleblog.com/why-client-sdk-generation-belongs-in-the-open": {
+      "first_seen": "2026-09-24",
+      "last_seen": "2026-09-21",
+      "title": "Why client SDK generation belongs in the open"
+    },
+    "https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes": {
+      "first_seen": "2026-09-24",
+      "last_seen": "2026-07-22",
+      "title": "Visual Studio 2026 July Update release notes"
+    },
+    "https://arxiv.org/html/2606.20630v1": {
+      "first_seen": "2026-09-24",
+      "last_seen": "2026-09-24",
+      "title": "Repair is part of the product"
+    },
+    "https://arxiv.org/html/2609.14062v1": {
+      "first_seen": "2026-09-24",
+      "last_seen": "2026-09-24",
+      "title": "When assistants involve others"
+    },
     "https://openai.com/index/introducing-gpt-live-1-in-the-api": {
       "first_seen": "2026-09-23",
       "last_seen": "2026-09-23",
@@ -35,11 +75,6 @@
       "first_seen": "2026-09-23",
       "last_seen": "2026-09-23",
       "title": "Gemini 3.8 Flash + Cyber"
-    },
-    "https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes": {
-      "first_seen": "2026-09-23",
-      "last_seen": "2026-07-22",
-      "title": "Visual Studio 2026 July Update release notes"
     },
     "https://cloud.google.com/blog/products/ai-machine-learning/a-devs-guide-to-production-ready-ai-agents": {
       "first_seen": "2026-09-23",
@@ -176,16 +211,6 @@
       "last_seen": "2026-09-21",
       "title": "Android 17 features"
     },
-    "https://developers.googleblog.com/why-client-sdk-generation-belongs-in-the-open": {
-      "first_seen": "2026-09-21",
-      "last_seen": "2026-09-21",
-      "title": "Why client SDK generation belongs in the open"
-    },
-    "https://developers.googleblog.com/agent-anomaly-detection-now-in-private-preview-on-the-gemini-enterprise-agent-platform": {
-      "first_seen": "2026-09-21",
-      "last_seen": "2026-09-21",
-      "title": "Agent Anomaly Detection"
-    },
     "https://developers.googleblog.com/the-anatomy-of-harness-engineering-how-to-evaluate-iterate-and-guard-ai-coding-agents": {
       "first_seen": "2026-09-21",
       "last_seen": "2026-09-21",
@@ -235,11 +260,6 @@
       "first_seen": "2026-09-20",
       "last_seen": "2026-09-20",
       "title": "Mapping benchmark design"
-    },
-    "https://securitydocs.cisco.com/docs/ai-def/user/168305.dita": {
-      "first_seen": "2026-09-20",
-      "last_seen": "2026-08-15",
-      "title": "Cisco AI Defense 2026.8.1"
     },
     "https://github.com/cisco-ai-defense/ai-defense-python-sdk": {
       "first_seen": "2026-09-20",

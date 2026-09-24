@@ -1,0 +1,148 @@
+{
+  "date": "2026-09-24",
+  "generated_at": "2026-09-24T08:05:09.418261+00:00",
+  "editorial_thesis": "The strongest fresh signal is operational: agents need observable oversight, portable developer surfaces, and explicit boundaries for people affected by their actions.",
+  "topic_groups": [
+    {
+      "slug": "agent-oversight-and-security",
+      "title": "Agent Oversight + Security Operations",
+      "selection_rationale": "Fresh operational controls are shifting agent security from prompt testing to inventory, anomaly detection, runtime evidence, and policy response.",
+      "sources": [
+        {
+          "title": "Agent Anomaly Detection",
+          "url": "https://developers.googleblog.com/agent-anomaly-detection-now-in-private-preview-on-the-gemini-enterprise-agent-platform/",
+          "source_type": "product",
+          "published_or_updated": "2026-09",
+          "why_selected": "Use the pattern for a Buildn job monitor: statistical pass, targeted reasoning review, then policy callback.",
+          "usefulness": "Prototype a session-risk event schema with severity, evidence, and recommended action."
+        },
+        {
+          "title": "Cisco AI Defense release line",
+          "url": "https://securitydocs.cisco.com/docs/ai-def/user/168305.dita",
+          "source_type": "product",
+          "published_or_updated": "2026-09",
+          "why_selected": "Borrow the inventory → profile → runtime-event loop for client agent reviews.",
+          "usefulness": "Map one client workflow into assets, tools, identities, events, and response owners."
+        },
+        {
+          "title": "Muse Secure VM",
+          "url": "https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/",
+          "source_type": "product",
+          "published_or_updated": "2026-09",
+          "why_selected": "Use the isolated-worker and approval-receipt ideas for high-impact Buildn automations.",
+          "usefulness": "Write a threat model for an agent that browses, remembers, and transacts."
+        },
+        {
+          "title": "JetBrains managed sandbox controls",
+          "url": "https://github.blog/changelog/2026-09-10-github-copilot-weekly-releases-september-7/",
+          "source_type": "product",
+          "published_or_updated": "2026-09",
+          "why_selected": "Turn sandbox posture into a standard client discovery question, not an IDE afterthought.",
+          "usefulness": "Create a least-privilege sandbox checklist for agent-enabled developer environments."
+        },
+        {
+          "title": "OWASP-aligned anomaly categories",
+          "url": "https://developers.googleblog.com/agent-anomaly-detection-now-in-private-preview-on-the-gemini-enterprise-agent-platform/",
+          "source_type": "product",
+          "published_or_updated": "2026-09",
+          "why_selected": "Use the categories as a compact red-team taxonomy for Buildn client pilots.",
+          "usefulness": "Select one measurable detector per category and add it to a pilot scorecard."
+        }
+      ]
+    },
+    {
+      "slug": "portable-agent-developer-surfaces",
+      "title": "Portable Agent Developer Surfaces",
+      "selection_rationale": "The practical portability gap is narrowing: SDK generation, model routing, scheduled tasks, and BYOK are becoming explicit interfaces that can be tested and swapped.",
+      "sources": [
+        {
+          "title": "OpenAPI generation in the open",
+          "url": "https://developers.googleblog.com/why-client-sdk-generation-belongs-in-the-open/",
+          "source_type": "product",
+          "published_or_updated": "2026-09",
+          "why_selected": "Generate stable client surfaces and live schema access for Buildn workers instead of hand-maintained wrappers.",
+          "usefulness": "Run the generator against one small Buildn-owned OpenAPI spec and compare maintenance cost."
+        },
+        {
+          "title": "HydraFusion model orchestration",
+          "url": "https://github.blog/changelog/2026-09-10-github-copilot-weekly-releases-september-7/",
+          "source_type": "product",
+          "published_or_updated": "2026-09",
+          "why_selected": "Use semantic routing as a reference for evidence extraction: cheap pass first, escalate ambiguity.",
+          "usefulness": "Define three task classes and benchmark routing against a fixed model baseline."
+        },
+        {
+          "title": "Visual Studio BYOK Agent preview",
+          "url": "https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes",
+          "source_type": "product",
+          "published_or_updated": "2026-09",
+          "why_selected": "Offer client-sensitive experiments with approved endpoints while preserving one task contract.",
+          "usefulness": "Document a provider-neutral agent task contract with model, tools, and evidence fields."
+        },
+        {
+          "title": "Recurring agent tasks in VS Code",
+          "url": "https://github.blog/changelog/2026-09-10-github-copilot-weekly-releases-september-7/",
+          "source_type": "product",
+          "published_or_updated": "2026-09",
+          "why_selected": "Translate recurring research and health checks into reviewable scheduled artifacts.",
+          "usefulness": "Design a recurring-job envelope: trigger, scope, evidence, approval, rollback."
+        },
+        {
+          "title": "Documentation MCP generation",
+          "url": "https://developers.googleblog.com/why-client-sdk-generation-belongs-in-the-open/",
+          "source_type": "product",
+          "published_or_updated": "2026-09",
+          "why_selected": "Keep agent tool knowledge synchronized with source specs, reducing guessed method names.",
+          "usefulness": "Add schema freshness and source commit to every tool manifest."
+        }
+      ]
+    },
+    {
+      "slug": "human-agent-boundaries",
+      "title": "Human–Agent Boundaries",
+      "selection_rationale": "New HCI work is filling a neglected gap: agents affect non-users, relationships, memory, and recovery, so adoption depends on calibrated control rather than raw autonomy.",
+      "sources": [
+        {
+          "title": "Design Principles for Human-Agent Interaction",
+          "url": "https://arxiv.org/html/2606.20630v1",
+          "source_type": "product",
+          "published_or_updated": "2026-09",
+          "why_selected": "Turn the principles into a Buildn review rubric for transparency, initiative, memory, and recovery.",
+          "usefulness": "Score one existing workflow against the 14 principles and log the largest gaps."
+        },
+        {
+          "title": "When assistants involve others",
+          "url": "https://arxiv.org/html/2609.14062v1",
+          "source_type": "product",
+          "published_or_updated": "2026-09",
+          "why_selected": "Use the non-user lens for client workflows involving shared inboxes, meetings, documents, or delegated messages.",
+          "usefulness": "Add a non-user impact section to every agent opportunity brief."
+        },
+        {
+          "title": "Calibrated expectations",
+          "url": "https://arxiv.org/html/2606.20630v1",
+          "source_type": "product",
+          "published_or_updated": "2026-09",
+          "why_selected": "Make the first-run experience state what the agent may do, cannot do, and when it asks.",
+          "usefulness": "Write a 60-second onboarding script plus a recovery example for one agent."
+        },
+        {
+          "title": "Memory as a relationship contract",
+          "url": "https://arxiv.org/html/2606.20630v1",
+          "source_type": "product",
+          "published_or_updated": "2026-09",
+          "why_selected": "Separate durable user-approved facts from transient run context in Buildn artifacts.",
+          "usefulness": "Define memory classes, retention, review, deletion, and provenance fields."
+        },
+        {
+          "title": "Repair is part of the product",
+          "url": "https://arxiv.org/html/2606.20630v1",
+          "source_type": "product",
+          "published_or_updated": "2026-09",
+          "why_selected": "Design human checkpoints with a clear explanation, reversible alternative, and next-best action.",
+          "usefulness": "Add failure receipts and rollback links to the next agent prototype."
+        }
+      ]
+    }
+  ]
+}
