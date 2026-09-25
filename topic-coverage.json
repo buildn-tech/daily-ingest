@@ -1043,6 +1043,21 @@
       "title": "Human–Agent Boundaries",
       "times_covered": 1,
       "last_covered": "2026-09-24"
+    },
+    "governed-agent-rollouts": {
+      "title": "Governed Agent Rollouts",
+      "times_covered": 1,
+      "last_covered": "2026-09-25"
+    },
+    "contestable-agent-evidence": {
+      "title": "Contestable Agent Evidence",
+      "times_covered": 1,
+      "last_covered": "2026-09-25"
+    },
+    "agentic-physical-systems": {
+      "title": "Agentic Physical Systems",
+      "times_covered": 1,
+      "last_covered": "2026-09-25"
     }
   },
   "item_history": [
@@ -3090,6 +3105,70 @@
       "published_or_updated": "2026-09",
       "selection_rationale": "Design human checkpoints with a clear explanation, reversible alternative, and next-best action.",
       "usefulness": "Add failure receipts and rollback links to the next agent prototype."
+    },
+    {
+      "date": "2026-09-25",
+      "topic": "governed-agent-rollouts",
+      "title": "Default Enablement of Copilot Features",
+      "url": "https://github.blog/changelog/2026-09-24-default-enablement-of-copilot-features-for-copilot-business-and-enterprise",
+      "source_type": "release",
+      "rationale": "It turns agent governance into an explicit enterprise policy decision with a dated enforcement window."
+    },
+    {
+      "date": "2026-09-25",
+      "topic": "governed-agent-rollouts",
+      "title": "ARIA governance architecture for multi-agent finance",
+      "url": "https://arxiv.org/abs/2609.27994",
+      "source_type": "paper",
+      "rationale": "It names the failure mode where locally compliant agents create collectively unacceptable outcomes."
+    },
+    {
+      "date": "2026-09-25",
+      "topic": "governed-agent-rollouts",
+      "title": "Multi-Agent AI Architecture for Regulated Insurers",
+      "url": "https://arxiv.org/abs/2609.27636",
+      "source_type": "paper",
+      "rationale": "It translates regulated enterprise roles, orchestration, MCP, A2A, and human access controls into one reference architecture."
+    },
+    {
+      "date": "2026-09-25",
+      "topic": "contestable-agent-evidence",
+      "title": "Self-Evolving Multimedia Verification through Memory Consolidation",
+      "url": "https://arxiv.org/abs/2609.27175",
+      "source_type": "paper",
+      "rationale": "SEMV treats provenance-bearing arguments as the bridge between evidence, human contestation, revision, and memory."
+    },
+    {
+      "date": "2026-09-25",
+      "topic": "contestable-agent-evidence",
+      "title": "Scaffolding-Oriented Multi-Agent System for Clinical Interview Training",
+      "url": "https://arxiv.org/abs/2609.10939",
+      "source_type": "paper",
+      "rationale": "A randomized study shows specialized agents can improve process quality without inflating diagnostic accuracy."
+    },
+    {
+      "date": "2026-09-25",
+      "topic": "contestable-agent-evidence",
+      "title": "Copying explains collective behavior of AI agents in the wild",
+      "url": "https://arxiv.org/abs/2609.09150",
+      "source_type": "paper",
+      "rationale": "It shows local visibility and recency can create collective conventions without explicit coordination."
+    },
+    {
+      "date": "2026-09-25",
+      "topic": "agentic-physical-systems",
+      "title": "Connectivity Preservation and Graph Stretching in Range-Only Swarm Dispersion",
+      "url": "https://arxiv.org/abs/2609.28190",
+      "source_type": "paper",
+      "rationale": "It derives a local movement rule that preserves every existing visibility edge using only range measurements."
+    },
+    {
+      "date": "2026-09-25",
+      "topic": "agentic-physical-systems",
+      "title": "Agent-Based Modeling of Systems of Systems",
+      "url": "https://arxiv.org/abs/2609.27573",
+      "source_type": "paper",
+      "rationale": "It frames complex systems as interacting agent-based components rather than a single centralized controller."
     }
   ],
   "runs": [
@@ -5056,9 +5135,9 @@
       ]
     }
   ],
-  "updated_at": "2026-09-24T08:05:52.354774+00:00",
-  "last_run": "2026-09-24",
-  "last_editorial_thesis": "The strongest fresh signal is operational: agents need observable oversight, portable developer surfaces, and explicit boundaries for people affected by their actions.",
+  "updated_at": "2026-09-25T08:07:54.685798+00:00",
+  "last_run": "2026-09-25",
+  "last_editorial_thesis": "Fresh signal is moving agent maturity from isolated model quality toward population-level governance, contestable evidence, and explicit enterprise defaults.",
   "coverage_history": [
     {
       "date": "2026-07-28",
@@ -6140,6 +6219,84 @@
           "url": "https://arxiv.org/html/2606.20630v1",
           "source_type": "product",
           "rationale": "Design human checkpoints with a clear explanation, reversible alternative, and next-best action."
+        }
+      ]
+    },
+    {
+      "date": "2026-09-25",
+      "selected_lanes": [
+        {
+          "slug": "governed-agent-rollouts",
+          "title": "Governed Agent Rollouts",
+          "selection_rationale": "GitHub's new default-feature policy creates a near-term governance deadline, while two fresh research papers show why component-by-component compliance is insufficient for multi-agent systems."
+        },
+        {
+          "slug": "contestable-agent-evidence",
+          "title": "Contestable Agent Evidence",
+          "selection_rationale": "New work on multimedia verification and clinical training points to a practical design rule: memory, feedback, and evaluation should preserve the path from evidence to decision."
+        },
+        {
+          "slug": "agentic-physical-systems",
+          "title": "Agentic Physical Systems",
+          "selection_rationale": "The freshest multi-agent systems research offers a useful counterweight to software-only coverage: physical autonomy still depends on simple local guarantees, topology awareness, and explicit safety margins."
+        }
+      ],
+      "items": [
+        {
+          "lane": "governed-agent-rollouts",
+          "title": "Default Enablement of Copilot Features",
+          "url": "https://github.blog/changelog/2026-09-24-default-enablement-of-copilot-features-for-copilot-business-and-enterprise",
+          "source_type": "release",
+          "selection_rationale": "It turns agent governance into an explicit enterprise policy decision with a dated enforcement window."
+        },
+        {
+          "lane": "governed-agent-rollouts",
+          "title": "ARIA governance architecture for multi-agent finance",
+          "url": "https://arxiv.org/abs/2609.27994",
+          "source_type": "paper",
+          "selection_rationale": "It names the failure mode where locally compliant agents create collectively unacceptable outcomes."
+        },
+        {
+          "lane": "governed-agent-rollouts",
+          "title": "Multi-Agent AI Architecture for Regulated Insurers",
+          "url": "https://arxiv.org/abs/2609.27636",
+          "source_type": "paper",
+          "selection_rationale": "It translates regulated enterprise roles, orchestration, MCP, A2A, and human access controls into one reference architecture."
+        },
+        {
+          "lane": "contestable-agent-evidence",
+          "title": "Self-Evolving Multimedia Verification through Memory Consolidation",
+          "url": "https://arxiv.org/abs/2609.27175",
+          "source_type": "paper",
+          "selection_rationale": "SEMV treats provenance-bearing arguments as the bridge between evidence, human contestation, revision, and memory."
+        },
+        {
+          "lane": "contestable-agent-evidence",
+          "title": "Scaffolding-Oriented Multi-Agent System for Clinical Interview Training",
+          "url": "https://arxiv.org/abs/2609.10939",
+          "source_type": "paper",
+          "selection_rationale": "A randomized study shows specialized agents can improve process quality without inflating diagnostic accuracy."
+        },
+        {
+          "lane": "contestable-agent-evidence",
+          "title": "Copying explains collective behavior of AI agents in the wild",
+          "url": "https://arxiv.org/abs/2609.09150",
+          "source_type": "paper",
+          "selection_rationale": "It shows local visibility and recency can create collective conventions without explicit coordination."
+        },
+        {
+          "lane": "agentic-physical-systems",
+          "title": "Connectivity Preservation and Graph Stretching in Range-Only Swarm Dispersion",
+          "url": "https://arxiv.org/abs/2609.28190",
+          "source_type": "paper",
+          "selection_rationale": "It derives a local movement rule that preserves every existing visibility edge using only range measurements."
+        },
+        {
+          "lane": "agentic-physical-systems",
+          "title": "Agent-Based Modeling of Systems of Systems",
+          "url": "https://arxiv.org/abs/2609.27573",
+          "source_type": "paper",
+          "selection_rationale": "It frames complex systems as interacting agent-based components rather than a single centralized controller."
         }
       ]
     }
