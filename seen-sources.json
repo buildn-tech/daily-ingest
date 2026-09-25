@@ -1,6 +1,46 @@
 {
-  "updated_at": "2026-09-24T08:05:57.271355+00:00",
+  "updated_at": "2026-09-25T08:07:17.193404+00:00",
   "sources": {
+    "https://github.blog/changelog/2026-09-24-default-enablement-of-copilot-features-for-copilot-business-and-enterprise": {
+      "first_seen": "2026-09-25",
+      "last_seen": "2026-09-25",
+      "title": "Default Enablement of Copilot Features"
+    },
+    "https://arxiv.org/abs/2609.27994": {
+      "first_seen": "2026-09-25",
+      "last_seen": "2026-09-25",
+      "title": "ARIA governance architecture for multi-agent finance"
+    },
+    "https://arxiv.org/abs/2609.27636": {
+      "first_seen": "2026-09-25",
+      "last_seen": "2026-09-25",
+      "title": "Multi-Agent AI Architecture for Regulated Insurers"
+    },
+    "https://arxiv.org/abs/2609.27175": {
+      "first_seen": "2026-09-25",
+      "last_seen": "2026-09-25",
+      "title": "Self-Evolving Multimedia Verification through Memory Consolidation"
+    },
+    "https://arxiv.org/abs/2609.10939": {
+      "first_seen": "2026-09-25",
+      "last_seen": "2026-09-25",
+      "title": "Scaffolding-Oriented Multi-Agent System for Clinical Interview Training"
+    },
+    "https://arxiv.org/abs/2609.09150": {
+      "first_seen": "2026-09-25",
+      "last_seen": "2026-09-25",
+      "title": "Copying explains collective behavior of AI agents in the wild"
+    },
+    "https://arxiv.org/abs/2609.28190": {
+      "first_seen": "2026-09-25",
+      "last_seen": "2026-09-25",
+      "title": "Connectivity Preservation and Graph Stretching in Range-Only Swarm Dispersion"
+    },
+    "https://arxiv.org/abs/2609.27573": {
+      "first_seen": "2026-09-25",
+      "last_seen": "2026-09-25",
+      "title": "Agent-Based Modeling of Systems of Systems"
+    },
     "https://developers.googleblog.com/agent-anomaly-detection-now-in-private-preview-on-the-gemini-enterprise-agent-platform": {
       "first_seen": "2026-09-24",
       "last_seen": "2026-09-21",

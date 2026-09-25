@@ -1,0 +1,36 @@
+{
+  "date": "2026-09-25",
+  "generated_at": "2026-09-25T08:00:25Z",
+  "editorial_thesis": "Fresh signal is moving agent maturity from isolated model quality toward population-level governance, contestable evidence, and explicit enterprise defaults.",
+  "topic_groups": [
+    {
+      "slug": "governed-agent-rollouts",
+      "title": "Governed Agent Rollouts",
+      "selection_rationale": "GitHub's new default-feature policy creates a near-term governance deadline, while two fresh research papers show why component-by-component compliance is insufficient for multi-agent systems.",
+      "sources": [
+        {"title":"Default Enablement of Copilot Features","url":"https://github.blog/changelog/2026-09-24-default-enablement-of-copilot-features-for-copilot-business-and-enterprise","source_type":"release","published_or_updated":"2026-09-24","why_selected":"It turns agent governance into an explicit enterprise policy decision with a dated enforcement window.","usefulness":"Use the unconfigured-feature model as a template for Buildn capability defaults and exception registers."},
+        {"title":"ARIA governance architecture for multi-agent finance","url":"https://arxiv.org/abs/2609.27994","source_type":"paper","published_or_updated":"2026-09-23","why_selected":"It names the failure mode where locally compliant agents create collectively unacceptable outcomes.","usefulness":"Borrow population-level observed-versus-expected monitoring for client agent portfolios."},
+        {"title":"Multi-Agent AI Architecture for Regulated Insurers","url":"https://arxiv.org/abs/2609.27636","source_type":"paper","published_or_updated":"2026-09-23","why_selected":"It translates regulated enterprise roles, orchestration, MCP, A2A, and human access controls into one reference architecture.","usefulness":"Use the role-to-authority mapping when scoping regulated client workflows."}
+      ]
+    },
+    {
+      "slug": "contestable-agent-evidence",
+      "title": "Contestable Agent Evidence",
+      "selection_rationale": "New work on multimedia verification and clinical training points to a practical design rule: memory, feedback, and evaluation should preserve the path from evidence to decision.",
+      "sources": [
+        {"title":"Self-Evolving Multimedia Verification through Memory Consolidation","url":"https://arxiv.org/abs/2609.27175","source_type":"paper","published_or_updated":"2026-09-23","why_selected":"SEMV treats provenance-bearing arguments as the bridge between evidence, human contestation, revision, and memory.","usefulness":"Prototype verification-gated memory and scoped repair in Buildn research artifacts."},
+        {"title":"Scaffolding-Oriented Multi-Agent System for Clinical Interview Training","url":"https://arxiv.org/abs/2609.10939","source_type":"paper","published_or_updated":"2026-09-10","why_selected":"A randomized study shows specialized agents can improve process quality without inflating diagnostic accuracy.","usefulness":"Separate coaching, simulation, and evaluation roles in client enablement workflows."},
+        {"title":"Copying explains collective behavior of AI agents in the wild","url":"https://arxiv.org/abs/2609.09150","source_type":"paper","published_or_updated":"2026-09-09","why_selected":"It shows local visibility and recency can create collective conventions without explicit coordination.","usefulness":"Treat shared scratchpads and recent artifacts as active control surfaces, not neutral storage."}
+      ]
+    },
+    {
+      "slug": "agentic-physical-systems",
+      "title": "Agentic Physical Systems",
+      "selection_rationale": "The freshest multi-agent systems research offers a useful counterweight to software-only coverage: physical autonomy still depends on simple local guarantees, topology awareness, and explicit safety margins.",
+      "sources": [
+        {"title":"Connectivity Preservation and Graph Stretching in Range-Only Swarm Dispersion","url":"https://arxiv.org/abs/2609.28190","source_type":"paper","published_or_updated":"2026-09-23","why_selected":"It derives a local movement rule that preserves every existing visibility edge using only range measurements.","usefulness":"Use the visibility-margin idea as a metaphor and test design for bounded delegated execution."},
+        {"title":"Agent-Based Modeling of Systems of Systems","url":"https://arxiv.org/abs/2609.27573","source_type":"paper","published_or_updated":"2026-09-23","why_selected":"It frames complex systems as interacting agent-based components rather than a single centralized controller.","usefulness":"Map Buildn workflows as system-of-systems with local contracts and emergent failure review."}
+      ]
+    }
+  ]
+}

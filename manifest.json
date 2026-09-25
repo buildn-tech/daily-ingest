@@ -1,6 +1,27 @@
 {
-  "updated_at": "2026-09-24T08:05:57.271355+00:00",
+  "updated_at": "2026-09-25T08:07:17.193404+00:00",
   "days": [
+    {
+      "date": "2026-09-25",
+      "path": "2026-09-25",
+      "reports": [
+        {
+          "lane": "governed-agent-rollouts",
+          "title": "Governed Agent Rollouts",
+          "url": "2026-09-25/governed-agent-rollouts.html"
+        },
+        {
+          "lane": "contestable-agent-evidence",
+          "title": "Contestable Agent Evidence",
+          "url": "2026-09-25/contestable-agent-evidence.html"
+        },
+        {
+          "lane": "agentic-physical-systems",
+          "title": "Agentic Physical Systems",
+          "url": "2026-09-25/agentic-physical-systems.html"
+        }
+      ]
+    },
     {
       "date": "2026-09-24",
       "path": "2026-09-24",
