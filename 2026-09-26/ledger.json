@@ -1,0 +1,187 @@
+{
+  "date": "2026-09-26",
+  "generated_at": "2026-09-26T08:00:56Z",
+  "editorial_thesis": "The useful frontier is shifting from adding agents to shaping their operating surface: isolated execution, observable memory, task-matched coordination, and workflows that carry evidence into human-reviewed action.",
+  "topic_groups": [
+    {
+      "slug": "agentic-developer-surfaces",
+      "title": "Agentic Developer Surfaces",
+      "selection_rationale": "Fresh GitHub releases turn agent safety, observability, memory, remote execution, and collaboration into concrete developer controls; this is a useful implementation lane rather than another model roundup.",
+      "sources": [
+        {
+          "title": "GitHub Copilot weekly releases — September 21",
+          "url": "https://github.blog/changelog/2026-09-25-github-copilot-weekly-releases-september-21/",
+          "source_type": "release",
+          "published_or_updated": "2026-09-25",
+          "why_selected": "The surface area for safe agent operation is moving into ordinary developer tooling.",
+          "usefulness": "Map Buildn workers to a standard contract: isolated workspace, telemetry, reversible edits, and remote dependency locality."
+        },
+        {
+          "title": "Agentic autofix now uses Copilot Memory",
+          "url": "https://github.blog/changelog/2026-09-25-agentic-autofix-now-uses-copilot-memory",
+          "source_type": "improvement",
+          "published_or_updated": "2026-09-25",
+          "why_selected": "Memory is becoming an active security control, not just a personalization layer.",
+          "usefulness": "Prototype scoped, reviewable memory for recurring client fixes, with provenance and delete/disable controls."
+        },
+        {
+          "title": "Enterprise managed settings in-product validator",
+          "url": "https://github.blog/changelog/2026-09-25-enterprise-managed-settings-in-product-validator",
+          "source_type": "governance",
+          "published_or_updated": "2026-09-25",
+          "why_selected": "Configuration drift is now treated as an operational failure mode worth catching at the product boundary.",
+          "usefulness": "Add a preflight validator to Buildn agent deployments: policy, tools, model, sandbox, telemetry, owner."
+        },
+        {
+          "title": "Usage metrics API adds pull-request review stages",
+          "url": "https://github.blog/changelog/2026-09-25-usage-metrics-api-adds-pull-request-review-stages",
+          "source_type": "measurement",
+          "published_or_updated": "2026-09-25",
+          "why_selected": "Outcome measurement needs workflow stages, not one aggregate usage number.",
+          "usefulness": "Measure Buildn work by intake, draft, review, revision, approval, and shipped artifact."
+        },
+        {
+          "title": "CodeQL 2.27.1",
+          "url": "https://github.blog/changelog/2026-09-25-codeql-2-27-1-adds-c-and-c-query-and-kotlin-2-4-20-support",
+          "source_type": "security release",
+          "published_or_updated": "2026-09-25",
+          "why_selected": "Agent-generated code increases the value of fast, language-aware security feedback.",
+          "usefulness": "Keep generated client code inside the same scan-and-repair loop as human code."
+        }
+      ]
+    },
+    {
+      "slug": "agent-systems-evals",
+      "title": "Agent Systems + Evaluation Science",
+      "selection_rationale": "Coverage has recently emphasized governance and evidence; today’s stronger gap is the measurement layer: when coordination helps, where asynchronous environments expose failures, and how research agents scale.",
+      "sources": [
+        {
+          "title": "Towards a science of scaling agent systems",
+          "url": "https://research.google/blog/towards-a-science-of-scaling-agent-systems-when-and-why-agent-systems-work/",
+          "source_type": "research",
+          "published_or_updated": "2026-01-28",
+          "why_selected": "“More agents” is not a design principle; task structure should choose the architecture.",
+          "usefulness": "Route Buildn work by decomposability: parallel source collection, single-threaded synthesis, explicit tool budget."
+        },
+        {
+          "title": "ARE: scaling up agent environments and evaluations",
+          "url": "https://ai.meta.com/research/publications/are-scaling-up-agent-environments-and-evaluations/",
+          "source_type": "platform/paper",
+          "published_or_updated": "2025-09-22",
+          "why_selected": "Static benchmarks miss timing, changing state, ambiguity, and coordination failures.",
+          "usefulness": "Design Buildn evals as small environments with changing inputs and explicit verifiers, not only prompt-response tests."
+        },
+        {
+          "title": "AIRA₂: Overcoming Bottlenecks in AI Research Agents",
+          "url": "https://ai.meta.com/research/publications/aira-overcoming-bottlenecks-in-ai-research-agents/",
+          "source_type": "research",
+          "published_or_updated": "2026-04-16",
+          "why_selected": "Throughput, evaluation noise, and rigid operators are separate bottlenecks that compound over long searches.",
+          "usefulness": "Separate worker throughput, evaluator integrity, and operator adaptability in research automation proposals."
+        },
+        {
+          "title": "OpenAI Agents API",
+          "url": "https://openai.com/index/introducing-the-agents-api/",
+          "source_type": "product release",
+          "published_or_updated": "2026-09-20",
+          "why_selected": "The harness becomes a deployable primitive; teams can own UX and compute while outsourcing orchestration mechanics.",
+          "usefulness": "Compare managed harness economics against Hermes/Buildn orchestration for bounded client pilots."
+        }
+      ]
+    },
+    {
+      "slug": "agentic-security-defense",
+      "title": "Agentic Security + Defense",
+      "selection_rationale": "Security is a neglected practical lane relative to product announcements, and the newest signal is converging on inventory, identity, runtime events, and machine-speed investigation.",
+      "sources": [
+        {
+          "title": "Google Cloud + Wiz: agentic defense",
+          "url": "https://cloud.google.com/blog/products/identity-security/next26-redefining-security-for-the-ai-era-with-google-cloud-and-wiz",
+          "source_type": "security platform",
+          "published_or_updated": "2026-04-22",
+          "why_selected": "Agent security is becoming an operating model spanning identity, runtime, code, and response—not a prompt filter.",
+          "usefulness": "Use the inventory→policy→runtime→response loop in Buildn/client security reviews."
+        },
+        {
+          "title": "Cisco AI Defense 26.9.3",
+          "url": "https://securitydocs.cisco.com/docs/ai-def/user/168305.dita",
+          "source_type": "release notes",
+          "published_or_updated": "2026-09-16",
+          "why_selected": "Policy systems are moving toward specific, inspectable rules and operational cost visibility.",
+          "usefulness": "Replace vague safety labels with named harms, scopes, thresholds, owners, and test cases."
+        },
+        {
+          "title": "Agent Anomaly Detection",
+          "url": "https://developers.googleblog.com/agent-anomaly-detection-now-in-private-preview-on-the-gemini-enterprise-agent-platform",
+          "source_type": "product preview",
+          "published_or_updated": "2026-09-21",
+          "why_selected": "Behavioral monitoring is the bridge between static policy and real-world drift.",
+          "usefulness": "Add baseline behavior, anomaly reason, reviewer, and disposition fields to Buildn job records."
+        },
+        {
+          "title": "GitHub local sandboxing",
+          "url": "https://github.blog/changelog/2026-09-23-local-sandboxing-in-the-github-copilot-app",
+          "source_type": "developer security",
+          "published_or_updated": "2026-09-23",
+          "why_selected": "Least privilege is finally visible as a normal agent setting rather than an infrastructure-only concern.",
+          "usefulness": "Make capability grants explicit in every Buildn worker manifest."
+        },
+        {
+          "title": "Require proof of presence for high-impact actions",
+          "url": "https://github.blog/changelog/2026-09-24-require-proof-of-presence-for-high-impact-actions",
+          "source_type": "access control",
+          "published_or_updated": "2026-09-24",
+          "why_selected": "High-impact automation needs a human signal at the moment of consequence, not only at setup.",
+          "usefulness": "Use presence/approval receipts for publishing, deleting, spending, or contacting external parties."
+        }
+      ]
+    },
+    {
+      "slug": "ai-native-operator-workflows",
+      "title": "AI-Native Operator Workflows",
+      "selection_rationale": "A coverage gap is practical business leverage outside engineering. Current primary-source case studies show reusable skills, persistent context, and human review turning agents into operating capability.",
+      "sources": [
+        {
+          "title": "How AI-native companies turn workflows into operating capability",
+          "url": "https://openai.com/index/ai-native-company-workflows/",
+          "source_type": "operator playbook",
+          "published_or_updated": "2026-09-26",
+          "why_selected": "The transferable pattern is not “use an agent”; it is encode a repeatable job with context, permissions, checks, and an owner.",
+          "usefulness": "Turn Buildn client discovery into workflow cards with trigger, context, tools, evidence, stop points, and metric."
+        },
+        {
+          "title": "Proaction boosts sales 60% and saves 75+ hours with Codex",
+          "url": "https://openai.com/index/proaction/",
+          "source_type": "case study",
+          "published_or_updated": "2026-09-25",
+          "why_selected": "A visual artifact can compress the gap between discovery, sales, product, and engineering.",
+          "usefulness": "Offer client-specific prototype dossiers as a paid discovery deliverable, with requirements traceability."
+        },
+        {
+          "title": "1Password increases engineering productivity 21% with Codex",
+          "url": "https://openai.com/index/1password/",
+          "source_type": "case study",
+          "published_or_updated": "2026-09-26",
+          "why_selected": "Speed and security are designed together instead of traded off after the fact.",
+          "usefulness": "Use policy-as-skill plus secret isolation as a reference for client delivery systems."
+        },
+        {
+          "title": "V7 gives AI agents institutional memory",
+          "url": "https://openai.com/index/v7/",
+          "source_type": "customer story",
+          "published_or_updated": "2026-09-22",
+          "why_selected": "Persistent context with source links may matter more than adding more agents.",
+          "usefulness": "Model Buildn artifacts as evidence-linked context graphs rather than flat notes."
+        },
+        {
+          "title": "Travelers deploys AI-powered claims countrywide",
+          "url": "https://openai.com/index/travelers/",
+          "source_type": "enterprise case study",
+          "published_or_updated": "2026-06-02",
+          "why_selected": "It shows the operational pattern for high-volume intake: bounded scope, system integration, escalation for complexity.",
+          "usefulness": "Apply the same shape to client intake, triage, and handoff workflows."
+        }
+      ]
+    }
+  ]
+}

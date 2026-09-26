@@ -1058,6 +1058,26 @@
       "title": "Agentic Physical Systems",
       "times_covered": 1,
       "last_covered": "2026-09-25"
+    },
+    "agentic-developer-surfaces": {
+      "title": "Agentic Developer Surfaces",
+      "times_covered": 1,
+      "last_covered": "2026-09-26"
+    },
+    "agent-systems-evals": {
+      "title": "Agent Systems + Evaluation Science",
+      "times_covered": 1,
+      "last_covered": "2026-09-26"
+    },
+    "agentic-security-defense": {
+      "title": "Agentic Security + Defense",
+      "times_covered": 1,
+      "last_covered": "2026-09-26"
+    },
+    "ai-native-operator-workflows": {
+      "title": "AI-Native Operator Workflows",
+      "times_covered": 1,
+      "last_covered": "2026-09-26"
     }
   },
   "item_history": [
@@ -3169,6 +3189,215 @@
       "url": "https://arxiv.org/abs/2609.27573",
       "source_type": "paper",
       "rationale": "It frames complex systems as interacting agent-based components rather than a single centralized controller."
+    },
+    {
+      "date": "2026-09-26",
+      "topic": "agentic-developer-surfaces",
+      "topic_title": "Agentic Developer Surfaces",
+      "title": "GitHub Copilot weekly releases — September 21",
+      "url": "https://github.blog/changelog/2026-09-25-github-copilot-weekly-releases-september-21/",
+      "source_type": "release",
+      "published_or_updated": "2026-09-25",
+      "selection_rationale": "The surface area for safe agent operation is moving into ordinary developer tooling.",
+      "usefulness": "Map Buildn workers to a standard contract: isolated workspace, telemetry, reversible edits, and remote dependency locality."
+    },
+    {
+      "date": "2026-09-26",
+      "topic": "agentic-developer-surfaces",
+      "topic_title": "Agentic Developer Surfaces",
+      "title": "Agentic autofix now uses Copilot Memory",
+      "url": "https://github.blog/changelog/2026-09-25-agentic-autofix-now-uses-copilot-memory",
+      "source_type": "improvement",
+      "published_or_updated": "2026-09-25",
+      "selection_rationale": "Memory is becoming an active security control, not just a personalization layer.",
+      "usefulness": "Prototype scoped, reviewable memory for recurring client fixes, with provenance and delete/disable controls."
+    },
+    {
+      "date": "2026-09-26",
+      "topic": "agentic-developer-surfaces",
+      "topic_title": "Agentic Developer Surfaces",
+      "title": "Enterprise managed settings in-product validator",
+      "url": "https://github.blog/changelog/2026-09-25-enterprise-managed-settings-in-product-validator",
+      "source_type": "governance",
+      "published_or_updated": "2026-09-25",
+      "selection_rationale": "Configuration drift is now treated as an operational failure mode worth catching at the product boundary.",
+      "usefulness": "Add a preflight validator to Buildn agent deployments: policy, tools, model, sandbox, telemetry, owner."
+    },
+    {
+      "date": "2026-09-26",
+      "topic": "agentic-developer-surfaces",
+      "topic_title": "Agentic Developer Surfaces",
+      "title": "Usage metrics API adds pull-request review stages",
+      "url": "https://github.blog/changelog/2026-09-25-usage-metrics-api-adds-pull-request-review-stages",
+      "source_type": "measurement",
+      "published_or_updated": "2026-09-25",
+      "selection_rationale": "Outcome measurement needs workflow stages, not one aggregate usage number.",
+      "usefulness": "Measure Buildn work by intake, draft, review, revision, approval, and shipped artifact."
+    },
+    {
+      "date": "2026-09-26",
+      "topic": "agentic-developer-surfaces",
+      "topic_title": "Agentic Developer Surfaces",
+      "title": "CodeQL 2.27.1",
+      "url": "https://github.blog/changelog/2026-09-25-codeql-2-27-1-adds-c-and-c-query-and-kotlin-2-4-20-support",
+      "source_type": "security release",
+      "published_or_updated": "2026-09-25",
+      "selection_rationale": "Agent-generated code increases the value of fast, language-aware security feedback.",
+      "usefulness": "Keep generated client code inside the same scan-and-repair loop as human code."
+    },
+    {
+      "date": "2026-09-26",
+      "topic": "agent-systems-evals",
+      "topic_title": "Agent Systems + Evaluation Science",
+      "title": "Towards a science of scaling agent systems",
+      "url": "https://research.google/blog/towards-a-science-of-scaling-agent-systems-when-and-why-agent-systems-work/",
+      "source_type": "research",
+      "published_or_updated": "2026-01-28",
+      "selection_rationale": "“More agents” is not a design principle; task structure should choose the architecture.",
+      "usefulness": "Route Buildn work by decomposability: parallel source collection, single-threaded synthesis, explicit tool budget."
+    },
+    {
+      "date": "2026-09-26",
+      "topic": "agent-systems-evals",
+      "topic_title": "Agent Systems + Evaluation Science",
+      "title": "ARE: scaling up agent environments and evaluations",
+      "url": "https://ai.meta.com/research/publications/are-scaling-up-agent-environments-and-evaluations/",
+      "source_type": "platform/paper",
+      "published_or_updated": "2025-09-22",
+      "selection_rationale": "Static benchmarks miss timing, changing state, ambiguity, and coordination failures.",
+      "usefulness": "Design Buildn evals as small environments with changing inputs and explicit verifiers, not only prompt-response tests."
+    },
+    {
+      "date": "2026-09-26",
+      "topic": "agent-systems-evals",
+      "topic_title": "Agent Systems + Evaluation Science",
+      "title": "AIRA₂: Overcoming Bottlenecks in AI Research Agents",
+      "url": "https://ai.meta.com/research/publications/aira-overcoming-bottlenecks-in-ai-research-agents/",
+      "source_type": "research",
+      "published_or_updated": "2026-04-16",
+      "selection_rationale": "Throughput, evaluation noise, and rigid operators are separate bottlenecks that compound over long searches.",
+      "usefulness": "Separate worker throughput, evaluator integrity, and operator adaptability in research automation proposals."
+    },
+    {
+      "date": "2026-09-26",
+      "topic": "agent-systems-evals",
+      "topic_title": "Agent Systems + Evaluation Science",
+      "title": "OpenAI Agents API",
+      "url": "https://openai.com/index/introducing-the-agents-api/",
+      "source_type": "product release",
+      "published_or_updated": "2026-09-20",
+      "selection_rationale": "The harness becomes a deployable primitive; teams can own UX and compute while outsourcing orchestration mechanics.",
+      "usefulness": "Compare managed harness economics against Hermes/Buildn orchestration for bounded client pilots."
+    },
+    {
+      "date": "2026-09-26",
+      "topic": "agentic-security-defense",
+      "topic_title": "Agentic Security + Defense",
+      "title": "Google Cloud + Wiz: agentic defense",
+      "url": "https://cloud.google.com/blog/products/identity-security/next26-redefining-security-for-the-ai-era-with-google-cloud-and-wiz",
+      "source_type": "security platform",
+      "published_or_updated": "2026-04-22",
+      "selection_rationale": "Agent security is becoming an operating model spanning identity, runtime, code, and response—not a prompt filter.",
+      "usefulness": "Use the inventory→policy→runtime→response loop in Buildn/client security reviews."
+    },
+    {
+      "date": "2026-09-26",
+      "topic": "agentic-security-defense",
+      "topic_title": "Agentic Security + Defense",
+      "title": "Cisco AI Defense 26.9.3",
+      "url": "https://securitydocs.cisco.com/docs/ai-def/user/168305.dita",
+      "source_type": "release notes",
+      "published_or_updated": "2026-09-16",
+      "selection_rationale": "Policy systems are moving toward specific, inspectable rules and operational cost visibility.",
+      "usefulness": "Replace vague safety labels with named harms, scopes, thresholds, owners, and test cases."
+    },
+    {
+      "date": "2026-09-26",
+      "topic": "agentic-security-defense",
+      "topic_title": "Agentic Security + Defense",
+      "title": "Agent Anomaly Detection",
+      "url": "https://developers.googleblog.com/agent-anomaly-detection-now-in-private-preview-on-the-gemini-enterprise-agent-platform",
+      "source_type": "product preview",
+      "published_or_updated": "2026-09-21",
+      "selection_rationale": "Behavioral monitoring is the bridge between static policy and real-world drift.",
+      "usefulness": "Add baseline behavior, anomaly reason, reviewer, and disposition fields to Buildn job records."
+    },
+    {
+      "date": "2026-09-26",
+      "topic": "agentic-security-defense",
+      "topic_title": "Agentic Security + Defense",
+      "title": "GitHub local sandboxing",
+      "url": "https://github.blog/changelog/2026-09-23-local-sandboxing-in-the-github-copilot-app",
+      "source_type": "developer security",
+      "published_or_updated": "2026-09-23",
+      "selection_rationale": "Least privilege is finally visible as a normal agent setting rather than an infrastructure-only concern.",
+      "usefulness": "Make capability grants explicit in every Buildn worker manifest."
+    },
+    {
+      "date": "2026-09-26",
+      "topic": "agentic-security-defense",
+      "topic_title": "Agentic Security + Defense",
+      "title": "Require proof of presence for high-impact actions",
+      "url": "https://github.blog/changelog/2026-09-24-require-proof-of-presence-for-high-impact-actions",
+      "source_type": "access control",
+      "published_or_updated": "2026-09-24",
+      "selection_rationale": "High-impact automation needs a human signal at the moment of consequence, not only at setup.",
+      "usefulness": "Use presence/approval receipts for publishing, deleting, spending, or contacting external parties."
+    },
+    {
+      "date": "2026-09-26",
+      "topic": "ai-native-operator-workflows",
+      "topic_title": "AI-Native Operator Workflows",
+      "title": "How AI-native companies turn workflows into operating capability",
+      "url": "https://openai.com/index/ai-native-company-workflows/",
+      "source_type": "operator playbook",
+      "published_or_updated": "2026-09-26",
+      "selection_rationale": "The transferable pattern is not “use an agent”; it is encode a repeatable job with context, permissions, checks, and an owner.",
+      "usefulness": "Turn Buildn client discovery into workflow cards with trigger, context, tools, evidence, stop points, and metric."
+    },
+    {
+      "date": "2026-09-26",
+      "topic": "ai-native-operator-workflows",
+      "topic_title": "AI-Native Operator Workflows",
+      "title": "Proaction boosts sales 60% and saves 75+ hours with Codex",
+      "url": "https://openai.com/index/proaction/",
+      "source_type": "case study",
+      "published_or_updated": "2026-09-25",
+      "selection_rationale": "A visual artifact can compress the gap between discovery, sales, product, and engineering.",
+      "usefulness": "Offer client-specific prototype dossiers as a paid discovery deliverable, with requirements traceability."
+    },
+    {
+      "date": "2026-09-26",
+      "topic": "ai-native-operator-workflows",
+      "topic_title": "AI-Native Operator Workflows",
+      "title": "1Password increases engineering productivity 21% with Codex",
+      "url": "https://openai.com/index/1password/",
+      "source_type": "case study",
+      "published_or_updated": "2026-09-26",
+      "selection_rationale": "Speed and security are designed together instead of traded off after the fact.",
+      "usefulness": "Use policy-as-skill plus secret isolation as a reference for client delivery systems."
+    },
+    {
+      "date": "2026-09-26",
+      "topic": "ai-native-operator-workflows",
+      "topic_title": "AI-Native Operator Workflows",
+      "title": "V7 gives AI agents institutional memory",
+      "url": "https://openai.com/index/v7/",
+      "source_type": "customer story",
+      "published_or_updated": "2026-09-22",
+      "selection_rationale": "Persistent context with source links may matter more than adding more agents.",
+      "usefulness": "Model Buildn artifacts as evidence-linked context graphs rather than flat notes."
+    },
+    {
+      "date": "2026-09-26",
+      "topic": "ai-native-operator-workflows",
+      "topic_title": "AI-Native Operator Workflows",
+      "title": "Travelers deploys AI-powered claims countrywide",
+      "url": "https://openai.com/index/travelers/",
+      "source_type": "enterprise case study",
+      "published_or_updated": "2026-06-02",
+      "selection_rationale": "It shows the operational pattern for high-volume intake: bounded scope, system integration, escalation for complexity.",
+      "usefulness": "Apply the same shape to client intake, triage, and handoff workflows."
     }
   ],
   "runs": [
@@ -5133,11 +5362,298 @@
           "rationale": "Design human checkpoints with a clear explanation, reversible alternative, and next-best action."
         }
       ]
+    },
+    {
+      "date": "2026-09-26",
+      "selected_lanes": [
+        "agentic-developer-surfaces",
+        "agent-systems-evals",
+        "agentic-security-defense",
+        "ai-native-operator-workflows"
+      ],
+      "items": [
+        {
+          "lane": "agentic-developer-surfaces",
+          "title": "GitHub Copilot weekly releases — September 21",
+          "url": "https://github.blog/changelog/2026-09-25-github-copilot-weekly-releases-september-21/",
+          "source_type": "release",
+          "rationale": "The surface area for safe agent operation is moving into ordinary developer tooling."
+        },
+        {
+          "lane": "agentic-developer-surfaces",
+          "title": "Agentic autofix now uses Copilot Memory",
+          "url": "https://github.blog/changelog/2026-09-25-agentic-autofix-now-uses-copilot-memory",
+          "source_type": "improvement",
+          "rationale": "Memory is becoming an active security control, not just a personalization layer."
+        },
+        {
+          "lane": "agentic-developer-surfaces",
+          "title": "Enterprise managed settings in-product validator",
+          "url": "https://github.blog/changelog/2026-09-25-enterprise-managed-settings-in-product-validator",
+          "source_type": "governance",
+          "rationale": "Configuration drift is now treated as an operational failure mode worth catching at the product boundary."
+        },
+        {
+          "lane": "agentic-developer-surfaces",
+          "title": "Usage metrics API adds pull-request review stages",
+          "url": "https://github.blog/changelog/2026-09-25-usage-metrics-api-adds-pull-request-review-stages",
+          "source_type": "measurement",
+          "rationale": "Outcome measurement needs workflow stages, not one aggregate usage number."
+        },
+        {
+          "lane": "agentic-developer-surfaces",
+          "title": "CodeQL 2.27.1",
+          "url": "https://github.blog/changelog/2026-09-25-codeql-2-27-1-adds-c-and-c-query-and-kotlin-2-4-20-support",
+          "source_type": "security release",
+          "rationale": "Agent-generated code increases the value of fast, language-aware security feedback."
+        },
+        {
+          "lane": "agent-systems-evals",
+          "title": "Towards a science of scaling agent systems",
+          "url": "https://research.google/blog/towards-a-science-of-scaling-agent-systems-when-and-why-agent-systems-work/",
+          "source_type": "research",
+          "rationale": "“More agents” is not a design principle; task structure should choose the architecture."
+        },
+        {
+          "lane": "agent-systems-evals",
+          "title": "ARE: scaling up agent environments and evaluations",
+          "url": "https://ai.meta.com/research/publications/are-scaling-up-agent-environments-and-evaluations/",
+          "source_type": "platform/paper",
+          "rationale": "Static benchmarks miss timing, changing state, ambiguity, and coordination failures."
+        },
+        {
+          "lane": "agent-systems-evals",
+          "title": "AIRA₂: Overcoming Bottlenecks in AI Research Agents",
+          "url": "https://ai.meta.com/research/publications/aira-overcoming-bottlenecks-in-ai-research-agents/",
+          "source_type": "research",
+          "rationale": "Throughput, evaluation noise, and rigid operators are separate bottlenecks that compound over long searches."
+        },
+        {
+          "lane": "agent-systems-evals",
+          "title": "OpenAI Agents API",
+          "url": "https://openai.com/index/introducing-the-agents-api/",
+          "source_type": "product release",
+          "rationale": "The harness becomes a deployable primitive; teams can own UX and compute while outsourcing orchestration mechanics."
+        },
+        {
+          "lane": "agentic-security-defense",
+          "title": "Google Cloud + Wiz: agentic defense",
+          "url": "https://cloud.google.com/blog/products/identity-security/next26-redefining-security-for-the-ai-era-with-google-cloud-and-wiz",
+          "source_type": "security platform",
+          "rationale": "Agent security is becoming an operating model spanning identity, runtime, code, and response—not a prompt filter."
+        },
+        {
+          "lane": "agentic-security-defense",
+          "title": "Cisco AI Defense 26.9.3",
+          "url": "https://securitydocs.cisco.com/docs/ai-def/user/168305.dita",
+          "source_type": "release notes",
+          "rationale": "Policy systems are moving toward specific, inspectable rules and operational cost visibility."
+        },
+        {
+          "lane": "agentic-security-defense",
+          "title": "Agent Anomaly Detection",
+          "url": "https://developers.googleblog.com/agent-anomaly-detection-now-in-private-preview-on-the-gemini-enterprise-agent-platform",
+          "source_type": "product preview",
+          "rationale": "Behavioral monitoring is the bridge between static policy and real-world drift."
+        },
+        {
+          "lane": "agentic-security-defense",
+          "title": "GitHub local sandboxing",
+          "url": "https://github.blog/changelog/2026-09-23-local-sandboxing-in-the-github-copilot-app",
+          "source_type": "developer security",
+          "rationale": "Least privilege is finally visible as a normal agent setting rather than an infrastructure-only concern."
+        },
+        {
+          "lane": "agentic-security-defense",
+          "title": "Require proof of presence for high-impact actions",
+          "url": "https://github.blog/changelog/2026-09-24-require-proof-of-presence-for-high-impact-actions",
+          "source_type": "access control",
+          "rationale": "High-impact automation needs a human signal at the moment of consequence, not only at setup."
+        },
+        {
+          "lane": "ai-native-operator-workflows",
+          "title": "How AI-native companies turn workflows into operating capability",
+          "url": "https://openai.com/index/ai-native-company-workflows/",
+          "source_type": "operator playbook",
+          "rationale": "The transferable pattern is not “use an agent”; it is encode a repeatable job with context, permissions, checks, and an owner."
+        },
+        {
+          "lane": "ai-native-operator-workflows",
+          "title": "Proaction boosts sales 60% and saves 75+ hours with Codex",
+          "url": "https://openai.com/index/proaction/",
+          "source_type": "case study",
+          "rationale": "A visual artifact can compress the gap between discovery, sales, product, and engineering."
+        },
+        {
+          "lane": "ai-native-operator-workflows",
+          "title": "1Password increases engineering productivity 21% with Codex",
+          "url": "https://openai.com/index/1password/",
+          "source_type": "case study",
+          "rationale": "Speed and security are designed together instead of traded off after the fact."
+        },
+        {
+          "lane": "ai-native-operator-workflows",
+          "title": "V7 gives AI agents institutional memory",
+          "url": "https://openai.com/index/v7/",
+          "source_type": "customer story",
+          "rationale": "Persistent context with source links may matter more than adding more agents."
+        },
+        {
+          "lane": "ai-native-operator-workflows",
+          "title": "Travelers deploys AI-powered claims countrywide",
+          "url": "https://openai.com/index/travelers/",
+          "source_type": "enterprise case study",
+          "rationale": "It shows the operational pattern for high-volume intake: bounded scope, system integration, escalation for complexity."
+        }
+      ]
     }
   ],
-  "updated_at": "2026-09-25T08:07:54.685798+00:00",
-  "last_run": "2026-09-25",
-  "last_editorial_thesis": "Fresh signal is moving agent maturity from isolated model quality toward population-level governance, contestable evidence, and explicit enterprise defaults.",
+  "updated_at": "2026-09-26T08:00:56+00:00",
+  "last_run": {
+    "date": "2026-09-26",
+    "selected_lanes": [
+      "agentic-developer-surfaces",
+      "agent-systems-evals",
+      "agentic-security-defense",
+      "ai-native-operator-workflows"
+    ],
+    "items": [
+      {
+        "lane": "agentic-developer-surfaces",
+        "title": "GitHub Copilot weekly releases — September 21",
+        "url": "https://github.blog/changelog/2026-09-25-github-copilot-weekly-releases-september-21/",
+        "source_type": "release",
+        "rationale": "The surface area for safe agent operation is moving into ordinary developer tooling."
+      },
+      {
+        "lane": "agentic-developer-surfaces",
+        "title": "Agentic autofix now uses Copilot Memory",
+        "url": "https://github.blog/changelog/2026-09-25-agentic-autofix-now-uses-copilot-memory",
+        "source_type": "improvement",
+        "rationale": "Memory is becoming an active security control, not just a personalization layer."
+      },
+      {
+        "lane": "agentic-developer-surfaces",
+        "title": "Enterprise managed settings in-product validator",
+        "url": "https://github.blog/changelog/2026-09-25-enterprise-managed-settings-in-product-validator",
+        "source_type": "governance",
+        "rationale": "Configuration drift is now treated as an operational failure mode worth catching at the product boundary."
+      },
+      {
+        "lane": "agentic-developer-surfaces",
+        "title": "Usage metrics API adds pull-request review stages",
+        "url": "https://github.blog/changelog/2026-09-25-usage-metrics-api-adds-pull-request-review-stages",
+        "source_type": "measurement",
+        "rationale": "Outcome measurement needs workflow stages, not one aggregate usage number."
+      },
+      {
+        "lane": "agentic-developer-surfaces",
+        "title": "CodeQL 2.27.1",
+        "url": "https://github.blog/changelog/2026-09-25-codeql-2-27-1-adds-c-and-c-query-and-kotlin-2-4-20-support",
+        "source_type": "security release",
+        "rationale": "Agent-generated code increases the value of fast, language-aware security feedback."
+      },
+      {
+        "lane": "agent-systems-evals",
+        "title": "Towards a science of scaling agent systems",
+        "url": "https://research.google/blog/towards-a-science-of-scaling-agent-systems-when-and-why-agent-systems-work/",
+        "source_type": "research",
+        "rationale": "“More agents” is not a design principle; task structure should choose the architecture."
+      },
+      {
+        "lane": "agent-systems-evals",
+        "title": "ARE: scaling up agent environments and evaluations",
+        "url": "https://ai.meta.com/research/publications/are-scaling-up-agent-environments-and-evaluations/",
+        "source_type": "platform/paper",
+        "rationale": "Static benchmarks miss timing, changing state, ambiguity, and coordination failures."
+      },
+      {
+        "lane": "agent-systems-evals",
+        "title": "AIRA₂: Overcoming Bottlenecks in AI Research Agents",
+        "url": "https://ai.meta.com/research/publications/aira-overcoming-bottlenecks-in-ai-research-agents/",
+        "source_type": "research",
+        "rationale": "Throughput, evaluation noise, and rigid operators are separate bottlenecks that compound over long searches."
+      },
+      {
+        "lane": "agent-systems-evals",
+        "title": "OpenAI Agents API",
+        "url": "https://openai.com/index/introducing-the-agents-api/",
+        "source_type": "product release",
+        "rationale": "The harness becomes a deployable primitive; teams can own UX and compute while outsourcing orchestration mechanics."
+      },
+      {
+        "lane": "agentic-security-defense",
+        "title": "Google Cloud + Wiz: agentic defense",
+        "url": "https://cloud.google.com/blog/products/identity-security/next26-redefining-security-for-the-ai-era-with-google-cloud-and-wiz",
+        "source_type": "security platform",
+        "rationale": "Agent security is becoming an operating model spanning identity, runtime, code, and response—not a prompt filter."
+      },
+      {
+        "lane": "agentic-security-defense",
+        "title": "Cisco AI Defense 26.9.3",
+        "url": "https://securitydocs.cisco.com/docs/ai-def/user/168305.dita",
+        "source_type": "release notes",
+        "rationale": "Policy systems are moving toward specific, inspectable rules and operational cost visibility."
+      },
+      {
+        "lane": "agentic-security-defense",
+        "title": "Agent Anomaly Detection",
+        "url": "https://developers.googleblog.com/agent-anomaly-detection-now-in-private-preview-on-the-gemini-enterprise-agent-platform",
+        "source_type": "product preview",
+        "rationale": "Behavioral monitoring is the bridge between static policy and real-world drift."
+      },
+      {
+        "lane": "agentic-security-defense",
+        "title": "GitHub local sandboxing",
+        "url": "https://github.blog/changelog/2026-09-23-local-sandboxing-in-the-github-copilot-app",
+        "source_type": "developer security",
+        "rationale": "Least privilege is finally visible as a normal agent setting rather than an infrastructure-only concern."
+      },
+      {
+        "lane": "agentic-security-defense",
+        "title": "Require proof of presence for high-impact actions",
+        "url": "https://github.blog/changelog/2026-09-24-require-proof-of-presence-for-high-impact-actions",
+        "source_type": "access control",
+        "rationale": "High-impact automation needs a human signal at the moment of consequence, not only at setup."
+      },
+      {
+        "lane": "ai-native-operator-workflows",
+        "title": "How AI-native companies turn workflows into operating capability",
+        "url": "https://openai.com/index/ai-native-company-workflows/",
+        "source_type": "operator playbook",
+        "rationale": "The transferable pattern is not “use an agent”; it is encode a repeatable job with context, permissions, checks, and an owner."
+      },
+      {
+        "lane": "ai-native-operator-workflows",
+        "title": "Proaction boosts sales 60% and saves 75+ hours with Codex",
+        "url": "https://openai.com/index/proaction/",
+        "source_type": "case study",
+        "rationale": "A visual artifact can compress the gap between discovery, sales, product, and engineering."
+      },
+      {
+        "lane": "ai-native-operator-workflows",
+        "title": "1Password increases engineering productivity 21% with Codex",
+        "url": "https://openai.com/index/1password/",
+        "source_type": "case study",
+        "rationale": "Speed and security are designed together instead of traded off after the fact."
+      },
+      {
+        "lane": "ai-native-operator-workflows",
+        "title": "V7 gives AI agents institutional memory",
+        "url": "https://openai.com/index/v7/",
+        "source_type": "customer story",
+        "rationale": "Persistent context with source links may matter more than adding more agents."
+      },
+      {
+        "lane": "ai-native-operator-workflows",
+        "title": "Travelers deploys AI-powered claims countrywide",
+        "url": "https://openai.com/index/travelers/",
+        "source_type": "enterprise case study",
+        "rationale": "It shows the operational pattern for high-volume intake: bounded scope, system integration, escalation for complexity."
+      }
+    ]
+  },
+  "last_editorial_thesis": "The useful frontier is shifting from adding agents to shaping their operating surface: isolated execution, observable memory, task-matched coordination, and workflows that carry evidence into human-reviewed action.",
   "coverage_history": [
     {
       "date": "2026-07-28",
@@ -6297,6 +6813,150 @@
           "url": "https://arxiv.org/abs/2609.27573",
           "source_type": "paper",
           "selection_rationale": "It frames complex systems as interacting agent-based components rather than a single centralized controller."
+        }
+      ]
+    },
+    {
+      "date": "2026-09-26",
+      "selected_lanes": [
+        "agentic-developer-surfaces",
+        "agent-systems-evals",
+        "agentic-security-defense",
+        "ai-native-operator-workflows"
+      ],
+      "items": [
+        {
+          "lane": "agentic-developer-surfaces",
+          "title": "GitHub Copilot weekly releases — September 21",
+          "url": "https://github.blog/changelog/2026-09-25-github-copilot-weekly-releases-september-21/",
+          "source_type": "release",
+          "rationale": "The surface area for safe agent operation is moving into ordinary developer tooling."
+        },
+        {
+          "lane": "agentic-developer-surfaces",
+          "title": "Agentic autofix now uses Copilot Memory",
+          "url": "https://github.blog/changelog/2026-09-25-agentic-autofix-now-uses-copilot-memory",
+          "source_type": "improvement",
+          "rationale": "Memory is becoming an active security control, not just a personalization layer."
+        },
+        {
+          "lane": "agentic-developer-surfaces",
+          "title": "Enterprise managed settings in-product validator",
+          "url": "https://github.blog/changelog/2026-09-25-enterprise-managed-settings-in-product-validator",
+          "source_type": "governance",
+          "rationale": "Configuration drift is now treated as an operational failure mode worth catching at the product boundary."
+        },
+        {
+          "lane": "agentic-developer-surfaces",
+          "title": "Usage metrics API adds pull-request review stages",
+          "url": "https://github.blog/changelog/2026-09-25-usage-metrics-api-adds-pull-request-review-stages",
+          "source_type": "measurement",
+          "rationale": "Outcome measurement needs workflow stages, not one aggregate usage number."
+        },
+        {
+          "lane": "agentic-developer-surfaces",
+          "title": "CodeQL 2.27.1",
+          "url": "https://github.blog/changelog/2026-09-25-codeql-2-27-1-adds-c-and-c-query-and-kotlin-2-4-20-support",
+          "source_type": "security release",
+          "rationale": "Agent-generated code increases the value of fast, language-aware security feedback."
+        },
+        {
+          "lane": "agent-systems-evals",
+          "title": "Towards a science of scaling agent systems",
+          "url": "https://research.google/blog/towards-a-science-of-scaling-agent-systems-when-and-why-agent-systems-work/",
+          "source_type": "research",
+          "rationale": "“More agents” is not a design principle; task structure should choose the architecture."
+        },
+        {
+          "lane": "agent-systems-evals",
+          "title": "ARE: scaling up agent environments and evaluations",
+          "url": "https://ai.meta.com/research/publications/are-scaling-up-agent-environments-and-evaluations/",
+          "source_type": "platform/paper",
+          "rationale": "Static benchmarks miss timing, changing state, ambiguity, and coordination failures."
+        },
+        {
+          "lane": "agent-systems-evals",
+          "title": "AIRA₂: Overcoming Bottlenecks in AI Research Agents",
+          "url": "https://ai.meta.com/research/publications/aira-overcoming-bottlenecks-in-ai-research-agents/",
+          "source_type": "research",
+          "rationale": "Throughput, evaluation noise, and rigid operators are separate bottlenecks that compound over long searches."
+        },
+        {
+          "lane": "agent-systems-evals",
+          "title": "OpenAI Agents API",
+          "url": "https://openai.com/index/introducing-the-agents-api/",
+          "source_type": "product release",
+          "rationale": "The harness becomes a deployable primitive; teams can own UX and compute while outsourcing orchestration mechanics."
+        },
+        {
+          "lane": "agentic-security-defense",
+          "title": "Google Cloud + Wiz: agentic defense",
+          "url": "https://cloud.google.com/blog/products/identity-security/next26-redefining-security-for-the-ai-era-with-google-cloud-and-wiz",
+          "source_type": "security platform",
+          "rationale": "Agent security is becoming an operating model spanning identity, runtime, code, and response—not a prompt filter."
+        },
+        {
+          "lane": "agentic-security-defense",
+          "title": "Cisco AI Defense 26.9.3",
+          "url": "https://securitydocs.cisco.com/docs/ai-def/user/168305.dita",
+          "source_type": "release notes",
+          "rationale": "Policy systems are moving toward specific, inspectable rules and operational cost visibility."
+        },
+        {
+          "lane": "agentic-security-defense",
+          "title": "Agent Anomaly Detection",
+          "url": "https://developers.googleblog.com/agent-anomaly-detection-now-in-private-preview-on-the-gemini-enterprise-agent-platform",
+          "source_type": "product preview",
+          "rationale": "Behavioral monitoring is the bridge between static policy and real-world drift."
+        },
+        {
+          "lane": "agentic-security-defense",
+          "title": "GitHub local sandboxing",
+          "url": "https://github.blog/changelog/2026-09-23-local-sandboxing-in-the-github-copilot-app",
+          "source_type": "developer security",
+          "rationale": "Least privilege is finally visible as a normal agent setting rather than an infrastructure-only concern."
+        },
+        {
+          "lane": "agentic-security-defense",
+          "title": "Require proof of presence for high-impact actions",
+          "url": "https://github.blog/changelog/2026-09-24-require-proof-of-presence-for-high-impact-actions",
+          "source_type": "access control",
+          "rationale": "High-impact automation needs a human signal at the moment of consequence, not only at setup."
+        },
+        {
+          "lane": "ai-native-operator-workflows",
+          "title": "How AI-native companies turn workflows into operating capability",
+          "url": "https://openai.com/index/ai-native-company-workflows/",
+          "source_type": "operator playbook",
+          "rationale": "The transferable pattern is not “use an agent”; it is encode a repeatable job with context, permissions, checks, and an owner."
+        },
+        {
+          "lane": "ai-native-operator-workflows",
+          "title": "Proaction boosts sales 60% and saves 75+ hours with Codex",
+          "url": "https://openai.com/index/proaction/",
+          "source_type": "case study",
+          "rationale": "A visual artifact can compress the gap between discovery, sales, product, and engineering."
+        },
+        {
+          "lane": "ai-native-operator-workflows",
+          "title": "1Password increases engineering productivity 21% with Codex",
+          "url": "https://openai.com/index/1password/",
+          "source_type": "case study",
+          "rationale": "Speed and security are designed together instead of traded off after the fact."
+        },
+        {
+          "lane": "ai-native-operator-workflows",
+          "title": "V7 gives AI agents institutional memory",
+          "url": "https://openai.com/index/v7/",
+          "source_type": "customer story",
+          "rationale": "Persistent context with source links may matter more than adding more agents."
+        },
+        {
+          "lane": "ai-native-operator-workflows",
+          "title": "Travelers deploys AI-powered claims countrywide",
+          "url": "https://openai.com/index/travelers/",
+          "source_type": "enterprise case study",
+          "rationale": "It shows the operational pattern for high-volume intake: bounded scope, system integration, escalation for complexity."
         }
       ]
     }
@@ -7917,9 +8577,10 @@
     }
   ],
   "last_run_selection": [
-    "agent-oversight-and-security",
-    "portable-agent-developer-surfaces",
-    "human-agent-boundaries"
+    "agentic-developer-surfaces",
+    "agent-systems-evals",
+    "agentic-security-defense",
+    "ai-native-operator-workflows"
   ],
   "sources": {
     "architecture": {
@@ -9270,6 +9931,150 @@
           "rationale": "Design human checkpoints with a clear explanation, reversible alternative, and next-best action."
         }
       ]
+    },
+    {
+      "date": "2026-09-26",
+      "selected_lanes": [
+        "agentic-developer-surfaces",
+        "agent-systems-evals",
+        "agentic-security-defense",
+        "ai-native-operator-workflows"
+      ],
+      "items": [
+        {
+          "lane": "agentic-developer-surfaces",
+          "title": "GitHub Copilot weekly releases — September 21",
+          "url": "https://github.blog/changelog/2026-09-25-github-copilot-weekly-releases-september-21/",
+          "source_type": "release",
+          "rationale": "The surface area for safe agent operation is moving into ordinary developer tooling."
+        },
+        {
+          "lane": "agentic-developer-surfaces",
+          "title": "Agentic autofix now uses Copilot Memory",
+          "url": "https://github.blog/changelog/2026-09-25-agentic-autofix-now-uses-copilot-memory",
+          "source_type": "improvement",
+          "rationale": "Memory is becoming an active security control, not just a personalization layer."
+        },
+        {
+          "lane": "agentic-developer-surfaces",
+          "title": "Enterprise managed settings in-product validator",
+          "url": "https://github.blog/changelog/2026-09-25-enterprise-managed-settings-in-product-validator",
+          "source_type": "governance",
+          "rationale": "Configuration drift is now treated as an operational failure mode worth catching at the product boundary."
+        },
+        {
+          "lane": "agentic-developer-surfaces",
+          "title": "Usage metrics API adds pull-request review stages",
+          "url": "https://github.blog/changelog/2026-09-25-usage-metrics-api-adds-pull-request-review-stages",
+          "source_type": "measurement",
+          "rationale": "Outcome measurement needs workflow stages, not one aggregate usage number."
+        },
+        {
+          "lane": "agentic-developer-surfaces",
+          "title": "CodeQL 2.27.1",
+          "url": "https://github.blog/changelog/2026-09-25-codeql-2-27-1-adds-c-and-c-query-and-kotlin-2-4-20-support",
+          "source_type": "security release",
+          "rationale": "Agent-generated code increases the value of fast, language-aware security feedback."
+        },
+        {
+          "lane": "agent-systems-evals",
+          "title": "Towards a science of scaling agent systems",
+          "url": "https://research.google/blog/towards-a-science-of-scaling-agent-systems-when-and-why-agent-systems-work/",
+          "source_type": "research",
+          "rationale": "“More agents” is not a design principle; task structure should choose the architecture."
+        },
+        {
+          "lane": "agent-systems-evals",
+          "title": "ARE: scaling up agent environments and evaluations",
+          "url": "https://ai.meta.com/research/publications/are-scaling-up-agent-environments-and-evaluations/",
+          "source_type": "platform/paper",
+          "rationale": "Static benchmarks miss timing, changing state, ambiguity, and coordination failures."
+        },
+        {
+          "lane": "agent-systems-evals",
+          "title": "AIRA₂: Overcoming Bottlenecks in AI Research Agents",
+          "url": "https://ai.meta.com/research/publications/aira-overcoming-bottlenecks-in-ai-research-agents/",
+          "source_type": "research",
+          "rationale": "Throughput, evaluation noise, and rigid operators are separate bottlenecks that compound over long searches."
+        },
+        {
+          "lane": "agent-systems-evals",
+          "title": "OpenAI Agents API",
+          "url": "https://openai.com/index/introducing-the-agents-api/",
+          "source_type": "product release",
+          "rationale": "The harness becomes a deployable primitive; teams can own UX and compute while outsourcing orchestration mechanics."
+        },
+        {
+          "lane": "agentic-security-defense",
+          "title": "Google Cloud + Wiz: agentic defense",
+          "url": "https://cloud.google.com/blog/products/identity-security/next26-redefining-security-for-the-ai-era-with-google-cloud-and-wiz",
+          "source_type": "security platform",
+          "rationale": "Agent security is becoming an operating model spanning identity, runtime, code, and response—not a prompt filter."
+        },
+        {
+          "lane": "agentic-security-defense",
+          "title": "Cisco AI Defense 26.9.3",
+          "url": "https://securitydocs.cisco.com/docs/ai-def/user/168305.dita",
+          "source_type": "release notes",
+          "rationale": "Policy systems are moving toward specific, inspectable rules and operational cost visibility."
+        },
+        {
+          "lane": "agentic-security-defense",
+          "title": "Agent Anomaly Detection",
+          "url": "https://developers.googleblog.com/agent-anomaly-detection-now-in-private-preview-on-the-gemini-enterprise-agent-platform",
+          "source_type": "product preview",
+          "rationale": "Behavioral monitoring is the bridge between static policy and real-world drift."
+        },
+        {
+          "lane": "agentic-security-defense",
+          "title": "GitHub local sandboxing",
+          "url": "https://github.blog/changelog/2026-09-23-local-sandboxing-in-the-github-copilot-app",
+          "source_type": "developer security",
+          "rationale": "Least privilege is finally visible as a normal agent setting rather than an infrastructure-only concern."
+        },
+        {
+          "lane": "agentic-security-defense",
+          "title": "Require proof of presence for high-impact actions",
+          "url": "https://github.blog/changelog/2026-09-24-require-proof-of-presence-for-high-impact-actions",
+          "source_type": "access control",
+          "rationale": "High-impact automation needs a human signal at the moment of consequence, not only at setup."
+        },
+        {
+          "lane": "ai-native-operator-workflows",
+          "title": "How AI-native companies turn workflows into operating capability",
+          "url": "https://openai.com/index/ai-native-company-workflows/",
+          "source_type": "operator playbook",
+          "rationale": "The transferable pattern is not “use an agent”; it is encode a repeatable job with context, permissions, checks, and an owner."
+        },
+        {
+          "lane": "ai-native-operator-workflows",
+          "title": "Proaction boosts sales 60% and saves 75+ hours with Codex",
+          "url": "https://openai.com/index/proaction/",
+          "source_type": "case study",
+          "rationale": "A visual artifact can compress the gap between discovery, sales, product, and engineering."
+        },
+        {
+          "lane": "ai-native-operator-workflows",
+          "title": "1Password increases engineering productivity 21% with Codex",
+          "url": "https://openai.com/index/1password/",
+          "source_type": "case study",
+          "rationale": "Speed and security are designed together instead of traded off after the fact."
+        },
+        {
+          "lane": "ai-native-operator-workflows",
+          "title": "V7 gives AI agents institutional memory",
+          "url": "https://openai.com/index/v7/",
+          "source_type": "customer story",
+          "rationale": "Persistent context with source links may matter more than adding more agents."
+        },
+        {
+          "lane": "ai-native-operator-workflows",
+          "title": "Travelers deploys AI-powered claims countrywide",
+          "url": "https://openai.com/index/travelers/",
+          "source_type": "enterprise case study",
+          "rationale": "It shows the operational pattern for high-volume intake: bounded scope, system integration, escalation for complexity."
+        }
+      ]
     }
   ],
   "run_history": [
@@ -10512,6 +11317,150 @@
           "url": "https://arxiv.org/html/2606.20630v1",
           "source_type": "product",
           "rationale": "Design human checkpoints with a clear explanation, reversible alternative, and next-best action."
+        }
+      ]
+    },
+    {
+      "date": "2026-09-26",
+      "selected_lanes": [
+        "agentic-developer-surfaces",
+        "agent-systems-evals",
+        "agentic-security-defense",
+        "ai-native-operator-workflows"
+      ],
+      "items": [
+        {
+          "lane": "agentic-developer-surfaces",
+          "title": "GitHub Copilot weekly releases — September 21",
+          "url": "https://github.blog/changelog/2026-09-25-github-copilot-weekly-releases-september-21/",
+          "source_type": "release",
+          "rationale": "The surface area for safe agent operation is moving into ordinary developer tooling."
+        },
+        {
+          "lane": "agentic-developer-surfaces",
+          "title": "Agentic autofix now uses Copilot Memory",
+          "url": "https://github.blog/changelog/2026-09-25-agentic-autofix-now-uses-copilot-memory",
+          "source_type": "improvement",
+          "rationale": "Memory is becoming an active security control, not just a personalization layer."
+        },
+        {
+          "lane": "agentic-developer-surfaces",
+          "title": "Enterprise managed settings in-product validator",
+          "url": "https://github.blog/changelog/2026-09-25-enterprise-managed-settings-in-product-validator",
+          "source_type": "governance",
+          "rationale": "Configuration drift is now treated as an operational failure mode worth catching at the product boundary."
+        },
+        {
+          "lane": "agentic-developer-surfaces",
+          "title": "Usage metrics API adds pull-request review stages",
+          "url": "https://github.blog/changelog/2026-09-25-usage-metrics-api-adds-pull-request-review-stages",
+          "source_type": "measurement",
+          "rationale": "Outcome measurement needs workflow stages, not one aggregate usage number."
+        },
+        {
+          "lane": "agentic-developer-surfaces",
+          "title": "CodeQL 2.27.1",
+          "url": "https://github.blog/changelog/2026-09-25-codeql-2-27-1-adds-c-and-c-query-and-kotlin-2-4-20-support",
+          "source_type": "security release",
+          "rationale": "Agent-generated code increases the value of fast, language-aware security feedback."
+        },
+        {
+          "lane": "agent-systems-evals",
+          "title": "Towards a science of scaling agent systems",
+          "url": "https://research.google/blog/towards-a-science-of-scaling-agent-systems-when-and-why-agent-systems-work/",
+          "source_type": "research",
+          "rationale": "“More agents” is not a design principle; task structure should choose the architecture."
+        },
+        {
+          "lane": "agent-systems-evals",
+          "title": "ARE: scaling up agent environments and evaluations",
+          "url": "https://ai.meta.com/research/publications/are-scaling-up-agent-environments-and-evaluations/",
+          "source_type": "platform/paper",
+          "rationale": "Static benchmarks miss timing, changing state, ambiguity, and coordination failures."
+        },
+        {
+          "lane": "agent-systems-evals",
+          "title": "AIRA₂: Overcoming Bottlenecks in AI Research Agents",
+          "url": "https://ai.meta.com/research/publications/aira-overcoming-bottlenecks-in-ai-research-agents/",
+          "source_type": "research",
+          "rationale": "Throughput, evaluation noise, and rigid operators are separate bottlenecks that compound over long searches."
+        },
+        {
+          "lane": "agent-systems-evals",
+          "title": "OpenAI Agents API",
+          "url": "https://openai.com/index/introducing-the-agents-api/",
+          "source_type": "product release",
+          "rationale": "The harness becomes a deployable primitive; teams can own UX and compute while outsourcing orchestration mechanics."
+        },
+        {
+          "lane": "agentic-security-defense",
+          "title": "Google Cloud + Wiz: agentic defense",
+          "url": "https://cloud.google.com/blog/products/identity-security/next26-redefining-security-for-the-ai-era-with-google-cloud-and-wiz",
+          "source_type": "security platform",
+          "rationale": "Agent security is becoming an operating model spanning identity, runtime, code, and response—not a prompt filter."
+        },
+        {
+          "lane": "agentic-security-defense",
+          "title": "Cisco AI Defense 26.9.3",
+          "url": "https://securitydocs.cisco.com/docs/ai-def/user/168305.dita",
+          "source_type": "release notes",
+          "rationale": "Policy systems are moving toward specific, inspectable rules and operational cost visibility."
+        },
+        {
+          "lane": "agentic-security-defense",
+          "title": "Agent Anomaly Detection",
+          "url": "https://developers.googleblog.com/agent-anomaly-detection-now-in-private-preview-on-the-gemini-enterprise-agent-platform",
+          "source_type": "product preview",
+          "rationale": "Behavioral monitoring is the bridge between static policy and real-world drift."
+        },
+        {
+          "lane": "agentic-security-defense",
+          "title": "GitHub local sandboxing",
+          "url": "https://github.blog/changelog/2026-09-23-local-sandboxing-in-the-github-copilot-app",
+          "source_type": "developer security",
+          "rationale": "Least privilege is finally visible as a normal agent setting rather than an infrastructure-only concern."
+        },
+        {
+          "lane": "agentic-security-defense",
+          "title": "Require proof of presence for high-impact actions",
+          "url": "https://github.blog/changelog/2026-09-24-require-proof-of-presence-for-high-impact-actions",
+          "source_type": "access control",
+          "rationale": "High-impact automation needs a human signal at the moment of consequence, not only at setup."
+        },
+        {
+          "lane": "ai-native-operator-workflows",
+          "title": "How AI-native companies turn workflows into operating capability",
+          "url": "https://openai.com/index/ai-native-company-workflows/",
+          "source_type": "operator playbook",
+          "rationale": "The transferable pattern is not “use an agent”; it is encode a repeatable job with context, permissions, checks, and an owner."
+        },
+        {
+          "lane": "ai-native-operator-workflows",
+          "title": "Proaction boosts sales 60% and saves 75+ hours with Codex",
+          "url": "https://openai.com/index/proaction/",
+          "source_type": "case study",
+          "rationale": "A visual artifact can compress the gap between discovery, sales, product, and engineering."
+        },
+        {
+          "lane": "ai-native-operator-workflows",
+          "title": "1Password increases engineering productivity 21% with Codex",
+          "url": "https://openai.com/index/1password/",
+          "source_type": "case study",
+          "rationale": "Speed and security are designed together instead of traded off after the fact."
+        },
+        {
+          "lane": "ai-native-operator-workflows",
+          "title": "V7 gives AI agents institutional memory",
+          "url": "https://openai.com/index/v7/",
+          "source_type": "customer story",
+          "rationale": "Persistent context with source links may matter more than adding more agents."
+        },
+        {
+          "lane": "ai-native-operator-workflows",
+          "title": "Travelers deploys AI-powered claims countrywide",
+          "url": "https://openai.com/index/travelers/",
+          "source_type": "enterprise case study",
+          "rationale": "It shows the operational pattern for high-volume intake: bounded scope, system integration, escalation for complexity."
         }
       ]
     }
@@ -11912,6 +12861,150 @@
           "rationale": "Design human checkpoints with a clear explanation, reversible alternative, and next-best action."
         }
       ]
+    },
+    {
+      "date": "2026-09-26",
+      "selected_lanes": [
+        "agentic-developer-surfaces",
+        "agent-systems-evals",
+        "agentic-security-defense",
+        "ai-native-operator-workflows"
+      ],
+      "items": [
+        {
+          "lane": "agentic-developer-surfaces",
+          "title": "GitHub Copilot weekly releases — September 21",
+          "url": "https://github.blog/changelog/2026-09-25-github-copilot-weekly-releases-september-21/",
+          "source_type": "release",
+          "rationale": "The surface area for safe agent operation is moving into ordinary developer tooling."
+        },
+        {
+          "lane": "agentic-developer-surfaces",
+          "title": "Agentic autofix now uses Copilot Memory",
+          "url": "https://github.blog/changelog/2026-09-25-agentic-autofix-now-uses-copilot-memory",
+          "source_type": "improvement",
+          "rationale": "Memory is becoming an active security control, not just a personalization layer."
+        },
+        {
+          "lane": "agentic-developer-surfaces",
+          "title": "Enterprise managed settings in-product validator",
+          "url": "https://github.blog/changelog/2026-09-25-enterprise-managed-settings-in-product-validator",
+          "source_type": "governance",
+          "rationale": "Configuration drift is now treated as an operational failure mode worth catching at the product boundary."
+        },
+        {
+          "lane": "agentic-developer-surfaces",
+          "title": "Usage metrics API adds pull-request review stages",
+          "url": "https://github.blog/changelog/2026-09-25-usage-metrics-api-adds-pull-request-review-stages",
+          "source_type": "measurement",
+          "rationale": "Outcome measurement needs workflow stages, not one aggregate usage number."
+        },
+        {
+          "lane": "agentic-developer-surfaces",
+          "title": "CodeQL 2.27.1",
+          "url": "https://github.blog/changelog/2026-09-25-codeql-2-27-1-adds-c-and-c-query-and-kotlin-2-4-20-support",
+          "source_type": "security release",
+          "rationale": "Agent-generated code increases the value of fast, language-aware security feedback."
+        },
+        {
+          "lane": "agent-systems-evals",
+          "title": "Towards a science of scaling agent systems",
+          "url": "https://research.google/blog/towards-a-science-of-scaling-agent-systems-when-and-why-agent-systems-work/",
+          "source_type": "research",
+          "rationale": "“More agents” is not a design principle; task structure should choose the architecture."
+        },
+        {
+          "lane": "agent-systems-evals",
+          "title": "ARE: scaling up agent environments and evaluations",
+          "url": "https://ai.meta.com/research/publications/are-scaling-up-agent-environments-and-evaluations/",
+          "source_type": "platform/paper",
+          "rationale": "Static benchmarks miss timing, changing state, ambiguity, and coordination failures."
+        },
+        {
+          "lane": "agent-systems-evals",
+          "title": "AIRA₂: Overcoming Bottlenecks in AI Research Agents",
+          "url": "https://ai.meta.com/research/publications/aira-overcoming-bottlenecks-in-ai-research-agents/",
+          "source_type": "research",
+          "rationale": "Throughput, evaluation noise, and rigid operators are separate bottlenecks that compound over long searches."
+        },
+        {
+          "lane": "agent-systems-evals",
+          "title": "OpenAI Agents API",
+          "url": "https://openai.com/index/introducing-the-agents-api/",
+          "source_type": "product release",
+          "rationale": "The harness becomes a deployable primitive; teams can own UX and compute while outsourcing orchestration mechanics."
+        },
+        {
+          "lane": "agentic-security-defense",
+          "title": "Google Cloud + Wiz: agentic defense",
+          "url": "https://cloud.google.com/blog/products/identity-security/next26-redefining-security-for-the-ai-era-with-google-cloud-and-wiz",
+          "source_type": "security platform",
+          "rationale": "Agent security is becoming an operating model spanning identity, runtime, code, and response—not a prompt filter."
+        },
+        {
+          "lane": "agentic-security-defense",
+          "title": "Cisco AI Defense 26.9.3",
+          "url": "https://securitydocs.cisco.com/docs/ai-def/user/168305.dita",
+          "source_type": "release notes",
+          "rationale": "Policy systems are moving toward specific, inspectable rules and operational cost visibility."
+        },
+        {
+          "lane": "agentic-security-defense",
+          "title": "Agent Anomaly Detection",
+          "url": "https://developers.googleblog.com/agent-anomaly-detection-now-in-private-preview-on-the-gemini-enterprise-agent-platform",
+          "source_type": "product preview",
+          "rationale": "Behavioral monitoring is the bridge between static policy and real-world drift."
+        },
+        {
+          "lane": "agentic-security-defense",
+          "title": "GitHub local sandboxing",
+          "url": "https://github.blog/changelog/2026-09-23-local-sandboxing-in-the-github-copilot-app",
+          "source_type": "developer security",
+          "rationale": "Least privilege is finally visible as a normal agent setting rather than an infrastructure-only concern."
+        },
+        {
+          "lane": "agentic-security-defense",
+          "title": "Require proof of presence for high-impact actions",
+          "url": "https://github.blog/changelog/2026-09-24-require-proof-of-presence-for-high-impact-actions",
+          "source_type": "access control",
+          "rationale": "High-impact automation needs a human signal at the moment of consequence, not only at setup."
+        },
+        {
+          "lane": "ai-native-operator-workflows",
+          "title": "How AI-native companies turn workflows into operating capability",
+          "url": "https://openai.com/index/ai-native-company-workflows/",
+          "source_type": "operator playbook",
+          "rationale": "The transferable pattern is not “use an agent”; it is encode a repeatable job with context, permissions, checks, and an owner."
+        },
+        {
+          "lane": "ai-native-operator-workflows",
+          "title": "Proaction boosts sales 60% and saves 75+ hours with Codex",
+          "url": "https://openai.com/index/proaction/",
+          "source_type": "case study",
+          "rationale": "A visual artifact can compress the gap between discovery, sales, product, and engineering."
+        },
+        {
+          "lane": "ai-native-operator-workflows",
+          "title": "1Password increases engineering productivity 21% with Codex",
+          "url": "https://openai.com/index/1password/",
+          "source_type": "case study",
+          "rationale": "Speed and security are designed together instead of traded off after the fact."
+        },
+        {
+          "lane": "ai-native-operator-workflows",
+          "title": "V7 gives AI agents institutional memory",
+          "url": "https://openai.com/index/v7/",
+          "source_type": "customer story",
+          "rationale": "Persistent context with source links may matter more than adding more agents."
+        },
+        {
+          "lane": "ai-native-operator-workflows",
+          "title": "Travelers deploys AI-powered claims countrywide",
+          "url": "https://openai.com/index/travelers/",
+          "source_type": "enterprise case study",
+          "rationale": "It shows the operational pattern for high-volume intake: bounded scope, system integration, escalation for complexity."
+        }
+      ]
     }
   ],
   "themes": {
@@ -11976,106 +13069,7 @@
       "last_covered": "2026-09-08"
     }
   },
-  "last_successful_run": {
-    "date": "2026-09-24",
-    "selected_lanes": [
-      "agent-oversight-and-security",
-      "portable-agent-developer-surfaces",
-      "human-agent-boundaries"
-    ],
-    "items": [
-      {
-        "title": "Agent Anomaly Detection",
-        "url": "https://developers.googleblog.com/agent-anomaly-detection-now-in-private-preview-on-the-gemini-enterprise-agent-platform/",
-        "source_type": "product",
-        "rationale": "Use the pattern for a Buildn job monitor: statistical pass, targeted reasoning review, then policy callback."
-      },
-      {
-        "title": "Cisco AI Defense release line",
-        "url": "https://securitydocs.cisco.com/docs/ai-def/user/168305.dita",
-        "source_type": "product",
-        "rationale": "Borrow the inventory → profile → runtime-event loop for client agent reviews."
-      },
-      {
-        "title": "Muse Secure VM",
-        "url": "https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/",
-        "source_type": "product",
-        "rationale": "Use the isolated-worker and approval-receipt ideas for high-impact Buildn automations."
-      },
-      {
-        "title": "JetBrains managed sandbox controls",
-        "url": "https://github.blog/changelog/2026-09-10-github-copilot-weekly-releases-september-7/",
-        "source_type": "product",
-        "rationale": "Turn sandbox posture into a standard client discovery question, not an IDE afterthought."
-      },
-      {
-        "title": "OWASP-aligned anomaly categories",
-        "url": "https://developers.googleblog.com/agent-anomaly-detection-now-in-private-preview-on-the-gemini-enterprise-agent-platform/",
-        "source_type": "product",
-        "rationale": "Use the categories as a compact red-team taxonomy for Buildn client pilots."
-      },
-      {
-        "title": "OpenAPI generation in the open",
-        "url": "https://developers.googleblog.com/why-client-sdk-generation-belongs-in-the-open/",
-        "source_type": "product",
-        "rationale": "Generate stable client surfaces and live schema access for Buildn workers instead of hand-maintained wrappers."
-      },
-      {
-        "title": "HydraFusion model orchestration",
-        "url": "https://github.blog/changelog/2026-09-10-github-copilot-weekly-releases-september-7/",
-        "source_type": "product",
-        "rationale": "Use semantic routing as a reference for evidence extraction: cheap pass first, escalate ambiguity."
-      },
-      {
-        "title": "Visual Studio BYOK Agent preview",
-        "url": "https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes",
-        "source_type": "product",
-        "rationale": "Offer client-sensitive experiments with approved endpoints while preserving one task contract."
-      },
-      {
-        "title": "Recurring agent tasks in VS Code",
-        "url": "https://github.blog/changelog/2026-09-10-github-copilot-weekly-releases-september-7/",
-        "source_type": "product",
-        "rationale": "Translate recurring research and health checks into reviewable scheduled artifacts."
-      },
-      {
-        "title": "Documentation MCP generation",
-        "url": "https://developers.googleblog.com/why-client-sdk-generation-belongs-in-the-open/",
-        "source_type": "product",
-        "rationale": "Keep agent tool knowledge synchronized with source specs, reducing guessed method names."
-      },
-      {
-        "title": "Design Principles for Human-Agent Interaction",
-        "url": "https://arxiv.org/html/2606.20630v1",
-        "source_type": "product",
-        "rationale": "Turn the principles into a Buildn review rubric for transparency, initiative, memory, and recovery."
-      },
-      {
-        "title": "When assistants involve others",
-        "url": "https://arxiv.org/html/2609.14062v1",
-        "source_type": "product",
-        "rationale": "Use the non-user lens for client workflows involving shared inboxes, meetings, documents, or delegated messages."
-      },
-      {
-        "title": "Calibrated expectations",
-        "url": "https://arxiv.org/html/2606.20630v1",
-        "source_type": "product",
-        "rationale": "Make the first-run experience state what the agent may do, cannot do, and when it asks."
-      },
-      {
-        "title": "Memory as a relationship contract",
-        "url": "https://arxiv.org/html/2606.20630v1",
-        "source_type": "product",
-        "rationale": "Separate durable user-approved facts from transient run context in Buildn artifacts."
-      },
-      {
-        "title": "Repair is part of the product",
-        "url": "https://arxiv.org/html/2606.20630v1",
-        "source_type": "product",
-        "rationale": "Design human checkpoints with a clear explanation, reversible alternative, and next-best action."
-      }
-    ]
-  },
+  "last_successful_run": "2026-09-26",
   "history": [
     {
       "date": "2026-09-07",
@@ -13079,6 +14073,150 @@
           "url": "https://arxiv.org/html/2606.20630v1",
           "source_type": "product",
           "rationale": "Design human checkpoints with a clear explanation, reversible alternative, and next-best action."
+        }
+      ]
+    },
+    {
+      "date": "2026-09-26",
+      "selected_lanes": [
+        "agentic-developer-surfaces",
+        "agent-systems-evals",
+        "agentic-security-defense",
+        "ai-native-operator-workflows"
+      ],
+      "items": [
+        {
+          "lane": "agentic-developer-surfaces",
+          "title": "GitHub Copilot weekly releases — September 21",
+          "url": "https://github.blog/changelog/2026-09-25-github-copilot-weekly-releases-september-21/",
+          "source_type": "release",
+          "rationale": "The surface area for safe agent operation is moving into ordinary developer tooling."
+        },
+        {
+          "lane": "agentic-developer-surfaces",
+          "title": "Agentic autofix now uses Copilot Memory",
+          "url": "https://github.blog/changelog/2026-09-25-agentic-autofix-now-uses-copilot-memory",
+          "source_type": "improvement",
+          "rationale": "Memory is becoming an active security control, not just a personalization layer."
+        },
+        {
+          "lane": "agentic-developer-surfaces",
+          "title": "Enterprise managed settings in-product validator",
+          "url": "https://github.blog/changelog/2026-09-25-enterprise-managed-settings-in-product-validator",
+          "source_type": "governance",
+          "rationale": "Configuration drift is now treated as an operational failure mode worth catching at the product boundary."
+        },
+        {
+          "lane": "agentic-developer-surfaces",
+          "title": "Usage metrics API adds pull-request review stages",
+          "url": "https://github.blog/changelog/2026-09-25-usage-metrics-api-adds-pull-request-review-stages",
+          "source_type": "measurement",
+          "rationale": "Outcome measurement needs workflow stages, not one aggregate usage number."
+        },
+        {
+          "lane": "agentic-developer-surfaces",
+          "title": "CodeQL 2.27.1",
+          "url": "https://github.blog/changelog/2026-09-25-codeql-2-27-1-adds-c-and-c-query-and-kotlin-2-4-20-support",
+          "source_type": "security release",
+          "rationale": "Agent-generated code increases the value of fast, language-aware security feedback."
+        },
+        {
+          "lane": "agent-systems-evals",
+          "title": "Towards a science of scaling agent systems",
+          "url": "https://research.google/blog/towards-a-science-of-scaling-agent-systems-when-and-why-agent-systems-work/",
+          "source_type": "research",
+          "rationale": "“More agents” is not a design principle; task structure should choose the architecture."
+        },
+        {
+          "lane": "agent-systems-evals",
+          "title": "ARE: scaling up agent environments and evaluations",
+          "url": "https://ai.meta.com/research/publications/are-scaling-up-agent-environments-and-evaluations/",
+          "source_type": "platform/paper",
+          "rationale": "Static benchmarks miss timing, changing state, ambiguity, and coordination failures."
+        },
+        {
+          "lane": "agent-systems-evals",
+          "title": "AIRA₂: Overcoming Bottlenecks in AI Research Agents",
+          "url": "https://ai.meta.com/research/publications/aira-overcoming-bottlenecks-in-ai-research-agents/",
+          "source_type": "research",
+          "rationale": "Throughput, evaluation noise, and rigid operators are separate bottlenecks that compound over long searches."
+        },
+        {
+          "lane": "agent-systems-evals",
+          "title": "OpenAI Agents API",
+          "url": "https://openai.com/index/introducing-the-agents-api/",
+          "source_type": "product release",
+          "rationale": "The harness becomes a deployable primitive; teams can own UX and compute while outsourcing orchestration mechanics."
+        },
+        {
+          "lane": "agentic-security-defense",
+          "title": "Google Cloud + Wiz: agentic defense",
+          "url": "https://cloud.google.com/blog/products/identity-security/next26-redefining-security-for-the-ai-era-with-google-cloud-and-wiz",
+          "source_type": "security platform",
+          "rationale": "Agent security is becoming an operating model spanning identity, runtime, code, and response—not a prompt filter."
+        },
+        {
+          "lane": "agentic-security-defense",
+          "title": "Cisco AI Defense 26.9.3",
+          "url": "https://securitydocs.cisco.com/docs/ai-def/user/168305.dita",
+          "source_type": "release notes",
+          "rationale": "Policy systems are moving toward specific, inspectable rules and operational cost visibility."
+        },
+        {
+          "lane": "agentic-security-defense",
+          "title": "Agent Anomaly Detection",
+          "url": "https://developers.googleblog.com/agent-anomaly-detection-now-in-private-preview-on-the-gemini-enterprise-agent-platform",
+          "source_type": "product preview",
+          "rationale": "Behavioral monitoring is the bridge between static policy and real-world drift."
+        },
+        {
+          "lane": "agentic-security-defense",
+          "title": "GitHub local sandboxing",
+          "url": "https://github.blog/changelog/2026-09-23-local-sandboxing-in-the-github-copilot-app",
+          "source_type": "developer security",
+          "rationale": "Least privilege is finally visible as a normal agent setting rather than an infrastructure-only concern."
+        },
+        {
+          "lane": "agentic-security-defense",
+          "title": "Require proof of presence for high-impact actions",
+          "url": "https://github.blog/changelog/2026-09-24-require-proof-of-presence-for-high-impact-actions",
+          "source_type": "access control",
+          "rationale": "High-impact automation needs a human signal at the moment of consequence, not only at setup."
+        },
+        {
+          "lane": "ai-native-operator-workflows",
+          "title": "How AI-native companies turn workflows into operating capability",
+          "url": "https://openai.com/index/ai-native-company-workflows/",
+          "source_type": "operator playbook",
+          "rationale": "The transferable pattern is not “use an agent”; it is encode a repeatable job with context, permissions, checks, and an owner."
+        },
+        {
+          "lane": "ai-native-operator-workflows",
+          "title": "Proaction boosts sales 60% and saves 75+ hours with Codex",
+          "url": "https://openai.com/index/proaction/",
+          "source_type": "case study",
+          "rationale": "A visual artifact can compress the gap between discovery, sales, product, and engineering."
+        },
+        {
+          "lane": "ai-native-operator-workflows",
+          "title": "1Password increases engineering productivity 21% with Codex",
+          "url": "https://openai.com/index/1password/",
+          "source_type": "case study",
+          "rationale": "Speed and security are designed together instead of traded off after the fact."
+        },
+        {
+          "lane": "ai-native-operator-workflows",
+          "title": "V7 gives AI agents institutional memory",
+          "url": "https://openai.com/index/v7/",
+          "source_type": "customer story",
+          "rationale": "Persistent context with source links may matter more than adding more agents."
+        },
+        {
+          "lane": "ai-native-operator-workflows",
+          "title": "Travelers deploys AI-powered claims countrywide",
+          "url": "https://openai.com/index/travelers/",
+          "source_type": "enterprise case study",
+          "rationale": "It shows the operational pattern for high-volume intake: bounded scope, system integration, escalation for complexity."
         }
       ]
     }

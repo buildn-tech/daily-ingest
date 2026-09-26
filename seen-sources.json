@@ -1,6 +1,101 @@
 {
-  "updated_at": "2026-09-25T08:07:17.193404+00:00",
+  "updated_at": "2026-09-26T08:07:58.781350+00:00",
   "sources": {
+    "https://github.blog/changelog/2026-09-25-github-copilot-weekly-releases-september-21": {
+      "first_seen": "2026-09-26",
+      "last_seen": "2026-09-26",
+      "title": "GitHub Copilot weekly releases \u2014 September 21"
+    },
+    "https://github.blog/changelog/2026-09-25-agentic-autofix-now-uses-copilot-memory": {
+      "first_seen": "2026-09-26",
+      "last_seen": "2026-09-26",
+      "title": "Agentic autofix now uses Copilot Memory"
+    },
+    "https://github.blog/changelog/2026-09-25-enterprise-managed-settings-in-product-validator": {
+      "first_seen": "2026-09-26",
+      "last_seen": "2026-09-26",
+      "title": "Enterprise managed settings in-product validator"
+    },
+    "https://github.blog/changelog/2026-09-25-usage-metrics-api-adds-pull-request-review-stages": {
+      "first_seen": "2026-09-26",
+      "last_seen": "2026-09-26",
+      "title": "Usage metrics API adds pull-request review stages"
+    },
+    "https://github.blog/changelog/2026-09-25-codeql-2-27-1-adds-c-and-c-query-and-kotlin-2-4-20-support": {
+      "first_seen": "2026-09-26",
+      "last_seen": "2026-09-26",
+      "title": "CodeQL 2.27.1"
+    },
+    "https://research.google/blog/towards-a-science-of-scaling-agent-systems-when-and-why-agent-systems-work": {
+      "first_seen": "2026-09-26",
+      "last_seen": "2026-09-26",
+      "title": "Towards a science of scaling agent systems"
+    },
+    "https://ai.meta.com/research/publications/are-scaling-up-agent-environments-and-evaluations": {
+      "first_seen": "2026-09-26",
+      "last_seen": "2026-09-26",
+      "title": "ARE: scaling up agent environments and evaluations"
+    },
+    "https://ai.meta.com/research/publications/aira-overcoming-bottlenecks-in-ai-research-agents": {
+      "first_seen": "2026-09-26",
+      "last_seen": "2026-09-26",
+      "title": "AIRA\u2082: Overcoming Bottlenecks in AI Research Agents"
+    },
+    "https://openai.com/index/introducing-the-agents-api": {
+      "first_seen": "2026-09-26",
+      "last_seen": "2026-09-20",
+      "title": "Introducing the Agents API"
+    },
+    "https://cloud.google.com/blog/products/identity-security/next26-redefining-security-for-the-ai-era-with-google-cloud-and-wiz": {
+      "first_seen": "2026-09-26",
+      "last_seen": "2026-09-26",
+      "title": "Google Cloud + Wiz: agentic defense"
+    },
+    "https://securitydocs.cisco.com/docs/ai-def/user/168305.dita": {
+      "first_seen": "2026-09-26",
+      "last_seen": "2026-08-15",
+      "title": "Cisco AI Defense 2026.8.1"
+    },
+    "https://developers.googleblog.com/agent-anomaly-detection-now-in-private-preview-on-the-gemini-enterprise-agent-platform": {
+      "first_seen": "2026-09-26",
+      "last_seen": "2026-09-21",
+      "title": "Agent Anomaly Detection"
+    },
+    "https://github.blog/changelog/2026-09-23-local-sandboxing-in-the-github-copilot-app": {
+      "first_seen": "2026-09-26",
+      "last_seen": "2026-09-26",
+      "title": "GitHub local sandboxing"
+    },
+    "https://github.blog/changelog/2026-09-24-require-proof-of-presence-for-high-impact-actions": {
+      "first_seen": "2026-09-26",
+      "last_seen": "2026-09-26",
+      "title": "Require proof of presence for high-impact actions"
+    },
+    "https://openai.com/index/ai-native-company-workflows": {
+      "first_seen": "2026-09-26",
+      "last_seen": "2026-09-26",
+      "title": "How AI-native companies turn workflows into operating capability"
+    },
+    "https://openai.com/index/proaction": {
+      "first_seen": "2026-09-26",
+      "last_seen": "2026-09-26",
+      "title": "Proaction boosts sales 60% and saves 75+ hours with Codex"
+    },
+    "https://openai.com/index/1password": {
+      "first_seen": "2026-09-26",
+      "last_seen": "2026-09-26",
+      "title": "1Password increases engineering productivity 21% with Codex"
+    },
+    "https://openai.com/index/v7": {
+      "first_seen": "2026-09-26",
+      "last_seen": "2026-09-22",
+      "title": "How V7 exposes context through MCP"
+    },
+    "https://openai.com/index/travelers": {
+      "first_seen": "2026-09-26",
+      "last_seen": "2026-09-26",
+      "title": "Travelers deploys AI-powered claims countrywide"
+    },
     "https://github.blog/changelog/2026-09-24-default-enablement-of-copilot-features-for-copilot-business-and-enterprise": {
       "first_seen": "2026-09-25",
       "last_seen": "2026-09-25",
@@ -40,16 +135,6 @@
       "first_seen": "2026-09-25",
       "last_seen": "2026-09-25",
       "title": "Agent-Based Modeling of Systems of Systems"
-    },
-    "https://developers.googleblog.com/agent-anomaly-detection-now-in-private-preview-on-the-gemini-enterprise-agent-platform": {
-      "first_seen": "2026-09-24",
-      "last_seen": "2026-09-21",
-      "title": "Agent Anomaly Detection"
-    },
-    "https://securitydocs.cisco.com/docs/ai-def/user/168305.dita": {
-      "first_seen": "2026-09-24",
-      "last_seen": "2026-08-15",
-      "title": "Cisco AI Defense 2026.8.1"
     },
     "https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent": {
       "first_seen": "2026-09-24",
@@ -146,11 +231,6 @@
       "last_seen": "2026-09-23",
       "title": "Parallel cuts research time and cost"
     },
-    "https://openai.com/index/v7": {
-      "first_seen": "2026-09-22",
-      "last_seen": "2026-09-22",
-      "title": "How V7 exposes context through MCP"
-    },
     "https://www.anthropic.com/news/context-management": {
       "first_seen": "2026-09-22",
       "last_seen": "2026-09-22",
@@ -190,11 +270,6 @@
       "first_seen": "2026-09-22",
       "last_seen": "2026-09-22",
       "title": "Grok 4.7 in GitHub Copilot"
-    },
-    "https://openai.com/index/introducing-the-agents-api": {
-      "first_seen": "2026-09-22",
-      "last_seen": "2026-09-20",
-      "title": "Introducing the Agents API"
     },
     "https://openai.com/index/how-to-connect-ai-usage-to-business-value": {
       "first_seen": "2026-09-22",

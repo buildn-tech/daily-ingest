@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-09-25T08:07:17.193404+00:00",
+  "updated_at": "2026-09-26T08:07:58.781350+00:00",
   "days": [
+    {
+      "date": "2026-09-26",
+      "path": "2026-09-26",
+      "reports": [
+        {
+          "lane": "agentic-developer-surfaces",
+          "title": "Agentic Developer Surfaces",
+          "url": "2026-09-26/agentic-developer-surfaces.html"
+        },
+        {
+          "lane": "agent-systems-evals",
+          "title": "Agent Systems + Evaluation Science",
+          "url": "2026-09-26/agent-systems-evals.html"
+        },
+        {
+          "lane": "agentic-security-defense",
+          "title": "Agentic Security + Defense",
+          "url": "2026-09-26/agentic-security-defense.html"
+        },
+        {
+          "lane": "ai-native-operator-workflows",
+          "title": "AI-Native Operator Workflows",
+          "url": "2026-09-26/ai-native-operator-workflows.html"
+        }
+      ]
+    },
     {
       "date": "2026-09-25",
       "path": "2026-09-25",
