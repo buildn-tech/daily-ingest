@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-09-26T08:07:58.781350+00:00",
+  "updated_at": "2026-09-27T08:04:50.240663+00:00",
   "days": [
+    {
+      "date": "2026-09-27",
+      "path": "2026-09-27",
+      "reports": [
+        {
+          "lane": "multi-model-orchestration",
+          "title": "Multi-model Orchestration Economics",
+          "url": "2026-09-27/multi-model-orchestration.html"
+        },
+        {
+          "lane": "collaborative-agent-planning",
+          "title": "Collaborative Agent Planning",
+          "url": "2026-09-27/collaborative-agent-planning.html"
+        },
+        {
+          "lane": "context-engineering",
+          "title": "Context Engineering for Humans + Agents",
+          "url": "2026-09-27/context-engineering.html"
+        },
+        {
+          "lane": "self-hosted-agent-execution",
+          "title": "Self-hosted Agent Execution",
+          "url": "2026-09-27/self-hosted-agent-execution.html"
+        }
+      ]
+    },
     {
       "date": "2026-09-26",
       "path": "2026-09-26",

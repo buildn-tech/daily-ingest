@@ -1,6 +1,46 @@
 {
-  "updated_at": "2026-09-26T08:07:58.781350+00:00",
+  "updated_at": "2026-09-27T08:04:50.240663+00:00",
   "sources": {
+    "https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration": {
+      "first_seen": "2026-09-27",
+      "last_seen": "2026-09-27",
+      "title": "Project HydraFusion: Frontier quality via multi-model orchestration"
+    },
+    "https://github.com/resources/insights/enterprise-content-roundup-september-26": {
+      "first_seen": "2026-09-27",
+      "last_seen": "2026-09-27",
+      "title": "GitHub Copilot monthly enterprise roundup \u2014 September 2026"
+    },
+    "https://githubnext.com/projects/chopin": {
+      "first_seen": "2026-09-27",
+      "last_seen": "2026-09-27",
+      "title": "Chopin \u2014 a real-time multiplayer, agentic planning environment"
+    },
+    "https://githubnext.com/projects": {
+      "first_seen": "2026-09-27",
+      "last_seen": "2026-09-27",
+      "title": "GitHub Next Projects"
+    },
+    "https://githubnext.com/posts/knowledge-compressor": {
+      "first_seen": "2026-09-27",
+      "last_seen": "2026-09-27",
+      "title": "Knowledge Compressor"
+    },
+    "https://githubnext.com/posts/wikikb": {
+      "first_seen": "2026-09-27",
+      "last_seen": "2026-09-27",
+      "title": "WikiKB: a fast, repository-native knowledge base for people and agents"
+    },
+    "https://coder.com/blog/coder-agents-ga": {
+      "first_seen": "2026-09-27",
+      "last_seen": "2026-09-27",
+      "title": "Coder Agents is GA: Fully Self-Hosted, From Agent to Execution"
+    },
+    "https://coder.com/blog/introducing-agent-relay-cloud-hosted-agents-self-hosted-execution": {
+      "first_seen": "2026-09-27",
+      "last_seen": "2026-09-27",
+      "title": "Introducing Agent Relay: Cloud-hosted agents, self-hosted execution"
+    },
     "https://github.blog/changelog/2026-09-25-github-copilot-weekly-releases-september-21": {
       "first_seen": "2026-09-26",
       "last_seen": "2026-09-26",

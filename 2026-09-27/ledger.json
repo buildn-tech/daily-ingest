@@ -1,0 +1,43 @@
+{
+  "date": "2026-09-27",
+  "generated_at": "2026-09-27T08:03:00Z",
+  "editorial_thesis": "The next practical advantage is not a smarter single agent; it is a better operating surface for choosing models, planning together, compressing context, and keeping execution inside a controlled boundary.",
+  "topic_groups": [
+    {
+      "slug": "multi-model-orchestration",
+      "title": "Multi-model Orchestration Economics",
+      "selection_rationale": "A fresh GitHub research preview makes model routing and selective escalation concrete, extending yesterday’s agent-systems measurement lane into a practical cost-and-quality control surface.",
+      "sources": [
+        {"title":"Project HydraFusion: Frontier quality via multi-model orchestration","url":"https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration/","source_type":"research preview","published_or_updated":"2026-09","why_selected":"It operationalizes routing, critique, and escalation across a model portfolio.","usefulness":"Use the pattern to design Buildn task routing around expected outcome per dollar, not model loyalty."},
+        {"title":"GitHub Copilot monthly enterprise roundup — September 2026","url":"https://github.com/resources/insights/enterprise-content-roundup-september-26","source_type":"product roundup","published_or_updated":"2026-09-26","why_selected":"It places multi-model orchestration alongside agent apps and workflow surfaces.","usefulness":"Use it as a map of where orchestration is entering normal delivery tooling."}
+      ]
+    },
+    {
+      "slug": "collaborative-agent-planning",
+      "title": "Collaborative Agent Planning",
+      "selection_rationale": "Chopin is a new research prototype in a neglected lane: shared planning and decision traceability before agents write code.",
+      "sources": [
+        {"title":"Chopin — a real-time multiplayer, agentic planning environment","url":"https://githubnext.com/projects/chopin/","source_type":"research prototype","published_or_updated":"2026-09","why_selected":"It joins human presence, shared plans, chat, and MCP in one planning surface.","usefulness":"Prototype a Buildn planning artifact that preserves decisions before delegated execution."},
+        {"title":"GitHub Next Projects","url":"https://githubnext.com/projects/","source_type":"project index","published_or_updated":"2026-09","why_selected":"The project is listed as an active September 2026 research prototype.","usefulness":"Track adjacent experiments without treating prototypes as production promises."}
+      ]
+    },
+    {
+      "slug": "context-engineering",
+      "title": "Context Engineering for Humans + Agents",
+      "selection_rationale": "Knowledge Compressor and WikiKB point to a practical knowledge gap: repository-native context that is smaller, inspectable, and curated for both people and agents.",
+      "sources": [
+        {"title":"Knowledge Compressor","url":"https://githubnext.com/posts/knowledge-compressor/","source_type":"research prototype","published_or_updated":"2026-08-24","why_selected":"It tests how far documentation can shrink while preserving answer quality.","usefulness":"Benchmark compaction on Buildn runbooks before paying for larger context windows."},
+        {"title":"WikiKB: a fast, repository-native knowledge base for people and agents","url":"https://githubnext.com/posts/wikikb/","source_type":"research prototype","published_or_updated":"2026-08-23","why_selected":"It makes knowledge explicit, versioned, and close to the repository.","usefulness":"Use a curated markdown knowledge layer for client conventions, decisions, and agent instructions."}
+      ]
+    },
+    {
+      "slug": "self-hosted-agent-execution",
+      "title": "Self-hosted Agent Execution",
+      "selection_rationale": "Coder Agents GA is a concrete infrastructure signal for regulated or privacy-sensitive workflows: agent and execution can stay on customer-controlled infrastructure while models remain replaceable.",
+      "sources": [
+        {"title":"Coder Agents is GA: Fully Self-Hosted, From Agent to Execution","url":"https://coder.com/blog/coder-agents-ga","source_type":"product release","published_or_updated":"2026-09-09","why_selected":"It turns self-hosted agent execution from a beta concept into a generally available platform offer.","usefulness":"Compare its control-plane/workspace split with Hermes and Buildn worker boundaries."},
+        {"title":"Introducing Agent Relay: Cloud-hosted agents, self-hosted execution","url":"https://coder.com/blog/introducing-agent-relay-cloud-hosted-agents-self-hosted-execution","source_type":"product architecture","published_or_updated":"2026-09-04","why_selected":"It separates agent UX from execution locality instead of forcing an all-cloud or all-local choice.","usefulness":"Use the split when clients need vendor ergonomics but cannot export code or secrets."}
+      ]
+    }
+  ]
+}
