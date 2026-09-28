@@ -1,0 +1,40 @@
+{
+  "date": "2026-09-28",
+  "generated_at": "2026-09-28T08:00:37Z",
+  "editorial_thesis": "The strongest fresh signal is operational: AI is now a scalable execution layer for both defenders and attackers, while durable advantage comes from task-specific harnesses, isolated workflows, and evidence-rich control surfaces.",
+  "topic_groups": [
+    {
+      "slug": "agentic-cyber-defense",
+      "title": "Agentic Cyber Defense + AI Supply Chain",
+      "selection_rationale": "Anthropic's September threat report provides unusually concrete, current evidence that attackers are targeting API keys, sessions, agent scaffolding, and downstream SaaS supply chains.",
+      "sources": [
+        {"title":"Detecting and countering misuse of AI: September 2026","url":"https://www.anthropic.com/threat-intelligence-report-september-2026","source_type":"report","published_or_updated":"2026-09","why_selected":"Primary threat intelligence with incident-level detail.","usefulness":"Convert the uplift and supply-chain findings into a client control checklist."},
+        {"title":"Threat Intelligence Report PDF","url":"https://www-cdn.anthropic.com/e50be2e51e7695dc4b1366a37a245a597377d3b5/Anthropic-Detecting-and-countering-091026.pdf","source_type":"report","published_or_updated":"2026-09","why_selected":"Canonical downloadable evidence source.","usefulness":"Keep an offline reference for security reviews."},
+        {"title":"AI misuse indicators CSV","url":"https://www-cdn.anthropic.com/b5af8acd5ee681422114af7c7b6b02c1ecd074ca/20260910_Anthropic_AI_Misuse_Report_IOCs.csv","source_type":"data","published_or_updated":"2026-09","why_selected":"Machine-readable indicators accompany the report.","usefulness":"Seed an IOC and credential-exposure triage workflow."},
+        {"title":"Mapping AI-enabled cyber threats","url":"https://www.anthropic.com/research/attack-navigator","source_type":"research","published_or_updated":"2026-09","why_selected":"Extends incident narratives into an ATT&CK-shaped taxonomy.","usefulness":"Add autonomous orchestration and pivoting to client threat models."}
+      ]
+    },
+    {
+      "slug": "physical-ai-harnesses",
+      "title": "Physical AI Harnesses + Persistent World Models",
+      "selection_rationale": "KnowBody is a fresh, practical robotics pattern: keep foundation-model weights frozen while a queryable, revisable harness learns the action-relevant structure of a specific body.",
+      "sources": [
+        {"title":"Know Your Body: A Harness for Direct and Self-Improving Robot Control with VLMs","url":"https://arxiv.org/abs/2609.28530","source_type":"paper","published_or_updated":"2026-09-22","why_selected":"Reports 75% versus 25% completion in 32 real-robot trials.","usefulness":"Borrow explicit, revisable world-state layers for Buildn agent memory."},
+        {"title":"KnowBody project page","url":"https://loule0-0.github.io/KnowBody/","source_type":"project","published_or_updated":"2026-09","why_selected":"Provides implementation context and visual material from the authors.","usefulness":"Inspect the harness boundary before treating the paper as a deployment recipe."},
+        {"title":"Robotics new submissions, September 2026","url":"https://arxiv.org/list/cs.RO/new","source_type":"research index","published_or_updated":"2026-09-25","why_selected":"Current discovery surface for adjacent physical-agent work.","usefulness":"Track harness, simulation, and embodiment patterns without overfitting to one paper."},
+        {"title":"KnowBody DOI record","url":"https://doi.org/10.48550/arXiv.2609.28530","source_type":"paper record","published_or_updated":"2026-09-22","why_selected":"Stable citation and provenance link.","usefulness":"Attach durable provenance to any internal synthesis."}
+      ]
+    },
+    {
+      "slug": "dynamic-agent-workflows",
+      "title": "Dynamic Agent Workflows + Fleet-Scale Coding",
+      "selection_rationale": "New workflow surfaces show the harness itself becoming generated, reusable infrastructure: fan-out, critique, filtering, and isolated worktrees are now productized patterns rather than bespoke orchestration code.",
+      "sources": [
+        {"title":"A harness for every task: dynamic workflows in Claude Code","url":"https://claude.com/blog/a-harness-for-every-task-dynamic-workflows-in-claude-code","source_type":"product guide","published_or_updated":"2026-09","why_selected":"Names six reusable workflow patterns and shows saved workflow artifacts.","usefulness":"Prototype a Buildn workflow library with explicit budgets and verifiers."},
+        {"title":"Introducing dynamic workflows in Claude Code","url":"https://claude.com/blog/introducing-dynamic-workflows-in-claude-code","source_type":"product release","published_or_updated":"2026-05","why_selected":"Canonical product announcement for the capability.","usefulness":"Separate current feature behavior from the newer field notes."},
+        {"title":"How to orchestrate agents using mission control","url":"https://github.blog/ai-and-ml/github-copilot/how-to-orchestrate-agents-using-mission-control/","source_type":"product guide","published_or_updated":"2026-09","why_selected":"Shows cross-repo launch, pause, steering, and PR review in one surface.","usefulness":"Use the operator-console model for delegated Buildn work."},
+        {"title":"Migrating the GitHub Copilot runtime to Rust, using Copilot","url":"https://github.blog/ai-and-ml/generative-ai/migrating-the-github-copilot-runtime-to-rust-using-copilot/","source_type":"case study","published_or_updated":"2026-09-23","why_selected":"Concrete 25-hour, 128-PR example of fleet execution with worktree isolation.","usefulness":"Study boundaries, merge automation, and telemetry before scaling parallel agents."}
+      ]
+    }
+  ]
+}

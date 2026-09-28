@@ -1,6 +1,27 @@
 {
-  "updated_at": "2026-09-27T08:04:50.240663+00:00",
+  "updated_at": "2026-09-28T08:08:28.894902+00:00",
   "days": [
+    {
+      "date": "2026-09-28",
+      "path": "2026-09-28",
+      "reports": [
+        {
+          "lane": "agentic-cyber-defense",
+          "title": "Agentic Cyber Defense + AI Supply Chain",
+          "url": "2026-09-28/agentic-cyber-defense.html"
+        },
+        {
+          "lane": "physical-ai-harnesses",
+          "title": "Physical AI Harnesses + Persistent World Models",
+          "url": "2026-09-28/physical-ai-harnesses.html"
+        },
+        {
+          "lane": "dynamic-agent-workflows",
+          "title": "Dynamic Agent Workflows + Fleet-Scale Coding",
+          "url": "2026-09-28/dynamic-agent-workflows.html"
+        }
+      ]
+    },
     {
       "date": "2026-09-27",
       "path": "2026-09-27",

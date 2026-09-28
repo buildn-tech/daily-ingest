@@ -1,6 +1,66 @@
 {
-  "updated_at": "2026-09-27T08:04:50.240663+00:00",
+  "updated_at": "2026-09-28T08:08:28.894902+00:00",
   "sources": {
+    "https://www.anthropic.com/threat-intelligence-report-september-2026": {
+      "first_seen": "2026-09-28",
+      "last_seen": "2026-09-11",
+      "title": "Detecting and countering misuse of AI: September 2026"
+    },
+    "https://www-cdn.anthropic.com/e50be2e51e7695dc4b1366a37a245a597377d3b5/Anthropic-Detecting-and-countering-091026.pdf": {
+      "first_seen": "2026-09-28",
+      "last_seen": "2026-09-28",
+      "title": "Threat Intelligence Report PDF"
+    },
+    "https://www-cdn.anthropic.com/b5af8acd5ee681422114af7c7b6b02c1ecd074ca/20260910_Anthropic_AI_Misuse_Report_IOCs.csv": {
+      "first_seen": "2026-09-28",
+      "last_seen": "2026-09-28",
+      "title": "AI misuse indicators CSV"
+    },
+    "https://www.anthropic.com/research/attack-navigator": {
+      "first_seen": "2026-09-28",
+      "last_seen": "2026-09-28",
+      "title": "Mapping AI-enabled cyber threats"
+    },
+    "https://arxiv.org/abs/2609.28530": {
+      "first_seen": "2026-09-28",
+      "last_seen": "2026-09-28",
+      "title": "Know Your Body: A Harness for Direct and Self-Improving Robot Control with VLMs"
+    },
+    "https://loule0-0.github.io/KnowBody": {
+      "first_seen": "2026-09-28",
+      "last_seen": "2026-09-28",
+      "title": "KnowBody project page"
+    },
+    "https://arxiv.org/list/cs.RO/new": {
+      "first_seen": "2026-09-28",
+      "last_seen": "2026-09-28",
+      "title": "Robotics new submissions, September 2026"
+    },
+    "https://doi.org/10.48550/arXiv.2609.28530": {
+      "first_seen": "2026-09-28",
+      "last_seen": "2026-09-28",
+      "title": "KnowBody DOI record"
+    },
+    "https://claude.com/blog/a-harness-for-every-task-dynamic-workflows-in-claude-code": {
+      "first_seen": "2026-09-28",
+      "last_seen": "2026-09-28",
+      "title": "A harness for every task: dynamic workflows in Claude Code"
+    },
+    "https://claude.com/blog/introducing-dynamic-workflows-in-claude-code": {
+      "first_seen": "2026-09-28",
+      "last_seen": "2026-09-28",
+      "title": "Introducing dynamic workflows in Claude Code"
+    },
+    "https://github.blog/ai-and-ml/github-copilot/how-to-orchestrate-agents-using-mission-control": {
+      "first_seen": "2026-09-28",
+      "last_seen": "2026-09-28",
+      "title": "How to orchestrate agents using mission control"
+    },
+    "https://github.blog/ai-and-ml/generative-ai/migrating-the-github-copilot-runtime-to-rust-using-copilot": {
+      "first_seen": "2026-09-28",
+      "last_seen": "2026-09-28",
+      "title": "Migrating the GitHub Copilot runtime to Rust, using Copilot"
+    },
     "https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration": {
       "first_seen": "2026-09-27",
       "last_seen": "2026-09-27",
@@ -800,11 +860,6 @@
       "first_seen": "2026-09-11",
       "last_seen": "2026-09-11",
       "title": "AI Scan security detections documentation"
-    },
-    "https://www.anthropic.com/threat-intelligence-report-september-2026": {
-      "first_seen": "2026-09-11",
-      "last_seen": "2026-09-11",
-      "title": "Detecting and countering misuse of AI: September 2026"
     },
     "https://www.anthropic.com/news/improving-alignment-security-efforts": {
       "first_seen": "2026-09-11",
