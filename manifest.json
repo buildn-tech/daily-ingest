@@ -1,6 +1,27 @@
 {
-  "updated_at": "2026-09-28T08:09:16.386055+00:00",
+  "updated_at": "2026-09-29T08:09:12.051424+00:00",
   "days": [
+    {
+      "date": "2026-09-29",
+      "path": "2026-09-29",
+      "reports": [
+        {
+          "lane": "agent-runtime-controls",
+          "title": "Agent Runtime Controls + Callable Surfaces",
+          "url": "2026-09-29/agent-runtime-controls.html"
+        },
+        {
+          "lane": "privacy-by-construction",
+          "title": "Privacy-by-Construction for Personal Agents",
+          "url": "2026-09-29/privacy-by-construction.html"
+        },
+        {
+          "lane": "agent-architecture",
+          "title": "Agent Architecture: Shape, Harness, Evaluate",
+          "url": "2026-09-29/agent-architecture.html"
+        }
+      ]
+    },
     {
       "date": "2026-09-28",
       "path": "2026-09-28",

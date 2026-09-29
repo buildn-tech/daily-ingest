@@ -1,6 +1,81 @@
 {
-  "updated_at": "2026-09-28T08:09:16.386055+00:00",
+  "updated_at": "2026-09-29T08:09:12.051424+00:00",
   "sources": {
+    "https://developer.nvidia.com/blog/add-runtime-controls-to-ai-agents-with-nvidia-openshell": {
+      "first_seen": "2026-09-29",
+      "last_seen": "2026-09-29",
+      "title": "NVIDIA OpenShell: policy outside the agent"
+    },
+    "https://blog.cloudflare.com/dynamic-workers": {
+      "first_seen": "2026-09-29",
+      "last_seen": "2026-09-01",
+      "title": "Cloudflare Dynamic Worker Loader"
+    },
+    "https://github.com/NousResearch/hermes-agent/releases": {
+      "first_seen": "2026-09-29",
+      "last_seen": "2026-07-09",
+      "title": "Hermes Agent v0.18.2"
+    },
+    "https://blog.cloudflare.com/tag/agents-week": {
+      "first_seen": "2026-09-29",
+      "last_seen": "2026-09-13",
+      "title": "WebMCP developer preview"
+    },
+    "https://blog.cloudflare.com/workers-ai-gateway-unification": {
+      "first_seen": "2026-09-29",
+      "last_seen": "2026-08-19",
+      "title": "Cloudflare AI control plane"
+    },
+    "https://arxiv.org/html/2604.19657v3": {
+      "first_seen": "2026-09-29",
+      "last_seen": "2026-09-29",
+      "title": "GAAP: deterministic privacy for tool-using agents"
+    },
+    "https://github.com/rssta/gaap": {
+      "first_seen": "2026-09-29",
+      "last_seen": "2026-09-29",
+      "title": "GAAP reference implementation"
+    },
+    "https://arxiv.org/html/2609.22712v1": {
+      "first_seen": "2026-09-29",
+      "last_seen": "2026-09-29",
+      "title": "Trustworthy Agentic AI lifecycle framework"
+    },
+    "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai": {
+      "first_seen": "2026-09-29",
+      "last_seen": "2026-08-22",
+      "title": "European Commission AI Act framework"
+    },
+    "https://arxiv.org/html/2602.05016v1": {
+      "first_seen": "2026-09-29",
+      "last_seen": "2026-09-29",
+      "title": "Private context is a permissioned capability"
+    },
+    "https://research.google/blog/towards-a-science-of-scaling-agent-systems-when-and-why-agent-systems-work": {
+      "first_seen": "2026-09-29",
+      "last_seen": "2026-09-26",
+      "title": "Towards a science of scaling agent systems"
+    },
+    "https://claude.com/blog/a-harness-for-every-task-dynamic-workflows-in-claude-code": {
+      "first_seen": "2026-09-29",
+      "last_seen": "2026-09-28",
+      "title": "A harness for every task: dynamic workflows in Claude Code"
+    },
+    "https://github.com/ethz-spylab/agentdojo": {
+      "first_seen": "2026-09-29",
+      "last_seen": "2026-09-29",
+      "title": "Agent privacy evaluation as a test harness"
+    },
+    "https://blog.cloudflare.com/mcp-v2": {
+      "first_seen": "2026-09-29",
+      "last_seen": "2026-08-13",
+      "title": "MCP 2026-07-28 stateless core"
+    },
+    "https://githubnext.com/projects/chopin": {
+      "first_seen": "2026-09-29",
+      "last_seen": "2026-09-27",
+      "title": "Chopin \u2014 a real-time multiplayer, agentic planning environment"
+    },
     "https://www.anthropic.com/threat-intelligence-report-september-2026": {
       "first_seen": "2026-09-28",
       "last_seen": "2026-09-11",
@@ -41,11 +116,6 @@
       "last_seen": "2026-09-28",
       "title": "KnowBody DOI record"
     },
-    "https://claude.com/blog/a-harness-for-every-task-dynamic-workflows-in-claude-code": {
-      "first_seen": "2026-09-28",
-      "last_seen": "2026-09-28",
-      "title": "A harness for every task: dynamic workflows in Claude Code"
-    },
     "https://claude.com/blog/introducing-dynamic-workflows-in-claude-code": {
       "first_seen": "2026-09-28",
       "last_seen": "2026-09-28",
@@ -70,11 +140,6 @@
       "first_seen": "2026-09-27",
       "last_seen": "2026-09-27",
       "title": "GitHub Copilot monthly enterprise roundup \u2014 September 2026"
-    },
-    "https://githubnext.com/projects/chopin": {
-      "first_seen": "2026-09-27",
-      "last_seen": "2026-09-27",
-      "title": "Chopin \u2014 a real-time multiplayer, agentic planning environment"
     },
     "https://githubnext.com/projects": {
       "first_seen": "2026-09-27",
@@ -125,11 +190,6 @@
       "first_seen": "2026-09-26",
       "last_seen": "2026-09-26",
       "title": "CodeQL 2.27.1"
-    },
-    "https://research.google/blog/towards-a-science-of-scaling-agent-systems-when-and-why-agent-systems-work": {
-      "first_seen": "2026-09-26",
-      "last_seen": "2026-09-26",
-      "title": "Towards a science of scaling agent systems"
     },
     "https://ai.meta.com/research/publications/are-scaling-up-agent-environments-and-evaluations": {
       "first_seen": "2026-09-26",
@@ -771,20 +831,10 @@
       "last_seen": "2026-09-14",
       "title": "Cosmos Reason 2 repository"
     },
-    "https://blog.cloudflare.com/tag/agents-week": {
-      "first_seen": "2026-09-13",
-      "last_seen": "2026-09-13",
-      "title": "WebMCP developer preview"
-    },
     "https://blog.cloudflare.com/tag/mcp": {
       "first_seen": "2026-09-13",
       "last_seen": "2026-09-13",
       "title": "MCP v2 stateless core"
-    },
-    "https://blog.cloudflare.com/dynamic-workers": {
-      "first_seen": "2026-09-13",
-      "last_seen": "2026-09-01",
-      "title": "Cloudflare Dynamic Worker Loader"
     },
     "https://github.blog/changelog/2026-09-10-control-github-actions-cache-access-with-cache-mode": {
       "first_seen": "2026-09-13",
@@ -1856,11 +1906,6 @@
       "last_seen": "2026-08-11",
       "title": "Everything we launched during Agents Week"
     },
-    "https://blog.cloudflare.com/workers-ai-gateway-unification": {
-      "first_seen": "2026-08-22",
-      "last_seen": "2026-08-19",
-      "title": "Cloudflare AI control plane"
-    },
     "https://blog.cloudflare.com/introducing-radar-researcher": {
       "first_seen": "2026-08-22",
       "last_seen": "2026-08-22",
@@ -1870,11 +1915,6 @@
       "first_seen": "2026-08-22",
       "last_seen": "2026-08-22",
       "title": "Article 50 transparency obligations"
-    },
-    "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai": {
-      "first_seen": "2026-08-22",
-      "last_seen": "2026-08-22",
-      "title": "European Commission AI Act framework"
     },
     "https://www.actuia.com/en/news/ai-act-the-countdown-is-on-for-businesses-ahead-of-2-august-2026": {
       "first_seen": "2026-08-22",
@@ -2085,11 +2125,6 @@
       "first_seen": "2026-08-19",
       "last_seen": "2026-08-19",
       "title": "Cortex Framework v7"
-    },
-    "https://blog.cloudflare.com/mcp-v2": {
-      "first_seen": "2026-08-19",
-      "last_seen": "2026-08-13",
-      "title": "MCP 2026-07-28 stateless core"
     },
     "https://github.com/newton-physics/newton/releases": {
       "first_seen": "2026-08-18",
@@ -3960,11 +3995,6 @@
       "first_seen": "2026-07-09",
       "last_seen": "2026-07-09",
       "title": "Claude Code Router"
-    },
-    "https://github.com/NousResearch/hermes-agent/releases": {
-      "first_seen": "2026-07-09",
-      "last_seen": "2026-07-09",
-      "title": "Hermes Agent v0.18.2"
     },
     "https://www.jasper.ai/blog/whats-new-in-june-2026": {
       "first_seen": "2026-07-09",
