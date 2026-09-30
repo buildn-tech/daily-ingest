@@ -1,6 +1,51 @@
 {
-  "updated_at": "2026-09-29T08:09:12.051424+00:00",
+  "updated_at": "2026-09-30T08:08:23.703334+00:00",
   "sources": {
+    "https://openai.com/index/introducing-dots": {
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30",
+      "title": "Dots: an always-on project steward"
+    },
+    "https://openai.com/index/introducing-gpt-6-1-sol": {
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30",
+      "title": "GPT-6.1 Sol: lower-cost long-horizon work"
+    },
+    "https://openai.com/index/devday-2026-recap": {
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30",
+      "title": "DevDay: cloud agents, code review, private intelligence"
+    },
+    "https://github.blog/changelog/2026-09-29-gpt-6-1-sol-in-github-copilot": {
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30",
+      "title": "GPT-6.1 Sol arrives inside GitHub Copilot"
+    },
+    "https://cloud.google.com/blog/products/identity-security/google-cloud-partners-deliver-new-security-agents-and-ai-defenses-with-gemini-enterprise": {
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30",
+      "title": "Security posture becomes an integration surface"
+    },
+    "https://www.isaca.org/resources/white-papers/2026/cybersecurity-recommendations-for-securing-ai-agents": {
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30",
+      "title": "ISACA\u2019s 11-category agent security baseline"
+    },
+    "https://ai.google.dev/gemini-api/docs/changelog": {
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30",
+      "title": "Voice becomes an API primitive"
+    },
+    "https://www.apqc.org/resource-library/resource-listing/2026-knowledge-management-priorities-and-trends-survey-report": {
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-08-19",
+      "title": "2026 KM Priorities and Trends Survey"
+    },
+    "https://www.fanucamerica.com/press-releases/fanuc-america-brings-robotics-automation-physical-ai-and-cnc-innovation-to-imts-2026": {
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30",
+      "title": "Physical AI needs digital-twin-first workflows"
+    },
     "https://developer.nvidia.com/blog/add-runtime-controls-to-ai-agents-with-nvidia-openshell": {
       "first_seen": "2026-09-29",
       "last_seen": "2026-09-29",
@@ -1995,11 +2040,6 @@
       "first_seen": "2026-08-21",
       "last_seen": "2026-08-21",
       "title": "Stampli launch workflow"
-    },
-    "https://www.apqc.org/resource-library/resource-listing/2026-knowledge-management-priorities-and-trends-survey-report": {
-      "first_seen": "2026-08-21",
-      "last_seen": "2026-08-19",
-      "title": "2026 KM Priorities and Trends Survey"
     },
     "https://www.mozilla.org/en-US/about/manifesto": {
       "first_seen": "2026-08-21",

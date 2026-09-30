@@ -44,9 +44,9 @@
       "last_covered": "2026-07-15"
     },
     "security-governance": {
-      "title": "Security + Agent Governance",
-      "times_covered": 1,
-      "last_covered": "2026-07-15"
+      "title": "Agent security is becoming an operating plane",
+      "times_covered": 2,
+      "last_covered": "2026-09-30"
     },
     "code-security-hygiene": {
       "title": "Code Security Hygiene",
@@ -1108,6 +1108,16 @@
       "title": "Agent Architecture: Shape, Harness, Evaluate",
       "times_covered": 1,
       "last_covered": "2026-09-29"
+    },
+    "agent-platforms": {
+      "title": "Persistent agents move from prompt to operating layer",
+      "times_covered": 1,
+      "last_covered": "2026-09-30"
+    },
+    "knowledge-and-edge": {
+      "title": "The overlooked leverage is durable context and migration hygiene",
+      "times_covered": 1,
+      "last_covered": "2026-09-30"
     }
   },
   "item_history": [
@@ -5780,9 +5790,80 @@
         }
       ],
       "editorial_thesis": "The next practical advantage is not a smarter single agent; it is a better operating surface for choosing models, planning together, compressing context, and keeping execution inside a controlled boundary."
+    },
+    {
+      "date": "2026-09-30",
+      "selected_lanes": [
+        "agent-platforms",
+        "security-governance",
+        "knowledge-and-edge"
+      ],
+      "items": [
+        {
+          "title": "Dots: an always-on project steward",
+          "url": "https://openai.com/index/introducing-dots/",
+          "source_type": "product"
+        },
+        {
+          "title": "GPT-6.1 Sol: lower-cost long-horizon work",
+          "url": "https://openai.com/index/introducing-gpt-6-1-sol/",
+          "source_type": "model"
+        },
+        {
+          "title": "DevDay: cloud agents, code review, private intelligence",
+          "url": "https://openai.com/index/devday-2026-recap/",
+          "source_type": "platform"
+        },
+        {
+          "title": "GPT-6.1 Sol arrives inside GitHub Copilot",
+          "url": "https://github.blog/changelog/2026-09-29-gpt-6-1-sol-in-github-copilot",
+          "source_type": "release"
+        },
+        {
+          "title": "Google Cloud\u2019s partner security-agent layer",
+          "url": "https://cloud.google.com/blog/products/identity-security/google-cloud-partners-deliver-new-security-agents-and-ai-defenses-with-gemini-enterprise",
+          "source_type": "ecosystem"
+        },
+        {
+          "title": "ISACA\u2019s 11-category agent security baseline",
+          "url": "https://www.isaca.org/resources/white-papers/2026/cybersecurity-recommendations-for-securing-ai-agents",
+          "source_type": "white paper"
+        },
+        {
+          "title": "Agent Gateway + Registry as the control seam",
+          "url": "https://cloud.google.com/blog/products/identity-security/google-cloud-partners-deliver-new-security-agents-and-ai-defenses-with-gemini-enterprise",
+          "source_type": "architecture"
+        },
+        {
+          "title": "Security posture becomes an integration surface",
+          "url": "https://cloud.google.com/blog/products/identity-security/google-cloud-partners-deliver-new-security-agents-and-ai-defenses-with-gemini-enterprise",
+          "source_type": "market signal"
+        },
+        {
+          "title": "Gemini API change windows make migration visible",
+          "url": "https://ai.google.dev/gemini-api/docs/changelog",
+          "source_type": "docs"
+        },
+        {
+          "title": "Knowledge management is an AI readiness constraint",
+          "url": "https://www.apqc.org/resource-library/resource-listing/2026-knowledge-management-priorities-and-trends-survey-report",
+          "source_type": "research"
+        },
+        {
+          "title": "Physical AI needs digital-twin-first workflows",
+          "url": "https://www.fanucamerica.com/press-releases/fanuc-america-brings-robotics-automation-physical-ai-and-cnc-innovation-to-imts-2026",
+          "source_type": "physical ai"
+        },
+        {
+          "title": "Voice becomes an API primitive",
+          "url": "https://ai.google.dev/gemini-api/docs/changelog",
+          "source_type": "release"
+        }
+      ],
+      "selection_rationale": "Followed fresh product/security signals and rotated toward migration, knowledge, and physical-interface gaps."
     }
   ],
-  "updated_at": "2026-09-29T08:00:30Z",
+  "updated_at": "2026-09-30T08:08:09.890150+00:00",
   "last_run": {
     "date": "2026-09-29",
     "selected_lanes": [

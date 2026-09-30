@@ -1,6 +1,27 @@
 {
-  "updated_at": "2026-09-29T08:09:12.051424+00:00",
+  "updated_at": "2026-09-30T08:08:23.703334+00:00",
   "days": [
+    {
+      "date": "2026-09-30",
+      "path": "2026-09-30",
+      "reports": [
+        {
+          "lane": "agent-platforms",
+          "title": "Persistent agents move from prompt to operating layer",
+          "url": "2026-09-30/agent-platforms.html"
+        },
+        {
+          "lane": "security-governance",
+          "title": "Agent security is becoming an operating plane",
+          "url": "2026-09-30/security-governance.html"
+        },
+        {
+          "lane": "knowledge-and-edge",
+          "title": "The overlooked leverage is durable context and migration hygiene",
+          "url": "2026-09-30/knowledge-and-edge.html"
+        }
+      ]
+    },
     {
       "date": "2026-09-29",
       "path": "2026-09-29",

@@ -1,0 +1,124 @@
+{
+  "date": "2026-09-30",
+  "generated_at": "2026-09-30T08:08:09.881562+00:00",
+  "editorial_thesis": "Persistent agents are moving into operating workflows, while security controls and context portability decide whether they can be trusted.",
+  "topic_groups": [
+    {
+      "slug": "agent-platforms",
+      "title": "Persistent agents move from prompt to operating layer",
+      "selection_rationale": "Fresh practical signal and a coverage gap; avoids yesterday\u2019s runtime-control, privacy, and architecture lanes.",
+      "sources": [
+        {
+          "title": "Dots: an always-on project steward",
+          "url": "https://openai.com/index/introducing-dots/",
+          "source_type": "product",
+          "published_or_updated": "2026-09-29",
+          "why_selected": "The unit of automation becomes an owned workstream with memory and review.",
+          "usefulness": "Prototype a bounded project steward that maintains a decision log and returns reviewable artifacts."
+        },
+        {
+          "title": "GPT-6.1 Sol: lower-cost long-horizon work",
+          "url": "https://openai.com/index/introducing-gpt-6-1-sol/",
+          "source_type": "model",
+          "published_or_updated": "2026-09-29",
+          "why_selected": "Cheap context reuse changes the economics of agents that revisit project state.",
+          "usefulness": "Benchmark Buildn tasks by quality, retries, latency, and cost."
+        },
+        {
+          "title": "DevDay: cloud agents, code review, private intelligence",
+          "url": "https://openai.com/index/devday-2026-recap/",
+          "source_type": "platform",
+          "published_or_updated": "2026-09-29",
+          "why_selected": "The toolchain is converging around remote execution plus review surfaces.",
+          "usefulness": "Map Buildn artifacts to isolated workspaces, human review, and immutable links."
+        },
+        {
+          "title": "GPT-6.1 Sol arrives inside GitHub Copilot",
+          "url": "https://github.blog/changelog/2026-09-29-gpt-6-1-sol-in-github-copilot",
+          "source_type": "release",
+          "published_or_updated": "2026-09-29",
+          "why_selected": "Model choice is now close to the repository and workflow where adoption happens.",
+          "usefulness": "Pilot it without rebuilding orchestration."
+        }
+      ]
+    },
+    {
+      "slug": "security-governance",
+      "title": "Agent security is becoming an operating plane",
+      "selection_rationale": "Fresh practical signal and a coverage gap; avoids yesterday\u2019s runtime-control, privacy, and architecture lanes.",
+      "sources": [
+        {
+          "title": "Google Cloud\u2019s partner security-agent layer",
+          "url": "https://cloud.google.com/blog/products/identity-security/google-cloud-partners-deliver-new-security-agents-and-ai-defenses-with-gemini-enterprise",
+          "source_type": "ecosystem",
+          "published_or_updated": "2026-09-29",
+          "why_selected": "Security work is packaged as orchestrable action across existing systems.",
+          "usefulness": "Build discover \u2192 assess \u2192 propose \u2192 approve \u2192 contain \u2192 record-evidence adapters."
+        },
+        {
+          "title": "ISACA\u2019s 11-category agent security baseline",
+          "url": "https://www.isaca.org/resources/white-papers/2026/cybersecurity-recommendations-for-securing-ai-agents",
+          "source_type": "white paper",
+          "published_or_updated": "2026-09-15",
+          "why_selected": "It gives clients a common vocabulary for threat-modeling the full workflow.",
+          "usefulness": "Turn categories into Buildn intake and release gates."
+        },
+        {
+          "title": "Agent Gateway + Registry as the control seam",
+          "url": "https://cloud.google.com/blog/products/identity-security/google-cloud-partners-deliver-new-security-agents-and-ai-defenses-with-gemini-enterprise",
+          "source_type": "architecture",
+          "published_or_updated": "2026-09-29",
+          "why_selected": "A central seam can enforce identity, routing, policy, and telemetry.",
+          "usefulness": "Represent integrations as registered capabilities with scopes, owners, health, and evidence contracts."
+        },
+        {
+          "title": "Security posture becomes an integration surface",
+          "url": "https://cloud.google.com/blog/products/identity-security/google-cloud-partners-deliver-new-security-agents-and-ai-defenses-with-gemini-enterprise",
+          "source_type": "market signal",
+          "published_or_updated": "2026-09-29",
+          "why_selected": "Clients will expect agent security to connect to existing controls.",
+          "usefulness": "Package a readiness sprint around inventory, permissions, tests, and reversible response."
+        }
+      ]
+    },
+    {
+      "slug": "knowledge-and-edge",
+      "title": "The overlooked leverage is durable context and migration hygiene",
+      "selection_rationale": "Fresh practical signal and a coverage gap; avoids yesterday\u2019s runtime-control, privacy, and architecture lanes.",
+      "sources": [
+        {
+          "title": "Gemini API change windows make migration visible",
+          "url": "https://ai.google.dev/gemini-api/docs/changelog",
+          "source_type": "docs",
+          "published_or_updated": "2026-09-23",
+          "why_selected": "Agent systems need ordinary dependency hygiene: pins, contract tests, and deprecation calendars.",
+          "usefulness": "Add provider-change monitoring to every integration."
+        },
+        {
+          "title": "Knowledge management is an AI readiness constraint",
+          "url": "https://www.apqc.org/resource-library/resource-listing/2026-knowledge-management-priorities-and-trends-survey-report",
+          "source_type": "research",
+          "published_or_updated": "2026-01-07",
+          "why_selected": "Agent quality is bounded by freshness, ownership, and reuse of knowledge.",
+          "usefulness": "Sell a knowledge map and maintenance loop before promising an enterprise agent."
+        },
+        {
+          "title": "Physical AI needs digital-twin-first workflows",
+          "url": "https://www.fanucamerica.com/press-releases/fanuc-america-brings-robotics-automation-physical-ai-and-cnc-innovation-to-imts-2026",
+          "source_type": "physical ai",
+          "published_or_updated": "2026-09-03",
+          "why_selected": "Simulation reduces the cost of experimenting with real-world agents.",
+          "usefulness": "Use plan \u2192 simulate \u2192 verify \u2192 deploy for high-cost automation."
+        },
+        {
+          "title": "Voice becomes an API primitive",
+          "url": "https://ai.google.dev/gemini-api/docs/changelog",
+          "source_type": "release",
+          "published_or_updated": "2026-09-22",
+          "why_selected": "Voice can remove friction from field intake when identity and audit are explicit.",
+          "usefulness": "Prototype voice intake that creates a structured task and asks for confirmation."
+        }
+      ]
+    }
+  ]
+}
