@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-09-30T08:08:23.703334+00:00",
+  "updated_at": "2026-10-01T08:04:18.530396+00:00",
   "days": [
+    {
+      "date": "2026-10-01",
+      "path": "2026-10-01",
+      "reports": [
+        {
+          "lane": "frontier-models",
+          "title": "Frontier models become long-horizon work engines",
+          "url": "2026-10-01/frontier-models.html"
+        },
+        {
+          "lane": "public-sector-ai",
+          "title": "Public-sector AI enters an adoption window",
+          "url": "2026-10-01/public-sector-ai.html"
+        },
+        {
+          "lane": "ai-services-market",
+          "title": "AI services are being productized around proof",
+          "url": "2026-10-01/ai-services-market.html"
+        },
+        {
+          "lane": "developer-community",
+          "title": "Hands-on agent building gets a global distribution channel",
+          "url": "2026-10-01/developer-community.html"
+        }
+      ]
+    },
     {
       "date": "2026-09-30",
       "path": "2026-09-30",

@@ -1,0 +1,131 @@
+{
+  "date": "2026-10-01",
+  "generated_at": "2026-10-01T08:04:02.321619+00:00",
+  "editorial_thesis": "Frontier capacity only matters when it becomes bounded, reviewable practice: benchmark the model, govern the rollout, prove delivery, and learn in public.",
+  "topic_groups": [
+    {
+      "slug": "frontier-models",
+      "title": "Frontier models become long-horizon work engines",
+      "selection_rationale": "A material model update earns inclusion because it changes the practical envelope for coding, document work, and cyber workflows; it is distinct from yesterday’s lower-cost model economics.",
+      "sources": [
+        {
+          "title": "Gemini 4 Argon",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+          "source_type": "blog",
+          "published_or_updated": "2026-09-30",
+          "why_selected": "One-million-token context and long-horizon coding/document/cyber positioning.",
+          "usefulness": "Benchmark a long-lived Buildn task with cached context, review gates, and cost telemetry."
+        },
+        {
+          "title": "Gemini 3.8 Flash and Flash Cyber",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
+          "source_type": "release",
+          "published_or_updated": "unknown",
+          "why_selected": "A lighter model family signals a portfolio approach for agentic workflows and cyber work.",
+          "usefulness": "Use a cheap routing tier for extraction, triage, and evidence preparation."
+        },
+        {
+          "title": "Gemini Computer Use model",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/gemini-computer-use-model/",
+          "source_type": "product",
+          "published_or_updated": "2025-03-25",
+          "why_selected": "Browser and mobile interaction remains a separate risk surface from reasoning.",
+          "usefulness": "Keep computer-use actions behind presence checks, screenshots, and reversible steps."
+        }
+      ]
+    },
+    {
+      "slug": "public-sector-ai",
+      "title": "Public-sector AI enters an adoption window",
+      "selection_rationale": "October 1 is a concrete start date for a broad government offer, creating an unusually actionable procurement and enablement signal rather than another abstract policy story.",
+      "sources": [
+        {
+          "title": "OpenAI + GSA public-sector agreement",
+          "url": "https://openai.com/index/expanding-ai-access-us-government/",
+          "source_type": "product / policy",
+          "published_or_updated": "2026-09-10",
+          "why_selected": "The 27-month offer begins October 1 and includes broader eligibility, discounted usage, and Daybreak Blue.",
+          "usefulness": "Use the structure as a checklist for governed rollout: eligibility, spend, training, and data policy."
+        },
+        {
+          "title": "Daybreak for Frontline Defenders",
+          "url": "https://openai.com/index/daybreak-for-frontline-defenders/",
+          "source_type": "program",
+          "published_or_updated": "unknown",
+          "why_selected": "The offer is part of a larger cyber-defense support program.",
+          "usefulness": "Separate subsidized defensive use from general-purpose deployment in client proposals."
+        },
+        {
+          "title": "OpenAI cyber access",
+          "url": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities/",
+          "source_type": "security",
+          "published_or_updated": "2026-08-07",
+          "why_selected": "Shows the surrounding trust and access model for advanced defensive capability.",
+          "usefulness": "Map verification and abuse controls before adopting high-impact cyber workflows."
+        }
+      ]
+    },
+    {
+      "slug": "ai-services-market",
+      "title": "AI services are being productized around proof",
+      "selection_rationale": "The partner signal is older than today but materially useful as a market structure: production deployments, certified practitioners, and public references become visible proof points for services firms.",
+      "sources": [
+        {
+          "title": "Claude Partner Network Services Track",
+          "url": "https://www.anthropic.com/news/services-track-partner-hub",
+          "source_type": "announcement",
+          "published_or_updated": "2026-06-03",
+          "why_selected": "Anthropic publishes tier requirements around certified practitioners, production customers, and references.",
+          "usefulness": "Use the metrics as a design brief for a small, credible implementation practice."
+        },
+        {
+          "title": "Claude partner program",
+          "url": "https://claude.com/partners",
+          "source_type": "directory",
+          "published_or_updated": "unknown",
+          "why_selected": "The partner surface connects customers to firms with stated implementation capability.",
+          "usefulness": "Study how proof is presented and what evidence a Buildn offer should expose."
+        },
+        {
+          "title": "Claude certification",
+          "url": "https://anthropic.skilljar.com/claude-certified-architect-foundations-access-request",
+          "source_type": "training",
+          "published_or_updated": "unknown",
+          "why_selected": "Individual certification is part of the services-track measurement system.",
+          "usefulness": "Treat learning as an operating capability with recency and deployment evidence."
+        }
+      ]
+    },
+    {
+      "slug": "developer-community",
+      "title": "Hands-on agent building gets a global distribution channel",
+      "selection_rationale": "DevFest opens today with 800+ local events, offering a practical learning and client-signal channel that has been under-covered in recent dossiers.",
+      "sources": [
+        {
+          "title": "DevFest 2026",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/devfest2026/",
+          "source_type": "community",
+          "published_or_updated": "2026-09-14",
+          "why_selected": "The season runs October 1–December 31 with 800+ events in 115 countries.",
+          "usefulness": "Use the event directory to identify practical local signal and workshop topics."
+        },
+        {
+          "title": "DevFest event directory",
+          "url": "https://developers.google.com/community/devfest",
+          "source_type": "directory",
+          "published_or_updated": "unknown",
+          "why_selected": "The directory is the actionable index for local events.",
+          "usefulness": "Find one event with a relevant agent, security, or Firebase track."
+        },
+        {
+          "title": "Google Antigravity",
+          "url": "https://developers.googleblog.com/build-with-google-antigravity-our-new-agentic-development-platform/",
+          "source_type": "platform",
+          "published_or_updated": "unknown",
+          "why_selected": "DevFest names Antigravity among the hands-on technologies for the agentic era.",
+          "usefulness": "Compare its workflow assumptions with Hermes and Buildn patterns."
+        }
+      ]
+    }
+  ]
+}

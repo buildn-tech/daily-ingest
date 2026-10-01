@@ -1,6 +1,66 @@
 {
-  "updated_at": "2026-09-30T08:08:23.703334+00:00",
+  "updated_at": "2026-10-01T08:04:18.530396+00:00",
   "sources": {
+    "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon": {
+      "first_seen": "2026-10-01",
+      "last_seen": "2026-10-01",
+      "title": "Gemini 4 Argon"
+    },
+    "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber": {
+      "first_seen": "2026-10-01",
+      "last_seen": "2026-09-23",
+      "title": "Gemini 3.8 Flash + Cyber"
+    },
+    "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/gemini-computer-use-model": {
+      "first_seen": "2026-10-01",
+      "last_seen": "2026-10-01",
+      "title": "Gemini Computer Use model"
+    },
+    "https://openai.com/index/expanding-ai-access-us-government": {
+      "first_seen": "2026-10-01",
+      "last_seen": "2026-10-01",
+      "title": "OpenAI + GSA public-sector agreement"
+    },
+    "https://openai.com/index/daybreak-for-frontline-defenders": {
+      "first_seen": "2026-10-01",
+      "last_seen": "2026-09-04",
+      "title": "Daybreak for Frontline Defenders: $1B to protect essential services"
+    },
+    "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities": {
+      "first_seen": "2026-10-01",
+      "last_seen": "2026-10-01",
+      "title": "OpenAI cyber access"
+    },
+    "https://www.anthropic.com/news/services-track-partner-hub": {
+      "first_seen": "2026-10-01",
+      "last_seen": "2026-10-01",
+      "title": "Claude Partner Network Services Track"
+    },
+    "https://claude.com/partners": {
+      "first_seen": "2026-10-01",
+      "last_seen": "2026-10-01",
+      "title": "Claude partner program"
+    },
+    "https://anthropic.skilljar.com/claude-certified-architect-foundations-access-request": {
+      "first_seen": "2026-10-01",
+      "last_seen": "2026-10-01",
+      "title": "Claude certification"
+    },
+    "https://blog.google/innovation-and-ai/technology/developers-tools/devfest2026": {
+      "first_seen": "2026-10-01",
+      "last_seen": "2026-10-01",
+      "title": "DevFest 2026"
+    },
+    "https://developers.google.com/community/devfest": {
+      "first_seen": "2026-10-01",
+      "last_seen": "2026-10-01",
+      "title": "DevFest event directory"
+    },
+    "https://developers.googleblog.com/build-with-google-antigravity-our-new-agentic-development-platform": {
+      "first_seen": "2026-10-01",
+      "last_seen": "2026-10-01",
+      "title": "Google Antigravity"
+    },
     "https://openai.com/index/introducing-dots": {
       "first_seen": "2026-09-30",
       "last_seen": "2026-09-30",
@@ -400,11 +460,6 @@
       "first_seen": "2026-09-23",
       "last_seen": "2026-09-23",
       "title": "Claude Opus 5.5"
-    },
-    "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber": {
-      "first_seen": "2026-09-23",
-      "last_seen": "2026-09-23",
-      "title": "Gemini 3.8 Flash + Cyber"
     },
     "https://cloud.google.com/blog/products/ai-machine-learning/a-devs-guide-to-production-ready-ai-agents": {
       "first_seen": "2026-09-23",
@@ -1365,11 +1420,6 @@
       "first_seen": "2026-09-04",
       "last_seen": "2026-09-04",
       "title": "Copilot code review can now approve pull requests"
-    },
-    "https://openai.com/index/daybreak-for-frontline-defenders": {
-      "first_seen": "2026-09-04",
-      "last_seen": "2026-09-04",
-      "title": "Daybreak for Frontline Defenders: $1B to protect essential services"
     },
     "https://openai.com/index/safety-overview-gpt-6-astra": {
       "first_seen": "2026-09-04",

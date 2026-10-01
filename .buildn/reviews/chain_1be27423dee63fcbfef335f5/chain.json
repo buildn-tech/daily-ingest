@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "chainId": "chain_1be27423dee63fcbfef335f5",
+  "createdAt": "2026-09-30T08:08:50.873Z",
+  "subject": {
+    "kind": "html",
+    "origin": "2026-09-30/index.html"
+  }
+}
