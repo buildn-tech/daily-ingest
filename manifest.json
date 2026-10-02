@@ -1,6 +1,27 @@
 {
-  "updated_at": "2026-10-01T08:04:18.530396+00:00",
+  "updated_at": "2026-10-02T08:09:36.230166+00:00",
   "days": [
+    {
+      "date": "2026-10-02",
+      "path": "2026-10-02",
+      "reports": [
+        {
+          "lane": "agentic-developer-surfaces",
+          "title": "Agentic Developer Surfaces",
+          "url": "2026-10-02/agentic-developer-surfaces.html"
+        },
+        {
+          "lane": "agent-observability",
+          "title": "Agent Observability + Economics",
+          "url": "2026-10-02/agent-observability.html"
+        },
+        {
+          "lane": "constraints-and-operator-leverage",
+          "title": "Constraints + Operator Leverage",
+          "url": "2026-10-02/constraints-and-operator-leverage.html"
+        }
+      ]
+    },
     {
       "date": "2026-10-01",
       "path": "2026-10-01",

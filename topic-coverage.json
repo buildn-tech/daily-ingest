@@ -613,10 +613,11 @@
     },
     "agent-observability": {
       "count": 1,
-      "last_covered": "2026-08-23",
+      "last_covered": "2026-10-02",
       "recent_titles": [
         "Always-on tracing for production and preview traffic"
-      ]
+      ],
+      "times_covered": 2
     },
     "model-routing-economics": {
       "count": 1,
@@ -1061,8 +1062,8 @@
     },
     "agentic-developer-surfaces": {
       "title": "Agentic Developer Surfaces",
-      "times_covered": 1,
-      "last_covered": "2026-09-26"
+      "times_covered": 5,
+      "last_covered": "2026-10-02"
     },
     "agent-systems-evals": {
       "title": "Agent Systems + Evaluation Science",
@@ -1138,6 +1139,11 @@
       "title": "Hands-on agent building gets a global distribution channel",
       "times_covered": 1,
       "last_covered": "2026-10-01"
+    },
+    "constraints-and-operator-leverage": {
+      "title": "Constraints And Operator Leverage",
+      "times_covered": 1,
+      "last_covered": "2026-10-02"
     }
   },
   "item_history": [
@@ -3460,62 +3466,6 @@
       "usefulness": "Apply the same shape to client intake, triage, and handoff workflows."
     },
     {
-      "lane": "multi-model-orchestration",
-      "title": "Project HydraFusion: Frontier quality via multi-model orchestration",
-      "url": "https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration/",
-      "source_type": "research preview",
-      "rationale": "It operationalizes routing, critique, and escalation across a model portfolio."
-    },
-    {
-      "lane": "multi-model-orchestration",
-      "title": "GitHub Copilot monthly enterprise roundup — September 2026",
-      "url": "https://github.com/resources/insights/enterprise-content-roundup-september-26",
-      "source_type": "product roundup",
-      "rationale": "It places multi-model orchestration alongside agent apps and workflow surfaces."
-    },
-    {
-      "lane": "collaborative-agent-planning",
-      "title": "Chopin — a real-time multiplayer, agentic planning environment",
-      "url": "https://githubnext.com/projects/chopin/",
-      "source_type": "research prototype",
-      "rationale": "It joins human presence, shared plans, chat, and MCP in one planning surface."
-    },
-    {
-      "lane": "collaborative-agent-planning",
-      "title": "GitHub Next Projects",
-      "url": "https://githubnext.com/projects/",
-      "source_type": "project index",
-      "rationale": "The project is listed as an active September 2026 research prototype."
-    },
-    {
-      "lane": "context-engineering",
-      "title": "Knowledge Compressor",
-      "url": "https://githubnext.com/posts/knowledge-compressor/",
-      "source_type": "research prototype",
-      "rationale": "It tests how far documentation can shrink while preserving answer quality."
-    },
-    {
-      "lane": "context-engineering",
-      "title": "WikiKB: a fast, repository-native knowledge base for people and agents",
-      "url": "https://githubnext.com/posts/wikikb/",
-      "source_type": "research prototype",
-      "rationale": "It makes knowledge explicit, versioned, and close to the repository."
-    },
-    {
-      "lane": "self-hosted-agent-execution",
-      "title": "Coder Agents is GA: Fully Self-Hosted, From Agent to Execution",
-      "url": "https://coder.com/blog/coder-agents-ga",
-      "source_type": "product release",
-      "rationale": "It turns self-hosted agent execution from a beta concept into a generally available platform offer."
-    },
-    {
-      "lane": "self-hosted-agent-execution",
-      "title": "Introducing Agent Relay: Cloud-hosted agents, self-hosted execution",
-      "url": "https://coder.com/blog/introducing-agent-relay-cloud-hosted-agents-self-hosted-execution",
-      "source_type": "product architecture",
-      "rationale": "It separates agent UX from execution locality instead of forcing an all-cloud or all-local choice."
-    },
-    {
       "date": "2026-09-29",
       "topic": "openshell",
       "title": "NVIDIA OpenShell: policy outside the agent",
@@ -3634,6 +3584,62 @@
       "url": "https://githubnext.com/projects/chopin/",
       "source_type": "research prototype",
       "rationale": "It reinforces a useful separation: decide and record the plan before workers mutate repositories or external systems."
+    },
+    {
+      "date": "2026-10-02",
+      "topic": "agentic-developer-surfaces",
+      "title": "Cloudflare Artifacts and the next Git platform",
+      "url": "https://blog.cloudflare.com/next-git-platform-on-cloudflare/",
+      "source_type": "blog",
+      "rationale": "Programmable repositories and isolated workspaces make agent coordination concrete."
+    },
+    {
+      "date": "2026-10-02",
+      "topic": "agentic-developer-surfaces",
+      "title": "Cloudflare Agents",
+      "url": "https://blog.cloudflare.com/agents-on-cloudflare/",
+      "source_type": "product",
+      "rationale": "Agent-aware traces connect model, tool, approval, and infrastructure spans."
+    },
+    {
+      "date": "2026-10-02",
+      "topic": "agentic-developer-surfaces",
+      "title": "Cloudflare OS",
+      "url": "https://blog.cloudflare.com/managed-cloudflare-os/",
+      "source_type": "product",
+      "rationale": "Managed organizational context is becoming a product surface."
+    },
+    {
+      "date": "2026-10-02",
+      "topic": "agentic-developer-surfaces",
+      "title": "GitHub Universe technical agenda",
+      "url": "https://github.blog/news-insights/company-news/10-technical-talks-im-excited-about-at-github-universe-2026/",
+      "source_type": "blog",
+      "rationale": "Memory, authorization, provenance, and real-world evals are explicit developer concerns."
+    },
+    {
+      "date": "2026-10-02",
+      "topic": "agent-observability",
+      "title": "AI infrastructure week-of roundup",
+      "url": "https://solutionsreview.com/ai-news-for-the-week-of-october-2-updates-from-honeycomb-io-ninjatech-ai-oracle-more/",
+      "source_type": "news",
+      "rationale": "Fresh CoreWeave Forge and Honeycomb signals point to a continuous improvement loop."
+    },
+    {
+      "date": "2026-10-02",
+      "topic": "agent-observability",
+      "title": "Databricks ai_decide",
+      "url": "https://www.databricks.com/blog/introducing-aidecide-make-fast-decisions-your-governed-data",
+      "source_type": "product",
+      "rationale": "Cheap governed decisions can route high-cost generative work."
+    },
+    {
+      "date": "2026-10-02",
+      "topic": "constraints-and-operator-leverage",
+      "title": "Constraints that make developers faster",
+      "url": "https://stackoverflow.blog/2026/10/02/constraints-that-make-developers-faster/",
+      "source_type": "blog",
+      "rationale": "Typed constraints can increase speed and trust in agent tooling."
     }
   ],
   "runs": [
@@ -15054,5 +15060,6 @@
       ],
       "selection_rationale": "Rotated away from the prior days’ governance, evidence, context, and multi-model lanes toward current cyber-defense, physical-AI, and operator-surface signals."
     }
-  ]
+  ],
+  "last_updated": "2026-10-02"
 }

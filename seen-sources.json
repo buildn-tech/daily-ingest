@@ -1,6 +1,41 @@
 {
-  "updated_at": "2026-10-01T08:04:18.530396+00:00",
+  "updated_at": "2026-10-02T08:09:36.230166+00:00",
   "sources": {
+    "https://blog.cloudflare.com/next-git-platform-on-cloudflare": {
+      "first_seen": "2026-10-02",
+      "last_seen": "2026-10-02",
+      "title": "Cloudflare Artifacts and the next Git platform"
+    },
+    "https://blog.cloudflare.com/agents-on-cloudflare": {
+      "first_seen": "2026-10-02",
+      "last_seen": "2026-08-30",
+      "title": "Cloudflare Agents"
+    },
+    "https://blog.cloudflare.com/managed-cloudflare-os": {
+      "first_seen": "2026-10-02",
+      "last_seen": "2026-10-02",
+      "title": "Cloudflare OS"
+    },
+    "https://github.blog/news-insights/company-news/10-technical-talks-im-excited-about-at-github-universe-2026": {
+      "first_seen": "2026-10-02",
+      "last_seen": "2026-10-02",
+      "title": "GitHub Universe technical agenda"
+    },
+    "https://solutionsreview.com/ai-news-for-the-week-of-october-2-updates-from-honeycomb-io-ninjatech-ai-oracle-more": {
+      "first_seen": "2026-10-02",
+      "last_seen": "2026-10-02",
+      "title": "AI infrastructure week-of roundup"
+    },
+    "https://www.databricks.com/blog/introducing-aidecide-make-fast-decisions-your-governed-data": {
+      "first_seen": "2026-10-02",
+      "last_seen": "2026-10-02",
+      "title": "Databricks ai_decide"
+    },
+    "https://stackoverflow.blog/2026/10/02/constraints-that-make-developers-faster": {
+      "first_seen": "2026-10-02",
+      "last_seen": "2026-10-02",
+      "title": "Constraints that make developers faster"
+    },
     "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon": {
       "first_seen": "2026-10-01",
       "last_seen": "2026-10-01",
@@ -1675,11 +1710,6 @@
       "first_seen": "2026-08-31",
       "last_seen": "2026-08-26",
       "title": "PACT privacy and authorization"
-    },
-    "https://blog.cloudflare.com/agents-on-cloudflare": {
-      "first_seen": "2026-08-30",
-      "last_seen": "2026-08-30",
-      "title": "Cloudflare Agents"
     },
     "https://blog.cloudflare.com/local-tracing": {
       "first_seen": "2026-08-30",
