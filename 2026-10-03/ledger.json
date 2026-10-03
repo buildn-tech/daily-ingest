@@ -1,0 +1,155 @@
+{
+  "date": "2026-10-03",
+  "generated_at": "2026-10-03T08:06:07.118066+00:00",
+  "editorial_thesis": "Today\u2019s strongest signals move the agent conversation from model novelty to product surfaces, programmable review, local boundaries, and durable execution.",
+  "topic_groups": [
+    {
+      "slug": "agent-app-surfaces",
+      "title": "Agent App Surfaces",
+      "selection_rationale": "A durable OpenAI Apps SDK foundation, paired with fresh Chrome WebMCP and Google Search agent signals, makes the distribution and interaction layer\u2014not just the model\u2014the practical frontier.",
+      "sources": [
+        {
+          "title": "OpenAI Apps SDK foundation",
+          "url": "https://openai.com/index/introducing-apps-in-chatgpt/",
+          "source_type": "product",
+          "published_or_updated": "2026-10-02 or recent",
+          "why_selected": "A client-facing workflow can travel from chat intent to a usable surface without forcing a separate product shell.",
+          "usefulness": "Prototype a Buildn intake app: structured brief \u2192 reviewable plan \u2192 artifact links."
+        },
+        {
+          "title": "WebMCP for the agentic web",
+          "url": "https://developer.chrome.com/blog/chrome-at-io26",
+          "source_type": "blog",
+          "published_or_updated": "2026-10-02 or recent",
+          "why_selected": "It gives websites a durable integration seam for browser agents and can reduce brittle UI automation.",
+          "usefulness": "Expose report lookup, approval, and artifact creation as explicit site tools."
+        },
+        {
+          "title": "Search agents",
+          "url": "https://blog.google/products-and-platforms/products/search/search-io-2026/",
+          "source_type": "blog",
+          "published_or_updated": "2026-10-02 or recent",
+          "why_selected": "The winning pattern is persistent criteria plus timely handoff\u2014not one-shot answers.",
+          "usefulness": "Offer client watchlists for competitor, regulation, or market signals with human approval."
+        }
+      ]
+    },
+    {
+      "slug": "agentic-review-delivery",
+      "title": "Agentic Review + Delivery",
+      "selection_rationale": "GitHub shipped API-driven Copilot code review while also retiring models, creating a concrete operational lane: automate review, but treat model choice as change control.",
+      "sources": [
+        {
+          "title": "Copilot code review API",
+          "url": "https://github.blog/changelog/2026-10-02-copilot-code-review-api-support-and-new-default-effort-level/",
+          "source_type": "blog",
+          "published_or_updated": "2026-10-02 or recent",
+          "why_selected": "Review can become a stage in CI or an internal delivery tool rather than a manual UI step.",
+          "usefulness": "Add review requests to Buildn delivery gates and capture findings as evidence."
+        },
+        {
+          "title": "Copilot model deprecations",
+          "url": "https://github.blog/changelog/2026-10-02-selected-models-in-github-copilot-deprecated",
+          "source_type": "blog",
+          "published_or_updated": "2026-10-02 or recent",
+          "why_selected": "Model portfolios are now an operational dependency, not a static preference.",
+          "usefulness": "Maintain a provider/model compatibility ledger for client automations."
+        },
+        {
+          "title": "VS Code September releases",
+          "url": "https://github.blog/changelog/2026-10-01-github-copilot-in-vs-code-september-2026-releases",
+          "source_type": "blog",
+          "published_or_updated": "2026-10-02 or recent",
+          "why_selected": "The unit of leverage is shifting from autocomplete to an end-to-end, inspectable loop.",
+          "usefulness": "Use repeatable tasks as client delivery playbooks with explicit checkpoints."
+        },
+        {
+          "title": "Desktop computer use",
+          "url": "https://github.blog/changelog/2026-10-01-github-copilot-can-now-interact-with-desktop-apps",
+          "source_type": "blog",
+          "published_or_updated": "2026-10-02 or recent",
+          "why_selected": "Desktop surfaces remain valuable when APIs are absent, but need stronger containment than code edits.",
+          "usefulness": "Test only in disposable environments for legacy client tools."
+        }
+      ]
+    },
+    {
+      "slug": "open-local-ai",
+      "title": "Open + Local AI Tooling",
+      "selection_rationale": "Google\u2019s October open-source roundup spotlights local RAG, Gemma inference, and EnvHarness; Chrome\u2019s built-in AI direction adds a practical browser-local complement.",
+      "sources": [
+        {
+          "title": "Google Open Source weekly",
+          "url": "https://opensource.googleblog.com/2026/10/this-week-in-open-source-for-october-2-2026.html",
+          "source_type": "blog",
+          "published_or_updated": "2026-10-02 or recent",
+          "why_selected": "It is a compact map of practical open components rather than a single model launch.",
+          "usefulness": "Evaluate a private, local-first research lane for Buildn artifacts and client docs."
+        },
+        {
+          "title": "Chrome built-in AI",
+          "url": "https://developer.chrome.com/blog/chrome-at-io26",
+          "source_type": "blog",
+          "published_or_updated": "2026-10-02 or recent",
+          "why_selected": "Narrow local inference can remove per-call cost and server dependency for lightweight UX features.",
+          "usefulness": "Add local summarization, tagging, or form cleanup where data should not leave the browser."
+        },
+        {
+          "title": "Modern Web Guidance",
+          "url": "https://developer.chrome.com/blog/chrome-at-io26",
+          "source_type": "blog",
+          "published_or_updated": "2026-10-02 or recent",
+          "why_selected": "Agent output improves when the platform\u2019s constraints are supplied as maintained guidance.",
+          "usefulness": "Use guidance as a review rubric for static reports and client interfaces."
+        },
+        {
+          "title": "EnvHarness as a pattern",
+          "url": "https://opensource.googleblog.com/2026/10/this-week-in-open-source-for-october-2-2026.html",
+          "source_type": "blog",
+          "published_or_updated": "2026-10-02 or recent",
+          "why_selected": "Environment setup is part of evaluation quality; isolated, reproducible tasks make comparisons credible.",
+          "usefulness": "Create small fixtures for report generation, link validation, and script-free checks."
+        }
+      ]
+    },
+    {
+      "slug": "durable-agent-infrastructure",
+      "title": "Durable Agent Infrastructure",
+      "selection_rationale": "Two fresh Google Cloud database announcements address the hard middle of agent systems: durable memory and atomic state-plus-work dispatch.",
+      "sources": [
+        {
+          "title": "AlloyDB + Valkey memory",
+          "url": "https://cloud.google.com/blog/products/databases/implementing-long-term-ai-agent-memory-in-alloydb-and-memorystore",
+          "source_type": "blog",
+          "published_or_updated": "2026-10-02 or recent",
+          "why_selected": "Separate hot context from durable rules and episodes instead of stuffing histories into every prompt.",
+          "usefulness": "Model Buildn memory as recent state, durable decisions, and evidence-linked artifacts."
+        },
+        {
+          "title": "Spanner queues",
+          "url": "https://cloud.google.com/blog/products/databases/spanner-queues-provide-native-transactional-messaging",
+          "source_type": "blog",
+          "published_or_updated": "2026-10-02 or recent",
+          "why_selected": "The database/queue commit gap is a major source of phantom or lost agent actions.",
+          "usefulness": "Use the pattern for approval timeouts, handoffs, retries, and artifact publication."
+        },
+        {
+          "title": "GKE CPU startup boost",
+          "url": "https://cloud.google.com/blog/products/containers-kubernetes/gke-cpu-startup-boost-faster-pod-starts-lower-costs",
+          "source_type": "blog",
+          "published_or_updated": "2026-10-02 or recent",
+          "why_selected": "Short-lived agent workers pay startup tax; infrastructure elasticity changes the economics of bounded execution.",
+          "usefulness": "Use faster worker startup for bursty report jobs or isolated evaluation fixtures."
+        },
+        {
+          "title": "Memory as policy",
+          "url": "https://cloud.google.com/blog/products/databases/implementing-long-term-ai-agent-memory-in-alloydb-and-memorystore",
+          "source_type": "blog",
+          "published_or_updated": "2026-10-02 or recent",
+          "why_selected": "The important design move is policy: what may be recalled, for how long, and with what provenance.",
+          "usefulness": "Store client constraints and approval decisions as typed, inspectable records."
+        }
+      ]
+    }
+  ]
+}

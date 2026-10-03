@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-10-02T08:09:36.230166+00:00",
+  "updated_at": "2026-10-03T08:06:12.541254+00:00",
   "days": [
+    {
+      "date": "2026-10-03",
+      "path": "2026-10-03",
+      "reports": [
+        {
+          "lane": "agent-app-surfaces",
+          "title": "Agent App Surfaces",
+          "url": "2026-10-03/agent-app-surfaces.html"
+        },
+        {
+          "lane": "agentic-review-delivery",
+          "title": "Agentic Review + Delivery",
+          "url": "2026-10-03/agentic-review-delivery.html"
+        },
+        {
+          "lane": "open-local-ai",
+          "title": "Open + Local AI Tooling",
+          "url": "2026-10-03/open-local-ai.html"
+        },
+        {
+          "lane": "durable-agent-infrastructure",
+          "title": "Durable Agent Infrastructure",
+          "url": "2026-10-03/durable-agent-infrastructure.html"
+        }
+      ]
+    },
     {
       "date": "2026-10-02",
       "path": "2026-10-02",
