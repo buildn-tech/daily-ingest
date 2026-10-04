@@ -1,0 +1,100 @@
+{
+  "date": "2026-10-04",
+  "generated_at": "2026-10-04T08:04:44.012983+00:00",
+  "editorial_thesis": "Today’s strongest fresh signals make agent systems narrower and more governable: enforce runtime policy, use typed decisions and ephemeral execution, and package domain workflows with evidence and approval.",
+  "topic_groups": [
+    {
+      "slug": "agent-runtime-safety",
+      "title": "Agent Runtime Safety + Sovereignty",
+      "selection_rationale": "Fresh OpenShell platform activity earns inclusion because it turns runtime boundaries into a usable open artifact and extends the conversation toward independent enforcement.",
+      "sources": [
+        {
+          "title": "NVIDIA Open Agent Safety Platform",
+          "url": "https://nvidianews.nvidia.com/news/open-agent-safety-platform",
+          "source_type": "product",
+          "published_or_updated": "2026-09-28",
+          "why_selected": "Broadens software sandboxing into full-stack agent safety.",
+          "usefulness": "Provides a concrete policy and containment reference for Buildn agent jobs."
+        },
+        {
+          "title": "OpenShell documentation",
+          "url": "https://docs.nvidia.com/openshell/about/why-open-shell",
+          "source_type": "docs",
+          "published_or_updated": "2026-10-03 or recent",
+          "why_selected": "Documents the current 0.1.x runtime and policy model.",
+          "usefulness": "Supports a disposable local proof of concept."
+        },
+        {
+          "title": "NVIDIA OpenShell repository",
+          "url": "https://github.com/NVIDIA/OpenShell",
+          "source_type": "repo",
+          "published_or_updated": "2026-10-03",
+          "why_selected": "Shows active open-source implementation and current integration surface.",
+          "usefulness": "Lets Buildn inspect and test the real boundary."
+        }
+      ]
+    },
+    {
+      "slug": "decision-models-edge-execution",
+      "title": "Decision Models + Edge Execution",
+      "selection_rationale": "Cloudflare’s new Clef and Dynamic Workers form a practical pair: bounded decisions plus lightweight, isolated execution.",
+      "sources": [
+        {
+          "title": "Introducing Clef",
+          "url": "https://blog.cloudflare.com/clef-decision-models/",
+          "source_type": "blog",
+          "published_or_updated": "2026-10-03 or recent",
+          "why_selected": "Adds open decision models for agent routing and abstention.",
+          "usefulness": "A small eval can test intake, QA, and escalation routing."
+        },
+        {
+          "title": "Dynamic Workers",
+          "url": "https://blog.cloudflare.com/dynamic-workers/",
+          "source_type": "product",
+          "published_or_updated": "2026-09-29 or recent",
+          "why_selected": "Makes per-request generated-code isolation more practical.",
+          "usefulness": "Offers a bounded execution pattern for code-mode workflows."
+        },
+        {
+          "title": "Cloudflare Agents",
+          "url": "https://blog.cloudflare.com/agents-on-cloudflare/",
+          "source_type": "blog",
+          "published_or_updated": "2026-09-29 or recent",
+          "why_selected": "Connects agent tracing to actual infrastructure spans.",
+          "usefulness": "Provides an observability checklist for agent delivery."
+        }
+      ]
+    },
+    {
+      "slug": "scientific-agent-workflows",
+      "title": "Scientific Agent Workflows + Trusted Access",
+      "selection_rationale": "Rosalind earns a focused lane because access and pricing change on October 5, while its domain workflow and evaluation design offer reusable patterns beyond life sciences.",
+      "sources": [
+        {
+          "title": "GPT-Rosalind capabilities and availability",
+          "url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/",
+          "source_type": "product",
+          "published_or_updated": "2026-09-11 update; pricing 2026-10-05",
+          "why_selected": "Moves a specialized agent from preview toward eligible-organization use.",
+          "usefulness": "Creates a timely client-opportunity and governance review."
+        },
+        {
+          "title": "Rosalind Workbench",
+          "url": "https://openai.com/rosalind/",
+          "source_type": "product",
+          "published_or_updated": "2026-10-04 or recent",
+          "why_selected": "Shows a concrete evidence-to-experiment workspace pattern.",
+          "usefulness": "Informs Buildn checkpointed research workflows."
+        },
+        {
+          "title": "DevDay 2026 recap",
+          "url": "https://openai.com/index/devday-2026-recap/",
+          "source_type": "blog",
+          "published_or_updated": "2026-09-30",
+          "why_selected": "Provides broader context for persistent agents and private intelligence.",
+          "usefulness": "Helps separate domain workflow value from generic model hype."
+        }
+      ]
+    }
+  ]
+}

@@ -1,6 +1,51 @@
 {
-  "updated_at": "2026-10-03T08:06:12.541254+00:00",
+  "updated_at": "2026-10-04T08:05:09.370246+00:00",
   "sources": {
+    "https://nvidianews.nvidia.com/news/open-agent-safety-platform": {
+      "first_seen": "2026-10-04",
+      "last_seen": "2026-10-04",
+      "title": "NVIDIA Open Agent Safety Platform"
+    },
+    "https://docs.nvidia.com/openshell/about/why-open-shell": {
+      "first_seen": "2026-10-04",
+      "last_seen": "2026-10-04",
+      "title": "OpenShell documentation"
+    },
+    "https://github.com/NVIDIA/OpenShell": {
+      "first_seen": "2026-10-04",
+      "last_seen": "2026-09-01",
+      "title": "NVIDIA OpenShell"
+    },
+    "https://blog.cloudflare.com/clef-decision-models": {
+      "first_seen": "2026-10-04",
+      "last_seen": "2026-10-04",
+      "title": "Introducing Clef"
+    },
+    "https://blog.cloudflare.com/dynamic-workers": {
+      "first_seen": "2026-10-04",
+      "last_seen": "2026-09-01",
+      "title": "Cloudflare Dynamic Worker Loader"
+    },
+    "https://blog.cloudflare.com/agents-on-cloudflare": {
+      "first_seen": "2026-10-04",
+      "last_seen": "2026-08-30",
+      "title": "Cloudflare Agents"
+    },
+    "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind": {
+      "first_seen": "2026-10-04",
+      "last_seen": "2026-10-04",
+      "title": "GPT-Rosalind capabilities and availability"
+    },
+    "https://openai.com/rosalind": {
+      "first_seen": "2026-10-04",
+      "last_seen": "2026-10-04",
+      "title": "Rosalind Workbench"
+    },
+    "https://openai.com/index/devday-2026-recap": {
+      "first_seen": "2026-10-04",
+      "last_seen": "2026-09-30",
+      "title": "DevDay: cloud agents, code review, private intelligence"
+    },
     "https://openai.com/index/introducing-apps-in-chatgpt": {
       "first_seen": "2026-10-03",
       "last_seen": "2026-10-03",
@@ -60,11 +105,6 @@
       "first_seen": "2026-10-02",
       "last_seen": "2026-10-02",
       "title": "Cloudflare Artifacts and the next Git platform"
-    },
-    "https://blog.cloudflare.com/agents-on-cloudflare": {
-      "first_seen": "2026-10-02",
-      "last_seen": "2026-08-30",
-      "title": "Cloudflare Agents"
     },
     "https://blog.cloudflare.com/managed-cloudflare-os": {
       "first_seen": "2026-10-02",
@@ -161,11 +201,6 @@
       "last_seen": "2026-09-30",
       "title": "GPT-6.1 Sol: lower-cost long-horizon work"
     },
-    "https://openai.com/index/devday-2026-recap": {
-      "first_seen": "2026-09-30",
-      "last_seen": "2026-09-30",
-      "title": "DevDay: cloud agents, code review, private intelligence"
-    },
     "https://github.blog/changelog/2026-09-29-gpt-6-1-sol-in-github-copilot": {
       "first_seen": "2026-09-30",
       "last_seen": "2026-09-30",
@@ -200,11 +235,6 @@
       "first_seen": "2026-09-29",
       "last_seen": "2026-09-29",
       "title": "NVIDIA OpenShell: policy outside the agent"
-    },
-    "https://blog.cloudflare.com/dynamic-workers": {
-      "first_seen": "2026-09-29",
-      "last_seen": "2026-09-01",
-      "title": "Cloudflare Dynamic Worker Loader"
     },
     "https://github.com/NousResearch/hermes-agent/releases": {
       "first_seen": "2026-09-29",
@@ -1300,11 +1330,6 @@
       "first_seen": "2026-09-08",
       "last_seen": "2026-09-08",
       "title": "Open Secure AI Alliance RFCs"
-    },
-    "https://github.com/NVIDIA/OpenShell": {
-      "first_seen": "2026-09-08",
-      "last_seen": "2026-09-01",
-      "title": "NVIDIA OpenShell"
     },
     "https://blogs.nvidia.com/blog/cvpr-physical-ai-research-agent-skills": {
       "first_seen": "2026-09-08",

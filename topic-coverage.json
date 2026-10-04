@@ -1164,6 +1164,21 @@
       "title": "Durable Agent Infrastructure",
       "times_covered": 1,
       "last_covered": "2026-10-03"
+    },
+    "agent-runtime-safety": {
+      "title": "Agent Runtime Safety + Sovereignty",
+      "times_covered": 1,
+      "last_covered": "2026-10-04"
+    },
+    "decision-models-edge-execution": {
+      "title": "Decision Models + Edge Execution",
+      "times_covered": 1,
+      "last_covered": "2026-10-04"
+    },
+    "scientific-agent-workflows": {
+      "title": "Scientific Agent Workflows + Trusted Access",
+      "times_covered": 1,
+      "last_covered": "2026-10-04"
     }
   },
   "item_history": [
@@ -3780,6 +3795,80 @@
       "url": "https://cloud.google.com/blog/products/databases/implementing-long-term-ai-agent-memory-in-alloydb-and-memorystore",
       "source_type": "blog",
       "rationale": "The important design move is policy: what may be recalled, for how long, and with what provenance."
+    },
+    {
+      "date": "2026-10-04",
+      "selected_lanes": [
+        "agent-runtime-safety",
+        "decision-models-edge-execution",
+        "scientific-agent-workflows"
+      ],
+      "items": [
+        {
+          "title": "NVIDIA Open Agent Safety Platform",
+          "url": "https://nvidianews.nvidia.com/news/open-agent-safety-platform",
+          "source_type": "product",
+          "topic": "agent-runtime-safety",
+          "rationale": "Broadens software sandboxing into full-stack agent safety."
+        },
+        {
+          "title": "OpenShell documentation",
+          "url": "https://docs.nvidia.com/openshell/about/why-open-shell",
+          "source_type": "docs",
+          "topic": "agent-runtime-safety",
+          "rationale": "Documents the current 0.1.x runtime and policy model."
+        },
+        {
+          "title": "NVIDIA OpenShell repository",
+          "url": "https://github.com/NVIDIA/OpenShell",
+          "source_type": "repo",
+          "topic": "agent-runtime-safety",
+          "rationale": "Shows active open-source implementation and current integration surface."
+        },
+        {
+          "title": "Introducing Clef",
+          "url": "https://blog.cloudflare.com/clef-decision-models/",
+          "source_type": "blog",
+          "topic": "decision-models-edge-execution",
+          "rationale": "Adds open decision models for agent routing and abstention."
+        },
+        {
+          "title": "Dynamic Workers",
+          "url": "https://blog.cloudflare.com/dynamic-workers/",
+          "source_type": "product",
+          "topic": "decision-models-edge-execution",
+          "rationale": "Makes per-request generated-code isolation more practical."
+        },
+        {
+          "title": "Cloudflare Agents",
+          "url": "https://blog.cloudflare.com/agents-on-cloudflare/",
+          "source_type": "blog",
+          "topic": "decision-models-edge-execution",
+          "rationale": "Connects agent tracing to actual infrastructure spans."
+        },
+        {
+          "title": "GPT-Rosalind capabilities and availability",
+          "url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/",
+          "source_type": "product",
+          "topic": "scientific-agent-workflows",
+          "rationale": "Moves a specialized agent from preview toward eligible-organization use."
+        },
+        {
+          "title": "Rosalind Workbench",
+          "url": "https://openai.com/rosalind/",
+          "source_type": "product",
+          "topic": "scientific-agent-workflows",
+          "rationale": "Shows a concrete evidence-to-experiment workspace pattern."
+        },
+        {
+          "title": "DevDay 2026 recap",
+          "url": "https://openai.com/index/devday-2026-recap/",
+          "source_type": "blog",
+          "topic": "scientific-agent-workflows",
+          "rationale": "Provides broader context for persistent agents and private intelligence."
+        }
+      ],
+      "selection_rationale": "Today’s strongest fresh signals make agent systems narrower and more governable: enforce runtime policy, use typed decisions and ephemeral execution, and package domain workflows with evidence and approval."
     }
   ],
   "runs": [
@@ -6117,7 +6206,7 @@
       "editorial_thesis": "Today’s strongest signals move the agent conversation from model novelty to product surfaces, programmable review, local boundaries, and durable execution."
     }
   ],
-  "updated_at": "2026-10-03T08:06:07.235787+00:00",
+  "updated_at": "2026-10-04T08:00:00Z",
   "last_run": {
     "date": "2026-10-03",
     "selected_lanes": [
@@ -6127,300 +6216,8 @@
       "durable-agent-infrastructure"
     ]
   },
-  "last_editorial_thesis": "Today’s strongest signals move the agent conversation from model novelty to product surfaces, programmable review, local boundaries, and durable execution.",
+  "last_editorial_thesis": "Today’s strongest fresh signals make agent systems narrower and more governable: enforce runtime policy, use typed decisions and ephemeral execution, and package domain workflows with evidence and approval.",
   "coverage_history": [
-    {
-      "date": "2026-07-28",
-      "selected_lanes": [
-        {
-          "slug": "stateless-mcp-migration",
-          "title": "Stateless MCP Migration",
-          "selection_rationale": "Fresh primary releases or research in a coverage gap; selected for a bounded, inspectable operational experiment."
-        },
-        {
-          "slug": "residency-and-realtime-agents",
-          "title": "Residency + Real-time Agent Transport",
-          "selection_rationale": "Fresh primary releases or research in a coverage gap; selected for a bounded, inspectable operational experiment."
-        },
-        {
-          "slug": "evidence-first-agent-memory",
-          "title": "Evidence-first Agent Memory",
-          "selection_rationale": "Fresh primary releases or research in a coverage gap; selected for a bounded, inspectable operational experiment."
-        }
-      ],
-      "items": [
-        {
-          "lane": "stateless-mcp-migration",
-          "title": "MCP 2026-07-28 release candidate",
-          "url": "https://blog.modelcontextprotocol.io/posts/2026-07-28-release-candidate/",
-          "source_type": "release",
-          "selection_rationale": "The protocol revision changes how remote tool servers scale, route, cache, and request user input."
-        },
-        {
-          "lane": "stateless-mcp-migration",
-          "title": "Cloudflare Agents SDK v0.20.0",
-          "url": "https://developers.cloudflare.com/changelog/post/2026-07-27-agents-sdk-v0.20.0-mcp-sdk-v2/",
-          "source_type": "release",
-          "selection_rationale": "It turns the protocol change into a deployable migration pattern: factory handler, fallback, and parallel legacy support."
-        },
-        {
-          "lane": "residency-and-realtime-agents",
-          "title": "Regional inference on AI Gateway",
-          "url": "https://vercel.com/changelog/regional-inference-now-available-on-ai-gateway",
-          "source_type": "release",
-          "selection_rationale": "It converts an informal residency promise into a request-level control that can be logged and checked."
-        },
-        {
-          "lane": "residency-and-realtime-agents",
-          "title": "WebSocket mode for OpenAI Responses API",
-          "url": "https://vercel.com/changelog/websocket-support-for-openai-responses-api-live-on-ai-gateway",
-          "source_type": "release",
-          "selection_rationale": "Long tool-call rollouts can reduce repeated context transfer and improve interactive latency."
-        },
-        {
-          "lane": "evidence-first-agent-memory",
-          "title": "MemChain: interpretable memory traces",
-          "url": "https://arxiv.org/abs/2607.24097",
-          "source_type": "paper",
-          "selection_rationale": "It makes the intermediate evidence context inspectable rather than treating raw retrieval as ready-to-use truth."
-        },
-        {
-          "lane": "evidence-first-agent-memory",
-          "title": "EviBack: evidence-constrained teacher backoff",
-          "url": "https://arxiv.org/abs/2607.23955",
-          "source_type": "paper",
-          "selection_rationale": "The separation guards against a polished answer being mistaken for an adequately supported one."
-        }
-      ],
-      "editorial_thesis": "The day’s leverage is operational evidence: make protocol state explicit, verify where requests run, and make agent memory and research support inspectable before action."
-    },
-    {
-      "date": "2026-08-02",
-      "selected_lanes": [
-        {
-          "slug": "private-document-intelligence",
-          "title": "Private Document Intelligence",
-          "selection_rationale": "A deliberately under-covered self-hosted knowledge lane: a fresh Paperless maintenance release fixes AI-suggestion cache isolation and document-processing behavior, while MarkItDown improves structured conversion at the ingestion edge."
-        },
-        {
-          "slug": "durable-agent-state",
-          "title": "Durable Agent State + Local Privacy",
-          "selection_rationale": "Agent controls were covered yesterday; today’s distinct operational signal is durability below the model layer—recoverable state, dead-lettered channel ingress, and owner-only histories/logs."
-        },
-        {
-          "slug": "proof-carrying-research",
-          "title": "Proof-Carrying Research Outputs",
-          "selection_rationale": "A fresh research release earns a deliberately non-product lane because it publishes not only claims, but papers, narrated reasoning, Lean certificates, and instructions for independent checking—an unusually practical pattern for evidence-heavy work."
-        }
-      ],
-      "items": [
-        {
-          "lane": "private-document-intelligence",
-          "title": "Paperless-ngx v3.0.5",
-          "url": "https://github.com/paperless-ngx/paperless-ngx/releases/tag/v3.0.5",
-          "source_type": "release",
-          "selection_rationale": "Model/endpoint-keyed suggestion caching matters whenever a client archive has multiple providers, a staging endpoint, or a local model beside a hosted one."
-        },
-        {
-          "lane": "private-document-intelligence",
-          "title": "MarkItDown v0.1.7",
-          "url": "https://github.com/microsoft/markitdown/releases/tag/v0.1.7",
-          "source_type": "release",
-          "selection_rationale": "Presentation and equation fidelity determine whether an extraction pipeline is usable as source material for review, search, or agents."
-        },
-        {
-          "lane": "private-document-intelligence",
-          "title": "Paperless-ngx AI suggestion documentation",
-          "url": "https://docs.paperless-ngx.com/usage/#ai-powered-document-suggestions",
-          "source_type": "docs",
-          "selection_rationale": "It supplies the operating context for the cache-isolation fix: suggestions should enrich an archive’s metadata, not become the archive of record."
-        },
-        {
-          "lane": "durable-agent-state",
-          "title": "OpenClaw 2026.7.2 beta.6",
-          "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.7.2-beta.6",
-          "source_type": "pre-release",
-          "selection_rationale": "This is a concrete reference architecture for the hard part of agent operations: avoiding silent loss between intake, persistence, restart, and human review."
-        },
-        {
-          "lane": "durable-agent-state",
-          "title": "rtk v0.44.2",
-          "url": "https://github.com/rtk-ai/rtk/releases/tag/v0.44.2",
-          "source_type": "release",
-          "selection_rationale": "Local developer and agent tooling can expose prompts, paths, commands, and audit records through filesystem defaults long before a network control fails."
-        },
-        {
-          "lane": "durable-agent-state",
-          "title": "OpenClaw release notes: approvals and MCP Apps",
-          "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.7.2-beta.6",
-          "source_type": "release note",
-          "selection_rationale": "Durable state is most valuable when it preserves an accountable handoff: a question, an approval, a tool request, and the resulting artifact."
-        },
-        {
-          "lane": "proof-carrying-research",
-          "title": "Ten advances in mathematics and theoretical computer science",
-          "url": "https://openai.com/index/ten-advances-in-mathematics/",
-          "source_type": "publication",
-          "selection_rationale": "It is a rare public example of a model-generated research result bundled with multiple inspection layers rather than a benchmark headline alone."
-        },
-        {
-          "lane": "proof-carrying-research",
-          "title": "openai/ten-proofs Lean certificates",
-          "url": "https://github.com/openai/ten-proofs",
-          "source_type": "repo",
-          "selection_rationale": "A certificate repository turns “trust us” into an artifact that a separate toolchain can build and inspect."
-        },
-        {
-          "lane": "proof-carrying-research",
-          "title": "OpenAI proof paper",
-          "url": "https://cdn.openai.com/pdf/ten-proofs-oai.pdf",
-          "source_type": "paper",
-          "selection_rationale": "Separating exposition from verification gives expert reviewers a readable entry point without making prose the sole evidence object."
-        },
-        {
-          "lane": "proof-carrying-research",
-          "title": "Reasoning walkthroughs",
-          "url": "https://cdn.openai.com/pdf/reasoning-walkthroughs.pdf",
-          "source_type": "method note",
-          "selection_rationale": "Process artifacts let reviewers assess the route to a conclusion, not only the final polished result."
-        }
-      ],
-      "editorial_thesis": "Today’s practical advantage is evidence hygiene: preserve document fidelity before enrichment, make agent state recoverable and private, and ship consequential claims with an inspectable verification trail."
-    },
-    {
-      "date": "2026-08-10",
-      "selected_lanes": [
-        "persistent-agent-compute",
-        "design-system-controls",
-        "agent-identity-posture"
-      ],
-      "editorial_thesis": "Today’s practical signal is control at the boundary: persistent compute needs explicit capacity policy, design generation needs budgets and hierarchy, and agents need identities that can be monitored and remediated.",
-      "items": [
-        {
-          "title": "Agent Plugins package your Skills, Tools, and more",
-          "url": "https://developers.googleblog.com/agent-plugins-package-your-skills-tools-and-more/",
-          "source_type": "spec",
-          "selection_rationale": "Fresh packaging standard for portable skills and MCP servers."
-        },
-        {
-          "title": "Skill packs are now available on skills.sh",
-          "url": "https://vercel.com/changelog/skill-packs-are-now-available",
-          "source_type": "release",
-          "selection_rationale": "Fresh distribution mechanism for controlled team skill bundles."
-        },
-        {
-          "title": "Your agent needs a computer, not a container",
-          "url": "https://blog.cloudflare.com/cloudflare-computer/",
-          "source_type": "product",
-          "selection_rationale": "New isolate/container runtime split for cost-aware execution."
-        },
-        {
-          "title": "Vercel Sandbox now runs on Vercel Managed Images",
-          "url": "https://vercel.com/changelog/vercel-sandbox-managed-images",
-          "source_type": "release",
-          "selection_rationale": "New rolling-image and digest-pin reproducibility policy."
-        },
-        {
-          "title": "What building an AI-native finance function taught me",
-          "url": "https://openai.com/index/building-an-ai-native-finance-function/",
-          "source_type": "blog",
-          "selection_rationale": "Fresh operator guidance on outcome-based AI measurement."
-        },
-        {
-          "title": "Premium seats are coming to ChatGPT Business",
-          "url": "https://openai.com/index/premium-seats-chatgpt-business/",
-          "source_type": "product",
-          "selection_rationale": "Fresh workload-based capacity segmentation."
-        },
-        {
-          "title": "AgentCore runtime instances are now generally available",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-bedrock-agentcore-runtime-instances-generally-available/",
-          "source_type": "release"
-        },
-        {
-          "title": "Runtime instances: persistent compute for production AI agents",
-          "url": "https://aws.amazon.com/blogs/aws/runtime-instances-persistent-compute-for-production-ai-agents-on-amazon-bedrock-agentcore/",
-          "source_type": "blog"
-        },
-        {
-          "title": "Figma product news and release notes",
-          "url": "https://www.figma.com/release-notes/",
-          "source_type": "release"
-        },
-        {
-          "title": "Code, craft, and the making of nested folders",
-          "url": "https://www.figma.com/blog/code-craft-and-the-making-of-nested-folders/",
-          "source_type": "blog"
-        },
-        {
-          "title": "Properties panel and annotations now in Figma Make",
-          "url": "https://www.figma.com/blog/properties-panel-and-annotations-now-in-figma-make/",
-          "source_type": "blog"
-        },
-        {
-          "title": "Microsoft Defender Monthly News — August 2026",
-          "url": "https://techcommunity.microsoft.com/blog/microsoftthreatprotectionblog/monthly-news-august-2026/4544388",
-          "source_type": "release"
-        },
-        {
-          "title": "Okta Identity Engine API release notes 2026",
-          "url": "https://developer.okta.com/docs/release-notes/2026-okta-identity-engine/",
-          "source_type": "docs"
-        },
-        {
-          "title": "Least privilege for AI agents: Identity, access, and tool binding",
-          "url": "https://www.microsoft.com/en-us/security/blog/2026/07/16/least-privilege-for-ai-agents-identity-access-and-tool-binding/",
-          "source_type": "blog"
-        }
-      ]
-    },
-    {
-      "date": "2026-08-16",
-      "topics": [
-        "agent-development-lifecycle",
-        "agent-security-governance",
-        "portable-agent-workflows",
-        "identity-aware-collaboration"
-      ],
-      "items": [
-        "Agent Development Lifecycle",
-        "Cloudflare OS",
-        "OpenTelemetry traces in local development",
-        "Software factory issue triage",
-        "ADLC as an operating thesis",
-        "Zero Trust Assessment for AI",
-        "AI memory and runtime guidance",
-        "GHES 3.22 disconnected Copilot CLI",
-        "Individual bypasses and required reviewers",
-        "Threat model beyond prompts",
-        "Agent Plugins 1.0",
-        "Headless plan + autopilot",
-        "Non-destructive rewind",
-        "Copilot memory in JetBrains",
-        "Ollama BYOK in JetBrains",
-        "Enterprise-managed MCP authorization",
-        "Agent widgets on project milestones",
-        "Branch-status visibility",
-        "Mermaid diagram comments",
-        "GPT-5.6 Luna in coding sessions"
-      ]
-    },
-    {
-      "date": "2026-08-19",
-      "topics": [
-        "agent-skills",
-        "knowledge-graphs",
-        "mcp-infrastructure"
-      ],
-      "items": [
-        "Google Agent Skills operations",
-        "Spanner Graph + Data Commons",
-        "Cortex Framework v7",
-        "The next generation of MCP",
-        "Cloudflare unified AI control plane",
-        "System Initiative infrastructure agents"
-      ]
-    },
     {
       "date": "2026-08-27",
       "topics": [
@@ -7589,6 +7386,16 @@
       ],
       "selection_rationale": "Followed fresh October 2 primary signals while rotating toward product surfaces, local AI, and durable infrastructure.",
       "editorial_thesis": "Today’s strongest signals move the agent conversation from model novelty to product surfaces, programmable review, local boundaries, and durable execution."
+    },
+    {
+      "date": "2026-10-04",
+      "selected_lanes": [
+        "agent-runtime-safety",
+        "decision-models-edge-execution",
+        "scientific-agent-workflows"
+      ],
+      "editorial_thesis": "Today’s strongest fresh signals make agent systems narrower and more governable: enforce runtime policy, use typed decisions and ephemeral execution, and package domain workflows with evidence and approval.",
+      "selection_rationale": "Rotated away from the October 3 app-surface, code-review, local-AI, and durable-infrastructure lanes toward runtime safety, edge execution, and a time-sensitive scientific workflow opportunity."
     }
   ],
   "items": [
