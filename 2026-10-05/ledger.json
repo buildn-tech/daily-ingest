@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-05",
+  "generated_at": "2026-10-05T08:00:19Z",
+  "editorial_thesis": "Trustworthy agent capability depends on explicit identity decisions, evidence-bearing dependencies, and workflows that remain useful when intelligence moves closer to the device or physical system.",
+  "topic_groups": [
+    {
+      "slug": "agent-identity",
+      "title": "Agent Identity + Authorization",
+      "selection_rationale": "A fresh MCP authorization pattern makes the policy-enforcement/policy-decision seam concrete; token-exchange measurement adds an operational cost lens.",
+      "sources": [
+        {"title":"Centralizing MCP Authorization with PingAuthorize - Part 1","url":"https://developer.pingidentity.com/blog/centralizing-mcp-authorization-with-pingauthorize-part-1/","source_type":"blog","published_or_updated":"2026-10-01","why_selected":"Shows centralized dynamic authorization for MCP through an API gateway.","usefulness":"Provides a reusable PEP/PDP architecture for tool calls."},
+        {"title":"How expensive is a token exchange, really?","url":"https://developer.pingidentity.com/blog/how-expensive-is-a-token-exchange-really/","source_type":"blog","published_or_updated":"2026-10-06","why_selected":"Offers a concrete load-test lens on RFC 8693 exchange overhead.","usefulness":"Suggests latency and cache metrics for agent identity telemetry."}
+      ]
+    },
+    {
+      "slug": "open-source-supply-chain",
+      "title": "Open Source Supply-Chain Readiness",
+      "selection_rationale": "This fills a coverage gap with practical, role-based CRA guidance and an enterprise participation case rather than another generic OSS roundup.",
+      "sources": [
+        {"title":"Grow CRA Readiness: Navigating the EU Cyber Resilience Act","url":"https://openssf.org/blog/2026/09/15/grow-cra-readiness-find-your-path-through-the-european-union-cyber-resilience-act/","source_type":"blog","published_or_updated":"2026-09-15","why_selected":"Maps maintainers, stewards, and manufacturers to different readiness paths.","usefulness":"Can become a dependency intake and evidence checklist."},
+        {"title":"How IBM Turns Open Source Participation into Enterprise Value","url":"https://openssf.org/blog/2026/09/25/how-does-ibm-turn-open-source-participation-into-enterprise-and-career-value/","source_type":"blog","published_or_updated":"2026-09-25","why_selected":"Connects participation with platform strategy and security learning.","usefulness":"Frames upstream contribution as risk management and capability building."}
+      ]
+    },
+    {
+      "slug": "on-device-physical-systems",
+      "title": "On-Device Intelligence + Physical Systems",
+      "selection_rationale": "This deliberately diversifies beyond software-only agents: one near-term device surface, one infrastructure moonshot, and concrete robotics challenge formats.",
+      "sources": [
+        {"title":"Googlebook’s Built-In Intelligence","url":"https://blog.google/products-and-platforms/devices/googlebook/googlebook-built-in-intelligence/","source_type":"product","published_or_updated":"2026-09-21; availability 2026-10-05 in additional markets","why_selected":"Packages context-summoned, local, and background assistance into the workstation.","usefulness":"Informs privacy-aware artifact-centered workflow design."},
+        {"title":"Project Suncatcher prototype is in orbit","url":"https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-prototype/","source_type":"research","published_or_updated":"2026-10-01","why_selected":"Tests compute infrastructure under physical space constraints.","usefulness":"Provides a frame for edge, offline, and degraded-mode architecture."},
+        {"title":"FIRST Global Challenge 2026","url":"https://first.global/fgc/","source_type":"product","published_or_updated":"2026-10-07 to 2026-10-10 event","why_selected":"Makes physical AI concrete through explicit goals, environments, and scoring.","usefulness":"Offers a template for bounded agent evaluation workshops."},
+        {"title":"FIRST CANOPY 2026–2027","url":"https://www.firstinspires.org/first-canopy","source_type":"product","published_or_updated":"2026-08-04 onward","why_selected":"Shows a multi-year robotics curriculum around biodiversity and systems thinking.","usefulness":"Supports educational and client-workshop use cases."}
+      ]
+    }
+  ]
+}

@@ -1,6 +1,27 @@
 {
-  "updated_at": "2026-10-04T08:05:09.370246+00:00",
+  "updated_at": "2026-10-05T08:11:02.435986+00:00",
   "days": [
+    {
+      "date": "2026-10-05",
+      "path": "2026-10-05",
+      "reports": [
+        {
+          "lane": "agent-identity",
+          "title": "Agent Identity + Authorization",
+          "url": "2026-10-05/agent-identity.html"
+        },
+        {
+          "lane": "open-source-supply-chain",
+          "title": "Open Source Supply-Chain Readiness",
+          "url": "2026-10-05/open-source-supply-chain.html"
+        },
+        {
+          "lane": "on-device-physical-systems",
+          "title": "On-Device Intelligence + Physical Systems",
+          "url": "2026-10-05/on-device-physical-systems.html"
+        }
+      ]
+    },
     {
       "date": "2026-10-04",
       "path": "2026-10-04",

@@ -1,6 +1,46 @@
 {
-  "updated_at": "2026-10-04T08:05:09.370246+00:00",
+  "updated_at": "2026-10-05T08:11:02.435986+00:00",
   "sources": {
+    "https://developer.pingidentity.com/blog/centralizing-mcp-authorization-with-pingauthorize-part-1": {
+      "first_seen": "2026-10-05",
+      "last_seen": "2026-10-05",
+      "title": "Centralizing MCP Authorization with PingAuthorize - Part 1"
+    },
+    "https://developer.pingidentity.com/blog/how-expensive-is-a-token-exchange-really": {
+      "first_seen": "2026-10-05",
+      "last_seen": "2026-10-05",
+      "title": "How expensive is a token exchange, really?"
+    },
+    "https://openssf.org/blog/2026/09/15/grow-cra-readiness-find-your-path-through-the-european-union-cyber-resilience-act": {
+      "first_seen": "2026-10-05",
+      "last_seen": "2026-10-05",
+      "title": "Grow CRA Readiness: Navigating the EU Cyber Resilience Act"
+    },
+    "https://openssf.org/blog/2026/09/25/how-does-ibm-turn-open-source-participation-into-enterprise-and-career-value": {
+      "first_seen": "2026-10-05",
+      "last_seen": "2026-10-05",
+      "title": "How IBM Turns Open Source Participation into Enterprise Value"
+    },
+    "https://blog.google/products-and-platforms/devices/googlebook/googlebook-built-in-intelligence": {
+      "first_seen": "2026-10-05",
+      "last_seen": "2026-10-05",
+      "title": "Googlebook\u2019s Built-In Intelligence"
+    },
+    "https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-prototype": {
+      "first_seen": "2026-10-05",
+      "last_seen": "2026-10-05",
+      "title": "Project Suncatcher prototype is in orbit"
+    },
+    "https://first.global/fgc": {
+      "first_seen": "2026-10-05",
+      "last_seen": "2026-10-05",
+      "title": "FIRST Global Challenge 2026"
+    },
+    "https://www.firstinspires.org/first-canopy": {
+      "first_seen": "2026-10-05",
+      "last_seen": "2026-10-05",
+      "title": "FIRST CANOPY 2026\u20132027"
+    },
     "https://nvidianews.nvidia.com/news/open-agent-safety-platform": {
       "first_seen": "2026-10-04",
       "last_seen": "2026-10-04",

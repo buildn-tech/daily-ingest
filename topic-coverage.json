@@ -1179,6 +1179,24 @@
       "title": "Scientific Agent Workflows + Trusted Access",
       "times_covered": 1,
       "last_covered": "2026-10-04"
+    },
+    "agent-identity": {
+      "title": "Agent Identity + Authorization",
+      "times_covered": 1,
+      "last_covered": "2026-10-05",
+      "last_selection_rationale": "Centralized MCP policy decisions and token-exchange measurement make the agent control plane concrete."
+    },
+    "open-source-supply-chain": {
+      "title": "Open Source Supply-Chain Readiness",
+      "times_covered": 1,
+      "last_covered": "2026-10-05",
+      "last_selection_rationale": "Role-based CRA readiness fills a coverage gap with an evidence workflow."
+    },
+    "on-device-physical-systems": {
+      "title": "On-Device Intelligence + Physical Systems",
+      "times_covered": 1,
+      "last_covered": "2026-10-05",
+      "last_selection_rationale": "Diversifies beyond software-only agents with local context, physical constraints, and bounded robotics challenges."
     }
   },
   "item_history": [
@@ -3869,6 +3887,85 @@
         }
       ],
       "selection_rationale": "Today’s strongest fresh signals make agent systems narrower and more governable: enforce runtime policy, use typed decisions and ephemeral execution, and package domain workflows with evidence and approval."
+    },
+    {
+      "date": "2026-10-05",
+      "selected_lanes": [
+        {
+          "slug": "agent-identity",
+          "title": "Agent Identity + Authorization",
+          "rationale": "Centralized MCP policy decisions and token-exchange measurement make the agent control plane concrete."
+        },
+        {
+          "slug": "open-source-supply-chain",
+          "title": "Open Source Supply-Chain Readiness",
+          "rationale": "Role-based CRA readiness fills a coverage gap with an evidence workflow."
+        },
+        {
+          "slug": "on-device-physical-systems",
+          "title": "On-Device Intelligence + Physical Systems",
+          "rationale": "Diversifies beyond software-only agents with local context, physical constraints, and bounded robotics challenges."
+        }
+      ],
+      "items": [
+        {
+          "title": "Centralizing MCP Authorization with PingAuthorize - Part 1",
+          "url": "https://developer.pingidentity.com/blog/centralizing-mcp-authorization-with-pingauthorize-part-1/",
+          "source_type": "blog",
+          "lane": "agent-identity",
+          "rationale": "Centralized MCP policy decisions and token-exchange measurement make the agent control plane concrete."
+        },
+        {
+          "title": "How expensive is a token exchange, really?",
+          "url": "https://developer.pingidentity.com/blog/how-expensive-is-a-token-exchange-really/",
+          "source_type": "blog",
+          "lane": "agent-identity",
+          "rationale": "Centralized MCP policy decisions and token-exchange measurement make the agent control plane concrete."
+        },
+        {
+          "title": "Grow CRA Readiness: Navigating the EU Cyber Resilience Act",
+          "url": "https://openssf.org/blog/2026/09/15/grow-cra-readiness-find-your-path-through-the-european-union-cyber-resilience-act/",
+          "source_type": "blog",
+          "lane": "open-source-supply-chain",
+          "rationale": "Role-based CRA readiness fills a coverage gap with an evidence workflow."
+        },
+        {
+          "title": "How IBM Turns Open Source Participation into Enterprise Value",
+          "url": "https://openssf.org/blog/2026/09/25/how-does-ibm-turn-open-source-participation-into-enterprise-and-career-value/",
+          "source_type": "blog",
+          "lane": "open-source-supply-chain",
+          "rationale": "Role-based CRA readiness fills a coverage gap with an evidence workflow."
+        },
+        {
+          "title": "Googlebook’s Built-In Intelligence",
+          "url": "https://blog.google/products-and-platforms/devices/googlebook/googlebook-built-in-intelligence/",
+          "source_type": "product",
+          "lane": "on-device-physical-systems",
+          "rationale": "Diversifies beyond software-only agents with local context, physical constraints, and bounded robotics challenges."
+        },
+        {
+          "title": "Project Suncatcher prototype is in orbit",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-prototype/",
+          "source_type": "research",
+          "lane": "on-device-physical-systems",
+          "rationale": "Diversifies beyond software-only agents with local context, physical constraints, and bounded robotics challenges."
+        },
+        {
+          "title": "FIRST Global Challenge 2026",
+          "url": "https://first.global/fgc/",
+          "source_type": "product",
+          "lane": "on-device-physical-systems",
+          "rationale": "Diversifies beyond software-only agents with local context, physical constraints, and bounded robotics challenges."
+        },
+        {
+          "title": "FIRST CANOPY 2026–2027",
+          "url": "https://www.firstinspires.org/first-canopy",
+          "source_type": "product",
+          "lane": "on-device-physical-systems",
+          "rationale": "Diversifies beyond software-only agents with local context, physical constraints, and bounded robotics challenges."
+        }
+      ],
+      "editorial_thesis": "Trustworthy agent capability depends on explicit identity decisions, evidence-bearing dependencies, and workflows that remain useful when intelligence moves closer to the device or physical system."
     }
   ],
   "runs": [
@@ -6204,19 +6301,109 @@
       ],
       "selection_rationale": "Followed fresh October 2 primary signals while rotating toward product surfaces, local AI, and durable infrastructure.",
       "editorial_thesis": "Today’s strongest signals move the agent conversation from model novelty to product surfaces, programmable review, local boundaries, and durable execution."
+    },
+    {
+      "date": "2026-10-05",
+      "selected_lanes": [
+        {
+          "slug": "agent-identity",
+          "title": "Agent Identity + Authorization",
+          "rationale": "Centralized MCP policy decisions and token-exchange measurement make the agent control plane concrete."
+        },
+        {
+          "slug": "open-source-supply-chain",
+          "title": "Open Source Supply-Chain Readiness",
+          "rationale": "Role-based CRA readiness fills a coverage gap with an evidence workflow."
+        },
+        {
+          "slug": "on-device-physical-systems",
+          "title": "On-Device Intelligence + Physical Systems",
+          "rationale": "Diversifies beyond software-only agents with local context, physical constraints, and bounded robotics challenges."
+        }
+      ],
+      "items": [
+        {
+          "title": "Centralizing MCP Authorization with PingAuthorize - Part 1",
+          "url": "https://developer.pingidentity.com/blog/centralizing-mcp-authorization-with-pingauthorize-part-1/",
+          "source_type": "blog",
+          "lane": "agent-identity",
+          "rationale": "Centralized MCP policy decisions and token-exchange measurement make the agent control plane concrete."
+        },
+        {
+          "title": "How expensive is a token exchange, really?",
+          "url": "https://developer.pingidentity.com/blog/how-expensive-is-a-token-exchange-really/",
+          "source_type": "blog",
+          "lane": "agent-identity",
+          "rationale": "Centralized MCP policy decisions and token-exchange measurement make the agent control plane concrete."
+        },
+        {
+          "title": "Grow CRA Readiness: Navigating the EU Cyber Resilience Act",
+          "url": "https://openssf.org/blog/2026/09/15/grow-cra-readiness-find-your-path-through-the-european-union-cyber-resilience-act/",
+          "source_type": "blog",
+          "lane": "open-source-supply-chain",
+          "rationale": "Role-based CRA readiness fills a coverage gap with an evidence workflow."
+        },
+        {
+          "title": "How IBM Turns Open Source Participation into Enterprise Value",
+          "url": "https://openssf.org/blog/2026/09/25/how-does-ibm-turn-open-source-participation-into-enterprise-and-career-value/",
+          "source_type": "blog",
+          "lane": "open-source-supply-chain",
+          "rationale": "Role-based CRA readiness fills a coverage gap with an evidence workflow."
+        },
+        {
+          "title": "Googlebook’s Built-In Intelligence",
+          "url": "https://blog.google/products-and-platforms/devices/googlebook/googlebook-built-in-intelligence/",
+          "source_type": "product",
+          "lane": "on-device-physical-systems",
+          "rationale": "Diversifies beyond software-only agents with local context, physical constraints, and bounded robotics challenges."
+        },
+        {
+          "title": "Project Suncatcher prototype is in orbit",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-prototype/",
+          "source_type": "research",
+          "lane": "on-device-physical-systems",
+          "rationale": "Diversifies beyond software-only agents with local context, physical constraints, and bounded robotics challenges."
+        },
+        {
+          "title": "FIRST Global Challenge 2026",
+          "url": "https://first.global/fgc/",
+          "source_type": "product",
+          "lane": "on-device-physical-systems",
+          "rationale": "Diversifies beyond software-only agents with local context, physical constraints, and bounded robotics challenges."
+        },
+        {
+          "title": "FIRST CANOPY 2026–2027",
+          "url": "https://www.firstinspires.org/first-canopy",
+          "source_type": "product",
+          "lane": "on-device-physical-systems",
+          "rationale": "Diversifies beyond software-only agents with local context, physical constraints, and bounded robotics challenges."
+        }
+      ],
+      "editorial_thesis": "Trustworthy agent capability depends on explicit identity decisions, evidence-bearing dependencies, and workflows that remain useful when intelligence moves closer to the device or physical system."
     }
   ],
-  "updated_at": "2026-10-04T08:00:00Z",
+  "updated_at": "2026-10-05T08:00:19Z",
   "last_run": {
-    "date": "2026-10-03",
+    "date": "2026-10-05",
     "selected_lanes": [
-      "agent-app-surfaces",
-      "agentic-review-delivery",
-      "open-local-ai",
-      "durable-agent-infrastructure"
+      {
+        "slug": "agent-identity",
+        "title": "Agent Identity + Authorization",
+        "rationale": "Centralized MCP policy decisions and token-exchange measurement make the agent control plane concrete."
+      },
+      {
+        "slug": "open-source-supply-chain",
+        "title": "Open Source Supply-Chain Readiness",
+        "rationale": "Role-based CRA readiness fills a coverage gap with an evidence workflow."
+      },
+      {
+        "slug": "on-device-physical-systems",
+        "title": "On-Device Intelligence + Physical Systems",
+        "rationale": "Diversifies beyond software-only agents with local context, physical constraints, and bounded robotics challenges."
+      }
     ]
   },
-  "last_editorial_thesis": "Today’s strongest fresh signals make agent systems narrower and more governable: enforce runtime policy, use typed decisions and ephemeral execution, and package domain workflows with evidence and approval.",
+  "last_editorial_thesis": "Trustworthy agent capability depends on explicit identity decisions, evidence-bearing dependencies, and workflows that remain useful when intelligence moves closer to the device or physical system.",
   "coverage_history": [
     {
       "date": "2026-08-27",
@@ -7396,6 +7583,85 @@
       ],
       "editorial_thesis": "Today’s strongest fresh signals make agent systems narrower and more governable: enforce runtime policy, use typed decisions and ephemeral execution, and package domain workflows with evidence and approval.",
       "selection_rationale": "Rotated away from the October 3 app-surface, code-review, local-AI, and durable-infrastructure lanes toward runtime safety, edge execution, and a time-sensitive scientific workflow opportunity."
+    },
+    {
+      "date": "2026-10-05",
+      "selected_lanes": [
+        {
+          "slug": "agent-identity",
+          "title": "Agent Identity + Authorization",
+          "rationale": "Centralized MCP policy decisions and token-exchange measurement make the agent control plane concrete."
+        },
+        {
+          "slug": "open-source-supply-chain",
+          "title": "Open Source Supply-Chain Readiness",
+          "rationale": "Role-based CRA readiness fills a coverage gap with an evidence workflow."
+        },
+        {
+          "slug": "on-device-physical-systems",
+          "title": "On-Device Intelligence + Physical Systems",
+          "rationale": "Diversifies beyond software-only agents with local context, physical constraints, and bounded robotics challenges."
+        }
+      ],
+      "items": [
+        {
+          "title": "Centralizing MCP Authorization with PingAuthorize - Part 1",
+          "url": "https://developer.pingidentity.com/blog/centralizing-mcp-authorization-with-pingauthorize-part-1/",
+          "source_type": "blog",
+          "lane": "agent-identity",
+          "rationale": "Centralized MCP policy decisions and token-exchange measurement make the agent control plane concrete."
+        },
+        {
+          "title": "How expensive is a token exchange, really?",
+          "url": "https://developer.pingidentity.com/blog/how-expensive-is-a-token-exchange-really/",
+          "source_type": "blog",
+          "lane": "agent-identity",
+          "rationale": "Centralized MCP policy decisions and token-exchange measurement make the agent control plane concrete."
+        },
+        {
+          "title": "Grow CRA Readiness: Navigating the EU Cyber Resilience Act",
+          "url": "https://openssf.org/blog/2026/09/15/grow-cra-readiness-find-your-path-through-the-european-union-cyber-resilience-act/",
+          "source_type": "blog",
+          "lane": "open-source-supply-chain",
+          "rationale": "Role-based CRA readiness fills a coverage gap with an evidence workflow."
+        },
+        {
+          "title": "How IBM Turns Open Source Participation into Enterprise Value",
+          "url": "https://openssf.org/blog/2026/09/25/how-does-ibm-turn-open-source-participation-into-enterprise-and-career-value/",
+          "source_type": "blog",
+          "lane": "open-source-supply-chain",
+          "rationale": "Role-based CRA readiness fills a coverage gap with an evidence workflow."
+        },
+        {
+          "title": "Googlebook’s Built-In Intelligence",
+          "url": "https://blog.google/products-and-platforms/devices/googlebook/googlebook-built-in-intelligence/",
+          "source_type": "product",
+          "lane": "on-device-physical-systems",
+          "rationale": "Diversifies beyond software-only agents with local context, physical constraints, and bounded robotics challenges."
+        },
+        {
+          "title": "Project Suncatcher prototype is in orbit",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-prototype/",
+          "source_type": "research",
+          "lane": "on-device-physical-systems",
+          "rationale": "Diversifies beyond software-only agents with local context, physical constraints, and bounded robotics challenges."
+        },
+        {
+          "title": "FIRST Global Challenge 2026",
+          "url": "https://first.global/fgc/",
+          "source_type": "product",
+          "lane": "on-device-physical-systems",
+          "rationale": "Diversifies beyond software-only agents with local context, physical constraints, and bounded robotics challenges."
+        },
+        {
+          "title": "FIRST CANOPY 2026–2027",
+          "url": "https://www.firstinspires.org/first-canopy",
+          "source_type": "product",
+          "lane": "on-device-physical-systems",
+          "rationale": "Diversifies beyond software-only agents with local context, physical constraints, and bounded robotics challenges."
+        }
+      ],
+      "editorial_thesis": "Trustworthy agent capability depends on explicit identity decisions, evidence-bearing dependencies, and workflows that remain useful when intelligence moves closer to the device or physical system."
     }
   ],
   "items": [
@@ -8915,13 +9181,103 @@
       "url": "https://cloud.google.com/blog/products/databases/implementing-long-term-ai-agent-memory-in-alloydb-and-memorystore",
       "source_type": "blog",
       "rationale": "The important design move is policy: what may be recalled, for how long, and with what provenance."
+    },
+    {
+      "date": "2026-10-05",
+      "selected_lanes": [
+        {
+          "slug": "agent-identity",
+          "title": "Agent Identity + Authorization",
+          "rationale": "Centralized MCP policy decisions and token-exchange measurement make the agent control plane concrete."
+        },
+        {
+          "slug": "open-source-supply-chain",
+          "title": "Open Source Supply-Chain Readiness",
+          "rationale": "Role-based CRA readiness fills a coverage gap with an evidence workflow."
+        },
+        {
+          "slug": "on-device-physical-systems",
+          "title": "On-Device Intelligence + Physical Systems",
+          "rationale": "Diversifies beyond software-only agents with local context, physical constraints, and bounded robotics challenges."
+        }
+      ],
+      "items": [
+        {
+          "title": "Centralizing MCP Authorization with PingAuthorize - Part 1",
+          "url": "https://developer.pingidentity.com/blog/centralizing-mcp-authorization-with-pingauthorize-part-1/",
+          "source_type": "blog",
+          "lane": "agent-identity",
+          "rationale": "Centralized MCP policy decisions and token-exchange measurement make the agent control plane concrete."
+        },
+        {
+          "title": "How expensive is a token exchange, really?",
+          "url": "https://developer.pingidentity.com/blog/how-expensive-is-a-token-exchange-really/",
+          "source_type": "blog",
+          "lane": "agent-identity",
+          "rationale": "Centralized MCP policy decisions and token-exchange measurement make the agent control plane concrete."
+        },
+        {
+          "title": "Grow CRA Readiness: Navigating the EU Cyber Resilience Act",
+          "url": "https://openssf.org/blog/2026/09/15/grow-cra-readiness-find-your-path-through-the-european-union-cyber-resilience-act/",
+          "source_type": "blog",
+          "lane": "open-source-supply-chain",
+          "rationale": "Role-based CRA readiness fills a coverage gap with an evidence workflow."
+        },
+        {
+          "title": "How IBM Turns Open Source Participation into Enterprise Value",
+          "url": "https://openssf.org/blog/2026/09/25/how-does-ibm-turn-open-source-participation-into-enterprise-and-career-value/",
+          "source_type": "blog",
+          "lane": "open-source-supply-chain",
+          "rationale": "Role-based CRA readiness fills a coverage gap with an evidence workflow."
+        },
+        {
+          "title": "Googlebook’s Built-In Intelligence",
+          "url": "https://blog.google/products-and-platforms/devices/googlebook/googlebook-built-in-intelligence/",
+          "source_type": "product",
+          "lane": "on-device-physical-systems",
+          "rationale": "Diversifies beyond software-only agents with local context, physical constraints, and bounded robotics challenges."
+        },
+        {
+          "title": "Project Suncatcher prototype is in orbit",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-prototype/",
+          "source_type": "research",
+          "lane": "on-device-physical-systems",
+          "rationale": "Diversifies beyond software-only agents with local context, physical constraints, and bounded robotics challenges."
+        },
+        {
+          "title": "FIRST Global Challenge 2026",
+          "url": "https://first.global/fgc/",
+          "source_type": "product",
+          "lane": "on-device-physical-systems",
+          "rationale": "Diversifies beyond software-only agents with local context, physical constraints, and bounded robotics challenges."
+        },
+        {
+          "title": "FIRST CANOPY 2026–2027",
+          "url": "https://www.firstinspires.org/first-canopy",
+          "source_type": "product",
+          "lane": "on-device-physical-systems",
+          "rationale": "Diversifies beyond software-only agents with local context, physical constraints, and bounded robotics challenges."
+        }
+      ],
+      "editorial_thesis": "Trustworthy agent capability depends on explicit identity decisions, evidence-bearing dependencies, and workflows that remain useful when intelligence moves closer to the device or physical system."
     }
   ],
   "last_run_selection": [
-    "agent-app-surfaces",
-    "agentic-review-delivery",
-    "open-local-ai",
-    "durable-agent-infrastructure"
+    {
+      "slug": "agent-identity",
+      "title": "Agent Identity + Authorization",
+      "rationale": "Centralized MCP policy decisions and token-exchange measurement make the agent control plane concrete."
+    },
+    {
+      "slug": "open-source-supply-chain",
+      "title": "Open Source Supply-Chain Readiness",
+      "rationale": "Role-based CRA readiness fills a coverage gap with an evidence workflow."
+    },
+    {
+      "slug": "on-device-physical-systems",
+      "title": "On-Device Intelligence + Physical Systems",
+      "rationale": "Diversifies beyond software-only agents with local context, physical constraints, and bounded robotics challenges."
+    }
   ],
   "sources": {
     "architecture": {
@@ -10647,6 +11003,85 @@
       ],
       "selection_rationale": "Followed fresh October 2 primary signals while rotating toward product surfaces, local AI, and durable infrastructure.",
       "editorial_thesis": "Today’s strongest signals move the agent conversation from model novelty to product surfaces, programmable review, local boundaries, and durable execution."
+    },
+    {
+      "date": "2026-10-05",
+      "selected_lanes": [
+        {
+          "slug": "agent-identity",
+          "title": "Agent Identity + Authorization",
+          "rationale": "Centralized MCP policy decisions and token-exchange measurement make the agent control plane concrete."
+        },
+        {
+          "slug": "open-source-supply-chain",
+          "title": "Open Source Supply-Chain Readiness",
+          "rationale": "Role-based CRA readiness fills a coverage gap with an evidence workflow."
+        },
+        {
+          "slug": "on-device-physical-systems",
+          "title": "On-Device Intelligence + Physical Systems",
+          "rationale": "Diversifies beyond software-only agents with local context, physical constraints, and bounded robotics challenges."
+        }
+      ],
+      "items": [
+        {
+          "title": "Centralizing MCP Authorization with PingAuthorize - Part 1",
+          "url": "https://developer.pingidentity.com/blog/centralizing-mcp-authorization-with-pingauthorize-part-1/",
+          "source_type": "blog",
+          "lane": "agent-identity",
+          "rationale": "Centralized MCP policy decisions and token-exchange measurement make the agent control plane concrete."
+        },
+        {
+          "title": "How expensive is a token exchange, really?",
+          "url": "https://developer.pingidentity.com/blog/how-expensive-is-a-token-exchange-really/",
+          "source_type": "blog",
+          "lane": "agent-identity",
+          "rationale": "Centralized MCP policy decisions and token-exchange measurement make the agent control plane concrete."
+        },
+        {
+          "title": "Grow CRA Readiness: Navigating the EU Cyber Resilience Act",
+          "url": "https://openssf.org/blog/2026/09/15/grow-cra-readiness-find-your-path-through-the-european-union-cyber-resilience-act/",
+          "source_type": "blog",
+          "lane": "open-source-supply-chain",
+          "rationale": "Role-based CRA readiness fills a coverage gap with an evidence workflow."
+        },
+        {
+          "title": "How IBM Turns Open Source Participation into Enterprise Value",
+          "url": "https://openssf.org/blog/2026/09/25/how-does-ibm-turn-open-source-participation-into-enterprise-and-career-value/",
+          "source_type": "blog",
+          "lane": "open-source-supply-chain",
+          "rationale": "Role-based CRA readiness fills a coverage gap with an evidence workflow."
+        },
+        {
+          "title": "Googlebook’s Built-In Intelligence",
+          "url": "https://blog.google/products-and-platforms/devices/googlebook/googlebook-built-in-intelligence/",
+          "source_type": "product",
+          "lane": "on-device-physical-systems",
+          "rationale": "Diversifies beyond software-only agents with local context, physical constraints, and bounded robotics challenges."
+        },
+        {
+          "title": "Project Suncatcher prototype is in orbit",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-prototype/",
+          "source_type": "research",
+          "lane": "on-device-physical-systems",
+          "rationale": "Diversifies beyond software-only agents with local context, physical constraints, and bounded robotics challenges."
+        },
+        {
+          "title": "FIRST Global Challenge 2026",
+          "url": "https://first.global/fgc/",
+          "source_type": "product",
+          "lane": "on-device-physical-systems",
+          "rationale": "Diversifies beyond software-only agents with local context, physical constraints, and bounded robotics challenges."
+        },
+        {
+          "title": "FIRST CANOPY 2026–2027",
+          "url": "https://www.firstinspires.org/first-canopy",
+          "source_type": "product",
+          "lane": "on-device-physical-systems",
+          "rationale": "Diversifies beyond software-only agents with local context, physical constraints, and bounded robotics challenges."
+        }
+      ],
+      "editorial_thesis": "Trustworthy agent capability depends on explicit identity decisions, evidence-bearing dependencies, and workflows that remain useful when intelligence moves closer to the device or physical system."
     }
   ],
   "run_history": [
@@ -12191,6 +12626,85 @@
       ],
       "selection_rationale": "Followed fresh October 2 primary signals while rotating toward product surfaces, local AI, and durable infrastructure.",
       "editorial_thesis": "Today’s strongest signals move the agent conversation from model novelty to product surfaces, programmable review, local boundaries, and durable execution."
+    },
+    {
+      "date": "2026-10-05",
+      "selected_lanes": [
+        {
+          "slug": "agent-identity",
+          "title": "Agent Identity + Authorization",
+          "rationale": "Centralized MCP policy decisions and token-exchange measurement make the agent control plane concrete."
+        },
+        {
+          "slug": "open-source-supply-chain",
+          "title": "Open Source Supply-Chain Readiness",
+          "rationale": "Role-based CRA readiness fills a coverage gap with an evidence workflow."
+        },
+        {
+          "slug": "on-device-physical-systems",
+          "title": "On-Device Intelligence + Physical Systems",
+          "rationale": "Diversifies beyond software-only agents with local context, physical constraints, and bounded robotics challenges."
+        }
+      ],
+      "items": [
+        {
+          "title": "Centralizing MCP Authorization with PingAuthorize - Part 1",
+          "url": "https://developer.pingidentity.com/blog/centralizing-mcp-authorization-with-pingauthorize-part-1/",
+          "source_type": "blog",
+          "lane": "agent-identity",
+          "rationale": "Centralized MCP policy decisions and token-exchange measurement make the agent control plane concrete."
+        },
+        {
+          "title": "How expensive is a token exchange, really?",
+          "url": "https://developer.pingidentity.com/blog/how-expensive-is-a-token-exchange-really/",
+          "source_type": "blog",
+          "lane": "agent-identity",
+          "rationale": "Centralized MCP policy decisions and token-exchange measurement make the agent control plane concrete."
+        },
+        {
+          "title": "Grow CRA Readiness: Navigating the EU Cyber Resilience Act",
+          "url": "https://openssf.org/blog/2026/09/15/grow-cra-readiness-find-your-path-through-the-european-union-cyber-resilience-act/",
+          "source_type": "blog",
+          "lane": "open-source-supply-chain",
+          "rationale": "Role-based CRA readiness fills a coverage gap with an evidence workflow."
+        },
+        {
+          "title": "How IBM Turns Open Source Participation into Enterprise Value",
+          "url": "https://openssf.org/blog/2026/09/25/how-does-ibm-turn-open-source-participation-into-enterprise-and-career-value/",
+          "source_type": "blog",
+          "lane": "open-source-supply-chain",
+          "rationale": "Role-based CRA readiness fills a coverage gap with an evidence workflow."
+        },
+        {
+          "title": "Googlebook’s Built-In Intelligence",
+          "url": "https://blog.google/products-and-platforms/devices/googlebook/googlebook-built-in-intelligence/",
+          "source_type": "product",
+          "lane": "on-device-physical-systems",
+          "rationale": "Diversifies beyond software-only agents with local context, physical constraints, and bounded robotics challenges."
+        },
+        {
+          "title": "Project Suncatcher prototype is in orbit",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-prototype/",
+          "source_type": "research",
+          "lane": "on-device-physical-systems",
+          "rationale": "Diversifies beyond software-only agents with local context, physical constraints, and bounded robotics challenges."
+        },
+        {
+          "title": "FIRST Global Challenge 2026",
+          "url": "https://first.global/fgc/",
+          "source_type": "product",
+          "lane": "on-device-physical-systems",
+          "rationale": "Diversifies beyond software-only agents with local context, physical constraints, and bounded robotics challenges."
+        },
+        {
+          "title": "FIRST CANOPY 2026–2027",
+          "url": "https://www.firstinspires.org/first-canopy",
+          "source_type": "product",
+          "lane": "on-device-physical-systems",
+          "rationale": "Diversifies beyond software-only agents with local context, physical constraints, and bounded robotics challenges."
+        }
+      ],
+      "editorial_thesis": "Trustworthy agent capability depends on explicit identity decisions, evidence-bearing dependencies, and workflows that remain useful when intelligence moves closer to the device or physical system."
     }
   ],
   "daily_history": [
@@ -13961,6 +14475,85 @@
       ],
       "selection_rationale": "Followed fresh October 2 primary signals while rotating toward product surfaces, local AI, and durable infrastructure.",
       "editorial_thesis": "Today’s strongest signals move the agent conversation from model novelty to product surfaces, programmable review, local boundaries, and durable execution."
+    },
+    {
+      "date": "2026-10-05",
+      "selected_lanes": [
+        {
+          "slug": "agent-identity",
+          "title": "Agent Identity + Authorization",
+          "rationale": "Centralized MCP policy decisions and token-exchange measurement make the agent control plane concrete."
+        },
+        {
+          "slug": "open-source-supply-chain",
+          "title": "Open Source Supply-Chain Readiness",
+          "rationale": "Role-based CRA readiness fills a coverage gap with an evidence workflow."
+        },
+        {
+          "slug": "on-device-physical-systems",
+          "title": "On-Device Intelligence + Physical Systems",
+          "rationale": "Diversifies beyond software-only agents with local context, physical constraints, and bounded robotics challenges."
+        }
+      ],
+      "items": [
+        {
+          "title": "Centralizing MCP Authorization with PingAuthorize - Part 1",
+          "url": "https://developer.pingidentity.com/blog/centralizing-mcp-authorization-with-pingauthorize-part-1/",
+          "source_type": "blog",
+          "lane": "agent-identity",
+          "rationale": "Centralized MCP policy decisions and token-exchange measurement make the agent control plane concrete."
+        },
+        {
+          "title": "How expensive is a token exchange, really?",
+          "url": "https://developer.pingidentity.com/blog/how-expensive-is-a-token-exchange-really/",
+          "source_type": "blog",
+          "lane": "agent-identity",
+          "rationale": "Centralized MCP policy decisions and token-exchange measurement make the agent control plane concrete."
+        },
+        {
+          "title": "Grow CRA Readiness: Navigating the EU Cyber Resilience Act",
+          "url": "https://openssf.org/blog/2026/09/15/grow-cra-readiness-find-your-path-through-the-european-union-cyber-resilience-act/",
+          "source_type": "blog",
+          "lane": "open-source-supply-chain",
+          "rationale": "Role-based CRA readiness fills a coverage gap with an evidence workflow."
+        },
+        {
+          "title": "How IBM Turns Open Source Participation into Enterprise Value",
+          "url": "https://openssf.org/blog/2026/09/25/how-does-ibm-turn-open-source-participation-into-enterprise-and-career-value/",
+          "source_type": "blog",
+          "lane": "open-source-supply-chain",
+          "rationale": "Role-based CRA readiness fills a coverage gap with an evidence workflow."
+        },
+        {
+          "title": "Googlebook’s Built-In Intelligence",
+          "url": "https://blog.google/products-and-platforms/devices/googlebook/googlebook-built-in-intelligence/",
+          "source_type": "product",
+          "lane": "on-device-physical-systems",
+          "rationale": "Diversifies beyond software-only agents with local context, physical constraints, and bounded robotics challenges."
+        },
+        {
+          "title": "Project Suncatcher prototype is in orbit",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-prototype/",
+          "source_type": "research",
+          "lane": "on-device-physical-systems",
+          "rationale": "Diversifies beyond software-only agents with local context, physical constraints, and bounded robotics challenges."
+        },
+        {
+          "title": "FIRST Global Challenge 2026",
+          "url": "https://first.global/fgc/",
+          "source_type": "product",
+          "lane": "on-device-physical-systems",
+          "rationale": "Diversifies beyond software-only agents with local context, physical constraints, and bounded robotics challenges."
+        },
+        {
+          "title": "FIRST CANOPY 2026–2027",
+          "url": "https://www.firstinspires.org/first-canopy",
+          "source_type": "product",
+          "lane": "on-device-physical-systems",
+          "rationale": "Diversifies beyond software-only agents with local context, physical constraints, and bounded robotics challenges."
+        }
+      ],
+      "editorial_thesis": "Trustworthy agent capability depends on explicit identity decisions, evidence-bearing dependencies, and workflows that remain useful when intelligence moves closer to the device or physical system."
     }
   ],
   "themes": {
@@ -14046,14 +14639,83 @@
     }
   },
   "last_successful_run": {
-    "date": "2026-10-03",
-    "generated_at": "2026-10-03T08:06:07.118066+00:00",
-    "lanes": [
-      "agent-app-surfaces",
-      "agentic-review-delivery",
-      "open-local-ai",
-      "durable-agent-infrastructure"
-    ]
+    "date": "2026-10-05",
+    "selected_lanes": [
+      {
+        "slug": "agent-identity",
+        "title": "Agent Identity + Authorization",
+        "rationale": "Centralized MCP policy decisions and token-exchange measurement make the agent control plane concrete."
+      },
+      {
+        "slug": "open-source-supply-chain",
+        "title": "Open Source Supply-Chain Readiness",
+        "rationale": "Role-based CRA readiness fills a coverage gap with an evidence workflow."
+      },
+      {
+        "slug": "on-device-physical-systems",
+        "title": "On-Device Intelligence + Physical Systems",
+        "rationale": "Diversifies beyond software-only agents with local context, physical constraints, and bounded robotics challenges."
+      }
+    ],
+    "items": [
+      {
+        "title": "Centralizing MCP Authorization with PingAuthorize - Part 1",
+        "url": "https://developer.pingidentity.com/blog/centralizing-mcp-authorization-with-pingauthorize-part-1/",
+        "source_type": "blog",
+        "lane": "agent-identity",
+        "rationale": "Centralized MCP policy decisions and token-exchange measurement make the agent control plane concrete."
+      },
+      {
+        "title": "How expensive is a token exchange, really?",
+        "url": "https://developer.pingidentity.com/blog/how-expensive-is-a-token-exchange-really/",
+        "source_type": "blog",
+        "lane": "agent-identity",
+        "rationale": "Centralized MCP policy decisions and token-exchange measurement make the agent control plane concrete."
+      },
+      {
+        "title": "Grow CRA Readiness: Navigating the EU Cyber Resilience Act",
+        "url": "https://openssf.org/blog/2026/09/15/grow-cra-readiness-find-your-path-through-the-european-union-cyber-resilience-act/",
+        "source_type": "blog",
+        "lane": "open-source-supply-chain",
+        "rationale": "Role-based CRA readiness fills a coverage gap with an evidence workflow."
+      },
+      {
+        "title": "How IBM Turns Open Source Participation into Enterprise Value",
+        "url": "https://openssf.org/blog/2026/09/25/how-does-ibm-turn-open-source-participation-into-enterprise-and-career-value/",
+        "source_type": "blog",
+        "lane": "open-source-supply-chain",
+        "rationale": "Role-based CRA readiness fills a coverage gap with an evidence workflow."
+      },
+      {
+        "title": "Googlebook’s Built-In Intelligence",
+        "url": "https://blog.google/products-and-platforms/devices/googlebook/googlebook-built-in-intelligence/",
+        "source_type": "product",
+        "lane": "on-device-physical-systems",
+        "rationale": "Diversifies beyond software-only agents with local context, physical constraints, and bounded robotics challenges."
+      },
+      {
+        "title": "Project Suncatcher prototype is in orbit",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-prototype/",
+        "source_type": "research",
+        "lane": "on-device-physical-systems",
+        "rationale": "Diversifies beyond software-only agents with local context, physical constraints, and bounded robotics challenges."
+      },
+      {
+        "title": "FIRST Global Challenge 2026",
+        "url": "https://first.global/fgc/",
+        "source_type": "product",
+        "lane": "on-device-physical-systems",
+        "rationale": "Diversifies beyond software-only agents with local context, physical constraints, and bounded robotics challenges."
+      },
+      {
+        "title": "FIRST CANOPY 2026–2027",
+        "url": "https://www.firstinspires.org/first-canopy",
+        "source_type": "product",
+        "lane": "on-device-physical-systems",
+        "rationale": "Diversifies beyond software-only agents with local context, physical constraints, and bounded robotics challenges."
+      }
+    ],
+    "editorial_thesis": "Trustworthy agent capability depends on explicit identity decisions, evidence-bearing dependencies, and workflows that remain useful when intelligence moves closer to the device or physical system."
   },
   "history": [
     {
@@ -15360,6 +16022,85 @@
       ],
       "selection_rationale": "Followed fresh October 2 primary signals while rotating toward product surfaces, local AI, and durable infrastructure.",
       "editorial_thesis": "Today’s strongest signals move the agent conversation from model novelty to product surfaces, programmable review, local boundaries, and durable execution."
+    },
+    {
+      "date": "2026-10-05",
+      "selected_lanes": [
+        {
+          "slug": "agent-identity",
+          "title": "Agent Identity + Authorization",
+          "rationale": "Centralized MCP policy decisions and token-exchange measurement make the agent control plane concrete."
+        },
+        {
+          "slug": "open-source-supply-chain",
+          "title": "Open Source Supply-Chain Readiness",
+          "rationale": "Role-based CRA readiness fills a coverage gap with an evidence workflow."
+        },
+        {
+          "slug": "on-device-physical-systems",
+          "title": "On-Device Intelligence + Physical Systems",
+          "rationale": "Diversifies beyond software-only agents with local context, physical constraints, and bounded robotics challenges."
+        }
+      ],
+      "items": [
+        {
+          "title": "Centralizing MCP Authorization with PingAuthorize - Part 1",
+          "url": "https://developer.pingidentity.com/blog/centralizing-mcp-authorization-with-pingauthorize-part-1/",
+          "source_type": "blog",
+          "lane": "agent-identity",
+          "rationale": "Centralized MCP policy decisions and token-exchange measurement make the agent control plane concrete."
+        },
+        {
+          "title": "How expensive is a token exchange, really?",
+          "url": "https://developer.pingidentity.com/blog/how-expensive-is-a-token-exchange-really/",
+          "source_type": "blog",
+          "lane": "agent-identity",
+          "rationale": "Centralized MCP policy decisions and token-exchange measurement make the agent control plane concrete."
+        },
+        {
+          "title": "Grow CRA Readiness: Navigating the EU Cyber Resilience Act",
+          "url": "https://openssf.org/blog/2026/09/15/grow-cra-readiness-find-your-path-through-the-european-union-cyber-resilience-act/",
+          "source_type": "blog",
+          "lane": "open-source-supply-chain",
+          "rationale": "Role-based CRA readiness fills a coverage gap with an evidence workflow."
+        },
+        {
+          "title": "How IBM Turns Open Source Participation into Enterprise Value",
+          "url": "https://openssf.org/blog/2026/09/25/how-does-ibm-turn-open-source-participation-into-enterprise-and-career-value/",
+          "source_type": "blog",
+          "lane": "open-source-supply-chain",
+          "rationale": "Role-based CRA readiness fills a coverage gap with an evidence workflow."
+        },
+        {
+          "title": "Googlebook’s Built-In Intelligence",
+          "url": "https://blog.google/products-and-platforms/devices/googlebook/googlebook-built-in-intelligence/",
+          "source_type": "product",
+          "lane": "on-device-physical-systems",
+          "rationale": "Diversifies beyond software-only agents with local context, physical constraints, and bounded robotics challenges."
+        },
+        {
+          "title": "Project Suncatcher prototype is in orbit",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-prototype/",
+          "source_type": "research",
+          "lane": "on-device-physical-systems",
+          "rationale": "Diversifies beyond software-only agents with local context, physical constraints, and bounded robotics challenges."
+        },
+        {
+          "title": "FIRST Global Challenge 2026",
+          "url": "https://first.global/fgc/",
+          "source_type": "product",
+          "lane": "on-device-physical-systems",
+          "rationale": "Diversifies beyond software-only agents with local context, physical constraints, and bounded robotics challenges."
+        },
+        {
+          "title": "FIRST CANOPY 2026–2027",
+          "url": "https://www.firstinspires.org/first-canopy",
+          "source_type": "product",
+          "lane": "on-device-physical-systems",
+          "rationale": "Diversifies beyond software-only agents with local context, physical constraints, and bounded robotics challenges."
+        }
+      ],
+      "editorial_thesis": "Trustworthy agent capability depends on explicit identity decisions, evidence-bearing dependencies, and workflows that remain useful when intelligence moves closer to the device or physical system."
     }
   ],
   "daily_runs": [
@@ -15403,7 +16144,86 @@
         }
       ],
       "selection_rationale": "Rotated away from the prior days’ governance, evidence, context, and multi-model lanes toward current cyber-defense, physical-AI, and operator-surface signals."
+    },
+    {
+      "date": "2026-10-05",
+      "selected_lanes": [
+        {
+          "slug": "agent-identity",
+          "title": "Agent Identity + Authorization",
+          "rationale": "Centralized MCP policy decisions and token-exchange measurement make the agent control plane concrete."
+        },
+        {
+          "slug": "open-source-supply-chain",
+          "title": "Open Source Supply-Chain Readiness",
+          "rationale": "Role-based CRA readiness fills a coverage gap with an evidence workflow."
+        },
+        {
+          "slug": "on-device-physical-systems",
+          "title": "On-Device Intelligence + Physical Systems",
+          "rationale": "Diversifies beyond software-only agents with local context, physical constraints, and bounded robotics challenges."
+        }
+      ],
+      "items": [
+        {
+          "title": "Centralizing MCP Authorization with PingAuthorize - Part 1",
+          "url": "https://developer.pingidentity.com/blog/centralizing-mcp-authorization-with-pingauthorize-part-1/",
+          "source_type": "blog",
+          "lane": "agent-identity",
+          "rationale": "Centralized MCP policy decisions and token-exchange measurement make the agent control plane concrete."
+        },
+        {
+          "title": "How expensive is a token exchange, really?",
+          "url": "https://developer.pingidentity.com/blog/how-expensive-is-a-token-exchange-really/",
+          "source_type": "blog",
+          "lane": "agent-identity",
+          "rationale": "Centralized MCP policy decisions and token-exchange measurement make the agent control plane concrete."
+        },
+        {
+          "title": "Grow CRA Readiness: Navigating the EU Cyber Resilience Act",
+          "url": "https://openssf.org/blog/2026/09/15/grow-cra-readiness-find-your-path-through-the-european-union-cyber-resilience-act/",
+          "source_type": "blog",
+          "lane": "open-source-supply-chain",
+          "rationale": "Role-based CRA readiness fills a coverage gap with an evidence workflow."
+        },
+        {
+          "title": "How IBM Turns Open Source Participation into Enterprise Value",
+          "url": "https://openssf.org/blog/2026/09/25/how-does-ibm-turn-open-source-participation-into-enterprise-and-career-value/",
+          "source_type": "blog",
+          "lane": "open-source-supply-chain",
+          "rationale": "Role-based CRA readiness fills a coverage gap with an evidence workflow."
+        },
+        {
+          "title": "Googlebook’s Built-In Intelligence",
+          "url": "https://blog.google/products-and-platforms/devices/googlebook/googlebook-built-in-intelligence/",
+          "source_type": "product",
+          "lane": "on-device-physical-systems",
+          "rationale": "Diversifies beyond software-only agents with local context, physical constraints, and bounded robotics challenges."
+        },
+        {
+          "title": "Project Suncatcher prototype is in orbit",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-prototype/",
+          "source_type": "research",
+          "lane": "on-device-physical-systems",
+          "rationale": "Diversifies beyond software-only agents with local context, physical constraints, and bounded robotics challenges."
+        },
+        {
+          "title": "FIRST Global Challenge 2026",
+          "url": "https://first.global/fgc/",
+          "source_type": "product",
+          "lane": "on-device-physical-systems",
+          "rationale": "Diversifies beyond software-only agents with local context, physical constraints, and bounded robotics challenges."
+        },
+        {
+          "title": "FIRST CANOPY 2026–2027",
+          "url": "https://www.firstinspires.org/first-canopy",
+          "source_type": "product",
+          "lane": "on-device-physical-systems",
+          "rationale": "Diversifies beyond software-only agents with local context, physical constraints, and bounded robotics challenges."
+        }
+      ],
+      "editorial_thesis": "Trustworthy agent capability depends on explicit identity decisions, evidence-bearing dependencies, and workflows that remain useful when intelligence moves closer to the device or physical system."
     }
   ],
-  "last_updated": "2026-10-03T08:06:07.235787+00:00"
+  "last_updated": "2026-10-05T08:00:19Z"
 }
