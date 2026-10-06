@@ -1,6 +1,27 @@
 {
-  "updated_at": "2026-10-06T08:03:50.579627+00:00",
+  "updated_at": "2026-10-06T08:04:14.753252+00:00",
   "days": [
+    {
+      "date": "2026-10-06",
+      "path": "2026-10-06",
+      "reports": [
+        {
+          "lane": "agent-decision-models",
+          "title": "Decision Models + Agent Control Paths",
+          "url": "2026-10-06/agent-decision-models.html"
+        },
+        {
+          "lane": "agent-browser-tooling",
+          "title": "Agent Browser Tooling + Evidence Loops",
+          "url": "2026-10-06/agent-browser-tooling.html"
+        },
+        {
+          "lane": "consented-group-agents",
+          "title": "Shared Agents Need Consent Boundaries",
+          "url": "2026-10-06/consented-group-agents.html"
+        }
+      ]
+    },
     {
       "date": "2026-10-05",
       "path": "2026-10-05",
