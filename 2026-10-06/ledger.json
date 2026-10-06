@@ -1,0 +1,148 @@
+{
+  "date": "2026-10-06",
+  "generated_at": "2026-10-06T08:00:46Z",
+  "editorial_thesis": "Agent leverage is moving into explicit control seams: typed decisions, evidence-grade browser inspection, and consented shared context.",
+  "topic_groups": [
+    {
+      "slug": "agent-decision-models",
+      "title": "Decision Models + Agent Control Paths",
+      "selection_rationale": "The new practical seam is not another general model: it is a small, typed decision gate that can route, block, or escalate work before a larger agent spends latency or gains authority.",
+      "sources": [
+        {
+          "title": "Cloudflare Clef",
+          "url": "https://developers.cloudflare.com/changelog/post/2026-10-01-clef-workers-ai/",
+          "source_type": "docs",
+          "published_or_updated": "2026-10-01 to 2026-10-06",
+          "why_selected": "Cloudflare released open-source Clef and Clef-flash decision models with typed choices, confidence scores, Workers AI hosting, and a new RL fine-tuning service.",
+          "usefulness": "Use Clef-flash for hot-path routing or escalation; keep the generative model for explanation and action."
+        },
+        {
+          "title": "Cloudflare launch context",
+          "url": "https://blog.cloudflare.com/clef-decision-models/",
+          "source_type": "blog",
+          "published_or_updated": "2026-10-01 to 2026-10-06",
+          "why_selected": "The accompanying launch explains a dataset-to-RL-to-redeployment loop using AI Gateway, Workers AI, containers, and a trainer.",
+          "usefulness": "This is a concrete pattern for turning production traces into a bounded policy model without fine-tuning the whole agent."
+        },
+        {
+          "title": "Clef weights",
+          "url": "https://huggingface.co/Cloudflare/clef",
+          "source_type": "docs",
+          "published_or_updated": "2026-10-01 to 2026-10-06",
+          "why_selected": "The weights are available on Hugging Face under Apache 2.0, making the model inspectable and portable beyond the hosted endpoint.",
+          "usefulness": "Useful for a local or client-controlled fallback when data residency or egress matters."
+        },
+        {
+          "title": "Strands Decider 2B",
+          "url": "https://strandsagents.com/blog/introducing-strands-decider/",
+          "source_type": "blog",
+          "published_or_updated": "2026-10-01 to 2026-10-06",
+          "why_selected": "AWS Strands released a small open decision model with weights, training data, and training scripts for local experimentation.",
+          "usefulness": "A lower-capacity local gate is a credible default for cheap, narrow checks inside an agent loop."
+        },
+        {
+          "title": "Strands reference code",
+          "url": "https://github.com/strands-labs/strands-decider",
+          "source_type": "docs",
+          "published_or_updated": "2026-10-01 to 2026-10-06",
+          "why_selected": "The companion repository exposes the model packaging and experimentation path rather than only an API surface.",
+          "usefulness": "A useful starting point for reproducible evaluation and client-specific decision labels."
+        }
+      ]
+    },
+    {
+      "slug": "agent-browser-tooling",
+      "title": "Agent Browser Tooling + Evidence Loops",
+      "selection_rationale": "Browser automation is becoming less about clicking faster and more about giving agents a constrained inspection surface: performance, network, and state evidence before they propose a change.",
+      "sources": [
+        {
+          "title": "Chrome DevTools MCP",
+          "url": "https://developer.chrome.com/blog/new-in-devtools-october-2026",
+          "source_type": "blog",
+          "published_or_updated": "2026-10-01 to 2026-10-06",
+          "why_selected": "Chrome’s October DevTools update adds new security controls and performance-oriented capabilities to its MCP server for agents.",
+          "usefulness": "This turns browser debugging into a typed evidence workflow instead of a screenshot-and-guess loop."
+        },
+        {
+          "title": "DevTools for agents",
+          "url": "https://developer.chrome.com/blog/new-in-devtools-october-2026#mcp",
+          "source_type": "blog",
+          "published_or_updated": "2026-10-01 to 2026-10-06",
+          "why_selected": "The update places agent workflows alongside standard DevTools features, signaling that inspection is becoming a first-class operator surface.",
+          "usefulness": "Buildn/client audits can ask an agent to collect the same artifacts a human debugger would inspect."
+        },
+        {
+          "title": "Chrome DevTools MCP docs",
+          "url": "https://developer.chrome.com/docs/devtools/mcp/",
+          "source_type": "docs",
+          "published_or_updated": "2026-10-01 to 2026-10-06",
+          "why_selected": "The documentation surface is the practical contract for installation, permissions, and tool behavior.",
+          "usefulness": "Use it to separate safe observation from mutating browser actions in a client workflow."
+        },
+        {
+          "title": "Chrome DevTools protocol",
+          "url": "https://chromedevtools.github.io/devtools-protocol/",
+          "source_type": "docs",
+          "published_or_updated": "2026-10-01 to 2026-10-06",
+          "why_selected": "The underlying protocol remains the interoperability layer for browser state and diagnostics.",
+          "usefulness": "A portable adapter around protocol events can preserve evidence when the agent or model changes."
+        },
+        {
+          "title": "Agent-readiness implication",
+          "url": "https://developer.chrome.com/blog/new-in-devtools-october-2026",
+          "source_type": "blog",
+          "published_or_updated": "2026-10-01 to 2026-10-06",
+          "why_selected": "When browser agents can inspect performance and network evidence, “make the page agent-ready” includes diagnosability, not only machine-readable content.",
+          "usefulness": "Offer a client preflight that scores both callable actions and observable failure states."
+        }
+      ]
+    },
+    {
+      "slug": "consented-group-agents",
+      "title": "Shared Agents Need Consent Boundaries",
+      "selection_rationale": "The interesting product move is an agent entering a group conversation without every participant having an account; the hard part is not access, but making private context exchange explicit, revocable, and legible.",
+      "sources": [
+        {
+          "title": "Instinct in group chats",
+          "url": "https://techcrunch.com/2026/10/05/instinct-brings-its-ai-agent-to-group-chats-even-for-friends-without-an-account/",
+          "source_type": "docs",
+          "published_or_updated": "2026-10-01 to 2026-10-06",
+          "why_selected": "Instinct announced early access for adding a shared agent to group chats, including groups where some participants are not Instinct users.",
+          "usefulness": "This is a direct test of whether agent value can spread through a social context without forcing every participant through onboarding."
+        },
+        {
+          "title": "Personal-to-group handoff",
+          "url": "https://techcrunch.com/2026/10/05/instinct-brings-its-ai-agent-to-group-chats-even-for-friends-without-an-account/",
+          "source_type": "docs",
+          "published_or_updated": "2026-10-01 to 2026-10-06",
+          "why_selected": "The reported design has a personal agent ask permission before connecting with the group agent and sharing information.",
+          "usefulness": "Treat the handoff as a typed capability grant, not an implicit memory lookup."
+        },
+        {
+          "title": "Siloed group context",
+          "url": "https://techcrunch.com/2026/10/05/instinct-brings-its-ai-agent-to-group-chats-even-for-friends-without-an-account/",
+          "source_type": "docs",
+          "published_or_updated": "2026-10-01 to 2026-10-06",
+          "why_selected": "The group agent is described as siloed from users’ personal accounts, with personal actions requiring permission.",
+          "usefulness": "This is the right default for Buildn shared workspaces: group context should not silently inherit personal memory."
+        },
+        {
+          "title": "Pending-reply hold",
+          "url": "https://techcrunch.com/2026/10/05/instinct-brings-its-ai-agent-to-group-chats-even-for-friends-without-an-account/",
+          "source_type": "docs",
+          "published_or_updated": "2026-10-01 to 2026-10-06",
+          "why_selected": "Pending replies from a personal agent are held if new members join before the content is shared.",
+          "usefulness": "Membership changes are a data-boundary event; queued agent work needs reauthorization too."
+        },
+        {
+          "title": "Group agent as facilitator",
+          "url": "https://techcrunch.com/2026/10/05/instinct-brings-its-ai-agent-to-group-chats-even-for-friends-without-an-account/",
+          "source_type": "docs",
+          "published_or_updated": "2026-10-01 to 2026-10-06",
+          "why_selected": "The product framing is a shared agent that helps a group explore options, agree on a plan, and execute in one thread.",
+          "usefulness": "For client work, this suggests a bounded project-room agent with explicit roles and a visible action ledger."
+        }
+      ]
+    }
+  ]
+}

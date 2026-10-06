@@ -1,6 +1,51 @@
 {
-  "updated_at": "2026-10-05T08:11:02.435986+00:00",
+  "updated_at": "2026-10-06T08:03:50.579627+00:00",
   "sources": {
+    "https://developers.cloudflare.com/changelog/post/2026-10-01-clef-workers-ai": {
+      "first_seen": "2026-10-06",
+      "last_seen": "2026-10-06",
+      "title": "Cloudflare Clef"
+    },
+    "https://blog.cloudflare.com/clef-decision-models": {
+      "first_seen": "2026-10-06",
+      "last_seen": "2026-10-04",
+      "title": "Introducing Clef"
+    },
+    "https://huggingface.co/Cloudflare/clef": {
+      "first_seen": "2026-10-06",
+      "last_seen": "2026-10-06",
+      "title": "Clef weights"
+    },
+    "https://strandsagents.com/blog/introducing-strands-decider": {
+      "first_seen": "2026-10-06",
+      "last_seen": "2026-10-06",
+      "title": "Strands Decider 2B"
+    },
+    "https://github.com/strands-labs/strands-decider": {
+      "first_seen": "2026-10-06",
+      "last_seen": "2026-10-06",
+      "title": "Strands reference code"
+    },
+    "https://developer.chrome.com/blog/new-in-devtools-october-2026": {
+      "first_seen": "2026-10-06",
+      "last_seen": "2026-10-06",
+      "title": "Agent-readiness implication"
+    },
+    "https://developer.chrome.com/docs/devtools/mcp": {
+      "first_seen": "2026-10-06",
+      "last_seen": "2026-10-06",
+      "title": "Chrome DevTools MCP docs"
+    },
+    "https://chromedevtools.github.io/devtools-protocol": {
+      "first_seen": "2026-10-06",
+      "last_seen": "2026-10-06",
+      "title": "Chrome DevTools protocol"
+    },
+    "https://techcrunch.com/2026/10/05/instinct-brings-its-ai-agent-to-group-chats-even-for-friends-without-an-account": {
+      "first_seen": "2026-10-06",
+      "last_seen": "2026-10-06",
+      "title": "Group agent as facilitator"
+    },
     "https://developer.pingidentity.com/blog/centralizing-mcp-authorization-with-pingauthorize-part-1": {
       "first_seen": "2026-10-05",
       "last_seen": "2026-10-05",
@@ -55,11 +100,6 @@
       "first_seen": "2026-10-04",
       "last_seen": "2026-09-01",
       "title": "NVIDIA OpenShell"
-    },
-    "https://blog.cloudflare.com/clef-decision-models": {
-      "first_seen": "2026-10-04",
-      "last_seen": "2026-10-04",
-      "title": "Introducing Clef"
     },
     "https://blog.cloudflare.com/dynamic-workers": {
       "first_seen": "2026-10-04",

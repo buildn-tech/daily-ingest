@@ -1197,6 +1197,24 @@
       "times_covered": 1,
       "last_covered": "2026-10-05",
       "last_selection_rationale": "Diversifies beyond software-only agents with local context, physical constraints, and bounded robotics challenges."
+    },
+    "agent-decision-models": {
+      "title": "Decision Models + Agent Control Paths",
+      "times_covered": 1,
+      "last_covered": "2026-10-06",
+      "last_selection_rationale": "The new practical seam is not another general model: it is a small, typed decision gate that can route, block, or escalate work before a larger agent spends latency or gains authority."
+    },
+    "agent-browser-tooling": {
+      "title": "Agent Browser Tooling + Evidence Loops",
+      "times_covered": 1,
+      "last_covered": "2026-10-06",
+      "last_selection_rationale": "Browser automation is becoming less about clicking faster and more about giving agents a constrained inspection surface: performance, network, and state evidence before they propose a change."
+    },
+    "consented-group-agents": {
+      "title": "Shared Agents Need Consent Boundaries",
+      "times_covered": 1,
+      "last_covered": "2026-10-06",
+      "last_selection_rationale": "The interesting product move is an agent entering a group conversation without every participant having an account; the hard part is not access, but making private context exchange explicit, revocable, and legible."
     }
   },
   "item_history": [
@@ -3966,6 +3984,126 @@
         }
       ],
       "editorial_thesis": "Trustworthy agent capability depends on explicit identity decisions, evidence-bearing dependencies, and workflows that remain useful when intelligence moves closer to the device or physical system."
+    },
+    {
+      "date": "2026-10-06",
+      "topic": "agent-decision-models",
+      "title": "Cloudflare Clef",
+      "url": "https://developers.cloudflare.com/changelog/post/2026-10-01-clef-workers-ai/",
+      "source_type": "docs",
+      "rationale": "Cloudflare released open-source Clef and Clef-flash decision models with typed choices, confidence scores, Workers AI hosting, and a new RL fine-tuning service."
+    },
+    {
+      "date": "2026-10-06",
+      "topic": "agent-decision-models",
+      "title": "Cloudflare launch context",
+      "url": "https://blog.cloudflare.com/clef-decision-models/",
+      "source_type": "blog",
+      "rationale": "The accompanying launch explains a dataset-to-RL-to-redeployment loop using AI Gateway, Workers AI, containers, and a trainer."
+    },
+    {
+      "date": "2026-10-06",
+      "topic": "agent-decision-models",
+      "title": "Clef weights",
+      "url": "https://huggingface.co/Cloudflare/clef",
+      "source_type": "docs",
+      "rationale": "The weights are available on Hugging Face under Apache 2.0, making the model inspectable and portable beyond the hosted endpoint."
+    },
+    {
+      "date": "2026-10-06",
+      "topic": "agent-decision-models",
+      "title": "Strands Decider 2B",
+      "url": "https://strandsagents.com/blog/introducing-strands-decider/",
+      "source_type": "blog",
+      "rationale": "AWS Strands released a small open decision model with weights, training data, and training scripts for local experimentation."
+    },
+    {
+      "date": "2026-10-06",
+      "topic": "agent-decision-models",
+      "title": "Strands reference code",
+      "url": "https://github.com/strands-labs/strands-decider",
+      "source_type": "docs",
+      "rationale": "The companion repository exposes the model packaging and experimentation path rather than only an API surface."
+    },
+    {
+      "date": "2026-10-06",
+      "topic": "agent-browser-tooling",
+      "title": "Chrome DevTools MCP",
+      "url": "https://developer.chrome.com/blog/new-in-devtools-october-2026",
+      "source_type": "blog",
+      "rationale": "Chrome’s October DevTools update adds new security controls and performance-oriented capabilities to its MCP server for agents."
+    },
+    {
+      "date": "2026-10-06",
+      "topic": "agent-browser-tooling",
+      "title": "DevTools for agents",
+      "url": "https://developer.chrome.com/blog/new-in-devtools-october-2026#mcp",
+      "source_type": "blog",
+      "rationale": "The update places agent workflows alongside standard DevTools features, signaling that inspection is becoming a first-class operator surface."
+    },
+    {
+      "date": "2026-10-06",
+      "topic": "agent-browser-tooling",
+      "title": "Chrome DevTools MCP docs",
+      "url": "https://developer.chrome.com/docs/devtools/mcp/",
+      "source_type": "docs",
+      "rationale": "The documentation surface is the practical contract for installation, permissions, and tool behavior."
+    },
+    {
+      "date": "2026-10-06",
+      "topic": "agent-browser-tooling",
+      "title": "Chrome DevTools protocol",
+      "url": "https://chromedevtools.github.io/devtools-protocol/",
+      "source_type": "docs",
+      "rationale": "The underlying protocol remains the interoperability layer for browser state and diagnostics."
+    },
+    {
+      "date": "2026-10-06",
+      "topic": "agent-browser-tooling",
+      "title": "Agent-readiness implication",
+      "url": "https://developer.chrome.com/blog/new-in-devtools-october-2026",
+      "source_type": "blog",
+      "rationale": "When browser agents can inspect performance and network evidence, “make the page agent-ready” includes diagnosability, not only machine-readable content."
+    },
+    {
+      "date": "2026-10-06",
+      "topic": "consented-group-agents",
+      "title": "Instinct in group chats",
+      "url": "https://techcrunch.com/2026/10/05/instinct-brings-its-ai-agent-to-group-chats-even-for-friends-without-an-account/",
+      "source_type": "docs",
+      "rationale": "Instinct announced early access for adding a shared agent to group chats, including groups where some participants are not Instinct users."
+    },
+    {
+      "date": "2026-10-06",
+      "topic": "consented-group-agents",
+      "title": "Personal-to-group handoff",
+      "url": "https://techcrunch.com/2026/10/05/instinct-brings-its-ai-agent-to-group-chats-even-for-friends-without-an-account/",
+      "source_type": "docs",
+      "rationale": "The reported design has a personal agent ask permission before connecting with the group agent and sharing information."
+    },
+    {
+      "date": "2026-10-06",
+      "topic": "consented-group-agents",
+      "title": "Siloed group context",
+      "url": "https://techcrunch.com/2026/10/05/instinct-brings-its-ai-agent-to-group-chats-even-for-friends-without-an-account/",
+      "source_type": "docs",
+      "rationale": "The group agent is described as siloed from users’ personal accounts, with personal actions requiring permission."
+    },
+    {
+      "date": "2026-10-06",
+      "topic": "consented-group-agents",
+      "title": "Pending-reply hold",
+      "url": "https://techcrunch.com/2026/10/05/instinct-brings-its-ai-agent-to-group-chats-even-for-friends-without-an-account/",
+      "source_type": "docs",
+      "rationale": "Pending replies from a personal agent are held if new members join before the content is shared."
+    },
+    {
+      "date": "2026-10-06",
+      "topic": "consented-group-agents",
+      "title": "Group agent as facilitator",
+      "url": "https://techcrunch.com/2026/10/05/instinct-brings-its-ai-agent-to-group-chats-even-for-friends-without-an-account/",
+      "source_type": "docs",
+      "rationale": "The product framing is a shared agent that helps a group explore options, agree on a plan, and execute in one thread."
     }
   ],
   "runs": [
@@ -16225,5 +16363,5 @@
       "editorial_thesis": "Trustworthy agent capability depends on explicit identity decisions, evidence-bearing dependencies, and workflows that remain useful when intelligence moves closer to the device or physical system."
     }
   ],
-  "last_updated": "2026-10-05T08:00:19Z"
+  "last_updated": "2026-10-06"
 }
