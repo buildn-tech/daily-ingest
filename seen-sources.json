@@ -1,6 +1,86 @@
 {
-  "updated_at": "2026-10-06T08:04:14.753252+00:00",
+  "updated_at": "2026-10-07T08:03:14.032409+00:00",
   "sources": {
+    "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2": {
+      "first_seen": "2026-10-07",
+      "last_seen": "2026-10-07",
+      "title": "EmbeddingGemma 2"
+    },
+    "https://ai.google.dev/gemma/docs/embeddinggemma": {
+      "first_seen": "2026-10-07",
+      "last_seen": "2026-10-07",
+      "title": "Gemma documentation"
+    },
+    "https://huggingface.co/google/embeddinggemma-2": {
+      "first_seen": "2026-10-07",
+      "last_seen": "2026-10-07",
+      "title": "Hugging Face model card"
+    },
+    "https://ai.google.dev/edge": {
+      "first_seen": "2026-10-07",
+      "last_seen": "2026-10-07",
+      "title": "Google AI Edge"
+    },
+    "https://github.blog/changelog/2026-10-06-update-your-ide-to-restore-agent-activity-in-copilot-usage-metrics": {
+      "first_seen": "2026-10-07",
+      "last_seen": "2026-10-07",
+      "title": "Restore Copilot agent activity metrics"
+    },
+    "https://github.blog/changelog/2026-10-06-code-scanning-ai-scan-enablement-status-in-security-overview": {
+      "first_seen": "2026-10-07",
+      "last_seen": "2026-10-07",
+      "title": "AI Scan enablement status"
+    },
+    "https://github.blog/changelog/2026-10-06-stacked-pull-requests-generally-available": {
+      "first_seen": "2026-10-07",
+      "last_seen": "2026-10-07",
+      "title": "Stacked pull requests GA"
+    },
+    "https://github.blog/changelog/2026-10-02-copilot-code-review-api-support-and-new-default-effort-level": {
+      "first_seen": "2026-10-07",
+      "last_seen": "2026-10-03",
+      "title": "Copilot code review API"
+    },
+    "https://openai.com/index/advancing-computer-use-with-ironclad": {
+      "first_seen": "2026-10-07",
+      "last_seen": "2026-10-07",
+      "title": "Advancing computer use with Ironclad"
+    },
+    "https://developers.openai.com/api/docs/guides/agents-api/tools/computer-use": {
+      "first_seen": "2026-10-07",
+      "last_seen": "2026-10-07",
+      "title": "Agents API computer use"
+    },
+    "https://openai.com/index/introducing-the-agents-api": {
+      "first_seen": "2026-10-07",
+      "last_seen": "2026-09-20",
+      "title": "Introducing the Agents API"
+    },
+    "https://platform.openai.com/docs/guides/evals": {
+      "first_seen": "2026-10-07",
+      "last_seen": "2026-10-07",
+      "title": "OpenAI evaluations"
+    },
+    "https://github.blog/changelog/2026-09-30-x25519-only-tls-ends-for-ghe-com-on-september-15": {
+      "first_seen": "2026-10-07",
+      "last_seen": "2026-10-07",
+      "title": "X25519-only TLS ends for GHE.com"
+    },
+    "https://docs.github.com/en/enterprise-cloud@latest/admin/overview/about-github-enterprise-cloud-with-data-residency": {
+      "first_seen": "2026-10-07",
+      "last_seen": "2026-10-07",
+      "title": "GitHub Enterprise Cloud docs"
+    },
+    "https://docs.openssl.org/3.5/man3/SSL_CTX_set1_groups": {
+      "first_seen": "2026-10-07",
+      "last_seen": "2026-10-07",
+      "title": "OpenSSL supported groups"
+    },
+    "https://github.com/cli/cli/releases": {
+      "first_seen": "2026-10-07",
+      "last_seen": "2026-10-07",
+      "title": "GitHub CLI releases"
+    },
     "https://developers.cloudflare.com/changelog/post/2026-10-01-clef-workers-ai": {
       "first_seen": "2026-10-06",
       "last_seen": "2026-10-06",
@@ -140,11 +220,6 @@
       "first_seen": "2026-10-03",
       "last_seen": "2026-07-09",
       "title": "Google Search I/O 2026: Search agents"
-    },
-    "https://github.blog/changelog/2026-10-02-copilot-code-review-api-support-and-new-default-effort-level": {
-      "first_seen": "2026-10-03",
-      "last_seen": "2026-10-03",
-      "title": "Copilot code review API"
     },
     "https://github.blog/changelog/2026-10-02-selected-models-in-github-copilot-deprecated": {
       "first_seen": "2026-10-03",
@@ -505,11 +580,6 @@
       "first_seen": "2026-09-26",
       "last_seen": "2026-09-26",
       "title": "AIRA\u2082: Overcoming Bottlenecks in AI Research Agents"
-    },
-    "https://openai.com/index/introducing-the-agents-api": {
-      "first_seen": "2026-09-26",
-      "last_seen": "2026-09-20",
-      "title": "Introducing the Agents API"
     },
     "https://cloud.google.com/blog/products/identity-security/next26-redefining-security-for-the-ai-era-with-google-cloud-and-wiz": {
       "first_seen": "2026-09-26",

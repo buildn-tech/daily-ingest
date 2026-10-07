@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-10-06T08:04:14.753252+00:00",
+  "updated_at": "2026-10-07T08:03:14.032409+00:00",
   "days": [
+    {
+      "date": "2026-10-07",
+      "path": "2026-10-07",
+      "reports": [
+        {
+          "lane": "on-device-multimodal-retrieval",
+          "title": "On-device Multimodal Retrieval",
+          "url": "2026-10-07/on-device-multimodal-retrieval.html"
+        },
+        {
+          "lane": "agentic-delivery-controls",
+          "title": "Agentic Delivery Controls",
+          "url": "2026-10-07/agentic-delivery-controls.html"
+        },
+        {
+          "lane": "professional-computer-use-evidence",
+          "title": "Professional Computer Use Needs Evidence",
+          "url": "2026-10-07/professional-computer-use-evidence.html"
+        },
+        {
+          "lane": "secure-agent-transport",
+          "title": "Secure Agent Transport at the Edge",
+          "url": "2026-10-07/secure-agent-transport.html"
+        }
+      ]
+    },
     {
       "date": "2026-10-06",
       "path": "2026-10-06",

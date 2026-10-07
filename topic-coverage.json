@@ -1215,6 +1215,26 @@
       "times_covered": 1,
       "last_covered": "2026-10-06",
       "last_selection_rationale": "The interesting product move is an agent entering a group conversation without every participant having an account; the hard part is not access, but making private context exchange explicit, revocable, and legible."
+    },
+    "on-device-multimodal-retrieval": {
+      "title": "On-device Multimodal Retrieval",
+      "times_covered": 1,
+      "last_covered": "2026-10-07"
+    },
+    "agentic-delivery-controls": {
+      "title": "Agentic Delivery Controls",
+      "times_covered": 1,
+      "last_covered": "2026-10-07"
+    },
+    "professional-computer-use-evidence": {
+      "title": "Professional Computer Use Needs Evidence",
+      "times_covered": 1,
+      "last_covered": "2026-10-07"
+    },
+    "secure-agent-transport": {
+      "title": "Secure Agent Transport at the Edge",
+      "times_covered": 1,
+      "last_covered": "2026-10-07"
     }
   },
   "item_history": [
@@ -6520,7 +6540,7 @@
       "editorial_thesis": "Trustworthy agent capability depends on explicit identity decisions, evidence-bearing dependencies, and workflows that remain useful when intelligence moves closer to the device or physical system."
     }
   ],
-  "updated_at": "2026-10-05T08:00:19Z",
+  "updated_at": "2026-10-07T08:03:10.104188+00:00",
   "last_run": {
     "date": "2026-10-05",
     "selected_lanes": [
@@ -14692,6 +14712,113 @@
         }
       ],
       "editorial_thesis": "Trustworthy agent capability depends on explicit identity decisions, evidence-bearing dependencies, and workflows that remain useful when intelligence moves closer to the device or physical system."
+    },
+    {
+      "date": "2026-10-07",
+      "selected_lanes": [
+        "on-device-multimodal-retrieval",
+        "agentic-delivery-controls",
+        "professional-computer-use-evidence",
+        "secure-agent-transport"
+      ],
+      "items": [
+        {
+          "title": "EmbeddingGemma 2",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/",
+          "source_type": "blog",
+          "selection_rationale": "A fresh open model release makes private, cross-modal search practical on ordinary devices; this fills a coverage gap after several days focused on hosted agent control planes."
+        },
+        {
+          "title": "Gemma documentation",
+          "url": "https://ai.google.dev/gemma/docs/embeddinggemma",
+          "source_type": "docs",
+          "selection_rationale": "A fresh open model release makes private, cross-modal search practical on ordinary devices; this fills a coverage gap after several days focused on hosted agent control planes."
+        },
+        {
+          "title": "Hugging Face model card",
+          "url": "https://huggingface.co/google/embeddinggemma-2",
+          "source_type": "docs",
+          "selection_rationale": "A fresh open model release makes private, cross-modal search practical on ordinary devices; this fills a coverage gap after several days focused on hosted agent control planes."
+        },
+        {
+          "title": "Google AI Edge",
+          "url": "https://ai.google.dev/edge",
+          "source_type": "docs",
+          "selection_rationale": "A fresh open model release makes private, cross-modal search practical on ordinary devices; this fills a coverage gap after several days focused on hosted agent control planes."
+        },
+        {
+          "title": "Restore Copilot agent activity metrics",
+          "url": "https://github.blog/changelog/2026-10-06-update-your-ide-to-restore-agent-activity-in-copilot-usage-metrics",
+          "source_type": "release",
+          "selection_rationale": "GitHub shipped several concrete control and collaboration changes on October 6: agent-activity telemetry repair, AI-scan visibility, and stacked pull requests. These are operational seams rather than another model headline."
+        },
+        {
+          "title": "AI Scan enablement status",
+          "url": "https://github.blog/changelog/2026-10-06-code-scanning-ai-scan-enablement-status-in-security-overview",
+          "source_type": "release",
+          "selection_rationale": "GitHub shipped several concrete control and collaboration changes on October 6: agent-activity telemetry repair, AI-scan visibility, and stacked pull requests. These are operational seams rather than another model headline."
+        },
+        {
+          "title": "Stacked pull requests GA",
+          "url": "https://github.blog/changelog/2026-10-06-stacked-pull-requests-generally-available",
+          "source_type": "release",
+          "selection_rationale": "GitHub shipped several concrete control and collaboration changes on October 6: agent-activity telemetry repair, AI-scan visibility, and stacked pull requests. These are operational seams rather than another model headline."
+        },
+        {
+          "title": "Copilot code review API",
+          "url": "https://github.blog/changelog/2026-10-02-copilot-code-review-api-support-and-new-default-effort-level",
+          "source_type": "release",
+          "selection_rationale": "GitHub shipped several concrete control and collaboration changes on October 6: agent-activity telemetry repair, AI-scan visibility, and stacked pull requests. These are operational seams rather than another model headline."
+        },
+        {
+          "title": "Advancing computer use with Ironclad",
+          "url": "https://openai.com/index/advancing-computer-use-with-ironclad/",
+          "source_type": "blog",
+          "selection_rationale": "OpenAI’s October 6 Ironclad collaboration is a useful signal beyond generic computer-use demos: complex professional workflows require simulated tasks, reusable terms, approvals, and reliability measurement."
+        },
+        {
+          "title": "Agents API computer use",
+          "url": "https://developers.openai.com/api/docs/guides/agents-api/tools/computer-use",
+          "source_type": "docs",
+          "selection_rationale": "OpenAI’s October 6 Ironclad collaboration is a useful signal beyond generic computer-use demos: complex professional workflows require simulated tasks, reusable terms, approvals, and reliability measurement."
+        },
+        {
+          "title": "OpenAI Agents API",
+          "url": "https://openai.com/index/introducing-the-agents-api/",
+          "source_type": "product",
+          "selection_rationale": "OpenAI’s October 6 Ironclad collaboration is a useful signal beyond generic computer-use demos: complex professional workflows require simulated tasks, reusable terms, approvals, and reliability measurement."
+        },
+        {
+          "title": "OpenAI evaluations",
+          "url": "https://platform.openai.com/docs/guides/evals",
+          "source_type": "docs",
+          "selection_rationale": "OpenAI’s October 6 Ironclad collaboration is a useful signal beyond generic computer-use demos: complex professional workflows require simulated tasks, reusable terms, approvals, and reliability measurement."
+        },
+        {
+          "title": "X25519-only TLS ends for GHE.com",
+          "url": "https://github.blog/changelog/2026-09-30-x25519-only-tls-ends-for-ghe-com-on-september-15/",
+          "source_type": "release",
+          "selection_rationale": "A concrete GitHub Enterprise TLS cutoff lands today and creates an immediate infrastructure check. It is a neglected but practical lane: agent systems fail at the transport and dependency boundary before model quality matters."
+        },
+        {
+          "title": "GitHub Enterprise Cloud docs",
+          "url": "https://docs.github.com/en/enterprise-cloud@latest/admin/overview/about-github-enterprise-cloud-with-data-residency",
+          "source_type": "docs",
+          "selection_rationale": "A concrete GitHub Enterprise TLS cutoff lands today and creates an immediate infrastructure check. It is a neglected but practical lane: agent systems fail at the transport and dependency boundary before model quality matters."
+        },
+        {
+          "title": "OpenSSL supported groups",
+          "url": "https://docs.openssl.org/3.5/man3/SSL_CTX_set1_groups/",
+          "source_type": "docs",
+          "selection_rationale": "A concrete GitHub Enterprise TLS cutoff lands today and creates an immediate infrastructure check. It is a neglected but practical lane: agent systems fail at the transport and dependency boundary before model quality matters."
+        },
+        {
+          "title": "GitHub CLI releases",
+          "url": "https://github.com/cli/cli/releases",
+          "source_type": "release",
+          "selection_rationale": "A concrete GitHub Enterprise TLS cutoff lands today and creates an immediate infrastructure check. It is a neglected but practical lane: agent systems fail at the transport and dependency boundary before model quality matters."
+        }
+      ]
     }
   ],
   "themes": {

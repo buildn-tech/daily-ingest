@@ -1,0 +1,163 @@
+{
+  "date": "2026-10-07",
+  "generated_at": "2026-10-07T08:03:10.068609+00:00",
+  "editorial_thesis": "Agent leverage is becoming an operational discipline: keep private context local, make delivery reviewable, evaluate computer use with evidence, and preflight the transport layer.",
+  "topic_groups": [
+    {
+      "slug": "on-device-multimodal-retrieval",
+      "title": "On-device Multimodal Retrieval",
+      "selection_rationale": "A fresh open model release makes private, cross-modal search practical on ordinary devices; this fills a coverage gap after several days focused on hosted agent control planes.",
+      "sources": [
+        {
+          "title": "EmbeddingGemma 2",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/",
+          "source_type": "blog",
+          "published_or_updated": "2026-10-06",
+          "why_selected": "Google introduced a 740M Apache 2.0 model that maps text, code, images, audio, and video into one embedding space.",
+          "usefulness": "Prototype local search over client artifacts without sending raw media to a hosted index."
+        },
+        {
+          "title": "Gemma documentation",
+          "url": "https://ai.google.dev/gemma/docs/embeddinggemma",
+          "source_type": "docs",
+          "published_or_updated": "2026-10-06",
+          "why_selected": "The implementation contract matters more than the launch claim: model formats, runtimes, and supported embedding workflows determine portability.",
+          "usefulness": "Use the docs to pick a local runtime and define an embedding refresh job."
+        },
+        {
+          "title": "Hugging Face model card",
+          "url": "https://huggingface.co/google/embeddinggemma-2",
+          "source_type": "docs",
+          "published_or_updated": "2026-10-06",
+          "why_selected": "The model card is the inspectable weight and configuration surface for local evaluation.",
+          "usefulness": "Benchmark retrieval quality against Buildn’s own mixed text, screenshot, and recording corpus."
+        },
+        {
+          "title": "Google AI Edge",
+          "url": "https://ai.google.dev/edge",
+          "source_type": "docs",
+          "published_or_updated": "unknown",
+          "why_selected": "Google’s edge runtime surface provides the deployment context for on-device inference.",
+          "usefulness": "Test memory, battery, and cold-start constraints before promising offline retrieval to a client."
+        }
+      ]
+    },
+    {
+      "slug": "agentic-delivery-controls",
+      "title": "Agentic Delivery Controls",
+      "selection_rationale": "GitHub shipped several concrete control and collaboration changes on October 6: agent-activity telemetry repair, AI-scan visibility, and stacked pull requests. These are operational seams rather than another model headline.",
+      "sources": [
+        {
+          "title": "Restore Copilot agent activity metrics",
+          "url": "https://github.blog/changelog/2026-10-06-update-your-ide-to-restore-agent-activity-in-copilot-usage-metrics",
+          "source_type": "release",
+          "published_or_updated": "2026-10-06",
+          "why_selected": "GitHub says an IDE update is required to restore agent activity in Copilot usage metrics.",
+          "usefulness": "Treat telemetry as versioned infrastructure; verify that adoption dashboards still mean what operators think they mean."
+        },
+        {
+          "title": "AI Scan enablement status",
+          "url": "https://github.blog/changelog/2026-10-06-code-scanning-ai-scan-enablement-status-in-security-overview",
+          "source_type": "release",
+          "published_or_updated": "2026-10-06",
+          "why_selected": "Security overview now surfaces whether AI Scan is enabled, making a control state visible at portfolio level.",
+          "usefulness": "Add “enabled, configured, observed” to client security scorecards."
+        },
+        {
+          "title": "Stacked pull requests GA",
+          "url": "https://github.blog/changelog/2026-10-06-stacked-pull-requests-generally-available",
+          "source_type": "release",
+          "published_or_updated": "2026-10-06",
+          "why_selected": "Stacked pull requests are generally available, supporting smaller dependent review units and stack navigation.",
+          "usefulness": "Pair agent-generated changes with smaller reviewable slices instead of one opaque branch."
+        },
+        {
+          "title": "Copilot code review API",
+          "url": "https://github.blog/changelog/2026-10-02-copilot-code-review-api-support-and-new-default-effort-level",
+          "source_type": "release",
+          "published_or_updated": "2026-10-02",
+          "why_selected": "The code review API adds a programmatic entry point and a new default effort level.",
+          "usefulness": "Use API review as a repeatable gate, not as a replacement for ownership or merge policy."
+        }
+      ]
+    },
+    {
+      "slug": "professional-computer-use-evidence",
+      "title": "Professional Computer Use Needs Evidence",
+      "selection_rationale": "OpenAI’s October 6 Ironclad collaboration is a useful signal beyond generic computer-use demos: complex professional workflows require simulated tasks, reusable terms, approvals, and reliability measurement.",
+      "sources": [
+        {
+          "title": "Advancing computer use with Ironclad",
+          "url": "https://openai.com/index/advancing-computer-use-with-ironclad/",
+          "source_type": "blog",
+          "published_or_updated": "2026-10-06",
+          "why_selected": "OpenAI described simulated contract tasks involving agreements, approvals, and reusable legal terms, and invited software companies to collaborate on difficult professional work.",
+          "usefulness": "Use the task framing as a template for evaluating domain-specific agents without exposing live client data."
+        },
+        {
+          "title": "Agents API computer use",
+          "url": "https://developers.openai.com/api/docs/guides/agents-api/tools/computer-use",
+          "source_type": "docs",
+          "published_or_updated": "unknown",
+          "why_selected": "The computer-use API surface defines the tool boundary for agents that operate software rather than only return text.",
+          "usefulness": "Separate observation, action, approval, and post-action evidence in an integration contract."
+        },
+        {
+          "title": "OpenAI Agents API",
+          "url": "https://openai.com/index/introducing-the-agents-api/",
+          "source_type": "product",
+          "published_or_updated": "unknown",
+          "why_selected": "The hosted agent harness packages tool calling, context compaction, and sandboxed execution for longer workflows.",
+          "usefulness": "Compare hosted execution with local or client-controlled environments on data and audit requirements."
+        },
+        {
+          "title": "OpenAI evaluations",
+          "url": "https://platform.openai.com/docs/guides/evals",
+          "source_type": "docs",
+          "published_or_updated": "unknown",
+          "why_selected": "Evaluation tooling provides the repeatable dataset and grader layer needed for task reliability.",
+          "usefulness": "Represent each professional workflow as a task set with explicit pass/fail evidence."
+        }
+      ]
+    },
+    {
+      "slug": "secure-agent-transport",
+      "title": "Secure Agent Transport at the Edge",
+      "selection_rationale": "A concrete GitHub Enterprise TLS cutoff lands today and creates an immediate infrastructure check. It is a neglected but practical lane: agent systems fail at the transport and dependency boundary before model quality matters.",
+      "sources": [
+        {
+          "title": "X25519-only TLS ends for GHE.com",
+          "url": "https://github.blog/changelog/2026-09-30-x25519-only-tls-ends-for-ghe-com-on-september-15/",
+          "source_type": "release",
+          "published_or_updated": "2026-10-07",
+          "why_selected": "GitHub Enterprise Cloud with data residency stops accepting clients that offer only X25519; P-256 and P-384 remain supported.",
+          "usefulness": "Check proxies, runtimes, GitHub CLI versions, and security appliances used by build and agent workers."
+        },
+        {
+          "title": "GitHub Enterprise Cloud docs",
+          "url": "https://docs.github.com/en/enterprise-cloud@latest/admin/overview/about-github-enterprise-cloud-with-data-residency",
+          "source_type": "docs",
+          "published_or_updated": "unknown",
+          "why_selected": "The residency documentation identifies the deployment context where this transport change applies.",
+          "usefulness": "Keep residency-specific endpoints in infrastructure inventories rather than assuming github.com parity."
+        },
+        {
+          "title": "OpenSSL supported groups",
+          "url": "https://docs.openssl.org/3.5/man3/SSL_CTX_set1_groups/",
+          "source_type": "docs",
+          "published_or_updated": "unknown",
+          "why_selected": "OpenSSL’s supported-group configuration is the low-level control that can accidentally create an X25519-only client.",
+          "usefulness": "Inspect explicit group lists in agent runners and outbound proxies."
+        },
+        {
+          "title": "GitHub CLI releases",
+          "url": "https://github.com/cli/cli/releases",
+          "source_type": "release",
+          "published_or_updated": "unknown",
+          "why_selected": "CLI releases are a practical upgrade surface for developer and automation workers.",
+          "usefulness": "Test the exact CLI/runtime image used in CI before the next scheduled run."
+        }
+      ]
+    }
+  ]
+}
