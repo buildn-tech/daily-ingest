@@ -1,6 +1,81 @@
 {
-  "updated_at": "2026-10-07T08:03:14.032409+00:00",
+  "updated_at": "2026-10-08T08:03:20.396008+00:00",
   "sources": {
+    "https://github.blog/changelog/2026-10-07-discover-local-models-in-github-copilot-cli": {
+      "first_seen": "2026-10-08",
+      "last_seen": "2026-10-08",
+      "title": "Discover local models in GitHub Copilot CLI"
+    },
+    "https://docs.github.com/copilot/how-tos/copilot-cli/customize-copilot/use-byok-models": {
+      "first_seen": "2026-10-08",
+      "last_seen": "2026-10-08",
+      "title": "GitHub Copilot CLI provider and offline-mode docs"
+    },
+    "https://ollama.com/": {
+      "first_seen": "2026-10-08",
+      "last_seen": "2026-10-08",
+      "title": "Ollama"
+    },
+    "https://github.com/github/copilot-cli/releases": {
+      "first_seen": "2026-10-08",
+      "last_seen": "2026-10-08",
+      "title": "Copilot CLI releases"
+    },
+    "https://gh.io/localdevelopment": {
+      "first_seen": "2026-10-08",
+      "last_seen": "2026-10-08",
+      "title": "GitHub local development announcement"
+    },
+    "https://github.blog/changelog/2026-10-07-local-sandboxing-for-github-copilot-now-generally-available": {
+      "first_seen": "2026-10-08",
+      "last_seen": "2026-10-08",
+      "title": "Local sandboxing for GitHub Copilot now generally available"
+    },
+    "https://github.com/microsoft/mxc": {
+      "first_seen": "2026-10-08",
+      "last_seen": "2026-10-08",
+      "title": "Microsoft eXecution Container"
+    },
+    "https://docs.github.com/copilot/concepts/security-governance-and-network-settings/about-cloud-and-local-sandboxes": {
+      "first_seen": "2026-10-08",
+      "last_seen": "2026-10-08",
+      "title": "Cloud and local sandboxes documentation"
+    },
+    "https://docs.github.com/copilot/how-tos/github-copilot-app/use-byok-models": {
+      "first_seen": "2026-10-08",
+      "last_seen": "2026-10-08",
+      "title": "GitHub Copilot app model providers"
+    },
+    "https://github.com/github/copilot-cli": {
+      "first_seen": "2026-10-08",
+      "last_seen": "2026-10-08",
+      "title": "Copilot CLI"
+    },
+    "https://github.blog/changelog/2026-10-07-purpose-built-model-for-leaked-secret-detection": {
+      "first_seen": "2026-10-08",
+      "last_seen": "2026-10-08",
+      "title": "Purpose-built model for leaked secret detection"
+    },
+    "https://docs.github.com/code-security/securing-your-organization/understanding-your-organizations-exposure-to-secrets/about-secret-protection": {
+      "first_seen": "2026-10-08",
+      "last_seen": "2026-10-08",
+      "title": "GitHub Secret Protection"
+    },
+    "https://docs.github.com/code-security/code-scanning/introduction-to-code-scanning/about-code-scanning": {
+      "first_seen": "2026-10-08",
+      "last_seen": "2026-10-08",
+      "title": "GitHub Advanced Security"
+    },
+    "https://docs.github.com/billing/managing-billing-for-your-products/managing-billing-for-github-copilot/about-usage-of-github-copilot-features": {
+      "first_seen": "2026-10-08",
+      "last_seen": "2026-10-08",
+      "title": "GitHub AI usage insights"
+    },
+    "https://docs.github.com/code-security/security-overview/about-security-overview": {
+      "first_seen": "2026-10-08",
+      "last_seen": "2026-10-08",
+      "title": "GitHub security overview"
+    },
     "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2": {
       "first_seen": "2026-10-07",
       "last_seen": "2026-10-07",

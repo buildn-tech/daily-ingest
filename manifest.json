@@ -1,6 +1,27 @@
 {
-  "updated_at": "2026-10-07T08:03:14.032409+00:00",
+  "updated_at": "2026-10-08T08:03:20.396008+00:00",
   "days": [
+    {
+      "date": "2026-10-08",
+      "path": "2026-10-08",
+      "reports": [
+        {
+          "lane": "local-model-choice",
+          "title": "Local Model Choice + Provider Portability",
+          "url": "2026-10-08/local-model-choice.html"
+        },
+        {
+          "lane": "agent-execution-boundaries",
+          "title": "Agent Execution Boundaries",
+          "url": "2026-10-08/agent-execution-boundaries.html"
+        },
+        {
+          "lane": "secret-detection-at-the-boundary",
+          "title": "Secret Detection at the Boundary",
+          "url": "2026-10-08/secret-detection-at-the-boundary.html"
+        }
+      ]
+    },
     {
       "date": "2026-10-07",
       "path": "2026-10-07",

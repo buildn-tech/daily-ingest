@@ -1235,6 +1235,21 @@
       "title": "Secure Agent Transport at the Edge",
       "times_covered": 1,
       "last_covered": "2026-10-07"
+    },
+    "local-model-choice": {
+      "title": "Local Model Choice + Provider Portability",
+      "times_covered": 1,
+      "last_covered": "2026-10-08"
+    },
+    "agent-execution-boundaries": {
+      "title": "Agent Execution Boundaries",
+      "times_covered": 1,
+      "last_covered": "2026-10-08"
+    },
+    "secret-detection-at-the-boundary": {
+      "title": "Secret Detection at the Boundary",
+      "times_covered": 1,
+      "last_covered": "2026-10-08"
     }
   },
   "item_history": [
@@ -4124,6 +4139,141 @@
       "url": "https://techcrunch.com/2026/10/05/instinct-brings-its-ai-agent-to-group-chats-even-for-friends-without-an-account/",
       "source_type": "docs",
       "rationale": "The product framing is a shared agent that helps a group explore options, agree on a plan, and execute in one thread."
+    },
+    {
+      "date": "2026-10-08",
+      "topic": "local-model-choice",
+      "title": "Discover local models in GitHub Copilot CLI",
+      "url": "https://github.blog/changelog/2026-10-07-discover-local-models-in-github-copilot-cli/",
+      "source_type": "release",
+      "rationale": "Fresh GitHub CLI support makes local Ollama models visible inside an active agent session; this fills a practical portability gap after yesterday's private retrieval coverage.",
+      "selection_rationale": "Fresh GitHub CLI support makes local Ollama models visible inside an active agent session; this fills a practical portability gap after yesterday's private retrieval coverage."
+    },
+    {
+      "date": "2026-10-08",
+      "topic": "local-model-choice",
+      "title": "GitHub Copilot CLI provider and offline-mode docs",
+      "url": "https://docs.github.com/copilot/how-tos/copilot-cli/customize-copilot/use-byok-models",
+      "source_type": "docs",
+      "rationale": "Fresh GitHub CLI support makes local Ollama models visible inside an active agent session; this fills a practical portability gap after yesterday's private retrieval coverage.",
+      "selection_rationale": "Fresh GitHub CLI support makes local Ollama models visible inside an active agent session; this fills a practical portability gap after yesterday's private retrieval coverage."
+    },
+    {
+      "date": "2026-10-08",
+      "topic": "local-model-choice",
+      "title": "Ollama",
+      "url": "https://ollama.com/",
+      "source_type": "product",
+      "rationale": "Fresh GitHub CLI support makes local Ollama models visible inside an active agent session; this fills a practical portability gap after yesterday's private retrieval coverage.",
+      "selection_rationale": "Fresh GitHub CLI support makes local Ollama models visible inside an active agent session; this fills a practical portability gap after yesterday's private retrieval coverage."
+    },
+    {
+      "date": "2026-10-08",
+      "topic": "local-model-choice",
+      "title": "Copilot CLI releases",
+      "url": "https://github.com/github/copilot-cli/releases",
+      "source_type": "release",
+      "rationale": "Fresh GitHub CLI support makes local Ollama models visible inside an active agent session; this fills a practical portability gap after yesterday's private retrieval coverage.",
+      "selection_rationale": "Fresh GitHub CLI support makes local Ollama models visible inside an active agent session; this fills a practical portability gap after yesterday's private retrieval coverage."
+    },
+    {
+      "date": "2026-10-08",
+      "topic": "local-model-choice",
+      "title": "GitHub local development announcement",
+      "url": "https://gh.io/localdevelopment",
+      "source_type": "blog",
+      "rationale": "Fresh GitHub CLI support makes local Ollama models visible inside an active agent session; this fills a practical portability gap after yesterday's private retrieval coverage.",
+      "selection_rationale": "Fresh GitHub CLI support makes local Ollama models visible inside an active agent session; this fills a practical portability gap after yesterday's private retrieval coverage."
+    },
+    {
+      "date": "2026-10-08",
+      "topic": "agent-execution-boundaries",
+      "title": "Local sandboxing for GitHub Copilot now generally available",
+      "url": "https://github.blog/changelog/2026-10-07-local-sandboxing-for-github-copilot-now-generally-available/",
+      "source_type": "release",
+      "rationale": "Local sandboxing reached general availability across Copilot surfaces, turning agent autonomy into a machine-enforced policy problem rather than a prompt-writing exercise.",
+      "selection_rationale": "Local sandboxing reached general availability across Copilot surfaces, turning agent autonomy into a machine-enforced policy problem rather than a prompt-writing exercise."
+    },
+    {
+      "date": "2026-10-08",
+      "topic": "agent-execution-boundaries",
+      "title": "Microsoft eXecution Container",
+      "url": "https://github.com/microsoft/mxc",
+      "source_type": "repo",
+      "rationale": "Local sandboxing reached general availability across Copilot surfaces, turning agent autonomy into a machine-enforced policy problem rather than a prompt-writing exercise.",
+      "selection_rationale": "Local sandboxing reached general availability across Copilot surfaces, turning agent autonomy into a machine-enforced policy problem rather than a prompt-writing exercise."
+    },
+    {
+      "date": "2026-10-08",
+      "topic": "agent-execution-boundaries",
+      "title": "Cloud and local sandboxes documentation",
+      "url": "https://docs.github.com/copilot/concepts/security-governance-and-network-settings/about-cloud-and-local-sandboxes",
+      "source_type": "docs",
+      "rationale": "Local sandboxing reached general availability across Copilot surfaces, turning agent autonomy into a machine-enforced policy problem rather than a prompt-writing exercise.",
+      "selection_rationale": "Local sandboxing reached general availability across Copilot surfaces, turning agent autonomy into a machine-enforced policy problem rather than a prompt-writing exercise."
+    },
+    {
+      "date": "2026-10-08",
+      "topic": "agent-execution-boundaries",
+      "title": "GitHub Copilot app model providers",
+      "url": "https://docs.github.com/copilot/how-tos/github-copilot-app/use-byok-models",
+      "source_type": "docs",
+      "rationale": "Local sandboxing reached general availability across Copilot surfaces, turning agent autonomy into a machine-enforced policy problem rather than a prompt-writing exercise.",
+      "selection_rationale": "Local sandboxing reached general availability across Copilot surfaces, turning agent autonomy into a machine-enforced policy problem rather than a prompt-writing exercise."
+    },
+    {
+      "date": "2026-10-08",
+      "topic": "agent-execution-boundaries",
+      "title": "Copilot CLI",
+      "url": "https://github.com/github/copilot-cli",
+      "source_type": "repo",
+      "rationale": "Local sandboxing reached general availability across Copilot surfaces, turning agent autonomy into a machine-enforced policy problem rather than a prompt-writing exercise.",
+      "selection_rationale": "Local sandboxing reached general availability across Copilot surfaces, turning agent autonomy into a machine-enforced policy problem rather than a prompt-writing exercise."
+    },
+    {
+      "date": "2026-10-08",
+      "topic": "secret-detection-at-the-boundary",
+      "title": "Purpose-built model for leaked secret detection",
+      "url": "https://github.blog/changelog/2026-10-07-purpose-built-model-for-leaked-secret-detection/",
+      "source_type": "release",
+      "rationale": "GitHub shipped a detector designed for contextual and unstructured credentials, with separate included and credit-consuming paths; this is a useful supply-chain lane distinct from yesterday's transport check.",
+      "selection_rationale": "GitHub shipped a detector designed for contextual and unstructured credentials, with separate included and credit-consuming paths; this is a useful supply-chain lane distinct from yesterday's transport check."
+    },
+    {
+      "date": "2026-10-08",
+      "topic": "secret-detection-at-the-boundary",
+      "title": "GitHub Secret Protection",
+      "url": "https://docs.github.com/code-security/securing-your-organization/understanding-your-organizations-exposure-to-secrets/about-secret-protection",
+      "source_type": "docs",
+      "rationale": "GitHub shipped a detector designed for contextual and unstructured credentials, with separate included and credit-consuming paths; this is a useful supply-chain lane distinct from yesterday's transport check.",
+      "selection_rationale": "GitHub shipped a detector designed for contextual and unstructured credentials, with separate included and credit-consuming paths; this is a useful supply-chain lane distinct from yesterday's transport check."
+    },
+    {
+      "date": "2026-10-08",
+      "topic": "secret-detection-at-the-boundary",
+      "title": "GitHub Advanced Security",
+      "url": "https://docs.github.com/code-security/code-scanning/introduction-to-code-scanning/about-code-scanning",
+      "source_type": "docs",
+      "rationale": "GitHub shipped a detector designed for contextual and unstructured credentials, with separate included and credit-consuming paths; this is a useful supply-chain lane distinct from yesterday's transport check.",
+      "selection_rationale": "GitHub shipped a detector designed for contextual and unstructured credentials, with separate included and credit-consuming paths; this is a useful supply-chain lane distinct from yesterday's transport check."
+    },
+    {
+      "date": "2026-10-08",
+      "topic": "secret-detection-at-the-boundary",
+      "title": "GitHub AI usage insights",
+      "url": "https://docs.github.com/billing/managing-billing-for-your-products/managing-billing-for-github-copilot/about-usage-of-github-copilot-features",
+      "source_type": "docs",
+      "rationale": "GitHub shipped a detector designed for contextual and unstructured credentials, with separate included and credit-consuming paths; this is a useful supply-chain lane distinct from yesterday's transport check.",
+      "selection_rationale": "GitHub shipped a detector designed for contextual and unstructured credentials, with separate included and credit-consuming paths; this is a useful supply-chain lane distinct from yesterday's transport check."
+    },
+    {
+      "date": "2026-10-08",
+      "topic": "secret-detection-at-the-boundary",
+      "title": "GitHub security overview",
+      "url": "https://docs.github.com/code-security/security-overview/about-security-overview",
+      "source_type": "docs",
+      "rationale": "GitHub shipped a detector designed for contextual and unstructured credentials, with separate included and credit-consuming paths; this is a useful supply-chain lane distinct from yesterday's transport check.",
+      "selection_rationale": "GitHub shipped a detector designed for contextual and unstructured credentials, with separate included and credit-consuming paths; this is a useful supply-chain lane distinct from yesterday's transport check."
     }
   ],
   "runs": [
@@ -6538,30 +6688,139 @@
         }
       ],
       "editorial_thesis": "Trustworthy agent capability depends on explicit identity decisions, evidence-bearing dependencies, and workflows that remain useful when intelligence moves closer to the device or physical system."
+    },
+    {
+      "date": "2026-10-08",
+      "selected_lanes": [
+        {
+          "slug": "local-model-choice",
+          "title": "Local Model Choice + Provider Portability",
+          "rationale": "Fresh GitHub CLI support makes local Ollama models visible inside an active agent session; this fills a practical portability gap after yesterday's private retrieval coverage."
+        },
+        {
+          "slug": "agent-execution-boundaries",
+          "title": "Agent Execution Boundaries",
+          "rationale": "Local sandboxing reached general availability across Copilot surfaces, turning agent autonomy into a machine-enforced policy problem rather than a prompt-writing exercise."
+        },
+        {
+          "slug": "secret-detection-at-the-boundary",
+          "title": "Secret Detection at the Boundary",
+          "rationale": "GitHub shipped a detector designed for contextual and unstructured credentials, with separate included and credit-consuming paths; this is a useful supply-chain lane distinct from yesterday's transport check."
+        }
+      ],
+      "items": [
+        {
+          "title": "Discover local models in GitHub Copilot CLI",
+          "url": "https://github.blog/changelog/2026-10-07-discover-local-models-in-github-copilot-cli/",
+          "source_type": "release",
+          "lane": "local-model-choice",
+          "rationale": "Fresh GitHub CLI support makes local Ollama models visible inside an active agent session; this fills a practical portability gap after yesterday's private retrieval coverage."
+        },
+        {
+          "title": "GitHub Copilot CLI provider and offline-mode docs",
+          "url": "https://docs.github.com/copilot/how-tos/copilot-cli/customize-copilot/use-byok-models",
+          "source_type": "docs",
+          "lane": "local-model-choice",
+          "rationale": "Fresh GitHub CLI support makes local Ollama models visible inside an active agent session; this fills a practical portability gap after yesterday's private retrieval coverage."
+        },
+        {
+          "title": "Ollama",
+          "url": "https://ollama.com/",
+          "source_type": "product",
+          "lane": "local-model-choice",
+          "rationale": "Fresh GitHub CLI support makes local Ollama models visible inside an active agent session; this fills a practical portability gap after yesterday's private retrieval coverage."
+        },
+        {
+          "title": "Copilot CLI releases",
+          "url": "https://github.com/github/copilot-cli/releases",
+          "source_type": "release",
+          "lane": "local-model-choice",
+          "rationale": "Fresh GitHub CLI support makes local Ollama models visible inside an active agent session; this fills a practical portability gap after yesterday's private retrieval coverage."
+        },
+        {
+          "title": "GitHub local development announcement",
+          "url": "https://gh.io/localdevelopment",
+          "source_type": "blog",
+          "lane": "local-model-choice",
+          "rationale": "Fresh GitHub CLI support makes local Ollama models visible inside an active agent session; this fills a practical portability gap after yesterday's private retrieval coverage."
+        },
+        {
+          "title": "Local sandboxing for GitHub Copilot now generally available",
+          "url": "https://github.blog/changelog/2026-10-07-local-sandboxing-for-github-copilot-now-generally-available/",
+          "source_type": "release",
+          "lane": "agent-execution-boundaries",
+          "rationale": "Local sandboxing reached general availability across Copilot surfaces, turning agent autonomy into a machine-enforced policy problem rather than a prompt-writing exercise."
+        },
+        {
+          "title": "Microsoft eXecution Container",
+          "url": "https://github.com/microsoft/mxc",
+          "source_type": "repo",
+          "lane": "agent-execution-boundaries",
+          "rationale": "Local sandboxing reached general availability across Copilot surfaces, turning agent autonomy into a machine-enforced policy problem rather than a prompt-writing exercise."
+        },
+        {
+          "title": "Cloud and local sandboxes documentation",
+          "url": "https://docs.github.com/copilot/concepts/security-governance-and-network-settings/about-cloud-and-local-sandboxes",
+          "source_type": "docs",
+          "lane": "agent-execution-boundaries",
+          "rationale": "Local sandboxing reached general availability across Copilot surfaces, turning agent autonomy into a machine-enforced policy problem rather than a prompt-writing exercise."
+        },
+        {
+          "title": "GitHub Copilot app model providers",
+          "url": "https://docs.github.com/copilot/how-tos/github-copilot-app/use-byok-models",
+          "source_type": "docs",
+          "lane": "agent-execution-boundaries",
+          "rationale": "Local sandboxing reached general availability across Copilot surfaces, turning agent autonomy into a machine-enforced policy problem rather than a prompt-writing exercise."
+        },
+        {
+          "title": "Copilot CLI",
+          "url": "https://github.com/github/copilot-cli",
+          "source_type": "repo",
+          "lane": "agent-execution-boundaries",
+          "rationale": "Local sandboxing reached general availability across Copilot surfaces, turning agent autonomy into a machine-enforced policy problem rather than a prompt-writing exercise."
+        },
+        {
+          "title": "Purpose-built model for leaked secret detection",
+          "url": "https://github.blog/changelog/2026-10-07-purpose-built-model-for-leaked-secret-detection/",
+          "source_type": "release",
+          "lane": "secret-detection-at-the-boundary",
+          "rationale": "GitHub shipped a detector designed for contextual and unstructured credentials, with separate included and credit-consuming paths; this is a useful supply-chain lane distinct from yesterday's transport check."
+        },
+        {
+          "title": "GitHub Secret Protection",
+          "url": "https://docs.github.com/code-security/securing-your-organization/understanding-your-organizations-exposure-to-secrets/about-secret-protection",
+          "source_type": "docs",
+          "lane": "secret-detection-at-the-boundary",
+          "rationale": "GitHub shipped a detector designed for contextual and unstructured credentials, with separate included and credit-consuming paths; this is a useful supply-chain lane distinct from yesterday's transport check."
+        },
+        {
+          "title": "GitHub Advanced Security",
+          "url": "https://docs.github.com/code-security/code-scanning/introduction-to-code-scanning/about-code-scanning",
+          "source_type": "docs",
+          "lane": "secret-detection-at-the-boundary",
+          "rationale": "GitHub shipped a detector designed for contextual and unstructured credentials, with separate included and credit-consuming paths; this is a useful supply-chain lane distinct from yesterday's transport check."
+        },
+        {
+          "title": "GitHub AI usage insights",
+          "url": "https://docs.github.com/billing/managing-billing-for-your-products/managing-billing-for-github-copilot/about-usage-of-github-copilot-features",
+          "source_type": "docs",
+          "lane": "secret-detection-at-the-boundary",
+          "rationale": "GitHub shipped a detector designed for contextual and unstructured credentials, with separate included and credit-consuming paths; this is a useful supply-chain lane distinct from yesterday's transport check."
+        },
+        {
+          "title": "GitHub security overview",
+          "url": "https://docs.github.com/code-security/security-overview/about-security-overview",
+          "source_type": "docs",
+          "lane": "secret-detection-at-the-boundary",
+          "rationale": "GitHub shipped a detector designed for contextual and unstructured credentials, with separate included and credit-consuming paths; this is a useful supply-chain lane distinct from yesterday's transport check."
+        }
+      ],
+      "editorial_thesis": "The most useful agent progress today is boundary work: choose the right local or hosted model, constrain execution on the developer machine, and catch secrets with a purpose-built detector before they become durable incidents."
     }
   ],
-  "updated_at": "2026-10-07T08:03:10.104188+00:00",
-  "last_run": {
-    "date": "2026-10-05",
-    "selected_lanes": [
-      {
-        "slug": "agent-identity",
-        "title": "Agent Identity + Authorization",
-        "rationale": "Centralized MCP policy decisions and token-exchange measurement make the agent control plane concrete."
-      },
-      {
-        "slug": "open-source-supply-chain",
-        "title": "Open Source Supply-Chain Readiness",
-        "rationale": "Role-based CRA readiness fills a coverage gap with an evidence workflow."
-      },
-      {
-        "slug": "on-device-physical-systems",
-        "title": "On-Device Intelligence + Physical Systems",
-        "rationale": "Diversifies beyond software-only agents with local context, physical constraints, and bounded robotics challenges."
-      }
-    ]
-  },
-  "last_editorial_thesis": "Trustworthy agent capability depends on explicit identity decisions, evidence-bearing dependencies, and workflows that remain useful when intelligence moves closer to the device or physical system.",
+  "updated_at": "2026-10-08T08:00:40Z",
+  "last_run": "2026-10-08",
+  "last_editorial_thesis": "The most useful agent progress today is boundary work: choose the right local or hosted model, constrain execution on the developer machine, and catch secrets with a purpose-built detector before they become durable incidents.",
   "coverage_history": [
     {
       "date": "2026-08-27",
@@ -7820,6 +8079,134 @@
         }
       ],
       "editorial_thesis": "Trustworthy agent capability depends on explicit identity decisions, evidence-bearing dependencies, and workflows that remain useful when intelligence moves closer to the device or physical system."
+    },
+    {
+      "date": "2026-10-08",
+      "selected_lanes": [
+        {
+          "slug": "local-model-choice",
+          "title": "Local Model Choice + Provider Portability",
+          "rationale": "Fresh GitHub CLI support makes local Ollama models visible inside an active agent session; this fills a practical portability gap after yesterday's private retrieval coverage."
+        },
+        {
+          "slug": "agent-execution-boundaries",
+          "title": "Agent Execution Boundaries",
+          "rationale": "Local sandboxing reached general availability across Copilot surfaces, turning agent autonomy into a machine-enforced policy problem rather than a prompt-writing exercise."
+        },
+        {
+          "slug": "secret-detection-at-the-boundary",
+          "title": "Secret Detection at the Boundary",
+          "rationale": "GitHub shipped a detector designed for contextual and unstructured credentials, with separate included and credit-consuming paths; this is a useful supply-chain lane distinct from yesterday's transport check."
+        }
+      ],
+      "items": [
+        {
+          "title": "Discover local models in GitHub Copilot CLI",
+          "url": "https://github.blog/changelog/2026-10-07-discover-local-models-in-github-copilot-cli/",
+          "source_type": "release",
+          "lane": "local-model-choice",
+          "rationale": "Fresh GitHub CLI support makes local Ollama models visible inside an active agent session; this fills a practical portability gap after yesterday's private retrieval coverage."
+        },
+        {
+          "title": "GitHub Copilot CLI provider and offline-mode docs",
+          "url": "https://docs.github.com/copilot/how-tos/copilot-cli/customize-copilot/use-byok-models",
+          "source_type": "docs",
+          "lane": "local-model-choice",
+          "rationale": "Fresh GitHub CLI support makes local Ollama models visible inside an active agent session; this fills a practical portability gap after yesterday's private retrieval coverage."
+        },
+        {
+          "title": "Ollama",
+          "url": "https://ollama.com/",
+          "source_type": "product",
+          "lane": "local-model-choice",
+          "rationale": "Fresh GitHub CLI support makes local Ollama models visible inside an active agent session; this fills a practical portability gap after yesterday's private retrieval coverage."
+        },
+        {
+          "title": "Copilot CLI releases",
+          "url": "https://github.com/github/copilot-cli/releases",
+          "source_type": "release",
+          "lane": "local-model-choice",
+          "rationale": "Fresh GitHub CLI support makes local Ollama models visible inside an active agent session; this fills a practical portability gap after yesterday's private retrieval coverage."
+        },
+        {
+          "title": "GitHub local development announcement",
+          "url": "https://gh.io/localdevelopment",
+          "source_type": "blog",
+          "lane": "local-model-choice",
+          "rationale": "Fresh GitHub CLI support makes local Ollama models visible inside an active agent session; this fills a practical portability gap after yesterday's private retrieval coverage."
+        },
+        {
+          "title": "Local sandboxing for GitHub Copilot now generally available",
+          "url": "https://github.blog/changelog/2026-10-07-local-sandboxing-for-github-copilot-now-generally-available/",
+          "source_type": "release",
+          "lane": "agent-execution-boundaries",
+          "rationale": "Local sandboxing reached general availability across Copilot surfaces, turning agent autonomy into a machine-enforced policy problem rather than a prompt-writing exercise."
+        },
+        {
+          "title": "Microsoft eXecution Container",
+          "url": "https://github.com/microsoft/mxc",
+          "source_type": "repo",
+          "lane": "agent-execution-boundaries",
+          "rationale": "Local sandboxing reached general availability across Copilot surfaces, turning agent autonomy into a machine-enforced policy problem rather than a prompt-writing exercise."
+        },
+        {
+          "title": "Cloud and local sandboxes documentation",
+          "url": "https://docs.github.com/copilot/concepts/security-governance-and-network-settings/about-cloud-and-local-sandboxes",
+          "source_type": "docs",
+          "lane": "agent-execution-boundaries",
+          "rationale": "Local sandboxing reached general availability across Copilot surfaces, turning agent autonomy into a machine-enforced policy problem rather than a prompt-writing exercise."
+        },
+        {
+          "title": "GitHub Copilot app model providers",
+          "url": "https://docs.github.com/copilot/how-tos/github-copilot-app/use-byok-models",
+          "source_type": "docs",
+          "lane": "agent-execution-boundaries",
+          "rationale": "Local sandboxing reached general availability across Copilot surfaces, turning agent autonomy into a machine-enforced policy problem rather than a prompt-writing exercise."
+        },
+        {
+          "title": "Copilot CLI",
+          "url": "https://github.com/github/copilot-cli",
+          "source_type": "repo",
+          "lane": "agent-execution-boundaries",
+          "rationale": "Local sandboxing reached general availability across Copilot surfaces, turning agent autonomy into a machine-enforced policy problem rather than a prompt-writing exercise."
+        },
+        {
+          "title": "Purpose-built model for leaked secret detection",
+          "url": "https://github.blog/changelog/2026-10-07-purpose-built-model-for-leaked-secret-detection/",
+          "source_type": "release",
+          "lane": "secret-detection-at-the-boundary",
+          "rationale": "GitHub shipped a detector designed for contextual and unstructured credentials, with separate included and credit-consuming paths; this is a useful supply-chain lane distinct from yesterday's transport check."
+        },
+        {
+          "title": "GitHub Secret Protection",
+          "url": "https://docs.github.com/code-security/securing-your-organization/understanding-your-organizations-exposure-to-secrets/about-secret-protection",
+          "source_type": "docs",
+          "lane": "secret-detection-at-the-boundary",
+          "rationale": "GitHub shipped a detector designed for contextual and unstructured credentials, with separate included and credit-consuming paths; this is a useful supply-chain lane distinct from yesterday's transport check."
+        },
+        {
+          "title": "GitHub Advanced Security",
+          "url": "https://docs.github.com/code-security/code-scanning/introduction-to-code-scanning/about-code-scanning",
+          "source_type": "docs",
+          "lane": "secret-detection-at-the-boundary",
+          "rationale": "GitHub shipped a detector designed for contextual and unstructured credentials, with separate included and credit-consuming paths; this is a useful supply-chain lane distinct from yesterday's transport check."
+        },
+        {
+          "title": "GitHub AI usage insights",
+          "url": "https://docs.github.com/billing/managing-billing-for-your-products/managing-billing-for-github-copilot/about-usage-of-github-copilot-features",
+          "source_type": "docs",
+          "lane": "secret-detection-at-the-boundary",
+          "rationale": "GitHub shipped a detector designed for contextual and unstructured credentials, with separate included and credit-consuming paths; this is a useful supply-chain lane distinct from yesterday's transport check."
+        },
+        {
+          "title": "GitHub security overview",
+          "url": "https://docs.github.com/code-security/security-overview/about-security-overview",
+          "source_type": "docs",
+          "lane": "secret-detection-at-the-boundary",
+          "rationale": "GitHub shipped a detector designed for contextual and unstructured credentials, with separate included and credit-consuming paths; this is a useful supply-chain lane distinct from yesterday's transport check."
+        }
+      ],
+      "editorial_thesis": "The most useful agent progress today is boundary work: choose the right local or hosted model, constrain execution on the developer machine, and catch secrets with a purpose-built detector before they become durable incidents."
     }
   ],
   "items": [
@@ -9422,19 +9809,19 @@
   ],
   "last_run_selection": [
     {
-      "slug": "agent-identity",
-      "title": "Agent Identity + Authorization",
-      "rationale": "Centralized MCP policy decisions and token-exchange measurement make the agent control plane concrete."
+      "slug": "local-model-choice",
+      "title": "Local Model Choice + Provider Portability",
+      "rationale": "Fresh GitHub CLI support makes local Ollama models visible inside an active agent session; this fills a practical portability gap after yesterday's private retrieval coverage."
     },
     {
-      "slug": "open-source-supply-chain",
-      "title": "Open Source Supply-Chain Readiness",
-      "rationale": "Role-based CRA readiness fills a coverage gap with an evidence workflow."
+      "slug": "agent-execution-boundaries",
+      "title": "Agent Execution Boundaries",
+      "rationale": "Local sandboxing reached general availability across Copilot surfaces, turning agent autonomy into a machine-enforced policy problem rather than a prompt-writing exercise."
     },
     {
-      "slug": "on-device-physical-systems",
-      "title": "On-Device Intelligence + Physical Systems",
-      "rationale": "Diversifies beyond software-only agents with local context, physical constraints, and bounded robotics challenges."
+      "slug": "secret-detection-at-the-boundary",
+      "title": "Secret Detection at the Boundary",
+      "rationale": "GitHub shipped a detector designed for contextual and unstructured credentials, with separate included and credit-consuming paths; this is a useful supply-chain lane distinct from yesterday's transport check."
     }
   ],
   "sources": {
@@ -11240,6 +11627,134 @@
         }
       ],
       "editorial_thesis": "Trustworthy agent capability depends on explicit identity decisions, evidence-bearing dependencies, and workflows that remain useful when intelligence moves closer to the device or physical system."
+    },
+    {
+      "date": "2026-10-08",
+      "selected_lanes": [
+        {
+          "slug": "local-model-choice",
+          "title": "Local Model Choice + Provider Portability",
+          "rationale": "Fresh GitHub CLI support makes local Ollama models visible inside an active agent session; this fills a practical portability gap after yesterday's private retrieval coverage."
+        },
+        {
+          "slug": "agent-execution-boundaries",
+          "title": "Agent Execution Boundaries",
+          "rationale": "Local sandboxing reached general availability across Copilot surfaces, turning agent autonomy into a machine-enforced policy problem rather than a prompt-writing exercise."
+        },
+        {
+          "slug": "secret-detection-at-the-boundary",
+          "title": "Secret Detection at the Boundary",
+          "rationale": "GitHub shipped a detector designed for contextual and unstructured credentials, with separate included and credit-consuming paths; this is a useful supply-chain lane distinct from yesterday's transport check."
+        }
+      ],
+      "items": [
+        {
+          "title": "Discover local models in GitHub Copilot CLI",
+          "url": "https://github.blog/changelog/2026-10-07-discover-local-models-in-github-copilot-cli/",
+          "source_type": "release",
+          "lane": "local-model-choice",
+          "rationale": "Fresh GitHub CLI support makes local Ollama models visible inside an active agent session; this fills a practical portability gap after yesterday's private retrieval coverage."
+        },
+        {
+          "title": "GitHub Copilot CLI provider and offline-mode docs",
+          "url": "https://docs.github.com/copilot/how-tos/copilot-cli/customize-copilot/use-byok-models",
+          "source_type": "docs",
+          "lane": "local-model-choice",
+          "rationale": "Fresh GitHub CLI support makes local Ollama models visible inside an active agent session; this fills a practical portability gap after yesterday's private retrieval coverage."
+        },
+        {
+          "title": "Ollama",
+          "url": "https://ollama.com/",
+          "source_type": "product",
+          "lane": "local-model-choice",
+          "rationale": "Fresh GitHub CLI support makes local Ollama models visible inside an active agent session; this fills a practical portability gap after yesterday's private retrieval coverage."
+        },
+        {
+          "title": "Copilot CLI releases",
+          "url": "https://github.com/github/copilot-cli/releases",
+          "source_type": "release",
+          "lane": "local-model-choice",
+          "rationale": "Fresh GitHub CLI support makes local Ollama models visible inside an active agent session; this fills a practical portability gap after yesterday's private retrieval coverage."
+        },
+        {
+          "title": "GitHub local development announcement",
+          "url": "https://gh.io/localdevelopment",
+          "source_type": "blog",
+          "lane": "local-model-choice",
+          "rationale": "Fresh GitHub CLI support makes local Ollama models visible inside an active agent session; this fills a practical portability gap after yesterday's private retrieval coverage."
+        },
+        {
+          "title": "Local sandboxing for GitHub Copilot now generally available",
+          "url": "https://github.blog/changelog/2026-10-07-local-sandboxing-for-github-copilot-now-generally-available/",
+          "source_type": "release",
+          "lane": "agent-execution-boundaries",
+          "rationale": "Local sandboxing reached general availability across Copilot surfaces, turning agent autonomy into a machine-enforced policy problem rather than a prompt-writing exercise."
+        },
+        {
+          "title": "Microsoft eXecution Container",
+          "url": "https://github.com/microsoft/mxc",
+          "source_type": "repo",
+          "lane": "agent-execution-boundaries",
+          "rationale": "Local sandboxing reached general availability across Copilot surfaces, turning agent autonomy into a machine-enforced policy problem rather than a prompt-writing exercise."
+        },
+        {
+          "title": "Cloud and local sandboxes documentation",
+          "url": "https://docs.github.com/copilot/concepts/security-governance-and-network-settings/about-cloud-and-local-sandboxes",
+          "source_type": "docs",
+          "lane": "agent-execution-boundaries",
+          "rationale": "Local sandboxing reached general availability across Copilot surfaces, turning agent autonomy into a machine-enforced policy problem rather than a prompt-writing exercise."
+        },
+        {
+          "title": "GitHub Copilot app model providers",
+          "url": "https://docs.github.com/copilot/how-tos/github-copilot-app/use-byok-models",
+          "source_type": "docs",
+          "lane": "agent-execution-boundaries",
+          "rationale": "Local sandboxing reached general availability across Copilot surfaces, turning agent autonomy into a machine-enforced policy problem rather than a prompt-writing exercise."
+        },
+        {
+          "title": "Copilot CLI",
+          "url": "https://github.com/github/copilot-cli",
+          "source_type": "repo",
+          "lane": "agent-execution-boundaries",
+          "rationale": "Local sandboxing reached general availability across Copilot surfaces, turning agent autonomy into a machine-enforced policy problem rather than a prompt-writing exercise."
+        },
+        {
+          "title": "Purpose-built model for leaked secret detection",
+          "url": "https://github.blog/changelog/2026-10-07-purpose-built-model-for-leaked-secret-detection/",
+          "source_type": "release",
+          "lane": "secret-detection-at-the-boundary",
+          "rationale": "GitHub shipped a detector designed for contextual and unstructured credentials, with separate included and credit-consuming paths; this is a useful supply-chain lane distinct from yesterday's transport check."
+        },
+        {
+          "title": "GitHub Secret Protection",
+          "url": "https://docs.github.com/code-security/securing-your-organization/understanding-your-organizations-exposure-to-secrets/about-secret-protection",
+          "source_type": "docs",
+          "lane": "secret-detection-at-the-boundary",
+          "rationale": "GitHub shipped a detector designed for contextual and unstructured credentials, with separate included and credit-consuming paths; this is a useful supply-chain lane distinct from yesterday's transport check."
+        },
+        {
+          "title": "GitHub Advanced Security",
+          "url": "https://docs.github.com/code-security/code-scanning/introduction-to-code-scanning/about-code-scanning",
+          "source_type": "docs",
+          "lane": "secret-detection-at-the-boundary",
+          "rationale": "GitHub shipped a detector designed for contextual and unstructured credentials, with separate included and credit-consuming paths; this is a useful supply-chain lane distinct from yesterday's transport check."
+        },
+        {
+          "title": "GitHub AI usage insights",
+          "url": "https://docs.github.com/billing/managing-billing-for-your-products/managing-billing-for-github-copilot/about-usage-of-github-copilot-features",
+          "source_type": "docs",
+          "lane": "secret-detection-at-the-boundary",
+          "rationale": "GitHub shipped a detector designed for contextual and unstructured credentials, with separate included and credit-consuming paths; this is a useful supply-chain lane distinct from yesterday's transport check."
+        },
+        {
+          "title": "GitHub security overview",
+          "url": "https://docs.github.com/code-security/security-overview/about-security-overview",
+          "source_type": "docs",
+          "lane": "secret-detection-at-the-boundary",
+          "rationale": "GitHub shipped a detector designed for contextual and unstructured credentials, with separate included and credit-consuming paths; this is a useful supply-chain lane distinct from yesterday's transport check."
+        }
+      ],
+      "editorial_thesis": "The most useful agent progress today is boundary work: choose the right local or hosted model, constrain execution on the developer machine, and catch secrets with a purpose-built detector before they become durable incidents."
     }
   ],
   "run_history": [
@@ -12863,6 +13378,134 @@
         }
       ],
       "editorial_thesis": "Trustworthy agent capability depends on explicit identity decisions, evidence-bearing dependencies, and workflows that remain useful when intelligence moves closer to the device or physical system."
+    },
+    {
+      "date": "2026-10-08",
+      "selected_lanes": [
+        {
+          "slug": "local-model-choice",
+          "title": "Local Model Choice + Provider Portability",
+          "rationale": "Fresh GitHub CLI support makes local Ollama models visible inside an active agent session; this fills a practical portability gap after yesterday's private retrieval coverage."
+        },
+        {
+          "slug": "agent-execution-boundaries",
+          "title": "Agent Execution Boundaries",
+          "rationale": "Local sandboxing reached general availability across Copilot surfaces, turning agent autonomy into a machine-enforced policy problem rather than a prompt-writing exercise."
+        },
+        {
+          "slug": "secret-detection-at-the-boundary",
+          "title": "Secret Detection at the Boundary",
+          "rationale": "GitHub shipped a detector designed for contextual and unstructured credentials, with separate included and credit-consuming paths; this is a useful supply-chain lane distinct from yesterday's transport check."
+        }
+      ],
+      "items": [
+        {
+          "title": "Discover local models in GitHub Copilot CLI",
+          "url": "https://github.blog/changelog/2026-10-07-discover-local-models-in-github-copilot-cli/",
+          "source_type": "release",
+          "lane": "local-model-choice",
+          "rationale": "Fresh GitHub CLI support makes local Ollama models visible inside an active agent session; this fills a practical portability gap after yesterday's private retrieval coverage."
+        },
+        {
+          "title": "GitHub Copilot CLI provider and offline-mode docs",
+          "url": "https://docs.github.com/copilot/how-tos/copilot-cli/customize-copilot/use-byok-models",
+          "source_type": "docs",
+          "lane": "local-model-choice",
+          "rationale": "Fresh GitHub CLI support makes local Ollama models visible inside an active agent session; this fills a practical portability gap after yesterday's private retrieval coverage."
+        },
+        {
+          "title": "Ollama",
+          "url": "https://ollama.com/",
+          "source_type": "product",
+          "lane": "local-model-choice",
+          "rationale": "Fresh GitHub CLI support makes local Ollama models visible inside an active agent session; this fills a practical portability gap after yesterday's private retrieval coverage."
+        },
+        {
+          "title": "Copilot CLI releases",
+          "url": "https://github.com/github/copilot-cli/releases",
+          "source_type": "release",
+          "lane": "local-model-choice",
+          "rationale": "Fresh GitHub CLI support makes local Ollama models visible inside an active agent session; this fills a practical portability gap after yesterday's private retrieval coverage."
+        },
+        {
+          "title": "GitHub local development announcement",
+          "url": "https://gh.io/localdevelopment",
+          "source_type": "blog",
+          "lane": "local-model-choice",
+          "rationale": "Fresh GitHub CLI support makes local Ollama models visible inside an active agent session; this fills a practical portability gap after yesterday's private retrieval coverage."
+        },
+        {
+          "title": "Local sandboxing for GitHub Copilot now generally available",
+          "url": "https://github.blog/changelog/2026-10-07-local-sandboxing-for-github-copilot-now-generally-available/",
+          "source_type": "release",
+          "lane": "agent-execution-boundaries",
+          "rationale": "Local sandboxing reached general availability across Copilot surfaces, turning agent autonomy into a machine-enforced policy problem rather than a prompt-writing exercise."
+        },
+        {
+          "title": "Microsoft eXecution Container",
+          "url": "https://github.com/microsoft/mxc",
+          "source_type": "repo",
+          "lane": "agent-execution-boundaries",
+          "rationale": "Local sandboxing reached general availability across Copilot surfaces, turning agent autonomy into a machine-enforced policy problem rather than a prompt-writing exercise."
+        },
+        {
+          "title": "Cloud and local sandboxes documentation",
+          "url": "https://docs.github.com/copilot/concepts/security-governance-and-network-settings/about-cloud-and-local-sandboxes",
+          "source_type": "docs",
+          "lane": "agent-execution-boundaries",
+          "rationale": "Local sandboxing reached general availability across Copilot surfaces, turning agent autonomy into a machine-enforced policy problem rather than a prompt-writing exercise."
+        },
+        {
+          "title": "GitHub Copilot app model providers",
+          "url": "https://docs.github.com/copilot/how-tos/github-copilot-app/use-byok-models",
+          "source_type": "docs",
+          "lane": "agent-execution-boundaries",
+          "rationale": "Local sandboxing reached general availability across Copilot surfaces, turning agent autonomy into a machine-enforced policy problem rather than a prompt-writing exercise."
+        },
+        {
+          "title": "Copilot CLI",
+          "url": "https://github.com/github/copilot-cli",
+          "source_type": "repo",
+          "lane": "agent-execution-boundaries",
+          "rationale": "Local sandboxing reached general availability across Copilot surfaces, turning agent autonomy into a machine-enforced policy problem rather than a prompt-writing exercise."
+        },
+        {
+          "title": "Purpose-built model for leaked secret detection",
+          "url": "https://github.blog/changelog/2026-10-07-purpose-built-model-for-leaked-secret-detection/",
+          "source_type": "release",
+          "lane": "secret-detection-at-the-boundary",
+          "rationale": "GitHub shipped a detector designed for contextual and unstructured credentials, with separate included and credit-consuming paths; this is a useful supply-chain lane distinct from yesterday's transport check."
+        },
+        {
+          "title": "GitHub Secret Protection",
+          "url": "https://docs.github.com/code-security/securing-your-organization/understanding-your-organizations-exposure-to-secrets/about-secret-protection",
+          "source_type": "docs",
+          "lane": "secret-detection-at-the-boundary",
+          "rationale": "GitHub shipped a detector designed for contextual and unstructured credentials, with separate included and credit-consuming paths; this is a useful supply-chain lane distinct from yesterday's transport check."
+        },
+        {
+          "title": "GitHub Advanced Security",
+          "url": "https://docs.github.com/code-security/code-scanning/introduction-to-code-scanning/about-code-scanning",
+          "source_type": "docs",
+          "lane": "secret-detection-at-the-boundary",
+          "rationale": "GitHub shipped a detector designed for contextual and unstructured credentials, with separate included and credit-consuming paths; this is a useful supply-chain lane distinct from yesterday's transport check."
+        },
+        {
+          "title": "GitHub AI usage insights",
+          "url": "https://docs.github.com/billing/managing-billing-for-your-products/managing-billing-for-github-copilot/about-usage-of-github-copilot-features",
+          "source_type": "docs",
+          "lane": "secret-detection-at-the-boundary",
+          "rationale": "GitHub shipped a detector designed for contextual and unstructured credentials, with separate included and credit-consuming paths; this is a useful supply-chain lane distinct from yesterday's transport check."
+        },
+        {
+          "title": "GitHub security overview",
+          "url": "https://docs.github.com/code-security/security-overview/about-security-overview",
+          "source_type": "docs",
+          "lane": "secret-detection-at-the-boundary",
+          "rationale": "GitHub shipped a detector designed for contextual and unstructured credentials, with separate included and credit-consuming paths; this is a useful supply-chain lane distinct from yesterday's transport check."
+        }
+      ],
+      "editorial_thesis": "The most useful agent progress today is boundary work: choose the right local or hosted model, constrain execution on the developer machine, and catch secrets with a purpose-built detector before they become durable incidents."
     }
   ],
   "daily_history": [
@@ -14819,6 +15462,134 @@
           "selection_rationale": "A concrete GitHub Enterprise TLS cutoff lands today and creates an immediate infrastructure check. It is a neglected but practical lane: agent systems fail at the transport and dependency boundary before model quality matters."
         }
       ]
+    },
+    {
+      "date": "2026-10-08",
+      "selected_lanes": [
+        {
+          "slug": "local-model-choice",
+          "title": "Local Model Choice + Provider Portability",
+          "rationale": "Fresh GitHub CLI support makes local Ollama models visible inside an active agent session; this fills a practical portability gap after yesterday's private retrieval coverage."
+        },
+        {
+          "slug": "agent-execution-boundaries",
+          "title": "Agent Execution Boundaries",
+          "rationale": "Local sandboxing reached general availability across Copilot surfaces, turning agent autonomy into a machine-enforced policy problem rather than a prompt-writing exercise."
+        },
+        {
+          "slug": "secret-detection-at-the-boundary",
+          "title": "Secret Detection at the Boundary",
+          "rationale": "GitHub shipped a detector designed for contextual and unstructured credentials, with separate included and credit-consuming paths; this is a useful supply-chain lane distinct from yesterday's transport check."
+        }
+      ],
+      "items": [
+        {
+          "title": "Discover local models in GitHub Copilot CLI",
+          "url": "https://github.blog/changelog/2026-10-07-discover-local-models-in-github-copilot-cli/",
+          "source_type": "release",
+          "lane": "local-model-choice",
+          "rationale": "Fresh GitHub CLI support makes local Ollama models visible inside an active agent session; this fills a practical portability gap after yesterday's private retrieval coverage."
+        },
+        {
+          "title": "GitHub Copilot CLI provider and offline-mode docs",
+          "url": "https://docs.github.com/copilot/how-tos/copilot-cli/customize-copilot/use-byok-models",
+          "source_type": "docs",
+          "lane": "local-model-choice",
+          "rationale": "Fresh GitHub CLI support makes local Ollama models visible inside an active agent session; this fills a practical portability gap after yesterday's private retrieval coverage."
+        },
+        {
+          "title": "Ollama",
+          "url": "https://ollama.com/",
+          "source_type": "product",
+          "lane": "local-model-choice",
+          "rationale": "Fresh GitHub CLI support makes local Ollama models visible inside an active agent session; this fills a practical portability gap after yesterday's private retrieval coverage."
+        },
+        {
+          "title": "Copilot CLI releases",
+          "url": "https://github.com/github/copilot-cli/releases",
+          "source_type": "release",
+          "lane": "local-model-choice",
+          "rationale": "Fresh GitHub CLI support makes local Ollama models visible inside an active agent session; this fills a practical portability gap after yesterday's private retrieval coverage."
+        },
+        {
+          "title": "GitHub local development announcement",
+          "url": "https://gh.io/localdevelopment",
+          "source_type": "blog",
+          "lane": "local-model-choice",
+          "rationale": "Fresh GitHub CLI support makes local Ollama models visible inside an active agent session; this fills a practical portability gap after yesterday's private retrieval coverage."
+        },
+        {
+          "title": "Local sandboxing for GitHub Copilot now generally available",
+          "url": "https://github.blog/changelog/2026-10-07-local-sandboxing-for-github-copilot-now-generally-available/",
+          "source_type": "release",
+          "lane": "agent-execution-boundaries",
+          "rationale": "Local sandboxing reached general availability across Copilot surfaces, turning agent autonomy into a machine-enforced policy problem rather than a prompt-writing exercise."
+        },
+        {
+          "title": "Microsoft eXecution Container",
+          "url": "https://github.com/microsoft/mxc",
+          "source_type": "repo",
+          "lane": "agent-execution-boundaries",
+          "rationale": "Local sandboxing reached general availability across Copilot surfaces, turning agent autonomy into a machine-enforced policy problem rather than a prompt-writing exercise."
+        },
+        {
+          "title": "Cloud and local sandboxes documentation",
+          "url": "https://docs.github.com/copilot/concepts/security-governance-and-network-settings/about-cloud-and-local-sandboxes",
+          "source_type": "docs",
+          "lane": "agent-execution-boundaries",
+          "rationale": "Local sandboxing reached general availability across Copilot surfaces, turning agent autonomy into a machine-enforced policy problem rather than a prompt-writing exercise."
+        },
+        {
+          "title": "GitHub Copilot app model providers",
+          "url": "https://docs.github.com/copilot/how-tos/github-copilot-app/use-byok-models",
+          "source_type": "docs",
+          "lane": "agent-execution-boundaries",
+          "rationale": "Local sandboxing reached general availability across Copilot surfaces, turning agent autonomy into a machine-enforced policy problem rather than a prompt-writing exercise."
+        },
+        {
+          "title": "Copilot CLI",
+          "url": "https://github.com/github/copilot-cli",
+          "source_type": "repo",
+          "lane": "agent-execution-boundaries",
+          "rationale": "Local sandboxing reached general availability across Copilot surfaces, turning agent autonomy into a machine-enforced policy problem rather than a prompt-writing exercise."
+        },
+        {
+          "title": "Purpose-built model for leaked secret detection",
+          "url": "https://github.blog/changelog/2026-10-07-purpose-built-model-for-leaked-secret-detection/",
+          "source_type": "release",
+          "lane": "secret-detection-at-the-boundary",
+          "rationale": "GitHub shipped a detector designed for contextual and unstructured credentials, with separate included and credit-consuming paths; this is a useful supply-chain lane distinct from yesterday's transport check."
+        },
+        {
+          "title": "GitHub Secret Protection",
+          "url": "https://docs.github.com/code-security/securing-your-organization/understanding-your-organizations-exposure-to-secrets/about-secret-protection",
+          "source_type": "docs",
+          "lane": "secret-detection-at-the-boundary",
+          "rationale": "GitHub shipped a detector designed for contextual and unstructured credentials, with separate included and credit-consuming paths; this is a useful supply-chain lane distinct from yesterday's transport check."
+        },
+        {
+          "title": "GitHub Advanced Security",
+          "url": "https://docs.github.com/code-security/code-scanning/introduction-to-code-scanning/about-code-scanning",
+          "source_type": "docs",
+          "lane": "secret-detection-at-the-boundary",
+          "rationale": "GitHub shipped a detector designed for contextual and unstructured credentials, with separate included and credit-consuming paths; this is a useful supply-chain lane distinct from yesterday's transport check."
+        },
+        {
+          "title": "GitHub AI usage insights",
+          "url": "https://docs.github.com/billing/managing-billing-for-your-products/managing-billing-for-github-copilot/about-usage-of-github-copilot-features",
+          "source_type": "docs",
+          "lane": "secret-detection-at-the-boundary",
+          "rationale": "GitHub shipped a detector designed for contextual and unstructured credentials, with separate included and credit-consuming paths; this is a useful supply-chain lane distinct from yesterday's transport check."
+        },
+        {
+          "title": "GitHub security overview",
+          "url": "https://docs.github.com/code-security/security-overview/about-security-overview",
+          "source_type": "docs",
+          "lane": "secret-detection-at-the-boundary",
+          "rationale": "GitHub shipped a detector designed for contextual and unstructured credentials, with separate included and credit-consuming paths; this is a useful supply-chain lane distinct from yesterday's transport check."
+        }
+      ],
+      "editorial_thesis": "The most useful agent progress today is boundary work: choose the right local or hosted model, constrain execution on the developer machine, and catch secrets with a purpose-built detector before they become durable incidents."
     }
   ],
   "themes": {
@@ -14903,85 +15674,7 @@
       "last_covered": "2026-10-03"
     }
   },
-  "last_successful_run": {
-    "date": "2026-10-05",
-    "selected_lanes": [
-      {
-        "slug": "agent-identity",
-        "title": "Agent Identity + Authorization",
-        "rationale": "Centralized MCP policy decisions and token-exchange measurement make the agent control plane concrete."
-      },
-      {
-        "slug": "open-source-supply-chain",
-        "title": "Open Source Supply-Chain Readiness",
-        "rationale": "Role-based CRA readiness fills a coverage gap with an evidence workflow."
-      },
-      {
-        "slug": "on-device-physical-systems",
-        "title": "On-Device Intelligence + Physical Systems",
-        "rationale": "Diversifies beyond software-only agents with local context, physical constraints, and bounded robotics challenges."
-      }
-    ],
-    "items": [
-      {
-        "title": "Centralizing MCP Authorization with PingAuthorize - Part 1",
-        "url": "https://developer.pingidentity.com/blog/centralizing-mcp-authorization-with-pingauthorize-part-1/",
-        "source_type": "blog",
-        "lane": "agent-identity",
-        "rationale": "Centralized MCP policy decisions and token-exchange measurement make the agent control plane concrete."
-      },
-      {
-        "title": "How expensive is a token exchange, really?",
-        "url": "https://developer.pingidentity.com/blog/how-expensive-is-a-token-exchange-really/",
-        "source_type": "blog",
-        "lane": "agent-identity",
-        "rationale": "Centralized MCP policy decisions and token-exchange measurement make the agent control plane concrete."
-      },
-      {
-        "title": "Grow CRA Readiness: Navigating the EU Cyber Resilience Act",
-        "url": "https://openssf.org/blog/2026/09/15/grow-cra-readiness-find-your-path-through-the-european-union-cyber-resilience-act/",
-        "source_type": "blog",
-        "lane": "open-source-supply-chain",
-        "rationale": "Role-based CRA readiness fills a coverage gap with an evidence workflow."
-      },
-      {
-        "title": "How IBM Turns Open Source Participation into Enterprise Value",
-        "url": "https://openssf.org/blog/2026/09/25/how-does-ibm-turn-open-source-participation-into-enterprise-and-career-value/",
-        "source_type": "blog",
-        "lane": "open-source-supply-chain",
-        "rationale": "Role-based CRA readiness fills a coverage gap with an evidence workflow."
-      },
-      {
-        "title": "Googlebook’s Built-In Intelligence",
-        "url": "https://blog.google/products-and-platforms/devices/googlebook/googlebook-built-in-intelligence/",
-        "source_type": "product",
-        "lane": "on-device-physical-systems",
-        "rationale": "Diversifies beyond software-only agents with local context, physical constraints, and bounded robotics challenges."
-      },
-      {
-        "title": "Project Suncatcher prototype is in orbit",
-        "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-prototype/",
-        "source_type": "research",
-        "lane": "on-device-physical-systems",
-        "rationale": "Diversifies beyond software-only agents with local context, physical constraints, and bounded robotics challenges."
-      },
-      {
-        "title": "FIRST Global Challenge 2026",
-        "url": "https://first.global/fgc/",
-        "source_type": "product",
-        "lane": "on-device-physical-systems",
-        "rationale": "Diversifies beyond software-only agents with local context, physical constraints, and bounded robotics challenges."
-      },
-      {
-        "title": "FIRST CANOPY 2026–2027",
-        "url": "https://www.firstinspires.org/first-canopy",
-        "source_type": "product",
-        "lane": "on-device-physical-systems",
-        "rationale": "Diversifies beyond software-only agents with local context, physical constraints, and bounded robotics challenges."
-      }
-    ],
-    "editorial_thesis": "Trustworthy agent capability depends on explicit identity decisions, evidence-bearing dependencies, and workflows that remain useful when intelligence moves closer to the device or physical system."
-  },
+  "last_successful_run": "2026-10-08",
   "history": [
     {
       "date": "2026-09-07",
@@ -16366,6 +17059,134 @@
         }
       ],
       "editorial_thesis": "Trustworthy agent capability depends on explicit identity decisions, evidence-bearing dependencies, and workflows that remain useful when intelligence moves closer to the device or physical system."
+    },
+    {
+      "date": "2026-10-08",
+      "selected_lanes": [
+        {
+          "slug": "local-model-choice",
+          "title": "Local Model Choice + Provider Portability",
+          "rationale": "Fresh GitHub CLI support makes local Ollama models visible inside an active agent session; this fills a practical portability gap after yesterday's private retrieval coverage."
+        },
+        {
+          "slug": "agent-execution-boundaries",
+          "title": "Agent Execution Boundaries",
+          "rationale": "Local sandboxing reached general availability across Copilot surfaces, turning agent autonomy into a machine-enforced policy problem rather than a prompt-writing exercise."
+        },
+        {
+          "slug": "secret-detection-at-the-boundary",
+          "title": "Secret Detection at the Boundary",
+          "rationale": "GitHub shipped a detector designed for contextual and unstructured credentials, with separate included and credit-consuming paths; this is a useful supply-chain lane distinct from yesterday's transport check."
+        }
+      ],
+      "items": [
+        {
+          "title": "Discover local models in GitHub Copilot CLI",
+          "url": "https://github.blog/changelog/2026-10-07-discover-local-models-in-github-copilot-cli/",
+          "source_type": "release",
+          "lane": "local-model-choice",
+          "rationale": "Fresh GitHub CLI support makes local Ollama models visible inside an active agent session; this fills a practical portability gap after yesterday's private retrieval coverage."
+        },
+        {
+          "title": "GitHub Copilot CLI provider and offline-mode docs",
+          "url": "https://docs.github.com/copilot/how-tos/copilot-cli/customize-copilot/use-byok-models",
+          "source_type": "docs",
+          "lane": "local-model-choice",
+          "rationale": "Fresh GitHub CLI support makes local Ollama models visible inside an active agent session; this fills a practical portability gap after yesterday's private retrieval coverage."
+        },
+        {
+          "title": "Ollama",
+          "url": "https://ollama.com/",
+          "source_type": "product",
+          "lane": "local-model-choice",
+          "rationale": "Fresh GitHub CLI support makes local Ollama models visible inside an active agent session; this fills a practical portability gap after yesterday's private retrieval coverage."
+        },
+        {
+          "title": "Copilot CLI releases",
+          "url": "https://github.com/github/copilot-cli/releases",
+          "source_type": "release",
+          "lane": "local-model-choice",
+          "rationale": "Fresh GitHub CLI support makes local Ollama models visible inside an active agent session; this fills a practical portability gap after yesterday's private retrieval coverage."
+        },
+        {
+          "title": "GitHub local development announcement",
+          "url": "https://gh.io/localdevelopment",
+          "source_type": "blog",
+          "lane": "local-model-choice",
+          "rationale": "Fresh GitHub CLI support makes local Ollama models visible inside an active agent session; this fills a practical portability gap after yesterday's private retrieval coverage."
+        },
+        {
+          "title": "Local sandboxing for GitHub Copilot now generally available",
+          "url": "https://github.blog/changelog/2026-10-07-local-sandboxing-for-github-copilot-now-generally-available/",
+          "source_type": "release",
+          "lane": "agent-execution-boundaries",
+          "rationale": "Local sandboxing reached general availability across Copilot surfaces, turning agent autonomy into a machine-enforced policy problem rather than a prompt-writing exercise."
+        },
+        {
+          "title": "Microsoft eXecution Container",
+          "url": "https://github.com/microsoft/mxc",
+          "source_type": "repo",
+          "lane": "agent-execution-boundaries",
+          "rationale": "Local sandboxing reached general availability across Copilot surfaces, turning agent autonomy into a machine-enforced policy problem rather than a prompt-writing exercise."
+        },
+        {
+          "title": "Cloud and local sandboxes documentation",
+          "url": "https://docs.github.com/copilot/concepts/security-governance-and-network-settings/about-cloud-and-local-sandboxes",
+          "source_type": "docs",
+          "lane": "agent-execution-boundaries",
+          "rationale": "Local sandboxing reached general availability across Copilot surfaces, turning agent autonomy into a machine-enforced policy problem rather than a prompt-writing exercise."
+        },
+        {
+          "title": "GitHub Copilot app model providers",
+          "url": "https://docs.github.com/copilot/how-tos/github-copilot-app/use-byok-models",
+          "source_type": "docs",
+          "lane": "agent-execution-boundaries",
+          "rationale": "Local sandboxing reached general availability across Copilot surfaces, turning agent autonomy into a machine-enforced policy problem rather than a prompt-writing exercise."
+        },
+        {
+          "title": "Copilot CLI",
+          "url": "https://github.com/github/copilot-cli",
+          "source_type": "repo",
+          "lane": "agent-execution-boundaries",
+          "rationale": "Local sandboxing reached general availability across Copilot surfaces, turning agent autonomy into a machine-enforced policy problem rather than a prompt-writing exercise."
+        },
+        {
+          "title": "Purpose-built model for leaked secret detection",
+          "url": "https://github.blog/changelog/2026-10-07-purpose-built-model-for-leaked-secret-detection/",
+          "source_type": "release",
+          "lane": "secret-detection-at-the-boundary",
+          "rationale": "GitHub shipped a detector designed for contextual and unstructured credentials, with separate included and credit-consuming paths; this is a useful supply-chain lane distinct from yesterday's transport check."
+        },
+        {
+          "title": "GitHub Secret Protection",
+          "url": "https://docs.github.com/code-security/securing-your-organization/understanding-your-organizations-exposure-to-secrets/about-secret-protection",
+          "source_type": "docs",
+          "lane": "secret-detection-at-the-boundary",
+          "rationale": "GitHub shipped a detector designed for contextual and unstructured credentials, with separate included and credit-consuming paths; this is a useful supply-chain lane distinct from yesterday's transport check."
+        },
+        {
+          "title": "GitHub Advanced Security",
+          "url": "https://docs.github.com/code-security/code-scanning/introduction-to-code-scanning/about-code-scanning",
+          "source_type": "docs",
+          "lane": "secret-detection-at-the-boundary",
+          "rationale": "GitHub shipped a detector designed for contextual and unstructured credentials, with separate included and credit-consuming paths; this is a useful supply-chain lane distinct from yesterday's transport check."
+        },
+        {
+          "title": "GitHub AI usage insights",
+          "url": "https://docs.github.com/billing/managing-billing-for-your-products/managing-billing-for-github-copilot/about-usage-of-github-copilot-features",
+          "source_type": "docs",
+          "lane": "secret-detection-at-the-boundary",
+          "rationale": "GitHub shipped a detector designed for contextual and unstructured credentials, with separate included and credit-consuming paths; this is a useful supply-chain lane distinct from yesterday's transport check."
+        },
+        {
+          "title": "GitHub security overview",
+          "url": "https://docs.github.com/code-security/security-overview/about-security-overview",
+          "source_type": "docs",
+          "lane": "secret-detection-at-the-boundary",
+          "rationale": "GitHub shipped a detector designed for contextual and unstructured credentials, with separate included and credit-consuming paths; this is a useful supply-chain lane distinct from yesterday's transport check."
+        }
+      ],
+      "editorial_thesis": "The most useful agent progress today is boundary work: choose the right local or hosted model, constrain execution on the developer machine, and catch secrets with a purpose-built detector before they become durable incidents."
     }
   ],
   "daily_runs": [
@@ -16488,7 +17309,135 @@
         }
       ],
       "editorial_thesis": "Trustworthy agent capability depends on explicit identity decisions, evidence-bearing dependencies, and workflows that remain useful when intelligence moves closer to the device or physical system."
+    },
+    {
+      "date": "2026-10-08",
+      "selected_lanes": [
+        {
+          "slug": "local-model-choice",
+          "title": "Local Model Choice + Provider Portability",
+          "rationale": "Fresh GitHub CLI support makes local Ollama models visible inside an active agent session; this fills a practical portability gap after yesterday's private retrieval coverage."
+        },
+        {
+          "slug": "agent-execution-boundaries",
+          "title": "Agent Execution Boundaries",
+          "rationale": "Local sandboxing reached general availability across Copilot surfaces, turning agent autonomy into a machine-enforced policy problem rather than a prompt-writing exercise."
+        },
+        {
+          "slug": "secret-detection-at-the-boundary",
+          "title": "Secret Detection at the Boundary",
+          "rationale": "GitHub shipped a detector designed for contextual and unstructured credentials, with separate included and credit-consuming paths; this is a useful supply-chain lane distinct from yesterday's transport check."
+        }
+      ],
+      "items": [
+        {
+          "title": "Discover local models in GitHub Copilot CLI",
+          "url": "https://github.blog/changelog/2026-10-07-discover-local-models-in-github-copilot-cli/",
+          "source_type": "release",
+          "lane": "local-model-choice",
+          "rationale": "Fresh GitHub CLI support makes local Ollama models visible inside an active agent session; this fills a practical portability gap after yesterday's private retrieval coverage."
+        },
+        {
+          "title": "GitHub Copilot CLI provider and offline-mode docs",
+          "url": "https://docs.github.com/copilot/how-tos/copilot-cli/customize-copilot/use-byok-models",
+          "source_type": "docs",
+          "lane": "local-model-choice",
+          "rationale": "Fresh GitHub CLI support makes local Ollama models visible inside an active agent session; this fills a practical portability gap after yesterday's private retrieval coverage."
+        },
+        {
+          "title": "Ollama",
+          "url": "https://ollama.com/",
+          "source_type": "product",
+          "lane": "local-model-choice",
+          "rationale": "Fresh GitHub CLI support makes local Ollama models visible inside an active agent session; this fills a practical portability gap after yesterday's private retrieval coverage."
+        },
+        {
+          "title": "Copilot CLI releases",
+          "url": "https://github.com/github/copilot-cli/releases",
+          "source_type": "release",
+          "lane": "local-model-choice",
+          "rationale": "Fresh GitHub CLI support makes local Ollama models visible inside an active agent session; this fills a practical portability gap after yesterday's private retrieval coverage."
+        },
+        {
+          "title": "GitHub local development announcement",
+          "url": "https://gh.io/localdevelopment",
+          "source_type": "blog",
+          "lane": "local-model-choice",
+          "rationale": "Fresh GitHub CLI support makes local Ollama models visible inside an active agent session; this fills a practical portability gap after yesterday's private retrieval coverage."
+        },
+        {
+          "title": "Local sandboxing for GitHub Copilot now generally available",
+          "url": "https://github.blog/changelog/2026-10-07-local-sandboxing-for-github-copilot-now-generally-available/",
+          "source_type": "release",
+          "lane": "agent-execution-boundaries",
+          "rationale": "Local sandboxing reached general availability across Copilot surfaces, turning agent autonomy into a machine-enforced policy problem rather than a prompt-writing exercise."
+        },
+        {
+          "title": "Microsoft eXecution Container",
+          "url": "https://github.com/microsoft/mxc",
+          "source_type": "repo",
+          "lane": "agent-execution-boundaries",
+          "rationale": "Local sandboxing reached general availability across Copilot surfaces, turning agent autonomy into a machine-enforced policy problem rather than a prompt-writing exercise."
+        },
+        {
+          "title": "Cloud and local sandboxes documentation",
+          "url": "https://docs.github.com/copilot/concepts/security-governance-and-network-settings/about-cloud-and-local-sandboxes",
+          "source_type": "docs",
+          "lane": "agent-execution-boundaries",
+          "rationale": "Local sandboxing reached general availability across Copilot surfaces, turning agent autonomy into a machine-enforced policy problem rather than a prompt-writing exercise."
+        },
+        {
+          "title": "GitHub Copilot app model providers",
+          "url": "https://docs.github.com/copilot/how-tos/github-copilot-app/use-byok-models",
+          "source_type": "docs",
+          "lane": "agent-execution-boundaries",
+          "rationale": "Local sandboxing reached general availability across Copilot surfaces, turning agent autonomy into a machine-enforced policy problem rather than a prompt-writing exercise."
+        },
+        {
+          "title": "Copilot CLI",
+          "url": "https://github.com/github/copilot-cli",
+          "source_type": "repo",
+          "lane": "agent-execution-boundaries",
+          "rationale": "Local sandboxing reached general availability across Copilot surfaces, turning agent autonomy into a machine-enforced policy problem rather than a prompt-writing exercise."
+        },
+        {
+          "title": "Purpose-built model for leaked secret detection",
+          "url": "https://github.blog/changelog/2026-10-07-purpose-built-model-for-leaked-secret-detection/",
+          "source_type": "release",
+          "lane": "secret-detection-at-the-boundary",
+          "rationale": "GitHub shipped a detector designed for contextual and unstructured credentials, with separate included and credit-consuming paths; this is a useful supply-chain lane distinct from yesterday's transport check."
+        },
+        {
+          "title": "GitHub Secret Protection",
+          "url": "https://docs.github.com/code-security/securing-your-organization/understanding-your-organizations-exposure-to-secrets/about-secret-protection",
+          "source_type": "docs",
+          "lane": "secret-detection-at-the-boundary",
+          "rationale": "GitHub shipped a detector designed for contextual and unstructured credentials, with separate included and credit-consuming paths; this is a useful supply-chain lane distinct from yesterday's transport check."
+        },
+        {
+          "title": "GitHub Advanced Security",
+          "url": "https://docs.github.com/code-security/code-scanning/introduction-to-code-scanning/about-code-scanning",
+          "source_type": "docs",
+          "lane": "secret-detection-at-the-boundary",
+          "rationale": "GitHub shipped a detector designed for contextual and unstructured credentials, with separate included and credit-consuming paths; this is a useful supply-chain lane distinct from yesterday's transport check."
+        },
+        {
+          "title": "GitHub AI usage insights",
+          "url": "https://docs.github.com/billing/managing-billing-for-your-products/managing-billing-for-github-copilot/about-usage-of-github-copilot-features",
+          "source_type": "docs",
+          "lane": "secret-detection-at-the-boundary",
+          "rationale": "GitHub shipped a detector designed for contextual and unstructured credentials, with separate included and credit-consuming paths; this is a useful supply-chain lane distinct from yesterday's transport check."
+        },
+        {
+          "title": "GitHub security overview",
+          "url": "https://docs.github.com/code-security/security-overview/about-security-overview",
+          "source_type": "docs",
+          "lane": "secret-detection-at-the-boundary",
+          "rationale": "GitHub shipped a detector designed for contextual and unstructured credentials, with separate included and credit-consuming paths; this is a useful supply-chain lane distinct from yesterday's transport check."
+        }
+      ],
+      "editorial_thesis": "The most useful agent progress today is boundary work: choose the right local or hosted model, constrain execution on the developer machine, and catch secrets with a purpose-built detector before they become durable incidents."
     }
   ],
-  "last_updated": "2026-10-06"
+  "last_updated": "2026-10-08T08:00:40Z"
 }

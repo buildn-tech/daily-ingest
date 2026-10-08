@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-08",
+  "generated_at": "2026-10-08T08:00:40Z",
+  "editorial_thesis": "The most useful agent progress today is boundary work: choose the right local or hosted model, constrain execution on the developer machine, and catch secrets with a purpose-built detector before they become durable incidents.",
+  "topic_groups": [
+    {
+      "slug": "local-model-choice",
+      "title": "Local Model Choice + Provider Portability",
+      "selection_rationale": "Fresh GitHub CLI support makes local Ollama models visible inside an active agent session; this fills a practical portability gap after yesterday's private retrieval coverage.",
+      "sources": [
+        {"title":"Discover local models in GitHub Copilot CLI","url":"https://github.blog/changelog/2026-10-07-discover-local-models-in-github-copilot-cli/","source_type":"release","published_or_updated":"2026-10-07","why_selected":"Copilot CLI 1.0.94-0 can discover tool-capable models from a running Ollama instance.","usefulness":"Test local routing without rebuilding the agent workflow."},
+        {"title":"GitHub Copilot CLI provider and offline-mode docs","url":"https://docs.github.com/copilot/how-tos/copilot-cli/customize-copilot/use-byok-models","source_type":"docs","published_or_updated":"unknown","why_selected":"The docs clarify provider configuration and the limits of offline mode.","usefulness":"Prevent a local-model assumption from becoming a data-egress mistake."},
+        {"title":"Ollama","url":"https://ollama.com/","source_type":"product","published_or_updated":"unknown","why_selected":"The local runtime is the concrete dependency behind the new discovery path.","usefulness":"Run a bounded local model trial on a real workstation."},
+        {"title":"Copilot CLI releases","url":"https://github.com/github/copilot-cli/releases","source_type":"release","published_or_updated":"2026-10-07","why_selected":"Versioning matters because discovery starts at CLI 1.0.94-0.","usefulness":"Pin and reproduce the exact client/runtime combination."},
+        {"title":"GitHub local development announcement","url":"https://gh.io/localdevelopment","source_type":"blog","published_or_updated":"2026-10-07","why_selected":"GitHub links the feature to intelligent routing with local models.","usefulness":"Watch for routing policy details before standardizing the pattern."}
+      ]
+    },
+    {
+      "slug": "agent-execution-boundaries",
+      "title": "Agent Execution Boundaries",
+      "selection_rationale": "Local sandboxing reached general availability across Copilot surfaces, turning agent autonomy into a machine-enforced policy problem rather than a prompt-writing exercise.",
+      "sources": [
+        {"title":"Local sandboxing for GitHub Copilot now generally available","url":"https://github.blog/changelog/2026-10-07-local-sandboxing-for-github-copilot-now-generally-available/","source_type":"release","published_or_updated":"2026-10-07","why_selected":"Sandbox policies now constrain filesystem, network, credentials, and local tools.","usefulness":"Translate client agent pilots into explicit allowlists and deny paths."},
+        {"title":"Microsoft eXecution Container","url":"https://github.com/microsoft/mxc","source_type":"repo","published_or_updated":"2026-10-07","why_selected":"MXC provides a common policy translated into native controls on Windows, macOS, and Linux.","usefulness":"Inspect the policy substrate instead of treating sandboxing as a black box."},
+        {"title":"Cloud and local sandboxes documentation","url":"https://docs.github.com/copilot/concepts/security-governance-and-network-settings/about-cloud-and-local-sandboxes","source_type":"docs","published_or_updated":"2026-10-07","why_selected":"The docs define configuration and enterprise enforcement surfaces.","usefulness":"Create a deployment checklist for local and cloud agent modes."},
+        {"title":"GitHub Copilot app model providers","url":"https://docs.github.com/copilot/how-tos/github-copilot-app/use-byok-models","source_type":"docs","published_or_updated":"unknown","why_selected":"Model choice and tool isolation are separate controls.","usefulness":"Keep provider selection from weakening execution policy."},
+        {"title":"Copilot CLI","url":"https://github.com/github/copilot-cli","source_type":"repo","published_or_updated":"2026-10-07","why_selected":"The CLI is a concrete surface for testing the boundary with terminal tasks.","usefulness":"Run a harmless filesystem/network canary before broader rollout."}
+      ]
+    },
+    {
+      "slug": "secret-detection-at-the-boundary",
+      "title": "Secret Detection at the Boundary",
+      "selection_rationale": "GitHub shipped a detector designed for contextual and unstructured credentials, with separate included and credit-consuming paths; this is a useful supply-chain lane distinct from yesterday's transport check.",
+      "sources": [
+        {"title":"Purpose-built model for leaked secret detection","url":"https://github.blog/changelog/2026-10-07-purpose-built-model-for-leaked-secret-detection/","source_type":"release","published_or_updated":"2026-10-07","why_selected":"The model uses surrounding code to detect credentials that token-pattern rules miss.","usefulness":"Add a pre-push control for agent-generated configuration and prose."},
+        {"title":"GitHub Secret Protection","url":"https://docs.github.com/code-security/securing-your-organization/understanding-your-organizations-exposure-to-secrets/about-secret-protection","source_type":"docs","published_or_updated":"unknown","why_selected":"Secret Protection is the licensing and policy context for included AI alerts.","usefulness":"Separate entitlement, enablement, and observed coverage in a scorecard."},
+        {"title":"GitHub Advanced Security","url":"https://docs.github.com/code-security/code-scanning/introduction-to-code-scanning/about-code-scanning","source_type":"docs","published_or_updated":"unknown","why_selected":"The security platform connects secret scanning with broader code-scanning workflows.","usefulness":"Place agent security review inside an existing control plane."},
+        {"title":"GitHub AI usage insights","url":"https://docs.github.com/billing/managing-billing-for-your-products/managing-billing-for-github-copilot/about-usage-of-github-copilot-features","source_type":"docs","published_or_updated":"unknown","why_selected":"Preview push protection and security-review checks consume AI Credits.","usefulness":"Budget the new checks before enabling them across high-volume repos."},
+        {"title":"GitHub security overview","url":"https://docs.github.com/code-security/security-overview/about-security-overview","source_type":"docs","published_or_updated":"unknown","why_selected":"Portfolio-level visibility makes control state reportable.","usefulness":"Track enabled, configured, observed, and remediated—not just alert counts."}
+      ]
+    }
+  ]
+}
