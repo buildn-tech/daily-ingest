@@ -1,6 +1,106 @@
 {
-  "updated_at": "2026-10-08T08:03:20.396008+00:00",
+  "updated_at": "2026-10-09T08:02:41.987630+00:00",
   "sources": {
+    "https://openai.com/index/legalon-halves-codex-costs": {
+      "first_seen": "2026-10-09",
+      "last_seen": "2026-10-09",
+      "title": "LegalOn halves Codex costs while maintaining development speed"
+    },
+    "https://openai.com/index/oracle": {
+      "first_seen": "2026-10-09",
+      "last_seen": "2026-10-09",
+      "title": "How Oracle turns days of work into minutes with ChatGPT and Codex"
+    },
+    "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-at-work": {
+      "first_seen": "2026-10-09",
+      "last_seen": "2026-10-09",
+      "title": "Google Cloud introduces the Gemini agent"
+    },
+    "https://www.anthropic.com/news/barclays-scales-claude": {
+      "first_seen": "2026-10-09",
+      "last_seen": "2026-10-09",
+      "title": "Barclays scales Claude to upgrade operations"
+    },
+    "https://www.anthropic.com/news/claude-frontier-academy": {
+      "first_seen": "2026-10-09",
+      "last_seen": "2026-10-09",
+      "title": "Claude Frontier Academy"
+    },
+    "https://openai.com/index/pollo-ai": {
+      "first_seen": "2026-10-09",
+      "last_seen": "2026-10-09",
+      "title": "Pollo AI turns creative ideas into campaigns with OpenAI"
+    },
+    "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform": {
+      "first_seen": "2026-10-09",
+      "last_seen": "2026-10-09",
+      "title": "Playground: Create and Play Custom Games"
+    },
+    "https://adsknews.autodesk.com/en/news/autodesk-ai-design-manufacturing-au-2026": {
+      "first_seen": "2026-10-09",
+      "last_seen": "2026-10-09",
+      "title": "Autodesk advances AI for design and manufacturing"
+    },
+    "https://designerfund.com/blog/ai-in-design-2026": {
+      "first_seen": "2026-10-09",
+      "last_seen": "2026-09-03",
+      "title": "AI in Design 2026: the inflection point is here"
+    },
+    "https://blog.google/innovation-and-ai/technology/developers-tools/ai-agents-intensive-recap-2026": {
+      "first_seen": "2026-10-09",
+      "last_seen": "2026-10-09",
+      "title": "Inside our 353,000-person vibe coding course"
+    },
+    "https://openai.com/index/sharing-ai-progress-in-mathematics": {
+      "first_seen": "2026-10-09",
+      "last_seen": "2026-10-09",
+      "title": "Sharing AI progress in mathematics"
+    },
+    "https://github.com/openai/math": {
+      "first_seen": "2026-10-09",
+      "last_seen": "2026-10-09",
+      "title": "OpenAI mathematics repository"
+    },
+    "https://agmai.org/general-sep29": {
+      "first_seen": "2026-10-09",
+      "last_seen": "2026-10-09",
+      "title": "Advisory Group on Mathematics and AI"
+    },
+    "https://www.apqc.org/resource-library/resource-listing/2026-knowledge-management-priorities-and-trends-survey-report": {
+      "first_seen": "2026-10-09",
+      "last_seen": "2026-08-19",
+      "title": "2026 KM Priorities and Trends Survey"
+    },
+    "https://www.anthropic.com/research/what-work-can-robots-do": {
+      "first_seen": "2026-10-09",
+      "last_seen": "2026-10-09",
+      "title": "Can we predict the jobs robots will do?"
+    },
+    "https://blog.google/innovation-and-ai/technology/safety-security/how-to-set-up-passkey": {
+      "first_seen": "2026-10-09",
+      "last_seen": "2026-10-09",
+      "title": "Sign in quickly and securely with passkeys"
+    },
+    "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/synth-id-ai-content": {
+      "first_seen": "2026-10-09",
+      "last_seen": "2026-10-09",
+      "title": "We\u2019re making it easier to identify AI-generated content"
+    },
+    "https://blog.google/products-and-platforms/platforms/google-pay/zero-knowledge-proof-library-linux-foundation": {
+      "first_seen": "2026-10-09",
+      "last_seen": "2026-10-09",
+      "title": "Zero-knowledge-proof library donation"
+    },
+    "https://www.anthropic.com/news/cyber-verification-program": {
+      "first_seen": "2026-10-09",
+      "last_seen": "2026-10-09",
+      "title": "Expanding the Cyber Verification Program"
+    },
+    "https://deepmind.google/technologies/synthid": {
+      "first_seen": "2026-10-09",
+      "last_seen": "2026-10-09",
+      "title": "Google DeepMind SynthID"
+    },
     "https://github.blog/changelog/2026-10-07-discover-local-models-in-github-copilot-cli": {
       "first_seen": "2026-10-08",
       "last_seen": "2026-10-08",
@@ -450,11 +550,6 @@
       "first_seen": "2026-09-30",
       "last_seen": "2026-09-30",
       "title": "Voice becomes an API primitive"
-    },
-    "https://www.apqc.org/resource-library/resource-listing/2026-knowledge-management-priorities-and-trends-survey-report": {
-      "first_seen": "2026-09-30",
-      "last_seen": "2026-08-19",
-      "title": "2026 KM Priorities and Trends Survey"
     },
     "https://www.fanucamerica.com/press-releases/fanuc-america-brings-robotics-automation-physical-ai-and-cnc-innovation-to-imts-2026": {
       "first_seen": "2026-09-30",
@@ -1775,11 +1870,6 @@
       "first_seen": "2026-09-03",
       "last_seen": "2026-09-03",
       "title": "Win across all three eras of the web"
-    },
-    "https://designerfund.com/blog/ai-in-design-2026": {
-      "first_seen": "2026-09-03",
-      "last_seen": "2026-09-03",
-      "title": "AI in Design 2026: the inflection point is here"
     },
     "https://saviynt.com/press-release/saviynt-unlock-2026-roadshow?hsLang=en": {
       "first_seen": "2026-09-03",

@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-10-08T08:03:20.396008+00:00",
+  "updated_at": "2026-10-09T08:02:41.987630+00:00",
   "days": [
+    {
+      "date": "2026-10-09",
+      "path": "2026-10-09",
+      "reports": [
+        {
+          "lane": "enterprise-agent-operations",
+          "title": "Enterprise Agent Operations",
+          "url": "2026-10-09/enterprise-agent-operations.html"
+        },
+        {
+          "lane": "creative-production-systems",
+          "title": "Creative Production Systems",
+          "url": "2026-10-09/creative-production-systems.html"
+        },
+        {
+          "lane": "proof-carrying-ai-research",
+          "title": "Proof-Carrying AI Research",
+          "url": "2026-10-09/proof-carrying-ai-research.html"
+        },
+        {
+          "lane": "identity-and-trust-interfaces",
+          "title": "Identity + Trust Interfaces",
+          "url": "2026-10-09/identity-and-trust-interfaces.html"
+        }
+      ]
+    },
     {
       "date": "2026-10-08",
       "path": "2026-10-08",

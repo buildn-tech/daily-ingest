@@ -1,0 +1,195 @@
+{
+  "date": "2026-10-09",
+  "generated_at": "2026-10-09T08:03:00Z",
+  "editorial_thesis": "Useful AI progress is moving into operating systems for work: routing and budgets, guided production, evidence-bearing research, and identity interfaces that make capability governable.",
+  "topic_groups": [
+    {
+      "slug": "enterprise-agent-operations",
+      "title": "Enterprise Agent Operations",
+      "selection_rationale": "Fresh enterprise case studies move the conversation from \u201ccan agents help?\u201d to operating design: model routing, ontologies, budgets, accountability, and repeatable deployment.",
+      "sources": [
+        {
+          "title": "LegalOn halves Codex costs while maintaining development speed",
+          "url": "https://openai.com/index/legalon-halves-codex-costs/",
+          "source_type": "case_study",
+          "published_or_updated": "2026-10-02 to 2026-10-08",
+          "why_selected": "AID CoE, task-based model routing, Fast-mode exceptions, and tiered budgets reportedly cut estimated daily costs about 65% while preserving development speed.",
+          "usefulness": "Use a lightweight-first routing policy, reserve frontier modes for architecture and orchestration, and give new initiatives more budget than mature workflows."
+        },
+        {
+          "title": "How Oracle turns days of work into minutes with ChatGPT and Codex",
+          "url": "https://openai.com/index/oracle/",
+          "source_type": "case_study",
+          "published_or_updated": "2026-10-02 to 2026-10-08",
+          "why_selected": "Oracle combines business ontologies, natural-language requests, Codex, and human review across recruiting, analytics, operations, and incident response.",
+          "usefulness": "The reusable pattern is outcome intake \u2192 governed system access \u2192 checked output, not a generic chatbot bolted onto a database."
+        },
+        {
+          "title": "Google Cloud introduces the Gemini agent",
+          "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-at-work/",
+          "source_type": "product",
+          "published_or_updated": "2026-10-02 to 2026-10-08",
+          "why_selected": "Google Cloud positions a universal work agent around business context, skills, tools, model choice, cost controls, and enterprise governance.",
+          "usefulness": "Treat the prompt window as an orchestration surface over existing documents, inboxes, and developer environments."
+        },
+        {
+          "title": "Barclays scales Claude to upgrade operations",
+          "url": "https://www.anthropic.com/news/barclays-scales-claude",
+          "source_type": "case_study",
+          "published_or_updated": "2026-10-02 to 2026-10-08",
+          "why_selected": "A large bank is extending Claude across software development, legacy modernization, and operational work.",
+          "usefulness": "Enterprise adoption is becoming portfolio management: prioritize repeatable high-friction work, then measure throughput and quality."
+        },
+        {
+          "title": "Claude Frontier Academy",
+          "url": "https://www.anthropic.com/news/claude-frontier-academy",
+          "source_type": "program",
+          "published_or_updated": "2026-10-02 to 2026-10-08",
+          "why_selected": "Anthropic announced a $100M program to train 10,000 engineers, signaling that agent deployment capacity is becoming a labor and enablement constraint.",
+          "usefulness": "Buildn can package agent literacy as operating practice: task selection, review, cost, and failure handling."
+        }
+      ]
+    },
+    {
+      "slug": "creative-production-systems",
+      "title": "Creative Production Systems",
+      "selection_rationale": "A neglected lane earns inclusion because current tools are making orchestration, templates, and distribution\u2014not raw generation\u2014the practical creative leverage point.",
+      "sources": [
+        {
+          "title": "Pollo AI turns creative ideas into campaigns with OpenAI",
+          "url": "https://openai.com/index/pollo-ai/",
+          "source_type": "case_study",
+          "published_or_updated": "2026-10-02 to 2026-10-08",
+          "why_selected": "Pollo Agent turns rough ideas and product photos into storylines, scenes, images, and short campaign videos, using different models for routing, reasoning, and image generation.",
+          "usefulness": "A Buildn/client offer could standardize campaign briefs, variant generation, and approval evidence while leaving model choice behind the scenes."
+        },
+        {
+          "title": "Playground: Create and Play Custom Games",
+          "url": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/",
+          "source_type": "product",
+          "published_or_updated": "2026-10-02 to 2026-10-08",
+          "why_selected": "Google Playground lets users create, remix, play, and share browser games from natural-language prompts, with community discovery and a possible path into Unity.",
+          "usefulness": "It is a useful reference for \u201cprompt to artifact\u201d UX: immediate feedback, remixability, sharing, and progressive depth."
+        },
+        {
+          "title": "Autodesk advances AI for design and manufacturing",
+          "url": "https://adsknews.autodesk.com/en/news/autodesk-ai-design-manufacturing-au-2026/",
+          "source_type": "product",
+          "published_or_updated": "2026-10-02 to 2026-10-08",
+          "why_selected": "Autodesk is applying AI across repetitive design, engineering, and manufacturing workflows rather than treating generation as a standalone feature.",
+          "usefulness": "Vertical workflow context is the moat: embed suggestions where constraints, files, approvals, and downstream production already exist."
+        },
+        {
+          "title": "AI in Design 2026: the inflection point is here",
+          "url": "https://designerfund.com/blog/ai-in-design-2026",
+          "source_type": "research",
+          "published_or_updated": "2026-10-02 to 2026-10-08",
+          "why_selected": "Designer Fund reports a nuanced shift toward designers owning more and shipping more, rather than simple replacement narratives.",
+          "usefulness": "Use AI to widen exploration while preserving a human-owned decision record for the final direction."
+        },
+        {
+          "title": "Inside our 353,000-person vibe coding course",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/ai-agents-intensive-recap-2026/",
+          "source_type": "program",
+          "published_or_updated": "2026-10-02 to 2026-10-08",
+          "why_selected": "Google describes a large-scale program for learning agent-assisted building, a signal that creative production and lightweight software creation are converging.",
+          "usefulness": "Client prototyping can become a structured service: prompt, test, critique, and harden\u2014not one-shot vibe coding."
+        }
+      ]
+    },
+    {
+      "slug": "proof-carrying-ai-research",
+      "title": "Proof-Carrying AI Research",
+      "selection_rationale": "Research transparency and formal verification are under-covered relative to product launches, yet they offer a concrete pattern for trustworthy AI outputs.",
+      "sources": [
+        {
+          "title": "Sharing AI progress in mathematics",
+          "url": "https://openai.com/index/sharing-ai-progress-in-mathematics/",
+          "source_type": "research_release",
+          "published_or_updated": "2026-10-02 to 2026-10-08",
+          "why_selected": "OpenAI released AI-produced mathematical results with citations, revision protocols, Lean formalizations, reasoning summaries, compute estimates, and attempt statistics.",
+          "usefulness": "Buildn reports can attach provenance, supporting evidence, revision history, and machine-checkable artifacts to recommendations."
+        },
+        {
+          "title": "OpenAI mathematics repository",
+          "url": "https://github.com/openai/math",
+          "source_type": "repository",
+          "published_or_updated": "2026-10-02 to 2026-10-08",
+          "why_selected": "The accompanying repository is the concrete artifact surface for papers, formalizations, and release updates.",
+          "usefulness": "Repositories make research outputs inspectable, forkable, and auditable instead of trapping them in a polished page."
+        },
+        {
+          "title": "Advisory Group on Mathematics and AI",
+          "url": "https://agmai.org/general-sep29/",
+          "source_type": "guidance",
+          "published_or_updated": "2026-10-02 to 2026-10-08",
+          "why_selected": "The advisory group publishes recommendations for responsible sharing of major AI-generated mathematical results.",
+          "usefulness": "External release guidance is a useful check against overstating novelty, hiding uncertainty, or omitting provenance."
+        },
+        {
+          "title": "2026 Knowledge Management Priorities and Trends Survey",
+          "url": "https://www.apqc.org/resource-library/resource-listing/2026-knowledge-management-priorities-and-trends-survey-report",
+          "source_type": "survey",
+          "published_or_updated": "2026-10-02 to 2026-10-08",
+          "why_selected": "APQC\u2019s survey offers current evidence about where knowledge-management teams are directing effort and attention.",
+          "usefulness": "Pair AI retrieval with explicit knowledge ownership, lifecycle, and usefulness measures."
+        },
+        {
+          "title": "Can we predict the jobs robots will do?",
+          "url": "https://www.anthropic.com/research/what-work-can-robots-do",
+          "source_type": "research",
+          "published_or_updated": "2026-10-02 to 2026-10-08",
+          "why_selected": "Anthropic analyzes which kinds of work may be exposed to robotic automation, linking task structure to physical-world deployment.",
+          "usefulness": "The task-level lens transfers to agent opportunity mapping: decompose jobs into observable, repeatable, reviewable units."
+        }
+      ]
+    },
+    {
+      "slug": "identity-and-trust-interfaces",
+      "title": "Identity + Trust Interfaces",
+      "selection_rationale": "Identity is a coverage gap and a practical prerequisite for agentic work: secure sign-in, content provenance, and tiered access determine whether automation can be trusted.",
+      "sources": [
+        {
+          "title": "Sign in quickly and securely with passkeys",
+          "url": "https://blog.google/innovation-and-ai/technology/safety-security/how-to-set-up-passkey/",
+          "source_type": "security_guidance",
+          "published_or_updated": "2026-10-02 to 2026-10-08",
+          "why_selected": "Google is using Cybersecurity Awareness Month to push passkeys as device-bound, phishing-resistant sign-in.",
+          "usefulness": "Make strong authentication the default for operator and client surfaces before adding more automation."
+        },
+        {
+          "title": "We\u2019re making it easier to identify AI-generated content",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/synth-id-ai-content/",
+          "source_type": "provenance",
+          "published_or_updated": "2026-10-02 to 2026-10-08",
+          "why_selected": "Google DeepMind describes SynthID work to identify AI-generated content across media types.",
+          "usefulness": "Generated artifacts should carry provenance and disclosure metadata where possible, especially in client-facing creative workflows."
+        },
+        {
+          "title": "Zero-knowledge-proof library donation",
+          "url": "https://blog.google/products-and-platforms/platforms/google-pay/zero-knowledge-proof-library-linux-foundation/",
+          "source_type": "privacy_infrastructure",
+          "published_or_updated": "2026-10-02 to 2026-10-08",
+          "why_selected": "Google highlights a Linux Foundation Europe effort around a more private digital world using zero-knowledge proof technology.",
+          "usefulness": "Privacy-preserving claims can reduce the need to expose raw identity or event data to an agent."
+        },
+        {
+          "title": "Expanding the Cyber Verification Program",
+          "url": "https://www.anthropic.com/news/cyber-verification-program",
+          "source_type": "security_program",
+          "published_or_updated": "2026-10-02 to 2026-10-08",
+          "why_selected": "Anthropic\u2019s three access tiers separate defensive work, authorized red teaming, and specialized critical-system testing.",
+          "usefulness": "Capability should follow identity, authorization, target scope, and review depth\u2014not just a user\u2019s prompt."
+        },
+        {
+          "title": "Google DeepMind SynthID",
+          "url": "https://deepmind.google/technologies/synthid/",
+          "source_type": "product/docs",
+          "published_or_updated": "2026-10-02 to 2026-10-08",
+          "why_selected": "SynthID provides a product-level view of watermarking and provenance across generated media.",
+          "usefulness": "A provenance control is more useful when it is attached to the artifact lifecycle, not added at publication time."
+        }
+      ]
+    }
+  ]
+}
