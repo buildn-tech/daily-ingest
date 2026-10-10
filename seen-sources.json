@@ -1,6 +1,106 @@
 {
-  "updated_at": "2026-10-09T08:02:41.987630+00:00",
+  "updated_at": "2026-10-10T08:02:32.894396+00:00",
   "sources": {
+    "https://openai.com/index/asana-browser-agent": {
+      "first_seen": "2026-10-10",
+      "last_seen": "2026-10-10",
+      "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol"
+    },
+    "https://developers.openai.com/api/docs/guides/agents-api/tools/computer-use": {
+      "first_seen": "2026-10-10",
+      "last_seen": "2026-10-07",
+      "title": "Agents API computer use"
+    },
+    "https://openai.com/index/advancing-computer-use-with-ironclad": {
+      "first_seen": "2026-10-10",
+      "last_seen": "2026-10-07",
+      "title": "Advancing computer use with Ironclad"
+    },
+    "https://developer.chrome.com/docs/devtools/mcp": {
+      "first_seen": "2026-10-10",
+      "last_seen": "2026-10-06",
+      "title": "Chrome DevTools MCP docs"
+    },
+    "https://developer.chrome.com/blog/chrome-devtools-mcp-debug-your-browser-session": {
+      "first_seen": "2026-10-10",
+      "last_seen": "2026-10-10",
+      "title": "Chrome DevTools: debug your browser session"
+    },
+    "https://www.anthropic.com/news/cyber-verification-program": {
+      "first_seen": "2026-10-10",
+      "last_seen": "2026-10-09",
+      "title": "Expanding the Cyber Verification Program"
+    },
+    "https://github.blog/changelog/2026-10-09-codeql-2-27-2-improves-c-go-rust-and-javascript-analysis": {
+      "first_seen": "2026-10-10",
+      "last_seen": "2026-10-10",
+      "title": "CodeQL 2.27.2 improves C++, Go, Rust, and JavaScript"
+    },
+    "https://github.blog/changelog/2026-07-14-code-scanning-shows-ai-security-detections-on-pull-requests": {
+      "first_seen": "2026-10-10",
+      "last_seen": "2026-07-16",
+      "title": "AI security detections on pull requests"
+    },
+    "https://github.blog/changelog/2026-06-09-security-validation-for-third-party-coding-agents": {
+      "first_seen": "2026-10-10",
+      "last_seen": "2026-10-10",
+      "title": "Security validation for third-party coding agents"
+    },
+    "https://www.anthropic.com/news/anthropic-cyber-mission": {
+      "first_seen": "2026-10-10",
+      "last_seen": "2026-10-10",
+      "title": "Anthropic Cyber Mission"
+    },
+    "https://www.anthropic.com/news/claude-science-ai-workbench": {
+      "first_seen": "2026-10-10",
+      "last_seen": "2026-10-10",
+      "title": "Claude Science, an AI workbench for scientists"
+    },
+    "https://www.anthropic.com/news/healthcare-life-sciences": {
+      "first_seen": "2026-10-10",
+      "last_seen": "2026-10-10",
+      "title": "Advancing Claude in healthcare and the life sciences"
+    },
+    "https://www.anthropic.com/news/claude-for-life-sciences": {
+      "first_seen": "2026-10-10",
+      "last_seen": "2026-10-10",
+      "title": "Claude for Life Sciences"
+    },
+    "https://cloud.google.com/resources/content/ai-agent-trends-healthcare-life-sciences-2026": {
+      "first_seen": "2026-10-10",
+      "last_seen": "2026-10-10",
+      "title": "Google Cloud AI Agent Trends in Healthcare & Life Sciences 2026"
+    },
+    "https://www.microsoft.com/en-us/research/project/multimodal-hls-foundation-models": {
+      "first_seen": "2026-10-10",
+      "last_seen": "2026-10-10",
+      "title": "Microsoft Health and Life Sciences AI Frontiers"
+    },
+    "https://github.blog/changelog/2026-10-09-github-copilot-weekly-releases-october-5": {
+      "first_seen": "2026-10-10",
+      "last_seen": "2026-10-10",
+      "title": "GitHub Copilot weekly releases \u2014 October 5"
+    },
+    "https://github.blog/changelog/2026-10-07-discover-local-models-in-github-copilot-cli": {
+      "first_seen": "2026-10-10",
+      "last_seen": "2026-10-08",
+      "title": "Discover local models in GitHub Copilot CLI"
+    },
+    "https://docs.github.com/copilot/how-tos/copilot-cli/customize-copilot/use-byok-models": {
+      "first_seen": "2026-10-10",
+      "last_seen": "2026-10-08",
+      "title": "GitHub Copilot CLI provider and offline-mode docs"
+    },
+    "https://github.blog/changelog/2026-10-07-local-sandboxing-for-github-copilot-now-generally-available": {
+      "first_seen": "2026-10-10",
+      "last_seen": "2026-10-08",
+      "title": "Local sandboxing for GitHub Copilot now generally available"
+    },
+    "https://docs.github.com/billing/managing-billing-for-your-products/managing-billing-for-github-copilot/about-usage-of-github-copilot-features": {
+      "first_seen": "2026-10-10",
+      "last_seen": "2026-10-08",
+      "title": "GitHub AI usage insights"
+    },
     "https://openai.com/index/legalon-halves-codex-costs": {
       "first_seen": "2026-10-09",
       "last_seen": "2026-10-09",
@@ -91,25 +191,10 @@
       "last_seen": "2026-10-09",
       "title": "Zero-knowledge-proof library donation"
     },
-    "https://www.anthropic.com/news/cyber-verification-program": {
-      "first_seen": "2026-10-09",
-      "last_seen": "2026-10-09",
-      "title": "Expanding the Cyber Verification Program"
-    },
     "https://deepmind.google/technologies/synthid": {
       "first_seen": "2026-10-09",
       "last_seen": "2026-10-09",
       "title": "Google DeepMind SynthID"
-    },
-    "https://github.blog/changelog/2026-10-07-discover-local-models-in-github-copilot-cli": {
-      "first_seen": "2026-10-08",
-      "last_seen": "2026-10-08",
-      "title": "Discover local models in GitHub Copilot CLI"
-    },
-    "https://docs.github.com/copilot/how-tos/copilot-cli/customize-copilot/use-byok-models": {
-      "first_seen": "2026-10-08",
-      "last_seen": "2026-10-08",
-      "title": "GitHub Copilot CLI provider and offline-mode docs"
     },
     "https://ollama.com/": {
       "first_seen": "2026-10-08",
@@ -125,11 +210,6 @@
       "first_seen": "2026-10-08",
       "last_seen": "2026-10-08",
       "title": "GitHub local development announcement"
-    },
-    "https://github.blog/changelog/2026-10-07-local-sandboxing-for-github-copilot-now-generally-available": {
-      "first_seen": "2026-10-08",
-      "last_seen": "2026-10-08",
-      "title": "Local sandboxing for GitHub Copilot now generally available"
     },
     "https://github.com/microsoft/mxc": {
       "first_seen": "2026-10-08",
@@ -165,11 +245,6 @@
       "first_seen": "2026-10-08",
       "last_seen": "2026-10-08",
       "title": "GitHub Advanced Security"
-    },
-    "https://docs.github.com/billing/managing-billing-for-your-products/managing-billing-for-github-copilot/about-usage-of-github-copilot-features": {
-      "first_seen": "2026-10-08",
-      "last_seen": "2026-10-08",
-      "title": "GitHub AI usage insights"
     },
     "https://docs.github.com/code-security/security-overview/about-security-overview": {
       "first_seen": "2026-10-08",
@@ -215,16 +290,6 @@
       "first_seen": "2026-10-07",
       "last_seen": "2026-10-03",
       "title": "Copilot code review API"
-    },
-    "https://openai.com/index/advancing-computer-use-with-ironclad": {
-      "first_seen": "2026-10-07",
-      "last_seen": "2026-10-07",
-      "title": "Advancing computer use with Ironclad"
-    },
-    "https://developers.openai.com/api/docs/guides/agents-api/tools/computer-use": {
-      "first_seen": "2026-10-07",
-      "last_seen": "2026-10-07",
-      "title": "Agents API computer use"
     },
     "https://openai.com/index/introducing-the-agents-api": {
       "first_seen": "2026-10-07",
@@ -285,11 +350,6 @@
       "first_seen": "2026-10-06",
       "last_seen": "2026-10-06",
       "title": "Agent-readiness implication"
-    },
-    "https://developer.chrome.com/docs/devtools/mcp": {
-      "first_seen": "2026-10-06",
-      "last_seen": "2026-10-06",
-      "title": "Chrome DevTools MCP docs"
     },
     "https://chromedevtools.github.io/devtools-protocol": {
       "first_seen": "2026-10-06",
@@ -4035,11 +4095,6 @@
       "first_seen": "2026-07-16",
       "last_seen": "2026-07-16",
       "title": "GitHub Copilot app: /security-review"
-    },
-    "https://github.blog/changelog/2026-07-14-code-scanning-shows-ai-security-detections-on-pull-requests": {
-      "first_seen": "2026-07-16",
-      "last_seen": "2026-07-16",
-      "title": "AI security detections on pull requests"
     },
     "https://github.blog/changelog/2026-07-15-improvements-to-secret-scanning-and-public-monitoring": {
       "first_seen": "2026-07-16",

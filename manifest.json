@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-10-09T08:02:41.987630+00:00",
+  "updated_at": "2026-10-10T08:02:32.894396+00:00",
   "days": [
+    {
+      "date": "2026-10-10",
+      "path": "2026-10-10",
+      "reports": [
+        {
+          "lane": "browser-agent-economics",
+          "title": "Browser Agents + Unit Economics",
+          "url": "2026-10-10/browser-agent-economics.html"
+        },
+        {
+          "lane": "security-verification",
+          "title": "Security Verification as an Agent Capability",
+          "url": "2026-10-10/security-verification.html"
+        },
+        {
+          "lane": "science-workbenches",
+          "title": "AI Science Workbenches + Auditable Artifacts",
+          "url": "2026-10-10/science-workbenches.html"
+        },
+        {
+          "lane": "developer-assurance",
+          "title": "Developer Assurance + Model Choice",
+          "url": "2026-10-10/developer-assurance.html"
+        }
+      ]
+    },
     {
       "date": "2026-10-09",
       "path": "2026-10-09",

@@ -1270,6 +1270,26 @@
       "title": "Identity + Trust Interfaces",
       "times_covered": 1,
       "last_covered": "2026-10-09"
+    },
+    "browser-agent-economics": {
+      "title": "Browser Agents + Unit Economics",
+      "times_covered": 1,
+      "last_covered": "2026-10-10"
+    },
+    "security-verification": {
+      "title": "Security Verification as an Agent Capability",
+      "times_covered": 1,
+      "last_covered": "2026-10-10"
+    },
+    "science-workbenches": {
+      "title": "AI Science Workbenches + Auditable Artifacts",
+      "times_covered": 1,
+      "last_covered": "2026-10-10"
+    },
+    "developer-assurance": {
+      "title": "Developer Assurance + Model Choice",
+      "times_covered": 1,
+      "last_covered": "2026-10-10"
     }
   },
   "item_history": [
@@ -4298,569 +4318,6 @@
   ],
   "runs": [
     {
-      "date": "2026-07-08",
-      "imported_from_archive": true
-    },
-    {
-      "date": "2026-07-09",
-      "imported_from_archive": true
-    },
-    {
-      "date": "2026-07-10",
-      "imported_from_archive": true
-    },
-    {
-      "date": "2026-07-11",
-      "imported_from_archive": true
-    },
-    {
-      "date": "2026-07-12",
-      "imported_from_archive": true
-    },
-    {
-      "date": "2026-07-13",
-      "imported_from_archive": true
-    },
-    {
-      "date": "2026-07-14",
-      "imported_from_archive": true
-    },
-    {
-      "date": "2026-07-15",
-      "selected_lanes": [
-        "agent-workflows",
-        "design-delivery",
-        "security-governance"
-      ],
-      "editorial_thesis": "The actionable shift is from isolated AI features to governed systems that connect work context, design delivery and execution without dropping review boundaries."
-    },
-    {
-      "date": "2026-07-16",
-      "selected_lanes": [
-        "code-security-hygiene",
-        "reliable-agent-delivery",
-        "intentional-ai-operations"
-      ],
-      "editorial_thesis": "Put security in the review loop, make autonomous delivery explicit and inspectable, and audit what delegation is actually buying."
-    },
-    {
-      "date": "2026-07-24",
-      "selected_lanes": [
-        {
-          "slug": "mcp-portability",
-          "title": "MCP Portability + Agent Extensions",
-          "selection_rationale": "The protocol\u2019s July 28 stateless transition and fresh package-based extension surfaces make portable, versioned agent capability a timely practical seam."
-        },
-        {
-          "slug": "governed-agent-delivery",
-          "title": "Governed Agent Delivery",
-          "selection_rationale": "Fresh GitHub and Vercel changes expose a useful control-plane pattern: proposal rationale, approval posture, deployment, rollout telemetry, and reversible configuration."
-        },
-        {
-          "slug": "physical-ai-simulation",
-          "title": "Physical AI + Generative Simulation",
-          "selection_rationale": "This is a deliberately under-covered lane: two July 23 research releases show reusable architecture patterns for dynamic-world creation and coordinating many local actors."
-        }
-      ],
-      "editorial_thesis": "Agent capability is becoming portable and deployable, so the differentiator is the control plane: compatibility tests, scoped authority, explainable actions, and rollout evidence."
-    },
-    {
-      "date": "2026-07-25",
-      "selected_lanes": [
-        {
-          "slug": "frontier-agent-runtime",
-          "title": "Frontier Agent Runtime",
-          "selection_rationale": "A new long-context flagship arrived with an immediate API migration edge and a managed coding surface; this is a material update, not a repeat of prior MCP or delivery coverage."
-        },
-        {
-          "slug": "agent-knowledge-trust",
-          "title": "Agent Knowledge + Trust",
-          "selection_rationale": "This deliberately rotates toward an under-covered data-contract lane: agents need inspectable provenance and authorization boundaries before they can safely act on operational knowledge."
-        },
-        {
-          "slug": "agentic-marketplaces-and-transparency",
-          "title": "Agentic Marketplaces + Transparency",
-          "selection_rationale": "Customer-facing agents and AI-generated media are becoming operationally visible. This lane connects the action surface, the evidence surface, and a realistic discovery workflow for client work."
-        }
-      ],
-      "editorial_thesis": "The fresh advantage is not more autonomous behavior alone: it is a verifiable path from trusted context, through bounded action, to transparent customer-facing evidence."
-    },
-    {
-      "date": "2026-07-26",
-      "selected_lanes": [
-        {
-          "slug": "bounded-execution-and-artifact-access",
-          "title": "Bounded Execution + Artifact Access",
-          "selection_rationale": "This is a deliberately narrow operational lane: recent coverage examined agent authority, while these releases expose the runtime, time, and stored-output boundaries an operator must now govern."
-        },
-        {
-          "slug": "delegated-work-intake",
-          "title": "Delegated Work Intake",
-          "selection_rationale": "This fills a coverage gap between agent capability and portfolio coordination: the fresh signal is not another coding model, but a clearer handoff from a work item to a supervised draft PR."
-        },
-        {
-          "slug": "consented-personal-context",
-          "title": "Consented Personal Context",
-          "selection_rationale": "A personal-leverage lane earns inclusion because a new consumer health connector makes selective, revocable context a concrete product pattern\u2014not merely a privacy principle."
-        }
-      ],
-      "editorial_thesis": "The strongest current signal is operational: expanded agent capacity must be paired with visible runtime boundaries, accountable work intake, and narrowly consented context."
-    },
-    {
-      "date": "2026-07-27",
-      "selected_lanes": [
-        {
-          "slug": "open-model-evaluation",
-          "title": "Open Models + Evaluation",
-          "selection_rationale": "Fresh primary-source releases in an under-covered practical lane; selected for a bounded Buildn or client-work experiment."
-        },
-        {
-          "slug": "agent-economics",
-          "title": "Agent Economics + Spend Visibility",
-          "selection_rationale": "Fresh primary-source releases in an under-covered practical lane; selected for a bounded Buildn or client-work experiment."
-        },
-        {
-          "slug": "design-to-production",
-          "title": "Design-to-Production Collaboration",
-          "selection_rationale": "Fresh primary-source releases in an under-covered practical lane; selected for a bounded Buildn or client-work experiment."
-        }
-      ],
-      "editorial_thesis": "The practical opportunity is not autonomous scale by itself: use new model, workflow, and design capability through small pilots with explicit evaluation, cost, and review boundaries."
-    },
-    {
-      "date": "2026-08-02",
-      "selected_lanes": [
-        "private-document-intelligence",
-        "durable-agent-state",
-        "proof-carrying-research"
-      ],
-      "editorial_thesis": "Today\u2019s practical advantage is evidence hygiene: preserve document fidelity before enrichment, make agent state recoverable and private, and ship consequential claims with an inspectable verification trail."
-    },
-    {
-      "date": "2026-08-09",
-      "selected_lanes": [
-        "agent-harness",
-        "knowledge-maintenance",
-        "edge-reliability"
-      ],
-      "editorial_thesis": "Today\u2019s strongest practical signal is a move from novelty to maintenance: agent SDKs absorb generic plumbing, knowledge systems are judged by freshness, and network engineering remains the reliability substrate beneath remote automation."
-    },
-    {
-      "date": "2026-08-10",
-      "selected_lanes": [
-        {
-          "slug": "persistent-agent-compute",
-          "title": "Persistent Agent Compute",
-          "selection_rationale": "Fresh AWS general availability adds a materially new runtime option for long-running, GPU, shared-state, and multi-agent workloads; this is a clear gap after recent coverage focused on short-lived runtimes.",
-          "items": [
-            "AgentCore runtime instances are now generally available",
-            "Runtime instances: persistent compute for production AI agents"
-          ]
-        },
-        {
-          "slug": "design-system-controls",
-          "title": "Design System Controls",
-          "selection_rationale": "Figma has fresh August controls for per-user AI credits and nested access-inheriting folders, plus recent annotation and CSS-aligned layout changes; this fills a product/design operations gap.",
-          "items": [
-            "Figma product news and release notes",
-            "Code, craft, and the making of nested folders",
-            "Properties panel and annotations now in Figma Make"
-          ]
-        },
-        {
-          "slug": "agent-identity-posture",
-          "title": "Agent Identity + Posture",
-          "selection_rationale": "Current Microsoft and Okta updates make agents visible to security and identity systems; this is a practical governance lane with direct client applicability and limited recent coverage overlap.",
-          "items": [
-            "Microsoft Defender Monthly News \u2014 August 2026",
-            "Okta Identity Engine API release notes 2026",
-            "Least privilege for AI agents: Identity, access, and tool binding"
-          ]
-        }
-      ],
-      "editorial_thesis": "Today\u2019s practical signal is control at the boundary: persistent compute needs explicit capacity policy, design generation needs budgets and hierarchy, and agents need identities that can be monitored and remediated."
-    },
-    {
-      "date": "2026-08-12",
-      "selected_lanes": [
-        {
-          "slug": "agent-cost-memory-controls",
-          "title": "Agent Cost + Memory Controls",
-          "selection_rationale": "GitHub\u2019s same-day Copilot updates connect three operational controls that are usually shipped separately: persistent context, local-model escape hatches, and token-level cost attribution.",
-          "items": [
-            "Copilot memory and Ollama in JetBrains",
-            "Per-model token breakdown in usage reports",
-            "MAI-Code-1.1-Flash in GitHub Copilot"
-          ]
-        },
-        {
-          "slug": "edge-resilience-under-machine-speed",
-          "title": "Edge Resilience Under Machine-Speed Attacks",
-          "selection_rationale": "The latest Cloudflare threat report fills a security and infrastructure gap with quantified evidence that short attacks can still demand always-on controls.",
-          "items": [
-            "Cloudflare DDoS Threat Report \u2014 H1 2026",
-            "1 Tbps attacks rose 519% quarter over quarter",
-            "DNS attacks became the dominant vector"
-          ]
-        },
-        {
-          "slug": "open-infrastructure-beyond-models",
-          "title": "Open Infrastructure Beyond Models",
-          "selection_rationale": "Google\u2019s August 11 OpenROAD commitment opens a neglected hardware and open-infrastructure lane: the leverage may be in reproducible compute foundations, not another model wrapper.",
-          "items": [
-            "Google joins the OpenROAD Initiative",
-            "Open source reaches the physical stack",
-            "Reproducibility is the common thread"
-          ]
-        }
-      ],
-      "editorial_thesis": "Today\u2019s signal moves the operating surface outward: agents need cost and memory controls, internet-facing systems need always-on resilience, and open infrastructure is expanding below the software layer."
-    },
-    {
-      "date": "2026-08-14",
-      "selected_lanes": [
-        {
-          "slug": "realtime-agent-feedback",
-          "title": "Real-time Agent Feedback Loops",
-          "selection_rationale": "Fresh Aug 13 signal on frontier-model latency creates a materially new lane after recent coverage focused on control planes and persistence.",
-          "items": [
-            "Previewing Ultrafast mode: GPT-5.6 Sol at up to 14X the speed",
-            "The next evolution of the Agents SDK",
-            "Build long-running AI agents that pause, resume, and never lose context with ADK"
-          ]
-        },
-        {
-          "slug": "agent-identity-governance",
-          "title": "Agent Identity + Governance",
-          "selection_rationale": "The CSA\u2019s Aug 13 threat ranking elevates identity and AI compromise together, filling a security/governance gap in the last several days.",
-          "items": [
-            "CSA 2026 Top Cloud Threats Report",
-            "Agent Access Model",
-            "Certificate Transparency Monitoring is now generally available"
-          ]
-        },
-        {
-          "slug": "design-agent-workflows",
-          "title": "Design Workflows Become Agent-Portable",
-          "selection_rationale": "Figma\u2019s Aug 13 skills release is a fresh product/design signal and a meaningful extension of the previously covered Figma controls.",
-          "items": [
-            "Try skills from the Community and make your own with the Figma agent",
-            "Figma MCP: Run Weave tools from your favorite agent",
-            "The new business case for design systems"
-          ]
-        }
-      ],
-      "editorial_thesis": "Today\u2019s useful edge is not another model wrapper: it is faster feedback, explicit agent identity, and reusable design workflows that can cross tool boundaries."
-    },
-    {
-      "date": "2026-08-16",
-      "selected_lanes": [
-        "agent-development-lifecycle",
-        "agent-security-governance",
-        "portable-agent-workflows",
-        "identity-aware-collaboration"
-      ],
-      "items": [
-        {
-          "title": "Agent Development Lifecycle",
-          "url": "architecture",
-          "source_type": "release",
-          "selection_rationale": "Cloudflare proposes a lifecycle in which agents plan, implement, test, deploy, observe, improve, and retire software using Workflows, traces, artifacts, and programmable infrastructure."
-        },
-        {
-          "title": "Cloudflare OS",
-          "url": "platform",
-          "source_type": "release",
-          "selection_rationale": "An open platform combining agent workspaces, company context, secure internal access, live apps, and reusable skills."
-        },
-        {
-          "title": "OpenTelemetry traces in local development",
-          "url": "observability",
-          "source_type": "release",
-          "selection_rationale": "Local development can expose production-like agent traces so agents and humans can inspect tool calls and failures before deployment."
-        },
-        {
-          "title": "Software factory issue triage",
-          "url": "workflow",
-          "source_type": "release",
-          "selection_rationale": "Cloudflare describes an agent workflow that triages, reproduces, verifies, and fixes issues at scale."
-        },
-        {
-          "title": "ADLC as an operating thesis",
-          "url": "strategy",
-          "source_type": "release",
-          "selection_rationale": "A strategic argument that software factories should own the full lifecycle while people focus on product judgment, design, and customer context."
-        },
-        {
-          "title": "Zero Trust Assessment for AI",
-          "url": "control plane",
-          "source_type": "release",
-          "selection_rationale": "Microsoft expanded its assessment with AI, SecOps, and infrastructure pillars and added a DevSecOps workshop pillar with 15 control groups and 91 tasks."
-        },
-        {
-          "title": "AI memory and runtime guidance",
-          "url": "architecture",
-          "source_type": "release",
-          "selection_rationale": "The guidance treats memory, tools, data, and runtime behavior as distinct trust surfaces."
-        },
-        {
-          "title": "GHES 3.22 disconnected Copilot CLI",
-          "url": "air-gapped",
-          "source_type": "release",
-          "selection_rationale": "The release candidate supports Copilot CLI in disconnected or air-gapped GHES deployments with a centrally configured model provider."
-        },
-        {
-          "title": "Individual bypasses and required reviewers",
-          "url": "repository policy",
-          "source_type": "release",
-          "selection_rationale": "GHES rulesets can target individual bypasses and require reviewers by path, including security, QA, design, or data teams."
-        },
-        {
-          "title": "Threat model beyond prompts",
-          "url": "method",
-          "source_type": "release",
-          "selection_rationale": "The combined guidance covers dependencies, build artifacts, infrastructure-as-code, memory, and runtime operations."
-        },
-        {
-          "title": "Agent Plugins 1.0",
-          "url": "portable tooling",
-          "source_type": "release",
-          "selection_rationale": "A plugin can be built once and used across VS Code, Copilot CLI, the Copilot SDK, and the Copilot app."
-        },
-        {
-          "title": "Headless plan + autopilot",
-          "url": "execution",
-          "source_type": "release",
-          "selection_rationale": "Copilot CLI can create a plan and implement it headlessly, while centralized task management handles subagents and queued work."
-        },
-        {
-          "title": "Non-destructive rewind",
-          "url": "recovery",
-          "source_type": "release",
-          "selection_rationale": "The CLI can restore agent changes without requiring Git or discarding user edits."
-        },
-        {
-          "title": "Copilot memory in JetBrains",
-          "url": "continuity",
-          "source_type": "release",
-          "selection_rationale": "JetBrains sessions can preserve project details and preferences across agent chats."
-        },
-        {
-          "title": "Ollama BYOK in JetBrains",
-          "url": "local inference",
-          "source_type": "release",
-          "selection_rationale": "JetBrains users can route Copilot through local Ollama models as a BYOK provider."
-        },
-        {
-          "title": "Enterprise-managed MCP authorization",
-          "url": "identity",
-          "source_type": "release",
-          "selection_rationale": "Linear MCP access can be managed through existing Okta-managed identity."
-        },
-        {
-          "title": "Agent widgets on project milestones",
-          "url": "collaboration",
-          "source_type": "release",
-          "selection_rationale": "Linear added project milestone agent widgets on iOS alongside broader initiative and project improvements."
-        },
-        {
-          "title": "Branch-status visibility",
-          "url": "delivery",
-          "source_type": "release",
-          "selection_rationale": "A branch-status widget shows whether a branch is up to date, behind, or conflicted."
-        },
-        {
-          "title": "Mermaid diagram comments",
-          "url": "design ops",
-          "source_type": "release",
-          "selection_rationale": "Linear editor comments now support Mermaid diagrams."
-        },
-        {
-          "title": "GPT-5.6 Luna in coding sessions",
-          "url": "model choice",
-          "source_type": "release",
-          "selection_rationale": "Linear added GPT-5.6 Luna as a coding-session model option."
-        }
-      ],
-      "selection_rationale": "Rotated toward lifecycle design, operational security, portable execution, and identity-aware collaboration; all selected URLs were absent from prior coverage memory."
-    },
-    {
-      "date": "2026-08-18",
-      "selected_lanes": [
-        "robotics-simulation",
-        "creative-agent-production",
-        "edge-ai",
-        "self-hosted-automation"
-      ],
-      "items": [
-        {
-          "title": "Newton v1.5.0 releases",
-          "url": "https://github.com/newton-physics/newton/releases",
-          "source_type": "release",
-          "selection_rationale": "Expands scalable batched simulation and robot-control workflows."
-        },
-        {
-          "title": "Isaac Lab releases",
-          "url": "https://github.com/isaac-sim/IsaacLab/releases",
-          "source_type": "release",
-          "selection_rationale": "Expands Newton and kit-less workflows."
-        },
-        {
-          "title": "Genesis release notes",
-          "url": "https://github.com/Genesis-Embodied-AI/genesis-world/blob/main/RELEASE.md",
-          "source_type": "release",
-          "selection_rationale": "Improves differentiable rigid-body simulation and numerical robustness."
-        },
-        {
-          "title": "Firefly AI Assistant",
-          "url": "https://blog.adobe.com/en/disciplines/video",
-          "source_type": "product",
-          "selection_rationale": "Brings creative workflows into a conversational agent surface."
-        },
-        {
-          "title": "Adobe Blog updates",
-          "url": "https://blog.adobe.com/",
-          "source_type": "blog",
-          "selection_rationale": "Highlights Precision Flow and AI Markup for controlled edits."
-        },
-        {
-          "title": "Credentio C2PA library",
-          "url": "https://developers.googleblog.com/introducing-credentio-open-source-c-library-for-c2pa-content-credentials-from-google/",
-          "source_type": "release",
-          "selection_rationale": "Makes provenance infrastructure more portable."
-        },
-        {
-          "title": "LiteRT + Gemma on Raspberry Pi",
-          "url": "https://developers.googleblog.com/mastering-edge-ai-on-raspberry-pi-with-litert-and-gemma/",
-          "source_type": "docs",
-          "selection_rationale": "Provides a practical path to local inference on inexpensive hardware."
-        },
-        {
-          "title": "Model routing with Google Cloud API Gateway",
-          "url": "https://developers.googleblog.com/a-unified-api-for-ai-model-routing/",
-          "source_type": "blog",
-          "selection_rationale": "Frames escalation as a routing policy."
-        },
-        {
-          "title": "n8n repository",
-          "url": "https://github.com/n8n-io/n8n",
-          "source_type": "repo",
-          "selection_rationale": "Offers self-hostable workflow automation and agent building blocks."
-        },
-        {
-          "title": "Self-hosting sweet spot",
-          "url": "https://codecapsules.io/blog/self-hosting-sweet-spot-services-worth-hosting-2026/",
-          "source_type": "blog",
-          "selection_rationale": "Provides a boundary-oriented decision framework."
-        },
-        {
-          "title": "Dify repository",
-          "url": "https://github.com/langgenius/dify",
-          "source_type": "repo",
-          "selection_rationale": "Supports cloud, VPC, and self-hosted agentic workflows."
-        }
-      ],
-      "selection_rationale": "Today\u2019s strongest practical signal sits at the edge of execution: GPU simulation makes physical AI more testable, creative agents are moving into production surfaces, local inference is becoming a real deployment option, and self-hosting is best treated as a deliberate boundary."
-    },
-    {
-      "date": "2026-08-19",
-      "selected_lanes": [
-        "agent-skills",
-        "knowledge-graphs",
-        "mcp-infrastructure"
-      ],
-      "items": [
-        {
-          "title": "Google Agent Skills operations",
-          "url": "https://cloud.google.com/blog/ja/topics/developers-practitioners/behind-the-scenes-how-we-build-test-and-scale-google-agent-skills",
-          "source_type": "blog",
-          "selection_rationale": "Fresh primary detail on skills as maintained products."
-        },
-        {
-          "title": "Spanner Graph + Data Commons",
-          "url": "https://cloud.google.com/blog/ja/products/databases/unify-public-and-private-data-with-data-commons-on-spanner-graph",
-          "source_type": "blog",
-          "selection_rationale": "Fresh graph-backed public/private data integration signal."
-        },
-        {
-          "title": "Cortex Framework v7",
-          "url": "https://cloud.google.com/blog/ja/products/sap-google-cloud/cortex-framework-v7-power-ai-agents-with-sap-data-faster",
-          "source_type": "release",
-          "selection_rationale": "Semantic enterprise data products for agents."
-        },
-        {
-          "title": "The next generation of MCP",
-          "url": "https://blog.cloudflare.com/mcp-v2/",
-          "source_type": "docs",
-          "selection_rationale": "Material stateless protocol and deployment update."
-        },
-        {
-          "title": "Cloudflare unified AI control plane",
-          "url": "https://blog.cloudflare.com/workers-ai-gateway-unification/",
-          "source_type": "blog",
-          "selection_rationale": "Practical observability and routing control-plane signal."
-        },
-        {
-          "title": "System Initiative infrastructure agents",
-          "url": "https://devops.com/system-initiative-adds-ai-agents-to-infrastructure-automation-platform/",
-          "source_type": "news",
-          "selection_rationale": "Bounded plan-review-execute workflow for infrastructure."
-        }
-      ],
-      "selection_rationale": "Rotated toward under-covered semantic data and protocol infrastructure while following fresh execution-quality signals."
-    },
-    {
-      "date": "2026-08-20",
-      "selected_lanes": [
-        "agent-standards",
-        "open-model-ecosystem",
-        "agent-first-engineering",
-        "personal-knowledge-leverage"
-      ],
-      "rationale": "Rotated toward standards, open-model deployment, engineering harnesses, and knowledge work after recent MCP/robotics/creative/self-hosting coverage."
-    },
-    {
-      "date": "2026-08-23",
-      "selected_lanes": [
-        "agent-observability",
-        "model-routing-economics",
-        "open-source-security",
-        "connected-product-workflows"
-      ],
-      "items": [
-        {
-          "title": "Always-on tracing for production and preview traffic",
-          "url": "https://vercel.com/changelog/always-on-tracing-for-production-and-preview-traffic",
-          "source_type": "release",
-          "rationale": "Scoped live tracing with path rules and bounded retention is a concrete way to capture unreproducible agent failures."
-        },
-        {
-          "title": "GPT-5.6 Sol is now 50 percent off a lower price",
-          "url": "https://vercel.com/changelog/gpt-5-6-sol-is-now-50-percent-off-a-lower-price",
-          "source_type": "release",
-          "rationale": "The model ID is unchanged while input and output pricing fall, enabling a low-friction cost trial."
-        },
-        {
-          "title": "DeepSeek V4 Flash Vision Experimental now available on AI Gateway",
-          "url": "https://vercel.com/changelog/deepseek-v4-flash-with-vision-now-available-on-ai-gateway",
-          "source_type": "release",
-          "rationale": "A new image-capable experimental route supports screenshot and chart triage."
-        },
-        {
-          "title": "Patch the Planet: A Daybreak Initiative to Support Open-Source Maintainers",
-          "url": "https://openai.com/index/patch-the-planet/",
-          "source_type": "blog",
-          "rationale": "The program pairs AI-assisted discovery with validation, patching, testing, disclosure, and maintainer control."
-        },
-        {
-          "title": "Now you can connect even more of your favorite apps and services to Gemini",
-          "url": "https://blog.google/innovation-and-ai/products/gemini-app/new-connected-apps-services-gemini-august-2026/",
-          "source_type": "product",
-          "rationale": "Google is extending Gemini across productivity, commerce, local services, music, home, and health."
-        }
-      ]
-    },
-    {
       "date": "2026-08-26",
       "selected_lanes": [
         "local-ai-edge",
@@ -6987,6 +6444,118 @@
           "selection_rationale": "Identity is a coverage gap and a practical prerequisite for agentic work: secure sign-in, content provenance, and tiered access determine whether automation can be trusted."
         }
       ]
+    },
+    {
+      "date": "2026-10-10",
+      "selected_lanes": [
+        "browser-agent-economics",
+        "security-verification",
+        "science-workbenches",
+        "developer-assurance"
+      ],
+      "items": [
+        {
+          "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
+          "url": "https://openai.com/index/asana-browser-agent/",
+          "source_type": "case study"
+        },
+        {
+          "title": "OpenAI Agents API computer-use guide",
+          "url": "https://developers.openai.com/api/docs/guides/agents-api/tools/computer-use",
+          "source_type": "docs"
+        },
+        {
+          "title": "Advancing computer use with Ironclad",
+          "url": "https://openai.com/index/advancing-computer-use-with-ironclad/",
+          "source_type": "case study"
+        },
+        {
+          "title": "Chrome DevTools MCP",
+          "url": "https://developer.chrome.com/docs/devtools/mcp",
+          "source_type": "docs"
+        },
+        {
+          "title": "Chrome DevTools: debug your browser session",
+          "url": "https://developer.chrome.com/blog/chrome-devtools-mcp-debug-your-browser-session",
+          "source_type": "product"
+        },
+        {
+          "title": "Expanding the Cyber Verification Program",
+          "url": "https://www.anthropic.com/news/cyber-verification-program",
+          "source_type": "security program"
+        },
+        {
+          "title": "CodeQL 2.27.2 improves C++, Go, Rust, and JavaScript",
+          "url": "https://github.blog/changelog/2026-10-09-codeql-2-27-2-improves-c-go-rust-and-javascript-analysis/",
+          "source_type": "release"
+        },
+        {
+          "title": "Code scanning AI detections on pull requests",
+          "url": "https://github.blog/changelog/2026-07-14-code-scanning-shows-ai-security-detections-on-pull-requests/",
+          "source_type": "product"
+        },
+        {
+          "title": "Security validation for third-party coding agents",
+          "url": "https://github.blog/changelog/2026-06-09-security-validation-for-third-party-coding-agents/",
+          "source_type": "governance"
+        },
+        {
+          "title": "Anthropic Cyber Mission",
+          "url": "https://www.anthropic.com/news/anthropic-cyber-mission",
+          "source_type": "research"
+        },
+        {
+          "title": "Claude Science, an AI workbench for scientists",
+          "url": "https://www.anthropic.com/news/claude-science-ai-workbench",
+          "source_type": "product"
+        },
+        {
+          "title": "Advancing Claude in healthcare and the life sciences",
+          "url": "https://www.anthropic.com/news/healthcare-life-sciences",
+          "source_type": "product"
+        },
+        {
+          "title": "Claude for Life Sciences",
+          "url": "https://www.anthropic.com/news/claude-for-life-sciences",
+          "source_type": "product"
+        },
+        {
+          "title": "Google Cloud AI Agent Trends in Healthcare & Life Sciences 2026",
+          "url": "https://cloud.google.com/resources/content/ai-agent-trends-healthcare-life-sciences-2026",
+          "source_type": "research"
+        },
+        {
+          "title": "Microsoft Health and Life Sciences AI Frontiers",
+          "url": "https://www.microsoft.com/en-us/research/project/multimodal-hls-foundation-models/",
+          "source_type": "research"
+        },
+        {
+          "title": "GitHub Copilot weekly releases \u2014 October 5",
+          "url": "https://github.blog/changelog/2026-10-09-github-copilot-weekly-releases-october-5/",
+          "source_type": "release"
+        },
+        {
+          "title": "Discover local models in GitHub Copilot CLI",
+          "url": "https://github.blog/changelog/2026-10-07-discover-local-models-in-github-copilot-cli",
+          "source_type": "product"
+        },
+        {
+          "title": "Copilot CLI provider and offline-mode docs",
+          "url": "https://docs.github.com/copilot/how-tos/copilot-cli/customize-copilot/use-byok-models",
+          "source_type": "docs"
+        },
+        {
+          "title": "Local sandboxing for GitHub Copilot GA",
+          "url": "https://github.blog/changelog/2026-10-07-local-sandboxing-for-github-copilot-now-generally-available",
+          "source_type": "release"
+        },
+        {
+          "title": "GitHub AI usage insights",
+          "url": "https://docs.github.com/billing/managing-billing-for-your-products/managing-billing-for-github-copilot/about-usage-of-github-copilot-features",
+          "source_type": "docs"
+        }
+      ],
+      "selection_rationale": "Fresh Oct 9 signals plus under-covered science and assurance lanes."
     }
   ],
   "updated_at": "2026-10-09T08:03:00Z",

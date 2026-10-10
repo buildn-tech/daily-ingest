@@ -1,0 +1,195 @@
+{
+  "date": "2026-10-10",
+  "generated_at": "2026-10-10T08:00:00Z",
+  "editorial_thesis": "The useful frontier is measurable agent work: cheaper browser execution, verifiable security, auditable science artifacts, and developer portfolios that include local fallback and continuous assurance.",
+  "topic_groups": [
+    {
+      "slug": "browser-agent-economics",
+      "title": "Browser Agents + Unit Economics",
+      "selection_rationale": "A fresh Oct 9 case study gives a measurable cost/latency signal for browser agents, a practical gap after recent coverage focused on transport and sandboxing.",
+      "sources": [
+        {
+          "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
+          "url": "https://openai.com/index/asana-browser-agent/",
+          "source_type": "case study",
+          "published_or_updated": "2026-10-09 or current",
+          "why_selected": "Asana reports a 76\u00d7 lower model cost and 5\u00d7 faster browser tests after moving execution to GPT-6.1 Sol.",
+          "usefulness": "Prototype a two-tier browser runner: frontier model for planning, small model for repeatable actions."
+        },
+        {
+          "title": "OpenAI Agents API computer-use guide",
+          "url": "https://developers.openai.com/api/docs/guides/agents-api/tools/computer-use",
+          "source_type": "docs",
+          "published_or_updated": "2026-10-09 or current",
+          "why_selected": "The guide documents computer-use tool integration for agent workflows.",
+          "usefulness": "Use it as the control-plane reference for a narrow browser task."
+        },
+        {
+          "title": "Advancing computer use with Ironclad",
+          "url": "https://openai.com/index/advancing-computer-use-with-ironclad/",
+          "source_type": "case study",
+          "published_or_updated": "2026-10-09 or current",
+          "why_selected": "Ironclad shows computer use applied to contract workflows, where navigation is paired with domain review.",
+          "usefulness": "Map a client workflow where the agent gathers evidence but a human owns the decision."
+        },
+        {
+          "title": "Chrome DevTools MCP",
+          "url": "https://developer.chrome.com/docs/devtools/mcp",
+          "source_type": "docs",
+          "published_or_updated": "2026-10-09 or current",
+          "why_selected": "Chrome exposes DevTools context to agents for inspection and debugging.",
+          "usefulness": "Give coding agents a direct feedback loop over rendered client surfaces."
+        },
+        {
+          "title": "Chrome DevTools: debug your browser session",
+          "url": "https://developer.chrome.com/blog/chrome-devtools-mcp-debug-your-browser-session",
+          "source_type": "product",
+          "published_or_updated": "2026-10-09 or current",
+          "why_selected": "Chrome describes letting a coding agent take over an active debugging session.",
+          "usefulness": "Use it to shorten reproduce\u2192inspect\u2192patch cycles."
+        }
+      ]
+    },
+    {
+      "slug": "security-verification",
+      "title": "Security Verification as an Agent Capability",
+      "selection_rationale": "Security earns a second look because Oct 9 updates materially deepen prior trust coverage: Anthropic reports 5,500 verified vulnerabilities and GitHub shipped a meaningful CodeQL release.",
+      "sources": [
+        {
+          "title": "Expanding the Cyber Verification Program",
+          "url": "https://www.anthropic.com/news/cyber-verification-program",
+          "source_type": "security program",
+          "published_or_updated": "2026-10-09 or current",
+          "why_selected": "Anthropic says its open-source scanning found 5,500 additional verified software vulnerabilities between April and October 2026.",
+          "usefulness": "Use vulnerability discovery as a bounded, evidence-producing agent workflow."
+        },
+        {
+          "title": "CodeQL 2.27.2 improves C++, Go, Rust, and JavaScript",
+          "url": "https://github.blog/changelog/2026-10-09-codeql-2-27-2-improves-c-go-rust-and-javascript-analysis/",
+          "source_type": "release",
+          "published_or_updated": "2026-10-09 or current",
+          "why_selected": "The release adds a C++ regular-expression parser and broader analysis improvements, including 131 Extended-suite queries across 32 more CWEs.",
+          "usefulness": "Refresh security baselines before asking agents to remediate."
+        },
+        {
+          "title": "Code scanning AI detections on pull requests",
+          "url": "https://github.blog/changelog/2026-07-14-code-scanning-shows-ai-security-detections-on-pull-requests/",
+          "source_type": "product",
+          "published_or_updated": "2026-10-09 or current",
+          "why_selected": "GitHub surfaces AI-powered security detections directly in pull requests and labels them separately from CodeQL.",
+          "usefulness": "Make security review part of the delegated delivery loop."
+        },
+        {
+          "title": "Security validation for third-party coding agents",
+          "url": "https://github.blog/changelog/2026-06-09-security-validation-for-third-party-coding-agents/",
+          "source_type": "governance",
+          "published_or_updated": "2026-10-09 or current",
+          "why_selected": "GitHub says code from supported third-party agents receives automatic security validation.",
+          "usefulness": "Treat agent identity and post-generation scanning as one control."
+        },
+        {
+          "title": "Anthropic Cyber Mission",
+          "url": "https://www.anthropic.com/news/anthropic-cyber-mission",
+          "source_type": "research",
+          "published_or_updated": "2026-10-09 or current",
+          "why_selected": "Anthropic frames AI-assisted defense around critical infrastructure.",
+          "usefulness": "Translate the framing into client threat-modeling offers."
+        }
+      ]
+    },
+    {
+      "slug": "science-workbenches",
+      "title": "AI Science Workbenches + Auditable Artifacts",
+      "selection_rationale": "Science tooling is under-covered and offers a concrete pattern for Buildn: connect domain tools, compute, and artifact provenance instead of shipping a generic chat layer.",
+      "sources": [
+        {
+          "title": "Claude Science, an AI workbench for scientists",
+          "url": "https://www.anthropic.com/news/claude-science-ai-workbench",
+          "source_type": "product",
+          "published_or_updated": "2026-10-09 or current",
+          "why_selected": "Anthropic describes a workbench integrating common research tools, auditable artifacts, and flexible compute.",
+          "usefulness": "Borrow the workbench pattern for research briefs and evidence packs."
+        },
+        {
+          "title": "Advancing Claude in healthcare and the life sciences",
+          "url": "https://www.anthropic.com/news/healthcare-life-sciences",
+          "source_type": "product",
+          "published_or_updated": "2026-10-09 or current",
+          "why_selected": "New connectors include Open Targets, ChEMBL, and Owkin, alongside skills for Allotrope, scVI-tools, Nextflow, and clinical protocol drafts.",
+          "usefulness": "Model integrations as named skills with clear input/output contracts."
+        },
+        {
+          "title": "Claude for Life Sciences",
+          "url": "https://www.anthropic.com/news/claude-for-life-sciences",
+          "source_type": "product",
+          "published_or_updated": "2026-10-09 or current",
+          "why_selected": "Anthropic frames support across bioinformatics, data analysis, and the wider research process.",
+          "usefulness": "Use the domain-workflow lens for vertical client opportunities."
+        },
+        {
+          "title": "Google Cloud AI Agent Trends in Healthcare & Life Sciences 2026",
+          "url": "https://cloud.google.com/resources/content/ai-agent-trends-healthcare-life-sciences-2026",
+          "source_type": "research",
+          "published_or_updated": "2026-10-09 or current",
+          "why_selected": "Google Cloud summarizes five agentic-AI trends for healthcare and life sciences.",
+          "usefulness": "Use the report to pressure-test a vertical automation hypothesis."
+        },
+        {
+          "title": "Microsoft Health and Life Sciences AI Frontiers",
+          "url": "https://www.microsoft.com/en-us/research/project/multimodal-hls-foundation-models/",
+          "source_type": "research",
+          "published_or_updated": "2026-10-09 or current",
+          "why_selected": "Microsoft describes multimodal foundation models built from de-identified medical datasets and partner deployments.",
+          "usefulness": "Track multimodal data requirements before promising automation."
+        }
+      ]
+    },
+    {
+      "slug": "developer-assurance",
+      "title": "Developer Assurance + Model Choice",
+      "selection_rationale": "A fresh developer-maintenance lane complements yesterday\u2019s agent launches with concrete upgrade and measurement signals: Copilot weekly changes and CodeQL improvements.",
+      "sources": [
+        {
+          "title": "GitHub Copilot weekly releases \u2014 October 5",
+          "url": "https://github.blog/changelog/2026-10-09-github-copilot-weekly-releases-october-5/",
+          "source_type": "release",
+          "published_or_updated": "2026-10-09 or current",
+          "why_selected": "GitHub\u2019s weekly release note consolidates changes across Copilot surfaces.",
+          "usefulness": "Use release notes as an input to a lightweight workflow compatibility check."
+        },
+        {
+          "title": "Discover local models in GitHub Copilot CLI",
+          "url": "https://github.blog/changelog/2026-10-07-discover-local-models-in-github-copilot-cli",
+          "source_type": "product",
+          "published_or_updated": "2026-10-09 or current",
+          "why_selected": "Copilot CLI now surfaces local-model options, widening provider and offline choices.",
+          "usefulness": "Use local models for low-risk, privacy-sensitive transformations."
+        },
+        {
+          "title": "Copilot CLI provider and offline-mode docs",
+          "url": "https://docs.github.com/copilot/how-tos/copilot-cli/customize-copilot/use-byok-models",
+          "source_type": "docs",
+          "published_or_updated": "2026-10-09 or current",
+          "why_selected": "GitHub documents provider and BYOK-style customization for Copilot CLI.",
+          "usefulness": "Turn model selection into an explicit policy decision."
+        },
+        {
+          "title": "Local sandboxing for GitHub Copilot GA",
+          "url": "https://github.blog/changelog/2026-10-07-local-sandboxing-for-github-copilot-now-generally-available",
+          "source_type": "release",
+          "published_or_updated": "2026-10-09 or current",
+          "why_selected": "GitHub announced local sandboxing as generally available for Copilot.",
+          "usefulness": "Pair local execution with least-privilege repository access."
+        },
+        {
+          "title": "GitHub AI usage insights",
+          "url": "https://docs.github.com/billing/managing-billing-for-your-products/managing-billing-for-github-copilot/about-usage-of-github-copilot-features",
+          "source_type": "docs",
+          "published_or_updated": "2026-10-09 or current",
+          "why_selected": "GitHub documents usage insights for Copilot features.",
+          "usefulness": "Measure adoption and effort instead of counting seats."
+        }
+      ]
+    }
+  ]
+}
