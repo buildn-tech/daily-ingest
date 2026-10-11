@@ -1,0 +1,195 @@
+{
+  "date": "2026-10-11",
+  "generated_at": "2026-10-11T08:07:09.146490+00:00",
+  "editorial_thesis": "Today’s useful frontier is not another model launch: it is portable agent state, hardened self-hosting, evidence-bearing knowledge work, and task-oriented interfaces that turn capability into reviewable delivery.",
+  "topic_groups": [
+    {
+      "slug": "portable-agent-runtimes",
+      "title": "Portable Agent Runtimes + Stateful Sessions",
+      "selection_rationale": "Fresh releases point to a practical shift from single-host assistants toward sessions that survive across terminals, frontends, sandboxes, and replicas. This is an under-covered implementation lane with direct Buildn leverage.",
+      "sources": [
+        {
+          "title": "OpenClaw 2026.10.1",
+          "url": "https://github.com/openclaw/openclaw/releases",
+          "source_type": "release",
+          "published_or_updated": "2026-10-10 or current",
+          "why_selected": "A signed Oct 10 stable release with release-evidence assets and preserved session/memory work in the project changelog.",
+          "usefulness": "Use as a reference for shipping update channels, evidence bundles, and recoverable agent state."
+        },
+        {
+          "title": "AG-UI protocol releases",
+          "url": "https://github.com/ag-ui-protocol/ag-ui/releases",
+          "source_type": "release",
+          "published_or_updated": "2026-10-10 or current",
+          "why_selected": "The Oct 10 ADK 0.9.0 release persists processed-message IDs across replicas; the 1.0 series tightens protocolVersion, media, approval, replay, and resume semantics.",
+          "usefulness": "Borrow the event-contract approach for Buildn surfaces that need a live, reviewable agent run."
+        },
+        {
+          "title": "oh-my-pi 18.8.9",
+          "url": "https://github.com/can1357/oh-my-pi/releases",
+          "source_type": "release",
+          "published_or_updated": "2026-10-10 or current",
+          "why_selected": "A fresh coding-agent release adds multiplexer-aware forking, richer session recovery, browser relay fixes, model routing, and safer shell launch confirmation.",
+          "usefulness": "Prototype a session handoff pattern: fork work by pane, preserve unknown outcomes, and keep browser/tool state explicit."
+        },
+        {
+          "title": "GitHub dynamic workflows",
+          "url": "https://github.blog/changelog/2026-10-01-dynamic-workflows-in-copilot-cli-and-the-copilot-app/",
+          "source_type": "product",
+          "published_or_updated": "2026-10-10 or current",
+          "why_selected": "Reusable sequential/parallel workflows, structured results, and human checkpoints are now shared across Copilot CLI, app, and SDK.",
+          "usefulness": "Model reusable Buildn jobs as declarative workflows with typed outputs and approval gates."
+        },
+        {
+          "title": "Docker Sandboxes releases",
+          "url": "https://github.com/docker/sbx-releases/releases",
+          "source_type": "release",
+          "published_or_updated": "2026-10-10 or current",
+          "why_selected": "Recent releases add session cleanup, long-running sandbox capability, stricter OAuth proxy handling, hostname controls, and archive limits.",
+          "usefulness": "Use sandbox lifecycle as the default boundary for delegated client work."
+        }
+      ]
+    },
+    {
+      "slug": "self-hosted-ai-security",
+      "title": "Self-Hosted AI Security + Exposure Hygiene",
+      "selection_rationale": "Yesterday covered security verification inside delivery. Today’s fresh signal shifts outward to the infrastructure boundary: public exposure, credential mediation, and the cost of self-hosting without a hardened perimeter.",
+      "sources": [
+        {
+          "title": "CSA: 36,769 exposed AI endpoints",
+          "url": "https://labs.cloudsecurityalliance.org/research/csa-research-note-exposed-ai-endpoints-20260915-csa-styled/",
+          "source_type": "research",
+          "published_or_updated": "2026-10-10 or current",
+          "why_selected": "A September scan found 36,769 reachable AI-related endpoints; only 2.02% returned an HTTP authentication challenge.",
+          "usefulness": "Turn “private AI” into a preflight audit: bind address, auth, TLS, network policy, secrets, logs, and deletion."
+        },
+        {
+          "title": "Docker Sandboxes v0.47.0 security notes",
+          "url": "https://github.com/docker/sbx-releases/releases/tag/v0.47.0",
+          "source_type": "release",
+          "published_or_updated": "2026-10-10 or current",
+          "why_selected": "The stable release documents OAuth token interception fixes, safer hostname rules, TLS handshake limits, UDP restrictions, and kit size limits.",
+          "usefulness": "Create a minimal sandbox security baseline and regression checklist for agent execution."
+        },
+        {
+          "title": "Microsoft Agent Governance Toolkit",
+          "url": "https://github.com/microsoft/agent-governance-toolkit",
+          "source_type": "repository",
+          "published_or_updated": "2026-10-10 or current",
+          "why_selected": "The toolkit is positioned around policy enforcement, zero-trust identity, execution sandboxing, and reliability engineering for autonomous agents.",
+          "usefulness": "Compare its policy vocabulary with Buildn’s tool approvals, identity, and review-chain model."
+        },
+        {
+          "title": "SentinelOne sovereign AI security",
+          "url": "https://www.sentinelone.com/press/sentinelone-brings-ai-security-to-on-premise-regulated-sovereign-self-hosted-and-airgapped-environments/",
+          "source_type": "product",
+          "published_or_updated": "2026-10-10 or current",
+          "why_selected": "The announcement targets on-premise, regulated, sovereign, and air-gapped environments, including shadow-AI discovery and real-time redaction.",
+          "usefulness": "Use as a market signal for an AI perimeter/visibility offer rather than assuming self-hosting is automatically safe."
+        },
+        {
+          "title": "GitHub third-party coding-agent validation",
+          "url": "https://github.blog/changelog/2026-06-09-security-validation-for-third-party-coding-agents/",
+          "source_type": "governance",
+          "published_or_updated": "2026-10-10 or current",
+          "why_selected": "GitHub describes automatic security validation for code produced by supported third-party coding agents.",
+          "usefulness": "Pair agent identity with post-generation scanning in delegated delivery."
+        }
+      ]
+    },
+    {
+      "slug": "agentic-work-research",
+      "title": "Agentic Work + Evidence-Bearing Knowledge",
+      "selection_rationale": "Knowledge and learning have been under-covered recently. New research and policy signals make the useful question less “can agents act?” and more “how do we preserve evidence, skill, and human judgment while they act?”",
+      "sources": [
+        {
+          "title": "How agents are transforming work",
+          "url": "https://openai.com/index/how-agents-are-transforming-work/",
+          "source_type": "research",
+          "published_or_updated": "2026-10-10 or current",
+          "why_selected": "OpenAI frames agents as handling longer, more complex tasks and publishes a research view of work transformation.",
+          "usefulness": "Use task-level decomposition in client discovery: identify the repeatable subtask, evidence needed, and human decision that remains."
+        },
+        {
+          "title": "Genesis Mission + Model Hardware Standard",
+          "url": "https://www.anthropic.com/news/genesis-mission-commitment",
+          "source_type": "program",
+          "published_or_updated": "2026-10-10 or current",
+          "why_selected": "Anthropic describes AI-for-science support and a research preview of a Model Hardware Standard for agents operating lab instruments safely.",
+          "usefulness": "Translate “agent + tool standard + physical boundary” into a reusable pattern for operational systems."
+        },
+        {
+          "title": "Brainrot: deskilling and addiction risks",
+          "url": "https://arxiv.org/html/2605.03512v1",
+          "source_type": "paper",
+          "published_or_updated": "2026-10-10 or current",
+          "why_selected": "The paper foregrounds deskilling and addiction as overlooked AI risks and discusses critical AI feedback to strengthen user memory.",
+          "usefulness": "Design Buildn workflows that expose reasoning checkpoints, retrieval sources, and deliberate practice instead of hiding all cognition."
+        },
+        {
+          "title": "AgeMem / agentic memory search trail",
+          "url": "https://arxiv.org/search/?query=AgeMem&searchtype=all",
+          "source_type": "research index",
+          "published_or_updated": "2026-10-10 or current",
+          "why_selected": "Current research activity around agentic memory treats memory management as an agent policy problem rather than a passive vector store.",
+          "usefulness": "Test memory policies with provenance, expiry, correction, and user-visible recall controls."
+        },
+        {
+          "title": "Anthropic 2026 Usage Policy update",
+          "url": "https://www.anthropic.com/news/2026-usage-policy-update",
+          "source_type": "policy",
+          "published_or_updated": "2026-10-10 or current",
+          "why_selected": "A recent policy revision is a reminder that agent capability expansion changes the operational boundary, not just the model choice.",
+          "usefulness": "Make client agent proposals include an explicit allowed-use, escalation, and audit policy."
+        }
+      ]
+    },
+    {
+      "slug": "task-oriented-ai-surfaces",
+      "title": "Task-Oriented AI Surfaces + Client Delivery",
+      "selection_rationale": "The strongest product signal is moving beyond chat: reusable canvases, connected sessions, managed agents, and visual feedback loops. This lane is practical for Buildn/client work and avoids another model-launch roundup.",
+      "sources": [
+        {
+          "title": "When chat is the wrong UI",
+          "url": "https://github.blog/ai-and-ml/github-copilot/when-chat-is-the-wrong-ui/",
+          "source_type": "product",
+          "published_or_updated": "2026-10-10 or current",
+          "why_selected": "GitHub argues that purpose-built canvases can be faster and clearer than chat once the task is known, with bidirectional agent interaction.",
+          "usefulness": "Use a canvas for a client’s repeatable decision: inputs, evidence, agent action, review, and export."
+        },
+        {
+          "title": "GitHub Copilot app + connected sessions",
+          "url": "https://github.com/resources/insights/enterprise-content-roundup-october-26",
+          "source_type": "roundup",
+          "published_or_updated": "2026-10-10 or current",
+          "why_selected": "GitHub describes sessions moving across Slack, Copilot app, VS Code, and terminal while preserving context, tools, and permissions.",
+          "usefulness": "Design cross-surface continuity as a first-class requirement for Buildn workflows."
+        },
+        {
+          "title": "Google Managed Agents",
+          "url": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/",
+          "source_type": "product index",
+          "published_or_updated": "2026-10-10 or current",
+          "why_selected": "Google’s I/O materials describe Managed Agents through Interactions API/AI Studio, with named agents defined through markdown files and skills.",
+          "usefulness": "Compare markdown-defined agent contracts with AGENTS.md/SKILL.md-style configuration in client projects."
+        },
+        {
+          "title": "Chrome DevTools MCP",
+          "url": "https://developer.chrome.com/docs/devtools/mcp",
+          "source_type": "docs",
+          "published_or_updated": "2026-10-10 or current",
+          "why_selected": "Chrome exposes DevTools context to agents so rendered browser behavior can participate in inspect-debug-patch loops.",
+          "usefulness": "Make visual regression and runtime inspection part of agent-assisted frontend delivery."
+        },
+        {
+          "title": "Figma/AI design workflow survey trail",
+          "url": "https://designlab.com/blog/ai-in-ux-product-design-trends-2026",
+          "source_type": "research",
+          "published_or_updated": "2026-10-10 or current",
+          "why_selected": "The survey/report trail points to AI being embedded in research, ideation, and production—not merely image generation.",
+          "usefulness": "Package a design-to-delivery offer around context handoff, critique, and testable artifacts."
+        }
+      ]
+    }
+  ]
+}

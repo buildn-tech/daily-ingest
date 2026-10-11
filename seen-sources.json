@@ -1,6 +1,106 @@
 {
-  "updated_at": "2026-10-10T08:02:32.894396+00:00",
+  "updated_at": "2026-10-11T08:07:14.698622+00:00",
   "sources": {
+    "https://github.com/openclaw/openclaw/releases": {
+      "first_seen": "2026-10-11",
+      "last_seen": "2026-10-11",
+      "title": "OpenClaw 2026.10.1"
+    },
+    "https://github.com/ag-ui-protocol/ag-ui/releases": {
+      "first_seen": "2026-10-11",
+      "last_seen": "2026-10-11",
+      "title": "AG-UI protocol releases"
+    },
+    "https://github.com/can1357/oh-my-pi/releases": {
+      "first_seen": "2026-10-11",
+      "last_seen": "2026-10-11",
+      "title": "oh-my-pi 18.8.9"
+    },
+    "https://github.blog/changelog/2026-10-01-dynamic-workflows-in-copilot-cli-and-the-copilot-app": {
+      "first_seen": "2026-10-11",
+      "last_seen": "2026-10-11",
+      "title": "GitHub dynamic workflows"
+    },
+    "https://github.com/docker/sbx-releases/releases": {
+      "first_seen": "2026-10-11",
+      "last_seen": "2026-10-11",
+      "title": "Docker Sandboxes releases"
+    },
+    "https://labs.cloudsecurityalliance.org/research/csa-research-note-exposed-ai-endpoints-20260915-csa-styled": {
+      "first_seen": "2026-10-11",
+      "last_seen": "2026-10-11",
+      "title": "CSA: 36,769 exposed AI endpoints"
+    },
+    "https://github.com/docker/sbx-releases/releases/tag/v0.47.0": {
+      "first_seen": "2026-10-11",
+      "last_seen": "2026-10-11",
+      "title": "Docker Sandboxes v0.47.0 security notes"
+    },
+    "https://github.com/microsoft/agent-governance-toolkit": {
+      "first_seen": "2026-10-11",
+      "last_seen": "2026-10-11",
+      "title": "Microsoft Agent Governance Toolkit"
+    },
+    "https://www.sentinelone.com/press/sentinelone-brings-ai-security-to-on-premise-regulated-sovereign-self-hosted-and-airgapped-environments": {
+      "first_seen": "2026-10-11",
+      "last_seen": "2026-10-11",
+      "title": "SentinelOne sovereign AI security"
+    },
+    "https://github.blog/changelog/2026-06-09-security-validation-for-third-party-coding-agents": {
+      "first_seen": "2026-10-11",
+      "last_seen": "2026-10-10",
+      "title": "Security validation for third-party coding agents"
+    },
+    "https://openai.com/index/how-agents-are-transforming-work": {
+      "first_seen": "2026-10-11",
+      "last_seen": "2026-08-22",
+      "title": "How agents are transforming work"
+    },
+    "https://www.anthropic.com/news/genesis-mission-commitment": {
+      "first_seen": "2026-10-11",
+      "last_seen": "2026-10-11",
+      "title": "Genesis Mission + Model Hardware Standard"
+    },
+    "https://arxiv.org/html/2605.03512v1": {
+      "first_seen": "2026-10-11",
+      "last_seen": "2026-10-11",
+      "title": "Brainrot: deskilling and addiction risks"
+    },
+    "https://arxiv.org/search?query=AgeMem&searchtype=all": {
+      "first_seen": "2026-10-11",
+      "last_seen": "2026-10-11",
+      "title": "AgeMem / agentic memory search trail"
+    },
+    "https://www.anthropic.com/news/2026-usage-policy-update": {
+      "first_seen": "2026-10-11",
+      "last_seen": "2026-10-11",
+      "title": "Anthropic 2026 Usage Policy update"
+    },
+    "https://github.blog/ai-and-ml/github-copilot/when-chat-is-the-wrong-ui": {
+      "first_seen": "2026-10-11",
+      "last_seen": "2026-10-11",
+      "title": "When chat is the wrong UI"
+    },
+    "https://github.com/resources/insights/enterprise-content-roundup-october-26": {
+      "first_seen": "2026-10-11",
+      "last_seen": "2026-10-11",
+      "title": "GitHub Copilot app + connected sessions"
+    },
+    "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform": {
+      "first_seen": "2026-10-11",
+      "last_seen": "2026-10-09",
+      "title": "Playground: Create and Play Custom Games"
+    },
+    "https://developer.chrome.com/docs/devtools/mcp": {
+      "first_seen": "2026-10-11",
+      "last_seen": "2026-10-06",
+      "title": "Chrome DevTools MCP docs"
+    },
+    "https://designlab.com/blog/ai-in-ux-product-design-trends-2026": {
+      "first_seen": "2026-10-11",
+      "last_seen": "2026-10-11",
+      "title": "Figma/AI design workflow survey trail"
+    },
     "https://openai.com/index/asana-browser-agent": {
       "first_seen": "2026-10-10",
       "last_seen": "2026-10-10",
@@ -15,11 +115,6 @@
       "first_seen": "2026-10-10",
       "last_seen": "2026-10-07",
       "title": "Advancing computer use with Ironclad"
-    },
-    "https://developer.chrome.com/docs/devtools/mcp": {
-      "first_seen": "2026-10-10",
-      "last_seen": "2026-10-06",
-      "title": "Chrome DevTools MCP docs"
     },
     "https://developer.chrome.com/blog/chrome-devtools-mcp-debug-your-browser-session": {
       "first_seen": "2026-10-10",
@@ -40,11 +135,6 @@
       "first_seen": "2026-10-10",
       "last_seen": "2026-07-16",
       "title": "AI security detections on pull requests"
-    },
-    "https://github.blog/changelog/2026-06-09-security-validation-for-third-party-coding-agents": {
-      "first_seen": "2026-10-10",
-      "last_seen": "2026-10-10",
-      "title": "Security validation for third-party coding agents"
     },
     "https://www.anthropic.com/news/anthropic-cyber-mission": {
       "first_seen": "2026-10-10",
@@ -130,11 +220,6 @@
       "first_seen": "2026-10-09",
       "last_seen": "2026-10-09",
       "title": "Pollo AI turns creative ideas into campaigns with OpenAI"
-    },
-    "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform": {
-      "first_seen": "2026-10-09",
-      "last_seen": "2026-10-09",
-      "title": "Playground: Create and Play Custom Games"
     },
     "https://adsknews.autodesk.com/en/news/autodesk-ai-design-manufacturing-au-2026": {
       "first_seen": "2026-10-09",
@@ -1740,11 +1825,6 @@
       "first_seen": "2026-09-08",
       "last_seen": "2026-09-08",
       "title": "Scientific computing in the age of agentic AI"
-    },
-    "https://openai.com/index/how-agents-are-transforming-work": {
-      "first_seen": "2026-09-08",
-      "last_seen": "2026-08-22",
-      "title": "How agents are transforming work"
     },
     "https://openai.com/index/path-to-astra": {
       "first_seen": "2026-09-08",

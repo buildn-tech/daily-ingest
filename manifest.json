@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-10-10T08:02:32.894396+00:00",
+  "updated_at": "2026-10-11T08:07:14.698622+00:00",
   "days": [
+    {
+      "date": "2026-10-11",
+      "path": "2026-10-11",
+      "reports": [
+        {
+          "lane": "portable-agent-runtimes",
+          "title": "Portable Agent Runtimes + Stateful Sessions",
+          "url": "2026-10-11/portable-agent-runtimes.html"
+        },
+        {
+          "lane": "self-hosted-ai-security",
+          "title": "Self-Hosted AI Security + Exposure Hygiene",
+          "url": "2026-10-11/self-hosted-ai-security.html"
+        },
+        {
+          "lane": "agentic-work-research",
+          "title": "Agentic Work + Evidence-Bearing Knowledge",
+          "url": "2026-10-11/agentic-work-research.html"
+        },
+        {
+          "lane": "task-oriented-ai-surfaces",
+          "title": "Task-Oriented AI Surfaces + Client Delivery",
+          "url": "2026-10-11/task-oriented-ai-surfaces.html"
+        }
+      ]
+    },
     {
       "date": "2026-10-10",
       "path": "2026-10-10",
