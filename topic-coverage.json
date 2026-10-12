@@ -4355,7 +4355,7 @@
       "lane": "persistent-agent-work",
       "title": "OpenAI — Introducing dots",
       "url": "https://openai.com/index/introducing-dots/",
-      "source_type": "blog|docs|product|research",
+      "source_type": "product",
       "rationale": "always-on cloud agents with browser/app access and Activity View"
     },
     {
@@ -4363,7 +4363,7 @@
       "lane": "persistent-agent-work",
       "title": "OpenAI — dots safety and controls",
       "url": "https://openai.com/index/introducing-dots/#safety-privacy-and-user-control",
-      "source_type": "blog|docs|product|research",
+      "source_type": "product",
       "rationale": "explicit allow / require-approval / block rules around actions"
     },
     {
@@ -4371,7 +4371,7 @@
       "lane": "persistent-agent-work",
       "title": "OpenAI — dots interaction model",
       "url": "https://openai.com/index/introducing-dots/#how-users-interact-with-dots",
-      "source_type": "blog|docs|product|research",
+      "source_type": "product",
       "rationale": "projects continue across web, desktop, Slack, and Teams"
     },
     {
@@ -4379,7 +4379,7 @@
       "lane": "persistent-agent-work",
       "title": "OpenAI — dots proactive research",
       "url": "https://openai.com/index/introducing-dots/#safety-privacy-and-user-control",
-      "source_type": "blog|docs|product|research",
+      "source_type": "product",
       "rationale": "background research can use connected apps without mutating them"
     },
     {
@@ -4387,7 +4387,7 @@
       "lane": "persistent-agent-work",
       "title": "OpenAI — dots overview",
       "url": "https://openai.com/index/introducing-dots/#what-dots-can-do",
-      "source_type": "blog|docs|product|research",
+      "source_type": "product",
       "rationale": "multiple concurrent agents are framed as a future operating pattern"
     },
     {
@@ -4395,7 +4395,7 @@
       "lane": "browser-agent-assurance",
       "title": "Chrome for Developers — New in DevTools, October 2026",
       "url": "https://developer.chrome.com/blog/new-in-devtools-october-2026#devtools-for-agents",
-      "source_type": "blog|docs|product|research",
+      "source_type": "docs",
       "rationale": "--no-javascript-evaluation and disabled evaluation tools persist across navigations"
     },
     {
@@ -4403,7 +4403,7 @@
       "lane": "browser-agent-assurance",
       "title": "Chrome for Developers — configurable filesystem roots",
       "url": "https://developer.chrome.com/blog/new-in-devtools-october-2026#devtools-for-agents",
-      "source_type": "blog|docs|product|research",
+      "source_type": "docs",
       "rationale": "configurable roots and CLI path permissions for agent access"
     },
     {
@@ -4411,7 +4411,7 @@
       "lane": "browser-agent-assurance",
       "title": "Chrome for Developers — Agent Plugins 1.0",
       "url": "https://developer.chrome.com/blog/new-in-devtools-october-2026#devtools-for-agents",
-      "source_type": "blog|docs|product|research",
+      "source_type": "docs",
       "rationale": "modular plugins can load and execute in the agent toolchain"
     },
     {
@@ -4419,7 +4419,7 @@
       "lane": "browser-agent-assurance",
       "title": "Chrome for Developers — heap snapshot inspection",
       "url": "https://developer.chrome.com/blog/new-in-devtools-october-2026#devtools-for-agents",
-      "source_type": "blog|docs|product|research",
+      "source_type": "docs",
       "rationale": "query objects by retained size/property and inspect V8 context retention"
     },
     {
@@ -4427,7 +4427,7 @@
       "lane": "browser-agent-assurance",
       "title": "Chrome DevTools MCP repository",
       "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp#privacy-considerations",
-      "source_type": "blog|docs|product|research",
+      "source_type": "repo",
       "rationale": "usage statistics and CrUX requests have distinct opt-out controls"
     },
     {
@@ -4435,7 +4435,7 @@
       "lane": "contextual-ai-for-physical-work",
       "title": "Google DeepMind — Gemini 4 Argon",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
-      "source_type": "blog|docs|product|research",
+      "source_type": "product",
       "rationale": "1M-token output limit and staged access for coding, enterprise work, and cyber defense"
     },
     {
@@ -4443,7 +4443,7 @@
       "lane": "contextual-ai-for-physical-work",
       "title": "Autodesk News — AI in design and manufacturing",
       "url": "https://adsknews.autodesk.com/en/news/autodesk-ai-design-manufacturing-au-2026/",
-      "source_type": "blog|docs|product|research",
+      "source_type": "product",
       "rationale": "AI connects design, product data, manufacturing, and lifecycle requirements"
     },
     {
@@ -4451,7 +4451,7 @@
       "lane": "contextual-ai-for-physical-work",
       "title": "Autodesk News — Fusion AutoTimeline",
       "url": "https://adsknews.autodesk.com/en/news/autodesk-ai-design-manufacturing-au-2026/#fusion",
-      "source_type": "blog|docs|product|research",
+      "source_type": "product",
       "rationale": "imported geometry can become editable parametric parts"
     },
     {
@@ -4459,7 +4459,7 @@
       "lane": "contextual-ai-for-physical-work",
       "title": "Autodesk News — Inventor Assistant",
       "url": "https://adsknews.autodesk.com/en/news/autodesk-ai-design-manufacturing-au-2026/#inventor",
-      "source_type": "blog|docs|product|research",
+      "source_type": "product",
       "rationale": "assistant can analyze models and modify parameters through APIs/iLogic"
     },
     {
@@ -4467,7 +4467,7 @@
       "lane": "contextual-ai-for-physical-work",
       "title": "Autodesk News — why physical-world AI needs context",
       "url": "https://adsknews.autodesk.com/en/news/autodesk-ai-design-manufacturing-au-2026/#why-ai-for-the-physical-world-requires-a-higher-standard",
-      "source_type": "blog|docs|product|research",
+      "source_type": "product",
       "rationale": "precision, safety, and operating context become product requirements"
     }
   ],
@@ -6857,7 +6857,7 @@
           "lane": "persistent-agent-work",
           "title": "OpenAI — Introducing dots",
           "url": "https://openai.com/index/introducing-dots/",
-          "source_type": "blog|docs|product|research",
+          "source_type": "product",
           "rationale": "always-on cloud agents with browser/app access and Activity View"
         },
         {
@@ -6865,7 +6865,7 @@
           "lane": "persistent-agent-work",
           "title": "OpenAI — dots safety and controls",
           "url": "https://openai.com/index/introducing-dots/#safety-privacy-and-user-control",
-          "source_type": "blog|docs|product|research",
+          "source_type": "product",
           "rationale": "explicit allow / require-approval / block rules around actions"
         },
         {
@@ -6873,7 +6873,7 @@
           "lane": "persistent-agent-work",
           "title": "OpenAI — dots interaction model",
           "url": "https://openai.com/index/introducing-dots/#how-users-interact-with-dots",
-          "source_type": "blog|docs|product|research",
+          "source_type": "product",
           "rationale": "projects continue across web, desktop, Slack, and Teams"
         },
         {
@@ -6881,7 +6881,7 @@
           "lane": "persistent-agent-work",
           "title": "OpenAI — dots proactive research",
           "url": "https://openai.com/index/introducing-dots/#safety-privacy-and-user-control",
-          "source_type": "blog|docs|product|research",
+          "source_type": "product",
           "rationale": "background research can use connected apps without mutating them"
         },
         {
@@ -6889,7 +6889,7 @@
           "lane": "persistent-agent-work",
           "title": "OpenAI — dots overview",
           "url": "https://openai.com/index/introducing-dots/#what-dots-can-do",
-          "source_type": "blog|docs|product|research",
+          "source_type": "product",
           "rationale": "multiple concurrent agents are framed as a future operating pattern"
         },
         {
@@ -6897,7 +6897,7 @@
           "lane": "browser-agent-assurance",
           "title": "Chrome for Developers — New in DevTools, October 2026",
           "url": "https://developer.chrome.com/blog/new-in-devtools-october-2026#devtools-for-agents",
-          "source_type": "blog|docs|product|research",
+          "source_type": "docs",
           "rationale": "--no-javascript-evaluation and disabled evaluation tools persist across navigations"
         },
         {
@@ -6905,7 +6905,7 @@
           "lane": "browser-agent-assurance",
           "title": "Chrome for Developers — configurable filesystem roots",
           "url": "https://developer.chrome.com/blog/new-in-devtools-october-2026#devtools-for-agents",
-          "source_type": "blog|docs|product|research",
+          "source_type": "docs",
           "rationale": "configurable roots and CLI path permissions for agent access"
         },
         {
@@ -6913,7 +6913,7 @@
           "lane": "browser-agent-assurance",
           "title": "Chrome for Developers — Agent Plugins 1.0",
           "url": "https://developer.chrome.com/blog/new-in-devtools-october-2026#devtools-for-agents",
-          "source_type": "blog|docs|product|research",
+          "source_type": "docs",
           "rationale": "modular plugins can load and execute in the agent toolchain"
         },
         {
@@ -6921,7 +6921,7 @@
           "lane": "browser-agent-assurance",
           "title": "Chrome for Developers — heap snapshot inspection",
           "url": "https://developer.chrome.com/blog/new-in-devtools-october-2026#devtools-for-agents",
-          "source_type": "blog|docs|product|research",
+          "source_type": "docs",
           "rationale": "query objects by retained size/property and inspect V8 context retention"
         },
         {
@@ -6929,7 +6929,7 @@
           "lane": "browser-agent-assurance",
           "title": "Chrome DevTools MCP repository",
           "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp#privacy-considerations",
-          "source_type": "blog|docs|product|research",
+          "source_type": "repo",
           "rationale": "usage statistics and CrUX requests have distinct opt-out controls"
         },
         {
@@ -6937,7 +6937,7 @@
           "lane": "contextual-ai-for-physical-work",
           "title": "Google DeepMind — Gemini 4 Argon",
           "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
-          "source_type": "blog|docs|product|research",
+          "source_type": "product",
           "rationale": "1M-token output limit and staged access for coding, enterprise work, and cyber defense"
         },
         {
@@ -6945,7 +6945,7 @@
           "lane": "contextual-ai-for-physical-work",
           "title": "Autodesk News — AI in design and manufacturing",
           "url": "https://adsknews.autodesk.com/en/news/autodesk-ai-design-manufacturing-au-2026/",
-          "source_type": "blog|docs|product|research",
+          "source_type": "product",
           "rationale": "AI connects design, product data, manufacturing, and lifecycle requirements"
         },
         {
@@ -6953,7 +6953,7 @@
           "lane": "contextual-ai-for-physical-work",
           "title": "Autodesk News — Fusion AutoTimeline",
           "url": "https://adsknews.autodesk.com/en/news/autodesk-ai-design-manufacturing-au-2026/#fusion",
-          "source_type": "blog|docs|product|research",
+          "source_type": "product",
           "rationale": "imported geometry can become editable parametric parts"
         },
         {
@@ -6961,7 +6961,7 @@
           "lane": "contextual-ai-for-physical-work",
           "title": "Autodesk News — Inventor Assistant",
           "url": "https://adsknews.autodesk.com/en/news/autodesk-ai-design-manufacturing-au-2026/#inventor",
-          "source_type": "blog|docs|product|research",
+          "source_type": "product",
           "rationale": "assistant can analyze models and modify parameters through APIs/iLogic"
         },
         {
@@ -6969,7 +6969,7 @@
           "lane": "contextual-ai-for-physical-work",
           "title": "Autodesk News — why physical-world AI needs context",
           "url": "https://adsknews.autodesk.com/en/news/autodesk-ai-design-manufacturing-au-2026/#why-ai-for-the-physical-world-requires-a-higher-standard",
-          "source_type": "blog|docs|product|research",
+          "source_type": "product",
           "rationale": "precision, safety, and operating context become product requirements"
         }
       ],
