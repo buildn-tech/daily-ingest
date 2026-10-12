@@ -1310,6 +1310,21 @@
       "title": "Task-Oriented AI Surfaces + Client Delivery",
       "times_covered": 1,
       "last_covered": "2026-10-11"
+    },
+    "persistent-agent-work": {
+      "title": "Persistent Agent Work + Permissioned Autonomy",
+      "times_covered": 1,
+      "last_covered": "2026-10-12"
+    },
+    "browser-agent-assurance": {
+      "title": "Browser Agent Assurance",
+      "times_covered": 1,
+      "last_covered": "2026-10-12"
+    },
+    "contextual-ai-for-physical-work": {
+      "title": "Contextual AI for Physical-World Work",
+      "times_covered": 1,
+      "last_covered": "2026-10-12"
     }
   },
   "item_history": [
@@ -4334,6 +4349,126 @@
       "source_type": "docs",
       "rationale": "GitHub shipped a detector designed for contextual and unstructured credentials, with separate included and credit-consuming paths; this is a useful supply-chain lane distinct from yesterday's transport check.",
       "selection_rationale": "GitHub shipped a detector designed for contextual and unstructured credentials, with separate included and credit-consuming paths; this is a useful supply-chain lane distinct from yesterday's transport check."
+    },
+    {
+      "date": "2026-10-12",
+      "lane": "persistent-agent-work",
+      "title": "OpenAI — Introducing dots",
+      "url": "https://openai.com/index/introducing-dots/",
+      "source_type": "blog|docs|product|research",
+      "rationale": "always-on cloud agents with browser/app access and Activity View"
+    },
+    {
+      "date": "2026-10-12",
+      "lane": "persistent-agent-work",
+      "title": "OpenAI — dots safety and controls",
+      "url": "https://openai.com/index/introducing-dots/#safety-privacy-and-user-control",
+      "source_type": "blog|docs|product|research",
+      "rationale": "explicit allow / require-approval / block rules around actions"
+    },
+    {
+      "date": "2026-10-12",
+      "lane": "persistent-agent-work",
+      "title": "OpenAI — dots interaction model",
+      "url": "https://openai.com/index/introducing-dots/#how-users-interact-with-dots",
+      "source_type": "blog|docs|product|research",
+      "rationale": "projects continue across web, desktop, Slack, and Teams"
+    },
+    {
+      "date": "2026-10-12",
+      "lane": "persistent-agent-work",
+      "title": "OpenAI — dots proactive research",
+      "url": "https://openai.com/index/introducing-dots/#safety-privacy-and-user-control",
+      "source_type": "blog|docs|product|research",
+      "rationale": "background research can use connected apps without mutating them"
+    },
+    {
+      "date": "2026-10-12",
+      "lane": "persistent-agent-work",
+      "title": "OpenAI — dots overview",
+      "url": "https://openai.com/index/introducing-dots/#what-dots-can-do",
+      "source_type": "blog|docs|product|research",
+      "rationale": "multiple concurrent agents are framed as a future operating pattern"
+    },
+    {
+      "date": "2026-10-12",
+      "lane": "browser-agent-assurance",
+      "title": "Chrome for Developers — New in DevTools, October 2026",
+      "url": "https://developer.chrome.com/blog/new-in-devtools-october-2026#devtools-for-agents",
+      "source_type": "blog|docs|product|research",
+      "rationale": "--no-javascript-evaluation and disabled evaluation tools persist across navigations"
+    },
+    {
+      "date": "2026-10-12",
+      "lane": "browser-agent-assurance",
+      "title": "Chrome for Developers — configurable filesystem roots",
+      "url": "https://developer.chrome.com/blog/new-in-devtools-october-2026#devtools-for-agents",
+      "source_type": "blog|docs|product|research",
+      "rationale": "configurable roots and CLI path permissions for agent access"
+    },
+    {
+      "date": "2026-10-12",
+      "lane": "browser-agent-assurance",
+      "title": "Chrome for Developers — Agent Plugins 1.0",
+      "url": "https://developer.chrome.com/blog/new-in-devtools-october-2026#devtools-for-agents",
+      "source_type": "blog|docs|product|research",
+      "rationale": "modular plugins can load and execute in the agent toolchain"
+    },
+    {
+      "date": "2026-10-12",
+      "lane": "browser-agent-assurance",
+      "title": "Chrome for Developers — heap snapshot inspection",
+      "url": "https://developer.chrome.com/blog/new-in-devtools-october-2026#devtools-for-agents",
+      "source_type": "blog|docs|product|research",
+      "rationale": "query objects by retained size/property and inspect V8 context retention"
+    },
+    {
+      "date": "2026-10-12",
+      "lane": "browser-agent-assurance",
+      "title": "Chrome DevTools MCP repository",
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp#privacy-considerations",
+      "source_type": "blog|docs|product|research",
+      "rationale": "usage statistics and CrUX requests have distinct opt-out controls"
+    },
+    {
+      "date": "2026-10-12",
+      "lane": "contextual-ai-for-physical-work",
+      "title": "Google DeepMind — Gemini 4 Argon",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+      "source_type": "blog|docs|product|research",
+      "rationale": "1M-token output limit and staged access for coding, enterprise work, and cyber defense"
+    },
+    {
+      "date": "2026-10-12",
+      "lane": "contextual-ai-for-physical-work",
+      "title": "Autodesk News — AI in design and manufacturing",
+      "url": "https://adsknews.autodesk.com/en/news/autodesk-ai-design-manufacturing-au-2026/",
+      "source_type": "blog|docs|product|research",
+      "rationale": "AI connects design, product data, manufacturing, and lifecycle requirements"
+    },
+    {
+      "date": "2026-10-12",
+      "lane": "contextual-ai-for-physical-work",
+      "title": "Autodesk News — Fusion AutoTimeline",
+      "url": "https://adsknews.autodesk.com/en/news/autodesk-ai-design-manufacturing-au-2026/#fusion",
+      "source_type": "blog|docs|product|research",
+      "rationale": "imported geometry can become editable parametric parts"
+    },
+    {
+      "date": "2026-10-12",
+      "lane": "contextual-ai-for-physical-work",
+      "title": "Autodesk News — Inventor Assistant",
+      "url": "https://adsknews.autodesk.com/en/news/autodesk-ai-design-manufacturing-au-2026/#inventor",
+      "source_type": "blog|docs|product|research",
+      "rationale": "assistant can analyze models and modify parameters through APIs/iLogic"
+    },
+    {
+      "date": "2026-10-12",
+      "lane": "contextual-ai-for-physical-work",
+      "title": "Autodesk News — why physical-world AI needs context",
+      "url": "https://adsknews.autodesk.com/en/news/autodesk-ai-design-manufacturing-au-2026/#why-ai-for-the-physical-world-requires-a-higher-standard",
+      "source_type": "blog|docs|product|research",
+      "rationale": "precision, safety, and operating context become product requirements"
     }
   ],
   "runs": [
@@ -6708,11 +6843,143 @@
         }
       ],
       "selection_rationale": "Rotated toward runtime portability, self-hosted security hygiene, evidence-bearing knowledge work, and task-oriented AI surfaces after reviewing 2026-10-10 coverage."
+    },
+    {
+      "date": "2026-10-12",
+      "selected_lanes": [
+        "persistent-agent-work",
+        "browser-agent-assurance",
+        "contextual-ai-for-physical-work"
+      ],
+      "items": [
+        {
+          "date": "2026-10-12",
+          "lane": "persistent-agent-work",
+          "title": "OpenAI — Introducing dots",
+          "url": "https://openai.com/index/introducing-dots/",
+          "source_type": "blog|docs|product|research",
+          "rationale": "always-on cloud agents with browser/app access and Activity View"
+        },
+        {
+          "date": "2026-10-12",
+          "lane": "persistent-agent-work",
+          "title": "OpenAI — dots safety and controls",
+          "url": "https://openai.com/index/introducing-dots/#safety-privacy-and-user-control",
+          "source_type": "blog|docs|product|research",
+          "rationale": "explicit allow / require-approval / block rules around actions"
+        },
+        {
+          "date": "2026-10-12",
+          "lane": "persistent-agent-work",
+          "title": "OpenAI — dots interaction model",
+          "url": "https://openai.com/index/introducing-dots/#how-users-interact-with-dots",
+          "source_type": "blog|docs|product|research",
+          "rationale": "projects continue across web, desktop, Slack, and Teams"
+        },
+        {
+          "date": "2026-10-12",
+          "lane": "persistent-agent-work",
+          "title": "OpenAI — dots proactive research",
+          "url": "https://openai.com/index/introducing-dots/#safety-privacy-and-user-control",
+          "source_type": "blog|docs|product|research",
+          "rationale": "background research can use connected apps without mutating them"
+        },
+        {
+          "date": "2026-10-12",
+          "lane": "persistent-agent-work",
+          "title": "OpenAI — dots overview",
+          "url": "https://openai.com/index/introducing-dots/#what-dots-can-do",
+          "source_type": "blog|docs|product|research",
+          "rationale": "multiple concurrent agents are framed as a future operating pattern"
+        },
+        {
+          "date": "2026-10-12",
+          "lane": "browser-agent-assurance",
+          "title": "Chrome for Developers — New in DevTools, October 2026",
+          "url": "https://developer.chrome.com/blog/new-in-devtools-october-2026#devtools-for-agents",
+          "source_type": "blog|docs|product|research",
+          "rationale": "--no-javascript-evaluation and disabled evaluation tools persist across navigations"
+        },
+        {
+          "date": "2026-10-12",
+          "lane": "browser-agent-assurance",
+          "title": "Chrome for Developers — configurable filesystem roots",
+          "url": "https://developer.chrome.com/blog/new-in-devtools-october-2026#devtools-for-agents",
+          "source_type": "blog|docs|product|research",
+          "rationale": "configurable roots and CLI path permissions for agent access"
+        },
+        {
+          "date": "2026-10-12",
+          "lane": "browser-agent-assurance",
+          "title": "Chrome for Developers — Agent Plugins 1.0",
+          "url": "https://developer.chrome.com/blog/new-in-devtools-october-2026#devtools-for-agents",
+          "source_type": "blog|docs|product|research",
+          "rationale": "modular plugins can load and execute in the agent toolchain"
+        },
+        {
+          "date": "2026-10-12",
+          "lane": "browser-agent-assurance",
+          "title": "Chrome for Developers — heap snapshot inspection",
+          "url": "https://developer.chrome.com/blog/new-in-devtools-october-2026#devtools-for-agents",
+          "source_type": "blog|docs|product|research",
+          "rationale": "query objects by retained size/property and inspect V8 context retention"
+        },
+        {
+          "date": "2026-10-12",
+          "lane": "browser-agent-assurance",
+          "title": "Chrome DevTools MCP repository",
+          "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp#privacy-considerations",
+          "source_type": "blog|docs|product|research",
+          "rationale": "usage statistics and CrUX requests have distinct opt-out controls"
+        },
+        {
+          "date": "2026-10-12",
+          "lane": "contextual-ai-for-physical-work",
+          "title": "Google DeepMind — Gemini 4 Argon",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+          "source_type": "blog|docs|product|research",
+          "rationale": "1M-token output limit and staged access for coding, enterprise work, and cyber defense"
+        },
+        {
+          "date": "2026-10-12",
+          "lane": "contextual-ai-for-physical-work",
+          "title": "Autodesk News — AI in design and manufacturing",
+          "url": "https://adsknews.autodesk.com/en/news/autodesk-ai-design-manufacturing-au-2026/",
+          "source_type": "blog|docs|product|research",
+          "rationale": "AI connects design, product data, manufacturing, and lifecycle requirements"
+        },
+        {
+          "date": "2026-10-12",
+          "lane": "contextual-ai-for-physical-work",
+          "title": "Autodesk News — Fusion AutoTimeline",
+          "url": "https://adsknews.autodesk.com/en/news/autodesk-ai-design-manufacturing-au-2026/#fusion",
+          "source_type": "blog|docs|product|research",
+          "rationale": "imported geometry can become editable parametric parts"
+        },
+        {
+          "date": "2026-10-12",
+          "lane": "contextual-ai-for-physical-work",
+          "title": "Autodesk News — Inventor Assistant",
+          "url": "https://adsknews.autodesk.com/en/news/autodesk-ai-design-manufacturing-au-2026/#inventor",
+          "source_type": "blog|docs|product|research",
+          "rationale": "assistant can analyze models and modify parameters through APIs/iLogic"
+        },
+        {
+          "date": "2026-10-12",
+          "lane": "contextual-ai-for-physical-work",
+          "title": "Autodesk News — why physical-world AI needs context",
+          "url": "https://adsknews.autodesk.com/en/news/autodesk-ai-design-manufacturing-au-2026/#why-ai-for-the-physical-world-requires-a-higher-standard",
+          "source_type": "blog|docs|product|research",
+          "rationale": "precision, safety, and operating context become product requirements"
+        }
+      ],
+      "editorial_thesis": "The next useful unit of agent design is a bounded, evidence-bearing run: persistent enough to do work, constrained enough to trust, and contextual enough to survive handoff.",
+      "selection_rationale": "Rotated away from 2026-10-11 portable runtimes, self-hosted AI security, and task-oriented surfaces; retained only the material Chrome security update and followed gaps in persistent agents and contextual physical-world work."
     }
   ],
-  "updated_at": "2026-10-11T08:01:00Z",
-  "last_run": "2026-10-08",
-  "last_editorial_thesis": "The most useful agent progress today is boundary work: choose the right local or hosted model, constrain execution on the developer machine, and catch secrets with a purpose-built detector before they become durable incidents.",
+  "updated_at": "2026-10-12T08:00:00+00:00",
+  "last_run": "2026-10-12",
+  "last_editorial_thesis": "The next useful unit of agent design is a bounded, evidence-bearing run: persistent enough to do work, constrained enough to trust, and contextual enough to survive handoff.",
   "coverage_history": [
     {
       "date": "2026-08-27",
@@ -9699,23 +9966,138 @@
       "editorial_thesis": "Trustworthy agent capability depends on explicit identity decisions, evidence-bearing dependencies, and workflows that remain useful when intelligence moves closer to the device or physical system."
     }
   ],
-  "last_run_selection": [
-    {
-      "slug": "local-model-choice",
-      "title": "Local Model Choice + Provider Portability",
-      "rationale": "Fresh GitHub CLI support makes local Ollama models visible inside an active agent session; this fills a practical portability gap after yesterday's private retrieval coverage."
-    },
-    {
-      "slug": "agent-execution-boundaries",
-      "title": "Agent Execution Boundaries",
-      "rationale": "Local sandboxing reached general availability across Copilot surfaces, turning agent autonomy into a machine-enforced policy problem rather than a prompt-writing exercise."
-    },
-    {
-      "slug": "secret-detection-at-the-boundary",
-      "title": "Secret Detection at the Boundary",
-      "rationale": "GitHub shipped a detector designed for contextual and unstructured credentials, with separate included and credit-consuming paths; this is a useful supply-chain lane distinct from yesterday's transport check."
-    }
-  ],
+  "last_run_selection": {
+    "date": "2026-10-12",
+    "selected_lanes": [
+      "persistent-agent-work",
+      "browser-agent-assurance",
+      "contextual-ai-for-physical-work"
+    ],
+    "items": [
+      {
+        "date": "2026-10-12",
+        "lane": "persistent-agent-work",
+        "title": "OpenAI — Introducing dots",
+        "url": "https://openai.com/index/introducing-dots/",
+        "source_type": "blog|docs|product|research",
+        "rationale": "always-on cloud agents with browser/app access and Activity View"
+      },
+      {
+        "date": "2026-10-12",
+        "lane": "persistent-agent-work",
+        "title": "OpenAI — dots safety and controls",
+        "url": "https://openai.com/index/introducing-dots/#safety-privacy-and-user-control",
+        "source_type": "blog|docs|product|research",
+        "rationale": "explicit allow / require-approval / block rules around actions"
+      },
+      {
+        "date": "2026-10-12",
+        "lane": "persistent-agent-work",
+        "title": "OpenAI — dots interaction model",
+        "url": "https://openai.com/index/introducing-dots/#how-users-interact-with-dots",
+        "source_type": "blog|docs|product|research",
+        "rationale": "projects continue across web, desktop, Slack, and Teams"
+      },
+      {
+        "date": "2026-10-12",
+        "lane": "persistent-agent-work",
+        "title": "OpenAI — dots proactive research",
+        "url": "https://openai.com/index/introducing-dots/#safety-privacy-and-user-control",
+        "source_type": "blog|docs|product|research",
+        "rationale": "background research can use connected apps without mutating them"
+      },
+      {
+        "date": "2026-10-12",
+        "lane": "persistent-agent-work",
+        "title": "OpenAI — dots overview",
+        "url": "https://openai.com/index/introducing-dots/#what-dots-can-do",
+        "source_type": "blog|docs|product|research",
+        "rationale": "multiple concurrent agents are framed as a future operating pattern"
+      },
+      {
+        "date": "2026-10-12",
+        "lane": "browser-agent-assurance",
+        "title": "Chrome for Developers — New in DevTools, October 2026",
+        "url": "https://developer.chrome.com/blog/new-in-devtools-october-2026#devtools-for-agents",
+        "source_type": "blog|docs|product|research",
+        "rationale": "--no-javascript-evaluation and disabled evaluation tools persist across navigations"
+      },
+      {
+        "date": "2026-10-12",
+        "lane": "browser-agent-assurance",
+        "title": "Chrome for Developers — configurable filesystem roots",
+        "url": "https://developer.chrome.com/blog/new-in-devtools-october-2026#devtools-for-agents",
+        "source_type": "blog|docs|product|research",
+        "rationale": "configurable roots and CLI path permissions for agent access"
+      },
+      {
+        "date": "2026-10-12",
+        "lane": "browser-agent-assurance",
+        "title": "Chrome for Developers — Agent Plugins 1.0",
+        "url": "https://developer.chrome.com/blog/new-in-devtools-october-2026#devtools-for-agents",
+        "source_type": "blog|docs|product|research",
+        "rationale": "modular plugins can load and execute in the agent toolchain"
+      },
+      {
+        "date": "2026-10-12",
+        "lane": "browser-agent-assurance",
+        "title": "Chrome for Developers — heap snapshot inspection",
+        "url": "https://developer.chrome.com/blog/new-in-devtools-october-2026#devtools-for-agents",
+        "source_type": "blog|docs|product|research",
+        "rationale": "query objects by retained size/property and inspect V8 context retention"
+      },
+      {
+        "date": "2026-10-12",
+        "lane": "browser-agent-assurance",
+        "title": "Chrome DevTools MCP repository",
+        "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp#privacy-considerations",
+        "source_type": "blog|docs|product|research",
+        "rationale": "usage statistics and CrUX requests have distinct opt-out controls"
+      },
+      {
+        "date": "2026-10-12",
+        "lane": "contextual-ai-for-physical-work",
+        "title": "Google DeepMind — Gemini 4 Argon",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+        "source_type": "blog|docs|product|research",
+        "rationale": "1M-token output limit and staged access for coding, enterprise work, and cyber defense"
+      },
+      {
+        "date": "2026-10-12",
+        "lane": "contextual-ai-for-physical-work",
+        "title": "Autodesk News — AI in design and manufacturing",
+        "url": "https://adsknews.autodesk.com/en/news/autodesk-ai-design-manufacturing-au-2026/",
+        "source_type": "blog|docs|product|research",
+        "rationale": "AI connects design, product data, manufacturing, and lifecycle requirements"
+      },
+      {
+        "date": "2026-10-12",
+        "lane": "contextual-ai-for-physical-work",
+        "title": "Autodesk News — Fusion AutoTimeline",
+        "url": "https://adsknews.autodesk.com/en/news/autodesk-ai-design-manufacturing-au-2026/#fusion",
+        "source_type": "blog|docs|product|research",
+        "rationale": "imported geometry can become editable parametric parts"
+      },
+      {
+        "date": "2026-10-12",
+        "lane": "contextual-ai-for-physical-work",
+        "title": "Autodesk News — Inventor Assistant",
+        "url": "https://adsknews.autodesk.com/en/news/autodesk-ai-design-manufacturing-au-2026/#inventor",
+        "source_type": "blog|docs|product|research",
+        "rationale": "assistant can analyze models and modify parameters through APIs/iLogic"
+      },
+      {
+        "date": "2026-10-12",
+        "lane": "contextual-ai-for-physical-work",
+        "title": "Autodesk News — why physical-world AI needs context",
+        "url": "https://adsknews.autodesk.com/en/news/autodesk-ai-design-manufacturing-au-2026/#why-ai-for-the-physical-world-requires-a-higher-standard",
+        "source_type": "blog|docs|product|research",
+        "rationale": "precision, safety, and operating context become product requirements"
+      }
+    ],
+    "editorial_thesis": "The next useful unit of agent design is a bounded, evidence-bearing run: persistent enough to do work, constrained enough to trust, and contextual enough to survive handoff.",
+    "selection_rationale": "Rotated away from 2026-10-11 portable runtimes, self-hosted AI security, and task-oriented surfaces; retained only the material Chrome security update and followed gaps in persistent agents and contextual physical-world work."
+  },
   "sources": {
     "architecture": {
       "first_seen": "2026-08-16",
@@ -15566,7 +15948,7 @@
       "last_covered": "2026-10-03"
     }
   },
-  "last_successful_run": "2026-10-08",
+  "last_successful_run": "2026-10-12",
   "history": [
     {
       "date": "2026-09-07",
@@ -17331,5 +17713,5 @@
       "editorial_thesis": "The most useful agent progress today is boundary work: choose the right local or hosted model, constrain execution on the developer machine, and catch secrets with a purpose-built detector before they become durable incidents."
     }
   ],
-  "last_updated": "2026-10-08T08:00:40Z"
+  "last_updated": "2026-10-12T08:00:00+00:00"
 }

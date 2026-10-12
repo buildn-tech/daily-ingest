@@ -1,6 +1,27 @@
 {
-  "updated_at": "2026-10-11T08:07:14.698622+00:00",
+  "updated_at": "2026-10-12T08:03:52.131199+00:00",
   "days": [
+    {
+      "date": "2026-10-12",
+      "path": "2026-10-12",
+      "reports": [
+        {
+          "lane": "persistent-agent-work",
+          "title": "Persistent Agent Work + Permissioned Autonomy",
+          "url": "2026-10-12/persistent-agent-work.html"
+        },
+        {
+          "lane": "browser-agent-assurance",
+          "title": "Browser Agents: Hardening the Inspect\u2013Patch Loop",
+          "url": "2026-10-12/browser-agent-assurance.html"
+        },
+        {
+          "lane": "contextual-ai-for-physical-work",
+          "title": "Contextual AI for Physical-World Work",
+          "url": "2026-10-12/contextual-ai-for-physical-work.html"
+        }
+      ]
+    },
     {
       "date": "2026-10-11",
       "path": "2026-10-11",
