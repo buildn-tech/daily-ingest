@@ -9,42 +9,42 @@
       "selection_rationale": "The strongest fresh product signal is not another chat surface: it is background work that persists, learns operating preferences, and pauses at consequential boundaries. This lane earns inclusion because it turns agent capability into an operating model Buildn can prototype.",
       "sources": [
         {
-          "title": "OpenAI \u2014 Introducing dots",
+          "title": "OpenAI — Introducing dots",
           "url": "https://openai.com/index/introducing-dots/",
-          "source_type": "blog|docs|product|research",
-          "published_or_updated": "2026-10-12 or current",
+          "source_type": "product",
+          "published_or_updated": "2026-09-29",
           "why_selected": "always-on cloud agents with browser/app access and Activity View",
           "usefulness": "Map one recurring client task into read, propose, approve, execute states."
         },
         {
-          "title": "OpenAI \u2014 dots safety and controls",
+          "title": "OpenAI — dots safety and controls",
           "url": "https://openai.com/index/introducing-dots/#safety-privacy-and-user-control",
-          "source_type": "blog|docs|product|research",
-          "published_or_updated": "2026-10-12 or current",
+          "source_type": "product",
+          "published_or_updated": "2026-09-29",
           "why_selected": "explicit allow / require-approval / block rules around actions",
           "usefulness": "Write a four-level action policy for one Buildn tool family."
         },
         {
-          "title": "OpenAI \u2014 dots interaction model",
+          "title": "OpenAI — dots interaction model",
           "url": "https://openai.com/index/introducing-dots/#how-users-interact-with-dots",
-          "source_type": "blog|docs|product|research",
-          "published_or_updated": "2026-10-12 or current",
+          "source_type": "product",
+          "published_or_updated": "2026-09-29",
           "why_selected": "projects continue across web, desktop, Slack, and Teams",
           "usefulness": "Sketch the minimum run schema before adding another interface."
         },
         {
-          "title": "OpenAI \u2014 dots proactive research",
+          "title": "OpenAI — dots proactive research",
           "url": "https://openai.com/index/introducing-dots/#safety-privacy-and-user-control",
-          "source_type": "blog|docs|product|research",
-          "published_or_updated": "2026-10-12 or current",
+          "source_type": "product",
+          "published_or_updated": "2026-09-29",
           "why_selected": "background research can use connected apps without mutating them",
           "usefulness": "Build a read-only source scan with citations and expiry dates."
         },
         {
-          "title": "OpenAI \u2014 dots overview",
+          "title": "OpenAI — dots overview",
           "url": "https://openai.com/index/introducing-dots/#what-dots-can-do",
-          "source_type": "blog|docs|product|research",
-          "published_or_updated": "2026-10-12 or current",
+          "source_type": "product",
+          "published_or_updated": "2026-09-29",
           "why_selected": "multiple concurrent agents are framed as a future operating pattern",
           "usefulness": "Define the five fields every background agent must expose."
         }
@@ -52,46 +52,46 @@
     },
     {
       "slug": "browser-agent-assurance",
-      "title": "Browser Agents: Hardening the Inspect\u2013Patch Loop",
-      "selection_rationale": "Chrome\u2019s October DevTools update is a material follow-up to yesterday\u2019s browser-agent coverage: it adds controls that constrain JavaScript, filesystem access, source maps, plugins, and memory inspection. That makes this a distinct assurance lane, not a repeat of browser automation.",
+      "title": "Browser Agents: Hardening the Inspect–Patch Loop",
+      "selection_rationale": "Chrome’s October DevTools update is a material follow-up to yesterday’s browser-agent coverage: it adds controls that constrain JavaScript, filesystem access, source maps, plugins, and memory inspection. That makes this a distinct assurance lane, not a repeat of browser automation.",
       "sources": [
         {
-          "title": "Chrome for Developers \u2014 New in DevTools, October 2026",
+          "title": "Chrome for Developers — New in DevTools, October 2026",
           "url": "https://developer.chrome.com/blog/new-in-devtools-october-2026#devtools-for-agents",
-          "source_type": "blog|docs|product|research",
-          "published_or_updated": "2026-10-12 or current",
+          "source_type": "blog",
+          "published_or_updated": "unknown",
           "why_selected": "--no-javascript-evaluation and disabled evaluation tools persist across navigations",
           "usefulness": "Add no-eval to the default MCP profile and document the exception path."
         },
         {
-          "title": "Chrome for Developers \u2014 configurable filesystem roots",
+          "title": "Chrome for Developers — configurable filesystem roots",
           "url": "https://developer.chrome.com/blog/new-in-devtools-october-2026#devtools-for-agents",
-          "source_type": "blog|docs|product|research",
-          "published_or_updated": "2026-10-12 or current",
+          "source_type": "blog",
+          "published_or_updated": "unknown",
           "why_selected": "configurable roots and CLI path permissions for agent access",
           "usefulness": "Create a per-run root and test that reads outside it fail closed."
         },
         {
-          "title": "Chrome for Developers \u2014 Agent Plugins 1.0",
+          "title": "Chrome for Developers — Agent Plugins 1.0",
           "url": "https://developer.chrome.com/blog/new-in-devtools-october-2026#devtools-for-agents",
-          "source_type": "blog|docs|product|research",
-          "published_or_updated": "2026-10-12 or current",
+          "source_type": "blog",
+          "published_or_updated": "unknown",
           "why_selected": "modular plugins can load and execute in the agent toolchain",
           "usefulness": "Define a plugin manifest with owner, permissions, hashes, and rollback."
         },
         {
-          "title": "Chrome for Developers \u2014 heap snapshot inspection",
+          "title": "Chrome for Developers — heap snapshot inspection",
           "url": "https://developer.chrome.com/blog/new-in-devtools-october-2026#devtools-for-agents",
-          "source_type": "blog|docs|product|research",
-          "published_or_updated": "2026-10-12 or current",
+          "source_type": "blog",
+          "published_or_updated": "unknown",
           "why_selected": "query objects by retained size/property and inspect V8 context retention",
           "usefulness": "Try one query against a known memory leak and store the snapshot metadata."
         },
         {
           "title": "Chrome DevTools MCP repository",
           "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp#privacy-considerations",
-          "source_type": "blog|docs|product|research",
-          "published_or_updated": "2026-10-12 or current",
+          "source_type": "repo",
+          "published_or_updated": "unknown",
           "why_selected": "usage statistics and CrUX requests have distinct opt-out controls",
           "usefulness": "Record telemetry, update-check, and trace-upload behavior in the run manifest."
         }
@@ -103,42 +103,42 @@
       "selection_rationale": "A quieter but strategically useful lane: current product signals are moving AI from generic generation toward context-rich, high-consequence workflows in engineering, science, and enterprise work. It is under-covered in the recent archive and offers a sharper client-discovery lens.",
       "sources": [
         {
-          "title": "Google DeepMind \u2014 Gemini 4 Argon",
+          "title": "Google DeepMind — Gemini 4 Argon",
           "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
-          "source_type": "blog|docs|product|research",
-          "published_or_updated": "2026-10-12 or current",
+          "source_type": "product",
+          "published_or_updated": "2026-09-30",
           "why_selected": "1M-token output limit and staged access for coding, enterprise work, and cyber defense",
-          "usefulness": "Design a migration brief with explicit stop points every 20\u201330 minutes of agent work."
+          "usefulness": "Design a migration brief with explicit stop points every 20–30 minutes of agent work."
         },
         {
-          "title": "Autodesk News \u2014 AI in design and manufacturing",
+          "title": "Autodesk News — AI in design and manufacturing",
           "url": "https://adsknews.autodesk.com/en/news/autodesk-ai-design-manufacturing-au-2026/",
-          "source_type": "blog|docs|product|research",
-          "published_or_updated": "2026-10-12 or current",
+          "source_type": "product",
+          "published_or_updated": "2026-09-15",
           "why_selected": "AI connects design, product data, manufacturing, and lifecycle requirements",
           "usefulness": "Run one client workflow through a context inventory: objects, constraints, owners, evidence."
         },
         {
-          "title": "Autodesk News \u2014 Fusion AutoTimeline",
+          "title": "Autodesk News — Fusion AutoTimeline",
           "url": "https://adsknews.autodesk.com/en/news/autodesk-ai-design-manufacturing-au-2026/#fusion",
-          "source_type": "blog|docs|product|research",
-          "published_or_updated": "2026-10-12 or current",
+          "source_type": "product",
+          "published_or_updated": "2026-09-15",
           "why_selected": "imported geometry can become editable parametric parts",
           "usefulness": "Choose one legacy artifact and define the minimum editable schema."
         },
         {
-          "title": "Autodesk News \u2014 Inventor Assistant",
+          "title": "Autodesk News — Inventor Assistant",
           "url": "https://adsknews.autodesk.com/en/news/autodesk-ai-design-manufacturing-au-2026/#inventor",
-          "source_type": "blog|docs|product|research",
-          "published_or_updated": "2026-10-12 or current",
+          "source_type": "product",
+          "published_or_updated": "2026-09-15",
           "why_selected": "assistant can analyze models and modify parameters through APIs/iLogic",
           "usefulness": "Replace one UI automation idea with an API-shaped action contract."
         },
         {
-          "title": "Autodesk News \u2014 why physical-world AI needs context",
+          "title": "Autodesk News — why physical-world AI needs context",
           "url": "https://adsknews.autodesk.com/en/news/autodesk-ai-design-manufacturing-au-2026/#why-ai-for-the-physical-world-requires-a-higher-standard",
-          "source_type": "blog|docs|product|research",
-          "published_or_updated": "2026-10-12 or current",
+          "source_type": "product",
+          "published_or_updated": "2026-09-15",
           "why_selected": "precision, safety, and operating context become product requirements",
           "usefulness": "Add a failure-cost column to the next automation opportunity map."
         }
