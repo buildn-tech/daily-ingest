@@ -1,6 +1,81 @@
 {
-  "updated_at": "2026-10-12T08:04:55.683370+00:00",
+  "updated_at": "2026-10-13T08:07:45.777561+00:00",
   "sources": {
+    "https://openai.com/index/devday-2026-recap": {
+      "first_seen": "2026-10-13",
+      "last_seen": "2026-09-30",
+      "title": "DevDay: cloud agents, code review, private intelligence"
+    },
+    "https://openai.com/index/introducing-decisions-api": {
+      "first_seen": "2026-10-13",
+      "last_seen": "2026-10-13",
+      "title": "OpenAI Decisions API"
+    },
+    "https://github.blog/changelog/2026-10-07-local-sandboxing-for-github-copilot-now-generally-available": {
+      "first_seen": "2026-10-13",
+      "last_seen": "2026-10-08",
+      "title": "Local sandboxing for GitHub Copilot now generally available"
+    },
+    "https://github.blog/changelog/2026-10-12-client-telemetry-user-attribution-and-configurable-capture": {
+      "first_seen": "2026-10-13",
+      "last_seen": "2026-10-13",
+      "title": "GitHub client telemetry attribution"
+    },
+    "https://github.blog/changelog/2026-10-10-new-controls-and-chat-improvements-in-copilot-for-jetbrains": {
+      "first_seen": "2026-10-13",
+      "last_seen": "2026-10-13",
+      "title": "GitHub Copilot JetBrains controls"
+    },
+    "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/synth-id-ai-content": {
+      "first_seen": "2026-10-13",
+      "last_seen": "2026-10-09",
+      "title": "We\u2019re making it easier to identify AI-generated content"
+    },
+    "https://synthid.com/": {
+      "first_seen": "2026-10-13",
+      "last_seen": "2026-10-13",
+      "title": "SynthID Detector"
+    },
+    "https://c2pa.org/introducing-official-content-credentials-icon": {
+      "first_seen": "2026-10-13",
+      "last_seen": "2026-10-13",
+      "title": "C2PA official Content Credentials icon"
+    },
+    "https://c2pa.org/faqs": {
+      "first_seen": "2026-10-13",
+      "last_seen": "2026-10-13",
+      "title": "C2PA FAQ"
+    },
+    "https://openai.com/index/eu-text-provenance": {
+      "first_seen": "2026-10-13",
+      "last_seen": "2026-10-13",
+      "title": "OpenAI EU text provenance"
+    },
+    "https://openai.com/index/introducing-apps-in-chatgpt": {
+      "first_seen": "2026-10-13",
+      "last_seen": "2026-10-03",
+      "title": "OpenAI Apps SDK foundation"
+    },
+    "https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements": {
+      "first_seen": "2026-10-13",
+      "last_seen": "2026-08-17",
+      "title": "Google\u2019s AI product announcement index"
+    },
+    "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2": {
+      "first_seen": "2026-10-13",
+      "last_seen": "2026-10-07",
+      "title": "EmbeddingGemma 2"
+    },
+    "https://www.anthropic.com/news/claude-frontier-academy": {
+      "first_seen": "2026-10-13",
+      "last_seen": "2026-10-09",
+      "title": "Claude Frontier Academy"
+    },
+    "https://www.anthropic.com/news/services-track-partner-hub": {
+      "first_seen": "2026-10-13",
+      "last_seen": "2026-10-01",
+      "title": "Claude Partner Network Services Track"
+    },
     "https://openai.com/index/introducing-dots": {
       "first_seen": "2026-10-12",
       "last_seen": "2026-09-30",
@@ -206,11 +281,6 @@
       "last_seen": "2026-10-08",
       "title": "GitHub Copilot CLI provider and offline-mode docs"
     },
-    "https://github.blog/changelog/2026-10-07-local-sandboxing-for-github-copilot-now-generally-available": {
-      "first_seen": "2026-10-10",
-      "last_seen": "2026-10-08",
-      "title": "Local sandboxing for GitHub Copilot now generally available"
-    },
     "https://docs.github.com/billing/managing-billing-for-your-products/managing-billing-for-github-copilot/about-usage-of-github-copilot-features": {
       "first_seen": "2026-10-10",
       "last_seen": "2026-10-08",
@@ -235,11 +305,6 @@
       "first_seen": "2026-10-09",
       "last_seen": "2026-10-09",
       "title": "Barclays scales Claude to upgrade operations"
-    },
-    "https://www.anthropic.com/news/claude-frontier-academy": {
-      "first_seen": "2026-10-09",
-      "last_seen": "2026-10-09",
-      "title": "Claude Frontier Academy"
     },
     "https://openai.com/index/pollo-ai": {
       "first_seen": "2026-10-09",
@@ -285,11 +350,6 @@
       "first_seen": "2026-10-09",
       "last_seen": "2026-10-09",
       "title": "Sign in quickly and securely with passkeys"
-    },
-    "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/synth-id-ai-content": {
-      "first_seen": "2026-10-09",
-      "last_seen": "2026-10-09",
-      "title": "We\u2019re making it easier to identify AI-generated content"
     },
     "https://blog.google/products-and-platforms/platforms/google-pay/zero-knowledge-proof-library-linux-foundation": {
       "first_seen": "2026-10-09",
@@ -355,11 +415,6 @@
       "first_seen": "2026-10-08",
       "last_seen": "2026-10-08",
       "title": "GitHub security overview"
-    },
-    "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2": {
-      "first_seen": "2026-10-07",
-      "last_seen": "2026-10-07",
-      "title": "EmbeddingGemma 2"
     },
     "https://ai.google.dev/gemma/docs/embeddinggemma": {
       "first_seen": "2026-10-07",
@@ -536,16 +591,6 @@
       "last_seen": "2026-10-04",
       "title": "Rosalind Workbench"
     },
-    "https://openai.com/index/devday-2026-recap": {
-      "first_seen": "2026-10-04",
-      "last_seen": "2026-09-30",
-      "title": "DevDay: cloud agents, code review, private intelligence"
-    },
-    "https://openai.com/index/introducing-apps-in-chatgpt": {
-      "first_seen": "2026-10-03",
-      "last_seen": "2026-10-03",
-      "title": "OpenAI Apps SDK foundation"
-    },
     "https://developer.chrome.com/blog/chrome-at-io26": {
       "first_seen": "2026-10-03",
       "last_seen": "2026-09-08",
@@ -645,11 +690,6 @@
       "first_seen": "2026-10-01",
       "last_seen": "2026-10-01",
       "title": "OpenAI cyber access"
-    },
-    "https://www.anthropic.com/news/services-track-partner-hub": {
-      "first_seen": "2026-10-01",
-      "last_seen": "2026-10-01",
-      "title": "Claude Partner Network Services Track"
     },
     "https://claude.com/partners": {
       "first_seen": "2026-10-01",
@@ -2395,11 +2435,6 @@
       "first_seen": "2026-08-27",
       "last_seen": "2026-08-27",
       "title": "The reusable idea: staged physical toolchains"
-    },
-    "https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements": {
-      "first_seen": "2026-08-27",
-      "last_seen": "2026-08-17",
-      "title": "Google\u2019s AI product announcement index"
     },
     "https://blog.google/innovation-and-ai/models-and-research/google-labs/pomelli-agentic-capabilities": {
       "first_seen": "2026-08-27",

@@ -1,6 +1,27 @@
 {
-  "updated_at": "2026-10-12T08:04:55.683370+00:00",
+  "updated_at": "2026-10-13T08:07:45.777561+00:00",
   "days": [
+    {
+      "date": "2026-10-13",
+      "path": "2026-10-13",
+      "reports": [
+        {
+          "lane": "agent-decision-and-delivery",
+          "title": "Constrained Agent Delivery",
+          "url": "2026-10-13/agent-decision-and-delivery.html"
+        },
+        {
+          "lane": "content-provenance-and-trust",
+          "title": "Content Provenance + Trust",
+          "url": "2026-10-13/content-provenance-and-trust.html"
+        },
+        {
+          "lane": "implementation-capability-and-operator-skill",
+          "title": "Implementation Capability + Operator Skill",
+          "url": "2026-10-13/implementation-capability-and-operator-skill.html"
+        }
+      ]
+    },
     {
       "date": "2026-10-12",
       "path": "2026-10-12",
