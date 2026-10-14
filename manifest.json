@@ -1,6 +1,27 @@
 {
-  "updated_at": "2026-10-13T08:07:45.777561+00:00",
+  "updated_at": "2026-10-14T08:04:26.091398+00:00",
   "days": [
+    {
+      "date": "2026-10-14",
+      "path": "2026-10-14",
+      "reports": [
+        {
+          "lane": "model-and-agent-runtime",
+          "title": "Frontier Models \u2192 Agent Runtimes",
+          "url": "2026-10-14/model-and-agent-runtime.html"
+        },
+        {
+          "lane": "agent-security-and-governance",
+          "title": "Agent Security as an Operating Plane",
+          "url": "2026-10-14/agent-security-and-governance.html"
+        },
+        {
+          "lane": "memory-and-evaluation",
+          "title": "Memory That Carries Evidence",
+          "url": "2026-10-14/memory-and-evaluation.html"
+        }
+      ]
+    },
     {
       "date": "2026-10-13",
       "path": "2026-10-13",

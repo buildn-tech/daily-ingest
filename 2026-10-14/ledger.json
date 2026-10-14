@@ -1,0 +1,148 @@
+{
+  "date": "2026-10-14",
+  "generated_at": "2026-10-14T08:04:05.247403+00:00",
+  "editorial_thesis": "Agent capability is moving into ordinary surfaces, so the leverage shifts from model novelty to controlled adoption: fresh policies, realistic evaluations, evidence-bearing memory, and small-team distribution.",
+  "topic_groups": [
+    {
+      "slug": "model-and-agent-runtime",
+      "title": "Frontier Models → Agent Runtimes",
+      "selection_rationale": "A fresh model wave became usable in both first-party APIs and a mainstream coding-agent surface on Oct 13; this is actionable for model routing and long-horizon workflow trials.",
+      "sources": [
+        {
+          "title": "Gemini 4 Argon reaches developers",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-4-argon/",
+          "source_type": "release",
+          "published_or_updated": "2026-10-13",
+          "why_selected": "Google says Argon is available in the paid Gemini API, AI Studio, Android Studio, and Antigravity for long-horizon software, knowledge, and cybersecurity workflows.",
+          "usefulness": "Use it as a controlled challenger for migration planning, research synthesis, and agentic coding; keep a fixed task set and cost ledger."
+        },
+        {
+          "title": "Gemini 4 Argon in GitHub Copilot",
+          "url": "https://github.blog/changelog/2026-10-13-gemini-4-argon-in-github-copilot/",
+          "source_type": "release",
+          "published_or_updated": "2026-10-13",
+          "why_selected": "GitHub marks Argon generally available across Copilot CLI, coding agent, IDEs, and app surfaces, with gradual rollout and provider-list billing.",
+          "usefulness": "This compresses the distance between model evaluation and daily developer adoption. Compare CLI and coding-agent behavior, not just benchmark claims."
+        },
+        {
+          "title": "DevDay makes agents composable",
+          "url": "https://openai.com/index/devday-2026-recap/",
+          "source_type": "release",
+          "published_or_updated": "2026-10-13",
+          "why_selected": "OpenAI’s recap combines lower-cost GPT-6.1 Sol, cloud Codex, multi-agent CLI, code review, security scanning, computer use, and private-intelligence direction.",
+          "usefulness": "The platform shape favors durable work queues and reviewable handoffs. Buildn can model each task as an artifact with evidence, permissions, and a human gate."
+        },
+        {
+          "title": "Long-horizon creative production",
+          "url": "https://openai.com/index/higgsfield-longer-videos-voice/",
+          "source_type": "release",
+          "published_or_updated": "2026-10-13",
+          "why_selected": "Higgsfield reports moving from roughly one-minute videos to over ten minutes using GPT-6 Astra, with tool-using creative agents and Codex-assisted prototyping.",
+          "usefulness": "A concrete small-team pattern: creative direction, generation, QA, and shipping can be separated without multiplying headcount."
+        },
+        {
+          "title": "AI Studio makes private Android apps",
+          "url": "https://blog.google/products-and-platforms/platforms/google-play/google-play-updates-october-2026/",
+          "source_type": "release",
+          "published_or_updated": "2026-10-13",
+          "why_selected": "Google Play says selected users can build and install private Android apps through AI Studio without a developer account, with future small-circle sharing.",
+          "usefulness": "This is a new distribution surface for prototypes and client-specific utilities: private first, public only after trust and quality checks."
+        }
+      ]
+    },
+    {
+      "slug": "agent-security-and-governance",
+      "title": "Agent Security as an Operating Plane",
+      "selection_rationale": "Fresh GitHub controls turn least privilege, policy freshness, client versioning, and spend observability into deployable mechanisms—not just guidance.",
+      "sources": [
+        {
+          "title": "GitHub Apps narrow permissions",
+          "url": "https://github.blog/changelog/2026-10-13-github-app-improvements-for-least-privilege-and-management/",
+          "source_type": "release",
+          "published_or_updated": "2026-10-13",
+          "why_selected": "New repository-creation and installation-repository permissions reduce dependence on broad administration scopes; expiring access and workload federation are part of the direction.",
+          "usefulness": "Use GitHub Apps instead of classic PATs for agent integrations. This creates cleaner audit trails and smaller blast radius."
+        },
+        {
+          "title": "Managed settings can fail closed",
+          "url": "https://github.blog/changelog/2026-10-13-enterprise-managed-settings-enforcement-updates/",
+          "source_type": "release",
+          "published_or_updated": "2026-10-13",
+          "why_selected": "GitHub adds forceRemoteSettingsRefresh and minimum client-version enforcement for sandbox governance keys.",
+          "usefulness": "A policy that is only eventually applied is not a control. This is a practical template for agent runtimes that must refuse stale configuration."
+        },
+        {
+          "title": "Runtime verification meets AgentDojo",
+          "url": "https://arxiv.org/html/2610.09793v1",
+          "source_type": "paper",
+          "published_or_updated": "2026-10-08",
+          "why_selected": "A new study compares formal runtime verification on tool-using-agent benchmarks, including detection and benign-functionality retention across banking, Slack, and travel tasks.",
+          "usefulness": "Security controls must report both attack detection and task utility. Use the pair as acceptance criteria for client agents."
+        },
+        {
+          "title": "Representation can change security results",
+          "url": "https://arxiv.org/html/2610.03585v1",
+          "source_type": "paper",
+          "published_or_updated": "2026-10-08",
+          "why_selected": "Threat-Preserving Representation Sensitivity evaluates how representation choices affect agent-security benchmark outcomes across ASB, MCPTox, and AgentDojo.",
+          "usefulness": "Benchmark scores can move because of encoding and representation, not just model safety. Freeze representations in internal evals."
+        },
+        {
+          "title": "AI scan metrics enter the overview",
+          "url": "https://github.blog/changelog/2026-10-13-code-scanning-ai-scan-metrics-in-security-overview/",
+          "source_type": "release",
+          "published_or_updated": "2026-10-13",
+          "why_selected": "GitHub’s Oct 13 code-scanning update adds AI Scan metrics to the security overview, alongside auditability improvements for findings.",
+          "usefulness": "Security automation needs portfolio-level feedback loops: adoption, findings, dismissals, and reopenings—not a static scan badge."
+        }
+      ]
+    },
+    {
+      "slug": "memory-and-evaluation",
+      "title": "Memory That Carries Evidence",
+      "selection_rationale": "New memory research creates a neglected coverage gap: evaluation now separates what an agent stores from how it retrieves and acts on it.",
+      "sources": [
+        {
+          "title": "MeMoREval tests embodied memory modalities",
+          "url": "https://arxiv.org/html/2610.12561v1",
+          "source_type": "paper",
+          "published_or_updated": "2026-10-08",
+          "why_selected": "The Oct 8 benchmark compares text, descriptions, frames, and scene graphs for embodied agents; frames plus scene graphs reached the strongest aggregate success in the reported study.",
+          "usefulness": "For Buildn, the analogue is evidence plus structure: preserve source artifacts while maintaining queryable summaries and relations."
+        },
+        {
+          "title": "MemoryAgentBench covers four competencies",
+          "url": "https://openreview.net/forum?id=DT7JyQC3MR",
+          "source_type": "paper",
+          "published_or_updated": "2026-10-08",
+          "why_selected": "The ICLR benchmark evaluates accurate retrieval, test-time learning, long-range understanding, and selective forgetting through incremental multi-turn interactions.",
+          "usefulness": "A memory feature that only recalls facts can still fail at learning, updating, or forgetting. Add all four dimensions to product acceptance."
+        },
+        {
+          "title": "Memory modality is a product choice",
+          "url": "https://arxiv.org/html/2610.12561v1#S3",
+          "source_type": "paper",
+          "published_or_updated": "2026-10-08",
+          "why_selected": "MeMoREval reports that modality performance depends on model, task, backend, and accumulated experience; selective retention saves storage but can reduce success.",
+          "usefulness": "Storage optimization should be downstream of task loss, not the first design goal. Retain costly evidence when recovery is impossible."
+        },
+        {
+          "title": "Coding agents need realistic session memory",
+          "url": "https://arxiv.org/html/2610.09633v1",
+          "source_type": "paper",
+          "published_or_updated": "2026-10-08",
+          "why_selected": "JetBrains Research analyzes 4,782 sessions and argues benchmarks must match user task flows, including multi-turn switching among questions, planning, execution, and review.",
+          "usefulness": "Agent memory and agent evaluation are coupled: a one-shot benchmark hides the context transitions real users create."
+        },
+        {
+          "title": "Memory quality needs cost curves",
+          "url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/fd1eff9dd295df50a41f2521942fa31d-Paper-Conference.pdf",
+          "source_type": "release",
+          "published_or_updated": "2026-10-08",
+          "why_selected": "MemoryAgentBench and MeMoREval both make retrieval/write tradeoffs visible; success alone cannot select a production architecture.",
+          "usefulness": "Treat memory as a budgeted subsystem with write cost, read cost, latency, evidence coverage, and error recovery."
+        }
+      ]
+    }
+  ]
+}

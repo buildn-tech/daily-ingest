@@ -1,10 +1,75 @@
 {
-  "updated_at": "2026-10-13T08:07:45.777561+00:00",
+  "updated_at": "2026-10-14T08:04:26.091398+00:00",
   "sources": {
+    "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-4-argon": {
+      "first_seen": "2026-10-14",
+      "last_seen": "2026-10-14",
+      "title": "Gemini 4 Argon reaches developers"
+    },
+    "https://github.blog/changelog/2026-10-13-gemini-4-argon-in-github-copilot": {
+      "first_seen": "2026-10-14",
+      "last_seen": "2026-10-14",
+      "title": "Gemini 4 Argon in GitHub Copilot"
+    },
     "https://openai.com/index/devday-2026-recap": {
-      "first_seen": "2026-10-13",
+      "first_seen": "2026-10-14",
       "last_seen": "2026-09-30",
       "title": "DevDay: cloud agents, code review, private intelligence"
+    },
+    "https://openai.com/index/higgsfield-longer-videos-voice": {
+      "first_seen": "2026-10-14",
+      "last_seen": "2026-10-14",
+      "title": "Long-horizon creative production"
+    },
+    "https://blog.google/products-and-platforms/platforms/google-play/google-play-updates-october-2026": {
+      "first_seen": "2026-10-14",
+      "last_seen": "2026-10-14",
+      "title": "AI Studio makes private Android apps"
+    },
+    "https://github.blog/changelog/2026-10-13-github-app-improvements-for-least-privilege-and-management": {
+      "first_seen": "2026-10-14",
+      "last_seen": "2026-10-14",
+      "title": "GitHub Apps narrow permissions"
+    },
+    "https://github.blog/changelog/2026-10-13-enterprise-managed-settings-enforcement-updates": {
+      "first_seen": "2026-10-14",
+      "last_seen": "2026-10-14",
+      "title": "Managed settings can fail closed"
+    },
+    "https://arxiv.org/html/2610.09793v1": {
+      "first_seen": "2026-10-14",
+      "last_seen": "2026-10-14",
+      "title": "Runtime verification meets AgentDojo"
+    },
+    "https://arxiv.org/html/2610.03585v1": {
+      "first_seen": "2026-10-14",
+      "last_seen": "2026-10-14",
+      "title": "Representation can change security results"
+    },
+    "https://github.blog/changelog/2026-10-13-code-scanning-ai-scan-metrics-in-security-overview": {
+      "first_seen": "2026-10-14",
+      "last_seen": "2026-10-14",
+      "title": "AI scan metrics enter the overview"
+    },
+    "https://arxiv.org/html/2610.12561v1": {
+      "first_seen": "2026-10-14",
+      "last_seen": "2026-10-14",
+      "title": "Memory modality is a product choice"
+    },
+    "https://openreview.net/forum?id=DT7JyQC3MR": {
+      "first_seen": "2026-10-14",
+      "last_seen": "2026-10-14",
+      "title": "MemoryAgentBench covers four competencies"
+    },
+    "https://arxiv.org/html/2610.09633v1": {
+      "first_seen": "2026-10-14",
+      "last_seen": "2026-10-14",
+      "title": "Coding agents need realistic session memory"
+    },
+    "https://proceedings.iclr.cc/paper_files/paper/2026/file/fd1eff9dd295df50a41f2521942fa31d-Paper-Conference.pdf": {
+      "first_seen": "2026-10-14",
+      "last_seen": "2026-10-14",
+      "title": "Memory quality needs cost curves"
     },
     "https://openai.com/index/introducing-decisions-api": {
       "first_seen": "2026-10-13",
