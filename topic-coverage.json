@@ -1355,57 +1355,27 @@
       "title": "Memory That Carries Evidence",
       "times_covered": 1,
       "last_covered": "2026-10-14"
+    },
+    "long-horizon-agent-operations": {
+      "title": "Long-Horizon Agent Operations",
+      "times_covered": 1,
+      "last_covered": "2026-10-15",
+      "last_selection_rationale": "The differentiator is resumable, supervised work at day scale."
+    },
+    "agent-trust-economics": {
+      "title": "Agent Trust + Unit Economics",
+      "times_covered": 1,
+      "last_covered": "2026-10-15",
+      "last_selection_rationale": "Production value is bounded by review cost, spend, and evidence."
+    },
+    "cyber-defense-operations": {
+      "title": "AI-Assisted Cyber Defense Operations",
+      "times_covered": 1,
+      "last_covered": "2026-10-15",
+      "last_selection_rationale": "Defensive automation works when evidence, replay, and accountability stay explicit."
     }
   },
   "item_history": [
-    {
-      "date": "2026-08-30",
-      "topic": "long-term-agent-memory",
-      "title": "Differentiated memory for scientific cognition",
-      "url": "https://www.frontiersin.org/journals/big-data/articles/10.3389/fdata.2026.1916523/full",
-      "source_type": "research",
-      "rationale": "A 2026 framework proposal arguing that research agents need differentiated memory types for scientific work."
-    },
-    {
-      "date": "2026-08-30",
-      "topic": "long-term-agent-memory",
-      "title": "Evidence-linked retrieval",
-      "url": "https://research.google/blog/titans-miras-helping-ai-have-long-term-memory/",
-      "source_type": "blog",
-      "rationale": "A practical design pattern: retrieve claims with source, timestamp, confidence, and update path rather than naked text snippets."
-    },
-    {
-      "date": "2026-08-30",
-      "topic": "long-term-agent-memory",
-      "title": "Forgetting as a product decision",
-      "url": "https://www.frontiersin.org/journals/big-data/articles/10.3389/fdata.2026.1916523/full",
-      "source_type": "research",
-      "rationale": "Selective forgetting treats outdated, low-value, or contradicted state as a first-class lifecycle event."
-    },
-    {
-      "date": "2026-08-30",
-      "topic": "long-term-agent-memory",
-      "title": "Memory evaluation loop",
-      "url": "https://research.google/blog/titans-miras-helping-ai-have-long-term-memory/",
-      "source_type": "blog",
-      "rationale": "Evaluate memory by downstream task improvement and correction cost, not by recall alone."
-    },
-    {
-      "date": "2026-08-30",
-      "topic": "task-scoped-agent-access",
-      "title": "Monitoring internal coding agents for misalignment",
-      "url": "https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment/",
-      "source_type": "research",
-      "rationale": "OpenAI describes monitoring patterns for detecting and understanding misaligned behavior in coding agents."
-    },
-    {
-      "date": "2026-08-30",
-      "topic": "long-term-agent-memory",
-      "title": "Titans + MIRAS",
-      "url": "https://research.google/blog/titans-miras-helping-ai-have-long-term-memory/",
-      "source_type": "blog",
-      "rationale": "Google Research presents a long-term memory architecture and framework using selective, surprise-driven updates during inference."
-    },
     {
       "date": "2026-08-31",
       "topic": "ai-native-delivery",
@@ -4289,6 +4259,94 @@
       "url": "https://openai.com/index/introducing-apps-in-chatgpt/",
       "source_type": "platform",
       "selection_rationale": "Apps turn ChatGPT into a distribution and interaction surface for native workflows."
+    },
+    {
+      "date": "2026-10-15",
+      "topic": "long-horizon-agent-operations",
+      "title": "Third Moment Research: 10,000 agents for 36+ hours",
+      "url": "https://openai.com/index/third-moment-research/",
+      "source_type": "research",
+      "rationale": "The differentiator is resumable, supervised work at day scale."
+    },
+    {
+      "date": "2026-10-15",
+      "topic": "long-horizon-agent-operations",
+      "title": "Amp: agents across the product lifecycle",
+      "url": "https://openai.com/index/amp-beyond-coding/",
+      "source_type": "product",
+      "rationale": "The differentiator is resumable, supervised work at day scale."
+    },
+    {
+      "date": "2026-10-15",
+      "topic": "long-horizon-agent-operations",
+      "title": "Hermes Agent v0.22.1",
+      "url": "https://github.com/NousResearch/hermes-agent/releases",
+      "source_type": "release",
+      "rationale": "The differentiator is resumable, supervised work at day scale."
+    },
+    {
+      "date": "2026-10-15",
+      "topic": "long-horizon-agent-operations",
+      "title": "DevDay 2026 recap",
+      "url": "https://openai.com/index/devday-2026-recap/",
+      "source_type": "release",
+      "rationale": "The differentiator is resumable, supervised work at day scale."
+    },
+    {
+      "date": "2026-10-15",
+      "topic": "agent-trust-economics",
+      "title": "G2 AI Agents Report",
+      "url": "https://company.g2.com/news/2026-ai-agents-report?hs_amp=true",
+      "source_type": "research",
+      "rationale": "Production value is bounded by review cost, spend, and evidence."
+    },
+    {
+      "date": "2026-10-15",
+      "topic": "agent-trust-economics",
+      "title": "BigQuery token quotas",
+      "url": "https://cloud.google.com/blog/products/data-analytics/using-bigquerys-generative-ai-cost-management-features",
+      "source_type": "release",
+      "rationale": "Production value is bounded by review cost, spend, and evidence."
+    },
+    {
+      "date": "2026-10-15",
+      "topic": "agent-trust-economics",
+      "title": "AgentKit sunset migration signal",
+      "url": "https://openai.com/index/introducing-agentkit/",
+      "source_type": "docs",
+      "rationale": "Production value is bounded by review cost, spend, and evidence."
+    },
+    {
+      "date": "2026-10-15",
+      "topic": "cyber-defense-operations",
+      "title": "Block AI-powered security",
+      "url": "https://openai.com/index/block-ai-powered-security/",
+      "source_type": "product",
+      "rationale": "Defensive automation works when evidence, replay, and accountability stay explicit."
+    },
+    {
+      "date": "2026-10-15",
+      "topic": "cyber-defense-operations",
+      "title": "SentinelOne malware analysis",
+      "url": "https://openai.com/index/sentinelone/",
+      "source_type": "product",
+      "rationale": "Defensive automation works when evidence, replay, and accountability stay explicit."
+    },
+    {
+      "date": "2026-10-15",
+      "topic": "cyber-defense-operations",
+      "title": "GTIG vulnerability trends",
+      "url": "https://cloud.google.com/blog/topics/threat-intelligence/vulnerability-discovery-and-exploitation-trends-in-the-ai-era",
+      "source_type": "research",
+      "rationale": "Defensive automation works when evidence, replay, and accountability stay explicit."
+    },
+    {
+      "date": "2026-10-15",
+      "topic": "cyber-defense-operations",
+      "title": "Anthropic Cyber Mission",
+      "url": "https://www.anthropic.com/news/anthropic-cyber-mission",
+      "source_type": "product",
+      "rationale": "Defensive automation works when evidence, replay, and accountability stay explicit."
     }
   ],
   "runs": [
@@ -15908,7 +15966,15 @@
       "last_covered": "2026-10-03"
     }
   },
-  "last_successful_run": "2026-10-13",
+  "last_successful_run": {
+    "date": "2026-10-15",
+    "selected_lanes": [
+      "long-horizon-agent-operations",
+      "agent-trust-economics",
+      "cyber-defense-operations"
+    ],
+    "selection_rationale": "Rotated away from yesterday’s model/runtime, security-governance, and memory-evaluation themes toward scale operations, trust economics, and defensive execution."
+  },
   "history": [
     {
       "date": "2026-09-07",
