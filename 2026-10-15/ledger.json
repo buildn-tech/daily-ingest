@@ -1,0 +1,116 @@
+{
+  "date": "2026-10-15",
+  "generated_at": "2026-10-15T08:04:15.160365+00:00",
+  "editorial_thesis": "Useful agentic systems are being defined by durable execution, visible trust economics, and bounded security operations\u2014not by model novelty alone.",
+  "topic_groups": [
+    {
+      "slug": "long-horizon-agent-operations",
+      "title": "Long-Horizon Agent Operations",
+      "selection_rationale": "The frontier signal is shifting from \u201cwhich model?\u201d to \u201cwhich harness can keep useful work moving for days?\u201d The practical seam is resumability, bounded delegation, and measurable workflow improvement\u2014not unattended autonomy as a demo.",
+      "sources": [
+        {
+          "title": "Third Moment Research: 10,000 agents for 36+ hours",
+          "url": "https://openai.com/index/third-moment-research/",
+          "source_type": "research",
+          "published_or_updated": "2026-10-14",
+          "why_selected": "Long-horizon work exposes polling waste, context decay, and failure recovery as first-class engineering problems.",
+          "usefulness": "Pilot a Buildn research job with an outer supervisor, explicit stop conditions, trajectory logs, and a retry budget."
+        },
+        {
+          "title": "Amp: agents across the product lifecycle",
+          "url": "https://openai.com/index/amp-beyond-coding/",
+          "source_type": "release",
+          "published_or_updated": "2026-10-14",
+          "why_selected": "The useful unit is a product loop with shared context, not a single code-generation task.",
+          "usefulness": "Turn a client delivery into linked agents: brief \u2192 implementation \u2192 visual QA \u2192 documentation \u2192 launch follow-up."
+        },
+        {
+          "title": "Hermes Agent v0.22.1",
+          "url": "https://github.com/NousResearch/hermes-agent/releases",
+          "source_type": "release",
+          "published_or_updated": "2026-10-14",
+          "why_selected": "A local agent runtime is becoming an operating surface with state, identities, plugins, and resumption semantics.",
+          "usefulness": "Use it as a local-first reference for profile isolation, plugin review, and evidence-bearing delegation in client tooling."
+        },
+        {
+          "title": "DevDay 2026: ongoing agents become a platform surface",
+          "url": "https://openai.com/index/devday-2026-recap/",
+          "source_type": "release",
+          "published_or_updated": "2026-10-14",
+          "why_selected": "Clients will ask for ongoing responsibility; the answer needs workspace boundaries, not a bigger prompt.",
+          "usefulness": "Prototype a \u201cproject steward\u201d with a visible queue, approval states, and weekly proof-of-work artifacts."
+        }
+      ]
+    },
+    {
+      "slug": "agent-trust-economics",
+      "title": "Agent Trust + Unit Economics",
+      "selection_rationale": "Production adoption is now constrained by the cost of distrust: review, correction, token spend, and unmanaged agents. The strongest response is to make evidence and budgets observable before expanding autonomy.",
+      "sources": [
+        {
+          "title": "G2: the \u201cDistrust Tax\u201d",
+          "url": "https://company.g2.com/news/2026-ai-agents-report?hs_amp=true",
+          "source_type": "release",
+          "published_or_updated": "2026-10-14",
+          "why_selected": "This reframes ROI: cycle-time gains are real only after supervision, exception handling, and operating cost are counted.",
+          "usefulness": "Add an agent scorecard to Buildn delivery: outcome, review minutes, correction rate, spend, and rollback count."
+        },
+        {
+          "title": "BigQuery token quotas",
+          "url": "https://cloud.google.com/blog/products/data-analytics/using-bigquerys-generative-ai-cost-management-features",
+          "source_type": "release",
+          "published_or_updated": "2026-10-14",
+          "why_selected": "Token budgets become an enforceable control rather than a dashboard after the bill arrives.",
+          "usefulness": "Mirror the pattern in client agent gateways: per-project, per-user, and per-workflow budgets with fail-closed behavior."
+        },
+        {
+          "title": "AgentKit sunset is a migration signal",
+          "url": "https://openai.com/index/introducing-agentkit/",
+          "source_type": "release",
+          "published_or_updated": "2026-10-14",
+          "why_selected": "Platform churn makes portable traces, prompts, tool contracts, and eval datasets more valuable than UI-specific configuration.",
+          "usefulness": "Keep client agent definitions in versioned code or exportable specs; preserve eval fixtures and approval logic outside vendor consoles."
+        }
+      ]
+    },
+    {
+      "slug": "cyber-defense-operations",
+      "title": "AI-Assisted Cyber Defense Operations",
+      "selection_rationale": "The actionable security signal is not \u201cAI finds bugs.\u201d It is a bounded operating loop: correlate evidence, replay against real telemetry, propose a change, and keep accountability with a named reviewer.",
+      "sources": [
+        {
+          "title": "Block: evidence replay + routed models",
+          "url": "https://openai.com/index/block-ai-powered-security/",
+          "source_type": "release",
+          "published_or_updated": "2026-10-14",
+          "why_selected": "Security automation becomes safer when every proposed change can be tested against historical telemetry before deployment.",
+          "usefulness": "Offer a client security review artifact that links finding \u2192 evidence \u2192 proposed patch \u2192 replay result \u2192 approval."
+        },
+        {
+          "title": "SentinelOne: malware analysis compressed to hours",
+          "url": "https://openai.com/index/sentinelone/",
+          "source_type": "release",
+          "published_or_updated": "2026-10-14",
+          "why_selected": "Speed changes the shape of threat intelligence: analysts can compare families and pursue patterns that were previously too expensive.",
+          "usefulness": "Use the pattern for safe, offline client analysis: enrich a corpus, surface relationships, and keep final architectural decisions human-owned."
+        },
+        {
+          "title": "GTIG: n-days and AI infrastructure are the risk seam",
+          "url": "https://cloud.google.com/blog/topics/threat-intelligence/vulnerability-discovery-and-exploitation-trends-in-the-ai-era",
+          "source_type": "research",
+          "published_or_updated": "2026-10-08",
+          "why_selected": "Patch volume alone is a poor control; prioritization must combine exposure, exploitability, and business consequence.",
+          "usefulness": "Add agent gateway and tool-server exposure to client threat models, then route remediation by exploit evidence."
+        },
+        {
+          "title": "Anthropic Cyber Mission",
+          "url": "https://www.anthropic.com/news/anthropic-cyber-mission",
+          "source_type": "release",
+          "published_or_updated": "2026-10-08",
+          "why_selected": "OT environments make \u201cfind and patch\u201d insufficient; safe deployment and operational continuity are part of the control.",
+          "usefulness": "Use the OT lesson for any client system where rollback, uptime, or physical consequences matter: stage, simulate, approve."
+        }
+      ]
+    }
+  ]
+}

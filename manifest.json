@@ -1,6 +1,27 @@
 {
-  "updated_at": "2026-10-14T08:04:26.091398+00:00",
+  "updated_at": "2026-10-15T08:04:20.641400+00:00",
   "days": [
+    {
+      "date": "2026-10-15",
+      "path": "2026-10-15",
+      "reports": [
+        {
+          "lane": "long-horizon-agent-operations",
+          "title": "Long-Horizon Agent Operations",
+          "url": "2026-10-15/long-horizon-agent-operations.html"
+        },
+        {
+          "lane": "agent-trust-economics",
+          "title": "Agent Trust + Unit Economics",
+          "url": "2026-10-15/agent-trust-economics.html"
+        },
+        {
+          "lane": "cyber-defense-operations",
+          "title": "AI-Assisted Cyber Defense Operations",
+          "url": "2026-10-15/cyber-defense-operations.html"
+        }
+      ]
+    },
     {
       "date": "2026-10-14",
       "path": "2026-10-14",

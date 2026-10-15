@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "chainId": "chain_3ebb763370ed7dd0b68f16a5",
+  "subject": {
+    "kind": "html",
+    "origin": "2026-10-14/agent-security-and-governance.html"
+  },
+  "status": "approved",
+  "reviewCount": 1,
+  "revisionCount": 1,
+  "activeReviewId": null,
+  "reviews": [
+    {
+      "id": "review_01c99bb1-c287-4bb3-bad7-c8053a97aab1",
+      "previousReviewId": null,
+      "status": "approved",
+      "revision": {
+        "id": "revision_2af8349278b7fbbd59ba75ed",
+        "hash": "6aed14d1c6070d8870965c5e57d3c15de8cbebdd9d928cd47698a930b547a533",
+        "file": "revision_2af8349278b7fbbd59ba75ed.html",
+        "mediaKind": "text/html"
+      },
+      "annotations": [],
+      "concernAssessments": [],
+      "decision": {
+        "value": "approved",
+        "decidedAt": "2026-10-14T08:11:19.843Z",
+        "eventId": "event_fe447dbf-fda0-4e07-a8fa-64c9baf57f42"
+      }
+    }
+  ]
+}

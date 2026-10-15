@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "chainId": "chain_5f868d92972dab670214132e",
+  "subject": {
+    "kind": "html",
+    "origin": "2026-10-14/model-and-agent-runtime.html"
+  },
+  "status": "approved",
+  "reviewCount": 1,
+  "revisionCount": 1,
+  "activeReviewId": null,
+  "reviews": [
+    {
+      "id": "review_0a3b146c-bc8c-4beb-82e8-5366ffa05bad",
+      "previousReviewId": null,
+      "status": "approved",
+      "revision": {
+        "id": "revision_24559033210b8cba1210e4cb",
+        "hash": "2034b8822cbf43938f8ccac9c4e21450df935878149e52280c86a4c6ffa6c690",
+        "file": "revision_24559033210b8cba1210e4cb.html",
+        "mediaKind": "text/html"
+      },
+      "annotations": [],
+      "concernAssessments": [],
+      "decision": {
+        "value": "approved",
+        "decidedAt": "2026-10-14T08:12:23.889Z",
+        "eventId": "event_c5845479-37c4-4c47-b32e-379cd1d00ef7"
+      }
+    }
+  ]
+}

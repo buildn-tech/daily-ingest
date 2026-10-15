@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "chainId": "chain_8ad39824395e9f72d73cef71",
+  "subject": {
+    "kind": "html",
+    "origin": "2026-10-14/memory-and-evaluation.html"
+  },
+  "status": "approved",
+  "reviewCount": 1,
+  "revisionCount": 1,
+  "activeReviewId": null,
+  "reviews": [
+    {
+      "id": "review_5f90932c-4db3-47ef-9b02-a35ce48a1230",
+      "previousReviewId": null,
+      "status": "approved",
+      "revision": {
+        "id": "revision_ed39af4a95a5326b713431b0",
+        "hash": "ddebb85f9788c6c5d4bc8178ece957a13ba68b1a4e5f311df812c2807bd491b6",
+        "file": "revision_ed39af4a95a5326b713431b0.html",
+        "mediaKind": "text/html"
+      },
+      "annotations": [],
+      "concernAssessments": [],
+      "decision": {
+        "value": "approved",
+        "decidedAt": "2026-10-14T08:11:53.219Z",
+        "eventId": "event_f6134ccf-6e46-4bf3-b7de-8c22d9764093"
+      }
+    }
+  ]
+}

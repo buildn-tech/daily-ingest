@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "chainId": "chain_5003f28aaa4eb4cc06544f75",
+  "subject": {
+    "kind": "html",
+    "origin": "2026-10-14/index.html"
+  },
+  "status": "approved",
+  "reviewCount": 1,
+  "revisionCount": 1,
+  "activeReviewId": null,
+  "reviews": [
+    {
+      "id": "review_b629a0c9-dd97-4afc-99ba-2684e0ecae53",
+      "previousReviewId": null,
+      "status": "approved",
+      "revision": {
+        "id": "revision_3dd15786973f224431cbb0ea",
+        "hash": "638005f3dbef6b2b9d14bcf585edb087c7488f8ffa361a57b7dc0b87e12021c1",
+        "file": "revision_3dd15786973f224431cbb0ea.html",
+        "mediaKind": "text/html"
+      },
+      "annotations": [],
+      "concernAssessments": [],
+      "decision": {
+        "value": "approved",
+        "decidedAt": "2026-10-14T08:10:48.514Z",
+        "eventId": "event_614047aa-73a7-47ed-80bd-4a7b42d4ad0d"
+      }
+    }
+  ]
+}

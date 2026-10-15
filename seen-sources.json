@@ -1,6 +1,61 @@
 {
-  "updated_at": "2026-10-14T08:04:26.091398+00:00",
+  "updated_at": "2026-10-15T08:04:20.641400+00:00",
   "sources": {
+    "https://openai.com/index/third-moment-research": {
+      "first_seen": "2026-10-15",
+      "last_seen": "2026-10-15",
+      "title": "Third Moment Research: 10,000 agents for 36+ hours"
+    },
+    "https://openai.com/index/amp-beyond-coding": {
+      "first_seen": "2026-10-15",
+      "last_seen": "2026-10-15",
+      "title": "Amp: agents across the product lifecycle"
+    },
+    "https://github.com/NousResearch/hermes-agent/releases": {
+      "first_seen": "2026-10-15",
+      "last_seen": "2026-07-09",
+      "title": "Hermes Agent v0.18.2"
+    },
+    "https://openai.com/index/devday-2026-recap": {
+      "first_seen": "2026-10-15",
+      "last_seen": "2026-09-30",
+      "title": "DevDay: cloud agents, code review, private intelligence"
+    },
+    "https://company.g2.com/news/2026-ai-agents-report?hs_amp=true": {
+      "first_seen": "2026-10-15",
+      "last_seen": "2026-10-15",
+      "title": "G2: the \u201cDistrust Tax\u201d"
+    },
+    "https://cloud.google.com/blog/products/data-analytics/using-bigquerys-generative-ai-cost-management-features": {
+      "first_seen": "2026-10-15",
+      "last_seen": "2026-10-15",
+      "title": "BigQuery token quotas"
+    },
+    "https://openai.com/index/introducing-agentkit": {
+      "first_seen": "2026-10-15",
+      "last_seen": "2026-08-22",
+      "title": "Introducing AgentKit"
+    },
+    "https://openai.com/index/block-ai-powered-security": {
+      "first_seen": "2026-10-15",
+      "last_seen": "2026-10-15",
+      "title": "Block: evidence replay + routed models"
+    },
+    "https://openai.com/index/sentinelone": {
+      "first_seen": "2026-10-15",
+      "last_seen": "2026-10-15",
+      "title": "SentinelOne: malware analysis compressed to hours"
+    },
+    "https://cloud.google.com/blog/topics/threat-intelligence/vulnerability-discovery-and-exploitation-trends-in-the-ai-era": {
+      "first_seen": "2026-10-15",
+      "last_seen": "2026-10-15",
+      "title": "GTIG: n-days and AI infrastructure are the risk seam"
+    },
+    "https://www.anthropic.com/news/anthropic-cyber-mission": {
+      "first_seen": "2026-10-15",
+      "last_seen": "2026-10-10",
+      "title": "Anthropic Cyber Mission"
+    },
     "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-4-argon": {
       "first_seen": "2026-10-14",
       "last_seen": "2026-10-14",
@@ -10,11 +65,6 @@
       "first_seen": "2026-10-14",
       "last_seen": "2026-10-14",
       "title": "Gemini 4 Argon in GitHub Copilot"
-    },
-    "https://openai.com/index/devday-2026-recap": {
-      "first_seen": "2026-10-14",
-      "last_seen": "2026-09-30",
-      "title": "DevDay: cloud agents, code review, private intelligence"
     },
     "https://openai.com/index/higgsfield-longer-videos-voice": {
       "first_seen": "2026-10-14",
@@ -300,11 +350,6 @@
       "first_seen": "2026-10-10",
       "last_seen": "2026-07-16",
       "title": "AI security detections on pull requests"
-    },
-    "https://www.anthropic.com/news/anthropic-cyber-mission": {
-      "first_seen": "2026-10-10",
-      "last_seen": "2026-10-10",
-      "title": "Anthropic Cyber Mission"
     },
     "https://www.anthropic.com/news/claude-science-ai-workbench": {
       "first_seen": "2026-10-10",
@@ -815,11 +860,6 @@
       "first_seen": "2026-09-29",
       "last_seen": "2026-09-29",
       "title": "NVIDIA OpenShell: policy outside the agent"
-    },
-    "https://github.com/NousResearch/hermes-agent/releases": {
-      "first_seen": "2026-09-29",
-      "last_seen": "2026-07-09",
-      "title": "Hermes Agent v0.18.2"
     },
     "https://blog.cloudflare.com/tag/agents-week": {
       "first_seen": "2026-09-29",
@@ -2645,11 +2685,6 @@
       "first_seen": "2026-08-23",
       "last_seen": "2026-08-23",
       "title": "Now you can connect even more of your favorite apps and services to Gemini"
-    },
-    "https://openai.com/index/introducing-agentkit": {
-      "first_seen": "2026-08-22",
-      "last_seen": "2026-08-22",
-      "title": "Introducing AgentKit"
     },
     "https://github.blog/changelog/2026-08-12-agent-plugins-1-0-in-vs-code-copilot-cli-and-the-copilot-app": {
       "first_seen": "2026-08-22",
