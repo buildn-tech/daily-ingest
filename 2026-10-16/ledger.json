@@ -1,0 +1,124 @@
+{
+  "date": "2026-10-16",
+  "generated_at": "2026-10-16T08:04:12.945430+00:00",
+  "editorial_thesis": "Today’s strongest signals move agent design toward explicit state, bounded execution, and reviewable evidence: the system should remember what changed, operate against fresh context without risking production, and ask better questions before it acts.",
+  "topic_groups": [
+    {
+      "slug": "github-security-delivery",
+      "title": "Security Delivery Moves Into the Pull Request",
+      "selection_rationale": "GitHub’s newest security loop is reviewable remediation, not autonomous merging.",
+      "sources": [
+        {
+          "title": "AI Scan for pull requests",
+          "url": "https://github.blog/changelog/2026-10-15-ai-scan-for-pull-requests-generally-available/",
+          "source_type": "release",
+          "published_or_updated": "2026-10-15",
+          "why_selected": "It expands the security net into PHP, shell, Terraform, Dockerfiles, JSP, Blazor, and other gaps, but findings remain advisory and consume Code Security AI Credits.",
+          "usefulness": "Offer a client baseline that combines CodeQL, AI Scan, explicit advisory labeling, and a budget owner."
+        },
+        {
+          "title": "Agentic autofix for code scanning alerts",
+          "url": "https://github.blog/changelog/2026-10-15-agentic-autofix-for-code-scanning-alerts-general-availability/",
+          "source_type": "release",
+          "published_or_updated": "2026-10-15",
+          "why_selected": "The validation loop is the important primitive: an agent does not merely write a patch; it tests whether the alert closes.",
+          "usefulness": "Turn findings into a repeatable artifact: alert → patch → CodeQL result → draft PR → named approver."
+        },
+        {
+          "title": "Code Quality usage as CSV",
+          "url": "https://github.blog/changelog/2026-10-15-download-github-code-quality-license-usage-as-a-csv/",
+          "source_type": "billing",
+          "published_or_updated": "2026-10-15",
+          "why_selected": "License and AI spend become reconcilable with internal records instead of remaining inside a vendor dashboard.",
+          "usefulness": "Add vendor-usage exports to Buildn delivery reviews and cost attribution."
+        },
+        {
+          "title": "AI Scan metrics in Security Overview",
+          "url": "https://github.blog/changelog/2026-10-13-code-scanning-ai-scan-metrics-in-security-overview/",
+          "source_type": "docs",
+          "published_or_updated": "2026-10-15",
+          "why_selected": "A portfolio view is needed to distinguish adoption, coverage, alert quality, and credit consumption.",
+          "usefulness": "Use the metrics as an input to a client security scorecard rather than reporting raw alert counts."
+        }
+      ]
+    },
+    {
+      "slug": "agent-ready-data",
+      "title": "Agent-Ready Data: Fresh Context Without Production Risk",
+      "selection_rationale": "Database isolation and structured analytics skills make agent context safer to operate.",
+      "sources": [
+        {
+          "title": "PostgreSQL for agents in AlloyDB",
+          "url": "https://cloud.google.com/blog/products/databases/announcing-postgresql-for-agents-in-alloydb",
+          "source_type": "database",
+          "published_or_updated": "2026-10-15",
+          "why_selected": "It addresses the hard production problem: agents create bursty, unpredictable queries that should not compete with mission-critical workloads.",
+          "usefulness": "Use the pattern in client architecture reviews: isolated agent compute, current data, least-privilege access, and pay-per-use economics."
+        },
+        {
+          "title": "BigQuery augmented analytics TVFs",
+          "url": "https://cloud.google.com/blog/products/data-analytics/bigquery-augmented-analytics-tvfs",
+          "source_type": "analytics",
+          "published_or_updated": "2026-10-15",
+          "why_selected": "Structured outputs make analytics more composable as agent skills than a free-form dashboard or opaque notebook.",
+          "usefulness": "Create an agent skill that runs a fixed diagnostic sequence, returns SQL-backed evidence, and asks for approval before narrative synthesis."
+        },
+        {
+          "title": "Native AlloyDB hybrid search + RRF",
+          "url": "https://cloud.google.com/blog/products/databases/simplify-ai-search-with-native-alloydb-hybrid-search-and-rrf",
+          "source_type": "search",
+          "published_or_updated": "2026-10-15",
+          "why_selected": "One engine for lexical and semantic retrieval reduces synchronization and operational seams in RAG systems.",
+          "usefulness": "Evaluate whether a client can replace a split vector/search stack with a Postgres-native retrieval boundary."
+        },
+        {
+          "title": "Agent-ready Data Cloud direction",
+          "url": "https://cloud.google.com/blog/products/data-analytics/whats-new-with-google-data-cloud",
+          "source_type": "platform",
+          "published_or_updated": "2026-10-15",
+          "why_selected": "Agent quality is increasingly constrained by context access and data freshness rather than model selection.",
+          "usefulness": "Make data readiness a first-class line item in Buildn discovery: authority, freshness, joinability, and safe query surfaces."
+        }
+      ]
+    },
+    {
+      "slug": "professional-memory-learning",
+      "title": "Memory Quality Is State Tracking, Not Recall",
+      "selection_rationale": "Professional memory needs authority and change tracking; learning benefits from questions and recall.",
+      "sources": [
+        {
+          "title": "DSV-Mem: professional visual memory benchmark",
+          "url": "https://arxiv.org/html/2610.08102v1",
+          "source_type": "research",
+          "published_or_updated": "2026-10-06",
+          "why_selected": "The strongest baseline reaches only 39.6% overall accuracy; 89.7% of errors come from state reconstruction.",
+          "usefulness": "Model Buildn artifacts as versioned evidence with authority, supersession, and refusal states—not a flat embedding store."
+        },
+        {
+          "title": "MemPilot: on-demand multimodal memory curation",
+          "url": "https://arxiv.org/html/2610.06830v1",
+          "source_type": "research",
+          "published_or_updated": "2026-10-06",
+          "why_selected": "It treats memory as a runtime budget decision and preserves raw history for details that compression may discard.",
+          "usefulness": "Prototype a two-tier memory policy: cheap index first, targeted evidence recovery only when confidence or provenance is weak."
+        },
+        {
+          "title": "Study Mode: learning through questions",
+          "url": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions/",
+          "source_type": "learning",
+          "published_or_updated": "2026-10-06",
+          "why_selected": "The interaction pattern favors active participation and metacognition over answer delivery.",
+          "usefulness": "Use it for personal learning and client enablement: one question at a time, evidence of reasoning, and a final recall task without the transcript."
+        },
+        {
+          "title": "Self-ledger memory pattern",
+          "url": "https://arxiv.org/html/2610.08102v1#S5",
+          "source_type": "workflow",
+          "published_or_updated": "2026-10-06",
+          "why_selected": "A compact ledger can make contradictions visible before they become confident but stale answers.",
+          "usefulness": "Add event rows to long-running work: timestamp, source, field changed, previous value, new value, authority, status."
+        }
+      ]
+    }
+  ]
+}

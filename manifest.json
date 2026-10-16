@@ -1,6 +1,27 @@
 {
-  "updated_at": "2026-10-15T08:04:20.641400+00:00",
+  "updated_at": "2026-10-16T08:04:16.845347+00:00",
   "days": [
+    {
+      "date": "2026-10-16",
+      "path": "2026-10-16",
+      "reports": [
+        {
+          "lane": "github-security-delivery",
+          "title": "Security Delivery Moves Into the Pull Request",
+          "url": "2026-10-16/github-security-delivery.html"
+        },
+        {
+          "lane": "agent-ready-data",
+          "title": "Agent-Ready Data: Fresh Context Without Production Risk",
+          "url": "2026-10-16/agent-ready-data.html"
+        },
+        {
+          "lane": "professional-memory-learning",
+          "title": "Memory Quality Is State Tracking, Not Recall",
+          "url": "2026-10-16/professional-memory-learning.html"
+        }
+      ]
+    },
     {
       "date": "2026-10-15",
       "path": "2026-10-15",

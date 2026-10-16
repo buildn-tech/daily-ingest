@@ -1,6 +1,61 @@
 {
-  "updated_at": "2026-10-15T08:04:20.641400+00:00",
+  "updated_at": "2026-10-16T08:04:16.845347+00:00",
   "sources": {
+    "https://github.blog/changelog/2026-10-15-ai-scan-for-pull-requests-generally-available": {
+      "first_seen": "2026-10-16",
+      "last_seen": "2026-10-16",
+      "title": "AI Scan for pull requests"
+    },
+    "https://github.blog/changelog/2026-10-15-agentic-autofix-for-code-scanning-alerts-general-availability": {
+      "first_seen": "2026-10-16",
+      "last_seen": "2026-10-16",
+      "title": "Agentic autofix for code scanning alerts"
+    },
+    "https://github.blog/changelog/2026-10-15-download-github-code-quality-license-usage-as-a-csv": {
+      "first_seen": "2026-10-16",
+      "last_seen": "2026-10-16",
+      "title": "Code Quality usage as CSV"
+    },
+    "https://github.blog/changelog/2026-10-13-code-scanning-ai-scan-metrics-in-security-overview": {
+      "first_seen": "2026-10-16",
+      "last_seen": "2026-10-14",
+      "title": "AI scan metrics enter the overview"
+    },
+    "https://cloud.google.com/blog/products/databases/announcing-postgresql-for-agents-in-alloydb": {
+      "first_seen": "2026-10-16",
+      "last_seen": "2026-10-16",
+      "title": "PostgreSQL for agents in AlloyDB"
+    },
+    "https://cloud.google.com/blog/products/data-analytics/bigquery-augmented-analytics-tvfs": {
+      "first_seen": "2026-10-16",
+      "last_seen": "2026-10-16",
+      "title": "BigQuery augmented analytics TVFs"
+    },
+    "https://cloud.google.com/blog/products/databases/simplify-ai-search-with-native-alloydb-hybrid-search-and-rrf": {
+      "first_seen": "2026-10-16",
+      "last_seen": "2026-10-16",
+      "title": "Native AlloyDB hybrid search + RRF"
+    },
+    "https://cloud.google.com/blog/products/data-analytics/whats-new-with-google-data-cloud": {
+      "first_seen": "2026-10-16",
+      "last_seen": "2026-10-16",
+      "title": "Agent-ready Data Cloud direction"
+    },
+    "https://arxiv.org/html/2610.08102v1": {
+      "first_seen": "2026-10-16",
+      "last_seen": "2026-10-16",
+      "title": "Self-ledger memory pattern"
+    },
+    "https://arxiv.org/html/2610.06830v1": {
+      "first_seen": "2026-10-16",
+      "last_seen": "2026-10-16",
+      "title": "MemPilot: on-demand multimodal memory curation"
+    },
+    "https://openai.com/index/teaching-students-to-think-and-learn-through-questions": {
+      "first_seen": "2026-10-16",
+      "last_seen": "2026-10-16",
+      "title": "Study Mode: learning through questions"
+    },
     "https://openai.com/index/third-moment-research": {
       "first_seen": "2026-10-15",
       "last_seen": "2026-10-15",
@@ -95,11 +150,6 @@
       "first_seen": "2026-10-14",
       "last_seen": "2026-10-14",
       "title": "Representation can change security results"
-    },
-    "https://github.blog/changelog/2026-10-13-code-scanning-ai-scan-metrics-in-security-overview": {
-      "first_seen": "2026-10-14",
-      "last_seen": "2026-10-14",
-      "title": "AI scan metrics enter the overview"
     },
     "https://arxiv.org/html/2610.12561v1": {
       "first_seen": "2026-10-14",
