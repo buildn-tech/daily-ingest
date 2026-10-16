@@ -1373,6 +1373,21 @@
       "times_covered": 1,
       "last_covered": "2026-10-15",
       "last_selection_rationale": "Defensive automation works when evidence, replay, and accountability stay explicit."
+    },
+    "github-security-delivery": {
+      "title": "Security Delivery Moves Into the Pull Request",
+      "times_covered": 1,
+      "last_covered": "2026-10-16"
+    },
+    "agent-ready-data": {
+      "title": "Agent-Ready Data: Fresh Context Without Production Risk",
+      "times_covered": 1,
+      "last_covered": "2026-10-16"
+    },
+    "professional-memory-learning": {
+      "title": "Memory Quality Is State Tracking, Not Recall",
+      "times_covered": 1,
+      "last_covered": "2026-10-16"
     }
   },
   "item_history": [
@@ -6986,9 +7001,9 @@
       "editorial_thesis": "The useful frontier is shifting from model capability to operational interfaces: constrained decisions, attributable runs, verifiable media, and implementation skills that make agent systems deployable."
     }
   ],
-  "updated_at": "2026-10-14T08:04:05.261205+00:00",
-  "last_run": "2026-10-13",
-  "last_editorial_thesis": "The useful frontier is shifting from model capability to operational interfaces: constrained decisions, attributable runs, verifiable media, and implementation skills that make agent systems deployable.",
+  "updated_at": "2026-10-16T08:04:12.945430+00:00",
+  "last_run": "2026-10-16",
+  "last_editorial_thesis": "Today’s strongest signals move agent design toward explicit state, bounded execution, and reviewable evidence: the system should remember what changed, operate against fresh context without risking production, and ask better questions before it acts.",
   "coverage_history": [
     {
       "date": "2026-08-27",
@@ -9526,28 +9541,121 @@
       "url": "https://openai.com/index/introducing-apps-in-chatgpt/",
       "source_type": "platform",
       "selection_rationale": "Apps turn ChatGPT into a distribution and interaction surface for native workflows."
+    },
+    {
+      "date": "2026-10-16",
+      "lane": "github-security-delivery",
+      "title": "AI Scan for pull requests",
+      "url": "https://github.blog/changelog/2026-10-15-ai-scan-for-pull-requests-generally-available/",
+      "source_type": "release",
+      "selection_rationale": "GitHub’s newest security loop is reviewable remediation, not autonomous merging."
+    },
+    {
+      "date": "2026-10-16",
+      "lane": "github-security-delivery",
+      "title": "Agentic autofix for code scanning alerts",
+      "url": "https://github.blog/changelog/2026-10-15-agentic-autofix-for-code-scanning-alerts-general-availability/",
+      "source_type": "release",
+      "selection_rationale": "GitHub’s newest security loop is reviewable remediation, not autonomous merging."
+    },
+    {
+      "date": "2026-10-16",
+      "lane": "github-security-delivery",
+      "title": "Code Quality usage as CSV",
+      "url": "https://github.blog/changelog/2026-10-15-download-github-code-quality-license-usage-as-a-csv/",
+      "source_type": "billing",
+      "selection_rationale": "GitHub’s newest security loop is reviewable remediation, not autonomous merging."
+    },
+    {
+      "date": "2026-10-16",
+      "lane": "github-security-delivery",
+      "title": "AI Scan metrics in Security Overview",
+      "url": "https://github.blog/changelog/2026-10-13-code-scanning-ai-scan-metrics-in-security-overview/",
+      "source_type": "docs",
+      "selection_rationale": "GitHub’s newest security loop is reviewable remediation, not autonomous merging."
+    },
+    {
+      "date": "2026-10-16",
+      "lane": "agent-ready-data",
+      "title": "PostgreSQL for agents in AlloyDB",
+      "url": "https://cloud.google.com/blog/products/databases/announcing-postgresql-for-agents-in-alloydb",
+      "source_type": "database",
+      "selection_rationale": "Database isolation and structured analytics skills make agent context safer to operate."
+    },
+    {
+      "date": "2026-10-16",
+      "lane": "agent-ready-data",
+      "title": "BigQuery augmented analytics TVFs",
+      "url": "https://cloud.google.com/blog/products/data-analytics/bigquery-augmented-analytics-tvfs",
+      "source_type": "analytics",
+      "selection_rationale": "Database isolation and structured analytics skills make agent context safer to operate."
+    },
+    {
+      "date": "2026-10-16",
+      "lane": "agent-ready-data",
+      "title": "Native AlloyDB hybrid search + RRF",
+      "url": "https://cloud.google.com/blog/products/databases/simplify-ai-search-with-native-alloydb-hybrid-search-and-rrf",
+      "source_type": "search",
+      "selection_rationale": "Database isolation and structured analytics skills make agent context safer to operate."
+    },
+    {
+      "date": "2026-10-16",
+      "lane": "agent-ready-data",
+      "title": "Agent-ready Data Cloud direction",
+      "url": "https://cloud.google.com/blog/products/data-analytics/whats-new-with-google-data-cloud",
+      "source_type": "platform",
+      "selection_rationale": "Database isolation and structured analytics skills make agent context safer to operate."
+    },
+    {
+      "date": "2026-10-16",
+      "lane": "professional-memory-learning",
+      "title": "DSV-Mem: professional visual memory benchmark",
+      "url": "https://arxiv.org/html/2610.08102v1",
+      "source_type": "research",
+      "selection_rationale": "Professional memory needs authority and change tracking; learning benefits from questions and recall."
+    },
+    {
+      "date": "2026-10-16",
+      "lane": "professional-memory-learning",
+      "title": "MemPilot: on-demand multimodal memory curation",
+      "url": "https://arxiv.org/html/2610.06830v1",
+      "source_type": "research",
+      "selection_rationale": "Professional memory needs authority and change tracking; learning benefits from questions and recall."
+    },
+    {
+      "date": "2026-10-16",
+      "lane": "professional-memory-learning",
+      "title": "Study Mode: learning through questions",
+      "url": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions/",
+      "source_type": "learning",
+      "selection_rationale": "Professional memory needs authority and change tracking; learning benefits from questions and recall."
+    },
+    {
+      "date": "2026-10-16",
+      "lane": "professional-memory-learning",
+      "title": "Self-ledger memory pattern",
+      "url": "https://arxiv.org/html/2610.08102v1#S5",
+      "source_type": "workflow",
+      "selection_rationale": "Professional memory needs authority and change tracking; learning benefits from questions and recall."
     }
   ],
-  "last_run_selection": {
-    "date": "2026-10-13",
-    "lanes": [
-      {
-        "slug": "agent-decision-and-delivery",
-        "title": "Constrained Agent Delivery",
-        "rationale": "Fresh Oct 12–13 signals make agent behavior more measurable and bounded: finite decisions, local execution, attribution, and tool controls."
-      },
-      {
-        "slug": "content-provenance-and-trust",
-        "title": "Content Provenance + Trust",
-        "rationale": "Google’s Oct 7 expansion makes provenance checking accessible, while C2PA and OpenAI’s EU work point to a practical trust layer for generated artifacts."
-      },
-      {
-        "slug": "implementation-capability-and-operator-skill",
-        "title": "Implementation Capability + Operator Skill",
-        "rationale": "The archive has covered many agent products; today’s gap is the human operating layer: shared agent surfaces, open embeddings, and the skills required to turn pilots into systems."
-      }
-    ]
-  },
+  "last_run_selection": [
+    {
+      "slug": "github-security-delivery",
+      "title": "Security Delivery Moves Into the Pull Request",
+      "rationale": "GitHub’s newest security loop is reviewable remediation, not autonomous merging."
+    },
+    {
+      "slug": "agent-ready-data",
+      "title": "Agent-Ready Data: Fresh Context Without Production Risk",
+      "rationale": "Database isolation and structured analytics skills make agent context safer to operate."
+    },
+    {
+      "slug": "professional-memory-learning",
+      "title": "Memory Quality Is State Tracking, Not Recall",
+      "rationale": "Professional memory needs authority and change tracking; learning benefits from questions and recall."
+    }
+  ],
   "sources": {
     "architecture": {
       "first_seen": "2026-08-16",
@@ -11785,6 +11893,102 @@
           "selection_rationale": "New memory research creates a neglected coverage gap: evaluation now separates what an agent stores from how it retrieves and acts on it."
         }
       ]
+    },
+    {
+      "date": "2026-10-16",
+      "selected_lanes": [
+        {
+          "slug": "github-security-delivery",
+          "title": "Security Delivery Moves Into the Pull Request",
+          "rationale": "GitHub’s newest security loop is reviewable remediation, not autonomous merging."
+        },
+        {
+          "slug": "agent-ready-data",
+          "title": "Agent-Ready Data: Fresh Context Without Production Risk",
+          "rationale": "Database isolation and structured analytics skills make agent context safer to operate."
+        },
+        {
+          "slug": "professional-memory-learning",
+          "title": "Memory Quality Is State Tracking, Not Recall",
+          "rationale": "Professional memory needs authority and change tracking; learning benefits from questions and recall."
+        }
+      ],
+      "items": [
+        {
+          "title": "AI Scan for pull requests",
+          "url": "https://github.blog/changelog/2026-10-15-ai-scan-for-pull-requests-generally-available/",
+          "source_type": "release",
+          "lane": "github-security-delivery"
+        },
+        {
+          "title": "Agentic autofix for code scanning alerts",
+          "url": "https://github.blog/changelog/2026-10-15-agentic-autofix-for-code-scanning-alerts-general-availability/",
+          "source_type": "release",
+          "lane": "github-security-delivery"
+        },
+        {
+          "title": "Code Quality usage as CSV",
+          "url": "https://github.blog/changelog/2026-10-15-download-github-code-quality-license-usage-as-a-csv/",
+          "source_type": "billing",
+          "lane": "github-security-delivery"
+        },
+        {
+          "title": "AI Scan metrics in Security Overview",
+          "url": "https://github.blog/changelog/2026-10-13-code-scanning-ai-scan-metrics-in-security-overview/",
+          "source_type": "docs",
+          "lane": "github-security-delivery"
+        },
+        {
+          "title": "PostgreSQL for agents in AlloyDB",
+          "url": "https://cloud.google.com/blog/products/databases/announcing-postgresql-for-agents-in-alloydb",
+          "source_type": "database",
+          "lane": "agent-ready-data"
+        },
+        {
+          "title": "BigQuery augmented analytics TVFs",
+          "url": "https://cloud.google.com/blog/products/data-analytics/bigquery-augmented-analytics-tvfs",
+          "source_type": "analytics",
+          "lane": "agent-ready-data"
+        },
+        {
+          "title": "Native AlloyDB hybrid search + RRF",
+          "url": "https://cloud.google.com/blog/products/databases/simplify-ai-search-with-native-alloydb-hybrid-search-and-rrf",
+          "source_type": "search",
+          "lane": "agent-ready-data"
+        },
+        {
+          "title": "Agent-ready Data Cloud direction",
+          "url": "https://cloud.google.com/blog/products/data-analytics/whats-new-with-google-data-cloud",
+          "source_type": "platform",
+          "lane": "agent-ready-data"
+        },
+        {
+          "title": "DSV-Mem: professional visual memory benchmark",
+          "url": "https://arxiv.org/html/2610.08102v1",
+          "source_type": "research",
+          "lane": "professional-memory-learning"
+        },
+        {
+          "title": "MemPilot: on-demand multimodal memory curation",
+          "url": "https://arxiv.org/html/2610.06830v1",
+          "source_type": "research",
+          "lane": "professional-memory-learning"
+        },
+        {
+          "title": "Study Mode: learning through questions",
+          "url": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions/",
+          "source_type": "learning",
+          "lane": "professional-memory-learning"
+        },
+        {
+          "title": "Self-ledger memory pattern",
+          "url": "https://arxiv.org/html/2610.08102v1#S5",
+          "source_type": "workflow",
+          "lane": "professional-memory-learning"
+        }
+      ],
+      "selection_rationale": "Rotated toward fresh security delivery, agent-ready data boundaries, and under-covered professional memory/learning signals.",
+      "editorial_thesis": "Today’s strongest signals move agent design toward explicit state, bounded execution, and reviewable evidence: the system should remember what changed, operate against fresh context without risking production, and ask better questions before it acts."
     }
   ],
   "run_history": [
@@ -15966,15 +16170,7 @@
       "last_covered": "2026-10-03"
     }
   },
-  "last_successful_run": {
-    "date": "2026-10-15",
-    "selected_lanes": [
-      "long-horizon-agent-operations",
-      "agent-trust-economics",
-      "cyber-defense-operations"
-    ],
-    "selection_rationale": "Rotated away from yesterday’s model/runtime, security-governance, and memory-evaluation themes toward scale operations, trust economics, and defensive execution."
-  },
+  "last_successful_run": "2026-10-16",
   "history": [
     {
       "date": "2026-09-07",
