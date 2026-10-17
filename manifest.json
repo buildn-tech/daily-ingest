@@ -1,6 +1,27 @@
 {
-  "updated_at": "2026-10-16T08:04:16.845347+00:00",
+  "updated_at": "2026-10-17T08:01:59.431365+00:00",
   "days": [
+    {
+      "date": "2026-10-17",
+      "path": "2026-10-17",
+      "reports": [
+        {
+          "lane": "task-shaped-agents",
+          "title": "Task-shaped Agents + Work Surfaces",
+          "url": "2026-10-17/task-shaped-agents.html"
+        },
+        {
+          "lane": "memory-lifecycle",
+          "title": "Agent Memory Lifecycle + Security",
+          "url": "2026-10-17/memory-lifecycle.html"
+        },
+        {
+          "lane": "frontier-workbenches",
+          "title": "Research + Learning Workbenches",
+          "url": "2026-10-17/frontier-workbenches.html"
+        }
+      ]
+    },
     {
       "date": "2026-10-16",
       "path": "2026-10-16",

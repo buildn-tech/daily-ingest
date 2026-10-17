@@ -1,0 +1,132 @@
+{
+  "date": "2026-10-17",
+  "generated_at": "2026-10-17T08:01:54.185298+00:00",
+  "editorial_thesis": "The strongest fresh signal is a move from generic chat toward inspectable workbenches: task-shaped interfaces, lifecycle-audited memory, and evidence-linked evaluation.",
+  "topic_groups": [
+    {
+      "slug": "task-shaped-agents",
+      "title": "Task-shaped Agents + Work Surfaces",
+      "selection_rationale": "Fresh product and workflow evidence points to purpose-built agent surfaces rather than generic chat; this is directly actionable for Buildn/client UX.",
+      "sources": [
+        {
+          "title": "Stack Overflow for Agents triples signups",
+          "url": "https://openai.com/index/stack-overflow-chatgpt-plugin/",
+          "source_type": "product",
+          "published_or_updated": "2026-10-16",
+          "why_selected": "Current signal on agent work surfaces and delivery systems.",
+          "usefulness": "Provides a concrete interface or operating-model pattern."
+        },
+        {
+          "title": "When chat is the wrong UI",
+          "url": "https://github.blog/ai-and-ml/github-copilot/when-chat-is-the-wrong-ui/",
+          "source_type": "blog",
+          "published_or_updated": "2026-10-16",
+          "why_selected": "Current signal on agent work surfaces and delivery systems.",
+          "usefulness": "Provides a concrete interface or operating-model pattern."
+        },
+        {
+          "title": "October enterprise roundup",
+          "url": "https://github.com/resources/insights/enterprise-content-roundup-october-26",
+          "source_type": "blog",
+          "published_or_updated": "2026-10-16",
+          "why_selected": "Current signal on agent work surfaces and delivery systems.",
+          "usefulness": "Provides a concrete interface or operating-model pattern."
+        },
+        {
+          "title": "GPT-Rosalind",
+          "url": "https://openai.com/index/introducing-gpt-rosalind/",
+          "source_type": "product",
+          "published_or_updated": "2026-10-16",
+          "why_selected": "Current signal on agent work surfaces and delivery systems.",
+          "usefulness": "Provides a concrete interface or operating-model pattern."
+        }
+      ]
+    },
+    {
+      "slug": "memory-lifecycle",
+      "title": "Agent Memory Lifecycle + Security",
+      "selection_rationale": "A concentrated set of new papers covers forgetting, temporal state, efficiency, and poisoning\u2014an under-specified operational gap despite recent memory coverage.",
+      "sources": [
+        {
+          "title": "Beyond Downstream QA",
+          "url": "https://arxiv.org/html/2610.22209v1",
+          "source_type": "paper",
+          "published_or_updated": "2026-10-17",
+          "why_selected": "New benchmark or method that makes memory behavior measurable.",
+          "usefulness": "Can become a practical test, schema, or control."
+        },
+        {
+          "title": "Bemula forgetting benchmark",
+          "url": "https://arxiv.org/html/2610.18052v1",
+          "source_type": "paper",
+          "published_or_updated": "2026-10-17",
+          "why_selected": "New benchmark or method that makes memory behavior measurable.",
+          "usefulness": "Can become a practical test, schema, or control."
+        },
+        {
+          "title": "TEM temporal state tracking",
+          "url": "https://arxiv.org/html/2610.21900v1",
+          "source_type": "paper",
+          "published_or_updated": "2026-10-17",
+          "why_selected": "New benchmark or method that makes memory behavior measurable.",
+          "usefulness": "Can become a practical test, schema, or control."
+        },
+        {
+          "title": "MemCode discrete memory",
+          "url": "https://arxiv.org/html/2610.19472v1",
+          "source_type": "paper",
+          "published_or_updated": "2026-10-17",
+          "why_selected": "New benchmark or method that makes memory behavior measurable.",
+          "usefulness": "Can become a practical test, schema, or control."
+        },
+        {
+          "title": "MemForm poisoning benchmark",
+          "url": "https://arxiv.org/html/2610.14431v1",
+          "source_type": "paper",
+          "published_or_updated": "2026-10-17",
+          "why_selected": "New benchmark or method that makes memory behavior measurable.",
+          "usefulness": "Can become a practical test, schema, or control."
+        }
+      ]
+    },
+    {
+      "slug": "frontier-workbenches",
+      "title": "Research + Learning Workbenches",
+      "selection_rationale": "This lane diversifies beyond coding/security and extracts a reusable evidence-to-evaluation pattern from science and learning updates.",
+      "sources": [
+        {
+          "title": "Research@ 2026",
+          "url": "https://blog.google/innovation-and-ai/technology/research/research-capabilities-intelligence-2026/",
+          "source_type": "blog",
+          "published_or_updated": "2026-10-16",
+          "why_selected": "Concrete workbench, evaluation, or frontier-research signal.",
+          "usefulness": "Suggests a reusable Buildn/client workflow."
+        },
+        {
+          "title": "Gemini Notebook study features",
+          "url": "https://blog.google/innovation-and-ai/products/gemini-notebook/three-tips-study-gemini-notebook/",
+          "source_type": "blog",
+          "published_or_updated": "2026-10-16",
+          "why_selected": "Concrete workbench, evaluation, or frontier-research signal.",
+          "usefulness": "Suggests a reusable Buildn/client workflow."
+        },
+        {
+          "title": "Google Quantum magic-state cultivation",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/quantum-computing/magic-state-cultivation-quantum-computing/",
+          "source_type": "blog",
+          "published_or_updated": "2026-10-16",
+          "why_selected": "Concrete workbench, evaluation, or frontier-research signal.",
+          "usefulness": "Suggests a reusable Buildn/client workflow."
+        },
+        {
+          "title": "Anthropic independent evaluators",
+          "url": "https://www.anthropic.com/news/an-update-on-independent-evaluators",
+          "source_type": "blog",
+          "published_or_updated": "2026-10-16",
+          "why_selected": "Concrete workbench, evaluation, or frontier-research signal.",
+          "usefulness": "Suggests a reusable Buildn/client workflow."
+        }
+      ]
+    }
+  ]
+}
