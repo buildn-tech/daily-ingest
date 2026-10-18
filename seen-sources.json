@@ -1,6 +1,71 @@
 {
-  "updated_at": "2026-10-17T08:01:59.431365+00:00",
+  "updated_at": "2026-10-18T08:02:18.123364+00:00",
   "sources": {
+    "https://arxiv.org/html/2610.18230v1": {
+      "first_seen": "2026-10-18",
+      "last_seen": "2026-10-18",
+      "title": "Verifiable Agent Insurance"
+    },
+    "https://arxiv.org/html/2610.07639v1": {
+      "first_seen": "2026-10-18",
+      "last_seen": "2026-10-18",
+      "title": "HarnessSecurity-Bench"
+    },
+    "https://arxiv.org/html/2610.18603v1": {
+      "first_seen": "2026-10-18",
+      "last_seen": "2026-10-18",
+      "title": "AgentStripes Maturity Model"
+    },
+    "https://arxiv.org/html/2610.12436v1": {
+      "first_seen": "2026-10-18",
+      "last_seen": "2026-10-18",
+      "title": "Agent Ecology and Population Thresholds"
+    },
+    "https://www.nvidia.com/en-us/ai/nemoclaw": {
+      "first_seen": "2026-10-18",
+      "last_seen": "2026-10-18",
+      "title": "NVIDIA NemoClaw + OpenShell"
+    },
+    "https://arxiv.org/html/2610.20116v1": {
+      "first_seen": "2026-10-18",
+      "last_seen": "2026-10-18",
+      "title": "Agent Memory as a Runtime Budget"
+    },
+    "https://arxiv.org/html/2610.08722v1": {
+      "first_seen": "2026-10-18",
+      "last_seen": "2026-10-18",
+      "title": "History-Aware Compaction"
+    },
+    "https://arxiv.org/html/2610.04178v1": {
+      "first_seen": "2026-10-18",
+      "last_seen": "2026-10-18",
+      "title": "SHarP Harness Pruning"
+    },
+    "https://arxiv.org/html/2606.13681v1": {
+      "first_seen": "2026-10-18",
+      "last_seen": "2026-10-18",
+      "title": "EvoArena Memory Evolution"
+    },
+    "https://arxiv.org/html/2610.08699v1": {
+      "first_seen": "2026-10-18",
+      "last_seen": "2026-10-18",
+      "title": "Local-First Is a Product Boundary"
+    },
+    "https://arxiv.org/html/2608.13606v2": {
+      "first_seen": "2026-10-18",
+      "last_seen": "2026-10-18",
+      "title": "MobileMem"
+    },
+    "https://arxiv.org/html/2606.07402v1": {
+      "first_seen": "2026-10-18",
+      "last_seen": "2026-10-18",
+      "title": "M3Exam + M3Proctor"
+    },
+    "https://arxiv.org/html/2604.16966v1": {
+      "first_seen": "2026-10-18",
+      "last_seen": "2026-10-18",
+      "title": "Visual Memory Poisoning"
+    },
     "https://openai.com/index/stack-overflow-chatgpt-plugin": {
       "first_seen": "2026-10-17",
       "last_seen": "2026-10-17",

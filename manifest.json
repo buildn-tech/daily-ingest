@@ -1,6 +1,27 @@
 {
-  "updated_at": "2026-10-17T08:01:59.431365+00:00",
+  "updated_at": "2026-10-18T08:02:18.123364+00:00",
   "days": [
+    {
+      "date": "2026-10-18",
+      "path": "2026-10-18",
+      "reports": [
+        {
+          "lane": "agent-assurance",
+          "title": "Agent Assurance + Accountability",
+          "url": "2026-10-18/agent-assurance.html"
+        },
+        {
+          "lane": "agent-runtime-efficiency",
+          "title": "Agent Runtime Efficiency + Context Hygiene",
+          "url": "2026-10-18/agent-runtime-efficiency.html"
+        },
+        {
+          "lane": "personal-local-agents",
+          "title": "Personal Agents + Local-First Memory",
+          "url": "2026-10-18/personal-local-agents.html"
+        }
+      ]
+    },
     {
       "date": "2026-10-17",
       "path": "2026-10-17",

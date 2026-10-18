@@ -1403,6 +1403,21 @@
       "title": "Research + Learning Workbenches",
       "times_covered": 1,
       "last_covered": "2026-10-17"
+    },
+    "agent-assurance": {
+      "title": "Agent Assurance + Accountability",
+      "times_covered": 1,
+      "last_covered": "2026-10-18"
+    },
+    "agent-runtime-efficiency": {
+      "title": "Agent Runtime Efficiency + Context Hygiene",
+      "times_covered": 1,
+      "last_covered": "2026-10-18"
+    },
+    "personal-local-agents": {
+      "title": "Personal Agents + Local-First Memory",
+      "times_covered": 1,
+      "last_covered": "2026-10-18"
     }
   },
   "item_history": [
@@ -16101,6 +16116,49 @@
         }
       ],
       "editorial_thesis": "The useful frontier is shifting from model capability to operational interfaces: constrained decisions, attributable runs, verifiable media, and implementation skills that make agent systems deployable."
+    },
+    {
+      "date": "2026-10-18",
+      "selected_lanes": [
+        "agent-assurance",
+        "agent-runtime-efficiency",
+        "personal-local-agents"
+      ],
+      "items": [
+        "Verifiable Agent Insurance",
+        "HarnessSecurity-Bench",
+        "AgentStripes Maturity Model",
+        "Agent Ecology and Population Thresholds",
+        "NVIDIA NemoClaw + OpenShell",
+        "Transparent Context Compaction",
+        "History-Aware Compaction",
+        "SHarP Harness Pruning",
+        "EvoArena Memory Evolution",
+        "Agent Memory as a Runtime Budget",
+        "nanoMuse",
+        "MobileMem",
+        "M3Exam + M3Proctor",
+        "Visual Memory Poisoning",
+        "Local-First Is a Product Boundary"
+      ],
+      "urls": [
+        "https://arxiv.org/html/2610.18230v1",
+        "https://arxiv.org/html/2610.07639v1",
+        "https://arxiv.org/html/2610.18603v1",
+        "https://arxiv.org/html/2610.12436v1",
+        "https://www.nvidia.com/en-us/ai/nemoclaw/",
+        "https://arxiv.org/html/2610.20116v1",
+        "https://arxiv.org/html/2610.08722v1",
+        "https://arxiv.org/html/2610.04178v1",
+        "https://arxiv.org/html/2606.13681v1",
+        "https://arxiv.org/html/2610.20116v1",
+        "https://arxiv.org/html/2610.08699v1",
+        "https://arxiv.org/html/2608.13606v2",
+        "https://arxiv.org/html/2606.07402v1",
+        "https://arxiv.org/html/2604.16966v1",
+        "https://arxiv.org/html/2610.08699v1"
+      ],
+      "selection_rationale": "Agents are moving from capability demos toward inspectable operating systems: prove the action, budget the context, and keep personal memory portable."
     }
   ],
   "themes": {

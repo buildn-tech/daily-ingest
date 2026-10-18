@@ -1,0 +1,148 @@
+{
+  "date": "2026-10-18",
+  "generated_at": "2026-10-18T08:02:14.638109+00:00",
+  "editorial_thesis": "Agents are moving from capability demos toward inspectable operating systems: prove the action, budget the context, and keep personal memory portable.",
+  "topic_groups": [
+    {
+      "slug": "agent-assurance",
+      "title": "Agent Assurance + Accountability",
+      "selection_rationale": "A coverage gap: after several days on agent memory and work surfaces, fresh assurance research offers practical controls for proving what agents did, what they were allowed to do, and when harness defenses fail.",
+      "sources": [
+        {
+          "title": "Verifiable Agent Insurance",
+          "url": "https://arxiv.org/html/2610.18230v1",
+          "source_type": "paper",
+          "published_or_updated": "2026-10-18",
+          "why_selected": "formal accountability layer",
+          "usefulness": "Add an \u201cevidence required\u201d field to Buildn workflows and client automation briefs."
+        },
+        {
+          "title": "HarnessSecurity-Bench",
+          "url": "https://arxiv.org/html/2610.07639v1",
+          "source_type": "benchmark",
+          "published_or_updated": "2026-10-18",
+          "why_selected": "security mechanisms tested empirically",
+          "usefulness": "Turn the benchmark mindset into a preflight test for client coding agents and Buildn automation."
+        },
+        {
+          "title": "AgentStripes Maturity Model",
+          "url": "https://arxiv.org/html/2610.18603v1",
+          "source_type": "framework",
+          "published_or_updated": "2026-10-18",
+          "why_selected": "evidence-graded maturity",
+          "usefulness": "Use maturity levels in proposals: observable, bounded, recoverable, evaluated, then delegated."
+        },
+        {
+          "title": "Agent Ecology and Population Thresholds",
+          "url": "https://arxiv.org/html/2610.12436v1",
+          "source_type": "paper",
+          "published_or_updated": "2026-10-18",
+          "why_selected": "multi-agent systemic risk",
+          "usefulness": "For orchestrated client systems, track agent creation rights and cross-agent trust as first-class controls."
+        },
+        {
+          "title": "NVIDIA NemoClaw + OpenShell",
+          "url": "https://www.nvidia.com/en-us/ai/nemoclaw/",
+          "source_type": "product",
+          "published_or_updated": "2026-10-18",
+          "why_selected": "runtime policy controls",
+          "usefulness": "Evaluate as a reference architecture for private, always-on client assistants."
+        }
+      ]
+    },
+    {
+      "slug": "agent-runtime-efficiency",
+      "title": "Agent Runtime Efficiency + Context Hygiene",
+      "selection_rationale": "The ledger has covered memory content; this lane explores the neglected runtime question: when to compact, what to preserve, and how harness complexity changes cost and reliability.",
+      "sources": [
+        {
+          "title": "Transparent Context Compaction",
+          "url": "https://arxiv.org/html/2610.20116v1",
+          "source_type": "paper",
+          "published_or_updated": "2026-10-18",
+          "why_selected": "retention improves with transparency",
+          "usefulness": "Expose compaction events in Buildn logs with retained goals, decisions, files, and unresolved risks."
+        },
+        {
+          "title": "History-Aware Compaction",
+          "url": "https://arxiv.org/html/2610.08722v1",
+          "source_type": "paper",
+          "published_or_updated": "2026-10-18",
+          "why_selected": "compaction should follow task state",
+          "usefulness": "Route compacting by phase: exploration, implementation, review, and handoff each preserve different evidence."
+        },
+        {
+          "title": "SHarP Harness Pruning",
+          "url": "https://arxiv.org/html/2610.04178v1",
+          "source_type": "paper",
+          "published_or_updated": "2026-10-18",
+          "why_selected": "saliency-based tool reduction",
+          "usefulness": "Create minimal client-specific harness profiles instead of giving every agent the full tool catalog."
+        },
+        {
+          "title": "EvoArena Memory Evolution",
+          "url": "https://arxiv.org/html/2606.13681v1",
+          "source_type": "benchmark",
+          "published_or_updated": "2026-10-18",
+          "why_selected": "robustness under changing environments",
+          "usefulness": "Add environment-change tests to Buildn agent acceptance criteria."
+        },
+        {
+          "title": "Agent Memory as a Runtime Budget",
+          "url": "https://arxiv.org/html/2610.20116v1",
+          "source_type": "pattern",
+          "published_or_updated": "2026-10-18",
+          "why_selected": "latency, cost, retention tradeoff",
+          "usefulness": "Add a runtime scorecard: tokens retained, compaction count, recovery rate, latency, and cost."
+        }
+      ]
+    },
+    {
+      "slug": "personal-local-agents",
+      "title": "Personal Agents + Local-First Memory",
+      "selection_rationale": "A neglected lane with direct practical value: personal agents are moving toward device-spanning memory, while local-first operation changes privacy, portability, and product design assumptions.",
+      "sources": [
+        {
+          "title": "nanoMuse",
+          "url": "https://arxiv.org/html/2610.08699v1",
+          "source_type": "open_source",
+          "published_or_updated": "2026-10-18",
+          "why_selected": "cross-device personal agent",
+          "usefulness": "Study its boundaries for a Buildn personal knowledge companion or client field-work assistant."
+        },
+        {
+          "title": "MobileMem",
+          "url": "https://arxiv.org/html/2608.13606v2",
+          "source_type": "paper",
+          "published_or_updated": "2026-10-18",
+          "why_selected": "year-scale mobile memory",
+          "usefulness": "Use its categories to design privacy-aware tests for notes, screenshots, and app activity."
+        },
+        {
+          "title": "M3Exam + M3Proctor",
+          "url": "https://arxiv.org/html/2606.07402v1",
+          "source_type": "benchmark",
+          "published_or_updated": "2026-10-18",
+          "why_selected": "13% accuracy gain, 70% fewer tokens",
+          "usefulness": "Design a tiered memory pipeline for client archives: text first, visual evidence on demand, with provenance."
+        },
+        {
+          "title": "Visual Memory Poisoning",
+          "url": "https://arxiv.org/html/2604.16966v1",
+          "source_type": "security_paper",
+          "published_or_updated": "2026-10-18",
+          "why_selected": "multimodal memory attack path",
+          "usefulness": "Add provenance, trust labels, and quarantine states to image-derived memories."
+        },
+        {
+          "title": "Local-First Is a Product Boundary",
+          "url": "https://arxiv.org/html/2610.08699v1",
+          "source_type": "synthesis",
+          "published_or_updated": "2026-10-18",
+          "why_selected": "privacy, portability, inspectability",
+          "usefulness": "Use this as a brief for personal knowledge products and privacy-sensitive client workflows."
+        }
+      ]
+    }
+  ]
+}
