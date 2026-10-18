@@ -19,7 +19,7 @@
         {
           "title": "HarnessSecurity-Bench",
           "url": "https://arxiv.org/html/2610.07639v1",
-          "source_type": "benchmark",
+          "source_type": "paper",
           "published_or_updated": "2026-10-18",
           "why_selected": "security mechanisms tested empirically",
           "usefulness": "Turn the benchmark mindset into a preflight test for client coding agents and Buildn automation."
@@ -27,7 +27,7 @@
         {
           "title": "AgentStripes Maturity Model",
           "url": "https://arxiv.org/html/2610.18603v1",
-          "source_type": "framework",
+          "source_type": "blog",
           "published_or_updated": "2026-10-18",
           "why_selected": "evidence-graded maturity",
           "usefulness": "Use maturity levels in proposals: observable, bounded, recoverable, evaluated, then delegated."
@@ -82,7 +82,7 @@
         {
           "title": "EvoArena Memory Evolution",
           "url": "https://arxiv.org/html/2606.13681v1",
-          "source_type": "benchmark",
+          "source_type": "paper",
           "published_or_updated": "2026-10-18",
           "why_selected": "robustness under changing environments",
           "usefulness": "Add environment-change tests to Buildn agent acceptance criteria."
@@ -90,7 +90,7 @@
         {
           "title": "Agent Memory as a Runtime Budget",
           "url": "https://arxiv.org/html/2610.20116v1",
-          "source_type": "pattern",
+          "source_type": "blog",
           "published_or_updated": "2026-10-18",
           "why_selected": "latency, cost, retention tradeoff",
           "usefulness": "Add a runtime scorecard: tokens retained, compaction count, recovery rate, latency, and cost."
@@ -105,7 +105,7 @@
         {
           "title": "nanoMuse",
           "url": "https://arxiv.org/html/2610.08699v1",
-          "source_type": "open_source",
+          "source_type": "repo",
           "published_or_updated": "2026-10-18",
           "why_selected": "cross-device personal agent",
           "usefulness": "Study its boundaries for a Buildn personal knowledge companion or client field-work assistant."
@@ -121,7 +121,7 @@
         {
           "title": "M3Exam + M3Proctor",
           "url": "https://arxiv.org/html/2606.07402v1",
-          "source_type": "benchmark",
+          "source_type": "paper",
           "published_or_updated": "2026-10-18",
           "why_selected": "13% accuracy gain, 70% fewer tokens",
           "usefulness": "Design a tiered memory pipeline for client archives: text first, visual evidence on demand, with provenance."
@@ -129,7 +129,7 @@
         {
           "title": "Visual Memory Poisoning",
           "url": "https://arxiv.org/html/2604.16966v1",
-          "source_type": "security_paper",
+          "source_type": "paper",
           "published_or_updated": "2026-10-18",
           "why_selected": "multimodal memory attack path",
           "usefulness": "Add provenance, trust labels, and quarantine states to image-derived memories."
@@ -137,7 +137,7 @@
         {
           "title": "Local-First Is a Product Boundary",
           "url": "https://arxiv.org/html/2610.08699v1",
-          "source_type": "synthesis",
+          "source_type": "blog",
           "published_or_updated": "2026-10-18",
           "why_selected": "privacy, portability, inspectability",
           "usefulness": "Use this as a brief for personal knowledge products and privacy-sensitive client workflows."
