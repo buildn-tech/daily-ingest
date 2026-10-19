@@ -1,0 +1,195 @@
+{
+  "date": "2026-10-19",
+  "generated_at": "2026-10-19T08:03:06.325035+00:00",
+  "editorial_thesis": "Useful agent progress is moving into operating surfaces where capability, evidence, and boundaries are visible together.",
+  "topic_groups": [
+    {
+      "slug": "agentic-enterprise-surfaces",
+      "title": "Agentic Enterprise Surfaces",
+      "selection_rationale": "Fresh enterprise and research releases make the agent surface broader: objective-level delegation, persistent workers, and specialist scientific tools are becoming one operating pattern.",
+      "sources": [
+        {
+          "title": "Gemini agent: one agent for work",
+          "url": "https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026",
+          "source_type": "product",
+          "published_or_updated": "2026-10-14 to 2026-10-19",
+          "why_selected": "Objective-level delegation, persistent coworker agents, model routing, and enterprise controls are presented as one surface.",
+          "usefulness": "Useful for mapping Buildn-style work into bounded outcomes with explicit identity, spend, and audit controls."
+        },
+        {
+          "title": "Deep Review for technical documents",
+          "url": "https://research.google/blog/analyzing-technical-documents-with-deep-review/",
+          "source_type": "research",
+          "published_or_updated": "2026-10-14 to 2026-10-19",
+          "why_selected": "An agentic review pipeline segments long documents, budgets attention, verifies claims, and returns evidence-backed critique.",
+          "usefulness": "A strong pattern for client proposals, architecture reviews, and report QA where generation volume is outrunning human verification."
+        },
+        {
+          "title": "Empirical Research Assistance (ERA)",
+          "url": "https://research.google/blog/empirical-research-assistance-era-from-nature-publication-to-catalyzing-computational-discovery/",
+          "source_type": "research",
+          "published_or_updated": "2026-10-14 to 2026-10-19",
+          "why_selected": "ERA turns expert research questions into many code experiments and helps move from publication to computational discovery.",
+          "usefulness": "The pattern generalizes to Buildn experiments: hypotheses, reproducible runs, and ranked evidence instead of free-form brainstorming."
+        },
+        {
+          "title": "Geospatial agents for planetary workflows",
+          "url": "https://research.google/blog/putting-earth-ai-to-work-geospatial-agents-for-our-planets-biggest-challenges/",
+          "source_type": "research",
+          "published_or_updated": "2026-10-14 to 2026-10-19",
+          "why_selected": "Earth AI combines geospatial models, datasets, forecasting, and tool-selecting agents for high-dimensional real-world questions.",
+          "usefulness": "It is a useful reference for tool-rich agents: semantic requests mapped to verified calls, data provenance, and scenario outputs."
+        },
+        {
+          "title": "Research@ 2026: multi-agent science",
+          "url": "https://research.google/blog/research-2026-10-ways-were-amplifying-human-ingenuity/",
+          "source_type": "research",
+          "published_or_updated": "2026-10-14 to 2026-10-19",
+          "why_selected": "Google’s research roundup frames multi-agent orchestration as a way to reproduce, adapt, and extend prior methods.",
+          "usefulness": "The reusable idea is a research workbench with specialist roles and a human decision gate, not an autonomous black box."
+        }
+      ]
+    },
+    {
+      "slug": "agent-boundaries-and-assurance",
+      "title": "Agent Boundaries + Assurance",
+      "selection_rationale": "Coverage has leaned heavily toward agent capability; today’s fresher gap is failure containment across agent boundaries, harnesses, and memory actions.",
+      "sources": [
+        {
+          "title": "Why agent teams fail across boundaries",
+          "url": "https://arxiv.org/html/2610.19342v1",
+          "source_type": "paper",
+          "published_or_updated": "2026-10-14 to 2026-10-19",
+          "why_selected": "A failure taxonomy studies agent-to-agent systems with private state, exposing coordination and boundary failure modes.",
+          "usefulness": "It gives Buildn a vocabulary for separating prompt quality from protocol, state-sharing, and recovery defects."
+        },
+        {
+          "title": "Complex agents, shallow tests",
+          "url": "https://arxiv.org/html/2610.04921v1",
+          "source_type": "paper",
+          "published_or_updated": "2026-10-14 to 2026-10-19",
+          "why_selected": "A study of agent harnesses argues that conventional test counts can hide weak behavioral coverage in complex tool-using systems.",
+          "usefulness": "This directly supports reviewable delivery: measure scenario coverage, tool misuse, and recovery—not only passing unit tests."
+        },
+        {
+          "title": "Agent-controlled forgetting",
+          "url": "https://arxiv.org/html/2610.10590v1",
+          "source_type": "paper",
+          "published_or_updated": "2026-10-14 to 2026-10-19",
+          "why_selected": "Reversible context curation lets a tool-using agent remove and restore context as part of execution.",
+          "usefulness": "For personal or client knowledge systems, forgetting is a control surface: it can reduce leakage and context drag without destroying evidence."
+        },
+        {
+          "title": "Provenance-based runtime defense (AGATE)",
+          "url": "https://arxiv.org/html/2609.30830v1",
+          "source_type": "paper",
+          "published_or_updated": "2026-10-14 to 2026-10-19",
+          "why_selected": "AGATE explores provenance-aware runtime defense against compositional attacks on agents.",
+          "usefulness": "Provenance tags can make tool outputs, retrieved facts, and derived actions inspectable across a workflow."
+        },
+        {
+          "title": "Earth AI technical report",
+          "url": "https://arxiv.org/abs/2610.15750",
+          "source_type": "paper",
+          "published_or_updated": "2026-10-14 to 2026-10-19",
+          "why_selected": "The technical report behind Earth AI supplies a benchmark-oriented view of geospatial models and agentic tool use.",
+          "usefulness": "It is a concrete reminder to pair agent capability with evaluation datasets, task definitions, and verifiable answers."
+        }
+      ]
+    },
+    {
+      "slug": "open-ai-builder-economy",
+      "title": "Open AI Builder Economy",
+      "selection_rationale": "A neglected lane is the practical route from open-source prototype to funded, compute-backed system. Nebius and NVIDIA’s European expansion creates a concrete path to explore.",
+      "sources": [
+        {
+          "title": "Nebius + NVIDIA AI Builder Program in Europe",
+          "url": "https://nebius.com/blog/posts/ai-builder-program-in-europe",
+          "source_type": "product",
+          "published_or_updated": "2026-10-19",
+          "why_selected": "The program combines compute grants, founder funding, hackathons, and community support for open AI projects in Europe.",
+          "usefulness": "It creates a route for agent runtimes, evaluation tooling, and infrastructure experiments that need GPU runway."
+        },
+        {
+          "title": "Nebius Research Grants",
+          "url": "https://nebius.com/nebius-research-grants",
+          "source_type": "program",
+          "published_or_updated": "2026-10-14 to 2026-10-19",
+          "why_selected": "Research grants offer GPU credits, model access, and agentic search support for academic and nonprofit computational projects.",
+          "usefulness": "A useful option for rigorous experiments that would otherwise be blocked by compute cost."
+        },
+        {
+          "title": "NVIDIA Run:ai open source on Nebius",
+          "url": "https://nebius.com/blog/posts/nvidia-run-ai-open-source-nebius-applications",
+          "source_type": "release",
+          "published_or_updated": "2026-10-14 to 2026-10-19",
+          "why_selected": "Run:ai is available as open source through Nebius managed Kubernetes applications.",
+          "usefulness": "It is a practical infrastructure seam between owning orchestration and outsourcing cluster operations."
+        },
+        {
+          "title": "Nebius Academy + NVIDIA DLI courses",
+          "url": "https://nebius.com/blog/posts/nebius-academy-nvidia-dli-hands-on-ai-courses",
+          "source_type": "learning",
+          "published_or_updated": "2026-10-14 to 2026-10-19",
+          "why_selected": "Hands-on courses pair AI infrastructure education with hosted compute and builder credits.",
+          "usefulness": "Useful for converting broad AI interest into repeatable operator skill—especially deployment, inference, and model serving."
+        },
+        {
+          "title": "Nebius Academy: human layer of AI transformation",
+          "url": "https://nebius.com/blog/posts/nebius-academy-closing-the-gap-between-ai-tools-and-the-people-who-use-them",
+          "source_type": "learning",
+          "published_or_updated": "2026-10-14 to 2026-10-19",
+          "why_selected": "The academy combines adoption programs, cloud certifications, research grants, and implementation support.",
+          "usefulness": "This supports a client-work offer around capability transfer rather than one-off AI demos."
+        }
+      ]
+    },
+    {
+      "slug": "verification-as-a-product-surface",
+      "title": "Verification as a Product Surface",
+      "selection_rationale": "Recent research releases suggest a practical opportunity outside the usual agent-runtime lane: make evidence, critique, and review visible parts of the user experience.",
+      "sources": [
+        {
+          "title": "Deep Review: validation bottleneck",
+          "url": "https://research.google/blog/analyzing-technical-documents-with-deep-review/",
+          "source_type": "research",
+          "published_or_updated": "2026-10-14 to 2026-10-19",
+          "why_selected": "Deep Review explicitly targets the gap between AI-generated material and finite human verification capacity.",
+          "usefulness": "That is a direct product thesis for Buildn reports and client deliverables: evidence trails are not a backend detail."
+        },
+        {
+          "title": "Research@ 2026: scientific collaboration",
+          "url": "https://blog.google/innovation-and-ai/technology/research/research-capabilities-intelligence-2026/",
+          "source_type": "research",
+          "published_or_updated": "2026-10-14 to 2026-10-19",
+          "why_selected": "Google’s Research@ overview packages scientific reasoning, technical review, and human-led decision making as a coherent direction.",
+          "usefulness": "It is a good source for positioning agent systems as collaborators with explicit human authority."
+        },
+        {
+          "title": "Agent teams and private state",
+          "url": "https://arxiv.org/html/2610.19342v1",
+          "source_type": "paper",
+          "published_or_updated": "2026-10-14 to 2026-10-19",
+          "why_selected": "Boundary failures often arise when cooperating agents hold private state and infer each other’s intent.",
+          "usefulness": "A verification surface should show state handoffs and unresolved assumptions, not only the final answer."
+        },
+        {
+          "title": "Harness test adequacy",
+          "url": "https://arxiv.org/html/2610.04921v1",
+          "source_type": "paper",
+          "published_or_updated": "2026-10-14 to 2026-10-19",
+          "why_selected": "Harness quality depends on behavioral coverage across tools and scenarios, not test volume alone.",
+          "usefulness": "This translates into a client-facing readiness score that explains which behaviors are actually tested."
+        },
+        {
+          "title": "Agent-controlled reversible context",
+          "url": "https://arxiv.org/html/2610.10590v1",
+          "source_type": "paper",
+          "published_or_updated": "2026-10-14 to 2026-10-19",
+          "why_selected": "Reversible forgetting treats context as a managed resource instead of a permanent transcript.",
+          "usefulness": "That gives product teams a tangible privacy and focus control to expose to users."
+        }
+      ]
+    }
+  ]
+}

@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-10-18T08:02:59.408703+00:00",
+  "updated_at": "2026-10-19T08:03:14.666002+00:00",
   "days": [
+    {
+      "date": "2026-10-19",
+      "path": "2026-10-19",
+      "reports": [
+        {
+          "lane": "agentic-enterprise-surfaces",
+          "title": "Agentic Enterprise Surfaces",
+          "url": "2026-10-19/agentic-enterprise-surfaces.html"
+        },
+        {
+          "lane": "agent-boundaries-and-assurance",
+          "title": "Agent Boundaries + Assurance",
+          "url": "2026-10-19/agent-boundaries-and-assurance.html"
+        },
+        {
+          "lane": "open-ai-builder-economy",
+          "title": "Open AI Builder Economy",
+          "url": "2026-10-19/open-ai-builder-economy.html"
+        },
+        {
+          "lane": "verification-as-a-product-surface",
+          "title": "Verification as a Product Surface",
+          "url": "2026-10-19/verification-as-a-product-surface.html"
+        }
+      ]
+    },
     {
       "date": "2026-10-18",
       "path": "2026-10-18",

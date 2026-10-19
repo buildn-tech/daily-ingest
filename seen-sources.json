@@ -1,6 +1,86 @@
 {
-  "updated_at": "2026-10-18T08:02:59.408703+00:00",
+  "updated_at": "2026-10-19T08:03:14.666002+00:00",
   "sources": {
+    "https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026": {
+      "first_seen": "2026-10-19",
+      "last_seen": "2026-10-19",
+      "title": "Gemini agent: one agent for work"
+    },
+    "https://research.google/blog/analyzing-technical-documents-with-deep-review": {
+      "first_seen": "2026-10-19",
+      "last_seen": "2026-10-19",
+      "title": "Deep Review: validation bottleneck"
+    },
+    "https://research.google/blog/empirical-research-assistance-era-from-nature-publication-to-catalyzing-computational-discovery": {
+      "first_seen": "2026-10-19",
+      "last_seen": "2026-10-19",
+      "title": "Empirical Research Assistance (ERA)"
+    },
+    "https://research.google/blog/putting-earth-ai-to-work-geospatial-agents-for-our-planets-biggest-challenges": {
+      "first_seen": "2026-10-19",
+      "last_seen": "2026-10-19",
+      "title": "Geospatial agents for planetary workflows"
+    },
+    "https://research.google/blog/research-2026-10-ways-were-amplifying-human-ingenuity": {
+      "first_seen": "2026-10-19",
+      "last_seen": "2026-10-19",
+      "title": "Research@ 2026: multi-agent science"
+    },
+    "https://arxiv.org/html/2610.19342v1": {
+      "first_seen": "2026-10-19",
+      "last_seen": "2026-10-19",
+      "title": "Agent teams and private state"
+    },
+    "https://arxiv.org/html/2610.04921v1": {
+      "first_seen": "2026-10-19",
+      "last_seen": "2026-10-19",
+      "title": "Harness test adequacy"
+    },
+    "https://arxiv.org/html/2610.10590v1": {
+      "first_seen": "2026-10-19",
+      "last_seen": "2026-10-19",
+      "title": "Agent-controlled reversible context"
+    },
+    "https://arxiv.org/html/2609.30830v1": {
+      "first_seen": "2026-10-19",
+      "last_seen": "2026-10-19",
+      "title": "Provenance-based runtime defense (AGATE)"
+    },
+    "https://arxiv.org/abs/2610.15750": {
+      "first_seen": "2026-10-19",
+      "last_seen": "2026-10-19",
+      "title": "Earth AI technical report"
+    },
+    "https://nebius.com/blog/posts/ai-builder-program-in-europe": {
+      "first_seen": "2026-10-19",
+      "last_seen": "2026-10-19",
+      "title": "Nebius + NVIDIA AI Builder Program in Europe"
+    },
+    "https://nebius.com/nebius-research-grants": {
+      "first_seen": "2026-10-19",
+      "last_seen": "2026-10-19",
+      "title": "Nebius Research Grants"
+    },
+    "https://nebius.com/blog/posts/nvidia-run-ai-open-source-nebius-applications": {
+      "first_seen": "2026-10-19",
+      "last_seen": "2026-10-19",
+      "title": "NVIDIA Run:ai open source on Nebius"
+    },
+    "https://nebius.com/blog/posts/nebius-academy-nvidia-dli-hands-on-ai-courses": {
+      "first_seen": "2026-10-19",
+      "last_seen": "2026-10-19",
+      "title": "Nebius Academy + NVIDIA DLI courses"
+    },
+    "https://nebius.com/blog/posts/nebius-academy-closing-the-gap-between-ai-tools-and-the-people-who-use-them": {
+      "first_seen": "2026-10-19",
+      "last_seen": "2026-10-19",
+      "title": "Nebius Academy: human layer of AI transformation"
+    },
+    "https://blog.google/innovation-and-ai/technology/research/research-capabilities-intelligence-2026": {
+      "first_seen": "2026-10-19",
+      "last_seen": "2026-10-17",
+      "title": "Research@ 2026"
+    },
     "https://arxiv.org/html/2610.18230v1": {
       "first_seen": "2026-10-18",
       "last_seen": "2026-10-18",
@@ -110,11 +190,6 @@
       "first_seen": "2026-10-17",
       "last_seen": "2026-10-17",
       "title": "MemForm poisoning benchmark"
-    },
-    "https://blog.google/innovation-and-ai/technology/research/research-capabilities-intelligence-2026": {
-      "first_seen": "2026-10-17",
-      "last_seen": "2026-10-17",
-      "title": "Research@ 2026"
     },
     "https://blog.google/innovation-and-ai/products/gemini-notebook/three-tips-study-gemini-notebook": {
       "first_seen": "2026-10-17",
