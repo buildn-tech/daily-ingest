@@ -1,6 +1,27 @@
 {
-  "updated_at": "2026-10-19T08:03:14.666002+00:00",
+  "updated_at": "2026-10-20T08:03:04.772637+00:00",
   "days": [
+    {
+      "date": "2026-10-20",
+      "path": "2026-10-20",
+      "reports": [
+        {
+          "lane": "agentic-engineering-systems",
+          "title": "Agentic Engineering Systems",
+          "url": "2026-10-20/agentic-engineering-systems.html"
+        },
+        {
+          "lane": "memory-as-control-plane",
+          "title": "Memory as a Control Plane",
+          "url": "2026-10-20/memory-as-control-plane.html"
+        },
+        {
+          "lane": "defensive-agent-evaluation",
+          "title": "Defensive Agent Evaluation",
+          "url": "2026-10-20/defensive-agent-evaluation.html"
+        }
+      ]
+    },
     {
       "date": "2026-10-19",
       "path": "2026-10-19",

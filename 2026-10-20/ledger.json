@@ -1,0 +1,148 @@
+{
+  "date": "2026-10-20",
+  "generated_at": "2026-10-20T08:03:00.376723+00:00",
+  "editorial_thesis": "Agent capability becomes durable leverage when routing, memory provenance, and defensive evaluation are treated as control-plane primitives.",
+  "topic_groups": [
+    {
+      "slug": "agentic-engineering-systems",
+      "title": "Agentic Engineering Systems",
+      "selection_rationale": "Fresh enterprise signal shifts the unit of adoption from model choice to governed engineering systems, with orchestration, cross-surface workflows, and explicit outcome measurement.",
+      "sources": [
+        {
+          "title": "GitHub Agentic Engineering System (AES)",
+          "url": "https://github.com/resources/insights/enterprise-content-roundup-october-26",
+          "source_type": "release",
+          "published_or_updated": "2026-10-15 or earlier",
+          "why_selected": "A practical operating model for deciding where agents accelerate delivery and where human approval remains essential.",
+          "usefulness": "Use as a Buildn delivery checklist: responsibilities, shared instructions, guardrails, observability, and outcome metrics."
+        },
+        {
+          "title": "Microsoft Agent Framework 1.22.0",
+          "url": "https://github.com/microsoft/agent-framework/releases",
+          "source_type": "release",
+          "published_or_updated": "2026-10-15 or earlier",
+          "why_selected": "A multi-provider framework release adds Python 3.15 metadata, tighter AG-UI trust boundaries, thread-bound continuations, and bounded response handling.",
+          "usefulness": "A reference for portable agent services with explicit session state, approvals, and provider adapters."
+        },
+        {
+          "title": "LightAgent v0.11.0",
+          "url": "https://github.com/wanxingai/lightagent",
+          "source_type": "repo",
+          "published_or_updated": "2026-10-15 or earlier",
+          "why_selected": "An open-source framework adds persistent Dynamic DAG execution, verification-gated immutable artifacts, restart-safe leases, and narrowing-only security context.",
+          "usefulness": "Study its artifact and lease primitives for long-running Buildn jobs that must resume safely."
+        },
+        {
+          "title": "Open Multi Agent",
+          "url": "https://github.com/open-multi-agent/open-multi-agent",
+          "source_type": "repo",
+          "published_or_updated": "2026-10-15 or earlier",
+          "why_selected": "A newly active open project combines multi-agent orchestration, A2A/MCP, observability, self-hosting, and governance themes.",
+          "usefulness": "Use as a comparative architecture specimen for collaborative agents without vendor lock-in."
+        },
+        {
+          "title": "HydraFusion enterprise orchestration trail",
+          "url": "https://github.blog/changelog/2026-09-30-hydrafusion-in-vs-code-and-the-github-copilot-app/",
+          "source_type": "release",
+          "published_or_updated": "2026-10-15 or earlier",
+          "why_selected": "GitHub’s research preview frames model selection as single-model, cascade, and critique workflows instead of a single fixed model.",
+          "usefulness": "Prototype routing by task risk, latency, and reviewability rather than by benchmark score alone."
+        }
+      ]
+    },
+    {
+      "slug": "memory-as-control-plane",
+      "title": "Memory as a Control Plane",
+      "selection_rationale": "The freshest memory research is moving beyond recall quality toward provenance, source-family deduplication, variable context budgets, and procedural-personal memory separation.",
+      "sources": [
+        {
+          "title": "Memory Echo + MEchoBench",
+          "url": "https://arxiv.org/html/2610.17763v1",
+          "source_type": "paper",
+          "published_or_updated": "2026-10-15 or earlier",
+          "why_selected": "Repeated retrieval and write-back can make one historical claim look like independent evidence; MEchoBench measures echo density, persistence, and contamination.",
+          "usefulness": "Add source-family IDs, correction status, and authority to any durable agent memory."
+        },
+        {
+          "title": "MemComposer",
+          "url": "https://arxiv.org/html/2610.21091v1",
+          "source_type": "paper",
+          "published_or_updated": "2026-10-15 or earlier",
+          "why_selected": "A learned composer chooses which memories to include, how many, and in what order, optimizing complete task outcomes rather than similarity alone.",
+          "usefulness": "Use a bounded memory-selection stage before the main agent, with token and success budgets."
+        },
+        {
+          "title": "Memorizing Who, Knowing How",
+          "url": "https://arxiv.org/html/2610.20022v1",
+          "source_type": "paper",
+          "published_or_updated": "2026-10-15 or earlier",
+          "why_selected": "A benchmark separates personal memory from procedural memory for persistent assistants.",
+          "usefulness": "Design Buildn memory schemas with separate user facts, preferences, and executable workflow knowledge."
+        },
+        {
+          "title": "nanoMuse: open personal agent",
+          "url": "https://arxiv.org/html/2610.08699v1",
+          "source_type": "paper",
+          "published_or_updated": "2026-10-15 or earlier",
+          "why_selected": "An open personal-agent proposal makes readable memory, provenance, local files, proactive behavior, and approval-backed actions explicit design requirements.",
+          "usefulness": "Use it as a product critique checklist for local-first personal-agent concepts."
+        },
+        {
+          "title": "Memory Echo benchmark code",
+          "url": "https://github.com/OrcasSam/memory-echo-benchmark",
+          "source_type": "repo",
+          "published_or_updated": "2026-10-15 or earlier",
+          "why_selected": "The companion implementation turns memory lifecycle claims into a reusable evaluation surface.",
+          "usefulness": "Adapt the benchmark shape for client knowledge bases and long-running research assistants."
+        }
+      ]
+    },
+    {
+      "slug": "defensive-agent-evaluation",
+      "title": "Defensive Agent Evaluation",
+      "selection_rationale": "New security research is making defense measurable: hidden vulnerabilities, cross-session artifacts, and attack-resistant harness behavior are becoming separate test surfaces.",
+      "sources": [
+        {
+          "title": "CWE-bench",
+          "url": "https://arxiv.org/html/2610.17020v1",
+          "source_type": "paper",
+          "published_or_updated": "2026-10-15 or earlier",
+          "why_selected": "A defensive benchmark uses 120 private repository tasks across 73 CWE types and all OWASP Top 10:2025 categories, requiring secure patches that preserve functionality.",
+          "usefulness": "Use its pass criteria for agentic code review: security block plus regression-free behavior."
+        },
+        {
+          "title": "SkillRelayBench: cross-session artifact attacks",
+          "url": "https://arxiv.org/html/2610.13227v1",
+          "source_type": "paper",
+          "published_or_updated": "2026-10-15 or earlier",
+          "why_selected": "This work evaluates how persistent artifacts can carry attacks across otherwise reset agent sessions and compares modern coding-agent harnesses.",
+          "usefulness": "Threat-model skills, artifacts, caches, and workspaces as inter-session communication channels."
+        },
+        {
+          "title": "EvolvAttack",
+          "url": "https://arxiv.org/html/2610.15244v1",
+          "source_type": "paper",
+          "published_or_updated": "2026-10-15 or earlier",
+          "why_selected": "A study of backdooring self-evolving vision-language agents highlights risk in systems that continually update memory and behavior.",
+          "usefulness": "Separate learning, memory-write, and policy-promotion permissions in adaptive workflows."
+        },
+        {
+          "title": "AgentStripes maturity model",
+          "url": "https://arxiv.org/html/2610.18603v1",
+          "source_type": "paper",
+          "published_or_updated": "2026-10-15 or earlier",
+          "why_selected": "An evidence-graded maturity model treats the agent as a system with planning, tools, memory, environment interaction, and stopping behavior.",
+          "usefulness": "Turn maturity evidence into a client-facing readiness review instead of a model scorecard."
+        },
+        {
+          "title": "NIST AI-agent security concept paper",
+          "url": "https://csrc.nist.gov/pubs/other/2026/02/05/accelerating-the-adoption-of-software-and-ai-agent/ipd",
+          "source_type": "docs",
+          "published_or_updated": "2026-10-15 or earlier",
+          "why_selected": "NIST frames identity standards and best practices as prerequisites for secure adoption of software and AI agents.",
+          "usefulness": "Anchor identity, authorization, and accountability recommendations in a neutral public reference."
+        }
+      ]
+    }
+  ]
+}

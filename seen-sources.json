@@ -1,6 +1,81 @@
 {
-  "updated_at": "2026-10-19T08:03:14.666002+00:00",
+  "updated_at": "2026-10-20T08:03:04.772637+00:00",
   "sources": {
+    "https://github.com/resources/insights/enterprise-content-roundup-october-26": {
+      "first_seen": "2026-10-20",
+      "last_seen": "2026-10-11",
+      "title": "GitHub Copilot app + connected sessions"
+    },
+    "https://github.com/microsoft/agent-framework/releases": {
+      "first_seen": "2026-10-20",
+      "last_seen": "2026-07-13",
+      "title": "Microsoft Agent Framework releases"
+    },
+    "https://github.com/wanxingai/lightagent": {
+      "first_seen": "2026-10-20",
+      "last_seen": "2026-10-20",
+      "title": "LightAgent v0.11.0"
+    },
+    "https://github.com/open-multi-agent/open-multi-agent": {
+      "first_seen": "2026-10-20",
+      "last_seen": "2026-10-20",
+      "title": "Open Multi Agent"
+    },
+    "https://github.blog/changelog/2026-09-30-hydrafusion-in-vs-code-and-the-github-copilot-app": {
+      "first_seen": "2026-10-20",
+      "last_seen": "2026-10-20",
+      "title": "HydraFusion enterprise orchestration trail"
+    },
+    "https://arxiv.org/html/2610.17763v1": {
+      "first_seen": "2026-10-20",
+      "last_seen": "2026-10-20",
+      "title": "Memory Echo + MEchoBench"
+    },
+    "https://arxiv.org/html/2610.21091v1": {
+      "first_seen": "2026-10-20",
+      "last_seen": "2026-10-20",
+      "title": "MemComposer"
+    },
+    "https://arxiv.org/html/2610.20022v1": {
+      "first_seen": "2026-10-20",
+      "last_seen": "2026-10-20",
+      "title": "Memorizing Who, Knowing How"
+    },
+    "https://arxiv.org/html/2610.08699v1": {
+      "first_seen": "2026-10-20",
+      "last_seen": "2026-10-18",
+      "title": "Local-First Is a Product Boundary"
+    },
+    "https://github.com/OrcasSam/memory-echo-benchmark": {
+      "first_seen": "2026-10-20",
+      "last_seen": "2026-10-20",
+      "title": "Memory Echo benchmark code"
+    },
+    "https://arxiv.org/html/2610.17020v1": {
+      "first_seen": "2026-10-20",
+      "last_seen": "2026-10-20",
+      "title": "CWE-bench"
+    },
+    "https://arxiv.org/html/2610.13227v1": {
+      "first_seen": "2026-10-20",
+      "last_seen": "2026-10-20",
+      "title": "SkillRelayBench: cross-session artifact attacks"
+    },
+    "https://arxiv.org/html/2610.15244v1": {
+      "first_seen": "2026-10-20",
+      "last_seen": "2026-10-20",
+      "title": "EvolvAttack"
+    },
+    "https://arxiv.org/html/2610.18603v1": {
+      "first_seen": "2026-10-20",
+      "last_seen": "2026-10-18",
+      "title": "AgentStripes Maturity Model"
+    },
+    "https://csrc.nist.gov/pubs/other/2026/02/05/accelerating-the-adoption-of-software-and-ai-agent/ipd": {
+      "first_seen": "2026-10-20",
+      "last_seen": "2026-08-15",
+      "title": "NIST software and AI-agent adoption concept paper"
+    },
     "https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026": {
       "first_seen": "2026-10-19",
       "last_seen": "2026-10-19",
@@ -91,11 +166,6 @@
       "last_seen": "2026-10-18",
       "title": "HarnessSecurity-Bench"
     },
-    "https://arxiv.org/html/2610.18603v1": {
-      "first_seen": "2026-10-18",
-      "last_seen": "2026-10-18",
-      "title": "AgentStripes Maturity Model"
-    },
     "https://arxiv.org/html/2610.12436v1": {
       "first_seen": "2026-10-18",
       "last_seen": "2026-10-18",
@@ -126,11 +196,6 @@
       "last_seen": "2026-10-18",
       "title": "EvoArena Memory Evolution"
     },
-    "https://arxiv.org/html/2610.08699v1": {
-      "first_seen": "2026-10-18",
-      "last_seen": "2026-10-18",
-      "title": "Local-First Is a Product Boundary"
-    },
     "https://arxiv.org/html/2608.13606v2": {
       "first_seen": "2026-10-18",
       "last_seen": "2026-10-18",
@@ -155,11 +220,6 @@
       "first_seen": "2026-10-17",
       "last_seen": "2026-10-11",
       "title": "When chat is the wrong UI"
-    },
-    "https://github.com/resources/insights/enterprise-content-roundup-october-26": {
-      "first_seen": "2026-10-17",
-      "last_seen": "2026-10-11",
-      "title": "GitHub Copilot app + connected sessions"
     },
     "https://openai.com/index/introducing-gpt-rosalind": {
       "first_seen": "2026-10-17",
@@ -3416,11 +3476,6 @@
       "last_seen": "2026-08-15",
       "title": "AI agent identity governance gap"
     },
-    "https://csrc.nist.gov/pubs/other/2026/02/05/accelerating-the-adoption-of-software-and-ai-agent/ipd": {
-      "first_seen": "2026-08-15",
-      "last_seen": "2026-08-15",
-      "title": "NIST software and AI-agent adoption concept paper"
-    },
     "https://github.com/nocodb/nocodb/releases": {
       "first_seen": "2026-08-15",
       "last_seen": "2026-08-15",
@@ -4710,11 +4765,6 @@
       "first_seen": "2026-07-13",
       "last_seen": "2026-07-13",
       "title": "Adoption and Impact of Command-Line AI Coding Agents"
-    },
-    "https://github.com/microsoft/agent-framework/releases": {
-      "first_seen": "2026-07-13",
-      "last_seen": "2026-07-13",
-      "title": "Microsoft Agent Framework releases"
     },
     "https://github.com/simular-ai/agent-s": {
       "first_seen": "2026-07-13",

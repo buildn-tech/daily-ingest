@@ -1438,315 +1438,27 @@
       "title": "Verification as a Product Surface",
       "times_covered": 1,
       "last_covered": "2026-10-19"
+    },
+    "agentic-engineering-systems": {
+      "title": "Agentic Engineering Systems",
+      "times_covered": 1,
+      "last_covered": "2026-10-20",
+      "last_selection_rationale": "Fresh enterprise signal shifts the unit of adoption from model choice to governed engineering systems, with orchestration, cross-surface workflows, and explicit outcome measurement."
+    },
+    "memory-as-control-plane": {
+      "title": "Memory as a Control Plane",
+      "times_covered": 1,
+      "last_covered": "2026-10-20",
+      "last_selection_rationale": "The freshest memory research is moving beyond recall quality toward provenance, source-family deduplication, variable context budgets, and procedural-personal memory separation."
+    },
+    "defensive-agent-evaluation": {
+      "title": "Defensive Agent Evaluation",
+      "times_covered": 1,
+      "last_covered": "2026-10-20",
+      "last_selection_rationale": "New security research is making defense measurable: hidden vulnerabilities, cross-session artifacts, and attack-resistant harness behavior are becoming separate test surfaces."
     }
   },
   "item_history": [
-    {
-      "date": "2026-08-31",
-      "topic": "ai-native-delivery",
-      "title": "AI Dev Tools Zoomcamp 2026",
-      "url": "https://datatalks.club/blog/ai-dev-tools-zoomcamp.html",
-      "source_type": "course",
-      "rationale": "Free cohort starts today and covers specification through security and audit."
-    },
-    {
-      "date": "2026-08-31",
-      "topic": "agent-ready-web",
-      "title": "Agent Readiness score",
-      "url": "https://blog.cloudflare.com/agent-readiness/",
-      "source_type": "product",
-      "rationale": "Makes discoverability and machine-readable content an auditable site property."
-    },
-    {
-      "date": "2026-08-31",
-      "topic": "ai-native-delivery",
-      "title": "Claude Managed Agents with Chat SDK",
-      "url": "https://vercel.com/changelog/claude-managed-agents-with-chat-sdk",
-      "source_type": "release",
-      "rationale": "Persistent sessions, streamed activity, and portable chat make a bounded research pilot practical."
-    },
-    {
-      "date": "2026-08-31",
-      "topic": "agent-ready-web",
-      "title": "Kitesurf agent-first browser",
-      "url": "https://blog.cloudflare.com/kitesurf/",
-      "source_type": "product",
-      "rationale": "Offers a lower-overhead browser runtime for agent extraction and automation."
-    },
-    {
-      "date": "2026-08-31",
-      "topic": "physical-ai-sensing",
-      "title": "Task-Aware Unified Source Separation",
-      "url": "https://www.mitsubishielectric.com/en/pr/2026/0831_di/",
-      "source_type": "research",
-      "rationale": "A new promptable sound-separation model addresses noisy physical-AI environments."
-    },
-    {
-      "date": "2026-09-02",
-      "selected_lanes": [
-        "agent-native-engineering",
-        "model-routing-and-controls",
-        "embodied-ai-skill-lifecycles",
-        "security-identity-and-data-boundaries"
-      ],
-      "items": [
-        {
-          "title": "GitHub Copilot app",
-          "url": "https://github.blog/news-insights/product-news/github-copilot-app-the-agent-native-desktop-experience/",
-          "source_type": "release"
-        },
-        {
-          "title": "Copilot remote sessions",
-          "url": "https://github.blog/news-insights/product-news/take-your-local-github-sessions-anywhere/",
-          "source_type": "release"
-        },
-        {
-          "title": "Custom agents for observability, IaC, security",
-          "url": "https://github.blog/news-insights/product-news/your-stack-your-rules-introducing-custom-agents-in-github-copilot-for-observability-iac-and-security/",
-          "source_type": "release"
-        },
-        {
-          "title": "GitHub Actions security roadmap",
-          "url": "https://github.blog/news-insights/product-news/whats-coming-to-our-github-actions-2026-security-roadmap/",
-          "source_type": "release"
-        },
-        {
-          "title": "Copilot embedding model",
-          "url": "https://github.blog/news-insights/product-news/copilot-new-embedding-model-vs-code/",
-          "source_type": "release"
-        },
-        {
-          "title": "Qwen 3.8 Max 0902 on AI Gateway",
-          "url": "https://vercel.com/changelog/qwen-3-8-max-0902-now-available-on-ai-gateway",
-          "source_type": "release"
-        },
-        {
-          "title": "Per-user AI Gateway budgets",
-          "url": "https://vercel.com/changelog/set-per-user-budgets-on-ai-gateway",
-          "source_type": "release"
-        },
-        {
-          "title": "AWS PrivateLink on Vercel",
-          "url": "https://vercel.com/changelog/aws-privatelink-is-now-available-on-pro-and-enterprise",
-          "source_type": "release"
-        },
-        {
-          "title": "Vercel Sandbox daily snapshot billing",
-          "url": "https://vercel.com/changelog/vercel-sandbox-now-calculates-snapshot-storage-costs-daily",
-          "source_type": "release"
-        },
-        {
-          "title": "GPT-5.6 Sol discount window",
-          "url": "https://vercel.com/changelog/gpt-5-6-sol-is-50-off-on-ai-gateway-for-the-next-month",
-          "source_type": "release"
-        },
-        {
-          "title": "Facet-0",
-          "url": "https://arxiv.org/abs/2609.01596",
-          "source_type": "paper"
-        },
-        {
-          "title": "EmbodiedSkills",
-          "url": "https://arxiv.org/abs/2609.01281",
-          "source_type": "paper"
-        },
-        {
-          "title": "Knowing When to Stop",
-          "url": "https://arxiv.org/abs/2609.00908",
-          "source_type": "paper"
-        },
-        {
-          "title": "REFACTOR-VLA",
-          "url": "https://arxiv.org/abs/2609.01215",
-          "source_type": "paper"
-        },
-        {
-          "title": "Drone-control VLM evaluation",
-          "url": "https://arxiv.org/abs/2609.01404",
-          "source_type": "paper"
-        },
-        {
-          "title": "Path to Astra",
-          "url": "https://openai.com/index/path-to-astra/",
-          "source_type": "release"
-        },
-        {
-          "title": "Expanding Daybreak",
-          "url": "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows/",
-          "source_type": "release"
-        },
-        {
-          "title": "OWASP GenAI Security Project",
-          "url": "https://genai.owasp.org/",
-          "source_type": "release"
-        },
-        {
-          "title": "Cloudflare AI traffic options",
-          "url": "https://blog.cloudflare.com/content-independence-day-ai-options/",
-          "source_type": "release"
-        },
-        {
-          "title": "OpenAI Privacy Filter",
-          "url": "https://openai.com/index/introducing-openai-privacy-filter/",
-          "source_type": "release"
-        }
-      ],
-      "selection_rationale": "Fresh primary-source signals with deliberate rotation away from yesterday’s privacy/runtime/commerce themes."
-    },
-    {
-      "date": "2026-09-03",
-      "selected_lanes": [
-        "model-and-product-surfaces",
-        "identity-and-agent-security",
-        "simulation-to-real-robotics"
-      ],
-      "items": [
-        {
-          "title": "Google AI announcements from August 2026",
-          "url": "https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026/",
-          "source_type": "blog",
-          "selection_rationale": "Lower model cost changes the feasible shape of background research, retries, and evaluation—not just the vendor bill."
-        },
-        {
-          "title": "Google AI announcements from August 2026",
-          "url": "https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026/",
-          "source_type": "blog",
-          "selection_rationale": "Audio is often the richest client-work input and the least operationalized. Transcription quality is only valuable when downstream actions are reviewable."
-        },
-        {
-          "title": "Win across all three eras of the web",
-          "url": "https://about.ads.microsoft.com/en/blog/post/april-2026/win-across-all-three-eras-of-the-web",
-          "source_type": "blog",
-          "selection_rationale": "SEO and click-through are no longer enough to explain demand. Clients need evidence of how systems represent their offer when no human click occurs."
-        },
-        {
-          "title": "AI in Design 2026: the inflection point is here",
-          "url": "https://designerfund.com/blog/ai-in-design-2026",
-          "source_type": "blog",
-          "selection_rationale": "The leverage is in the handoff: editable artifacts, constraints, and review loops preserve quality as throughput rises."
-        },
-        {
-          "title": "Saviynt UNLOCK 2026 Roadshow",
-          "url": "https://saviynt.com/press-release/saviynt-unlock-2026-roadshow?hsLang=en",
-          "source_type": "product",
-          "selection_rationale": "The important shift is ownership: agent identity is becoming an operational perimeter, not a checkbox attached to an API key."
-        },
-        {
-          "title": "Strategies to improve AI agent data privacy and security",
-          "url": "https://www.okta.com/identity-101/improve-ai-agent-data-privacy-and-security/",
-          "source_type": "product",
-          "selection_rationale": "“The agent can read the database” is too coarse. Permission needs to be evaluated at user, task, record, field, and action boundaries."
-        },
-        {
-          "title": "Top Agentic AI Security Threats in Late 2026",
-          "url": "https://stellarcyber.ai/learn/agentic-ai-securiry-threats/",
-          "source_type": "product",
-          "selection_rationale": "Long-lived memory turns a one-off malicious input into a future instruction. Trust must attach to memory entries, not only the current prompt."
-        },
-        {
-          "title": "Expanding Daybreak as the Cyber Defense Window Narrows",
-          "url": "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows/",
-          "source_type": "product",
-          "selection_rationale": "When agents can change code, spend money, or reach private data, phishing-resistant operator authentication is a sensible release gate."
-        },
-        {
-          "title": "Intrinsic AI for Industry Challenge",
-          "url": "https://www.intrinsic.ai/events/ai-for-industry-challenge",
-          "source_type": "product",
-          "selection_rationale": "The staged ladder makes failure cheaper and evidence comparable. It is a concrete pattern for any agent that can affect the physical or business world."
-        },
-        {
-          "title": "Intrinsic participant toolkit",
-          "url": "https://github.com/intrinsic-dev/aic",
-          "source_type": "repo",
-          "selection_rationale": "A benchmark is only reusable when inputs, actions, and evaluation surfaces are explicit. Hidden glue code makes comparison impossible."
-        },
-        {
-          "title": "Intrinsic challenge technical brief",
-          "url": "https://www.intrinsic.ai/events/ai-for-industry-challenge",
-          "source_type": "product",
-          "selection_rationale": "The analogous software task is messy client data or changing UI state. Success depends on detecting drift and recovering, not only executing the nominal path."
-        },
-        {
-          "title": "Intrinsic challenge timeline",
-          "url": "https://www.intrinsic.ai/events/ai-for-industry-challenge",
-          "source_type": "product",
-          "selection_rationale": "Teams improve faster when evaluation is scheduled and promotion criteria are known before the system is impressive."
-        }
-      ]
-    },
-    {
-      "date": "2026-09-04",
-      "topic": "ai-assisted-threat-intelligence",
-      "title": "CVE-2026-22813 advisory",
-      "url": "https://github.com/anomalyco/opencode/security/advisories/GHSA-c83v-7274-4vgp",
-      "source_type": "docs",
-      "rationale": "Concrete markdown-rendering RCE example makes renderer and preview audits actionable."
-    },
-    {
-      "date": "2026-09-04",
-      "topic": "model-change-control",
-      "title": "Content exclusions generally available in Copilot app and CLI",
-      "url": "https://github.blog/changelog/2026-09-02-content-exclusions-generally-available-in-copilot-app-and-cli",
-      "source_type": "release",
-      "rationale": "Repository exclusion policy now follows context into app and CLI agent workflows."
-    },
-    {
-      "date": "2026-09-04",
-      "topic": "model-change-control",
-      "title": "Copilot code review can now approve pull requests",
-      "url": "https://github.blog/changelog/2026-09-01-copilot-code-review-can-now-approve-pull-requests",
-      "source_type": "release",
-      "rationale": "Machine approval is now an explicit, scoped branch-policy option."
-    },
-    {
-      "date": "2026-09-04",
-      "topic": "frontline-cyber-defense",
-      "title": "Daybreak for Frontline Defenders",
-      "url": "https://openai.com/index/daybreak-for-frontline-defenders/",
-      "source_type": "product",
-      "rationale": "A $1B commitment makes authorized cyber-defense access and training a current operational signal."
-    },
-    {
-      "date": "2026-09-04",
-      "topic": "frontline-cyber-defense",
-      "title": "GPT-6 Astra system card",
-      "url": "https://deploymentsafety.openai.com/gpt-6-astra",
-      "source_type": "research",
-      "rationale": "Primary evidence surface for capability, alignment, and monitoring claims."
-    },
-    {
-      "date": "2026-09-04",
-      "topic": "model-change-control",
-      "title": "Gemini 3.8 Flash is now available in GitHub Copilot",
-      "url": "https://github.blog/changelog/2026-09-03-gemini-3-8-flash-is-now-available-in-github-copilot",
-      "source_type": "release",
-      "rationale": "New terminal-oriented model makes a bounded compatibility trial timely."
-    },
-    {
-      "date": "2026-09-04",
-      "topic": "ai-assisted-threat-intelligence",
-      "title": "Introducing the 2026 Cloudflare Threat Report",
-      "url": "https://blog.cloudflare.com/2026-threat-report/",
-      "source_type": "research",
-      "rationale": "Current threat reporting describes AI-assisted self-vulnerability analysis and a critical RCE discovery."
-    },
-    {
-      "date": "2026-09-04",
-      "topic": "frontline-cyber-defense",
-      "title": "Safety overview: GPT-6 Astra",
-      "url": "https://openai.com/index/safety-overview-gpt-6-astra/",
-      "source_type": "research",
-      "rationale": "Critical cyber capability and monitorability limitations need separate release-gate treatment."
-    },
-    {
-      "date": "2026-09-04",
-      "topic": "model-change-control",
-      "title": "Upcoming deprecation of selected GitHub Copilot models",
-      "url": "https://github.blog/changelog/2026-09-03-upcoming-deprecation-of-selected-github-copilot-models",
-      "source_type": "release",
-      "rationale": "October 2 retirement date creates an immediate inventory and migration task."
-    },
     {
       "date": "2026-09-05",
       "selected_lanes": [
@@ -4412,6 +4124,126 @@
       "url": "https://www.anthropic.com/news/anthropic-cyber-mission",
       "source_type": "product",
       "rationale": "Defensive automation works when evidence, replay, and accountability stay explicit."
+    },
+    {
+      "date": "2026-10-20",
+      "topic": "agentic-engineering-systems",
+      "title": "GitHub Agentic Engineering System (AES)",
+      "url": "https://github.com/resources/insights/enterprise-content-roundup-october-26",
+      "source_type": "release",
+      "rationale": "The useful change is organizational: more code is not the goal; higher-quality, safer throughput is."
+    },
+    {
+      "date": "2026-10-20",
+      "topic": "agentic-engineering-systems",
+      "title": "Microsoft Agent Framework 1.22.0",
+      "url": "https://github.com/microsoft/agent-framework/releases",
+      "source_type": "release",
+      "rationale": "It exposes the migration seam: persisted records and rolling deployments need compatibility plans."
+    },
+    {
+      "date": "2026-10-20",
+      "topic": "agentic-engineering-systems",
+      "title": "LightAgent v0.11.0",
+      "url": "https://github.com/wanxingai/lightagent",
+      "source_type": "repo",
+      "rationale": "It treats reliability and authorization as execution properties, not prompt instructions."
+    },
+    {
+      "date": "2026-10-20",
+      "topic": "agentic-engineering-systems",
+      "title": "Open Multi Agent",
+      "url": "https://github.com/open-multi-agent/open-multi-agent",
+      "source_type": "repo",
+      "rationale": "The repo is early; its value is the direction and the surface area to audit, not production readiness."
+    },
+    {
+      "date": "2026-10-20",
+      "topic": "agentic-engineering-systems",
+      "title": "HydraFusion enterprise orchestration trail",
+      "url": "https://github.blog/changelog/2026-09-30-hydrafusion-in-vs-code-and-the-github-copilot-app/",
+      "source_type": "release",
+      "rationale": "The practical payoff is portfolio economics: cheaper drafts, stronger critics, and explicit escalation."
+    },
+    {
+      "date": "2026-10-20",
+      "topic": "memory-as-control-plane",
+      "title": "Memory Echo + MEchoBench",
+      "url": "https://arxiv.org/html/2610.17763v1",
+      "source_type": "paper",
+      "rationale": "A memory can remain stored without deserving equal retrieval exposure after correction."
+    },
+    {
+      "date": "2026-10-20",
+      "topic": "memory-as-control-plane",
+      "title": "MemComposer",
+      "url": "https://arxiv.org/html/2610.21091v1",
+      "source_type": "paper",
+      "rationale": "The result challenges fixed top-k retrieval: more context can reduce performance and raise cost."
+    },
+    {
+      "date": "2026-10-20",
+      "topic": "memory-as-control-plane",
+      "title": "Memorizing Who, Knowing How",
+      "url": "https://arxiv.org/html/2610.20022v1",
+      "source_type": "paper",
+      "rationale": "It gives a sharper product boundary: remembering a person is not the same as remembering how to act."
+    },
+    {
+      "date": "2026-10-20",
+      "topic": "memory-as-control-plane",
+      "title": "nanoMuse: open personal agent",
+      "url": "https://arxiv.org/html/2610.08699v1",
+      "source_type": "paper",
+      "rationale": "The interesting contribution is not a polished product; it is a public statement of what must remain inspectable."
+    },
+    {
+      "date": "2026-10-20",
+      "topic": "memory-as-control-plane",
+      "title": "Memory Echo benchmark code",
+      "url": "https://github.com/OrcasSam/memory-echo-benchmark",
+      "source_type": "repo",
+      "rationale": "A durable memory feature needs regression tests for correction and deletion, not only answer accuracy."
+    },
+    {
+      "date": "2026-10-20",
+      "topic": "defensive-agent-evaluation",
+      "title": "CWE-bench",
+      "url": "https://arxiv.org/html/2610.17020v1",
+      "source_type": "paper",
+      "rationale": "Pass@1 alone hides coverage, retry gains, language gaps, and cost differences."
+    },
+    {
+      "date": "2026-10-20",
+      "topic": "defensive-agent-evaluation",
+      "title": "SkillRelayBench: cross-session artifact attacks",
+      "url": "https://arxiv.org/html/2610.13227v1",
+      "source_type": "paper",
+      "rationale": "Resetting chat history does not reset the environment; the filesystem can become memory with side effects."
+    },
+    {
+      "date": "2026-10-20",
+      "topic": "defensive-agent-evaluation",
+      "title": "EvolvAttack",
+      "url": "https://arxiv.org/html/2610.15244v1",
+      "source_type": "paper",
+      "rationale": "Self-improvement expands the attack surface because a compromised update can persist."
+    },
+    {
+      "date": "2026-10-20",
+      "topic": "defensive-agent-evaluation",
+      "title": "AgentStripes maturity model",
+      "url": "https://arxiv.org/html/2610.18603v1",
+      "source_type": "paper",
+      "rationale": "The system boundary is wider than the model; controls must cover the harness and environment."
+    },
+    {
+      "date": "2026-10-20",
+      "topic": "defensive-agent-evaluation",
+      "title": "NIST AI-agent security concept paper",
+      "url": "https://csrc.nist.gov/pubs/other/2026/02/05/accelerating-the-adoption-of-software-and-ai-agent/ipd",
+      "source_type": "docs",
+      "rationale": "A policy document is not an implementation; translate each principle into an observable control."
     }
   ],
   "runs": [
@@ -7051,8 +6883,8 @@
       "editorial_thesis": "The useful frontier is shifting from model capability to operational interfaces: constrained decisions, attributable runs, verifiable media, and implementation skills that make agent systems deployable."
     }
   ],
-  "updated_at": "2026-10-19T08:03:06.338301+00:00",
-  "last_run": "2026-10-16",
+  "updated_at": "2026-10-20T08:03:00.404211+00:00",
+  "last_run": "2026-10-20",
   "last_editorial_thesis": "Today’s strongest signals move agent design toward explicit state, bounded execution, and reviewable evidence: the system should remember what changed, operate against fresh context without risking production, and ask better questions before it acts.",
   "coverage_history": [
     {
