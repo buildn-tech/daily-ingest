@@ -1,18 +1,88 @@
 {
-  "updated_at": "2026-10-20T08:03:04.772637+00:00",
+  "updated_at": "2026-10-21T08:04:37.280224+00:00",
   "sources": {
+    "https://nvidianews.nvidia.com/news/open-agent-safety-platform": {
+      "first_seen": "2026-10-21",
+      "last_seen": "2026-10-04",
+      "title": "NVIDIA Open Agent Safety Platform"
+    },
+    "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals": {
+      "first_seen": "2026-10-21",
+      "last_seen": "2026-10-21",
+      "title": "Anthropic cyber-evaluation incident review"
+    },
+    "https://github.blog/changelog/2026-09-25-github-copilot-weekly-releases-september-21": {
+      "first_seen": "2026-10-21",
+      "last_seen": "2026-09-26",
+      "title": "GitHub Copilot weekly releases \u2014 September 21"
+    },
+    "https://arxiv.org/html/2610.17020v1": {
+      "first_seen": "2026-10-21",
+      "last_seen": "2026-10-20",
+      "title": "CWE-bench"
+    },
+    "https://newsroom.ibm.com/2026-10-01-ibm-introduces-self-hosted-deployment-for-ibm-bob-to-help-enterprises-advance-ai-sovereignty-and-governance": {
+      "first_seen": "2026-10-21",
+      "last_seen": "2026-10-21",
+      "title": "IBM Bob self-hosted deployment"
+    },
+    "https://openai.com/index/devday-2026-recap": {
+      "first_seen": "2026-10-21",
+      "last_seen": "2026-09-30",
+      "title": "DevDay: cloud agents, code review, private intelligence"
+    },
+    "https://northflank.com/blog/self-hosting-ai-models-guide": {
+      "first_seen": "2026-10-21",
+      "last_seen": "2026-10-21",
+      "title": "Self-hosting AI models: privacy, control, cost"
+    },
+    "https://nebius.com/blog/posts/ai-builder-program-in-europe": {
+      "first_seen": "2026-10-21",
+      "last_seen": "2026-10-19",
+      "title": "Nebius + NVIDIA AI Builder Program in Europe"
+    },
+    "https://arxiv.org/html/2610.18052v1": {
+      "first_seen": "2026-10-21",
+      "last_seen": "2026-10-17",
+      "title": "Bemula forgetting benchmark"
+    },
+    "https://github.com/Nboxff/bemula-benchmark": {
+      "first_seen": "2026-10-21",
+      "last_seen": "2026-10-21",
+      "title": "Bemula benchmark code"
+    },
+    "https://arxiv.org/html/2610.17763v1": {
+      "first_seen": "2026-10-21",
+      "last_seen": "2026-10-20",
+      "title": "Memory Echo + MEchoBench"
+    },
+    "https://arxiv.org/html/2610.20022v1": {
+      "first_seen": "2026-10-21",
+      "last_seen": "2026-10-20",
+      "title": "Memorizing Who, Knowing How"
+    },
+    "https://arxiv.org/html/2610.10590v1": {
+      "first_seen": "2026-10-21",
+      "last_seen": "2026-10-19",
+      "title": "Agent-controlled reversible context"
+    },
     "https://github.com/resources/insights/enterprise-content-roundup-october-26": {
-      "first_seen": "2026-10-20",
+      "first_seen": "2026-10-21",
       "last_seen": "2026-10-11",
       "title": "GitHub Copilot app + connected sessions"
     },
+    "https://github.blog/changelog/2026-09-30-hydrafusion-in-vs-code-and-the-github-copilot-app": {
+      "first_seen": "2026-10-21",
+      "last_seen": "2026-10-20",
+      "title": "HydraFusion enterprise orchestration trail"
+    },
     "https://github.com/microsoft/agent-framework/releases": {
-      "first_seen": "2026-10-20",
+      "first_seen": "2026-10-21",
       "last_seen": "2026-07-13",
       "title": "Microsoft Agent Framework releases"
     },
     "https://github.com/wanxingai/lightagent": {
-      "first_seen": "2026-10-20",
+      "first_seen": "2026-10-21",
       "last_seen": "2026-10-20",
       "title": "LightAgent v0.11.0"
     },
@@ -21,25 +91,10 @@
       "last_seen": "2026-10-20",
       "title": "Open Multi Agent"
     },
-    "https://github.blog/changelog/2026-09-30-hydrafusion-in-vs-code-and-the-github-copilot-app": {
-      "first_seen": "2026-10-20",
-      "last_seen": "2026-10-20",
-      "title": "HydraFusion enterprise orchestration trail"
-    },
-    "https://arxiv.org/html/2610.17763v1": {
-      "first_seen": "2026-10-20",
-      "last_seen": "2026-10-20",
-      "title": "Memory Echo + MEchoBench"
-    },
     "https://arxiv.org/html/2610.21091v1": {
       "first_seen": "2026-10-20",
       "last_seen": "2026-10-20",
       "title": "MemComposer"
-    },
-    "https://arxiv.org/html/2610.20022v1": {
-      "first_seen": "2026-10-20",
-      "last_seen": "2026-10-20",
-      "title": "Memorizing Who, Knowing How"
     },
     "https://arxiv.org/html/2610.08699v1": {
       "first_seen": "2026-10-20",
@@ -50,11 +105,6 @@
       "first_seen": "2026-10-20",
       "last_seen": "2026-10-20",
       "title": "Memory Echo benchmark code"
-    },
-    "https://arxiv.org/html/2610.17020v1": {
-      "first_seen": "2026-10-20",
-      "last_seen": "2026-10-20",
-      "title": "CWE-bench"
     },
     "https://arxiv.org/html/2610.13227v1": {
       "first_seen": "2026-10-20",
@@ -111,11 +161,6 @@
       "last_seen": "2026-10-19",
       "title": "Harness test adequacy"
     },
-    "https://arxiv.org/html/2610.10590v1": {
-      "first_seen": "2026-10-19",
-      "last_seen": "2026-10-19",
-      "title": "Agent-controlled reversible context"
-    },
     "https://arxiv.org/html/2609.30830v1": {
       "first_seen": "2026-10-19",
       "last_seen": "2026-10-19",
@@ -125,11 +170,6 @@
       "first_seen": "2026-10-19",
       "last_seen": "2026-10-19",
       "title": "Earth AI technical report"
-    },
-    "https://nebius.com/blog/posts/ai-builder-program-in-europe": {
-      "first_seen": "2026-10-19",
-      "last_seen": "2026-10-19",
-      "title": "Nebius + NVIDIA AI Builder Program in Europe"
     },
     "https://nebius.com/nebius-research-grants": {
       "first_seen": "2026-10-19",
@@ -231,11 +271,6 @@
       "last_seen": "2026-10-17",
       "title": "Beyond Downstream QA"
     },
-    "https://arxiv.org/html/2610.18052v1": {
-      "first_seen": "2026-10-17",
-      "last_seen": "2026-10-17",
-      "title": "Bemula forgetting benchmark"
-    },
     "https://arxiv.org/html/2610.21900v1": {
       "first_seen": "2026-10-17",
       "last_seen": "2026-10-17",
@@ -335,11 +370,6 @@
       "first_seen": "2026-10-15",
       "last_seen": "2026-07-09",
       "title": "Hermes Agent v0.18.2"
-    },
-    "https://openai.com/index/devday-2026-recap": {
-      "first_seen": "2026-10-15",
-      "last_seen": "2026-09-30",
-      "title": "DevDay: cloud agents, code review, private intelligence"
     },
     "https://company.g2.com/news/2026-ai-agents-report?hs_amp=true": {
       "first_seen": "2026-10-15",
@@ -971,11 +1001,6 @@
       "last_seen": "2026-10-05",
       "title": "FIRST CANOPY 2026\u20132027"
     },
-    "https://nvidianews.nvidia.com/news/open-agent-safety-platform": {
-      "first_seen": "2026-10-04",
-      "last_seen": "2026-10-04",
-      "title": "NVIDIA Open Agent Safety Platform"
-    },
     "https://docs.nvidia.com/openshell/about/why-open-shell": {
       "first_seen": "2026-10-04",
       "last_seen": "2026-10-04",
@@ -1315,11 +1340,6 @@
       "first_seen": "2026-09-27",
       "last_seen": "2026-09-27",
       "title": "Introducing Agent Relay: Cloud-hosted agents, self-hosted execution"
-    },
-    "https://github.blog/changelog/2026-09-25-github-copilot-weekly-releases-september-21": {
-      "first_seen": "2026-09-26",
-      "last_seen": "2026-09-26",
-      "title": "GitHub Copilot weekly releases \u2014 September 21"
     },
     "https://github.blog/changelog/2026-09-25-agentic-autofix-now-uses-copilot-memory": {
       "first_seen": "2026-09-26",

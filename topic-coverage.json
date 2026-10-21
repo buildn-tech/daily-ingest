@@ -1456,6 +1456,26 @@
       "times_covered": 1,
       "last_covered": "2026-10-20",
       "last_selection_rationale": "New security research is making defense measurable: hidden vulnerabilities, cross-session artifacts, and attack-resistant harness behavior are becoming separate test surfaces."
+    },
+    "agent-safety-boundaries": {
+      "title": "Agent Safety at the Runtime Boundary",
+      "times_covered": 1,
+      "last_covered": "2026-10-21"
+    },
+    "sovereign-agent-infrastructure": {
+      "title": "Sovereign and Self-Hosted Agent Infrastructure",
+      "times_covered": 1,
+      "last_covered": "2026-10-21"
+    },
+    "memory-unlearning-and-privacy": {
+      "title": "Memory Unlearning and Privacy",
+      "times_covered": 1,
+      "last_covered": "2026-10-21"
+    },
+    "governed-agentic-delivery": {
+      "title": "Governed Agentic Delivery",
+      "times_covered": 1,
+      "last_covered": "2026-10-21"
     }
   },
   "item_history": [
@@ -17870,6 +17890,118 @@
         }
       ],
       "editorial_thesis": "The useful frontier is shifting from model capability to operational interfaces: constrained decisions, attributable runs, verifiable media, and implementation skills that make agent systems deployable."
+    },
+    {
+      "date": "2026-10-21",
+      "selected_lanes": [
+        "agent-safety-boundaries",
+        "sovereign-agent-infrastructure",
+        "memory-unlearning-and-privacy",
+        "governed-agentic-delivery"
+      ],
+      "items": [
+        {
+          "title": "NVIDIA Open Agent Safety Platform",
+          "url": "https://nvidianews.nvidia.com/news/open-agent-safety-platform",
+          "source_type": "official platform"
+        },
+        {
+          "title": "OpenShell as the portable seam",
+          "url": "https://nvidianews.nvidia.com/news/open-agent-safety-platform",
+          "source_type": "open software"
+        },
+        {
+          "title": "Anthropic cyber-evaluation incident review",
+          "url": "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals",
+          "source_type": "postmortem"
+        },
+        {
+          "title": "GitHub Copilot local sandboxing + OTel",
+          "url": "https://github.blog/changelog/2026-09-25-github-copilot-weekly-releases-september-21/",
+          "source_type": "product update"
+        },
+        {
+          "title": "CWE-bench defensive evaluation",
+          "url": "https://arxiv.org/html/2610.17020v1",
+          "source_type": "research"
+        },
+        {
+          "title": "IBM Bob self-hosted deployment",
+          "url": "https://newsroom.ibm.com/2026-10-01-ibm-introduces-self-hosted-deployment-for-ibm-bob-to-help-enterprises-advance-ai-sovereignty-and-governance",
+          "source_type": "official product"
+        },
+        {
+          "title": "OpenAI Private Intelligence",
+          "url": "https://openai.com/index/devday-2026-recap/",
+          "source_type": "official announcement"
+        },
+        {
+          "title": "Self-hosting AI models: privacy, control, cost",
+          "url": "https://northflank.com/blog/self-hosting-ai-models-guide",
+          "source_type": "guide"
+        },
+        {
+          "title": "NVIDIA OpenShell portability claim",
+          "url": "https://nvidianews.nvidia.com/news/open-agent-safety-platform",
+          "source_type": "official platform"
+        },
+        {
+          "title": "Nebius + NVIDIA builder pathway",
+          "url": "https://nebius.com/blog/posts/ai-builder-program-in-europe",
+          "source_type": "program"
+        },
+        {
+          "title": "Bemula: memory unlearning benchmark",
+          "url": "https://arxiv.org/html/2610.18052v1",
+          "source_type": "paper + benchmark"
+        },
+        {
+          "title": "Bemula benchmark code",
+          "url": "https://github.com/Nboxff/bemula-benchmark",
+          "source_type": "open code"
+        },
+        {
+          "title": "Memory Echo + MEchoBench",
+          "url": "https://arxiv.org/html/2610.17763v1",
+          "source_type": "research"
+        },
+        {
+          "title": "Memorizing Who, Knowing How",
+          "url": "https://arxiv.org/html/2610.20022v1",
+          "source_type": "research"
+        },
+        {
+          "title": "Reversible context curation",
+          "url": "https://arxiv.org/html/2610.10590v1",
+          "source_type": "research"
+        },
+        {
+          "title": "GitHub Agentic Engineering System",
+          "url": "https://github.com/resources/insights/enterprise-content-roundup-october-26",
+          "source_type": "enterprise roundup"
+        },
+        {
+          "title": "Project HydraFusion routing trail",
+          "url": "https://github.blog/changelog/2026-09-30-hydrafusion-in-vs-code-and-the-github-copilot-app/",
+          "source_type": "official update"
+        },
+        {
+          "title": "OpenAI Codex cloud + code review",
+          "url": "https://openai.com/index/devday-2026-recap/",
+          "source_type": "official product"
+        },
+        {
+          "title": "Microsoft Agent Framework release line",
+          "url": "https://github.com/microsoft/agent-framework/releases",
+          "source_type": "open framework"
+        },
+        {
+          "title": "LightAgent v0.11.0",
+          "url": "https://github.com/wanxingai/lightagent",
+          "source_type": "open framework"
+        }
+      ],
+      "selection_rationale": "Rotated from recent agent capability coverage toward enforcement, sovereignty, selective deletion, and governed delivery."
     }
   ],
   "daily_runs": [

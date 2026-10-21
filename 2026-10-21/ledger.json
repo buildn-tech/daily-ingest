@@ -1,0 +1,195 @@
+{
+  "date": "2026-10-21",
+  "generated_at": "2026-10-21T08:00:00+00:00",
+  "editorial_thesis": "The durable advantage is shifting from raw agent capability to enforceable boundaries, sovereign deployment choices, selective memory deletion, and measurable delivery systems.",
+  "topic_groups": [
+    {
+      "slug": "agent-safety-boundaries",
+      "title": "Agent Safety at the Runtime Boundary",
+      "selection_rationale": "Treat the agent runtime as a security boundary, not a trusted process.",
+      "sources": [
+        {
+          "title": "NVIDIA Open Agent Safety Platform",
+          "url": "https://nvidianews.nvidia.com/news/open-agent-safety-platform",
+          "source_type": "official platform",
+          "published_or_updated": "2026-09-28",
+          "why_selected": "Prompt-level safety can be bypassed by a tool, credential, or network. NVIDIA is making the boundary a stack-level concern.",
+          "usefulness": "Borrow the split: in-process policy plus an independent observer. Buildn can expose traceable tool scopes and a kill switch without adopting NVIDIA hardware."
+        },
+        {
+          "title": "OpenShell as the portable seam",
+          "url": "https://nvidianews.nvidia.com/news/open-agent-safety-platform",
+          "source_type": "open software",
+          "published_or_updated": "runtime boundary",
+          "why_selected": "A portable boundary is more reusable than a model-specific safety prompt.",
+          "usefulness": "Compare its primitives with Docker, microVMs, SSH sandboxes, and Hermes terminal environments."
+        },
+        {
+          "title": "Anthropic cyber-evaluation incident review",
+          "url": "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals",
+          "source_type": "postmortem",
+          "published_or_updated": "141,006 runs; 3 incidents",
+          "why_selected": "The failure was configuration and operational security—not an exotic model escape. Harness assumptions are part of the safety case.",
+          "usefulness": "Add environment truth checks, egress deny-by-default, canary endpoints, and partner attestation to client evaluations."
+        },
+        {
+          "title": "GitHub Copilot local sandboxing + OTel",
+          "url": "https://github.blog/changelog/2026-09-25-github-copilot-weekly-releases-september-21/",
+          "source_type": "product update",
+          "published_or_updated": "files / network / credentials",
+          "why_selected": "This packages two operator needs—capability restriction and evidence—into a developer-facing surface.",
+          "usefulness": "Use as a benchmark for Buildn’s agent run UI: show scopes, spans, approvals, and rewinds."
+        },
+        {
+          "title": "CWE-bench defensive evaluation",
+          "url": "https://arxiv.org/html/2610.17020v1",
+          "source_type": "research",
+          "published_or_updated": "secure patch + regression",
+          "why_selected": "A secure patch that breaks behavior is not a successful delivery.",
+          "usefulness": "Turn this into a client readiness metric: exploit blocked, tests preserved, evidence attached."
+        }
+      ]
+    },
+    {
+      "slug": "sovereign-agent-infrastructure",
+      "title": "Sovereign and Self-Hosted Agent Infrastructure",
+      "selection_rationale": "Bring the agent to the data, then make every external connection explicit.",
+      "sources": [
+        {
+          "title": "IBM Bob self-hosted deployment",
+          "url": "https://newsroom.ibm.com/2026-10-01-ibm-introduces-self-hosted-deployment-for-ibm-bob-to-help-enterprises-advance-ai-sovereignty-and-governance",
+          "source_type": "official product",
+          "published_or_updated": "on-prem / private / air-gapped",
+          "why_selected": "Sovereignty is becoming a deployment mode, not a compliance footnote.",
+          "usefulness": "Frame a Buildn/client offer around boundary mapping and deployment choice, not only prompt or model selection."
+        },
+        {
+          "title": "OpenAI Private Intelligence",
+          "url": "https://openai.com/index/devday-2026-recap/",
+          "source_type": "official announcement",
+          "published_or_updated": "ZDR + private inference",
+          "why_selected": "The market is trying to offer frontier capability without a simple “send everything to a public endpoint” posture.",
+          "usefulness": "Track the distinction between contractual privacy, technical confidentiality, and true local execution."
+        },
+        {
+          "title": "Self-hosting AI models: privacy, control, cost",
+          "url": "https://northflank.com/blog/self-hosting-ai-models-guide",
+          "source_type": "guide",
+          "published_or_updated": "published 2026-10-16",
+          "why_selected": "The practical question is whether the boundary benefit outweighs GPU, maintenance, and reliability costs.",
+          "usefulness": "Use its trade-offs to structure a Buildn infrastructure experiment and client TCO worksheet."
+        },
+        {
+          "title": "NVIDIA OpenShell portability claim",
+          "url": "https://nvidianews.nvidia.com/news/open-agent-safety-platform",
+          "source_type": "official platform",
+          "published_or_updated": "Arm / Intel extension",
+          "why_selected": "The software/hardware split lets teams adopt a control concept without buying a full stack.",
+          "usefulness": "Separate portable policy and trace APIs from infrastructure-specific enforcement."
+        },
+        {
+          "title": "Nebius + NVIDIA builder pathway",
+          "url": "https://nebius.com/blog/posts/ai-builder-program-in-europe",
+          "source_type": "program",
+          "published_or_updated": "compute + grants",
+          "why_selected": "Some sovereignty and open-infrastructure ideas fail simply because experimentation lacks affordable compute.",
+          "usefulness": "Potential route for a Buildn evaluation or agent-runtime prototype needing GPU runway."
+        }
+      ]
+    },
+    {
+      "slug": "memory-unlearning-and-privacy",
+      "title": "Memory Unlearning and Privacy",
+      "selection_rationale": "A memory feature is incomplete until it can prove selective forgetting.",
+      "sources": [
+        {
+          "title": "Bemula: memory unlearning benchmark",
+          "url": "https://arxiv.org/html/2610.18052v1",
+          "source_type": "paper + benchmark",
+          "published_or_updated": "<1.5% end-to-end pass rate",
+          "why_selected": "Current memory systems often optimize write and retrieval, not deletion correctness.",
+          "usefulness": "A direct test plan for Buildn memory and any client knowledge assistant handling sensitive facts."
+        },
+        {
+          "title": "Bemula benchmark code",
+          "url": "https://github.com/Nboxff/bemula-benchmark",
+          "source_type": "open code",
+          "published_or_updated": "paired controls",
+          "why_selected": "A benchmark is more useful when it can become a regression test.",
+          "usefulness": "Adapt its data model for user facts, derived facts, preferences, and workflow memory."
+        },
+        {
+          "title": "Memory Echo + MEchoBench",
+          "url": "https://arxiv.org/html/2610.17763v1",
+          "source_type": "research",
+          "published_or_updated": "echo / contamination",
+          "why_selected": "A memory can be confidently wrong because the system amplified its own prior output.",
+          "usefulness": "Store source-family IDs and correction state; distinguish evidence count from repetition count."
+        },
+        {
+          "title": "Memorizing Who, Knowing How",
+          "url": "https://arxiv.org/html/2610.20022v1",
+          "source_type": "research",
+          "published_or_updated": "personal vs procedural",
+          "why_selected": "Deleting a personal fact should not erase a reusable workflow, and a workflow should not silently become a user fact.",
+          "usefulness": "Split Buildn memory namespaces and permissions along this boundary."
+        },
+        {
+          "title": "Reversible context curation",
+          "url": "https://arxiv.org/html/2610.10590v1",
+          "source_type": "research",
+          "published_or_updated": "forgetting as execution",
+          "why_selected": "Not every context reduction should be permanent deletion; users need clear distinction between hide, forget, and archive.",
+          "usefulness": "Design three explicit operations in agent UI and logs."
+        }
+      ]
+    },
+    {
+      "slug": "governed-agentic-delivery",
+      "title": "Governed Agentic Delivery",
+      "selection_rationale": "Make agentic delivery a system with budgets, review points, and recoverable artifacts.",
+      "sources": [
+        {
+          "title": "GitHub Agentic Engineering System",
+          "url": "https://github.com/resources/insights/enterprise-content-roundup-october-26",
+          "source_type": "enterprise roundup",
+          "published_or_updated": "October 2026 edition",
+          "why_selected": "The unit of adoption shifts from assistant features to an engineered delivery system.",
+          "usefulness": "Use AES headings—knowledge, guardrails, observability, budgets, outcomes—as a Buildn/client assessment."
+        },
+        {
+          "title": "Project HydraFusion routing trail",
+          "url": "https://github.blog/changelog/2026-09-30-hydrafusion-in-vs-code-and-the-github-copilot-app/",
+          "source_type": "official update",
+          "published_or_updated": "single / cascade / critique",
+          "why_selected": "Routing by task risk and reviewability can outperform a single-model default at system level.",
+          "usefulness": "Prototype routing rules: low-risk draft, high-risk specialist, critic before commit."
+        },
+        {
+          "title": "OpenAI Codex cloud + code review",
+          "url": "https://openai.com/index/devday-2026-recap/",
+          "source_type": "official product",
+          "published_or_updated": "ongoing tasks",
+          "why_selected": "Delegation becomes useful when environments, permissions, and artifacts survive the handoff.",
+          "usefulness": "Study the run lifecycle for Buildn’s long-running jobs and review packets."
+        },
+        {
+          "title": "Microsoft Agent Framework release line",
+          "url": "https://github.com/microsoft/agent-framework/releases",
+          "source_type": "open framework",
+          "published_or_updated": "sessions + approvals",
+          "why_selected": "Portable primitives matter when clients need different model providers without rewriting workflow logic.",
+          "usefulness": "Compare its session and approval abstractions with Hermes’s conversation and tool loop."
+        },
+        {
+          "title": "LightAgent v0.11.0",
+          "url": "https://github.com/wanxingai/lightagent",
+          "source_type": "open framework",
+          "published_or_updated": "DAG + leases",
+          "why_selected": "Long-running work needs resumability and artifact integrity more than another chat wrapper.",
+          "usefulness": "Borrow the primitives for scheduled research, report generation, and recoverable client jobs."
+        }
+      ]
+    }
+  ]
+}

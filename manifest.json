@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-10-20T08:03:04.772637+00:00",
+  "updated_at": "2026-10-21T08:04:37.280224+00:00",
   "days": [
+    {
+      "date": "2026-10-21",
+      "path": "2026-10-21",
+      "reports": [
+        {
+          "lane": "agent-safety-boundaries",
+          "title": "Agent Safety at the Runtime Boundary",
+          "url": "2026-10-21/agent-safety-boundaries.html"
+        },
+        {
+          "lane": "sovereign-agent-infrastructure",
+          "title": "Sovereign and Self-Hosted Agent Infrastructure",
+          "url": "2026-10-21/sovereign-agent-infrastructure.html"
+        },
+        {
+          "lane": "memory-unlearning-and-privacy",
+          "title": "Memory Unlearning and Privacy",
+          "url": "2026-10-21/memory-unlearning-and-privacy.html"
+        },
+        {
+          "lane": "governed-agentic-delivery",
+          "title": "Governed Agentic Delivery",
+          "url": "2026-10-21/governed-agentic-delivery.html"
+        }
+      ]
+    },
     {
       "date": "2026-10-20",
       "path": "2026-10-20",
