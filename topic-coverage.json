@@ -1096,9 +1096,9 @@
       "last_covered": "2026-09-28"
     },
     "agent-runtime-controls": {
-      "title": "Agent Runtime Controls + Callable Surfaces",
-      "times_covered": 1,
-      "last_covered": "2026-09-29"
+      "title": "Agent Runtime Controls + Local Boundaries",
+      "times_covered": 2,
+      "last_covered": "2026-10-22"
     },
     "privacy-by-construction": {
       "title": "Privacy-by-Construction for Personal Agents",
@@ -1476,6 +1476,16 @@
       "title": "Governed Agentic Delivery",
       "times_covered": 1,
       "last_covered": "2026-10-21"
+    },
+    "agent-evaluation-collaboration": {
+      "title": "Agent Evaluation + Human Collaboration",
+      "times_covered": 1,
+      "last_covered": "2026-10-22"
+    },
+    "defensive-agent-operations": {
+      "title": "Defensive Agent Operations",
+      "times_covered": 1,
+      "last_covered": "2026-10-22"
     }
   },
   "item_history": [
@@ -6901,6 +6911,92 @@
         }
       ],
       "editorial_thesis": "The useful frontier is shifting from model capability to operational interfaces: constrained decisions, attributable runs, verifiable media, and implementation skills that make agent systems deployable."
+    },
+    {
+      "date": "2026-10-22",
+      "selected_lanes": [
+        "agent-evaluation-collaboration",
+        "agent-runtime-controls",
+        "defensive-agent-operations"
+      ],
+      "items": [
+        {
+          "title": "Kolab: benchmark the handoff, not just the task",
+          "url": "https://arxiv.org/html/2610.21109",
+          "source_type": "research · 15 Oct"
+        },
+        {
+          "title": "cxbench: outcome pass can still be unsafe",
+          "url": "https://arxiv.org/html/2610.25954v1",
+          "source_type": "research · 19 Oct"
+        },
+        {
+          "title": "SkillForgeBench: strict completion exposes the gap",
+          "url": "https://arxiv.org/html/2610.14918v1",
+          "source_type": "research · 10 Oct"
+        },
+        {
+          "title": "AgentKit’s lifecycle is becoming the product",
+          "url": "https://openai.com/index/introducing-agentkit/",
+          "source_type": "platform update · OpenAI"
+        },
+        {
+          "title": "Buildn pattern: a three-score run packet",
+          "url": "https://arxiv.org/html/2610.21109",
+          "source_type": "synthesis"
+        },
+        {
+          "title": "GitHub local sandboxing is generally available",
+          "url": "https://github.blog/changelog/2026-10-07-local-sandboxing-for-github-copilot-now-generally-available/",
+          "source_type": "product · 7 Oct"
+        },
+        {
+          "title": "Local models enter the same workflow surface",
+          "url": "https://github.blog/changelog/2026-10-09-github-copilot-weekly-releases-october-5/",
+          "source_type": "product · 9 Oct"
+        },
+        {
+          "title": "Parallel sessions need lifecycle hygiene",
+          "url": "https://github.blog/changelog/2026-10-09-github-copilot-weekly-releases-october-5/",
+          "source_type": "product · 9 Oct"
+        },
+        {
+          "title": "Telemetry gaps can corrupt adoption decisions",
+          "url": "https://github.blog/changelog/2026-10-06-update-your-ide-to-restore-agent-activity-in-copilot-usage-metrics/",
+          "source_type": "incident · 6 Oct"
+        },
+        {
+          "title": "Buildn pattern: policy, evidence, cleanup",
+          "url": "https://github.blog/changelog/2026-10-07-local-sandboxing-for-github-copilot-now-generally-available/",
+          "source_type": "synthesis"
+        },
+        {
+          "title": "Patch the Planet: agents in coordinated disclosure",
+          "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/",
+          "source_type": "security · 21 Oct"
+        },
+        {
+          "title": "The defensive loop needs evidence",
+          "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/",
+          "source_type": "synthesis"
+        },
+        {
+          "title": "Frontier discovery increases dual-use pressure",
+          "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/",
+          "source_type": "security analysis"
+        },
+        {
+          "title": "Buildn offer: vulnerability response rehearsal",
+          "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/",
+          "source_type": "opportunity"
+        },
+        {
+          "title": "Governance is part of the technical path",
+          "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/",
+          "source_type": "synthesis"
+        }
+      ],
+      "selection_rationale": "Trustworthy agent adoption now depends on process evidence, model-independent runtime boundaries, and a human-owned defensive response loop."
     }
   ],
   "updated_at": "2026-10-20T08:03:00.404211+00:00",
@@ -16246,7 +16342,7 @@
       "last_covered": "2026-10-03"
     }
   },
-  "last_successful_run": "2026-10-17",
+  "last_successful_run": "2026-10-22",
   "history": [
     {
       "date": "2026-09-07",

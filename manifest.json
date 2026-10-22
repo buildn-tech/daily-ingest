@@ -1,6 +1,27 @@
 {
-  "updated_at": "2026-10-21T08:04:37.280224+00:00",
+  "updated_at": "2026-10-22T08:03:02.168678+00:00",
   "days": [
+    {
+      "date": "2026-10-22",
+      "path": "2026-10-22",
+      "reports": [
+        {
+          "lane": "agent-evaluation-collaboration",
+          "title": "Agent Evaluation + Human Collaboration",
+          "url": "2026-10-22/agent-evaluation-collaboration.html"
+        },
+        {
+          "lane": "agent-runtime-controls",
+          "title": "Agent Runtime Controls + Local Boundaries",
+          "url": "2026-10-22/agent-runtime-controls.html"
+        },
+        {
+          "lane": "defensive-agent-operations",
+          "title": "Defensive Agent Operations",
+          "url": "2026-10-22/defensive-agent-operations.html"
+        }
+      ]
+    },
     {
       "date": "2026-10-21",
       "path": "2026-10-21",

@@ -1,0 +1,148 @@
+{
+  "date": "2026-10-22",
+  "generated_at": "2026-10-22T08:02:49.300448+00:00",
+  "editorial_thesis": "Trustworthy agent adoption now depends on process evidence, model-independent runtime boundaries, and a human-owned defensive response loop.",
+  "topic_groups": [
+    {
+      "slug": "agent-evaluation-collaboration",
+      "title": "Agent Evaluation + Human Collaboration",
+      "selection_rationale": "A neglected lane with immediate leverage: turn agent quality from “did it finish?” into observable process, collaboration, and constraint compliance.",
+      "sources": [
+        {
+          "title": "Kolab: benchmark the handoff, not just the task",
+          "url": "https://arxiv.org/html/2610.21109",
+          "source_type": "research · 15 Oct",
+          "published_or_updated": "2026-10-22 or recent October 2026 signal",
+          "why_selected": "Autonomous completion scores miss the moment where work leaves the chat and enters a real workflow.",
+          "usefulness": "model whether a person will adopt, edit, or reject an output"
+        },
+        {
+          "title": "cxbench: outcome pass can still be unsafe",
+          "url": "https://arxiv.org/html/2610.25954v1",
+          "source_type": "research · 19 Oct",
+          "published_or_updated": "2026-10-22 or recent October 2026 signal",
+          "why_selected": "55.48% of runs were false-passes: the record looked right while the sequence, disclosure, or authority was wrong.",
+          "usefulness": "regulated customer workflows and approval gates"
+        },
+        {
+          "title": "SkillForgeBench: strict completion exposes the gap",
+          "url": "https://arxiv.org/html/2610.14918v1",
+          "source_type": "research · 10 Oct",
+          "published_or_updated": "2026-10-22 or recent October 2026 signal",
+          "why_selected": "Plausible deliverables hide failures in procedure, verification, formatting, and scope discipline.",
+          "usefulness": "evaluate skills, runbooks, and long-horizon agent jobs"
+        },
+        {
+          "title": "AgentKit’s lifecycle is becoming the product",
+          "url": "https://openai.com/index/introducing-agentkit/",
+          "source_type": "platform update · OpenAI",
+          "published_or_updated": "2026-10-22 or recent October 2026 signal",
+          "why_selected": "The competitive unit is shifting from a model call to a governed build-to-evaluation loop.",
+          "usefulness": "compare visual orchestration with code-first delivery"
+        },
+        {
+          "title": "Buildn pattern: a three-score run packet",
+          "url": "https://arxiv.org/html/2610.21109",
+          "source_type": "synthesis",
+          "published_or_updated": "2026-10-22 or recent October 2026 signal",
+          "why_selected": "This creates a shared language for engineering, operations, and clients without pretending one scalar score is enough.",
+          "usefulness": "client readiness and internal scheduled jobs"
+        }
+      ]
+    },
+    {
+      "slug": "agent-runtime-controls",
+      "title": "Agent Runtime Controls + Local Boundaries",
+      "selection_rationale": "This lane extends yesterday’s boundary theme with fresh implementation signals and a concrete telemetry failure; it is a material update, not a repeat.",
+      "sources": [
+        {
+          "title": "GitHub local sandboxing is generally available",
+          "url": "https://github.blog/changelog/2026-10-07-local-sandboxing-for-github-copilot-now-generally-available/",
+          "source_type": "product · 7 Oct",
+          "published_or_updated": "2026-10-22 or recent October 2026 signal",
+          "why_selected": "The policy applies independently of the model, a useful separation for any multi-provider runtime.",
+          "usefulness": "benchmark local agent boundary controls"
+        },
+        {
+          "title": "Local models enter the same workflow surface",
+          "url": "https://github.blog/changelog/2026-10-09-github-copilot-weekly-releases-october-5/",
+          "source_type": "product · 9 Oct",
+          "published_or_updated": "2026-10-22 or recent October 2026 signal",
+          "why_selected": "Model portability becomes useful when routing is attached to the same permissions, artifacts, and review loop.",
+          "usefulness": "evaluate local/cloud routing without UI forks"
+        },
+        {
+          "title": "Parallel sessions need lifecycle hygiene",
+          "url": "https://github.blog/changelog/2026-10-09-github-copilot-weekly-releases-october-5/",
+          "source_type": "product · 9 Oct",
+          "published_or_updated": "2026-10-22 or recent October 2026 signal",
+          "why_selected": "Concurrency without cleanup turns agent autonomy into resource drift and hidden state.",
+          "usefulness": "long-running jobs and disk-budget controls"
+        },
+        {
+          "title": "Telemetry gaps can corrupt adoption decisions",
+          "url": "https://github.blog/changelog/2026-10-06-update-your-ide-to-restore-agent-activity-in-copilot-usage-metrics/",
+          "source_type": "incident · 6 Oct",
+          "published_or_updated": "2026-10-22 or recent October 2026 signal",
+          "why_selected": "A polished dashboard can still be measuring the wrong population; missing history cannot be recovered.",
+          "usefulness": "audit metrics before using them for ROI"
+        },
+        {
+          "title": "Buildn pattern: policy, evidence, cleanup",
+          "url": "https://github.blog/changelog/2026-10-07-local-sandboxing-for-github-copilot-now-generally-available/",
+          "source_type": "synthesis",
+          "published_or_updated": "2026-10-22 or recent October 2026 signal",
+          "why_selected": "Boundary controls are only operational when operators can see and reset them.",
+          "usefulness": "Hermes and client agent runtimes"
+        }
+      ]
+    },
+    {
+      "slug": "defensive-agent-operations",
+      "title": "Defensive Agent Operations",
+      "selection_rationale": "Security is a fresh adjacent lane today, grounded in a new primary-source case and useful for client patching and agent safety offers.",
+      "sources": [
+        {
+          "title": "Patch the Planet: agents in coordinated disclosure",
+          "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/",
+          "source_type": "security · 21 Oct",
+          "published_or_updated": "2026-10-22 or recent October 2026 signal",
+          "why_selected": "The valuable unit is not autonomous discovery alone; it is the response chain that creates preparation time before public exploitation.",
+          "usefulness": "build defensive patch triage with provenance"
+        },
+        {
+          "title": "The defensive loop needs evidence",
+          "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/",
+          "source_type": "synthesis",
+          "published_or_updated": "2026-10-22 or recent October 2026 signal",
+          "why_selected": "Agent-generated findings become useful only when they reduce time-to-safe-state without creating an unverifiable change.",
+          "usefulness": "client vulnerability response packets"
+        },
+        {
+          "title": "Frontier discovery increases dual-use pressure",
+          "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/",
+          "source_type": "security analysis",
+          "published_or_updated": "2026-10-22 or recent October 2026 signal",
+          "why_selected": "Security deployments need controls around data access, exploit material, egress, and disclosure timing—not only model accuracy.",
+          "usefulness": "threat-model agent security workflows"
+        },
+        {
+          "title": "Buildn offer: vulnerability response rehearsal",
+          "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/",
+          "source_type": "opportunity",
+          "published_or_updated": "2026-10-22 or recent October 2026 signal",
+          "why_selected": "It converts an abstract AI-security story into a controlled operational capability.",
+          "usefulness": "security readiness and managed response"
+        },
+        {
+          "title": "Governance is part of the technical path",
+          "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/",
+          "source_type": "synthesis",
+          "published_or_updated": "2026-10-22 or recent October 2026 signal",
+          "why_selected": "The control surface is socio-technical: the agent can accelerate analysis, but legitimacy and timing remain governed by accountable humans.",
+          "usefulness": "Buildn OS controls and client playbooks"
+        }
+      ]
+    }
+  ]
+}

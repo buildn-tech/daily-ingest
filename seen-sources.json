@@ -1,6 +1,46 @@
 {
-  "updated_at": "2026-10-21T08:04:37.280224+00:00",
+  "updated_at": "2026-10-22T08:03:02.168678+00:00",
   "sources": {
+    "https://arxiv.org/html/2610.21109": {
+      "first_seen": "2026-10-22",
+      "last_seen": "2026-10-22",
+      "title": "Buildn pattern: a three-score run packet"
+    },
+    "https://arxiv.org/html/2610.25954v1": {
+      "first_seen": "2026-10-22",
+      "last_seen": "2026-10-22",
+      "title": "cxbench: outcome pass can still be unsafe"
+    },
+    "https://arxiv.org/html/2610.14918v1": {
+      "first_seen": "2026-10-22",
+      "last_seen": "2026-10-22",
+      "title": "SkillForgeBench: strict completion exposes the gap"
+    },
+    "https://openai.com/index/introducing-agentkit": {
+      "first_seen": "2026-10-22",
+      "last_seen": "2026-08-22",
+      "title": "Introducing AgentKit"
+    },
+    "https://github.blog/changelog/2026-10-07-local-sandboxing-for-github-copilot-now-generally-available": {
+      "first_seen": "2026-10-22",
+      "last_seen": "2026-10-08",
+      "title": "Local sandboxing for GitHub Copilot now generally available"
+    },
+    "https://github.blog/changelog/2026-10-09-github-copilot-weekly-releases-october-5": {
+      "first_seen": "2026-10-22",
+      "last_seen": "2026-10-10",
+      "title": "GitHub Copilot weekly releases \u2014 October 5"
+    },
+    "https://github.blog/changelog/2026-10-06-update-your-ide-to-restore-agent-activity-in-copilot-usage-metrics": {
+      "first_seen": "2026-10-22",
+      "last_seen": "2026-10-07",
+      "title": "Restore Copilot agent activity metrics"
+    },
+    "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities": {
+      "first_seen": "2026-10-22",
+      "last_seen": "2026-10-22",
+      "title": "Governance is part of the technical path"
+    },
     "https://nvidianews.nvidia.com/news/open-agent-safety-platform": {
       "first_seen": "2026-10-21",
       "last_seen": "2026-10-04",
@@ -381,11 +421,6 @@
       "last_seen": "2026-10-15",
       "title": "BigQuery token quotas"
     },
-    "https://openai.com/index/introducing-agentkit": {
-      "first_seen": "2026-10-15",
-      "last_seen": "2026-08-22",
-      "title": "Introducing AgentKit"
-    },
     "https://openai.com/index/block-ai-powered-security": {
       "first_seen": "2026-10-15",
       "last_seen": "2026-10-15",
@@ -470,11 +505,6 @@
       "first_seen": "2026-10-13",
       "last_seen": "2026-10-13",
       "title": "OpenAI Decisions API"
-    },
-    "https://github.blog/changelog/2026-10-07-local-sandboxing-for-github-copilot-now-generally-available": {
-      "first_seen": "2026-10-13",
-      "last_seen": "2026-10-08",
-      "title": "Local sandboxing for GitHub Copilot now generally available"
     },
     "https://github.blog/changelog/2026-10-12-client-telemetry-user-attribution-and-configurable-capture": {
       "first_seen": "2026-10-13",
@@ -711,11 +741,6 @@
       "last_seen": "2026-10-10",
       "title": "Microsoft Health and Life Sciences AI Frontiers"
     },
-    "https://github.blog/changelog/2026-10-09-github-copilot-weekly-releases-october-5": {
-      "first_seen": "2026-10-10",
-      "last_seen": "2026-10-10",
-      "title": "GitHub Copilot weekly releases \u2014 October 5"
-    },
     "https://github.blog/changelog/2026-10-07-discover-local-models-in-github-copilot-cli": {
       "first_seen": "2026-10-10",
       "last_seen": "2026-10-08",
@@ -875,11 +900,6 @@
       "first_seen": "2026-10-07",
       "last_seen": "2026-10-07",
       "title": "Google AI Edge"
-    },
-    "https://github.blog/changelog/2026-10-06-update-your-ide-to-restore-agent-activity-in-copilot-usage-metrics": {
-      "first_seen": "2026-10-07",
-      "last_seen": "2026-10-07",
-      "title": "Restore Copilot agent activity metrics"
     },
     "https://github.blog/changelog/2026-10-06-code-scanning-ai-scan-enablement-status-in-security-overview": {
       "first_seen": "2026-10-07",
