@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-23",
+  "generated_at": "2026-10-23T08:00:14Z",
+  "editorial_thesis": "The newest practical edge is not more autonomous action; it is making agent context, design intent, browser capabilities, and evidence boundaries explicit enough to review.",
+  "topic_groups": [
+    {
+      "slug": "design-to-delivery-context",
+      "title": "Design-to-Delivery Context",
+      "selection_rationale": "A coverage gap with direct Buildn/client leverage: Figma is turning design systems and code context into agent-readable production infrastructure, materially extending the older design-to-production theme.",
+      "sources": [
+        {"title":"Build by Design: New Workflows for New Ways of Building","url":"https://www.figma.com/blog/build-by-design/","source_type":"blog","published_or_updated":"2026-10-15","why_selected":"Figma connects code layers, design-system guidelines, code sources, and shared context on one canvas.","usefulness":"Prototype a visual review packet that keeps intent, implementation, and decisions together."},
+        {"title":"How to Lighten Design System Upkeep With the Figma Agent","url":"https://www.figma.com/blog/figma-agent-and-design-systems/","source_type":"product","published_or_updated":"2026-10-06","why_selected":"The agent audits drift, documents components, and packages recurring checks as skills.","usefulness":"Turn design-system hygiene into a repeatable client delivery offer."},
+        {"title":"Workflow Lab: Staying in the Flow with Figma’s Agent","url":"https://www.figma.com/blog/workflow-lab-staying-in-the-flow-with-the-figma-agent/","source_type":"workflow","published_or_updated":"2026-10-06","why_selected":"It shows a useful human/agent split: automate repair and synthesis, reserve judgment for ambiguity and policy.","usefulness":"Borrow the checkpoint pattern for Buildn reviewable delegated work."}
+      ]
+    },
+    {
+      "slug": "agent-aware-browser-tooling",
+      "title": "Agent-Aware Browser Tooling",
+      "selection_rationale": "Fresh developer-tool signal: Chrome DevTools is shipping explicit controls for agent plugins, JavaScript execution, file roots, source maps, and reproducible performance—an actionable complement to recent runtime-boundary coverage.",
+      "sources": [
+        {"title":"New in DevTools — October 2026","url":"https://developer.chrome.com/blog/new-in-devtools-october-2026","source_type":"product","published_or_updated":"2026-09-22","why_selected":"The DevTools MCP surface now exposes concrete capability controls and inspection primitives.","usefulness":"Test least-privilege browser agents against a real, documented control surface."},
+        {"title":"Diagnosing Personalization Failures in Mobile GUI Agents","url":"https://arxiv.org/html/2610.30573","source_type":"paper","published_or_updated":"2026-10-22","why_selected":"PrefDiag-Bench shows that selecting evidence and recognizing when a preference activates are harder than final task completion.","usefulness":"Add preference evidence and trigger timing to agent acceptance tests."},
+        {"title":"ASPIRE: Agentic Safety & Prompt Injection Red-teaming Engine","url":"https://arxiv.org/html/2610.08951","source_type":"paper","published_or_updated":"2026-10-06","why_selected":"ASPIRE models injection as an influence path from untrusted content to privileged side effects, not as a bad string.","usefulness":"Use path coverage to threat-model browser and document agents."}
+      ]
+    },
+    {
+      "slug": "professional-stateful-memory",
+      "title": "Professional Stateful Memory",
+      "selection_rationale": "A material update rather than a repeat of yesterday’s deletion theme: new benchmarks move memory evaluation from personal recall to evolving visual artifacts, authority changes, and professional evidence reconciliation.",
+      "sources": [
+        {"title":"DSV-Mem: Evaluating Multimodal Memory in Professional Workflows","url":"https://arxiv.org/html/2610.08102v1","source_type":"paper","published_or_updated":"2026-10-06","why_selected":"The strongest tested baseline reaches only 39.6% on dense, stateful visual workflows against an 81.8% human baseline.","usefulness":"Design evidence ledgers for dashboards, designs, incident records, and client artifacts."},
+        {"title":"DyadMem: A Long-Term Memory Benchmark of How Agents Work with Users","url":"https://arxiv.org/html/2610.03020v1","source_type":"paper","published_or_updated":"2026-10-02","why_selected":"It separates user facts, agent methods, agent identity, knowledge, and episodes across capture, update, recall, and QA.","usefulness":"Use its memory taxonomy to prevent personal context and reusable workflow knowledge from collapsing together."},
+        {"title":"MeMoREval: Memory Modality for Embodied Agents","url":"https://arxiv.org/html/2610.12561v1","source_type":"paper","published_or_updated":"2026-10-08","why_selected":"It measures retained evidence modality and read/write cost separately, showing frames plus scene graphs can outperform text-only summaries.","usefulness":"Choose memory formats by task and cost instead of defaulting to prose summaries."}
+      ]
+    }
+  ]
+}

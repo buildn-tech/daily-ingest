@@ -1,6 +1,27 @@
 {
-  "updated_at": "2026-10-22T08:03:02.168678+00:00",
+  "updated_at": "2026-10-23T08:03:25.652821+00:00",
   "days": [
+    {
+      "date": "2026-10-23",
+      "path": "2026-10-23",
+      "reports": [
+        {
+          "lane": "design-to-delivery-context",
+          "title": "Design-to-Delivery Context",
+          "url": "2026-10-23/design-to-delivery-context.html"
+        },
+        {
+          "lane": "agent-aware-browser-tooling",
+          "title": "Agent-Aware Browser Tooling",
+          "url": "2026-10-23/agent-aware-browser-tooling.html"
+        },
+        {
+          "lane": "professional-stateful-memory",
+          "title": "Professional Stateful Memory",
+          "url": "2026-10-23/professional-stateful-memory.html"
+        }
+      ]
+    },
     {
       "date": "2026-10-22",
       "path": "2026-10-22",

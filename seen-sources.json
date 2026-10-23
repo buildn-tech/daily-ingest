@@ -1,6 +1,51 @@
 {
-  "updated_at": "2026-10-22T08:03:02.168678+00:00",
+  "updated_at": "2026-10-23T08:03:25.652821+00:00",
   "sources": {
+    "https://www.figma.com/blog/build-by-design": {
+      "first_seen": "2026-10-23",
+      "last_seen": "2026-10-23",
+      "title": "Build by Design: New Workflows for New Ways of Building"
+    },
+    "https://www.figma.com/blog/figma-agent-and-design-systems": {
+      "first_seen": "2026-10-23",
+      "last_seen": "2026-10-23",
+      "title": "How to Lighten Design System Upkeep With the Figma Agent"
+    },
+    "https://www.figma.com/blog/workflow-lab-staying-in-the-flow-with-the-figma-agent": {
+      "first_seen": "2026-10-23",
+      "last_seen": "2026-10-23",
+      "title": "Workflow Lab: Staying in the Flow with Figma\u2019s Agent"
+    },
+    "https://developer.chrome.com/blog/new-in-devtools-october-2026": {
+      "first_seen": "2026-10-23",
+      "last_seen": "2026-10-06",
+      "title": "Agent-readiness implication"
+    },
+    "https://arxiv.org/html/2610.30573": {
+      "first_seen": "2026-10-23",
+      "last_seen": "2026-10-23",
+      "title": "Diagnosing Personalization Failures in Mobile GUI Agents"
+    },
+    "https://arxiv.org/html/2610.08951": {
+      "first_seen": "2026-10-23",
+      "last_seen": "2026-10-23",
+      "title": "ASPIRE: Agentic Safety & Prompt Injection Red-teaming Engine"
+    },
+    "https://arxiv.org/html/2610.08102v1": {
+      "first_seen": "2026-10-23",
+      "last_seen": "2026-10-16",
+      "title": "Self-ledger memory pattern"
+    },
+    "https://arxiv.org/html/2610.03020v1": {
+      "first_seen": "2026-10-23",
+      "last_seen": "2026-10-23",
+      "title": "DyadMem: A Long-Term Memory Benchmark of How Agents Work with Users"
+    },
+    "https://arxiv.org/html/2610.12561v1": {
+      "first_seen": "2026-10-23",
+      "last_seen": "2026-10-14",
+      "title": "Memory modality is a product choice"
+    },
     "https://arxiv.org/html/2610.21109": {
       "first_seen": "2026-10-22",
       "last_seen": "2026-10-22",
@@ -381,11 +426,6 @@
       "last_seen": "2026-10-16",
       "title": "Agent-ready Data Cloud direction"
     },
-    "https://arxiv.org/html/2610.08102v1": {
-      "first_seen": "2026-10-16",
-      "last_seen": "2026-10-16",
-      "title": "Self-ledger memory pattern"
-    },
     "https://arxiv.org/html/2610.06830v1": {
       "first_seen": "2026-10-16",
       "last_seen": "2026-10-16",
@@ -481,11 +521,6 @@
       "last_seen": "2026-10-14",
       "title": "Representation can change security results"
     },
-    "https://arxiv.org/html/2610.12561v1": {
-      "first_seen": "2026-10-14",
-      "last_seen": "2026-10-14",
-      "title": "Memory modality is a product choice"
-    },
     "https://openreview.net/forum?id=DT7JyQC3MR": {
       "first_seen": "2026-10-14",
       "last_seen": "2026-10-14",
@@ -570,11 +605,6 @@
       "first_seen": "2026-10-12",
       "last_seen": "2026-09-30",
       "title": "Dots: an always-on project steward"
-    },
-    "https://developer.chrome.com/blog/new-in-devtools-october-2026": {
-      "first_seen": "2026-10-12",
-      "last_seen": "2026-10-06",
-      "title": "Agent-readiness implication"
     },
     "https://github.com/ChromeDevTools/chrome-devtools-mcp": {
       "first_seen": "2026-10-12",
