@@ -1501,6 +1501,30 @@
       "title": "Professional Stateful Memory",
       "times_covered": 1,
       "last_covered": "2026-10-23"
+    },
+    "agent-memory-evaluation": {
+      "title": "Agent Memory: Forgetting, Drift, and Worth",
+      "times_covered": 1,
+      "last_covered": "2026-10-24",
+      "last_selection_rationale": "Followed fresh October 23 signals while rotating away from yesterday’s design/browser emphasis; memory is included as a material update focused on deletion, drift, and economics."
+    },
+    "evidence-and-agent-assurance": {
+      "title": "Evidence + Agent Assurance",
+      "times_covered": 1,
+      "last_covered": "2026-10-24",
+      "last_selection_rationale": "Followed fresh October 23 signals while rotating away from yesterday’s design/browser emphasis; memory is included as a material update focused on deletion, drift, and economics."
+    },
+    "agent-ready-data-infrastructure": {
+      "title": "Agent-Ready Data Infrastructure",
+      "times_covered": 1,
+      "last_covered": "2026-10-24",
+      "last_selection_rationale": "Followed fresh October 23 signals while rotating away from yesterday’s design/browser emphasis; memory is included as a material update focused on deletion, drift, and economics."
+    },
+    "governed-developer-surfaces": {
+      "title": "Governed Developer Surfaces",
+      "times_covered": 1,
+      "last_covered": "2026-10-24",
+      "last_selection_rationale": "Followed fresh October 23 signals while rotating away from yesterday’s design/browser emphasis; memory is included as a material update focused on deletion, drift, and economics."
     }
   },
   "item_history": [
@@ -4196,6 +4220,166 @@
         }
       ],
       "selection_rationale": "The newest practical edge is not more autonomous action; it is making agent context, design intent, browser capabilities, and evidence boundaries explicit enough to review."
+    },
+    {
+      "lane": "agent-memory-evaluation",
+      "title": "MemDerive: A Diagnostic Benchmark for Agent Memory over Evolving Data",
+      "url": "https://arxiv.org/html/2610.25373v1",
+      "source_type": "paper",
+      "selection_rationale": "Fresh benchmark for stale and changing knowledge.",
+      "date": "2026-10-24"
+    },
+    {
+      "lane": "agent-memory-evaluation",
+      "title": "Remembering Has a Price: Learning Memory Worth under Resource Constraints",
+      "url": "https://arxiv.org/html/2610.26453v1",
+      "source_type": "paper",
+      "selection_rationale": "Makes memory selection an explicit resource tradeoff.",
+      "date": "2026-10-24"
+    },
+    {
+      "lane": "agent-memory-evaluation",
+      "title": "When Does Experience Memory Help Closed-Loop LLM Driving Agents?",
+      "url": "https://arxiv.org/html/2610.27714v1",
+      "source_type": "paper",
+      "selection_rationale": "Tests whether memory helps across matched scenario pools.",
+      "date": "2026-10-24"
+    },
+    {
+      "lane": "agent-memory-evaluation",
+      "title": "Can Agents Forget When Asked? Bemula benchmark",
+      "url": "https://arxiv.org/html/2610.18052v1",
+      "source_type": "paper",
+      "selection_rationale": "Measures deletion, relearning, attacks, and over-deletion.",
+      "date": "2026-10-24"
+    },
+    {
+      "lane": "agent-memory-evaluation",
+      "title": "MemForm: Benchmarking Memory Formation Poisoning",
+      "url": "https://arxiv.org/html/2610.14431v1",
+      "source_type": "paper",
+      "selection_rationale": "Adds a security lens to durable memory writes.",
+      "date": "2026-10-24"
+    },
+    {
+      "lane": "evidence-and-agent-assurance",
+      "title": "EpiSEM-Bench: Safety and Evidence Recovery under Missing Evidence",
+      "url": "https://arxiv.org/abs/2610.31650",
+      "source_type": "paper",
+      "selection_rationale": "Tests safe recovery and abstention when proof is unavailable.",
+      "date": "2026-10-24"
+    },
+    {
+      "lane": "evidence-and-agent-assurance",
+      "title": "Contestable Agents for Data Governance",
+      "url": "https://arxiv.org/abs/2610.31553",
+      "source_type": "paper",
+      "selection_rationale": "Makes human stewardship of AI metadata recordable.",
+      "date": "2026-10-24"
+    },
+    {
+      "lane": "evidence-and-agent-assurance",
+      "title": "AgentStripes: An Evidence-Graded Maturity Model",
+      "url": "https://arxiv.org/html/2610.18603v2",
+      "source_type": "paper",
+      "selection_rationale": "Links maturity claims to observed evidence.",
+      "date": "2026-10-24"
+    },
+    {
+      "lane": "evidence-and-agent-assurance",
+      "title": "Holding Agents Accountable with Verifiable Agent Insurance",
+      "url": "https://arxiv.org/html/2610.18230v1",
+      "source_type": "paper",
+      "selection_rationale": "Explores machine-checkable violation reporting.",
+      "date": "2026-10-24"
+    },
+    {
+      "lane": "evidence-and-agent-assurance",
+      "title": "AI Security Incident Reporting for Compromised Agents",
+      "url": "https://arxiv.org/html/2609.24515v1",
+      "source_type": "paper",
+      "selection_rationale": "Provides an agent-shaped incident vocabulary.",
+      "date": "2026-10-24"
+    },
+    {
+      "lane": "agent-ready-data-infrastructure",
+      "title": "Knowledge Catalog: self-learning context enrichment for AI agents",
+      "url": "https://cloud.google.com/blog/products/data-analytics/knowledge-catalog-self-learning-context-enrichment-for-ai-agents",
+      "source_type": "product",
+      "selection_rationale": "Fresh context-quality and token-efficiency signal.",
+      "date": "2026-10-24"
+    },
+    {
+      "lane": "agent-ready-data-infrastructure",
+      "title": "Expanding Claude availability and deployment choice on Google Cloud",
+      "url": "https://cloud.google.com/blog/products/ai-machine-learning/expanding-claude-availability-on-google-cloud",
+      "source_type": "release",
+      "selection_rationale": "Fresh deployment and provider-choice signal.",
+      "date": "2026-10-24"
+    },
+    {
+      "lane": "agent-ready-data-infrastructure",
+      "title": "MCP Toolbox Java SDK v1.0",
+      "url": "https://cloud.google.com/blog/products/ai-machine-learning/announcing-mcp-toolbox-java-sdk-v10-agentic-data-access-for-the-enterprise",
+      "source_type": "release",
+      "selection_rationale": "Typed enterprise data access is a practical integration seam.",
+      "date": "2026-10-24"
+    },
+    {
+      "lane": "agent-ready-data-infrastructure",
+      "title": "PostgreSQL for agents in AlloyDB",
+      "url": "https://cloud.google.com/blog/products/databases/announcing-postgresql-for-agents-in-alloydb",
+      "source_type": "product",
+      "selection_rationale": "Keeps agent data access near permissions and audit.",
+      "date": "2026-10-24"
+    },
+    {
+      "lane": "agent-ready-data-infrastructure",
+      "title": "Temporal serverless workers on Cloud Run",
+      "url": "https://cloud.google.com/blog/topics/developers-practitioners/temporal-serverless-workers-on-cloud-run-worker-pools",
+      "source_type": "blog",
+      "selection_rationale": "Durable orchestration for multi-step agent workloads.",
+      "date": "2026-10-24"
+    },
+    {
+      "lane": "governed-developer-surfaces",
+      "title": "Usage metrics API adds usage from tools like OpenCode",
+      "url": "https://github.blog/changelog/2026-10-23-usage-metrics-api-adds-usage-from-tools-like-opencode/",
+      "source_type": "release",
+      "selection_rationale": "Measures agent use across more of the real toolchain.",
+      "date": "2026-10-24"
+    },
+    {
+      "lane": "governed-developer-surfaces",
+      "title": "Turn notifications into code with GitHub Copilot in Teams",
+      "url": "https://github.blog/changelog/2026-10-23-turn-notifications-into-code-with-github-copilot-in-teams/",
+      "source_type": "release",
+      "selection_rationale": "Connects collaboration intake to reviewable coding action.",
+      "date": "2026-10-24"
+    },
+    {
+      "lane": "governed-developer-surfaces",
+      "title": "Enterprise installations for GitHub Apps generally available",
+      "url": "https://github.blog/changelog/2026-10-23-enterprise-installations-for-github-apps-generally-available/",
+      "source_type": "release",
+      "selection_rationale": "Moves integration ownership to enterprise scope.",
+      "date": "2026-10-24"
+    },
+    {
+      "lane": "governed-developer-surfaces",
+      "title": "GitHub Copilot usage metrics",
+      "url": "https://docs.github.com/billing/managing-billing-for-your-products/managing-billing-for-github-copilot/about-usage-of-github-copilot-features",
+      "source_type": "docs",
+      "selection_rationale": "Provides metric definitions for the expanded API.",
+      "date": "2026-10-24"
+    },
+    {
+      "lane": "governed-developer-surfaces",
+      "title": "GitHub App improvements for least privilege and management",
+      "url": "https://github.blog/changelog/2026-10-13-github-app-improvements-for-least-privilege-and-management",
+      "source_type": "release",
+      "selection_rationale": "Supports narrower and more manageable agent authority.",
+      "date": "2026-10-24"
     }
   ],
   "runs": [
@@ -18241,8 +18425,160 @@
       "editorial_thesis": "The useful frontier is shifting from model capability to operational interfaces: constrained decisions, attributable runs, verifiable media, and implementation skills that make agent systems deployable."
     }
   ],
-  "last_updated": "2026-10-13T08:00:00Z",
+  "last_updated": "2026-10-24T08:05:00Z",
   "successful_runs": [
+    {
+      "date": "2026-10-24",
+      "selected_lanes": [
+        "agent-memory-evaluation",
+        "evidence-and-agent-assurance",
+        "agent-ready-data-infrastructure",
+        "governed-developer-surfaces"
+      ],
+      "items": [
+        {
+          "lane": "agent-memory-evaluation",
+          "title": "MemDerive: A Diagnostic Benchmark for Agent Memory over Evolving Data",
+          "url": "https://arxiv.org/html/2610.25373v1",
+          "source_type": "paper",
+          "selection_rationale": "Fresh benchmark for stale and changing knowledge."
+        },
+        {
+          "lane": "agent-memory-evaluation",
+          "title": "Remembering Has a Price: Learning Memory Worth under Resource Constraints",
+          "url": "https://arxiv.org/html/2610.26453v1",
+          "source_type": "paper",
+          "selection_rationale": "Makes memory selection an explicit resource tradeoff."
+        },
+        {
+          "lane": "agent-memory-evaluation",
+          "title": "When Does Experience Memory Help Closed-Loop LLM Driving Agents?",
+          "url": "https://arxiv.org/html/2610.27714v1",
+          "source_type": "paper",
+          "selection_rationale": "Tests whether memory helps across matched scenario pools."
+        },
+        {
+          "lane": "agent-memory-evaluation",
+          "title": "Can Agents Forget When Asked? Bemula benchmark",
+          "url": "https://arxiv.org/html/2610.18052v1",
+          "source_type": "paper",
+          "selection_rationale": "Measures deletion, relearning, attacks, and over-deletion."
+        },
+        {
+          "lane": "agent-memory-evaluation",
+          "title": "MemForm: Benchmarking Memory Formation Poisoning",
+          "url": "https://arxiv.org/html/2610.14431v1",
+          "source_type": "paper",
+          "selection_rationale": "Adds a security lens to durable memory writes."
+        },
+        {
+          "lane": "evidence-and-agent-assurance",
+          "title": "EpiSEM-Bench: Safety and Evidence Recovery under Missing Evidence",
+          "url": "https://arxiv.org/abs/2610.31650",
+          "source_type": "paper",
+          "selection_rationale": "Tests safe recovery and abstention when proof is unavailable."
+        },
+        {
+          "lane": "evidence-and-agent-assurance",
+          "title": "Contestable Agents for Data Governance",
+          "url": "https://arxiv.org/abs/2610.31553",
+          "source_type": "paper",
+          "selection_rationale": "Makes human stewardship of AI metadata recordable."
+        },
+        {
+          "lane": "evidence-and-agent-assurance",
+          "title": "AgentStripes: An Evidence-Graded Maturity Model",
+          "url": "https://arxiv.org/html/2610.18603v2",
+          "source_type": "paper",
+          "selection_rationale": "Links maturity claims to observed evidence."
+        },
+        {
+          "lane": "evidence-and-agent-assurance",
+          "title": "Holding Agents Accountable with Verifiable Agent Insurance",
+          "url": "https://arxiv.org/html/2610.18230v1",
+          "source_type": "paper",
+          "selection_rationale": "Explores machine-checkable violation reporting."
+        },
+        {
+          "lane": "evidence-and-agent-assurance",
+          "title": "AI Security Incident Reporting for Compromised Agents",
+          "url": "https://arxiv.org/html/2609.24515v1",
+          "source_type": "paper",
+          "selection_rationale": "Provides an agent-shaped incident vocabulary."
+        },
+        {
+          "lane": "agent-ready-data-infrastructure",
+          "title": "Knowledge Catalog: self-learning context enrichment for AI agents",
+          "url": "https://cloud.google.com/blog/products/data-analytics/knowledge-catalog-self-learning-context-enrichment-for-ai-agents",
+          "source_type": "product",
+          "selection_rationale": "Fresh context-quality and token-efficiency signal."
+        },
+        {
+          "lane": "agent-ready-data-infrastructure",
+          "title": "Expanding Claude availability and deployment choice on Google Cloud",
+          "url": "https://cloud.google.com/blog/products/ai-machine-learning/expanding-claude-availability-on-google-cloud",
+          "source_type": "release",
+          "selection_rationale": "Fresh deployment and provider-choice signal."
+        },
+        {
+          "lane": "agent-ready-data-infrastructure",
+          "title": "MCP Toolbox Java SDK v1.0",
+          "url": "https://cloud.google.com/blog/products/ai-machine-learning/announcing-mcp-toolbox-java-sdk-v10-agentic-data-access-for-the-enterprise",
+          "source_type": "release",
+          "selection_rationale": "Typed enterprise data access is a practical integration seam."
+        },
+        {
+          "lane": "agent-ready-data-infrastructure",
+          "title": "PostgreSQL for agents in AlloyDB",
+          "url": "https://cloud.google.com/blog/products/databases/announcing-postgresql-for-agents-in-alloydb",
+          "source_type": "product",
+          "selection_rationale": "Keeps agent data access near permissions and audit."
+        },
+        {
+          "lane": "agent-ready-data-infrastructure",
+          "title": "Temporal serverless workers on Cloud Run",
+          "url": "https://cloud.google.com/blog/topics/developers-practitioners/temporal-serverless-workers-on-cloud-run-worker-pools",
+          "source_type": "blog",
+          "selection_rationale": "Durable orchestration for multi-step agent workloads."
+        },
+        {
+          "lane": "governed-developer-surfaces",
+          "title": "Usage metrics API adds usage from tools like OpenCode",
+          "url": "https://github.blog/changelog/2026-10-23-usage-metrics-api-adds-usage-from-tools-like-opencode/",
+          "source_type": "release",
+          "selection_rationale": "Measures agent use across more of the real toolchain."
+        },
+        {
+          "lane": "governed-developer-surfaces",
+          "title": "Turn notifications into code with GitHub Copilot in Teams",
+          "url": "https://github.blog/changelog/2026-10-23-turn-notifications-into-code-with-github-copilot-in-teams/",
+          "source_type": "release",
+          "selection_rationale": "Connects collaboration intake to reviewable coding action."
+        },
+        {
+          "lane": "governed-developer-surfaces",
+          "title": "Enterprise installations for GitHub Apps generally available",
+          "url": "https://github.blog/changelog/2026-10-23-enterprise-installations-for-github-apps-generally-available/",
+          "source_type": "release",
+          "selection_rationale": "Moves integration ownership to enterprise scope."
+        },
+        {
+          "lane": "governed-developer-surfaces",
+          "title": "GitHub Copilot usage metrics",
+          "url": "https://docs.github.com/billing/managing-billing-for-your-products/managing-billing-for-github-copilot/about-usage-of-github-copilot-features",
+          "source_type": "docs",
+          "selection_rationale": "Provides metric definitions for the expanded API."
+        },
+        {
+          "lane": "governed-developer-surfaces",
+          "title": "GitHub App improvements for least privilege and management",
+          "url": "https://github.blog/changelog/2026-10-13-github-app-improvements-for-least-privilege-and-management",
+          "source_type": "release",
+          "selection_rationale": "Supports narrower and more manageable agent authority."
+        }
+      ],
+      "selection_rationale": "Followed fresh October 23 signals while rotating away from yesterday’s design/browser emphasis; memory is included as a material update focused on deletion, drift, and economics."
+    },
     {
       "date": "2026-10-17",
       "selected_lanes": [

@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-24",
+  "generated_at": "2026-10-24T08:05:00Z",
+  "editorial_thesis": "The freshest practical signal is a shift from agent capability to agent operating discipline: memory must be editable, evidence must survive missing context, and tool access must be measurable and bounded.",
+  "topic_groups": [
+    {
+      "slug": "agent-memory-evaluation",
+      "title": "Agent Memory: Forgetting, Drift, and Worth",
+      "selection_rationale": "Memory has been covered recently, but today’s papers are a material update: they test forgetting, evolving facts, resource cost, and experience-memory usefulness rather than recall alone.",
+      "sources": [
+        {"title":"MemDerive: A Diagnostic Benchmark for Agent Memory over Evolving Data","url":"https://arxiv.org/html/2610.25373v1","source_type":"paper","published_or_updated":"2026-10-23","why_selected":"Tests answer reliability and diagnoses which memory nodes fail as data changes.","usefulness":"Add evolving-record tests to Buildn memory and client knowledge workflows."},
+        {"title":"Remembering Has a Price: Learning Memory Worth under Resource Constraints","url":"https://arxiv.org/html/2610.26453v1","source_type":"paper","published_or_updated":"2026-10-23","why_selected":"Treats memory selection as a resource-allocation problem instead of a free quality boost.","usefulness":"Use value-per-token and value-per-latency gates for persistent agent state."},
+        {"title":"When Does Experience Memory Help Closed-Loop LLM Driving Agents?","url":"https://arxiv.org/html/2610.27714v1","source_type":"paper","published_or_updated":"2026-10-23","why_selected":"Shows experience memory benefits depend on the warmup pool and task distribution.","usefulness":"Require matched baselines before claiming that memory improves outcomes."},
+        {"title":"Can Agents Forget When Asked? Bemula benchmark","url":"https://arxiv.org/html/2610.18052v1","source_type":"paper","published_or_updated":"2026-10-17","why_selected":"Evaluates retention, efficacy, relearning, attacks, and over-deletion after a forget request.","usefulness":"Turn deletion into a tested product promise, not a UI affordance."},
+        {"title":"MemForm: Benchmarking Memory Formation Poisoning","url":"https://arxiv.org/html/2610.14431v1","source_type":"paper","published_or_updated":"2026-10-16","why_selected":"Measures adversarial manipulation at the point where persistent memory is formed.","usefulness":"Threat-model memory writes before optimizing retrieval."}
+      ]
+    },
+    {
+      "slug": "evidence-and-agent-assurance",
+      "title": "Evidence + Agent Assurance",
+      "selection_rationale": "A neglected lane with direct delivery value: current research is making missing evidence, human stewardship, and maturity claims testable instead of leaving assurance as prose.",
+      "sources": [
+        {"title":"EpiSEM-Bench: Safety and Evidence Recovery under Missing Evidence","url":"https://arxiv.org/abs/2610.31650","source_type":"paper","published_or_updated":"2026-10-23","why_selected":"Benchmarks whether agents recover safely when required evidence is unavailable.","usefulness":"Add an explicit abstain-and-escalate path to research and ops agents."},
+        {"title":"Contestable Agents for Data Governance","url":"https://arxiv.org/abs/2610.31553","source_type":"paper","published_or_updated":"2026-10-23","why_selected":"Records human stewardship of AI-generated metadata across structured and unstructured systems.","usefulness":"Prototype contestable artifact histories for client-facing automation."},
+        {"title":"AgentStripes: An Evidence-Graded Maturity Model","url":"https://arxiv.org/html/2610.18603v2","source_type":"paper","published_or_updated":"2026-10-22","why_selected":"Connects agent maturity claims to evidence, adversarial tasks, and bounded execution.","usefulness":"Use evidence grades to keep Buildn specs honest about readiness."},
+        {"title":"Holding Agents Accountable with Verifiable Agent Insurance","url":"https://arxiv.org/html/2610.18230v1","source_type":"paper","published_or_updated":"2026-10-18","why_selected":"Explores machine-checkable violation reporting and accountability signals.","usefulness":"Borrow explicit violation events for review packets and incident trails."},
+        {"title":"AI Security Incident Reporting for Compromised Agents","url":"https://arxiv.org/html/2609.24515v1","source_type":"paper","published_or_updated":"2026-09-25","why_selected":"Provides a framing for reporting incidents specific to compromised agent behavior.","usefulness":"Create a lightweight incident schema before deploying higher-authority agents."}
+      ]
+    },
+    {
+      "slug": "agent-ready-data-infrastructure",
+      "title": "Agent-Ready Data Infrastructure",
+      "selection_rationale": "Fresh cloud signal widens the practical stack beyond models: context catalogs, managed-agent deployment choice, and agentic data access are becoming product surfaces.",
+      "sources": [
+        {"title":"Knowledge Catalog: self-learning context enrichment for AI agents","url":"https://cloud.google.com/blog/products/data-analytics/knowledge-catalog-self-learning-context-enrichment-for-ai-agents","source_type":"product","published_or_updated":"2026-10-22","why_selected":"Google claims nearly 4× accuracy, lower latency, and fewer tokens through context enrichment.","usefulness":"Compare curated context with raw retrieval on a real Buildn corpus."},
+        {"title":"Expanding Claude availability and deployment choice on Google Cloud","url":"https://cloud.google.com/blog/products/ai-machine-learning/expanding-claude-availability-on-google-cloud","source_type":"release","published_or_updated":"2026-10-23","why_selected":"Adds deployment choice around Claude Platform features and managed agents.","usefulness":"Map provider, residency, and execution choices before client pilots."},
+        {"title":"MCP Toolbox Java SDK v1.0","url":"https://cloud.google.com/blog/products/ai-machine-learning/announcing-mcp-toolbox-java-sdk-v10-agentic-data-access-for-the-enterprise","source_type":"release","published_or_updated":"2026-10-23","why_selected":"Makes governed enterprise data access a typed SDK integration point.","usefulness":"Evaluate whether tool contracts can replace bespoke connector glue."},
+        {"title":"PostgreSQL for agents in AlloyDB","url":"https://cloud.google.com/blog/products/databases/announcing-postgresql-for-agents-in-alloydb","source_type":"product","published_or_updated":"2026-10-16","why_selected":"Moves agent-facing database operations closer to the data layer.","usefulness":"Keep retrieval, permissions, and audit near transactional data."},
+        {"title":"Temporal serverless workers on Cloud Run","url":"https://cloud.google.com/blog/topics/developers-practitioners/temporal-serverless-workers-on-cloud-run-worker-pools","source_type":"blog","published_or_updated":"2026-10-23","why_selected":"Targets multi-step agent workloads with elastic workers and durable orchestration.","usefulness":"Use durable workflows for resumable research and client automations."}
+      ]
+    },
+    {
+      "slug": "governed-developer-surfaces",
+      "title": "Governed Developer Surfaces",
+      "selection_rationale": "A fresh operational lane: GitHub’s October 23 changes connect agent usage measurement, chat-to-code intake, and enterprise app installation into a more governable delivery surface.",
+      "sources": [
+        {"title":"Usage metrics API adds usage from tools like OpenCode","url":"https://github.blog/changelog/2026-10-23-usage-metrics-api-adds-usage-from-tools-like-opencode/","source_type":"release","published_or_updated":"2026-10-23","why_selected":"Usage reporting now covers more developer tools instead of only first-party surfaces.","usefulness":"Measure accepted work and model usage across the actual toolchain."},
+        {"title":"Turn notifications into code with GitHub Copilot in Teams","url":"https://github.blog/changelog/2026-10-23-turn-notifications-into-code-with-github-copilot-in-teams/","source_type":"release","published_or_updated":"2026-10-23","why_selected":"Connects team notifications to Copilot actions in a collaboration surface.","usefulness":"Prototype issue-to-review workflows with explicit approval checkpoints."},
+        {"title":"Enterprise installations for GitHub Apps generally available","url":"https://github.blog/changelog/2026-10-23-enterprise-installations-for-github-apps-generally-available/","source_type":"release","published_or_updated":"2026-10-23","why_selected":"Makes app installation and ownership more manageable across enterprises.","usefulness":"Use enterprise-owned integrations instead of personal tokens for client work."},
+        {"title":"GitHub Copilot usage metrics","url":"https://docs.github.com/billing/managing-billing-for-your-products/managing-billing-for-github-copilot/about-usage-of-github-copilot-features","source_type":"docs","published_or_updated":"2026-10-08","why_selected":"Provides the surrounding usage vocabulary needed to interpret new API coverage.","usefulness":"Define outcome metrics before turning on more agent capacity."},
+        {"title":"GitHub App improvements for least privilege and management","url":"https://github.blog/changelog/2026-10-13-github-app-improvements-for-least-privilege-and-management","source_type":"release","published_or_updated":"2026-10-13","why_selected":"Reinforces the direction toward narrower, administrable integration authority.","usefulness":"Audit every client integration for owner, scopes, expiry, and revocation."}
+      ]
+    }
+  ]
+}

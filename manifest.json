@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-10-23T08:03:25.652821+00:00",
+  "updated_at": "2026-10-24T08:03:34.520186+00:00",
   "days": [
+    {
+      "date": "2026-10-24",
+      "path": "2026-10-24",
+      "reports": [
+        {
+          "lane": "agent-memory-evaluation",
+          "title": "Agent Memory: Forgetting, Drift, and Worth",
+          "url": "2026-10-24/agent-memory-evaluation.html"
+        },
+        {
+          "lane": "evidence-and-agent-assurance",
+          "title": "Evidence + Agent Assurance",
+          "url": "2026-10-24/evidence-and-agent-assurance.html"
+        },
+        {
+          "lane": "agent-ready-data-infrastructure",
+          "title": "Agent-Ready Data Infrastructure",
+          "url": "2026-10-24/agent-ready-data-infrastructure.html"
+        },
+        {
+          "lane": "governed-developer-surfaces",
+          "title": "Governed Developer Surfaces",
+          "url": "2026-10-24/governed-developer-surfaces.html"
+        }
+      ]
+    },
     {
       "date": "2026-10-23",
       "path": "2026-10-23",

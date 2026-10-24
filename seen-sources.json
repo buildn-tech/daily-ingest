@@ -1,6 +1,106 @@
 {
-  "updated_at": "2026-10-23T08:03:25.652821+00:00",
+  "updated_at": "2026-10-24T08:03:34.520186+00:00",
   "sources": {
+    "https://arxiv.org/html/2610.25373v1": {
+      "first_seen": "2026-10-24",
+      "last_seen": "2026-10-24",
+      "title": "MemDerive: A Diagnostic Benchmark for Agent Memory over Evolving Data"
+    },
+    "https://arxiv.org/html/2610.26453v1": {
+      "first_seen": "2026-10-24",
+      "last_seen": "2026-10-24",
+      "title": "Remembering Has a Price: Learning Memory Worth under Resource Constraints"
+    },
+    "https://arxiv.org/html/2610.27714v1": {
+      "first_seen": "2026-10-24",
+      "last_seen": "2026-10-24",
+      "title": "When Does Experience Memory Help Closed-Loop LLM Driving Agents?"
+    },
+    "https://arxiv.org/html/2610.18052v1": {
+      "first_seen": "2026-10-24",
+      "last_seen": "2026-10-17",
+      "title": "Bemula forgetting benchmark"
+    },
+    "https://arxiv.org/html/2610.14431v1": {
+      "first_seen": "2026-10-24",
+      "last_seen": "2026-10-17",
+      "title": "MemForm poisoning benchmark"
+    },
+    "https://arxiv.org/abs/2610.31650": {
+      "first_seen": "2026-10-24",
+      "last_seen": "2026-10-24",
+      "title": "EpiSEM-Bench: Safety and Evidence Recovery under Missing Evidence"
+    },
+    "https://arxiv.org/abs/2610.31553": {
+      "first_seen": "2026-10-24",
+      "last_seen": "2026-10-24",
+      "title": "Contestable Agents for Data Governance"
+    },
+    "https://arxiv.org/html/2610.18603v2": {
+      "first_seen": "2026-10-24",
+      "last_seen": "2026-10-24",
+      "title": "AgentStripes: An Evidence-Graded Maturity Model"
+    },
+    "https://arxiv.org/html/2610.18230v1": {
+      "first_seen": "2026-10-24",
+      "last_seen": "2026-10-18",
+      "title": "Verifiable Agent Insurance"
+    },
+    "https://arxiv.org/html/2609.24515v1": {
+      "first_seen": "2026-10-24",
+      "last_seen": "2026-10-24",
+      "title": "AI Security Incident Reporting for Compromised Agents"
+    },
+    "https://cloud.google.com/blog/products/data-analytics/knowledge-catalog-self-learning-context-enrichment-for-ai-agents": {
+      "first_seen": "2026-10-24",
+      "last_seen": "2026-10-24",
+      "title": "Knowledge Catalog: self-learning context enrichment for AI agents"
+    },
+    "https://cloud.google.com/blog/products/ai-machine-learning/expanding-claude-availability-on-google-cloud": {
+      "first_seen": "2026-10-24",
+      "last_seen": "2026-10-24",
+      "title": "Expanding Claude availability and deployment choice on Google Cloud"
+    },
+    "https://cloud.google.com/blog/products/ai-machine-learning/announcing-mcp-toolbox-java-sdk-v10-agentic-data-access-for-the-enterprise": {
+      "first_seen": "2026-10-24",
+      "last_seen": "2026-10-24",
+      "title": "MCP Toolbox Java SDK v1.0"
+    },
+    "https://cloud.google.com/blog/products/databases/announcing-postgresql-for-agents-in-alloydb": {
+      "first_seen": "2026-10-24",
+      "last_seen": "2026-10-16",
+      "title": "PostgreSQL for agents in AlloyDB"
+    },
+    "https://cloud.google.com/blog/topics/developers-practitioners/temporal-serverless-workers-on-cloud-run-worker-pools": {
+      "first_seen": "2026-10-24",
+      "last_seen": "2026-10-24",
+      "title": "Temporal serverless workers on Cloud Run"
+    },
+    "https://github.blog/changelog/2026-10-23-usage-metrics-api-adds-usage-from-tools-like-opencode": {
+      "first_seen": "2026-10-24",
+      "last_seen": "2026-10-24",
+      "title": "Usage metrics API adds usage from tools like OpenCode"
+    },
+    "https://github.blog/changelog/2026-10-23-turn-notifications-into-code-with-github-copilot-in-teams": {
+      "first_seen": "2026-10-24",
+      "last_seen": "2026-10-24",
+      "title": "Turn notifications into code with GitHub Copilot in Teams"
+    },
+    "https://github.blog/changelog/2026-10-23-enterprise-installations-for-github-apps-generally-available": {
+      "first_seen": "2026-10-24",
+      "last_seen": "2026-10-24",
+      "title": "Enterprise installations for GitHub Apps generally available"
+    },
+    "https://docs.github.com/billing/managing-billing-for-your-products/managing-billing-for-github-copilot/about-usage-of-github-copilot-features": {
+      "first_seen": "2026-10-24",
+      "last_seen": "2026-10-08",
+      "title": "GitHub AI usage insights"
+    },
+    "https://github.blog/changelog/2026-10-13-github-app-improvements-for-least-privilege-and-management": {
+      "first_seen": "2026-10-24",
+      "last_seen": "2026-10-14",
+      "title": "GitHub Apps narrow permissions"
+    },
     "https://www.figma.com/blog/build-by-design": {
       "first_seen": "2026-10-23",
       "last_seen": "2026-10-23",
@@ -125,11 +225,6 @@
       "first_seen": "2026-10-21",
       "last_seen": "2026-10-19",
       "title": "Nebius + NVIDIA AI Builder Program in Europe"
-    },
-    "https://arxiv.org/html/2610.18052v1": {
-      "first_seen": "2026-10-21",
-      "last_seen": "2026-10-17",
-      "title": "Bemula forgetting benchmark"
     },
     "https://github.com/Nboxff/bemula-benchmark": {
       "first_seen": "2026-10-21",
@@ -281,11 +376,6 @@
       "last_seen": "2026-10-17",
       "title": "Research@ 2026"
     },
-    "https://arxiv.org/html/2610.18230v1": {
-      "first_seen": "2026-10-18",
-      "last_seen": "2026-10-18",
-      "title": "Verifiable Agent Insurance"
-    },
     "https://arxiv.org/html/2610.07639v1": {
       "first_seen": "2026-10-18",
       "last_seen": "2026-10-18",
@@ -366,11 +456,6 @@
       "last_seen": "2026-10-17",
       "title": "MemCode discrete memory"
     },
-    "https://arxiv.org/html/2610.14431v1": {
-      "first_seen": "2026-10-17",
-      "last_seen": "2026-10-17",
-      "title": "MemForm poisoning benchmark"
-    },
     "https://blog.google/innovation-and-ai/products/gemini-notebook/three-tips-study-gemini-notebook": {
       "first_seen": "2026-10-17",
       "last_seen": "2026-10-17",
@@ -405,11 +490,6 @@
       "first_seen": "2026-10-16",
       "last_seen": "2026-10-14",
       "title": "AI scan metrics enter the overview"
-    },
-    "https://cloud.google.com/blog/products/databases/announcing-postgresql-for-agents-in-alloydb": {
-      "first_seen": "2026-10-16",
-      "last_seen": "2026-10-16",
-      "title": "PostgreSQL for agents in AlloyDB"
     },
     "https://cloud.google.com/blog/products/data-analytics/bigquery-augmented-analytics-tvfs": {
       "first_seen": "2026-10-16",
@@ -500,11 +580,6 @@
       "first_seen": "2026-10-14",
       "last_seen": "2026-10-14",
       "title": "AI Studio makes private Android apps"
-    },
-    "https://github.blog/changelog/2026-10-13-github-app-improvements-for-least-privilege-and-management": {
-      "first_seen": "2026-10-14",
-      "last_seen": "2026-10-14",
-      "title": "GitHub Apps narrow permissions"
     },
     "https://github.blog/changelog/2026-10-13-enterprise-managed-settings-enforcement-updates": {
       "first_seen": "2026-10-14",
@@ -780,11 +855,6 @@
       "first_seen": "2026-10-10",
       "last_seen": "2026-10-08",
       "title": "GitHub Copilot CLI provider and offline-mode docs"
-    },
-    "https://docs.github.com/billing/managing-billing-for-your-products/managing-billing-for-github-copilot/about-usage-of-github-copilot-features": {
-      "first_seen": "2026-10-10",
-      "last_seen": "2026-10-08",
-      "title": "GitHub AI usage insights"
     },
     "https://openai.com/index/legalon-halves-codex-costs": {
       "first_seen": "2026-10-09",
