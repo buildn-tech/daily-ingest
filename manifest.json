@@ -1,6 +1,27 @@
 {
-  "updated_at": "2026-10-24T08:03:34.520186+00:00",
+  "updated_at": "2026-10-25T08:01:32.382574+00:00",
   "days": [
+    {
+      "date": "2026-10-25",
+      "path": "2026-10-25",
+      "reports": [
+        {
+          "lane": "ai-operations-and-security",
+          "title": "AI Operations + Security",
+          "url": "2026-10-25/ai-operations-and-security.html"
+        },
+        {
+          "lane": "privacy-and-agent-ready-interfaces",
+          "title": "Privacy + Agent-Ready Interfaces",
+          "url": "2026-10-25/privacy-and-agent-ready-interfaces.html"
+        },
+        {
+          "lane": "agent-ready-infrastructure",
+          "title": "Agent-Ready Infrastructure",
+          "url": "2026-10-25/agent-ready-infrastructure.html"
+        }
+      ]
+    },
     {
       "date": "2026-10-24",
       "path": "2026-10-24",

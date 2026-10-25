@@ -1,6 +1,81 @@
 {
-  "updated_at": "2026-10-24T08:03:34.520186+00:00",
+  "updated_at": "2026-10-25T08:01:32.382574+00:00",
   "sources": {
+    "https://openai.com/index/securing-our-frontier-model-training-environment": {
+      "first_seen": "2026-10-25",
+      "last_seen": "2026-10-25",
+      "title": "Frontier training security becomes an operating discipline"
+    },
+    "https://openai.com/index/decisions-api": {
+      "first_seen": "2026-10-25",
+      "last_seen": "2026-10-25",
+      "title": "Decisions API: make model choices inspectable"
+    },
+    "https://openai.com/index/dots": {
+      "first_seen": "2026-10-25",
+      "last_seen": "2026-10-25",
+      "title": "Dots: a new interaction primitive for responsive apps"
+    },
+    "https://www.anthropic.com/news/claude-frontier-academy": {
+      "first_seen": "2026-10-25",
+      "last_seen": "2026-10-09",
+      "title": "Claude Frontier Academy"
+    },
+    "https://www.anthropic.com/news/distillation-defenses": {
+      "first_seen": "2026-10-25",
+      "last_seen": "2026-10-25",
+      "title": "Distillation defenses frame model access as an attack surface"
+    },
+    "https://www.anthropic.com/news/updates-to-our-consumer-terms": {
+      "first_seen": "2026-10-25",
+      "last_seen": "2026-10-25",
+      "title": "Consumer terms make data settings a product decision"
+    },
+    "https://developer.chrome.com/blog/new-in-devtools-october-2026": {
+      "first_seen": "2026-10-25",
+      "last_seen": "2026-10-06",
+      "title": "Agent-readiness implication"
+    },
+    "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities": {
+      "first_seen": "2026-10-25",
+      "last_seen": "2026-10-22",
+      "title": "Governance is part of the technical path"
+    },
+    "https://blog.google/products-and-platforms/products/search/search-io-2026": {
+      "first_seen": "2026-10-25",
+      "last_seen": "2026-07-09",
+      "title": "Google Search I/O 2026: Search agents"
+    },
+    "https://www.sitepoint.com/definitive-guide-local-first-ai-2026": {
+      "first_seen": "2026-10-25",
+      "last_seen": "2026-10-25",
+      "title": "Local-first AI remains a privacy boundary, not only a hosting choice"
+    },
+    "https://github.blog/changelog/2026-10-23-usage-metrics-api-adds-usage-from-tools-like-opencode": {
+      "first_seen": "2026-10-25",
+      "last_seen": "2026-10-24",
+      "title": "Usage metrics API adds usage from tools like OpenCode"
+    },
+    "https://cloud.google.com/blog/products/ai-machine-learning/announcing-mcp-toolbox-java-sdk-v10-agentic-data-access-for-the-enterprise": {
+      "first_seen": "2026-10-25",
+      "last_seen": "2026-10-24",
+      "title": "MCP Toolbox Java SDK v1.0"
+    },
+    "https://cloud.google.com/blog/topics/developers-practitioners/temporal-serverless-workers-on-cloud-run-worker-pools": {
+      "first_seen": "2026-10-25",
+      "last_seen": "2026-10-24",
+      "title": "Temporal serverless workers on Cloud Run"
+    },
+    "https://cloud.google.com/blog/products/databases/announcing-postgresql-for-agents-in-alloydb": {
+      "first_seen": "2026-10-25",
+      "last_seen": "2026-10-16",
+      "title": "PostgreSQL for agents in AlloyDB"
+    },
+    "https://cloud.google.com/blog/products/data-analytics/knowledge-catalog-self-learning-context-enrichment-for-ai-agents": {
+      "first_seen": "2026-10-25",
+      "last_seen": "2026-10-24",
+      "title": "Knowledge Catalog: self-learning context enrichment for AI agents"
+    },
     "https://arxiv.org/html/2610.25373v1": {
       "first_seen": "2026-10-24",
       "last_seen": "2026-10-24",
@@ -51,35 +126,10 @@
       "last_seen": "2026-10-24",
       "title": "AI Security Incident Reporting for Compromised Agents"
     },
-    "https://cloud.google.com/blog/products/data-analytics/knowledge-catalog-self-learning-context-enrichment-for-ai-agents": {
-      "first_seen": "2026-10-24",
-      "last_seen": "2026-10-24",
-      "title": "Knowledge Catalog: self-learning context enrichment for AI agents"
-    },
     "https://cloud.google.com/blog/products/ai-machine-learning/expanding-claude-availability-on-google-cloud": {
       "first_seen": "2026-10-24",
       "last_seen": "2026-10-24",
       "title": "Expanding Claude availability and deployment choice on Google Cloud"
-    },
-    "https://cloud.google.com/blog/products/ai-machine-learning/announcing-mcp-toolbox-java-sdk-v10-agentic-data-access-for-the-enterprise": {
-      "first_seen": "2026-10-24",
-      "last_seen": "2026-10-24",
-      "title": "MCP Toolbox Java SDK v1.0"
-    },
-    "https://cloud.google.com/blog/products/databases/announcing-postgresql-for-agents-in-alloydb": {
-      "first_seen": "2026-10-24",
-      "last_seen": "2026-10-16",
-      "title": "PostgreSQL for agents in AlloyDB"
-    },
-    "https://cloud.google.com/blog/topics/developers-practitioners/temporal-serverless-workers-on-cloud-run-worker-pools": {
-      "first_seen": "2026-10-24",
-      "last_seen": "2026-10-24",
-      "title": "Temporal serverless workers on Cloud Run"
-    },
-    "https://github.blog/changelog/2026-10-23-usage-metrics-api-adds-usage-from-tools-like-opencode": {
-      "first_seen": "2026-10-24",
-      "last_seen": "2026-10-24",
-      "title": "Usage metrics API adds usage from tools like OpenCode"
     },
     "https://github.blog/changelog/2026-10-23-turn-notifications-into-code-with-github-copilot-in-teams": {
       "first_seen": "2026-10-24",
@@ -115,11 +165,6 @@
       "first_seen": "2026-10-23",
       "last_seen": "2026-10-23",
       "title": "Workflow Lab: Staying in the Flow with Figma\u2019s Agent"
-    },
-    "https://developer.chrome.com/blog/new-in-devtools-october-2026": {
-      "first_seen": "2026-10-23",
-      "last_seen": "2026-10-06",
-      "title": "Agent-readiness implication"
     },
     "https://arxiv.org/html/2610.30573": {
       "first_seen": "2026-10-23",
@@ -180,11 +225,6 @@
       "first_seen": "2026-10-22",
       "last_seen": "2026-10-07",
       "title": "Restore Copilot agent activity metrics"
-    },
-    "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities": {
-      "first_seen": "2026-10-22",
-      "last_seen": "2026-10-22",
-      "title": "Governance is part of the technical path"
     },
     "https://nvidianews.nvidia.com/news/open-agent-safety-platform": {
       "first_seen": "2026-10-21",
@@ -665,11 +705,6 @@
       "first_seen": "2026-10-13",
       "last_seen": "2026-10-07",
       "title": "EmbeddingGemma 2"
-    },
-    "https://www.anthropic.com/news/claude-frontier-academy": {
-      "first_seen": "2026-10-13",
-      "last_seen": "2026-10-09",
-      "title": "Claude Frontier Academy"
     },
     "https://www.anthropic.com/news/services-track-partner-hub": {
       "first_seen": "2026-10-13",
@@ -1155,11 +1190,6 @@
       "first_seen": "2026-10-03",
       "last_seen": "2026-09-08",
       "title": "WebMCP at Chrome I/O 2026"
-    },
-    "https://blog.google/products-and-platforms/products/search/search-io-2026": {
-      "first_seen": "2026-10-03",
-      "last_seen": "2026-07-09",
-      "title": "Google Search I/O 2026: Search agents"
     },
     "https://github.blog/changelog/2026-10-02-selected-models-in-github-copilot-deprecated": {
       "first_seen": "2026-10-03",

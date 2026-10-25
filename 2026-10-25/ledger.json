@@ -1,0 +1,148 @@
+{
+  "date": "2026-10-25",
+  "generated_at": "2026-10-25T08:01:25.735562+00:00",
+  "editorial_thesis": "Agents become useful when security, consent, measurement, and durable infrastructure are designed as one operating system.",
+  "topic_groups": [
+    {
+      "slug": "ai-operations-and-security",
+      "title": "AI Operations + Security",
+      "selection_rationale": "Capability is moving from model novelty to operational control: secure the runtime, expose decisions, and train people who can deploy the system.",
+      "sources": [
+        {
+          "title": "Frontier training security becomes an operating discipline",
+          "url": "https://openai.com/index/securing-our-frontier-model-training-environment/",
+          "source_type": "official",
+          "published_or_updated": "2026-10-23 to 2026-10-25",
+          "why_selected": "Capability is moving from model novelty to operational control: secure the runtime, expose decisions, and train people who can deploy the system.",
+          "usefulness": "Directly trialable in Buildn or client workflow design."
+        },
+        {
+          "title": "Decisions API: make model choices inspectable",
+          "url": "https://openai.com/index/decisions-api/",
+          "source_type": "official",
+          "published_or_updated": "2026-10-23 to 2026-10-25",
+          "why_selected": "Capability is moving from model novelty to operational control: secure the runtime, expose decisions, and train people who can deploy the system.",
+          "usefulness": "Directly trialable in Buildn or client workflow design."
+        },
+        {
+          "title": "Dots: a new interaction primitive for responsive apps",
+          "url": "https://openai.com/index/dots/",
+          "source_type": "official",
+          "published_or_updated": "2026-10-23 to 2026-10-25",
+          "why_selected": "Capability is moving from model novelty to operational control: secure the runtime, expose decisions, and train people who can deploy the system.",
+          "usefulness": "Directly trialable in Buildn or client workflow design."
+        },
+        {
+          "title": "Claude Frontier Academy targets the implementation bottleneck",
+          "url": "https://www.anthropic.com/news/claude-frontier-academy",
+          "source_type": "official",
+          "published_or_updated": "2026-10-23 to 2026-10-25",
+          "why_selected": "Capability is moving from model novelty to operational control: secure the runtime, expose decisions, and train people who can deploy the system.",
+          "usefulness": "Directly trialable in Buildn or client workflow design."
+        },
+        {
+          "title": "Distillation defenses frame model access as an attack surface",
+          "url": "https://www.anthropic.com/news/distillation-defenses",
+          "source_type": "official",
+          "published_or_updated": "2026-10-23 to 2026-10-25",
+          "why_selected": "Capability is moving from model novelty to operational control: secure the runtime, expose decisions, and train people who can deploy the system.",
+          "usefulness": "Directly trialable in Buildn or client workflow design."
+        }
+      ]
+    },
+    {
+      "slug": "privacy-and-agent-ready-interfaces",
+      "title": "Privacy + Agent-Ready Interfaces",
+      "selection_rationale": "The practical frontier is not more autonomy; it is making consent, evidence, and reversibility visible where agents touch real interfaces.",
+      "sources": [
+        {
+          "title": "Consumer terms make data settings a product decision",
+          "url": "https://www.anthropic.com/news/updates-to-our-consumer-terms",
+          "source_type": "official",
+          "published_or_updated": "2026-10-23 to 2026-10-25",
+          "why_selected": "The practical frontier is not more autonomy; it is making consent, evidence, and reversibility visible where agents touch real interfaces.",
+          "usefulness": "Directly trialable in Buildn or client workflow design."
+        },
+        {
+          "title": "Chrome DevTools moves agent readiness closer to the browser",
+          "url": "https://developer.chrome.com/blog/new-in-devtools-october-2026",
+          "source_type": "official",
+          "published_or_updated": "2026-10-23 to 2026-10-25",
+          "why_selected": "The practical frontier is not more autonomy; it is making consent, evidence, and reversibility visible where agents touch real interfaces.",
+          "usefulness": "Directly trialable in Buildn or client workflow design."
+        },
+        {
+          "title": "OpenAI coordinated disclosure shows shared response infrastructure",
+          "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/",
+          "source_type": "official",
+          "published_or_updated": "2026-10-23 to 2026-10-25",
+          "why_selected": "The practical frontier is not more autonomy; it is making consent, evidence, and reversibility visible where agents touch real interfaces.",
+          "usefulness": "Directly trialable in Buildn or client workflow design."
+        },
+        {
+          "title": "AI agents in Search turn intent into delegated actions",
+          "url": "https://blog.google/products-and-platforms/products/search/search-io-2026/",
+          "source_type": "official",
+          "published_or_updated": "2026-10-23 to 2026-10-25",
+          "why_selected": "The practical frontier is not more autonomy; it is making consent, evidence, and reversibility visible where agents touch real interfaces.",
+          "usefulness": "Directly trialable in Buildn or client workflow design."
+        },
+        {
+          "title": "Local-first AI remains a privacy boundary, not only a hosting choice",
+          "url": "https://www.sitepoint.com/definitive-guide-local-first-ai-2026/",
+          "source_type": "official",
+          "published_or_updated": "2026-10-23 to 2026-10-25",
+          "why_selected": "The practical frontier is not more autonomy; it is making consent, evidence, and reversibility visible where agents touch real interfaces.",
+          "usefulness": "Directly trialable in Buildn or client workflow design."
+        }
+      ]
+    },
+    {
+      "slug": "agent-ready-infrastructure",
+      "title": "Agent-Ready Infrastructure",
+      "selection_rationale": "The infrastructure signal is converging: durable workflows, typed tool seams, scoped database access, and context lineage make agents operationally useful.",
+      "sources": [
+        {
+          "title": "Usage metrics follow models outside the IDE",
+          "url": "https://github.blog/changelog/2026-10-23-usage-metrics-api-adds-usage-from-tools-like-opencode",
+          "source_type": "official",
+          "published_or_updated": "2026-10-23 to 2026-10-25",
+          "why_selected": "The infrastructure signal is converging: durable workflows, typed tool seams, scoped database access, and context lineage make agents operationally useful.",
+          "usefulness": "Directly trialable in Buildn or client workflow design."
+        },
+        {
+          "title": "MCP Toolbox Java SDK reaches a usable integration seam",
+          "url": "https://cloud.google.com/blog/products/ai-machine-learning/announcing-mcp-toolbox-java-sdk-v10-agentic-data-access-for-the-enterprise",
+          "source_type": "official",
+          "published_or_updated": "2026-10-23 to 2026-10-25",
+          "why_selected": "The infrastructure signal is converging: durable workflows, typed tool seams, scoped database access, and context lineage make agents operationally useful.",
+          "usefulness": "Directly trialable in Buildn or client workflow design."
+        },
+        {
+          "title": "Temporal workers on Cloud Run connect durable workflows to elastic compute",
+          "url": "https://cloud.google.com/blog/topics/developers-practitioners/temporal-serverless-workers-on-cloud-run-worker-pools",
+          "source_type": "official",
+          "published_or_updated": "2026-10-23 to 2026-10-25",
+          "why_selected": "The infrastructure signal is converging: durable workflows, typed tool seams, scoped database access, and context lineage make agents operationally useful.",
+          "usefulness": "Directly trialable in Buildn or client workflow design."
+        },
+        {
+          "title": "PostgreSQL for agents makes database boundaries explicit",
+          "url": "https://cloud.google.com/blog/products/databases/announcing-postgresql-for-agents-in-alloydb",
+          "source_type": "official",
+          "published_or_updated": "2026-10-23 to 2026-10-25",
+          "why_selected": "The infrastructure signal is converging: durable workflows, typed tool seams, scoped database access, and context lineage make agents operationally useful.",
+          "usefulness": "Directly trialable in Buildn or client workflow design."
+        },
+        {
+          "title": "Google Knowledge Catalog enriches context before the agent acts",
+          "url": "https://cloud.google.com/blog/products/data-analytics/knowledge-catalog-self-learning-context-enrichment-for-ai-agents",
+          "source_type": "official",
+          "published_or_updated": "2026-10-23 to 2026-10-25",
+          "why_selected": "The infrastructure signal is converging: durable workflows, typed tool seams, scoped database access, and context lineage make agents operationally useful.",
+          "usefulness": "Directly trialable in Buildn or client workflow design."
+        }
+      ]
+    }
+  ]
+}
