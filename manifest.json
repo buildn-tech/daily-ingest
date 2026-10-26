@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-10-25T09:01:14.141254+00:00",
+  "updated_at": "2026-10-26T09:02:45.016836+00:00",
   "days": [
+    {
+      "date": "2026-10-26",
+      "path": "2026-10-26",
+      "reports": [
+        {
+          "lane": "agent-orchestration",
+          "title": "Agent Orchestration + Durable Workflows",
+          "url": "2026-10-26/agent-orchestration.html"
+        },
+        {
+          "lane": "design-to-delivery",
+          "title": "Design-to-Delivery + Agentic Craft",
+          "url": "2026-10-26/design-to-delivery.html"
+        },
+        {
+          "lane": "agent-security-identity",
+          "title": "Agent Security + Identity",
+          "url": "2026-10-26/agent-security-identity.html"
+        },
+        {
+          "lane": "robotic-agent-systems",
+          "title": "Robotic + Physical Agent Systems",
+          "url": "2026-10-26/robotic-agent-systems.html"
+        }
+      ]
+    },
     {
       "date": "2026-10-25",
       "path": "2026-10-25",

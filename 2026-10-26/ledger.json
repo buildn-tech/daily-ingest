@@ -1,0 +1,163 @@
+{
+  "date": "2026-10-26",
+  "generated_at": "2026-10-26T09:00:32+00:00",
+  "editorial_thesis": "Useful agent systems are becoming inspectable operating surfaces: durable workflows, design context, access defaults, and feedback loops matter more than another isolated model demo.",
+  "topic_groups": [
+    {
+      "slug": "agent-orchestration",
+      "title": "Agent Orchestration + Durable Workflows",
+      "selection_rationale": "Fresh infrastructure signal; last covered infrastructure was database/context heavy, this run follows executable orchestration.",
+      "sources": [
+        {
+          "title": "Production evaluation makes orchestration measurable",
+          "url": "https://aws.amazon.com/blogs/machine-learning/building-trust-in-ai-agents-a-production-ready-evaluation-framework-with-amazon-bedrock-agentcore/",
+          "source_type": "evaluation",
+          "published_or_updated": "2026-10",
+          "why_selected": "Fresh infrastructure signal; last covered infrastructure was database/context heavy, this run follows executable orchestration.",
+          "usefulness": "Model Buildn run packets with explicit route, evidence, and outcome scores."
+        },
+        {
+          "title": "Infinity explores extreme agent concurrency",
+          "url": "https://aws.amazon.com/blogs/opensource/introducing-infinity-a-runtime-for-extreme-agent-concurrency/",
+          "source_type": "runtime",
+          "published_or_updated": "2026-10-23",
+          "why_selected": "Fresh infrastructure signal; last covered infrastructure was database/context heavy, this run follows executable orchestration.",
+          "usefulness": "Use the idea for parallel source triage or UI variant generation, not unbounded production autonomy."
+        },
+        {
+          "title": "Agent memory moves into ordinary storage controls",
+          "url": "https://aws.amazon.com/blogs/machine-learning/build-agent-memory-with-nvidia-nemo-agent-toolkit-and-amazon-s3-vectors/",
+          "source_type": "reference architecture",
+          "published_or_updated": "2026-10",
+          "why_selected": "Fresh infrastructure signal; last covered infrastructure was database/context heavy, this run follows executable orchestration.",
+          "usefulness": "Adapt the IAM/resource pattern for evidence-backed dossier memory."
+        },
+        {
+          "title": "Durable remediation keeps approval inside the workflow",
+          "url": "https://aws.amazon.com/blogs/machine-learning/automate-remediation-post-aws-devops-agent-investigation/",
+          "source_type": "reference architecture",
+          "published_or_updated": "2026-10",
+          "why_selected": "Fresh infrastructure signal; last covered infrastructure was database/context heavy, this run follows executable orchestration.",
+          "usefulness": "Borrow the suspend, approve, execute, verify sequence for high-impact Buildn actions."
+        }
+      ]
+    },
+    {
+      "slug": "design-to-delivery",
+      "title": "Design-to-Delivery + Agentic Craft",
+      "selection_rationale": "Coverage gap in current run; design was last selected on 2026-10-23, so this follows a material design-system update.",
+      "sources": [
+        {
+          "title": "Design-system upkeep becomes agent work",
+          "url": "https://www.figma.com/blog/how-to-put-your-design-system-to-work-with-the-figma-agent/",
+          "source_type": "product workflow",
+          "published_or_updated": "2026-10-22",
+          "why_selected": "Coverage gap in current run; design was last selected on 2026-10-23, so this follows a material design-system update.",
+          "usefulness": "Turn Buildn report components, tokens, and review criteria into agent-readable design context."
+        },
+        {
+          "title": "Figma skills turn repeatable design judgment into tools",
+          "url": "https://www.figma.com/blog/try-these-10-skills-and-show-off-your-own/",
+          "source_type": "product workflow",
+          "published_or_updated": "2026-10",
+          "why_selected": "Coverage gap in current run; design was last selected on 2026-10-23, so this follows a material design-system update.",
+          "usefulness": "Define client-specific skills for accessibility checks, token audits, copy constraints, and handoff summaries."
+        },
+        {
+          "title": "The canvas becomes a feedback surface",
+          "url": "https://www.figma.com/blog/3-ways-product-designers-use-the-figma-agent/",
+          "source_type": "workflow",
+          "published_or_updated": "2026-10-06",
+          "why_selected": "Coverage gap in current run; design was last selected on 2026-10-23, so this follows a material design-system update.",
+          "usefulness": "Use artifact-attached comments and evidence in client review packets."
+        },
+        {
+          "title": "Design review stays attached to the artifact",
+          "url": "https://www.figma.com/blog/workflow-lab-staying-in-the-flow-with-the-figma-agent/",
+          "source_type": "workflow",
+          "published_or_updated": "2026-10-06",
+          "why_selected": "Coverage gap in current run; design was last selected on 2026-10-23, so this follows a material design-system update.",
+          "usefulness": "Revisit where Buildn artifacts should be interactive canvases versus static reports."
+        }
+      ]
+    },
+    {
+      "slug": "agent-security-identity",
+      "title": "Agent Security + Identity",
+      "selection_rationale": "Security remains important but avoids yesterday’s frontier-training theme by focusing on access defaults, scanning, and authorized audit behavior.",
+      "sources": [
+        {
+          "title": "Global defaults turn AI controls into policy",
+          "url": "https://github.blog/changelog/2026-10-22-global-default-for-copilot-features-generally-available/",
+          "source_type": "policy release",
+          "published_or_updated": "2026-10-22",
+          "why_selected": "Security remains important but avoids yesterday’s frontier-training theme by focusing on access defaults, scanning, and authorized audit behavior.",
+          "usefulness": "Add explicit default-on/default-off decisions to client agent rollout plans."
+        },
+        {
+          "title": "Automated remediation keeps a human gate",
+          "url": "https://aws.amazon.com/blogs/machine-learning/automate-remediation-post-aws-devops-agent-investigation/",
+          "source_type": "security architecture",
+          "published_or_updated": "2026-10",
+          "why_selected": "Security remains important but avoids yesterday’s frontier-training theme by focusing on access defaults, scanning, and authorized audit behavior.",
+          "usefulness": "Treat approval payloads and verification output as evidence in a governed delivery packet."
+        },
+        {
+          "title": "Security-audit skills make authorization part of the tool",
+          "url": "https://github.com/cloudflare/security-audit-skill",
+          "source_type": "open-source tool",
+          "published_or_updated": "2026-10",
+          "why_selected": "Security remains important but avoids yesterday’s frontier-training theme by focusing on access defaults, scanning, and authorized audit behavior.",
+          "usefulness": "Borrow the preflight pattern for Buildn tools that inspect client systems or artifacts."
+        },
+        {
+          "title": "Ephemeral supply-chain tampering makes provenance urgent",
+          "url": "https://cloud.google.com/blog/topics/threat-intelligence/investigating-ephemeral-supply-chain-tampering",
+          "source_type": "threat intelligence",
+          "published_or_updated": "2026-10",
+          "why_selected": "Security remains important but avoids yesterday’s frontier-training theme by focusing on access defaults, scanning, and authorized audit behavior.",
+          "usefulness": "Add source provenance, checksum, and review status to Buildn skill/tool intake."
+        }
+      ]
+    },
+    {
+      "slug": "robotic-agent-systems",
+      "title": "Robotic + Physical Agent Systems",
+      "selection_rationale": "Coverage gap: physical AI was last selected on 2026-08-27; today’s signal is practical agent loops and small hardware rather than simulation hype.",
+      "sources": [
+        {
+          "title": "ABot-AgentOS treats robotics as a lifelong loop",
+          "url": "https://arxiv.org/html/2607.10350v1",
+          "source_type": "paper",
+          "published_or_updated": "2026-07",
+          "why_selected": "Coverage gap: physical AI was last selected on 2026-08-27; today’s signal is practical agent loops and small hardware rather than simulation hype.",
+          "usefulness": "Apply the loop to browser or workflow agents: observe, remember, act, verify, adapt."
+        },
+        {
+          "title": "A tiny robot makes embodied prototyping approachable",
+          "url": "https://github.com/pollen-robotics/microduck",
+          "source_type": "repository",
+          "published_or_updated": "2026-10",
+          "why_selected": "Coverage gap: physical AI was last selected on 2026-08-27; today’s signal is practical agent loops and small hardware rather than simulation hype.",
+          "usefulness": "Use as a weekend exploration for sensor-action loops and agent-readable telemetry."
+        },
+        {
+          "title": "Robotics research is clustering around agentic evaluation",
+          "url": "https://arxiv.org/list/cs.RO/recent",
+          "source_type": "research index",
+          "published_or_updated": "2026-10-23",
+          "why_selected": "Coverage gap: physical AI was last selected on 2026-08-27; today’s signal is practical agent loops and small hardware rather than simulation hype.",
+          "usefulness": "Borrow scenario-based evaluation for client automations that face changing inputs."
+        },
+        {
+          "title": "Embodied systems expose hidden state requirements",
+          "url": "https://arxiv.org/html/2607.10350v1",
+          "source_type": "editorial synthesis",
+          "published_or_updated": "2026-10-26",
+          "why_selected": "Coverage gap: physical AI was last selected on 2026-08-27; today’s signal is practical agent loops and small hardware rather than simulation hype.",
+          "usefulness": "Add state checkpoints and recovery semantics to Buildn’s delegated work patterns."
+        }
+      ]
+    }
+  ]
+}

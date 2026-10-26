@@ -1,6 +1,76 @@
 {
-  "updated_at": "2026-10-25T09:01:14.141254+00:00",
+  "updated_at": "2026-10-26T09:02:45.016836+00:00",
   "sources": {
+    "https://aws.amazon.com/blogs/machine-learning/building-trust-in-ai-agents-a-production-ready-evaluation-framework-with-amazon-bedrock-agentcore": {
+      "first_seen": "2026-10-26",
+      "last_seen": "2026-10-26",
+      "title": "Production evaluation makes orchestration measurable"
+    },
+    "https://aws.amazon.com/blogs/opensource/introducing-infinity-a-runtime-for-extreme-agent-concurrency": {
+      "first_seen": "2026-10-26",
+      "last_seen": "2026-10-26",
+      "title": "Infinity explores extreme agent concurrency"
+    },
+    "https://aws.amazon.com/blogs/machine-learning/build-agent-memory-with-nvidia-nemo-agent-toolkit-and-amazon-s3-vectors": {
+      "first_seen": "2026-10-26",
+      "last_seen": "2026-10-26",
+      "title": "Agent memory moves into ordinary storage controls"
+    },
+    "https://aws.amazon.com/blogs/machine-learning/automate-remediation-post-aws-devops-agent-investigation": {
+      "first_seen": "2026-10-26",
+      "last_seen": "2026-10-26",
+      "title": "Automated remediation keeps a human gate"
+    },
+    "https://www.figma.com/blog/how-to-put-your-design-system-to-work-with-the-figma-agent": {
+      "first_seen": "2026-10-26",
+      "last_seen": "2026-10-26",
+      "title": "Design-system upkeep becomes agent work"
+    },
+    "https://www.figma.com/blog/try-these-10-skills-and-show-off-your-own": {
+      "first_seen": "2026-10-26",
+      "last_seen": "2026-10-26",
+      "title": "Figma skills turn repeatable design judgment into tools"
+    },
+    "https://www.figma.com/blog/3-ways-product-designers-use-the-figma-agent": {
+      "first_seen": "2026-10-26",
+      "last_seen": "2026-10-26",
+      "title": "The canvas becomes a feedback surface"
+    },
+    "https://www.figma.com/blog/workflow-lab-staying-in-the-flow-with-the-figma-agent": {
+      "first_seen": "2026-10-26",
+      "last_seen": "2026-10-23",
+      "title": "Workflow Lab: Staying in the Flow with Figma\u2019s Agent"
+    },
+    "https://github.blog/changelog/2026-10-22-global-default-for-copilot-features-generally-available": {
+      "first_seen": "2026-10-26",
+      "last_seen": "2026-10-26",
+      "title": "Global defaults turn AI controls into policy"
+    },
+    "https://github.com/cloudflare/security-audit-skill": {
+      "first_seen": "2026-10-26",
+      "last_seen": "2026-10-26",
+      "title": "Security-audit skills make authorization part of the tool"
+    },
+    "https://cloud.google.com/blog/topics/threat-intelligence/investigating-ephemeral-supply-chain-tampering": {
+      "first_seen": "2026-10-26",
+      "last_seen": "2026-10-26",
+      "title": "Ephemeral supply-chain tampering makes provenance urgent"
+    },
+    "https://arxiv.org/html/2607.10350v1": {
+      "first_seen": "2026-10-26",
+      "last_seen": "2026-10-26",
+      "title": "Embodied systems expose hidden state requirements"
+    },
+    "https://github.com/pollen-robotics/microduck": {
+      "first_seen": "2026-10-26",
+      "last_seen": "2026-10-26",
+      "title": "A tiny robot makes embodied prototyping approachable"
+    },
+    "https://arxiv.org/list/cs.RO/recent": {
+      "first_seen": "2026-10-26",
+      "last_seen": "2026-10-26",
+      "title": "Robotics research is clustering around agentic evaluation"
+    },
     "https://openai.com/index/securing-our-frontier-model-training-environment": {
       "first_seen": "2026-10-25",
       "last_seen": "2026-10-25",
@@ -160,11 +230,6 @@
       "first_seen": "2026-10-23",
       "last_seen": "2026-10-23",
       "title": "How to Lighten Design System Upkeep With the Figma Agent"
-    },
-    "https://www.figma.com/blog/workflow-lab-staying-in-the-flow-with-the-figma-agent": {
-      "first_seen": "2026-10-23",
-      "last_seen": "2026-10-23",
-      "title": "Workflow Lab: Staying in the Flow with Figma\u2019s Agent"
     },
     "https://arxiv.org/html/2610.30573": {
       "first_seen": "2026-10-23",
