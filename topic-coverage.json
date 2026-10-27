@@ -170,7 +170,7 @@
     },
     "agent-adoption-measurement": {
       "title": "Agent Adoption + Outcome Measurement",
-      "times_covered": 2,
+      "times_covered": 5,
       "last_covered": "2026-09-18"
     },
     "mcp-portability": {
@@ -510,7 +510,7 @@
     },
     "agent-security-control-plane": {
       "title": "Agent Security Control Plane",
-      "times_covered": 2,
+      "times_covered": 4,
       "last_covered": "2026-09-14"
     },
     "local-first-knowledge-ops": {
@@ -843,7 +843,7 @@
     },
     "agentic-dev-environments": {
       "title": "Agentic Development Environments",
-      "times_covered": 2,
+      "times_covered": 4,
       "last_covered": "2026-09-14"
     },
     "privacy-first-user-control": {
@@ -917,62 +917,62 @@
     },
     "agent-native-web-and-runtime": {
       "title": "Agent-Native Web + Runtime",
-      "times_covered": 1,
+      "times_covered": 4,
       "last_covered": "2026-09-13"
     },
     "developer-workflow-portability": {
       "title": "Developer Workflow Portability",
-      "times_covered": 1,
+      "times_covered": 4,
       "last_covered": "2026-09-13"
     },
     "agent-research-and-memory": {
       "title": "Agent Research + Memory",
-      "times_covered": 1,
+      "times_covered": 4,
       "last_covered": "2026-09-13"
     },
     "privacy-first-mobile-and-edge": {
       "title": "Privacy-First Mobile + Edge",
-      "times_covered": 1,
+      "times_covered": 4,
       "last_covered": "2026-09-13"
     },
     "physical-ai-evaluation": {
       "title": "Physical AI Evaluation + Open Tooling",
-      "times_covered": 1,
+      "times_covered": 4,
       "last_covered": "2026-09-14"
     },
     "ai-spend-and-outcomes": {
       "title": "AI Spend + Outcome Controls",
-      "times_covered": 1,
+      "times_covered": 5,
       "last_covered": "2026-09-17"
     },
     "model-misalignment-reporting": {
       "title": "Model Misalignment Reporting",
-      "times_covered": 1,
+      "times_covered": 3,
       "last_covered": "2026-09-17"
     },
     "realtime-voice-interfaces": {
       "title": "Realtime Voice Interfaces",
-      "times_covered": 2,
+      "times_covered": 8,
       "last_covered": "2026-09-23"
     },
     "ai-native-advertising": {
       "title": "AI-Native Advertising + Commerce",
-      "times_covered": 1,
+      "times_covered": 4,
       "last_covered": "2026-09-17"
     },
     "evaluation-sandboxes": {
       "title": "Evaluation Sandboxes + Reproducible Trials",
-      "times_covered": 1,
+      "times_covered": 5,
       "last_covered": "2026-09-18"
     },
     "portable-agent-skills": {
       "title": "Portable Agent Skills + Knowledge Workspaces",
-      "times_covered": 1,
+      "times_covered": 5,
       "last_covered": "2026-09-18"
     },
     "agent-ready-web-and-specialized-workflows": {
       "title": "Agent-Ready Web + Specialized Workflows",
-      "times_covered": 1,
+      "times_covered": 5,
       "last_covered": "2026-09-18"
     },
     "agentic-delivery-surfaces": {
@@ -1022,62 +1022,62 @@
     },
     "model-choice-and-evidence": {
       "title": "Model Choice + Evidence",
-      "times_covered": 1,
+      "times_covered": 5,
       "last_covered": "2026-09-23"
     },
     "human-centered-ai-controls": {
       "title": "Human-Centered AI Controls",
-      "times_covered": 1,
+      "times_covered": 5,
       "last_covered": "2026-09-23"
     },
     "agent-oversight-and-security": {
       "title": "Agent Oversight + Security Operations",
-      "times_covered": 1,
+      "times_covered": 5,
       "last_covered": "2026-09-24"
     },
     "portable-agent-developer-surfaces": {
       "title": "Portable Agent Developer Surfaces",
-      "times_covered": 1,
+      "times_covered": 5,
       "last_covered": "2026-09-24"
     },
     "human-agent-boundaries": {
       "title": "Human–Agent Boundaries",
-      "times_covered": 1,
+      "times_covered": 5,
       "last_covered": "2026-09-24"
     },
     "governed-agent-rollouts": {
       "title": "Governed Agent Rollouts",
-      "times_covered": 1,
+      "times_covered": 3,
       "last_covered": "2026-09-25"
     },
     "contestable-agent-evidence": {
       "title": "Contestable Agent Evidence",
-      "times_covered": 1,
+      "times_covered": 3,
       "last_covered": "2026-09-25"
     },
     "agentic-physical-systems": {
       "title": "Agentic Physical Systems",
-      "times_covered": 1,
+      "times_covered": 2,
       "last_covered": "2026-09-25"
     },
     "agentic-developer-surfaces": {
       "title": "Agentic Developer Surfaces",
-      "times_covered": 5,
+      "times_covered": 9,
       "last_covered": "2026-10-02"
     },
     "agent-systems-evals": {
       "title": "Agent Systems + Evaluation Science",
-      "times_covered": 1,
+      "times_covered": 4,
       "last_covered": "2026-09-26"
     },
     "agentic-security-defense": {
       "title": "Agentic Security + Defense",
-      "times_covered": 1,
+      "times_covered": 5,
       "last_covered": "2026-09-26"
     },
     "ai-native-operator-workflows": {
       "title": "AI-Native Operator Workflows",
-      "times_covered": 1,
+      "times_covered": 5,
       "last_covered": "2026-09-26"
     },
     "agentic-cyber-defense": {
@@ -1147,22 +1147,22 @@
     },
     "agent-app-surfaces": {
       "title": "Agent App Surfaces",
-      "times_covered": 1,
+      "times_covered": 3,
       "last_covered": "2026-10-03"
     },
     "agentic-review-delivery": {
       "title": "Agentic Review + Delivery",
-      "times_covered": 1,
+      "times_covered": 4,
       "last_covered": "2026-10-03"
     },
     "open-local-ai": {
       "title": "Open + Local AI Tooling",
-      "times_covered": 1,
+      "times_covered": 4,
       "last_covered": "2026-10-03"
     },
     "durable-agent-infrastructure": {
       "title": "Durable Agent Infrastructure",
-      "times_covered": 1,
+      "times_covered": 4,
       "last_covered": "2026-10-03"
     },
     "agent-runtime-safety": {
@@ -1200,19 +1200,19 @@
     },
     "agent-decision-models": {
       "title": "Decision Models + Agent Control Paths",
-      "times_covered": 1,
+      "times_covered": 5,
       "last_covered": "2026-10-06",
       "last_selection_rationale": "The new practical seam is not another general model: it is a small, typed decision gate that can route, block, or escalate work before a larger agent spends latency or gains authority."
     },
     "agent-browser-tooling": {
       "title": "Agent Browser Tooling + Evidence Loops",
-      "times_covered": 1,
+      "times_covered": 5,
       "last_covered": "2026-10-06",
       "last_selection_rationale": "Browser automation is becoming less about clicking faster and more about giving agents a constrained inspection surface: performance, network, and state evidence before they propose a change."
     },
     "consented-group-agents": {
       "title": "Shared Agents Need Consent Boundaries",
-      "times_covered": 1,
+      "times_covered": 5,
       "last_covered": "2026-10-06",
       "last_selection_rationale": "The interesting product move is an agent entering a group conversation without every participant having an account; the hard part is not access, but making private context exchange explicit, revocable, and legible."
     },
@@ -1238,17 +1238,17 @@
     },
     "local-model-choice": {
       "title": "Local Model Choice + Provider Portability",
-      "times_covered": 1,
+      "times_covered": 5,
       "last_covered": "2026-10-08"
     },
     "agent-execution-boundaries": {
       "title": "Agent Execution Boundaries",
-      "times_covered": 1,
+      "times_covered": 5,
       "last_covered": "2026-10-08"
     },
     "secret-detection-at-the-boundary": {
       "title": "Secret Detection at the Boundary",
-      "times_covered": 1,
+      "times_covered": 5,
       "last_covered": "2026-10-08"
     },
     "enterprise-agent-operations": {
@@ -1358,19 +1358,19 @@
     },
     "long-horizon-agent-operations": {
       "title": "Long-Horizon Agent Operations",
-      "times_covered": 1,
+      "times_covered": 4,
       "last_covered": "2026-10-15",
       "last_selection_rationale": "The differentiator is resumable, supervised work at day scale."
     },
     "agent-trust-economics": {
       "title": "Agent Trust + Unit Economics",
-      "times_covered": 1,
+      "times_covered": 3,
       "last_covered": "2026-10-15",
       "last_selection_rationale": "Production value is bounded by review cost, spend, and evidence."
     },
     "cyber-defense-operations": {
       "title": "AI-Assisted Cyber Defense Operations",
-      "times_covered": 1,
+      "times_covered": 4,
       "last_covered": "2026-10-15",
       "last_selection_rationale": "Defensive automation works when evidence, replay, and accountability stay explicit."
     },
@@ -1441,19 +1441,19 @@
     },
     "agentic-engineering-systems": {
       "title": "Agentic Engineering Systems",
-      "times_covered": 1,
+      "times_covered": 5,
       "last_covered": "2026-10-20",
       "last_selection_rationale": "Fresh enterprise signal shifts the unit of adoption from model choice to governed engineering systems, with orchestration, cross-surface workflows, and explicit outcome measurement."
     },
     "memory-as-control-plane": {
       "title": "Memory as a Control Plane",
-      "times_covered": 1,
+      "times_covered": 5,
       "last_covered": "2026-10-20",
       "last_selection_rationale": "The freshest memory research is moving beyond recall quality toward provenance, source-family deduplication, variable context budgets, and procedural-personal memory separation."
     },
     "defensive-agent-evaluation": {
       "title": "Defensive Agent Evaluation",
-      "times_covered": 1,
+      "times_covered": 5,
       "last_covered": "2026-10-20",
       "last_selection_rationale": "New security research is making defense measurable: hidden vulnerabilities, cross-session artifacts, and attack-resistant harness behavior are becoming separate test surfaces."
     },
@@ -1560,6 +1560,26 @@
       "title": "Robotic + Physical Agent Systems",
       "times_covered": 2,
       "last_covered": "2026-10-26"
+    },
+    "agent-boundaries-and-supply-chain": {
+      "title": "Agent Boundaries + Supply Chain",
+      "times_covered": 1,
+      "last_covered": "2026-10-27"
+    },
+    "agent-interoperability-and-product-surfaces": {
+      "title": "Agent Interoperability + Product Surfaces",
+      "times_covered": 1,
+      "last_covered": "2026-10-27"
+    },
+    "embodied-memory-and-evidence": {
+      "title": "Embodied Memory + Evidence",
+      "times_covered": 1,
+      "last_covered": "2026-10-27"
+    },
+    "developer-workflow-feedback": {
+      "title": "Developer Workflow + Feedback",
+      "times_covered": 1,
+      "last_covered": "2026-10-27"
     }
   },
   "item_history": [
@@ -4519,6 +4539,143 @@
         }
       ],
       "selection_rationale": "Coverage gap: physical AI was last selected on 2026-08-27; today’s signal is practical agent loops and small hardware rather than simulation hype."
+    },
+    {
+      "date": "2026-10-27",
+      "topic": "agent-boundaries-and-supply-chain",
+      "title": "Agent Boundaries + Supply Chain",
+      "items": [
+        {
+          "title": "Local sandboxing for GitHub Copilot",
+          "url": "https://github.blog/changelog/2026-10-07-local-sandboxing-for-github-copilot-now-generally-available",
+          "source_type": "release"
+        },
+        {
+          "title": "GitHub package firewall",
+          "url": "https://github.blog/changelog/2026-10-20-github-package-firewall-in-public-preview",
+          "source_type": "release"
+        },
+        {
+          "title": "AI Scan for pull requests",
+          "url": "https://github.blog/changelog/2026-10-15-ai-scan-for-pull-requests-generally-available",
+          "source_type": "release"
+        },
+        {
+          "title": "Agentic autofix for code scanning",
+          "url": "https://github.blog/changelog/2026-10-15-agentic-autofix-for-code-scanning-alerts-general-availability",
+          "source_type": "release"
+        },
+        {
+          "title": "Expiring, auto-refreshing GitHub CLI credentials",
+          "url": "https://github.blog/changelog/2026-10-21-github-cli-opt-in-to-expiring-auto-refreshing-oauth-tokens",
+          "source_type": "release"
+        },
+        {
+          "title": "GitHub Copilot assisted permissions",
+          "url": "https://github.blog/changelog/2026-10-26-github-copilot-assisted-permissions-generally-available",
+          "source_type": "release"
+        }
+      ],
+      "selection_rationale": "Fresh enforcement signal after yesterday’s broader security lane: these releases turn agent autonomy into explicit local, package, credential, and review boundaries."
+    },
+    {
+      "date": "2026-10-27",
+      "topic": "agent-interoperability-and-product-surfaces",
+      "title": "Agent Interoperability + Product Surfaces",
+      "items": [
+        {
+          "title": "Notion connected 160 apps in three weeks",
+          "url": "https://www.notion.com/blog/how-we-connected-notion-ai-to-160-new-apps-in-three-weeks",
+          "source_type": "case study"
+        },
+        {
+          "title": "Figma Weave models via Figma MCP",
+          "url": "https://www.figma.com/release-notes/",
+          "source_type": "product update"
+        },
+        {
+          "title": "Agentic Resource Discovery specification",
+          "url": "https://developers.googleblog.com/announcing-the-agentic-resource-discovery-specification/",
+          "source_type": "specification"
+        },
+        {
+          "title": "A2A moves to the Linux Foundation",
+          "url": "https://developers.googleblog.com/en/google-cloud-donates-a2a-to-linux-foundation/",
+          "source_type": "ecosystem update"
+        },
+        {
+          "title": "ADK for Kotlin 1.0",
+          "url": "https://developers.googleblog.com/announcing-adk-for-kotlin-10-building-production-ready-ai-agents-in-kotlin-android-and-beyond/",
+          "source_type": "release"
+        }
+      ],
+      "selection_rationale": "A coverage gap in cross-tool delivery: fresh interoperability and admin surfaces show where agent value is moving from chat into connected systems."
+    },
+    {
+      "date": "2026-10-27",
+      "topic": "embodied-memory-and-evidence",
+      "title": "Embodied Memory + Evidence",
+      "items": [
+        {
+          "title": "MeMoREval benchmark",
+          "url": "https://arxiv.org/html/2610.12561v1",
+          "source_type": "paper"
+        },
+        {
+          "title": "MeMoREval code",
+          "url": "https://github.com/jimwang418/MeMoREval",
+          "source_type": "repository"
+        },
+        {
+          "title": "Frames plus scene graphs",
+          "url": "https://arxiv.org/html/2610.12561v1#S6",
+          "source_type": "finding"
+        },
+        {
+          "title": "Open-loop action requests",
+          "url": "https://arxiv.org/html/2610.12561v1#S4.F1",
+          "source_type": "method"
+        },
+        {
+          "title": "Inference cost as a memory metric",
+          "url": "https://arxiv.org/html/2610.12561v1#S5",
+          "source_type": "finding"
+        }
+      ],
+      "selection_rationale": "Physical AI has been quiet in recent coverage; this fresh benchmark is useful beyond robotics because it isolates what retained evidence actually enables later action."
+    },
+    {
+      "date": "2026-10-27",
+      "topic": "developer-workflow-feedback",
+      "title": "Developer Workflow + Feedback",
+      "items": [
+        {
+          "title": "Stacked pull requests in Linear Diffs",
+          "url": "https://linear.app/changelog/2026-10-08-stacked-pull-requests",
+          "source_type": "product update"
+        },
+        {
+          "title": "More ways to run and share Linear Loops",
+          "url": "https://linear.app/changelog/2026-10-22-slack-and-github-loops",
+          "source_type": "product update"
+        },
+        {
+          "title": "Cloudflare evidence-grounded security harness",
+          "url": "https://blog.cloudflare.com/agentic-security-operations/",
+          "source_type": "security workflow"
+        },
+        {
+          "title": "Streaming in API Gateway",
+          "url": "https://developers.googleblog.com/streaming-comes-to-api-gateway-real-time-and-ai-ready-apis-without-changing-your-spec/",
+          "source_type": "release"
+        },
+        {
+          "title": "Copilot weekly releases: local models and agent sessions",
+          "url": "https://github.blog/changelog/2026-10-09-github-copilot-weekly-releases-october-5/",
+          "source_type": "release"
+        }
+      ],
+      "selection_rationale": "A practical developer-tools lane fills a gap after several infrastructure-heavy days: current releases make agent work more visible, mergeable, and measurable."
     }
   ],
   "runs": [
@@ -7244,9 +7401,9 @@
       "selection_rationale": "Trustworthy agent adoption now depends on process evidence, model-independent runtime boundaries, and a human-owned defensive response loop."
     }
   ],
-  "updated_at": "2026-10-26T09:00:32+00:00",
-  "last_run": "2026-10-25",
-  "last_editorial_thesis": "Agents become useful when security, consent, measurement, and durable infrastructure are designed as one operating system.",
+  "updated_at": "2026-10-27T09:03:00+00:00",
+  "last_run": "2026-10-27",
+  "last_editorial_thesis": "Agents become useful when boundaries, connectors, memory, and feedback are designed as one inspectable operating system—not as isolated capability demos.",
   "coverage_history": [
     {
       "date": "2026-09-13",
@@ -18797,6 +18954,16 @@
         "agent-ready-infrastructure"
       ],
       "thesis": "Agents become useful when security, consent, measurement, and durable infrastructure are designed as one operating system."
+    },
+    {
+      "date": "2026-10-27",
+      "lanes": [
+        "agent-boundaries-and-supply-chain",
+        "agent-interoperability-and-product-surfaces",
+        "embodied-memory-and-evidence",
+        "developer-workflow-feedback"
+      ],
+      "thesis": "Agents become useful when boundaries, connectors, memory, and feedback are designed as one inspectable operating system—not as isolated capability demos."
     }
   ]
 }

@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-10-26T09:02:45.016836+00:00",
+  "updated_at": "2026-10-27T09:03:10.906550+00:00",
   "days": [
+    {
+      "date": "2026-10-27",
+      "path": "2026-10-27",
+      "reports": [
+        {
+          "lane": "agent-boundaries-and-supply-chain",
+          "title": "Agent Boundaries + Supply Chain",
+          "url": "2026-10-27/agent-boundaries-and-supply-chain.html"
+        },
+        {
+          "lane": "agent-interoperability-and-product-surfaces",
+          "title": "Agent Interoperability + Product Surfaces",
+          "url": "2026-10-27/agent-interoperability-and-product-surfaces.html"
+        },
+        {
+          "lane": "embodied-memory-and-evidence",
+          "title": "Embodied Memory + Evidence",
+          "url": "2026-10-27/embodied-memory-and-evidence.html"
+        },
+        {
+          "lane": "developer-workflow-feedback",
+          "title": "Developer Workflow + Feedback",
+          "url": "2026-10-27/developer-workflow-feedback.html"
+        }
+      ]
+    },
     {
       "date": "2026-10-26",
       "path": "2026-10-26",

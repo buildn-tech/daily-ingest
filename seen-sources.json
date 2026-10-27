@@ -1,6 +1,96 @@
 {
-  "updated_at": "2026-10-26T09:02:45.016836+00:00",
+  "updated_at": "2026-10-27T09:03:10.906550+00:00",
   "sources": {
+    "https://github.blog/changelog/2026-10-07-local-sandboxing-for-github-copilot-now-generally-available": {
+      "first_seen": "2026-10-27",
+      "last_seen": "2026-10-08",
+      "title": "Local sandboxing for GitHub Copilot now generally available"
+    },
+    "https://github.blog/changelog/2026-10-20-github-package-firewall-in-public-preview": {
+      "first_seen": "2026-10-27",
+      "last_seen": "2026-10-27",
+      "title": "GitHub package firewall"
+    },
+    "https://github.blog/changelog/2026-10-15-ai-scan-for-pull-requests-generally-available": {
+      "first_seen": "2026-10-27",
+      "last_seen": "2026-10-16",
+      "title": "AI Scan for pull requests"
+    },
+    "https://github.blog/changelog/2026-10-15-agentic-autofix-for-code-scanning-alerts-general-availability": {
+      "first_seen": "2026-10-27",
+      "last_seen": "2026-10-16",
+      "title": "Agentic autofix for code scanning alerts"
+    },
+    "https://github.blog/changelog/2026-10-21-github-cli-opt-in-to-expiring-auto-refreshing-oauth-tokens": {
+      "first_seen": "2026-10-27",
+      "last_seen": "2026-10-27",
+      "title": "Expiring, auto-refreshing GitHub CLI credentials"
+    },
+    "https://github.blog/changelog/2026-10-26-github-copilot-assisted-permissions-generally-available": {
+      "first_seen": "2026-10-27",
+      "last_seen": "2026-10-27",
+      "title": "GitHub Copilot assisted permissions"
+    },
+    "https://www.notion.com/blog/how-we-connected-notion-ai-to-160-new-apps-in-three-weeks": {
+      "first_seen": "2026-10-27",
+      "last_seen": "2026-10-27",
+      "title": "Notion connected 160 apps in three weeks"
+    },
+    "https://www.figma.com/release-notes": {
+      "first_seen": "2026-10-27",
+      "last_seen": "2026-08-10",
+      "title": "Figma product news and release notes"
+    },
+    "https://developers.googleblog.com/announcing-the-agentic-resource-discovery-specification": {
+      "first_seen": "2026-10-27",
+      "last_seen": "2026-10-27",
+      "title": "Agentic Resource Discovery specification"
+    },
+    "https://developers.googleblog.com/en/google-cloud-donates-a2a-to-linux-foundation": {
+      "first_seen": "2026-10-27",
+      "last_seen": "2026-10-27",
+      "title": "A2A moves to the Linux Foundation"
+    },
+    "https://developers.googleblog.com/announcing-adk-for-kotlin-10-building-production-ready-ai-agents-in-kotlin-android-and-beyond": {
+      "first_seen": "2026-10-27",
+      "last_seen": "2026-09-21",
+      "title": "ADK for Kotlin 1.0"
+    },
+    "https://arxiv.org/html/2610.12561v1": {
+      "first_seen": "2026-10-27",
+      "last_seen": "2026-10-14",
+      "title": "Memory modality is a product choice"
+    },
+    "https://github.com/jimwang418/MeMoREval": {
+      "first_seen": "2026-10-27",
+      "last_seen": "2026-10-27",
+      "title": "MeMoREval code"
+    },
+    "https://linear.app/changelog/2026-10-08-stacked-pull-requests": {
+      "first_seen": "2026-10-27",
+      "last_seen": "2026-10-27",
+      "title": "Stacked pull requests in Linear Diffs"
+    },
+    "https://linear.app/changelog/2026-10-22-slack-and-github-loops": {
+      "first_seen": "2026-10-27",
+      "last_seen": "2026-10-27",
+      "title": "More ways to run and share Linear Loops"
+    },
+    "https://blog.cloudflare.com/agentic-security-operations": {
+      "first_seen": "2026-10-27",
+      "last_seen": "2026-10-27",
+      "title": "Cloudflare evidence-grounded security harness"
+    },
+    "https://developers.googleblog.com/streaming-comes-to-api-gateway-real-time-and-ai-ready-apis-without-changing-your-spec": {
+      "first_seen": "2026-10-27",
+      "last_seen": "2026-10-27",
+      "title": "Streaming in API Gateway"
+    },
+    "https://github.blog/changelog/2026-10-09-github-copilot-weekly-releases-october-5": {
+      "first_seen": "2026-10-27",
+      "last_seen": "2026-10-10",
+      "title": "GitHub Copilot weekly releases \u2014 October 5"
+    },
     "https://aws.amazon.com/blogs/machine-learning/building-trust-in-ai-agents-a-production-ready-evaluation-framework-with-amazon-bedrock-agentcore": {
       "first_seen": "2026-10-26",
       "last_seen": "2026-10-26",
@@ -251,11 +341,6 @@
       "last_seen": "2026-10-23",
       "title": "DyadMem: A Long-Term Memory Benchmark of How Agents Work with Users"
     },
-    "https://arxiv.org/html/2610.12561v1": {
-      "first_seen": "2026-10-23",
-      "last_seen": "2026-10-14",
-      "title": "Memory modality is a product choice"
-    },
     "https://arxiv.org/html/2610.21109": {
       "first_seen": "2026-10-22",
       "last_seen": "2026-10-22",
@@ -275,16 +360,6 @@
       "first_seen": "2026-10-22",
       "last_seen": "2026-08-22",
       "title": "Introducing AgentKit"
-    },
-    "https://github.blog/changelog/2026-10-07-local-sandboxing-for-github-copilot-now-generally-available": {
-      "first_seen": "2026-10-22",
-      "last_seen": "2026-10-08",
-      "title": "Local sandboxing for GitHub Copilot now generally available"
-    },
-    "https://github.blog/changelog/2026-10-09-github-copilot-weekly-releases-october-5": {
-      "first_seen": "2026-10-22",
-      "last_seen": "2026-10-10",
-      "title": "GitHub Copilot weekly releases \u2014 October 5"
     },
     "https://github.blog/changelog/2026-10-06-update-your-ide-to-restore-agent-activity-in-copilot-usage-metrics": {
       "first_seen": "2026-10-22",
@@ -575,16 +650,6 @@
       "first_seen": "2026-10-17",
       "last_seen": "2026-10-17",
       "title": "Anthropic independent evaluators"
-    },
-    "https://github.blog/changelog/2026-10-15-ai-scan-for-pull-requests-generally-available": {
-      "first_seen": "2026-10-16",
-      "last_seen": "2026-10-16",
-      "title": "AI Scan for pull requests"
-    },
-    "https://github.blog/changelog/2026-10-15-agentic-autofix-for-code-scanning-alerts-general-availability": {
-      "first_seen": "2026-10-16",
-      "last_seen": "2026-10-16",
-      "title": "Agentic autofix for code scanning alerts"
     },
     "https://github.blog/changelog/2026-10-15-download-github-code-quality-license-usage-as-a-csv": {
       "first_seen": "2026-10-16",
@@ -1860,11 +1925,6 @@
       "first_seen": "2026-09-21",
       "last_seen": "2026-09-21",
       "title": "The Anatomy of Harness Engineering"
-    },
-    "https://developers.googleblog.com/announcing-adk-for-kotlin-10-building-production-ready-ai-agents-in-kotlin-android-and-beyond": {
-      "first_seen": "2026-09-21",
-      "last_seen": "2026-09-21",
-      "title": "ADK for Kotlin 1.0"
     },
     "https://developers.googleblog.com/announcing-genkit-go-10-and-enhanced-ai-assisted-development": {
       "first_seen": "2026-09-21",
@@ -3740,11 +3800,6 @@
       "first_seen": "2026-08-14",
       "last_seen": "2026-08-14",
       "title": "CSA 2026 Top Cloud Threats Report"
-    },
-    "https://www.figma.com/release-notes": {
-      "first_seen": "2026-08-14",
-      "last_seen": "2026-08-10",
-      "title": "Figma product news and release notes"
     },
     "https://www.figma.com/blog/the-new-business-case-for-design-systems": {
       "first_seen": "2026-08-14",

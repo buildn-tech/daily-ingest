@@ -1,0 +1,203 @@
+{
+  "date": "2026-10-27",
+  "generated_at": "2026-10-27T09:03:00+00:00",
+  "editorial_thesis": "Agents become useful when boundaries, connectors, memory, and feedback are designed as one inspectable operating system—not as isolated capability demos.",
+  "topic_groups": [
+    {
+      "slug": "agent-boundaries-and-supply-chain",
+      "title": "Agent Boundaries + Supply Chain",
+      "selection_rationale": "Fresh enforcement signal after yesterday’s broader security lane: these releases turn agent autonomy into explicit local, package, credential, and review boundaries.",
+      "sources": [
+        {
+          "title": "Local sandboxing for GitHub Copilot",
+          "url": "https://github.blog/changelog/2026-10-07-local-sandboxing-for-github-copilot-now-generally-available",
+          "source_type": "release",
+          "published_or_updated": "2026-10",
+          "why_selected": "Fresh enforcement signal after yesterday’s broader security lane: these releases turn agent autonomy into explicit local, package, credential, and review boundaries.",
+          "usefulness": "Use the model/tool split as a Buildn rule: changing the model must not silently change the tool boundary."
+        },
+        {
+          "title": "GitHub package firewall",
+          "url": "https://github.blog/changelog/2026-10-20-github-package-firewall-in-public-preview",
+          "source_type": "release",
+          "published_or_updated": "2026-10",
+          "why_selected": "Fresh enforcement signal after yesterday’s broader security lane: these releases turn agent autonomy into explicit local, package, credential, and review boundaries.",
+          "usefulness": "Add a package-intake gate before any agent-generated build or report pipeline installs dependencies."
+        },
+        {
+          "title": "AI Scan for pull requests",
+          "url": "https://github.blog/changelog/2026-10-15-ai-scan-for-pull-requests-generally-available",
+          "source_type": "release",
+          "published_or_updated": "2026-10",
+          "why_selected": "Fresh enforcement signal after yesterday’s broader security lane: these releases turn agent autonomy into explicit local, package, credential, and review boundaries.",
+          "usefulness": "Treat AI security output as a second signal in a review packet, not as an approval substitute."
+        },
+        {
+          "title": "Agentic autofix for code scanning",
+          "url": "https://github.blog/changelog/2026-10-15-agentic-autofix-for-code-scanning-alerts-general-availability",
+          "source_type": "release",
+          "published_or_updated": "2026-10",
+          "why_selected": "Fresh enforcement signal after yesterday’s broader security lane: these releases turn agent autonomy into explicit local, package, credential, and review boundaries.",
+          "usefulness": "This is a reusable governed loop: diagnose → patch → verify → request human review."
+        },
+        {
+          "title": "Expiring, auto-refreshing GitHub CLI credentials",
+          "url": "https://github.blog/changelog/2026-10-21-github-cli-opt-in-to-expiring-auto-refreshing-oauth-tokens",
+          "source_type": "release",
+          "published_or_updated": "2026-10",
+          "why_selected": "Fresh enforcement signal after yesterday’s broader security lane: these releases turn agent autonomy into explicit local, package, credential, and review boundaries.",
+          "usefulness": "Prefer fresh credential reads at tool invocation time; never put a cached token in a durable run artifact."
+        },
+        {
+          "title": "GitHub Copilot assisted permissions",
+          "url": "https://github.blog/changelog/2026-10-26-github-copilot-assisted-permissions-generally-available",
+          "source_type": "release",
+          "published_or_updated": "2026-10",
+          "why_selected": "Fresh enforcement signal after yesterday’s broader security lane: these releases turn agent autonomy into explicit local, package, credential, and review boundaries.",
+          "usefulness": "Model Buildn approval prompts around action classes, scope, and reversibility—not generic yes/no confirmation."
+        }
+      ]
+    },
+    {
+      "slug": "agent-interoperability-and-product-surfaces",
+      "title": "Agent Interoperability + Product Surfaces",
+      "selection_rationale": "A coverage gap in cross-tool delivery: fresh interoperability and admin surfaces show where agent value is moving from chat into connected systems.",
+      "sources": [
+        {
+          "title": "Notion connected 160 apps in three weeks",
+          "url": "https://www.notion.com/blog/how-we-connected-notion-ai-to-160-new-apps-in-three-weeks",
+          "source_type": "case study",
+          "published_or_updated": "unknown",
+          "why_selected": "A coverage gap in cross-tool delivery: fresh interoperability and admin surfaces show where agent value is moving from chat into connected systems.",
+          "usefulness": "The reusable pattern is a durable queue with checkpoints, not the headline connector count."
+        },
+        {
+          "title": "Figma Weave models via Figma MCP",
+          "url": "https://www.figma.com/release-notes/",
+          "source_type": "product update",
+          "published_or_updated": "unknown",
+          "why_selected": "A coverage gap in cross-tool delivery: fresh interoperability and admin surfaces show where agent value is moving from chat into connected systems.",
+          "usefulness": "Creative agents now need both capability routing and spend visibility at the tool boundary."
+        },
+        {
+          "title": "Agentic Resource Discovery specification",
+          "url": "https://developers.googleblog.com/announcing-the-agentic-resource-discovery-specification/",
+          "source_type": "specification",
+          "published_or_updated": "unknown",
+          "why_selected": "A coverage gap in cross-tool delivery: fresh interoperability and admin surfaces show where agent value is moving from chat into connected systems.",
+          "usefulness": "Discovery is a product surface: descriptions, ownership, policy, and freshness determine whether tools are safely usable."
+        },
+        {
+          "title": "A2A moves to the Linux Foundation",
+          "url": "https://developers.googleblog.com/en/google-cloud-donates-a2a-to-linux-foundation/",
+          "source_type": "ecosystem update",
+          "published_or_updated": "unknown",
+          "why_selected": "A coverage gap in cross-tool delivery: fresh interoperability and admin surfaces show where agent value is moving from chat into connected systems.",
+          "usefulness": "Transport and task handoff standards may become more portable, but trust and state semantics remain local design work."
+        },
+        {
+          "title": "ADK for Kotlin 1.0",
+          "url": "https://developers.googleblog.com/announcing-adk-for-kotlin-10-building-production-ready-ai-agents-in-kotlin-android-and-beyond/",
+          "source_type": "release",
+          "published_or_updated": "unknown",
+          "why_selected": "A coverage gap in cross-tool delivery: fresh interoperability and admin surfaces show where agent value is moving from chat into connected systems.",
+          "usefulness": "The client surface is widening: agent workflows can live closer to mobile and native product contexts."
+        }
+      ]
+    },
+    {
+      "slug": "embodied-memory-and-evidence",
+      "title": "Embodied Memory + Evidence",
+      "selection_rationale": "Physical AI has been quiet in recent coverage; this fresh benchmark is useful beyond robotics because it isolates what retained evidence actually enables later action.",
+      "sources": [
+        {
+          "title": "MeMoREval benchmark",
+          "url": "https://arxiv.org/html/2610.12561v1",
+          "source_type": "paper",
+          "published_or_updated": "unknown",
+          "why_selected": "Physical AI has been quiet in recent coverage; this fresh benchmark is useful beyond robotics because it isolates what retained evidence actually enables later action.",
+          "usefulness": "This is a clean template for testing Buildn memory and report continuity without letting the agent search again."
+        },
+        {
+          "title": "MeMoREval code",
+          "url": "https://github.com/jimwang418/MeMoREval",
+          "source_type": "repository",
+          "published_or_updated": "unknown",
+          "why_selected": "Physical AI has been quiet in recent coverage; this fresh benchmark is useful beyond robotics because it isolates what retained evidence actually enables later action.",
+          "usefulness": "A runnable reference makes memory evaluation concrete rather than purely architectural."
+        },
+        {
+          "title": "Frames plus scene graphs",
+          "url": "https://arxiv.org/html/2610.12561v1#S6",
+          "source_type": "finding",
+          "published_or_updated": "unknown",
+          "why_selected": "Physical AI has been quiet in recent coverage; this fresh benchmark is useful beyond robotics because it isolates what retained evidence actually enables later action.",
+          "usefulness": "For Buildn, preserve source artifacts plus structured claims instead of flattening everything into summaries."
+        },
+        {
+          "title": "Open-loop action requests",
+          "url": "https://arxiv.org/html/2610.12561v1#S4.F1",
+          "source_type": "method",
+          "published_or_updated": "unknown",
+          "why_selected": "Physical AI has been quiet in recent coverage; this fresh benchmark is useful beyond robotics because it isolates what retained evidence actually enables later action.",
+          "usefulness": "Client automations should have at least one “cold context” test to expose hidden dependence on recent chat state."
+        },
+        {
+          "title": "Inference cost as a memory metric",
+          "url": "https://arxiv.org/html/2610.12561v1#S5",
+          "source_type": "finding",
+          "published_or_updated": "unknown",
+          "why_selected": "Physical AI has been quiet in recent coverage; this fresh benchmark is useful beyond robotics because it isolates what retained evidence actually enables later action.",
+          "usefulness": "A memory feature that improves recall but doubles retrieval cost may be a poor product default."
+        }
+      ]
+    },
+    {
+      "slug": "developer-workflow-feedback",
+      "title": "Developer Workflow + Feedback",
+      "selection_rationale": "A practical developer-tools lane fills a gap after several infrastructure-heavy days: current releases make agent work more visible, mergeable, and measurable.",
+      "sources": [
+        {
+          "title": "Stacked pull requests in Linear Diffs",
+          "url": "https://linear.app/changelog/2026-10-08-stacked-pull-requests",
+          "source_type": "product update",
+          "published_or_updated": "2026-10",
+          "why_selected": "A practical developer-tools lane fills a gap after several infrastructure-heavy days: current releases make agent work more visible, mergeable, and measurable.",
+          "usefulness": "Intermediate state becomes reviewable before the final handoff, which is exactly what delegated delivery needs."
+        },
+        {
+          "title": "More ways to run and share Linear Loops",
+          "url": "https://linear.app/changelog/2026-10-22-slack-and-github-loops",
+          "source_type": "product update",
+          "published_or_updated": "2026-10",
+          "why_selected": "A practical developer-tools lane fills a gap after several infrastructure-heavy days: current releases make agent work more visible, mergeable, and measurable.",
+          "usefulness": "Cross-surface delivery matters when the operator is not sitting in the agent’s native UI."
+        },
+        {
+          "title": "Cloudflare evidence-grounded security harness",
+          "url": "https://blog.cloudflare.com/agentic-security-operations/",
+          "source_type": "security workflow",
+          "published_or_updated": "unknown",
+          "why_selected": "A practical developer-tools lane fills a gap after several infrastructure-heavy days: current releases make agent work more visible, mergeable, and measurable.",
+          "usefulness": "The pattern reinforces a human-owned decision layer over automated collection and triage."
+        },
+        {
+          "title": "Streaming in API Gateway",
+          "url": "https://developers.googleblog.com/streaming-comes-to-api-gateway-real-time-and-ai-ready-apis-without-changing-your-spec/",
+          "source_type": "release",
+          "published_or_updated": "unknown",
+          "why_selected": "A practical developer-tools lane fills a gap after several infrastructure-heavy days: current releases make agent work more visible, mergeable, and measurable.",
+          "usefulness": "Streaming can make long agent runs legible without forcing a bespoke transport contract."
+        },
+        {
+          "title": "Copilot weekly releases: local models and agent sessions",
+          "url": "https://github.blog/changelog/2026-10-09-github-copilot-weekly-releases-october-5/",
+          "source_type": "release",
+          "published_or_updated": "2026-10",
+          "why_selected": "A practical developer-tools lane fills a gap after several infrastructure-heavy days: current releases make agent work more visible, mergeable, and measurable.",
+          "usefulness": "Model choice and session layout are becoming operator controls, not hidden implementation details."
+        }
+      ]
+    }
+  ]
+}
