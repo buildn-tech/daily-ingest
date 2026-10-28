@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-28",
+  "generated_at": "2026-10-28T09:00:29Z",
+  "editorial_thesis": "Agent infrastructure is consolidating around portable skills, bounded interfaces, explicit workflow checkpoints, and security controls built for machine-speed execution.",
+  "topic_groups": [
+    {
+      "slug": "agent-skills-and-interfaces",
+      "title": "Agent Skills + Interfaces",
+      "selection_rationale": "Fresh governance and interface developments create directly testable Buildn primitives while avoiding yesterday's broader interoperability roundup.",
+      "sources": [
+        {"title":"Donating Agent Skills to the Agentic AI Foundation","url":"https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation","source_type":"blog","published_or_updated":"2026-10-22","why_selected":"Moves a widely adopted skill convention into neutral governance.","usefulness":"Supports portable, reviewable procedural knowledge for Buildn workflows."},
+        {"title":"Fast, reliable A2UI, with swappable inference formats","url":"https://developers.googleblog.com/fast-reliable-a2ui/","source_type":"blog","published_or_updated":"2026-10-27","why_selected":"Introduces a compact, validated representation for agent-generated interfaces.","usefulness":"Suggests a bounded UI pattern for evidence and approval surfaces."},
+        {"title":"Powering the Agent Development Lifecycle with any framework","url":"https://developers.googleblog.com/powering-the-agent-development-lifecycle-with-any-framework-from-adk-to-langchain-and-beyond/","source_type":"blog","published_or_updated":"2026-10-21","why_selected":"Shows extension-based policy and framework portability without forking.","usefulness":"Maps to Buildn command-level review and publishing gates."},
+        {"title":"Dynamic workflows in Copilot CLI and the Copilot app","url":"https://github.blog/changelog/2026-10-01-dynamic-workflows-in-copilot-cli-and-the-copilot-app/","source_type":"release","published_or_updated":"2026-10-01","why_selected":"Provides coded orchestration with parallelism and human checkpoints.","usefulness":"Offers a concrete model for resumable research-to-publish runs."},
+        {"title":"DevDay 2026 Recap","url":"https://openai.com/index/devday-2026-recap/","source_type":"blog","published_or_updated":"2026-10-25","why_selected":"Adds managed computer-use, multi-agent, and private-inference primitives.","usefulness":"Supports a local-versus-managed runtime comparison for client work."}
+      ]
+    },
+    {
+      "slug": "agent-security-and-supply-chain",
+      "title": "Agent Security + Supply Chain",
+      "selection_rationale": "Recent threat reporting makes agent permissions and skill provenance an immediate practical lane rather than a speculative concern.",
+      "sources": [
+        {"title":"AI-driven ARTEX Supply-Chain Campaign","url":"https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/","source_type":"blog","published_or_updated":"2026-10-21","why_selected":"Documents machine-speed cloud compromise and OAuth persistence.","usefulness":"Provides a concrete scenario for client readiness and containment drills."},
+        {"title":"AI Agent Supply Chain Risk: Silent Codebase Exfiltration via Skills","url":"https://mitiga.io/blog/ai-agent-supply-chain-risk-silent-codebase-exfiltration-via-skills","source_type":"blog","published_or_updated":"2026-09-29","why_selected":"Demonstrates a skill-driven repository exfiltration path.","usefulness":"Directly informs safe skill review and egress controls."},
+        {"title":"Expanding the Cyber Verification Program","url":"https://www.anthropic.com/news/cyber-verification-program","source_type":"blog","published_or_updated":"2026-10-28","why_selected":"Shows tiered access based on verified defensive mission and controls.","usefulness":"Informs capability tiers for security-oriented agents."},
+        {"title":"DevDay 2026 Recap","url":"https://openai.com/index/devday-2026-recap/","source_type":"blog","published_or_updated":"2026-10-25","why_selected":"Highlights private processing and inference as deployment controls.","usefulness":"Creates a practical privacy-control comparison for Buildn and clients."}
+      ]
+    },
+    {
+      "slug": "conversational-agent-systems",
+      "title": "Conversational Agent Systems",
+      "selection_rationale": "A current reference architecture gives Buildn a practical way to evaluate agent products by state, ingress, and side-effect boundaries instead of chat polish.",
+      "sources": [
+        {"title":"Building Conversational Commerce with Multi-Agent Swarms on GCP","url":"https://developers.googleblog.com/building-conversational-commerce-with-multi-agent-swarms-on-gcp-a-working-prototype/","source_type":"blog","published_or_updated":"2026-10-27","why_selected":"Presents a working decoupled ingress, memory, and cognition prototype.","usefulness":"Provides a reusable architecture for intake and artifact workflows."},
+        {"title":"DevDay 2026 Recap","url":"https://openai.com/index/devday-2026-recap/","source_type":"blog","published_or_updated":"2026-10-25","why_selected":"Frames persistent agents and asynchronous cloud work as product surfaces.","usefulness":"Helps identify safe recurring responsibilities for agent experiments."},
+        {"title":"Fast, reliable A2UI, with swappable inference formats","url":"https://developers.googleblog.com/fast-reliable-a2ui/","source_type":"blog","published_or_updated":"2026-10-27","why_selected":"Connects conversational generation to a trusted component catalog.","usefulness":"Suggests a safe route to reviewable generative UI."},
+        {"title":"Dynamic workflows in Copilot CLI and the Copilot app","url":"https://github.blog/changelog/2026-10-01-dynamic-workflows-in-copilot-cli-and-the-copilot-app/","source_type":"release","published_or_updated":"2026-10-01","why_selected":"Makes checkpoints and structured results explicit in agent work.","usefulness":"Maps to approval-gated client deliverables."}
+      ]
+    }
+  ]
+}

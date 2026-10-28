@@ -1580,6 +1580,21 @@
       "title": "Developer Workflow + Feedback",
       "times_covered": 1,
       "last_covered": "2026-10-27"
+    },
+    "agent-skills-and-interfaces": {
+      "title": "Agent Skills And Interfaces",
+      "times_covered": 1,
+      "last_covered": "2026-10-28"
+    },
+    "agent-security-and-supply-chain": {
+      "title": "Agent Security And Supply Chain",
+      "times_covered": 1,
+      "last_covered": "2026-10-28"
+    },
+    "conversational-agent-systems": {
+      "title": "Conversational Agent Systems",
+      "times_covered": 1,
+      "last_covered": "2026-10-28"
     }
   },
   "item_history": [
@@ -4676,6 +4691,71 @@
         }
       ],
       "selection_rationale": "A practical developer-tools lane fills a gap after several infrastructure-heavy days: current releases make agent work more visible, mergeable, and measurable."
+    },
+    {
+      "date": "2026-10-28",
+      "selected_lanes": [
+        "agent-skills-and-interfaces",
+        "agent-security-and-supply-chain",
+        "conversational-agent-systems"
+      ],
+      "items": [
+        {
+          "title": "Donating Agent Skills to the Agentic AI Foundation",
+          "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
+          "source_type": "blog",
+          "rationale": "Portable skills moved into neutral governance."
+        },
+        {
+          "title": "Fast, reliable A2UI, with swappable inference formats",
+          "url": "https://developers.googleblog.com/fast-reliable-a2ui/",
+          "source_type": "blog",
+          "rationale": "Bounded agent UI became cheaper and more reliable."
+        },
+        {
+          "title": "Powering the Agent Development Lifecycle with any framework",
+          "url": "https://developers.googleblog.com/powering-the-agent-development-lifecycle-with-any-framework-from-adk-to-langchain-and-beyond/",
+          "source_type": "blog",
+          "rationale": "Extensions make policy and framework portability practical."
+        },
+        {
+          "title": "Dynamic workflows in Copilot CLI and the Copilot app",
+          "url": "https://github.blog/changelog/2026-10-01-dynamic-workflows-in-copilot-cli-and-the-copilot-app/",
+          "source_type": "release",
+          "rationale": "Coded workflows add checkpoints and structured verification."
+        },
+        {
+          "title": "AI-driven ARTEX Supply-Chain Campaign",
+          "url": "https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/",
+          "source_type": "blog",
+          "rationale": "Machine-speed cloud compromise makes response latency material."
+        },
+        {
+          "title": "AI Agent Supply Chain Risk: Silent Codebase Exfiltration via Skills",
+          "url": "https://mitiga.io/blog/ai-agent-supply-chain-risk-silent-codebase-exfiltration-via-skills",
+          "source_type": "blog",
+          "rationale": "Skills are executable supply-chain inputs."
+        },
+        {
+          "title": "Expanding the Cyber Verification Program",
+          "url": "https://www.anthropic.com/news/cyber-verification-program",
+          "source_type": "blog",
+          "rationale": "Tiered access links capability to verified mission."
+        },
+        {
+          "title": "Building Conversational Commerce with Multi-Agent Swarms on GCP",
+          "url": "https://developers.googleblog.com/building-conversational-commerce-with-multi-agent-swarms-on-gcp-a-working-prototype/",
+          "source_type": "blog",
+          "rationale": "Decoupled ingress, state, and cognition is reusable."
+        },
+        {
+          "title": "DevDay 2026 Recap",
+          "url": "https://openai.com/index/devday-2026-recap/",
+          "source_type": "blog",
+          "rationale": "Persistent agents and private inference broaden runtime choices."
+        }
+      ],
+      "selection_rationale": "Followed fresh governance, product, and security signals while rotating away from yesterday’s interoperability, embodied-memory, and developer-workflow emphasis."
     }
   ],
   "runs": [
@@ -16582,7 +16662,7 @@
       "last_covered": "2026-10-03"
     }
   },
-  "last_successful_run": "2026-10-22",
+  "last_successful_run": "2026-10-28",
   "history": [
     {
       "date": "2026-09-07",
@@ -18965,5 +19045,6 @@
       ],
       "thesis": "Agents become useful when boundaries, connectors, memory, and feedback are designed as one inspectable operating system—not as isolated capability demos."
     }
-  ]
+  ],
+  "last_selection_rationale": "Followed fresh governance, product, and security signals while rotating away from yesterday’s interoperability, embodied-memory, and developer-workflow emphasis."
 }

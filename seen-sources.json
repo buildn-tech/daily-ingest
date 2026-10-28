@@ -1,6 +1,51 @@
 {
-  "updated_at": "2026-10-27T09:03:10.906550+00:00",
+  "updated_at": "2026-10-28T09:04:23.809710+00:00",
   "sources": {
+    "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation": {
+      "first_seen": "2026-10-28",
+      "last_seen": "2026-10-28",
+      "title": "Donating Agent Skills to the Agentic AI Foundation"
+    },
+    "https://developers.googleblog.com/fast-reliable-a2ui": {
+      "first_seen": "2026-10-28",
+      "last_seen": "2026-10-28",
+      "title": "Fast, reliable A2UI, with swappable inference formats"
+    },
+    "https://developers.googleblog.com/powering-the-agent-development-lifecycle-with-any-framework-from-adk-to-langchain-and-beyond": {
+      "first_seen": "2026-10-28",
+      "last_seen": "2026-10-28",
+      "title": "Powering the Agent Development Lifecycle with any framework"
+    },
+    "https://github.blog/changelog/2026-10-01-dynamic-workflows-in-copilot-cli-and-the-copilot-app": {
+      "first_seen": "2026-10-28",
+      "last_seen": "2026-10-11",
+      "title": "GitHub dynamic workflows"
+    },
+    "https://openai.com/index/devday-2026-recap": {
+      "first_seen": "2026-10-28",
+      "last_seen": "2026-09-30",
+      "title": "DevDay: cloud agents, code review, private intelligence"
+    },
+    "https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise": {
+      "first_seen": "2026-10-28",
+      "last_seen": "2026-10-28",
+      "title": "AI-driven ARTEX Supply-Chain Campaign"
+    },
+    "https://mitiga.io/blog/ai-agent-supply-chain-risk-silent-codebase-exfiltration-via-skills": {
+      "first_seen": "2026-10-28",
+      "last_seen": "2026-10-28",
+      "title": "AI Agent Supply Chain Risk: Silent Codebase Exfiltration via Skills"
+    },
+    "https://www.anthropic.com/news/cyber-verification-program": {
+      "first_seen": "2026-10-28",
+      "last_seen": "2026-10-09",
+      "title": "Expanding the Cyber Verification Program"
+    },
+    "https://developers.googleblog.com/building-conversational-commerce-with-multi-agent-swarms-on-gcp-a-working-prototype": {
+      "first_seen": "2026-10-28",
+      "last_seen": "2026-10-28",
+      "title": "Building Conversational Commerce with Multi-Agent Swarms on GCP"
+    },
     "https://github.blog/changelog/2026-10-07-local-sandboxing-for-github-copilot-now-generally-available": {
       "first_seen": "2026-10-27",
       "last_seen": "2026-10-08",
@@ -390,11 +435,6 @@
       "first_seen": "2026-10-21",
       "last_seen": "2026-10-21",
       "title": "IBM Bob self-hosted deployment"
-    },
-    "https://openai.com/index/devday-2026-recap": {
-      "first_seen": "2026-10-21",
-      "last_seen": "2026-09-30",
-      "title": "DevDay: cloud agents, code review, private intelligence"
     },
     "https://northflank.com/blog/self-hosting-ai-models-guide": {
       "first_seen": "2026-10-21",
@@ -876,11 +916,6 @@
       "last_seen": "2026-10-11",
       "title": "oh-my-pi 18.8.9"
     },
-    "https://github.blog/changelog/2026-10-01-dynamic-workflows-in-copilot-cli-and-the-copilot-app": {
-      "first_seen": "2026-10-11",
-      "last_seen": "2026-10-11",
-      "title": "GitHub dynamic workflows"
-    },
     "https://github.com/docker/sbx-releases/releases": {
       "first_seen": "2026-10-11",
       "last_seen": "2026-10-11",
@@ -970,11 +1005,6 @@
       "first_seen": "2026-10-10",
       "last_seen": "2026-10-10",
       "title": "Chrome DevTools: debug your browser session"
-    },
-    "https://www.anthropic.com/news/cyber-verification-program": {
-      "first_seen": "2026-10-10",
-      "last_seen": "2026-10-09",
-      "title": "Expanding the Cyber Verification Program"
     },
     "https://github.blog/changelog/2026-10-09-codeql-2-27-2-improves-c-go-rust-and-javascript-analysis": {
       "first_seen": "2026-10-10",
