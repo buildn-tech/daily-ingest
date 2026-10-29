@@ -1,6 +1,46 @@
 {
-  "updated_at": "2026-10-28T09:04:23.809710+00:00",
+  "updated_at": "2026-10-29T09:03:13.435515+00:00",
   "sources": {
+    "https://www.anthropic.com/claude-opus-5-5": {
+      "first_seen": "2026-10-29",
+      "last_seen": "2026-10-29",
+      "title": "Capability needs a job contract"
+    },
+    "https://openai.com/index/introducing-gpt-6-1-terra": {
+      "first_seen": "2026-10-29",
+      "last_seen": "2026-10-29",
+      "title": "The useful frontier is cost per completed task"
+    },
+    "https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026": {
+      "first_seen": "2026-10-29",
+      "last_seen": "2026-10-19",
+      "title": "Gemini agent: one agent for work"
+    },
+    "https://aclanthology.org/2026.acl-long.981": {
+      "first_seen": "2026-10-29",
+      "last_seen": "2026-10-29",
+      "title": "Forgetting is a product feature, not cleanup"
+    },
+    "https://www.nature.com/articles/s41586-026-11044-y": {
+      "first_seen": "2026-10-29",
+      "last_seen": "2026-10-29",
+      "title": "Paper2Agent turns papers into executable research surfaces"
+    },
+    "https://arxiv.org/html/2610.32464v1": {
+      "first_seen": "2026-10-29",
+      "last_seen": "2026-10-29",
+      "title": "Agentic memory management is becoming its own design layer"
+    },
+    "https://arxiv.org/list/cs.AI/recent": {
+      "first_seen": "2026-10-29",
+      "last_seen": "2026-09-13",
+      "title": "Memory Compression for High-Fanout Agent Sandboxes"
+    },
+    "https://blog.cloudflare.com/birthday-week-2026-wrap-up": {
+      "first_seen": "2026-10-29",
+      "last_seen": "2026-10-29",
+      "title": "Public real-user data can ground performance claims"
+    },
     "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation": {
       "first_seen": "2026-10-28",
       "last_seen": "2026-10-28",
@@ -525,11 +565,6 @@
       "first_seen": "2026-10-20",
       "last_seen": "2026-08-15",
       "title": "NIST software and AI-agent adoption concept paper"
-    },
-    "https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026": {
-      "first_seen": "2026-10-19",
-      "last_seen": "2026-10-19",
-      "title": "Gemini agent: one agent for work"
     },
     "https://research.google/blog/analyzing-technical-documents-with-deep-review": {
       "first_seen": "2026-10-19",
@@ -2305,11 +2340,6 @@
       "first_seen": "2026-09-13",
       "last_seen": "2026-09-11",
       "title": "MAI-Code-1-Flash deprecated"
-    },
-    "https://arxiv.org/list/cs.AI/recent": {
-      "first_seen": "2026-09-13",
-      "last_seen": "2026-09-13",
-      "title": "Memory Compression for High-Fanout Agent Sandboxes"
     },
     "https://arxiv.org/html/2609.11018v1": {
       "first_seen": "2026-09-13",

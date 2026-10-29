@@ -1595,6 +1595,21 @@
       "title": "Conversational Agent Systems",
       "times_covered": 1,
       "last_covered": "2026-10-28"
+    },
+    "frontier-models-and-computer-use": {
+      "title": "Frontier Models + Computer Use",
+      "times_covered": 1,
+      "last_covered": "2026-10-29"
+    },
+    "agent-memory-and-executable-knowledge": {
+      "title": "Agent Memory + Executable Knowledge",
+      "times_covered": 1,
+      "last_covered": "2026-10-29"
+    },
+    "agent-platform-boundaries": {
+      "title": "Agent Platforms + Boundaries",
+      "times_covered": 1,
+      "last_covered": "2026-10-29"
     }
   },
   "item_history": [
@@ -7479,9 +7494,109 @@
         }
       ],
       "selection_rationale": "Trustworthy agent adoption now depends on process evidence, model-independent runtime boundaries, and a human-owned defensive response loop."
+    },
+    {
+      "date": "2026-10-29",
+      "selected_lanes": [
+        "frontier-models-and-computer-use",
+        "agent-memory-and-executable-knowledge",
+        "agent-platform-boundaries"
+      ],
+      "items": [
+        {
+          "title": "Claude Opus 5.5: long-running work at lower cost",
+          "url": "https://www.anthropic.com/claude-opus-5-5",
+          "source_type": "product",
+          "rationale": "Long jobs become more economically plausible when the model spends fewer tokens and makes fewer unsafe detours. The safety claims also point toward model choice as part of the execution boundary."
+        },
+        {
+          "title": "GPT-6.1 Terra: computer use becomes a cost decision",
+          "url": "https://openai.com/index/introducing-gpt-6-1-terra/",
+          "source_type": "product",
+          "rationale": "A cheaper specialist can move routine computer-use out of the premium-model lane, provided the workflow has clear success checks and rollback."
+        },
+        {
+          "title": "Gemini at Work: the universal workplace agent pattern",
+          "url": "https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026",
+          "source_type": "product",
+          "rationale": "The product direction compresses many narrow assistants into one context-bearing surface, raising the importance of permissions, source boundaries, and clear handoffs."
+        },
+        {
+          "title": "The useful frontier is cost per completed task",
+          "url": "https://openai.com/index/introducing-gpt-6-1-terra/",
+          "source_type": "pattern",
+          "rationale": "A workflow that completes 20% more jobs with half the cost can beat a marginally stronger model that requires constant review."
+        },
+        {
+          "title": "Capability needs a job contract",
+          "url": "https://www.anthropic.com/claude-opus-5-5",
+          "source_type": "practice",
+          "rationale": "More capable agents increase the value of explicit contracts because they can act farther before asking for help."
+        },
+        {
+          "title": "AgeMem makes memory a policy action",
+          "url": "https://aclanthology.org/2026.acl-long.981/",
+          "source_type": "paper",
+          "rationale": "This reframes memory from a passive vector database into a governed write-manage-read loop with explicit tradeoffs."
+        },
+        {
+          "title": "Paper2Agent turns papers into executable research surfaces",
+          "url": "https://www.nature.com/articles/s41586-026-11044-y",
+          "source_type": "paper",
+          "rationale": "It makes the artifact itself operational: not just a summary to read, but a constrained system to query and run."
+        },
+        {
+          "title": "Agentic memory management is becoming its own design layer",
+          "url": "https://arxiv.org/html/2610.32464v1",
+          "source_type": "research",
+          "rationale": "The design surface is broad enough to deserve explicit product decisions rather than an undocumented retrieval component."
+        },
+        {
+          "title": "Measure memory failures by stage, not one score",
+          "url": "https://arxiv.org/list/cs.AI/recent",
+          "source_type": "practice",
+          "rationale": "A single success score cannot tell an operator whether to fix ingestion, consolidation, retrieval, or reasoning."
+        },
+        {
+          "title": "Forgetting is a product feature, not cleanup",
+          "url": "https://aclanthology.org/2026.acl-long.981/",
+          "source_type": "practice",
+          "rationale": "Durable context improves continuity only when users can understand and correct what persists."
+        },
+        {
+          "title": "Cloudflare's cf CLI is JSON-first and agent-ready",
+          "url": "https://blog.cloudflare.com/birthday-week-2026-wrap-up",
+          "source_type": "tool",
+          "rationale": "Structured output and typed config are the boring foundations that make automation inspectable and less brittle."
+        },
+        {
+          "title": "Forge treats interface generation as a pipeline",
+          "url": "https://blog.cloudflare.com/birthday-week-2026-wrap-up",
+          "source_type": "tool",
+          "rationale": "Generated interfaces can reduce drift between what an API promises and what agents actually call."
+        },
+        {
+          "title": "EmDash makes plugin capability explicit",
+          "url": "https://blog.cloudflare.com/birthday-week-2026-wrap-up",
+          "source_type": "tool",
+          "rationale": "Extension ecosystems are where convenience and supply-chain risk collide; capability declarations make the trust boundary visible."
+        },
+        {
+          "title": "Kitesurf points to browser access as infrastructure",
+          "url": "https://blog.cloudflare.com/birthday-week-2026-wrap-up",
+          "source_type": "tool",
+          "rationale": "Browser agents need a transport, rendering, and permission model—not just a model that can click."
+        },
+        {
+          "title": "Public real-user data can ground performance claims",
+          "url": "https://blog.cloudflare.com/birthday-week-2026-wrap-up",
+          "source_type": "data",
+          "rationale": "Agent-generated product decisions need external reality checks, not just synthetic scores or internal anecdotes."
+        }
+      ]
     }
   ],
-  "updated_at": "2026-10-27T09:03:00+00:00",
+  "updated_at": "2026-10-29T09:03:02.800383+00:00",
   "last_run": "2026-10-27",
   "last_editorial_thesis": "Agents become useful when boundaries, connectors, memory, and feedback are designed as one inspectable operating system—not as isolated capability demos.",
   "coverage_history": [

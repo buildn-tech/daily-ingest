@@ -1,0 +1,148 @@
+{
+  "date": "2026-10-29",
+  "generated_at": "2026-10-29T09:03:02.780063+00:00",
+  "editorial_thesis": "Agent capability is becoming cheaper and more operational, so durable advantage moves to contracts, memory, evidence, and boundaries.",
+  "topic_groups": [
+    {
+      "slug": "frontier-models-and-computer-use",
+      "title": "Frontier Models + Computer Use",
+      "selection_rationale": "Two same-day model announcements make capability-per-dollar the strongest fresh signal, with direct implications for Buildn's model routing and bounded computer-use experiments.",
+      "sources": [
+        {
+          "title": "Claude Opus 5.5: long-running work at lower cost",
+          "url": "https://www.anthropic.com/claude-opus-5-5",
+          "source_type": "product",
+          "published_or_updated": "2026-10-29",
+          "why_selected": "Long jobs become more economically plausible when the model spends fewer tokens and makes fewer unsafe detours. The safety claims also point toward model choice as part of the execution boundary.",
+          "usefulness": "Run a fixed migration or audit packet through Opus 5.5, capture tool traces, retries, cost, and human interventions, then compare against the current default."
+        },
+        {
+          "title": "GPT-6.1 Terra: computer use becomes a cost decision",
+          "url": "https://openai.com/index/introducing-gpt-6-1-terra/",
+          "source_type": "product",
+          "published_or_updated": "2026-10-29",
+          "why_selected": "A cheaper specialist can move routine computer-use out of the premium-model lane, provided the workflow has clear success checks and rollback.",
+          "usefulness": "Create a two-tier router: Terra for structured visual/desktop tasks, premium reasoning only for exceptions; log outcome quality separately from token cost."
+        },
+        {
+          "title": "Gemini at Work: the universal workplace agent pattern",
+          "url": "https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026",
+          "source_type": "product",
+          "published_or_updated": "2026-10-29",
+          "why_selected": "The product direction compresses many narrow assistants into one context-bearing surface, raising the importance of permissions, source boundaries, and clear handoffs.",
+          "usefulness": "Use it as a reference model for a Buildn intake surface: one request, explicit connected sources, visible evidence, and a final approval step."
+        },
+        {
+          "title": "The useful frontier is cost per completed task",
+          "url": "https://openai.com/index/introducing-gpt-6-1-terra/",
+          "source_type": "pattern",
+          "published_or_updated": "2026-10-29",
+          "why_selected": "A workflow that completes 20% more jobs with half the cost can beat a marginally stronger model that requires constant review.",
+          "usefulness": "Add a model scoreboard with completion, rework, latency, reviewer minutes, and total cost per accepted artifact."
+        },
+        {
+          "title": "Capability needs a job contract",
+          "url": "https://www.anthropic.com/claude-opus-5-5",
+          "source_type": "practice",
+          "published_or_updated": "2026-10-29",
+          "why_selected": "More capable agents increase the value of explicit contracts because they can act farther before asking for help.",
+          "usefulness": "Turn every recurring agent run into a packet with scope, evidence requirements, stop conditions, and an approval owner."
+        }
+      ]
+    },
+    {
+      "slug": "agent-memory-and-executable-knowledge",
+      "title": "Agent Memory + Executable Knowledge",
+      "selection_rationale": "Memory and executable research are coverage gaps relative to yesterday's interface/security focus, and the selected work offers concrete patterns for durable, evidence-linked Buildn knowledge.",
+      "sources": [
+        {
+          "title": "AgeMem makes memory a policy action",
+          "url": "https://aclanthology.org/2026.acl-long.981/",
+          "source_type": "paper",
+          "published_or_updated": "2026-07",
+          "why_selected": "This reframes memory from a passive vector database into a governed write-manage-read loop with explicit tradeoffs.",
+          "usefulness": "Prototype memory events as typed actions with provenance, confidence, expiry, and a reason for retention or deletion."
+        },
+        {
+          "title": "Paper2Agent turns papers into executable research surfaces",
+          "url": "https://www.nature.com/articles/s41586-026-11044-y",
+          "source_type": "paper",
+          "published_or_updated": "2026-09-16",
+          "why_selected": "It makes the artifact itself operational: not just a summary to read, but a constrained system to query and run.",
+          "usefulness": "Model premium reports as evidence bundles with a source trail, reusable prompts, validation checks, and optional callable tools."
+        },
+        {
+          "title": "Agentic memory management is becoming its own design layer",
+          "url": "https://arxiv.org/html/2610.32464v1",
+          "source_type": "research",
+          "published_or_updated": "2026-10",
+          "why_selected": "The design surface is broad enough to deserve explicit product decisions rather than an undocumented retrieval component.",
+          "usefulness": "Create a memory decision record for each workflow: what is remembered, who can change it, when it expires, and how a user can contest it."
+        },
+        {
+          "title": "Measure memory failures by stage, not one score",
+          "url": "https://arxiv.org/list/cs.AI/recent",
+          "source_type": "practice",
+          "published_or_updated": "2026-10",
+          "why_selected": "A single success score cannot tell an operator whether to fix ingestion, consolidation, retrieval, or reasoning.",
+          "usefulness": "Add stage labels to dossier evaluation: missing update, wrong retrieval, stale memory, unsupported answer, or execution failure."
+        },
+        {
+          "title": "Forgetting is a product feature, not cleanup",
+          "url": "https://aclanthology.org/2026.acl-long.981/",
+          "source_type": "practice",
+          "published_or_updated": "2026-10",
+          "why_selected": "Durable context improves continuity only when users can understand and correct what persists.",
+          "usefulness": "Add an inspect-memory view to every long-running workflow and require a deletion path for user-specific facts."
+        }
+      ]
+    },
+    {
+      "slug": "agent-platform-boundaries",
+      "title": "Agent Platforms + Boundaries",
+      "selection_rationale": "Cloudflare's infrastructure roundup and current workplace-agent direction form a practical infrastructure lane: portable interfaces, agent-ready APIs, and isolation are more useful than another generic model roundup.",
+      "sources": [
+        {
+          "title": "Cloudflare's cf CLI is JSON-first and agent-ready",
+          "url": "https://blog.cloudflare.com/birthday-week-2026-wrap-up",
+          "source_type": "tool",
+          "published_or_updated": "2026-09-28",
+          "why_selected": "Structured output and typed config are the boring foundations that make automation inspectable and less brittle.",
+          "usefulness": "Use the pattern for Buildn commands: stable JSON results, explicit schemas, dry-run mode, and human-readable rendering as a separate layer."
+        },
+        {
+          "title": "Forge treats interface generation as a pipeline",
+          "url": "https://blog.cloudflare.com/birthday-week-2026-wrap-up",
+          "source_type": "tool",
+          "published_or_updated": "2026-09-28",
+          "why_selected": "Generated interfaces can reduce drift between what an API promises and what agents actually call.",
+          "usefulness": "Generate a small command surface from Buildn artifact schemas, then review the diff rather than hand-maintaining every adapter."
+        },
+        {
+          "title": "EmDash makes plugin capability explicit",
+          "url": "https://blog.cloudflare.com/birthday-week-2026-wrap-up",
+          "source_type": "tool",
+          "published_or_updated": "2026-09-28",
+          "why_selected": "Extension ecosystems are where convenience and supply-chain risk collide; capability declarations make the trust boundary visible.",
+          "usefulness": "Adopt a capability manifest for Buildn skills and integrations: filesystem, network, secrets, publishing, and external side effects."
+        },
+        {
+          "title": "Kitesurf points to browser access as infrastructure",
+          "url": "https://blog.cloudflare.com/birthday-week-2026-wrap-up",
+          "source_type": "tool",
+          "published_or_updated": "2026-09-28",
+          "why_selected": "Browser agents need a transport, rendering, and permission model—not just a model that can click.",
+          "usefulness": "Keep browser work in a separate sandbox with domain allowlists, screenshot evidence, and a review gate before submissions or purchases."
+        },
+        {
+          "title": "Public real-user data can ground performance claims",
+          "url": "https://blog.cloudflare.com/birthday-week-2026-wrap-up",
+          "source_type": "data",
+          "published_or_updated": "2026-09-28",
+          "why_selected": "Agent-generated product decisions need external reality checks, not just synthetic scores or internal anecdotes.",
+          "usefulness": "Use public performance distributions to set report baselines and identify where a client experience is truly unusual."
+        }
+      ]
+    }
+  ]
+}
