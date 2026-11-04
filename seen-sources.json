@@ -1,6 +1,86 @@
 {
-  "updated_at": "2026-10-29T09:03:13.435515+00:00",
+  "updated_at": "2026-11-04T09:06:10.623864+00:00",
   "sources": {
+    "https://github.blog/changelog/2026-10-28-github-agentic-workflows-generally-available": {
+      "first_seen": "2026-11-04",
+      "last_seen": "2026-11-04",
+      "title": "GitHub Agentic Workflows generally available"
+    },
+    "https://github.blog/changelog/2026-10-28-code-scanning-for-ai-applications-in-public-preview": {
+      "first_seen": "2026-11-04",
+      "last_seen": "2026-11-04",
+      "title": "Code scanning for AI applications"
+    },
+    "https://aws.amazon.com/about-aws/whats-new/2026/10/step-functions-workflows-ai-agent-tools": {
+      "first_seen": "2026-11-04",
+      "last_seen": "2026-11-04",
+      "title": "Step Functions workflows as AI agent tools"
+    },
+    "https://aws.amazon.com/about-aws/whats-new/2026/10/bring-sagemaker-ai-expertise-to-your-coding-agent": {
+      "first_seen": "2026-11-04",
+      "last_seen": "2026-11-04",
+      "title": "AWS AI/ML skill for coding agents"
+    },
+    "https://cloud.google.com/blog/topics/ai-infrastructure/introducing-agent-compute-engine-and-expanded-agent-governance": {
+      "first_seen": "2026-11-04",
+      "last_seen": "2026-11-04",
+      "title": "Agent Compute Engine and expanded governance"
+    },
+    "https://aws.amazon.com/about-aws/whats-new/2026/10/workspaces-ai-agents-oauth-connection-management": {
+      "first_seen": "2026-11-04",
+      "last_seen": "2026-11-04",
+      "title": "WorkSpaces for AI agents"
+    },
+    "https://vercel.com/changelog/virtual-models-now-available-on-ai-gateway": {
+      "first_seen": "2026-11-04",
+      "last_seen": "2026-11-04",
+      "title": "Virtual models on Vercel AI Gateway"
+    },
+    "https://cloud.google.com/blog/products/storage-data-transfer/filestore-agent-volumes": {
+      "first_seen": "2026-11-04",
+      "last_seen": "2026-09-16",
+      "title": "Filestore agent volumes"
+    },
+    "https://openai.com/index/scaling-ai-research-for-complex-biological-data": {
+      "first_seen": "2026-11-04",
+      "last_seen": "2026-11-04",
+      "title": "Thousands of agents analyze whole-brain CRISPR data"
+    },
+    "https://www.biorxiv.org/content/10.64898/2026.10.15.759436v1": {
+      "first_seen": "2026-11-04",
+      "last_seen": "2026-11-04",
+      "title": "GPT-Rosalind biological reasoning model"
+    },
+    "https://openai.com/index/third-moment-research": {
+      "first_seen": "2026-11-04",
+      "last_seen": "2026-10-15",
+      "title": "Third Moment Research: 10,000 agents for 36+ hours"
+    },
+    "https://arxiv.org/html/2602.15112v2": {
+      "first_seen": "2026-11-04",
+      "last_seen": "2026-09-13",
+      "title": "ResearchGym"
+    },
+    "https://vercel.com/changelog/ling-3-1-flash-1019-now-available-on-ai-gateway-for-free": {
+      "first_seen": "2026-11-04",
+      "last_seen": "2026-11-04",
+      "title": "Ling 3.1 Flash 1019 on AI Gateway"
+    },
+    "https://vercel.com/changelog/mercury-3-now-available-on-ai-gateway": {
+      "first_seen": "2026-11-04",
+      "last_seen": "2026-11-04",
+      "title": "Mercury 3 on AI Gateway"
+    },
+    "https://vercel.com/changelog/step-5-preview-now-available-on-ai-gateway": {
+      "first_seen": "2026-11-04",
+      "last_seen": "2026-11-04",
+      "title": "Step 5 Preview on AI Gateway"
+    },
+    "https://vercel.com/changelog/muse-spark-open-now-available-on-ai-gateway": {
+      "first_seen": "2026-11-04",
+      "last_seen": "2026-11-04",
+      "title": "Muse Spark Open on AI Gateway"
+    },
     "https://www.anthropic.com/claude-opus-5-5": {
       "first_seen": "2026-10-29",
       "last_seen": "2026-10-29",
@@ -760,11 +840,6 @@
       "first_seen": "2026-10-16",
       "last_seen": "2026-10-16",
       "title": "Study Mode: learning through questions"
-    },
-    "https://openai.com/index/third-moment-research": {
-      "first_seen": "2026-10-15",
-      "last_seen": "2026-10-15",
-      "title": "Third Moment Research: 10,000 agents for 36+ hours"
     },
     "https://openai.com/index/amp-beyond-coding": {
       "first_seen": "2026-10-15",
@@ -2256,11 +2331,6 @@
       "last_seen": "2026-09-16",
       "title": "GKE sandbox lifecycle pattern"
     },
-    "https://cloud.google.com/blog/products/storage-data-transfer/filestore-agent-volumes": {
-      "first_seen": "2026-09-16",
-      "last_seen": "2026-09-16",
-      "title": "Filestore agent volumes"
-    },
     "https://developers.cloudflare.com/changelog/post/2026-09-15-waf-release": {
       "first_seen": "2026-09-16",
       "last_seen": "2026-09-16",
@@ -2350,11 +2420,6 @@
       "first_seen": "2026-09-13",
       "last_seen": "2026-09-13",
       "title": "Memory in the Age of AI Agents"
-    },
-    "https://arxiv.org/html/2602.15112v2": {
-      "first_seen": "2026-09-13",
-      "last_seen": "2026-09-13",
-      "title": "ResearchGym"
     },
     "https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026": {
       "first_seen": "2026-09-13",

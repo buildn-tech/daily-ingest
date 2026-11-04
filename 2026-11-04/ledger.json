@@ -1,0 +1,163 @@
+{
+  "date": "2026-11-04",
+  "generated_at": "2026-11-04T09:05:59.461580+00:00",
+  "editorial_thesis": "Today\u2019s strongest signal is the shift from agent novelty to governed, measurable execution: secure pull requests, isolated runtimes, evidence-bearing research, and route-level model policy.",
+  "topic_groups": [
+    {
+      "slug": "governed-agentic-development",
+      "title": "Governed Agentic Development",
+      "selection_rationale": "GitHub\u2019s October 28 GA and AI-specific scanning move agentic software from experiments into a reviewable delivery surface.",
+      "sources": [
+        {
+          "title": "GitHub Agentic Workflows generally available",
+          "url": "https://github.blog/changelog/2026-10-28-github-agentic-workflows-generally-available/",
+          "source_type": "release",
+          "published_or_updated": "2026-10-28",
+          "why_selected": "It makes issue triage, CI repair, documentation, dependency work, and feature delivery schedulable rather than chat-bound.",
+          "usefulness": "Prototype a Buildn maintenance worker on a sandboxed runner; require a validation artifact and human merge gate."
+        },
+        {
+          "title": "Code scanning for AI applications",
+          "url": "https://github.blog/changelog/2026-10-28-code-scanning-for-ai-applications-in-public-preview/",
+          "source_type": "release",
+          "published_or_updated": "2026-10-28",
+          "why_selected": "The scanner puts agent-specific failure modes into the pull-request review loop instead of leaving them to prose checklists.",
+          "usefulness": "Add the scan to agent-enabled client repositories and turn alerts into architecture review questions."
+        },
+        {
+          "title": "Step Functions workflows as AI agent tools",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/step-functions-workflows-ai-agent-tools/",
+          "source_type": "product",
+          "published_or_updated": "2026-10",
+          "why_selected": "It separates judgment from execution: the model selects a business process, but the process remains explicit and repeatable.",
+          "usefulness": "Wrap client onboarding, report generation, or approval flows as bounded tools instead of granting broad API access."
+        },
+        {
+          "title": "AWS AI/ML skill for coding agents",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/bring-sagemaker-ai-expertise-to-your-coding-agent/",
+          "source_type": "product",
+          "published_or_updated": "2026-10-13",
+          "why_selected": "Skills become a distribution layer for domain operations, but a supported toolkit is easier to update and govern than scattered local prompts.",
+          "usefulness": "Study the install/update path as a pattern for Buildn skills that expose narrow, versioned client capabilities."
+        }
+      ]
+    },
+    {
+      "slug": "agent-runtime-infrastructure",
+      "title": "Agent Runtime Infrastructure",
+      "selection_rationale": "Fresh infrastructure announcements make pause/resume, isolation, identity, and cross-cloud governance the practical bottlenecks to watch.",
+      "sources": [
+        {
+          "title": "Agent Compute Engine and expanded governance",
+          "url": "https://cloud.google.com/blog/topics/ai-infrastructure/introducing-agent-compute-engine-and-expanded-agent-governance",
+          "source_type": "release",
+          "published_or_updated": "2026-10-22",
+          "why_selected": "It names the infrastructure primitives that ordinary request/response hosting hides: high-churn sessions, waiting states, credentials, and agent sprawl.",
+          "usefulness": "Use ACE as a reference architecture for Buildn job isolation even when implementing locally or on Kubernetes."
+        },
+        {
+          "title": "WorkSpaces for AI agents",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/workspaces-ai-agents-oauth-connection-management",
+          "source_type": "product",
+          "published_or_updated": "2026-10",
+          "why_selected": "It treats computer use as a governed desktop session rather than an unbounded browser credential.",
+          "usefulness": "Evaluate for client workflows that require legacy desktop applications but still need network isolation and auditability."
+        },
+        {
+          "title": "Virtual models on Vercel AI Gateway",
+          "url": "https://vercel.com/changelog/virtual-models-now-available-on-ai-gateway",
+          "source_type": "product",
+          "published_or_updated": "2026-10",
+          "why_selected": "A stable route name decouples workflow code from provider churn and makes model policy a change-controlled configuration.",
+          "usefulness": "Create separate Buildn routes for extraction, synthesis, repair, and private work with explicit budgets and retention."
+        },
+        {
+          "title": "Filestore agent volumes",
+          "url": "https://cloud.google.com/blog/products/storage-data-transfer/filestore-agent-volumes",
+          "source_type": "release",
+          "published_or_updated": "2026-09",
+          "why_selected": "Persistent artifacts are part of agent continuity; storage attachment speed and isolation determine whether sessions can resume safely.",
+          "usefulness": "Compare the pattern with local artifact directories and object storage for Buildn\u2019s long-running jobs."
+        }
+      ]
+    },
+    {
+      "slug": "scientific-agent-workflows",
+      "title": "Scientific Agent Workflows",
+      "selection_rationale": "A fresh biology deployment shows the strongest agent signal is not a bigger chatbot but parallel, evidence-producing investigation over structured data.",
+      "sources": [
+        {
+          "title": "Thousands of agents analyze whole-brain CRISPR data",
+          "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data/",
+          "source_type": "research",
+          "published_or_updated": "2026-10-21",
+          "why_selected": "It is a concrete parallel-research pattern: partition a large search space, preserve intermediate findings, then identify promising hypotheses.",
+          "usefulness": "Adapt the pattern to client discovery, competitive research, or repository archaeology with explicit evidence bundles."
+        },
+        {
+          "title": "GPT-Rosalind biological reasoning model",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.15.759436v1",
+          "source_type": "paper",
+          "published_or_updated": "2026-10-15",
+          "why_selected": "The model is only one layer; the durable lesson is the surrounding orchestration, dataset grounding, and hypothesis triage.",
+          "usefulness": "Use it as a reminder to evaluate model-plus-workflow systems, not standalone benchmark scores."
+        },
+        {
+          "title": "10,000 agents for 36\u201348 hour research sessions",
+          "url": "https://openai.com/index/third-moment-research/",
+          "source_type": "case study",
+          "published_or_updated": "2026-10-14",
+          "why_selected": "Long-horizon work needs scheduling, checkpointing, experiment selection, and cost controls more than conversational polish.",
+          "usefulness": "Borrow the loop for Buildn: generate candidate analyses, run bounded backtests, compare evidence, and escalate only high-value branches."
+        },
+        {
+          "title": "ResearchGym benchmark",
+          "url": "https://arxiv.org/html/2602.15112v2",
+          "source_type": "paper",
+          "published_or_updated": "2026",
+          "why_selected": "It provides a useful vocabulary for measuring whether delegated research actually advances a task.",
+          "usefulness": "Score Buildn research jobs by evidence quality, novelty, reproducibility, and next-step usefulness."
+        }
+      ]
+    },
+    {
+      "slug": "model-routing-and-portability",
+      "title": "Model Routing + Portability",
+      "selection_rationale": "Current gateway updates make provider choice a policy surface: useful for price, latency, privacy, and fallback experiments without changing agent code.",
+      "sources": [
+        {
+          "title": "Ling 3.1 Flash 1019 on AI Gateway",
+          "url": "https://vercel.com/changelog/ling-3-1-flash-1019-now-available-on-ai-gateway-for-free",
+          "source_type": "release",
+          "published_or_updated": "2026-10",
+          "why_selected": "It is a low-friction candidate for cheap first passes in agent workflows.",
+          "usefulness": "Benchmark extraction, classification, and simple code repair against the current default model."
+        },
+        {
+          "title": "Mercury 3 on AI Gateway",
+          "url": "https://vercel.com/changelog/mercury-3-now-available-on-ai-gateway",
+          "source_type": "release",
+          "published_or_updated": "2026-10",
+          "why_selected": "Latency is a product constraint, not just a model metric, especially when agents interact with people or browsers.",
+          "usefulness": "Test it on interactive client support or intake flows where fast acknowledgement matters."
+        },
+        {
+          "title": "Step 5 Preview on AI Gateway",
+          "url": "https://vercel.com/changelog/step-5-preview-now-available-on-ai-gateway",
+          "source_type": "release",
+          "published_or_updated": "2026-10",
+          "why_selected": "A shared setup path makes provider experiments less expensive in engineering time.",
+          "usefulness": "Use it as a challenger model in a route-level evaluation, not as an unreviewed replacement."
+        },
+        {
+          "title": "Muse Spark Open on AI Gateway",
+          "url": "https://vercel.com/changelog/muse-spark-open-now-available-on-ai-gateway",
+          "source_type": "release",
+          "published_or_updated": "2026-10",
+          "why_selected": "An open model option gives the portfolio a portability and sovereignty probe, even when hosted first.",
+          "usefulness": "Compare it on privacy-sensitive enrichment and lightweight transformations before considering local deployment."
+        }
+      ]
+    }
+  ]
+}

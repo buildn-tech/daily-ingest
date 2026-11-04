@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-10-29T09:03:13.435515+00:00",
+  "updated_at": "2026-11-04T09:06:10.623864+00:00",
   "days": [
+    {
+      "date": "2026-11-04",
+      "path": "2026-11-04",
+      "reports": [
+        {
+          "lane": "governed-agentic-development",
+          "title": "Governed Agentic Development",
+          "url": "2026-11-04/governed-agentic-development.html"
+        },
+        {
+          "lane": "agent-runtime-infrastructure",
+          "title": "Agent Runtime Infrastructure",
+          "url": "2026-11-04/agent-runtime-infrastructure.html"
+        },
+        {
+          "lane": "scientific-agent-workflows",
+          "title": "Scientific Agent Workflows",
+          "url": "2026-11-04/scientific-agent-workflows.html"
+        },
+        {
+          "lane": "model-routing-and-portability",
+          "title": "Model Routing + Portability",
+          "url": "2026-11-04/model-routing-and-portability.html"
+        }
+      ]
+    },
     {
       "date": "2026-10-29",
       "path": "2026-10-29",
