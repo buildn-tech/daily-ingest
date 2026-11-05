@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-11-04T09:06:10.623864+00:00",
+  "updated_at": "2026-11-05T09:05:45.584669+00:00",
   "days": [
+    {
+      "date": "2026-11-05",
+      "path": "2026-11-05",
+      "reports": [
+        {
+          "lane": "agent-ready-developer-surfaces",
+          "title": "Agent-Ready Developer Surfaces",
+          "url": "2026-11-05/agent-ready-developer-surfaces.html"
+        },
+        {
+          "lane": "agent-runtime-and-data-plane",
+          "title": "Agent Runtime + Data Plane",
+          "url": "2026-11-05/agent-runtime-and-data-plane.html"
+        },
+        {
+          "lane": "evidence-bearing-science-and-evaluation",
+          "title": "Evidence-Bearing Science + Evaluation",
+          "url": "2026-11-05/evidence-bearing-science-and-evaluation.html"
+        },
+        {
+          "lane": "personal-and-physical-workflows",
+          "title": "Personal + Physical Workflows",
+          "url": "2026-11-05/personal-and-physical-workflows.html"
+        }
+      ]
+    },
     {
       "date": "2026-11-04",
       "path": "2026-11-04",

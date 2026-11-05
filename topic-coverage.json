@@ -1629,6 +1629,30 @@
       "times_covered": 1,
       "last_covered": "2026-11-04",
       "last_selection_rationale": "Current gateway updates make provider choice a policy surface: useful for price, latency, privacy, and fallback experiments without changing agent code."
+    },
+    "agent-ready-developer-surfaces": {
+      "title": "Agent-Ready Developer Surfaces",
+      "times_covered": 1,
+      "last_covered": "2026-11-05",
+      "last_selection_rationale": "Two fresh IDE integrations show coding agents becoming interchangeable participants in native developer environments, while the key differentiator is now isolation and review rather than autocomplete."
+    },
+    "agent-runtime-and-data-plane": {
+      "title": "Agent Runtime + Data Plane",
+      "times_covered": 1,
+      "last_covered": "2026-11-05",
+      "last_selection_rationale": "This lane earns inclusion because the newest practical releases connect agent execution to isolated desktops and disposable, policy-bound databases\u2014two missing pieces in many prototypes."
+    },
+    "evidence-bearing-science-and-evaluation": {
+      "title": "Evidence-Bearing Science + Evaluation",
+      "times_covered": 1,
+      "last_covered": "2026-11-05",
+      "last_selection_rationale": "Fresh releases from Anthropic and OpenAI point to a common pattern: agents become useful in complex domains when outputs carry executable artifacts, provenance, and a human checkpoint."
+    },
+    "personal-and-physical-workflows": {
+      "title": "Personal + Physical Workflows",
+      "times_covered": 1,
+      "last_covered": "2026-11-05",
+      "last_selection_rationale": "This is a deliberate coverage-gap lane: recent dossiers emphasized infrastructure, while current signals show agents moving into everyday assistance and physical-system design where trust, consent, and review are decisive."
     }
   },
   "item_history": [
@@ -4294,6 +4318,134 @@
       "url": "https://vercel.com/changelog/muse-spark-open-now-available-on-ai-gateway",
       "source_type": "release",
       "rationale": "An open model option gives the portfolio a portability and sovereignty probe, even when hosted first."
+    },
+    {
+      "date": "2026-11-05",
+      "topic": "agent-ready-developer-surfaces",
+      "title": "GitHub Copilot in Xcode\u2019s coding assistant",
+      "url": "https://github.blog/changelog/2026-11-04-github-copilot-is-now-available-in-xcodes-coding-assistant",
+      "source_type": "release",
+      "rationale": "Native integration reduces context switching and makes the agent part of the same review surface as the project, not a separate chat window."
+    },
+    {
+      "date": "2026-11-05",
+      "topic": "agent-ready-developer-surfaces",
+      "title": "GitHub Copilot in JetBrains Air",
+      "url": "https://github.blog/changelog/2026-11-03-github-copilot-is-now-available-in-jetbrains-air",
+      "source_type": "release",
+      "rationale": "Parallel sessions, cloud execution, and in-context review turn coding delegation into a repeatable work queue rather than a one-off prompt."
+    },
+    {
+      "date": "2026-11-05",
+      "topic": "agent-ready-developer-surfaces",
+      "title": "Agent Client Protocol",
+      "url": "https://www.jetbrains.com/air/",
+      "source_type": "protocol",
+      "rationale": "A client protocol makes the host environment less dependent on a single agent vendor and supports replaceable execution backends."
+    },
+    {
+      "date": "2026-11-05",
+      "topic": "agent-ready-developer-surfaces",
+      "title": "Physical-Engineering\u2019s Last Exam",
+      "url": "https://cloud.google.com/blog/products/ai-machine-learning/introducing-physical-engineerings-last-exam-for-agents",
+      "source_type": "benchmark",
+      "rationale": "Agent evaluation is expanding from coding and QA into professional workflows where constraints, calculations, and domain artifacts matter."
+    },
+    {
+      "date": "2026-11-05",
+      "topic": "agent-runtime-and-data-plane",
+      "title": "WorkSpaces for AI agents: Linux and Windows 11",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/workspaces-ai-agents-linux-windows-11/",
+      "source_type": "product",
+      "rationale": "Agents can work in the same OS-specific environments as people, including legacy Windows applications and Linux build tooling."
+    },
+    {
+      "date": "2026-11-05",
+      "topic": "agent-runtime-and-data-plane",
+      "title": "AlloyDB Express",
+      "url": "https://cloud.google.com/blog/products/databases/introducing-alloydb-express-for-rapid-testing-and-prototyping",
+      "source_type": "preview",
+      "rationale": "Coding agents can create isolated test data planes quickly without making every prototype a long-lived infrastructure project."
+    },
+    {
+      "date": "2026-11-05",
+      "topic": "agent-runtime-and-data-plane",
+      "title": "Agent Compute Engine and expanded governance",
+      "url": "https://cloud.google.com/blog/topics/ai-infrastructure/introducing-agent-compute-engine-and-expanded-agent-governance",
+      "source_type": "infrastructure",
+      "rationale": "It makes waiting, resuming, egress, and per-agent identity first-class runtime concerns instead of hidden application code."
+    },
+    {
+      "date": "2026-11-05",
+      "topic": "agent-runtime-and-data-plane",
+      "title": "Step Functions as agent tools",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/step-functions-workflows-ai-agent-tools/",
+      "source_type": "product",
+      "rationale": "It separates model judgment from business-process execution and keeps approvals, retries, and state transitions explicit."
+    },
+    {
+      "date": "2026-11-05",
+      "topic": "evidence-bearing-science-and-evaluation",
+      "title": "Claude Science",
+      "url": "https://www.anthropic.com/news/claude-science-ai-workbench",
+      "source_type": "product",
+      "rationale": "The product treats code, environment, explanation, and message history as part of the result rather than incidental implementation detail."
+    },
+    {
+      "date": "2026-11-05",
+      "topic": "evidence-bearing-science-and-evaluation",
+      "title": "Accelerating engineering for the physical world",
+      "url": "https://openai.com/index/accelerating-engineering-for-the-physical-world/",
+      "source_type": "research",
+      "rationale": "It shows the agent opportunity moving from text generation to coordinated artifact transformation across constrained engineering systems."
+    },
+    {
+      "date": "2026-11-05",
+      "topic": "evidence-bearing-science-and-evaluation",
+      "title": "LifeVal",
+      "url": "https://openai.com/index/lifeval/",
+      "source_type": "evaluation",
+      "rationale": "It measures whether an assistant actually completes useful workflows, including research, decisions, browser use, and user checkpoints."
+    },
+    {
+      "date": "2026-11-05",
+      "topic": "evidence-bearing-science-and-evaluation",
+      "title": "Thousands of agents analyze whole-brain CRISPR data",
+      "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data/",
+      "source_type": "case study",
+      "rationale": "The durable pattern is partitioned investigation over structured data with shared schemas, intermediate evidence, and a final triage step."
+    },
+    {
+      "date": "2026-11-05",
+      "topic": "personal-and-physical-workflows",
+      "title": "How agents are transforming work",
+      "url": "https://openai.com/index/how-agents-are-transforming-work/",
+      "source_type": "research",
+      "rationale": "The relevant unit of adoption is a task with a time horizon, tools, and an accountable owner\u2014not the number of prompts or generated tokens."
+    },
+    {
+      "date": "2026-11-05",
+      "topic": "personal-and-physical-workflows",
+      "title": "Claude Science local and HPC workflow",
+      "url": "https://www.anthropic.com/news/claude-science-ai-workbench",
+      "source_type": "workflow",
+      "rationale": "The pattern joins local-first data residency with agentic orchestration instead of forcing every dataset into a hosted workspace."
+    },
+    {
+      "date": "2026-11-05",
+      "topic": "personal-and-physical-workflows",
+      "title": "GPT-Rosalind biological reasoning model",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.15.759436v1",
+      "source_type": "paper",
+      "rationale": "Its operational value is inseparable from orchestration, grounding, and hypothesis triage; a model name alone is not a workflow."
+    },
+    {
+      "date": "2026-11-05",
+      "topic": "personal-and-physical-workflows",
+      "title": "Agent Compute Engine\u2019s pause/resume pattern",
+      "url": "https://cloud.google.com/blog/topics/ai-infrastructure/introducing-agent-compute-engine-and-expanded-agent-governance",
+      "source_type": "architecture",
+      "rationale": "Human checkpoints become economically viable when waiting does not consume a continuously running process."
     }
   ],
   "runs": [
@@ -16300,7 +16452,7 @@
       "last_covered": "2026-10-03"
     }
   },
-  "last_successful_run": "2026-11-04",
+  "last_successful_run": "2026-11-05",
   "history": [
     {
       "date": "2026-09-07",
@@ -18684,5 +18836,5 @@
       "thesis": "Agents become useful when boundaries, connectors, memory, and feedback are designed as one inspectable operating system\u2014not as isolated capability demos."
     }
   ],
-  "last_selection_rationale": "Today\u2019s strongest signal is the shift from agent novelty to governed, measurable execution: secure pull requests, isolated runtimes, evidence-bearing research, and route-level model policy."
+  "last_selection_rationale": "Today\u2019s strongest signal is the move from agent demos toward governed work surfaces: native IDE participation, disposable data planes, reproducible evidence, and human checkpoints in consequential workflows."
 }

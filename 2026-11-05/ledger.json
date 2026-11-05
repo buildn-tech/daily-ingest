@@ -1,0 +1,163 @@
+{
+  "date": "2026-11-05",
+  "generated_at": "2026-11-05T09:05:15.224636+00:00",
+  "editorial_thesis": "Today\u2019s strongest signal is the move from agent demos toward governed work surfaces: native IDE participation, disposable data planes, reproducible evidence, and human checkpoints in consequential workflows.",
+  "topic_groups": [
+    {
+      "slug": "agent-ready-developer-surfaces",
+      "title": "Agent-Ready Developer Surfaces",
+      "selection_rationale": "Two fresh IDE integrations show coding agents becoming interchangeable participants in native developer environments, while the key differentiator is now isolation and review rather than autocomplete.",
+      "sources": [
+        {
+          "title": "GitHub Copilot in Xcode\u2019s coding assistant",
+          "url": "https://github.blog/changelog/2026-11-04-github-copilot-is-now-available-in-xcodes-coding-assistant",
+          "source_type": "release",
+          "published_or_updated": "2026-11-04",
+          "why_selected": "Native integration reduces context switching and makes the agent part of the same review surface as the project, not a separate chat window.",
+          "usefulness": "Use it to test a mobile-client workflow where the agent must edit, build, and explain changes inside the existing IDE boundary."
+        },
+        {
+          "title": "GitHub Copilot in JetBrains Air",
+          "url": "https://github.blog/changelog/2026-11-03-github-copilot-is-now-available-in-jetbrains-air",
+          "source_type": "release",
+          "published_or_updated": "2026-11-03",
+          "why_selected": "Parallel sessions, cloud execution, and in-context review turn coding delegation into a repeatable work queue rather than a one-off prompt.",
+          "usefulness": "Prototype a Buildn repair queue with one task per fresh sandbox, repository-scoped context, and a patch review gate."
+        },
+        {
+          "title": "Agent Client Protocol",
+          "url": "https://www.jetbrains.com/air/",
+          "source_type": "protocol",
+          "published_or_updated": "2026-11",
+          "why_selected": "A client protocol makes the host environment less dependent on a single agent vendor and supports replaceable execution backends.",
+          "usefulness": "Treat ACP-like boundaries as a design reference for Buildn surfaces that need interchangeable workers with shared evidence contracts."
+        },
+        {
+          "title": "Physical-Engineering\u2019s Last Exam",
+          "url": "https://cloud.google.com/blog/products/ai-machine-learning/introducing-physical-engineerings-last-exam-for-agents",
+          "source_type": "benchmark",
+          "published_or_updated": "2026-11",
+          "why_selected": "Agent evaluation is expanding from coding and QA into professional workflows where constraints, calculations, and domain artifacts matter.",
+          "usefulness": "Borrow the benchmark shape for Buildn client tasks: score artifact correctness, constraint satisfaction, evidence, and review effort."
+        }
+      ]
+    },
+    {
+      "slug": "agent-runtime-and-data-plane",
+      "title": "Agent Runtime + Data Plane",
+      "selection_rationale": "This lane earns inclusion because the newest practical releases connect agent execution to isolated desktops and disposable, policy-bound databases\u2014two missing pieces in many prototypes.",
+      "sources": [
+        {
+          "title": "WorkSpaces for AI agents: Linux and Windows 11",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/workspaces-ai-agents-linux-windows-11/",
+          "source_type": "product",
+          "published_or_updated": "2026-11-03",
+          "why_selected": "Agents can work in the same OS-specific environments as people, including legacy Windows applications and Linux build tooling.",
+          "usefulness": "Evaluate it for client workflows that cannot be cleanly re-platformed but still need isolated, auditable computer use."
+        },
+        {
+          "title": "AlloyDB Express",
+          "url": "https://cloud.google.com/blog/products/databases/introducing-alloydb-express-for-rapid-testing-and-prototyping",
+          "source_type": "preview",
+          "published_or_updated": "2026-11-04",
+          "why_selected": "Coding agents can create isolated test data planes quickly without making every prototype a long-lived infrastructure project.",
+          "usefulness": "Spin up per-job databases for Buildn experiments, store structured evidence beside vectors, and destroy or retain them by policy."
+        },
+        {
+          "title": "Agent Compute Engine and expanded governance",
+          "url": "https://cloud.google.com/blog/topics/ai-infrastructure/introducing-agent-compute-engine-and-expanded-agent-governance",
+          "source_type": "infrastructure",
+          "published_or_updated": "2026-10-22",
+          "why_selected": "It makes waiting, resuming, egress, and per-agent identity first-class runtime concerns instead of hidden application code.",
+          "usefulness": "Use the design as a checklist for Buildn job isolation even when implementation stays local or Kubernetes-based."
+        },
+        {
+          "title": "Step Functions as agent tools",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/step-functions-workflows-ai-agent-tools/",
+          "source_type": "product",
+          "published_or_updated": "2026-10",
+          "why_selected": "It separates model judgment from business-process execution and keeps approvals, retries, and state transitions explicit.",
+          "usefulness": "Wrap client onboarding, report generation, or publishing flows as typed tools rather than giving an agent broad API access."
+        }
+      ]
+    },
+    {
+      "slug": "evidence-bearing-science-and-evaluation",
+      "title": "Evidence-Bearing Science + Evaluation",
+      "selection_rationale": "Fresh releases from Anthropic and OpenAI point to a common pattern: agents become useful in complex domains when outputs carry executable artifacts, provenance, and a human checkpoint.",
+      "sources": [
+        {
+          "title": "Claude Science",
+          "url": "https://www.anthropic.com/news/claude-science-ai-workbench",
+          "source_type": "product",
+          "published_or_updated": "2026-11",
+          "why_selected": "The product treats code, environment, explanation, and message history as part of the result rather than incidental implementation detail.",
+          "usefulness": "Mirror the artifact contract for Buildn research: claim, source, code or query, environment, reviewer notes, and next action."
+        },
+        {
+          "title": "Accelerating engineering for the physical world",
+          "url": "https://openai.com/index/accelerating-engineering-for-the-physical-world/",
+          "source_type": "research",
+          "published_or_updated": "2026-11-03",
+          "why_selected": "It shows the agent opportunity moving from text generation to coordinated artifact transformation across constrained engineering systems.",
+          "usefulness": "Look for client workflows where repeated consistency checks across documents, drawings, and specifications can be automated first."
+        },
+        {
+          "title": "LifeVal",
+          "url": "https://openai.com/index/lifeval/",
+          "source_type": "evaluation",
+          "published_or_updated": "2026-11-02",
+          "why_selected": "It measures whether an assistant actually completes useful workflows, including research, decisions, browser use, and user checkpoints.",
+          "usefulness": "Use the task-based framing to replace vague \u201chelpfulness\u201d claims with accepted outcomes and explicit escalation points."
+        },
+        {
+          "title": "Thousands of agents analyze whole-brain CRISPR data",
+          "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data/",
+          "source_type": "case study",
+          "published_or_updated": "2026-10",
+          "why_selected": "The durable pattern is partitioned investigation over structured data with shared schemas, intermediate evidence, and a final triage step.",
+          "usefulness": "Adapt it to repository archaeology, competitive research, or client discovery with claim-source-confidence-next-test records."
+        }
+      ]
+    },
+    {
+      "slug": "personal-and-physical-workflows",
+      "title": "Personal + Physical Workflows",
+      "selection_rationale": "This is a deliberate coverage-gap lane: recent dossiers emphasized infrastructure, while current signals show agents moving into everyday assistance and physical-system design where trust, consent, and review are decisive.",
+      "sources": [
+        {
+          "title": "How agents are transforming work",
+          "url": "https://openai.com/index/how-agents-are-transforming-work/",
+          "source_type": "research",
+          "published_or_updated": "2026-06-25",
+          "why_selected": "The relevant unit of adoption is a task with a time horizon, tools, and an accountable owner\u2014not the number of prompts or generated tokens.",
+          "usefulness": "Frame Buildn/client discovery around delegated work units: duration, acceptance criteria, review cost, and escalation."
+        },
+        {
+          "title": "Claude Science local and HPC workflow",
+          "url": "https://www.anthropic.com/news/claude-science-ai-workbench",
+          "source_type": "workflow",
+          "published_or_updated": "2026-11",
+          "why_selected": "The pattern joins local-first data residency with agentic orchestration instead of forcing every dataset into a hosted workspace.",
+          "usefulness": "Study it for privacy-sensitive client analysis where evidence can stay on the client\u2019s infrastructure while the agent receives narrow context."
+        },
+        {
+          "title": "GPT-Rosalind biological reasoning model",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.15.759436v1",
+          "source_type": "paper",
+          "published_or_updated": "2026-10-15",
+          "why_selected": "Its operational value is inseparable from orchestration, grounding, and hypothesis triage; a model name alone is not a workflow.",
+          "usefulness": "Use it as a reminder to evaluate model-plus-data-plus-review systems rather than isolated benchmark scores."
+        },
+        {
+          "title": "Agent Compute Engine\u2019s pause/resume pattern",
+          "url": "https://cloud.google.com/blog/topics/ai-infrastructure/introducing-agent-compute-engine-and-expanded-agent-governance",
+          "source_type": "architecture",
+          "published_or_updated": "2026-10-22",
+          "why_selected": "Human checkpoints become economically viable when waiting does not consume a continuously running process.",
+          "usefulness": "Design approval-heavy Buildn workflows that pause after producing a proposed change and resume only after an explicit decision."
+        }
+      ]
+    }
+  ]
+}

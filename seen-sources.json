@@ -1,6 +1,76 @@
 {
-  "updated_at": "2026-11-04T09:06:10.623864+00:00",
+  "updated_at": "2026-11-05T09:05:45.584669+00:00",
   "sources": {
+    "https://github.blog/changelog/2026-11-04-github-copilot-is-now-available-in-xcodes-coding-assistant": {
+      "first_seen": "2026-11-05",
+      "last_seen": "2026-11-05",
+      "title": "GitHub Copilot in Xcode\u2019s coding assistant"
+    },
+    "https://github.blog/changelog/2026-11-03-github-copilot-is-now-available-in-jetbrains-air": {
+      "first_seen": "2026-11-05",
+      "last_seen": "2026-11-05",
+      "title": "GitHub Copilot in JetBrains Air"
+    },
+    "https://www.jetbrains.com/air": {
+      "first_seen": "2026-11-05",
+      "last_seen": "2026-11-05",
+      "title": "Agent Client Protocol"
+    },
+    "https://cloud.google.com/blog/products/ai-machine-learning/introducing-physical-engineerings-last-exam-for-agents": {
+      "first_seen": "2026-11-05",
+      "last_seen": "2026-11-05",
+      "title": "Physical-Engineering\u2019s Last Exam"
+    },
+    "https://aws.amazon.com/about-aws/whats-new/2026/11/workspaces-ai-agents-linux-windows-11": {
+      "first_seen": "2026-11-05",
+      "last_seen": "2026-11-05",
+      "title": "WorkSpaces for AI agents: Linux and Windows 11"
+    },
+    "https://cloud.google.com/blog/products/databases/introducing-alloydb-express-for-rapid-testing-and-prototyping": {
+      "first_seen": "2026-11-05",
+      "last_seen": "2026-11-05",
+      "title": "AlloyDB Express"
+    },
+    "https://cloud.google.com/blog/topics/ai-infrastructure/introducing-agent-compute-engine-and-expanded-agent-governance": {
+      "first_seen": "2026-11-05",
+      "last_seen": "2026-11-04",
+      "title": "Agent Compute Engine and expanded governance"
+    },
+    "https://aws.amazon.com/about-aws/whats-new/2026/10/step-functions-workflows-ai-agent-tools": {
+      "first_seen": "2026-11-05",
+      "last_seen": "2026-11-04",
+      "title": "Step Functions workflows as AI agent tools"
+    },
+    "https://www.anthropic.com/news/claude-science-ai-workbench": {
+      "first_seen": "2026-11-05",
+      "last_seen": "2026-10-10",
+      "title": "Claude Science, an AI workbench for scientists"
+    },
+    "https://openai.com/index/accelerating-engineering-for-the-physical-world": {
+      "first_seen": "2026-11-05",
+      "last_seen": "2026-11-05",
+      "title": "Accelerating engineering for the physical world"
+    },
+    "https://openai.com/index/lifeval": {
+      "first_seen": "2026-11-05",
+      "last_seen": "2026-11-05",
+      "title": "LifeVal"
+    },
+    "https://openai.com/index/scaling-ai-research-for-complex-biological-data": {
+      "first_seen": "2026-11-05",
+      "last_seen": "2026-11-04",
+      "title": "Thousands of agents analyze whole-brain CRISPR data"
+    },
+    "https://openai.com/index/how-agents-are-transforming-work": {
+      "first_seen": "2026-11-05",
+      "last_seen": "2026-08-22",
+      "title": "How agents are transforming work"
+    },
+    "https://www.biorxiv.org/content/10.64898/2026.10.15.759436v1": {
+      "first_seen": "2026-11-05",
+      "last_seen": "2026-11-04",
+      "title": "GPT-Rosalind biological reasoning model"
+    },
     "https://github.blog/changelog/2026-10-28-github-agentic-workflows-generally-available": {
       "first_seen": "2026-11-04",
       "last_seen": "2026-11-04",
@@ -11,20 +81,10 @@
       "last_seen": "2026-11-04",
       "title": "Code scanning for AI applications"
     },
-    "https://aws.amazon.com/about-aws/whats-new/2026/10/step-functions-workflows-ai-agent-tools": {
-      "first_seen": "2026-11-04",
-      "last_seen": "2026-11-04",
-      "title": "Step Functions workflows as AI agent tools"
-    },
     "https://aws.amazon.com/about-aws/whats-new/2026/10/bring-sagemaker-ai-expertise-to-your-coding-agent": {
       "first_seen": "2026-11-04",
       "last_seen": "2026-11-04",
       "title": "AWS AI/ML skill for coding agents"
-    },
-    "https://cloud.google.com/blog/topics/ai-infrastructure/introducing-agent-compute-engine-and-expanded-agent-governance": {
-      "first_seen": "2026-11-04",
-      "last_seen": "2026-11-04",
-      "title": "Agent Compute Engine and expanded governance"
     },
     "https://aws.amazon.com/about-aws/whats-new/2026/10/workspaces-ai-agents-oauth-connection-management": {
       "first_seen": "2026-11-04",
@@ -40,16 +100,6 @@
       "first_seen": "2026-11-04",
       "last_seen": "2026-09-16",
       "title": "Filestore agent volumes"
-    },
-    "https://openai.com/index/scaling-ai-research-for-complex-biological-data": {
-      "first_seen": "2026-11-04",
-      "last_seen": "2026-11-04",
-      "title": "Thousands of agents analyze whole-brain CRISPR data"
-    },
-    "https://www.biorxiv.org/content/10.64898/2026.10.15.759436v1": {
-      "first_seen": "2026-11-04",
-      "last_seen": "2026-11-04",
-      "title": "GPT-Rosalind biological reasoning model"
     },
     "https://openai.com/index/third-moment-research": {
       "first_seen": "2026-11-04",
@@ -1056,11 +1106,6 @@
       "last_seen": "2026-10-10",
       "title": "Security validation for third-party coding agents"
     },
-    "https://openai.com/index/how-agents-are-transforming-work": {
-      "first_seen": "2026-10-11",
-      "last_seen": "2026-08-22",
-      "title": "How agents are transforming work"
-    },
     "https://www.anthropic.com/news/genesis-mission-commitment": {
       "first_seen": "2026-10-11",
       "last_seen": "2026-10-11",
@@ -1125,11 +1170,6 @@
       "first_seen": "2026-10-10",
       "last_seen": "2026-07-16",
       "title": "AI security detections on pull requests"
-    },
-    "https://www.anthropic.com/news/claude-science-ai-workbench": {
-      "first_seen": "2026-10-10",
-      "last_seen": "2026-10-10",
-      "title": "Claude Science, an AI workbench for scientists"
     },
     "https://www.anthropic.com/news/healthcare-life-sciences": {
       "first_seen": "2026-10-10",
