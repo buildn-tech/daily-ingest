@@ -1,6 +1,76 @@
 {
-  "updated_at": "2026-11-05T09:05:45.584669+00:00",
+  "updated_at": "2026-11-06T09:03:29.003456+00:00",
   "sources": {
+    "https://cloud.google.com/blog/products/containers-kubernetes/open-infrastructure-for-autonomous-agents-comes-to-cncf": {
+      "first_seen": "2026-11-06",
+      "last_seen": "2026-11-06",
+      "title": "Powering open infrastructure for autonomous agents"
+    },
+    "https://docs.cloud.google.com/kubernetes-engine/ai-ml/about-agent-substrate": {
+      "first_seen": "2026-11-06",
+      "last_seen": "2026-11-06",
+      "title": "Agent Substrate on GKE"
+    },
+    "https://gvisor.dev/": {
+      "first_seen": "2026-11-06",
+      "last_seen": "2026-11-06",
+      "title": "gVisor"
+    },
+    "https://openrl.dev/": {
+      "first_seen": "2026-11-06",
+      "last_seen": "2026-11-06",
+      "title": "OpenRL"
+    },
+    "http://ate.dev/": {
+      "first_seen": "2026-11-06",
+      "last_seen": "2026-11-06",
+      "title": "Agent Substrate repository"
+    },
+    "https://openai.com/index/introducing-gpt-6-cyber": {
+      "first_seen": "2026-11-06",
+      "last_seen": "2026-11-06",
+      "title": "GPT-6 Cyber"
+    },
+    "https://openai.com/index/a-thousand-fewer-paths-to-root": {
+      "first_seen": "2026-11-06",
+      "last_seen": "2026-11-06",
+      "title": "A thousand fewer paths to root"
+    },
+    "https://www.anthropic.com/news/disrupting-AI-espionage": {
+      "first_seen": "2026-11-06",
+      "last_seen": "2026-09-06",
+      "title": "AI-orchestrated cyber espionage campaign"
+    },
+    "https://www.anthropic.com/news/AI-enabled-cyber-threats-mitre-attack": {
+      "first_seen": "2026-11-06",
+      "last_seen": "2026-11-06",
+      "title": "Mapping AI-enabled cyber threats"
+    },
+    "https://openai.com/index/securing-our-frontier-model-training-environment": {
+      "first_seen": "2026-11-06",
+      "last_seen": "2026-10-25",
+      "title": "Frontier training security becomes an operating discipline"
+    },
+    "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2": {
+      "first_seen": "2026-11-06",
+      "last_seen": "2026-10-07",
+      "title": "EmbeddingGemma 2"
+    },
+    "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash": {
+      "first_seen": "2026-11-06",
+      "last_seen": "2026-11-06",
+      "title": "Gemini Omni 1.2 Flash"
+    },
+    "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026": {
+      "first_seen": "2026-11-06",
+      "last_seen": "2026-11-06",
+      "title": "Google AI updates: October 2026"
+    },
+    "https://blog.google/innovation-and-ai/technology/research/research-capabilities-intelligence-2026": {
+      "first_seen": "2026-11-06",
+      "last_seen": "2026-10-17",
+      "title": "Research@ 2026"
+    },
     "https://github.blog/changelog/2026-11-04-github-copilot-is-now-available-in-xcodes-coding-assistant": {
       "first_seen": "2026-11-05",
       "last_seen": "2026-11-05",
@@ -375,11 +445,6 @@
       "first_seen": "2026-10-26",
       "last_seen": "2026-10-26",
       "title": "Robotics research is clustering around agentic evaluation"
-    },
-    "https://openai.com/index/securing-our-frontier-model-training-environment": {
-      "first_seen": "2026-10-25",
-      "last_seen": "2026-10-25",
-      "title": "Frontier training security becomes an operating discipline"
     },
     "https://openai.com/index/decisions-api": {
       "first_seen": "2026-10-25",
@@ -756,11 +821,6 @@
       "last_seen": "2026-10-19",
       "title": "Nebius Academy: human layer of AI transformation"
     },
-    "https://blog.google/innovation-and-ai/technology/research/research-capabilities-intelligence-2026": {
-      "first_seen": "2026-10-19",
-      "last_seen": "2026-10-17",
-      "title": "Research@ 2026"
-    },
     "https://arxiv.org/html/2610.07639v1": {
       "first_seen": "2026-10-18",
       "last_seen": "2026-10-18",
@@ -1030,11 +1090,6 @@
       "first_seen": "2026-10-13",
       "last_seen": "2026-08-17",
       "title": "Google\u2019s AI product announcement index"
-    },
-    "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2": {
-      "first_seen": "2026-10-13",
-      "last_seen": "2026-10-07",
-      "title": "EmbeddingGemma 2"
     },
     "https://www.anthropic.com/news/services-track-partner-hub": {
       "first_seen": "2026-10-13",
@@ -2815,11 +2870,6 @@
       "first_seen": "2026-09-06",
       "last_seen": "2026-09-06",
       "title": "Funding better evaluations of AI\u2019s impact on wellbeing"
-    },
-    "https://www.anthropic.com/news/disrupting-AI-espionage": {
-      "first_seen": "2026-09-06",
-      "last_seen": "2026-09-06",
-      "title": "AI-orchestrated cyber espionage campaign"
     },
     "https://vercel.com/changelog/ling-3-0-flash-fin-now-available-on-ai-gateway-for-free": {
       "first_seen": "2026-09-06",

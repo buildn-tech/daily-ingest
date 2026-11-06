@@ -1,6 +1,27 @@
 {
-  "updated_at": "2026-11-05T09:05:45.584669+00:00",
+  "updated_at": "2026-11-06T09:03:29.003456+00:00",
   "days": [
+    {
+      "date": "2026-11-06",
+      "path": "2026-11-06",
+      "reports": [
+        {
+          "lane": "open-agent-infrastructure",
+          "title": "Open Agent Infrastructure",
+          "url": "2026-11-06/open-agent-infrastructure.html"
+        },
+        {
+          "lane": "cybersecurity-agents",
+          "title": "Cybersecurity Agents + Defensive Scope",
+          "url": "2026-11-06/cybersecurity-agents.html"
+        },
+        {
+          "lane": "private-multimodal-and-creative-tools",
+          "title": "Private Multimodal + Creative Tools",
+          "url": "2026-11-06/private-multimodal-and-creative-tools.html"
+        }
+      ]
+    },
     {
       "date": "2026-11-05",
       "path": "2026-11-05",
