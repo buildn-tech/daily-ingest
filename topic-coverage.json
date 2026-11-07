@@ -1668,6 +1668,26 @@
       "title": "Private Multimodal + Creative Tools",
       "times_covered": 1,
       "last_covered": "2026-11-06"
+    },
+    "agent-identity-and-governance": {
+      "title": "Agent Identity + Governance",
+      "times_covered": 1,
+      "last_covered": "2026-11-07"
+    },
+    "engineering-proof-and-agentic-dev": {
+      "title": "Engineering Proof + Agentic Development",
+      "times_covered": 1,
+      "last_covered": "2026-11-07"
+    },
+    "physical-ai-open-robotics": {
+      "title": "Physical AI + Open Robotics",
+      "times_covered": 1,
+      "last_covered": "2026-11-07"
+    },
+    "models-learning-and-operator-leverage": {
+      "title": "Models, Learning + Operator Leverage",
+      "times_covered": 1,
+      "last_covered": "2026-11-07"
     }
   },
   "item_history": [
@@ -7286,7 +7306,7 @@
       ]
     }
   ],
-  "updated_at": "2026-10-29T09:03:02.800383+00:00",
+  "updated_at": "2026-11-07T09:04:04.951900+00:00",
   "last_run": "2026-10-27",
   "last_editorial_thesis": "Agents become useful when boundaries, connectors, memory, and feedback are designed as one inspectable operating system—not as isolated capability demos.",
   "coverage_history": [
@@ -16478,6 +16498,98 @@
         "https://arxiv.org/html/2610.08699v1"
       ],
       "selection_rationale": "Agents are moving from capability demos toward inspectable operating systems: prove the action, budget the context, and keep personal memory portable."
+    },
+    {
+      "date": "2026-11-07",
+      "selected_lanes": [
+        "agent-identity-and-governance",
+        "engineering-proof-and-agentic-dev",
+        "physical-ai-open-robotics",
+        "models-learning-and-operator-leverage"
+      ],
+      "items": [
+        {
+          "title": "SailPoint Agentic Fabric reaches GA",
+          "url": "https://www.sailpoint.com/blog/whats-new-sailpoint-agentic-fabric-ga",
+          "source_type": "product"
+        },
+        {
+          "title": "State of AI Agent Security 2026",
+          "url": "https://www.gravitee.io/blog/state-of-ai-agent-security-2026-report-when-adoption-outpaces-control",
+          "source_type": "report"
+        },
+        {
+          "title": "Broadcom AgentMinder + Private AI Cloud",
+          "url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-delivers-end-end-security-identity-and-observability",
+          "source_type": "architecture"
+        },
+        {
+          "title": "Microsoft governance and security baseline",
+          "url": "https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ai-agents/governance-security-across-organization",
+          "source_type": "docs"
+        },
+        {
+          "title": "State of AI in Engineering 2026: The Proof Gap",
+          "url": "https://www.gitkraken.com/blog/everyone-feels-faster-almost-nobody-can-prove-it",
+          "source_type": "report"
+        },
+        {
+          "title": "Dependabot supports Agent Package Manager",
+          "url": "https://github.blog/changelog/2026-11-03-dependabot-version-updates-support-agent-package-manager/",
+          "source_type": "release"
+        },
+        {
+          "title": "GitHub Agentic Workflows GA",
+          "url": "https://github.blog/changelog/2026-10-28-github-agentic-workflows-generally-available/",
+          "source_type": "release"
+        },
+        {
+          "title": "Code scanning for AI applications",
+          "url": "https://github.blog/changelog/2026-10-28-code-scanning-for-ai-applications-in-public-preview/",
+          "source_type": "preview"
+        },
+        {
+          "title": "Isaac ROS 5.0",
+          "url": "https://blogs.nvidia.com/blog/isaac-ros-5-0-agentic-open-source-robotics/",
+          "source_type": "release"
+        },
+        {
+          "title": "Isaac GR00T open models",
+          "url": "https://developer.nvidia.com/isaac/gr00t",
+          "source_type": "model"
+        },
+        {
+          "title": "NVIDIA physical AI research roundup",
+          "url": "https://blogs.nvidia.com/blog/national-robotics-week-2026/",
+          "source_type": "research"
+        },
+        {
+          "title": "OpenUSD-based simulation and synthetic data",
+          "url": "https://blogs.nvidia.com/blog/openusd-sdg-advance-robot-learning/",
+          "source_type": "infrastructure"
+        },
+        {
+          "title": "Gemini 4 Argon for developers",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+          "source_type": "release"
+        },
+        {
+          "title": "AI Agents Intensive course",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/ai-agents-intensive/",
+          "source_type": "course"
+        },
+        {
+          "title": "Expanding AI educator training",
+          "url": "https://blog.google/products-and-platforms/products/education/google-ai-educator-series-global-expansion-november-2026/",
+          "source_type": "program"
+        },
+        {
+          "title": "Gemini 3.1 Pro developer lessons",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-pro/",
+          "source_type": "model-update"
+        }
+      ],
+      "selection_rationale": "Rotated toward identity governance, measurement, physical AI, and learning/operator leverage after the prior day’s infrastructure, cyber, and private multimodal coverage."
     }
   ],
   "themes": {

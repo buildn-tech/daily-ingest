@@ -1,0 +1,163 @@
+{
+  "date": "2026-11-07",
+  "generated_at": "2026-11-07T09:04:04.935691+00:00",
+  "editorial_thesis": "The practical frontier is the operating loop: discover delegated work, bind authority, measure outcomes, and keep the next experiment reversible.",
+  "topic_groups": [
+    {
+      "slug": "agent-identity-and-governance",
+      "title": "Agent Identity + Governance",
+      "selection_rationale": "Fresh November signals converge on one practical gap: organizations have agents in production, but identity, ownership, authorization, and runtime observability remain fragmented.",
+      "sources": [
+        {
+          "title": "SailPoint Agentic Fabric reaches GA",
+          "url": "https://www.sailpoint.com/blog/whats-new-sailpoint-agentic-fabric-ga",
+          "source_type": "product",
+          "published_or_updated": "2026-11-04",
+          "why_selected": "It models the whole action path—owner → credential → entitlement → tool → data—instead of treating an agent as an isolated inventory record.",
+          "usefulness": "Use the lineage shape as a Buildn design reference: every job should expose its human owner, execution identity, tools, artifacts, and reachable data."
+        },
+        {
+          "title": "State of AI Agent Security 2026",
+          "url": "https://www.gravitee.io/blog/state-of-ai-agent-security-2026-report-when-adoption-outpaces-control",
+          "source_type": "report",
+          "published_or_updated": "2026-11-02",
+          "why_selected": "The reported gap is concrete: 80.9% are past planning, but only 14.4% say all agents receive full approval; 45.6% still use shared API keys for agent-to-agent auth.",
+          "usefulness": "Turn the numbers into a client discovery checklist: inventory, independent identities, approval gates, telemetry coverage, and orphaned credentials."
+        },
+        {
+          "title": "Broadcom AgentMinder + Private AI Cloud",
+          "url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-delivers-end-end-security-identity-and-observability",
+          "source_type": "architecture",
+          "published_or_updated": "2026-08-31",
+          "why_selected": "It treats MCP servers, tools, models, datastores, and agents as one connected attack surface rather than separate products.",
+          "usefulness": "Borrow the layered control model for client architectures: discover → bind identity → restrict intent → observe actions → block misuse."
+        },
+        {
+          "title": "Microsoft governance and security baseline",
+          "url": "https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ai-agents/governance-security-across-organization",
+          "source_type": "docs",
+          "published_or_updated": "2026-11-07",
+          "why_selected": "It makes the baseline enforceable and auditable, with named layers and a control-plane view rather than a loose policy document.",
+          "usefulness": "Use its four-layer framing to structure Buildn/client readiness reviews: development, agent security, observability, data governance."
+        }
+      ]
+    },
+    {
+      "slug": "engineering-proof-and-agentic-dev",
+      "title": "Engineering Proof + Agentic Development",
+      "selection_rationale": "Coverage has repeatedly surfaced coding agents; today’s fresher angle is the proof gap: how to quantify quality, cost, throughput, and governance once agents become continuous production infrastructure.",
+      "sources": [
+        {
+          "title": "State of AI in Engineering 2026: The Proof Gap",
+          "url": "https://www.gitkraken.com/blog/everyone-feels-faster-almost-nobody-can-prove-it",
+          "source_type": "report",
+          "published_or_updated": "2026-08-20",
+          "why_selected": "96.4% report AI coding-tool use, but only 20% measure productivity specifically; 72% operate on self-report or no evidence.",
+          "usefulness": "Use it to sell measurement as a Buildn/client service: instrument task acceptance, rework, review time, defects, and spend—not tokens alone."
+        },
+        {
+          "title": "Dependabot supports Agent Package Manager",
+          "url": "https://github.blog/changelog/2026-11-03-dependabot-version-updates-support-agent-package-manager/",
+          "source_type": "release",
+          "published_or_updated": "2026-11-03",
+          "why_selected": "As agent projects add skills, tools, and model-facing packages, dependency hygiene becomes part of the agent supply chain—not just application maintenance.",
+          "usefulness": "Add automated dependency review to agent repositories and require provenance for skills, plugins, and tool adapters."
+        },
+        {
+          "title": "GitHub Agentic Workflows GA",
+          "url": "https://github.blog/changelog/2026-10-28-github-agentic-workflows-generally-available/",
+          "source_type": "release",
+          "published_or_updated": "2026-10-28",
+          "why_selected": "The important design move is to make delegated work a versioned repository artifact with explicit triggers, models, and reviewable changes.",
+          "usefulness": "Prototype a Buildn job as a checked-in workflow: typed input, bounded permissions, output artifact, reviewer gate, and rollback path."
+        },
+        {
+          "title": "Code scanning for AI applications",
+          "url": "https://github.blog/changelog/2026-10-28-code-scanning-for-ai-applications-in-public-preview/",
+          "source_type": "preview",
+          "published_or_updated": "2026-10-28",
+          "why_selected": "AI-generated code increases review volume; security checks need to run where patches are proposed, not after deployment.",
+          "usefulness": "Add an AI-app security lane to client delivery: prompt/tool boundaries, secret handling, dependency risk, data-flow checks, and evidence in the PR."
+        }
+      ]
+    },
+    {
+      "slug": "physical-ai-open-robotics",
+      "title": "Physical AI + Open Robotics",
+      "selection_rationale": "A coverage gap in the last two dossiers: fresh NVIDIA material gives a concrete open-source path from simulation and synthetic data to agentic robot software.",
+      "sources": [
+        {
+          "title": "Isaac ROS 5.0",
+          "url": "https://blogs.nvidia.com/blog/isaac-ros-5-0-agentic-open-source-robotics/",
+          "source_type": "release",
+          "published_or_updated": "2026-11-06",
+          "why_selected": "It exposes a practical bridge between language-level planning and ROS-native perception, navigation, and control components.",
+          "usefulness": "Study the decomposition for future Buildn physical-workflow prototypes: planner, tool adapter, simulator, safety monitor, and artifact log."
+        },
+        {
+          "title": "Isaac GR00T open models",
+          "url": "https://developer.nvidia.com/isaac/gr00t",
+          "source_type": "model",
+          "published_or_updated": "2026-04-01",
+          "why_selected": "The useful unit is not a chatbot response but a grounded action policy that can be evaluated in a simulated or physical environment.",
+          "usefulness": "Use the VLA framing to compare agent workflows with embodied workflows: observation, plan, action, feedback, recovery."
+        },
+        {
+          "title": "NVIDIA physical AI research roundup",
+          "url": "https://blogs.nvidia.com/blog/national-robotics-week-2026/",
+          "source_type": "research",
+          "published_or_updated": "2026-04-07",
+          "why_selected": "It frames robotics as a data-and-simulation problem as much as a model problem, which is the more transferable insight for small teams.",
+          "usefulness": "Borrow the loop for client automation: generate constrained scenarios, test policies, capture failures, and iterate before field deployment."
+        },
+        {
+          "title": "OpenUSD-based simulation and synthetic data",
+          "url": "https://blogs.nvidia.com/blog/openusd-sdg-advance-robot-learning/",
+          "source_type": "infrastructure",
+          "published_or_updated": "2026-04-01",
+          "why_selected": "Synthetic environments can make rare, risky, or expensive scenarios testable before a robot touches production equipment.",
+          "usefulness": "Apply the pattern to client process simulation and visual QA even without a robot: synthetic edge cases, labeled states, and repeatable evaluation."
+        }
+      ]
+    },
+    {
+      "slug": "models-learning-and-operator-leverage",
+      "title": "Models, Learning + Operator Leverage",
+      "selection_rationale": "This lane follows a neglected personal-leverage gap while staying practical: new model and education surfaces are useful only if they shorten the path from curiosity to repeatable skill.",
+      "sources": [
+        {
+          "title": "Gemini 4 Argon for developers",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+          "source_type": "release",
+          "published_or_updated": "2026-11-07",
+          "why_selected": "A limited introductory window creates a concrete opportunity for a controlled task comparison rather than vague model shopping.",
+          "usefulness": "Benchmark it against a fixed set of Buildn tasks: research synthesis, code repair, structured extraction, and artifact generation."
+        },
+        {
+          "title": "AI Agents Intensive course",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/ai-agents-intensive/",
+          "source_type": "course",
+          "published_or_updated": "2026-11-07",
+          "why_selected": "A time-boxed curriculum can turn ambient agent interest into a deliberate learning sprint with exercises and a shared vocabulary.",
+          "usefulness": "Use the syllabus as a gap audit for Buildn: tools, state, evaluation, security, deployment, and human review."
+        },
+        {
+          "title": "Expanding AI educator training",
+          "url": "https://blog.google/products-and-platforms/products/education/google-ai-educator-series-global-expansion-november-2026/",
+          "source_type": "program",
+          "published_or_updated": "2026-11-03",
+          "why_selected": "The feedback loop matters: effective AI adoption depends on role-specific practice, not one-time tool exposure.",
+          "usefulness": "Borrow the cohort pattern for client enablement: short lessons, concrete tasks, office hours, and revisions from observed friction."
+        },
+        {
+          "title": "Gemini 3.1 Pro developer lessons",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-pro/",
+          "source_type": "model-update",
+          "published_or_updated": "2026-11-07",
+          "why_selected": "The durable operator lesson is rapid, feedback-driven iteration around task performance rather than abstract version tracking.",
+          "usefulness": "Keep a tiny regression suite of personally relevant tasks and rerun it whenever a model or prompt stack changes."
+        }
+      ]
+    }
+  ]
+}

@@ -1,6 +1,86 @@
 {
-  "updated_at": "2026-11-06T09:03:29.003456+00:00",
+  "updated_at": "2026-11-07T09:04:13.639075+00:00",
   "sources": {
+    "https://www.sailpoint.com/blog/whats-new-sailpoint-agentic-fabric-ga": {
+      "first_seen": "2026-11-07",
+      "last_seen": "2026-11-07",
+      "title": "SailPoint Agentic Fabric reaches GA"
+    },
+    "https://www.gravitee.io/blog/state-of-ai-agent-security-2026-report-when-adoption-outpaces-control": {
+      "first_seen": "2026-11-07",
+      "last_seen": "2026-11-07",
+      "title": "State of AI Agent Security 2026"
+    },
+    "https://investors.broadcom.com/news-releases/news-release-details/broadcom-delivers-end-end-security-identity-and-observability": {
+      "first_seen": "2026-11-07",
+      "last_seen": "2026-11-07",
+      "title": "Broadcom AgentMinder + Private AI Cloud"
+    },
+    "https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ai-agents/governance-security-across-organization": {
+      "first_seen": "2026-11-07",
+      "last_seen": "2026-11-07",
+      "title": "Microsoft governance and security baseline"
+    },
+    "https://www.gitkraken.com/blog/everyone-feels-faster-almost-nobody-can-prove-it": {
+      "first_seen": "2026-11-07",
+      "last_seen": "2026-11-07",
+      "title": "State of AI in Engineering 2026: The Proof Gap"
+    },
+    "https://github.blog/changelog/2026-11-03-dependabot-version-updates-support-agent-package-manager": {
+      "first_seen": "2026-11-07",
+      "last_seen": "2026-11-07",
+      "title": "Dependabot supports Agent Package Manager"
+    },
+    "https://github.blog/changelog/2026-10-28-github-agentic-workflows-generally-available": {
+      "first_seen": "2026-11-07",
+      "last_seen": "2026-11-04",
+      "title": "GitHub Agentic Workflows generally available"
+    },
+    "https://github.blog/changelog/2026-10-28-code-scanning-for-ai-applications-in-public-preview": {
+      "first_seen": "2026-11-07",
+      "last_seen": "2026-11-04",
+      "title": "Code scanning for AI applications"
+    },
+    "https://blogs.nvidia.com/blog/isaac-ros-5-0-agentic-open-source-robotics": {
+      "first_seen": "2026-11-07",
+      "last_seen": "2026-11-07",
+      "title": "Isaac ROS 5.0"
+    },
+    "https://developer.nvidia.com/isaac/gr00t": {
+      "first_seen": "2026-11-07",
+      "last_seen": "2026-11-07",
+      "title": "Isaac GR00T open models"
+    },
+    "https://blogs.nvidia.com/blog/national-robotics-week-2026": {
+      "first_seen": "2026-11-07",
+      "last_seen": "2026-11-07",
+      "title": "NVIDIA physical AI research roundup"
+    },
+    "https://blogs.nvidia.com/blog/openusd-sdg-advance-robot-learning": {
+      "first_seen": "2026-11-07",
+      "last_seen": "2026-11-07",
+      "title": "OpenUSD-based simulation and synthetic data"
+    },
+    "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon": {
+      "first_seen": "2026-11-07",
+      "last_seen": "2026-11-07",
+      "title": "Gemini 4 Argon for developers"
+    },
+    "https://blog.google/innovation-and-ai/technology/developers-tools/ai-agents-intensive": {
+      "first_seen": "2026-11-07",
+      "last_seen": "2026-11-07",
+      "title": "AI Agents Intensive course"
+    },
+    "https://blog.google/products-and-platforms/products/education/google-ai-educator-series-global-expansion-november-2026": {
+      "first_seen": "2026-11-07",
+      "last_seen": "2026-11-07",
+      "title": "Expanding AI educator training"
+    },
+    "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-pro": {
+      "first_seen": "2026-11-07",
+      "last_seen": "2026-11-07",
+      "title": "Gemini 3.1 Pro developer lessons"
+    },
     "https://cloud.google.com/blog/products/containers-kubernetes/open-infrastructure-for-autonomous-agents-comes-to-cncf": {
       "first_seen": "2026-11-06",
       "last_seen": "2026-11-06",
@@ -140,16 +220,6 @@
       "first_seen": "2026-11-05",
       "last_seen": "2026-11-04",
       "title": "GPT-Rosalind biological reasoning model"
-    },
-    "https://github.blog/changelog/2026-10-28-github-agentic-workflows-generally-available": {
-      "first_seen": "2026-11-04",
-      "last_seen": "2026-11-04",
-      "title": "GitHub Agentic Workflows generally available"
-    },
-    "https://github.blog/changelog/2026-10-28-code-scanning-for-ai-applications-in-public-preview": {
-      "first_seen": "2026-11-04",
-      "last_seen": "2026-11-04",
-      "title": "Code scanning for AI applications"
     },
     "https://aws.amazon.com/about-aws/whats-new/2026/10/bring-sagemaker-ai-expertise-to-your-coding-agent": {
       "first_seen": "2026-11-04",
