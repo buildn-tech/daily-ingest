@@ -1,6 +1,81 @@
 {
-  "updated_at": "2026-11-07T09:04:13.639075+00:00",
+  "updated_at": "2026-11-08T09:08:13.777832+00:00",
   "sources": {
+    "https://github.blog/changelog/2026-11-06-copilot-impact-dashboard-adds-chat-and-vs-code-agent-usage": {
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-11-08",
+      "title": "Copilot impact dashboard adds Chat and VS Code agent usage"
+    },
+    "https://github.blog/changelog/2026-11-06-github-copilot-weekly-releases-november-2": {
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-11-08",
+      "title": "Copilot weekly releases \u2014 November 2"
+    },
+    "https://github.blog/changelog/2026-11-03-dependabot-version-updates-support-agent-package-manager": {
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-11-07",
+      "title": "Dependabot supports Agent Package Manager"
+    },
+    "https://github.blog/changelog/2026-10-28-github-agentic-workflows-generally-available": {
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-11-04",
+      "title": "GitHub Agentic Workflows generally available"
+    },
+    "https://github.blog/changelog/2026-10-28-code-scanning-for-ai-applications-in-public-preview": {
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-11-04",
+      "title": "Code scanning for AI applications"
+    },
+    "https://saviynt.com/blog/identity-security-for-ai-agent-access-gateway-identity-management-posture-management": {
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-11-08",
+      "title": "Identity Security for AI: intent validation at registration"
+    },
+    "https://labs.cloudsecurityalliance.org/agentic/agentic-identity-governance-framework-v1": {
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-11-08",
+      "title": "Agent Identity Governance Framework"
+    },
+    "https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ai-agents/governance-security-across-organization": {
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-11-07",
+      "title": "Microsoft governance and security baseline"
+    },
+    "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Launches-Open-Agent-Safety-Platform-to-Secure-Agents-From-Testing-to-Deployment/default.aspx": {
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-11-08",
+      "title": "NVIDIA Open Agent Safety Platform"
+    },
+    "https://developer.nvidia.com/blog/add-runtime-controls-to-ai-agents-with-nvidia-openshell": {
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-09-29",
+      "title": "NVIDIA OpenShell: policy outside the agent"
+    },
+    "https://arxiv.org/html/2611.08209v1": {
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-11-08",
+      "title": "RoboARCade: Benchmarking Agentic Robot Control"
+    },
+    "https://arxiv.org/html/2611.00180v2": {
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-11-08",
+      "title": "Learning to Live: A Step Toward Lifelong Embodied Intelligence"
+    },
+    "https://arxiv.org/html/2611.01404v1": {
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-11-08",
+      "title": "Serving Agentic Robot Fleets"
+    },
+    "https://arxiv.org/list/cs.AI/new": {
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-09-05",
+      "title": "arXiv cs.AI new submissions \u2014 4 September 2026"
+    },
+    "https://roboarcade.org/": {
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-11-08",
+      "title": "RoboARCade code, videos, and traces"
+    },
     "https://www.sailpoint.com/blog/whats-new-sailpoint-agentic-fabric-ga": {
       "first_seen": "2026-11-07",
       "last_seen": "2026-11-07",
@@ -16,30 +91,10 @@
       "last_seen": "2026-11-07",
       "title": "Broadcom AgentMinder + Private AI Cloud"
     },
-    "https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ai-agents/governance-security-across-organization": {
-      "first_seen": "2026-11-07",
-      "last_seen": "2026-11-07",
-      "title": "Microsoft governance and security baseline"
-    },
     "https://www.gitkraken.com/blog/everyone-feels-faster-almost-nobody-can-prove-it": {
       "first_seen": "2026-11-07",
       "last_seen": "2026-11-07",
       "title": "State of AI in Engineering 2026: The Proof Gap"
-    },
-    "https://github.blog/changelog/2026-11-03-dependabot-version-updates-support-agent-package-manager": {
-      "first_seen": "2026-11-07",
-      "last_seen": "2026-11-07",
-      "title": "Dependabot supports Agent Package Manager"
-    },
-    "https://github.blog/changelog/2026-10-28-github-agentic-workflows-generally-available": {
-      "first_seen": "2026-11-07",
-      "last_seen": "2026-11-04",
-      "title": "GitHub Agentic Workflows generally available"
-    },
-    "https://github.blog/changelog/2026-10-28-code-scanning-for-ai-applications-in-public-preview": {
-      "first_seen": "2026-11-07",
-      "last_seen": "2026-11-04",
-      "title": "Code scanning for AI applications"
     },
     "https://blogs.nvidia.com/blog/isaac-ros-5-0-agentic-open-source-robotics": {
       "first_seen": "2026-11-07",
@@ -1771,11 +1826,6 @@
       "last_seen": "2026-09-30",
       "title": "Physical AI needs digital-twin-first workflows"
     },
-    "https://developer.nvidia.com/blog/add-runtime-controls-to-ai-agents-with-nvidia-openshell": {
-      "first_seen": "2026-09-29",
-      "last_seen": "2026-09-29",
-      "title": "NVIDIA OpenShell: policy outside the agent"
-    },
     "https://blog.cloudflare.com/tag/agents-week": {
       "first_seen": "2026-09-29",
       "last_seen": "2026-09-13",
@@ -2980,11 +3030,6 @@
       "first_seen": "2026-09-05",
       "last_seen": "2026-09-05",
       "title": "Announcing OpenAI DevDay 2026"
-    },
-    "https://arxiv.org/list/cs.AI/new": {
-      "first_seen": "2026-09-05",
-      "last_seen": "2026-09-05",
-      "title": "arXiv cs.AI new submissions \u2014 4 September 2026"
     },
     "https://selfh.st/weekly/2026-09-04": {
       "first_seen": "2026-09-05",

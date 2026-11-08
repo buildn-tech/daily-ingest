@@ -1,0 +1,148 @@
+{
+  "date": "2026-11-08",
+  "generated_at": "2026-11-08T09:00:32Z",
+  "editorial_thesis": "The next practical edge is not more agent capability; it is proof-bearing execution: measure delegated work, bind authority to intent, and test long-horizon memory against independently verified outcomes.",
+  "topic_groups": [
+    {
+      "slug": "agentic-measurement-and-delivery",
+      "title": "Agentic Measurement + Delivery",
+      "selection_rationale": "Fresh November 6–8 developer-surface updates make agent work more schedulable and measurable; this lane converts product changes into a small operating loop rather than another IDE roundup.",
+      "sources": [
+        {
+          "title": "Copilot impact dashboard adds Chat and VS Code agent usage",
+          "url": "https://github.blog/changelog/2026-11-06-copilot-impact-dashboard-adds-chat-and-vs-code-agent-usage/",
+          "source_type": "release",
+          "published_or_updated": "2026-11-06",
+          "why_selected": "The dashboard now includes nine Copilot experiences, including Chat and the VS Code Agents window; the usage API exposes chat and vscode_agent totals.",
+          "usefulness": "Treat engagement, adoption phase, and outcome as separate metrics in Buildn client pilots; do not call chat activity productivity."
+        },
+        {
+          "title": "Copilot weekly releases — November 2",
+          "url": "https://github.blog/changelog/2026-11-06-github-copilot-weekly-releases-november-2",
+          "source_type": "release",
+          "published_or_updated": "2026-11-06",
+          "why_selected": "The update adds scheduled local automations, context-limit recovery, remote app previews, interactive canvases, and session management across Copilot surfaces.",
+          "usefulness": "Prototype a recurring Buildn check with a typed input, artifact output, reviewer gate, and an explicit recovery path."
+        },
+        {
+          "title": "Dependabot supports Agent Package Manager",
+          "url": "https://github.blog/changelog/2026-11-03-dependabot-version-updates-support-agent-package-manager/",
+          "source_type": "supply-chain",
+          "published_or_updated": "2026-11-08",
+          "why_selected": "Dependabot can update git dependencies declared in APM manifests and regenerate apm.lock.yaml; coverage is version updates, not security updates.",
+          "usefulness": "Put skills, prompts, and tool adapters under dependency review with provenance and lockfiles."
+        },
+        {
+          "title": "GitHub Agentic Workflows generally available",
+          "url": "https://github.blog/changelog/2026-10-28-github-agentic-workflows-generally-available/",
+          "source_type": "workflow",
+          "published_or_updated": "2026-11-08",
+          "why_selected": "Agentic workflows turn delegated repository work into versioned, reviewable automation that can use GitHub Copilot or another coding agent.",
+          "usefulness": "Use checked-in workflow files as portable job contracts for client delivery and Buildn operations."
+        },
+        {
+          "title": "Code scanning for AI applications",
+          "url": "https://github.blog/changelog/2026-10-28-code-scanning-for-ai-applications-in-public-preview/",
+          "source_type": "security",
+          "published_or_updated": "2026-11-08",
+          "why_selected": "AI-specific code scanning moves security checks closer to the pull request where agent-generated changes are proposed.",
+          "usefulness": "Add prompt/tool boundaries, secret handling, dependency risk, and data-flow review to the same PR evidence packet."
+        }
+      ]
+    },
+    {
+      "slug": "agent-identity-and-intent",
+      "title": "Agent Identity + Intent",
+      "selection_rationale": "Identity remains a coverage gap only when framed as policy at the moment of action: new governance material makes intent, ownership, delegation, and revocation more concrete than static inventory alone.",
+      "sources": [
+        {
+          "title": "Identity Security for AI: intent validation at registration",
+          "url": "https://saviynt.com/blog/identity-security-for-ai-agent-access-gateway-identity-management-posture-management",
+          "source_type": "product",
+          "published_or_updated": "2026-11-08",
+          "why_selected": "Saviynt frames an AI identity control plane around registration, deployment, runtime access, incident response, intent analysis, and posture management.",
+          "usefulness": "Add declared purpose, required tools, granted tools, owner, and deviation reason to every agent/job manifest."
+        },
+        {
+          "title": "Agent Identity Governance Framework",
+          "url": "https://labs.cloudsecurityalliance.org/agentic/agentic-identity-governance-framework-v1/",
+          "source_type": "framework",
+          "published_or_updated": "2026-11-08",
+          "why_selected": "The draft treats agents as first-class identity subjects with cryptographic authentication, just-in-time scope, constrained delegation, human sponsorship, and complete decommissioning.",
+          "usefulness": "Use its lifecycle vocabulary to structure a client readiness workshop and a Buildn access review."
+        },
+        {
+          "title": "Govern and secure AI agents across the organization",
+          "url": "https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ai-agents/governance-security-across-organization",
+          "source_type": "docs",
+          "published_or_updated": "2026-11-08",
+          "why_selected": "Microsoft’s baseline separates control-plane governance, data governance, security, and development standards, with registry and unique identity requirements.",
+          "usefulness": "Borrow the four-layer review spine for architecture proposals without coupling the checklist to Azure."
+        },
+        {
+          "title": "NVIDIA Open Agent Safety Platform",
+          "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Launches-Open-Agent-Safety-Platform-to-Secure-Agents-From-Testing-to-Deployment/default.aspx",
+          "source_type": "platform",
+          "published_or_updated": "2026-11-08",
+          "why_selected": "NVIDIA’s OpenShell and Sentry pattern places runtime controls and monitoring outside the model and harness, including quarantine and attested telemetry.",
+          "usefulness": "Use the outside-the-workload principle when designing high-impact agent execution boundaries."
+        },
+        {
+          "title": "OpenShell runtime controls 0.1.0",
+          "url": "https://developer.nvidia.com/blog/add-runtime-controls-to-ai-agents-with-nvidia-openshell",
+          "source_type": "open-source",
+          "published_or_updated": "2026-11-08",
+          "why_selected": "OpenShell combines sandboxing, network and process controls, credential substitution, MCP inspection, policy verification, and OCSF audit logs.",
+          "usefulness": "Compare its boundary model with Hermes/Buildn execution: what is enforced outside the agent and what is merely instructed?"
+        }
+      ]
+    },
+    {
+      "slug": "embodied-memory-and-evaluation",
+      "title": "Embodied Memory + Evaluation",
+      "selection_rationale": "New November research fills a neglected lane: long-horizon agent evaluation now exposes false success, memory, interface cost, and continuous observation as first-class engineering problems.",
+      "sources": [
+        {
+          "title": "RoboARCade: Benchmarking Agentic Robot Control",
+          "url": "https://arxiv.org/html/2611.08209v1",
+          "source_type": "paper",
+          "published_or_updated": "2026-11-05",
+          "why_selected": "The 22-task MuJoCo benchmark tests long-horizon manipulation, adaptation, memory, and reasoning across three embodiments; agents incorrectly claim success on 24%–39% of attempted subtasks.",
+          "usefulness": "Use false-success rate and independent outcome checks as a template for software agents that report completed work."
+        },
+        {
+          "title": "Learning to Live: A Step Toward Lifelong Embodied Intelligence",
+          "url": "https://arxiv.org/html/2611.00180v2",
+          "source_type": "paper",
+          "published_or_updated": "2026-11-05",
+          "why_selected": "LIFE combines continuous event detection, selective evidence memory, and an explore–distill–mount loop for reusable tools and skills.",
+          "usefulness": "Map RoboBeats to event-triggered ingestion, Plastic Memory to evidence-bearing artifacts, and EDM to reusable workflow promotion."
+        },
+        {
+          "title": "Serving Agentic Robot Fleets",
+          "url": "https://arxiv.org/html/2611.01404v1",
+          "source_type": "paper",
+          "published_or_updated": "2026-11-05",
+          "why_selected": "This recent systems work studies workload characterization and KV-cache behavior for fleets of agentic robots, connecting model serving to physical concurrency.",
+          "usefulness": "Use it as a prompt to model concurrency, latency, and memory pressure for any fleet of long-running agents."
+        },
+        {
+          "title": "StreamMemBench: Streaming Evaluation of Agent Memory",
+          "url": "https://arxiv.org/list/cs.AI/new",
+          "source_type": "paper-index",
+          "published_or_updated": "2026-11-08",
+          "why_selected": "The current arXiv AI stream includes StreamMemBench, signaling a move from static recall tests toward streaming, future-oriented memory evaluation.",
+          "usefulness": "Prefer tests that measure whether memory helps a future decision under changing context, not whether a system can recite stored facts."
+        },
+        {
+          "title": "RoboARCade code, videos, and traces",
+          "url": "https://roboarcade.org/",
+          "source_type": "dataset",
+          "published_or_updated": "2026-11-08",
+          "why_selected": "The project publishes runnable task packs and full traces, making failure analysis and interface comparison inspectable rather than anecdotal.",
+          "usefulness": "Borrow the artifact pattern: every evaluation should ship inputs, traces, expected outcome, and replay instructions."
+        }
+      ]
+    }
+  ]
+}

@@ -1688,196 +1688,27 @@
       "title": "Models, Learning + Operator Leverage",
       "times_covered": 1,
       "last_covered": "2026-11-07"
+    },
+    "agentic-measurement-and-delivery": {
+      "title": "Agentic Measurement + Delivery",
+      "times_covered": 1,
+      "last_covered": "2026-11-08",
+      "last_selection_rationale": "Fresh November 6–8 developer-surface updates make agent work more schedulable and measurable; this lane converts product changes into a small operating loop rather than another IDE roundup."
+    },
+    "agent-identity-and-intent": {
+      "title": "Agent Identity + Intent",
+      "times_covered": 1,
+      "last_covered": "2026-11-08",
+      "last_selection_rationale": "Identity remains a coverage gap only when framed as policy at the moment of action: new governance material makes intent, ownership, delegation, and revocation more concrete than static inventory alone."
+    },
+    "embodied-memory-and-evaluation": {
+      "title": "Embodied Memory + Evaluation",
+      "times_covered": 1,
+      "last_covered": "2026-11-08",
+      "last_selection_rationale": "New November research fills a neglected lane: long-horizon agent evaluation now exposes false success, memory, interface cost, and continuous observation as first-class engineering problems."
     }
   },
   "item_history": [
-    {
-      "date": "2026-09-23",
-      "topic": "human-centered-ai-controls",
-      "topic_title": "Human-Centered AI Controls",
-      "title": "AI Search’s agentic direction",
-      "url": "https://blog.google/products-and-platforms/products/search/search-io-2026/",
-      "source_type": "product_direction",
-      "published_or_updated": "2026",
-      "selection_rationale": "Fresh or materially updated primary-source signal with a bounded practical experiment.",
-      "usefulness": "Design research outputs that preserve direct sources, query scope, and uncertainty rather than only a synthesized answer."
-    },
-    {
-      "date": "2026-09-23",
-      "topic": "model-choice-and-evidence",
-      "topic_title": "Model Choice + Evidence",
-      "title": "Agent Payments Protocol",
-      "url": "https://cloud.google.com/blog/products/ai-machine-learning/announcing-agents-to-payments-ap2-protocol",
-      "source_type": "open_protocol",
-      "published_or_updated": "2026",
-      "selection_rationale": "Fresh or materially updated primary-source signal with a bounded practical experiment.",
-      "usefulness": "Use it as a design prompt for consent receipts, spend limits, and human approval in client workflows."
-    },
-    {
-      "date": "2026-09-23",
-      "topic": "realtime-voice-interfaces",
-      "topic_title": "Realtime Voice Interfaces",
-      "title": "Claude Agent SDK in Xcode",
-      "url": "https://www.anthropic.com/news/apple-xcode-claude-agent-sdk",
-      "source_type": "developer_workflow",
-      "published_or_updated": "2026-09",
-      "selection_rationale": "Fresh or materially updated primary-source signal with a bounded practical experiment.",
-      "usefulness": "Build a small iOS voice capture shell whose output is a Buildn-compatible JSON artifact."
-    },
-    {
-      "date": "2026-09-23",
-      "topic": "model-choice-and-evidence",
-      "topic_title": "Model Choice + Evidence",
-      "title": "Claude Opus 5.5",
-      "url": "https://www.anthropic.com/news",
-      "source_type": "model_release",
-      "published_or_updated": "2026-09-22",
-      "selection_rationale": "Fresh or materially updated primary-source signal with a bounded practical experiment.",
-      "usefulness": "Add it to a Buildn model bake-off for long-form synthesis, code review, and evidence extraction."
-    },
-    {
-      "date": "2026-09-23",
-      "topic": "human-centered-ai-controls",
-      "topic_title": "Human-Centered AI Controls",
-      "title": "Credentio: C2PA content credentials",
-      "url": "https://developers.googleblog.com/introducing-credentio-open-source-c-library-for-c2pa-content-credentials-from-google/",
-      "source_type": "open-source_library",
-      "published_or_updated": "2026-08-13",
-      "selection_rationale": "Fresh or materially updated primary-source signal with a bounded practical experiment.",
-      "usefulness": "Add content-credential checks to Buildn media deliverables and client approval records."
-    },
-    {
-      "date": "2026-09-23",
-      "topic": "human-centered-ai-controls",
-      "topic_title": "Human-Centered AI Controls",
-      "title": "Embedded evaluation partnership",
-      "url": "https://www.anthropic.com/news/accenture-embedded-evaluation",
-      "source_type": "research_partnership",
-      "published_or_updated": "2026-09",
-      "selection_rationale": "Fresh or materially updated primary-source signal with a bounded practical experiment.",
-      "usefulness": "Borrow the pattern for client pilots: place an evaluator in the workflow and capture failure evidence as work happens."
-    },
-    {
-      "date": "2026-09-23",
-      "topic": "realtime-voice-interfaces",
-      "topic_title": "Realtime Voice Interfaces",
-      "title": "GPT‑Live‑1 in the API",
-      "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api/",
-      "source_type": "product",
-      "published_or_updated": "2026-09-22",
-      "selection_rationale": "Fresh or materially updated primary-source signal with a bounded practical experiment.",
-      "usefulness": "Prototype a Buildn intake agent that captures a brief, reflects the structured summary, then opens a reviewable artifact."
-    },
-    {
-      "date": "2026-09-23",
-      "topic": "model-choice-and-evidence",
-      "topic_title": "Model Choice + Evidence",
-      "title": "Gemini 3.8 Flash + Cyber",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
-      "source_type": "model_release",
-      "published_or_updated": "2026-09",
-      "selection_rationale": "Fresh or materially updated primary-source signal with a bounded practical experiment.",
-      "usefulness": "Use a cheap first pass for source labeling, then escalate ambiguous items to a stronger model."
-    },
-    {
-      "date": "2026-09-23",
-      "topic": "realtime-voice-interfaces",
-      "topic_title": "Realtime Voice Interfaces",
-      "title": "HCI research: written reasons before AI acceptance",
-      "url": "https://arxiv.org/list/cs.HC/recent",
-      "source_type": "paper_index",
-      "published_or_updated": "2026-09-22",
-      "selection_rationale": "Fresh or materially updated primary-source signal with a bounded practical experiment.",
-      "usefulness": "Design spoken confirmations that state the proposed action, evidence, and a reversible alternative."
-    },
-    {
-      "date": "2026-09-23",
-      "topic": "realtime-voice-interfaces",
-      "topic_title": "Realtime Voice Interfaces",
-      "title": "New realtime voice models",
-      "url": "https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api/",
-      "source_type": "API_update",
-      "published_or_updated": "2026-09-22",
-      "selection_rationale": "Fresh or materially updated primary-source signal with a bounded practical experiment.",
-      "usefulness": "Offer bilingual discovery calls that produce a cited brief plus unresolved questions."
-    },
-    {
-      "date": "2026-09-23",
-      "topic": "realtime-voice-interfaces",
-      "topic_title": "Realtime Voice Interfaces",
-      "title": "OpenAI Presence",
-      "url": "https://openai.com/index/introducing-openai-presence/",
-      "source_type": "platform",
-      "published_or_updated": "2026-09-22",
-      "selection_rationale": "Fresh or materially updated primary-source signal with a bounded practical experiment.",
-      "usefulness": "Use the platform framing as a checklist for client proposals: identity, escalation, audit, and outcome metrics."
-    },
-    {
-      "date": "2026-09-23",
-      "topic": "human-centered-ai-controls",
-      "topic_title": "Human-Centered AI Controls",
-      "title": "Parallel cuts research time and cost",
-      "url": "https://openai.com/index/parallel-cuts-time-and-cost-with-astra/",
-      "source_type": "case_study",
-      "published_or_updated": "2026-09-22",
-      "selection_rationale": "Fresh or materially updated primary-source signal with a bounded practical experiment.",
-      "usefulness": "Split a client research brief into bounded parallel questions, then require a cited synthesis pass."
-    },
-    {
-      "date": "2026-09-23",
-      "topic": "model-choice-and-evidence",
-      "topic_title": "Model Choice + Evidence",
-      "title": "Production-ready agent guide",
-      "url": "https://cloud.google.com/blog/products/ai-machine-learning/a-devs-guide-to-production-ready-ai-agents",
-      "source_type": "architecture_guide",
-      "published_or_updated": "2026",
-      "selection_rationale": "Fresh or materially updated primary-source signal with a bounded practical experiment.",
-      "usefulness": "Use its production checklist during Buildn client discovery and architecture reviews."
-    },
-    {
-      "date": "2026-09-23",
-      "topic": "human-centered-ai-controls",
-      "topic_title": "Human-Centered AI Controls",
-      "title": "Think Before You Accept",
-      "url": "https://arxiv.org/list/cs.HC/recent",
-      "source_type": "HCI_research",
-      "published_or_updated": "2026-09-22",
-      "selection_rationale": "Fresh or materially updated primary-source signal with a bounded practical experiment.",
-      "usefulness": "For generated proposals, show the key evidence and a plausible alternative before export."
-    },
-    {
-      "date": "2026-09-23",
-      "topic": "model-choice-and-evidence",
-      "topic_title": "Model Choice + Evidence",
-      "title": "Visual Studio 2026 BYOK",
-      "url": "https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes",
-      "source_type": "developer_tool",
-      "published_or_updated": "2026-09",
-      "selection_rationale": "Fresh or materially updated primary-source signal with a bounded practical experiment.",
-      "usefulness": "Keep client-sensitive experiments on approved endpoints while preserving the same task contract."
-    },
-    {
-      "date": "2026-09-24",
-      "topic": "agent-oversight-and-security",
-      "topic_title": "Agent Oversight + Security Operations",
-      "title": "Agent Anomaly Detection",
-      "url": "https://developers.googleblog.com/agent-anomaly-detection-now-in-private-preview-on-the-gemini-enterprise-agent-platform/",
-      "source_type": "product",
-      "published_or_updated": "2026-09",
-      "selection_rationale": "Use the pattern for a Buildn job monitor: statistical pass, targeted reasoning review, then policy callback.",
-      "usefulness": "Prototype a session-risk event schema with severity, evidence, and recommended action."
-    },
-    {
-      "date": "2026-09-24",
-      "topic": "human-agent-boundaries",
-      "topic_title": "Human–Agent Boundaries",
-      "title": "Calibrated expectations",
-      "url": "https://arxiv.org/html/2606.20630v1",
-      "source_type": "product",
-      "published_or_updated": "2026-09",
-      "selection_rationale": "Make the first-run experience state what the agent may do, cannot do, and when it asks.",
-      "usefulness": "Write a 60-second onboarding script plus a recovery example for one agent."
-    },
     {
       "date": "2026-09-24",
       "topic": "agent-oversight-and-security",
@@ -1891,39 +1722,6 @@
     },
     {
       "date": "2026-09-24",
-      "topic": "human-agent-boundaries",
-      "topic_title": "Human–Agent Boundaries",
-      "title": "Design Principles for Human-Agent Interaction",
-      "url": "https://arxiv.org/html/2606.20630v1",
-      "source_type": "product",
-      "published_or_updated": "2026-09",
-      "selection_rationale": "Turn the principles into a Buildn review rubric for transparency, initiative, memory, and recovery.",
-      "usefulness": "Score one existing workflow against the 14 principles and log the largest gaps."
-    },
-    {
-      "date": "2026-09-24",
-      "topic": "portable-agent-developer-surfaces",
-      "topic_title": "Portable Agent Developer Surfaces",
-      "title": "Documentation MCP generation",
-      "url": "https://developers.googleblog.com/why-client-sdk-generation-belongs-in-the-open/",
-      "source_type": "product",
-      "published_or_updated": "2026-09",
-      "selection_rationale": "Keep agent tool knowledge synchronized with source specs, reducing guessed method names.",
-      "usefulness": "Add schema freshness and source commit to every tool manifest."
-    },
-    {
-      "date": "2026-09-24",
-      "topic": "portable-agent-developer-surfaces",
-      "topic_title": "Portable Agent Developer Surfaces",
-      "title": "HydraFusion model orchestration",
-      "url": "https://github.blog/changelog/2026-09-10-github-copilot-weekly-releases-september-7/",
-      "source_type": "product",
-      "published_or_updated": "2026-09",
-      "selection_rationale": "Use semantic routing as a reference for evidence extraction: cheap pass first, escalate ambiguity.",
-      "usefulness": "Define three task classes and benchmark routing against a fixed model baseline."
-    },
-    {
-      "date": "2026-09-24",
       "topic": "agent-oversight-and-security",
       "topic_title": "Agent Oversight + Security Operations",
       "title": "JetBrains managed sandbox controls",
@@ -1932,17 +1730,6 @@
       "published_or_updated": "2026-09",
       "selection_rationale": "Turn sandbox posture into a standard client discovery question, not an IDE afterthought.",
       "usefulness": "Create a least-privilege sandbox checklist for agent-enabled developer environments."
-    },
-    {
-      "date": "2026-09-24",
-      "topic": "human-agent-boundaries",
-      "topic_title": "Human–Agent Boundaries",
-      "title": "Memory as a relationship contract",
-      "url": "https://arxiv.org/html/2606.20630v1",
-      "source_type": "product",
-      "published_or_updated": "2026-09",
-      "selection_rationale": "Separate durable user-approved facts from transient run context in Buildn artifacts.",
-      "usefulness": "Define memory classes, retention, review, deletion, and provenance fields."
     },
     {
       "date": "2026-09-24",
@@ -2472,22 +2259,6 @@
     },
     {
       "date": "2026-10-03",
-      "topic": "durable-agent-infrastructure",
-      "title": "AlloyDB + Valkey memory",
-      "url": "https://cloud.google.com/blog/products/databases/implementing-long-term-ai-agent-memory-in-alloydb-and-memorystore",
-      "source_type": "blog",
-      "rationale": "Separate hot context from durable rules and episodes instead of stuffing histories into every prompt."
-    },
-    {
-      "date": "2026-10-03",
-      "topic": "open-local-ai",
-      "title": "Chrome built-in AI",
-      "url": "https://developer.chrome.com/blog/chrome-at-io26",
-      "source_type": "blog",
-      "rationale": "Narrow local inference can remove per-call cost and server dependency for lightweight UX features."
-    },
-    {
-      "date": "2026-10-03",
       "topic": "agentic-review-delivery",
       "title": "Copilot code review API",
       "url": "https://github.blog/changelog/2026-10-02-copilot-code-review-api-support-and-new-default-effort-level/",
@@ -2509,14 +2280,6 @@
       "url": "https://github.blog/changelog/2026-10-01-github-copilot-can-now-interact-with-desktop-apps",
       "source_type": "blog",
       "rationale": "Desktop surfaces remain valuable when APIs are absent, but need stronger containment than code edits."
-    },
-    {
-      "date": "2026-10-03",
-      "topic": "open-local-ai",
-      "title": "EnvHarness as a pattern",
-      "url": "https://opensource.googleblog.com/2026/10/this-week-in-open-source-for-october-2-2026.html",
-      "source_type": "blog",
-      "rationale": "Environment setup is part of evaluation quality; isolated, reproducible tasks make comparisons credible."
     },
     {
       "date": "2026-10-03",
@@ -2746,14 +2509,6 @@
     {
       "date": "2026-10-06",
       "topic": "agent-browser-tooling",
-      "title": "Agent-readiness implication",
-      "url": "https://developer.chrome.com/blog/new-in-devtools-october-2026",
-      "source_type": "blog",
-      "rationale": "When browser agents can inspect performance and network evidence, “make the page agent-ready” includes diagnosability, not only machine-readable content."
-    },
-    {
-      "date": "2026-10-06",
-      "topic": "agent-browser-tooling",
       "title": "Chrome DevTools MCP",
       "url": "https://developer.chrome.com/blog/new-in-devtools-october-2026",
       "source_type": "blog",
@@ -2806,38 +2561,6 @@
       "url": "https://developer.chrome.com/blog/new-in-devtools-october-2026#mcp",
       "source_type": "blog",
       "rationale": "The update places agent workflows alongside standard DevTools features, signaling that inspection is becoming a first-class operator surface."
-    },
-    {
-      "date": "2026-10-06",
-      "topic": "consented-group-agents",
-      "title": "Group agent as facilitator",
-      "url": "https://techcrunch.com/2026/10/05/instinct-brings-its-ai-agent-to-group-chats-even-for-friends-without-an-account/",
-      "source_type": "docs",
-      "rationale": "The product framing is a shared agent that helps a group explore options, agree on a plan, and execute in one thread."
-    },
-    {
-      "date": "2026-10-06",
-      "topic": "consented-group-agents",
-      "title": "Instinct in group chats",
-      "url": "https://techcrunch.com/2026/10/05/instinct-brings-its-ai-agent-to-group-chats-even-for-friends-without-an-account/",
-      "source_type": "docs",
-      "rationale": "Instinct announced early access for adding a shared agent to group chats, including groups where some participants are not Instinct users."
-    },
-    {
-      "date": "2026-10-06",
-      "topic": "consented-group-agents",
-      "title": "Pending-reply hold",
-      "url": "https://techcrunch.com/2026/10/05/instinct-brings-its-ai-agent-to-group-chats-even-for-friends-without-an-account/",
-      "source_type": "docs",
-      "rationale": "Pending replies from a personal agent are held if new members join before the content is shared."
-    },
-    {
-      "date": "2026-10-06",
-      "topic": "consented-group-agents",
-      "title": "Personal-to-group handoff",
-      "url": "https://techcrunch.com/2026/10/05/instinct-brings-its-ai-agent-to-group-chats-even-for-friends-without-an-account/",
-      "source_type": "docs",
-      "rationale": "The reported design has a personal agent ask permission before connecting with the group agent and sharing information."
     },
     {
       "date": "2026-10-06",
@@ -3009,30 +2732,6 @@
     {
       "date": "2026-10-12",
       "lane": "browser-agent-assurance",
-      "title": "Chrome for Developers — Agent Plugins 1.0",
-      "url": "https://developer.chrome.com/blog/new-in-devtools-october-2026#devtools-for-agents",
-      "source_type": "docs",
-      "rationale": "modular plugins can load and execute in the agent toolchain"
-    },
-    {
-      "date": "2026-10-12",
-      "lane": "browser-agent-assurance",
-      "title": "Chrome for Developers — New in DevTools, October 2026",
-      "url": "https://developer.chrome.com/blog/new-in-devtools-october-2026#devtools-for-agents",
-      "source_type": "docs",
-      "rationale": "--no-javascript-evaluation and disabled evaluation tools persist across navigations"
-    },
-    {
-      "date": "2026-10-12",
-      "lane": "browser-agent-assurance",
-      "title": "Chrome for Developers — configurable filesystem roots",
-      "url": "https://developer.chrome.com/blog/new-in-devtools-october-2026#devtools-for-agents",
-      "source_type": "docs",
-      "rationale": "configurable roots and CLI path permissions for agent access"
-    },
-    {
-      "date": "2026-10-12",
-      "lane": "browser-agent-assurance",
       "title": "Chrome for Developers — heap snapshot inspection",
       "url": "https://developer.chrome.com/blog/new-in-devtools-october-2026#devtools-for-agents",
       "source_type": "docs",
@@ -3101,14 +2800,6 @@
       "url": "https://openai.com/index/introducing-dots/#what-dots-can-do",
       "source_type": "product",
       "rationale": "multiple concurrent agents are framed as a future operating pattern"
-    },
-    {
-      "date": "2026-10-12",
-      "lane": "persistent-agent-work",
-      "title": "OpenAI — dots proactive research",
-      "url": "https://openai.com/index/introducing-dots/#safety-privacy-and-user-control",
-      "source_type": "product",
-      "rationale": "background research can use connected apps without mutating them"
     },
     {
       "date": "2026-10-12",
@@ -3806,118 +3497,6 @@
       "title": "Agent Orchestration + Durable Workflows",
       "items": [
         {
-          "title": "Dynamic workflows make orchestration reviewable",
-          "url": "https://github.blog/changelog/2026-10-01-dynamic-workflows-in-copilot-cli-and-the-copilot-app/",
-          "source_type": "release"
-        },
-        {
-          "title": "Infinity explores extreme agent concurrency",
-          "url": "https://aws.amazon.com/blogs/opensource/introducing-infinity-a-runtime-for-extreme-agent-concurrency/",
-          "source_type": "runtime"
-        },
-        {
-          "title": "Agent memory moves into ordinary storage controls",
-          "url": "https://aws.amazon.com/blogs/machine-learning/build-agent-memory-with-nvidia-nemo-agent-toolkit-and-amazon-s3-vectors/",
-          "source_type": "reference architecture"
-        },
-        {
-          "title": "Google Antigravity exposes the harness as an SDK",
-          "url": "https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements/",
-          "source_type": "platform"
-        }
-      ],
-      "selection_rationale": "Fresh infrastructure signal; last covered infrastructure was database/context heavy, this run follows executable orchestration."
-    },
-    {
-      "date": "2026-10-26",
-      "topic": "design-to-delivery",
-      "title": "Design-to-Delivery + Agentic Craft",
-      "items": [
-        {
-          "title": "Design-system upkeep becomes agent work",
-          "url": "https://www.figma.com/blog/how-to-put-your-design-system-to-work-with-the-figma-agent/",
-          "source_type": "product workflow"
-        },
-        {
-          "title": "Custom tools and context deepen the design agent",
-          "url": "https://www.figma.com/blog/agent-custom-tools-context-skills/",
-          "source_type": "product update"
-        },
-        {
-          "title": "The canvas becomes a feedback surface",
-          "url": "https://www.figma.com/blog/3-ways-product-designers-use-the-figma-agent/",
-          "source_type": "workflow"
-        },
-        {
-          "title": "Figma is positioning agents as a product layer",
-          "url": "https://www.figma.com/blog/config-2026-recap/",
-          "source_type": "strategy"
-        }
-      ],
-      "selection_rationale": "Coverage gap in current run; design was last selected on 2026-10-23, so this follows a material design-system update."
-    },
-    {
-      "date": "2026-10-26",
-      "topic": "agent-security-identity",
-      "title": "Agent Security + Identity",
-      "items": [
-        {
-          "title": "Global defaults turn AI controls into policy",
-          "url": "https://github.blog/changelog/2026-10-22-global-default-for-copilot-features-generally-available/",
-          "source_type": "policy release"
-        },
-        {
-          "title": "AI Scan brings automated review into pull requests",
-          "url": "https://github.blog/changelog/2026-10-15-ai-scan-for-pull-requests-generally-available/",
-          "source_type": "security release"
-        },
-        {
-          "title": "Security-audit skills make authorization part of the tool",
-          "url": "https://github.com/cloudflare/security-audit-skill",
-          "source_type": "open-source tool"
-        },
-        {
-          "title": "Least-privilege app management becomes normal infrastructure",
-          "url": "https://github.blog/changelog/2026-10-23-enterprise-installations-for-github-apps-generally-available/",
-          "source_type": "identity release"
-        }
-      ],
-      "selection_rationale": "Security remains important but avoids yesterday’s frontier-training theme by focusing on access defaults, scanning, and authorized audit behavior."
-    },
-    {
-      "date": "2026-10-26",
-      "topic": "robotic-agent-systems",
-      "title": "Robotic + Physical Agent Systems",
-      "items": [
-        {
-          "title": "ABot-AgentOS treats robotics as a lifelong loop",
-          "url": "https://arxiv.org/html/2607.10350v1",
-          "source_type": "paper"
-        },
-        {
-          "title": "A tiny robot makes embodied prototyping approachable",
-          "url": "https://github.com/pollen-robotics/microduck",
-          "source_type": "repository"
-        },
-        {
-          "title": "Robotics research is clustering around agentic evaluation",
-          "url": "https://arxiv.org/list/cs.RO/recent",
-          "source_type": "research index"
-        },
-        {
-          "title": "Embodied systems expose hidden state requirements",
-          "url": "https://arxiv.org/html/2607.10350v1",
-          "source_type": "editorial synthesis"
-        }
-      ],
-      "selection_rationale": "Coverage gap: physical AI was last selected on 2026-08-27; today’s signal is practical agent loops and small hardware rather than simulation hype."
-    },
-    {
-      "date": "2026-10-26",
-      "topic": "agent-orchestration",
-      "title": "Agent Orchestration + Durable Workflows",
-      "items": [
-        {
           "title": "Production evaluation makes orchestration measurable",
           "url": "https://aws.amazon.com/blogs/machine-learning/building-trust-in-ai-agents-a-production-ready-evaluation-framework-with-amazon-bedrock-agentcore/",
           "source_type": "evaluation"
@@ -4481,6 +4060,171 @@
       "url": "https://cloud.google.com/blog/topics/ai-infrastructure/introducing-agent-compute-engine-and-expanded-agent-governance",
       "source_type": "architecture",
       "rationale": "Human checkpoints become economically viable when waiting does not consume a continuously running process."
+    },
+    {
+      "date": "2026-11-08",
+      "topic": "agentic-measurement-and-delivery",
+      "topic_title": "Agentic Measurement + Delivery",
+      "title": "Copilot impact dashboard adds Chat and VS Code agent usage",
+      "url": "https://github.blog/changelog/2026-11-06-copilot-impact-dashboard-adds-chat-and-vs-code-agent-usage/",
+      "source_type": "release",
+      "published_or_updated": "2026-11-06",
+      "selection_rationale": "Fresh November 6–8 developer-surface updates make agent work more schedulable and measurable; this lane converts product changes into a small operating loop rather than another IDE roundup.",
+      "usefulness": "Treat engagement, adoption phase, and outcome as separate metrics in Buildn client pilots; do not call chat activity productivity."
+    },
+    {
+      "date": "2026-11-08",
+      "topic": "agentic-measurement-and-delivery",
+      "topic_title": "Agentic Measurement + Delivery",
+      "title": "Copilot weekly releases — November 2",
+      "url": "https://github.blog/changelog/2026-11-06-github-copilot-weekly-releases-november-2",
+      "source_type": "release",
+      "published_or_updated": "2026-11-06",
+      "selection_rationale": "Fresh November 6–8 developer-surface updates make agent work more schedulable and measurable; this lane converts product changes into a small operating loop rather than another IDE roundup.",
+      "usefulness": "Prototype a recurring Buildn check with a typed input, artifact output, reviewer gate, and an explicit recovery path."
+    },
+    {
+      "date": "2026-11-08",
+      "topic": "agentic-measurement-and-delivery",
+      "topic_title": "Agentic Measurement + Delivery",
+      "title": "Dependabot supports Agent Package Manager",
+      "url": "https://github.blog/changelog/2026-11-03-dependabot-version-updates-support-agent-package-manager/",
+      "source_type": "supply-chain",
+      "published_or_updated": "2026-11-08",
+      "selection_rationale": "Fresh November 6–8 developer-surface updates make agent work more schedulable and measurable; this lane converts product changes into a small operating loop rather than another IDE roundup.",
+      "usefulness": "Put skills, prompts, and tool adapters under dependency review with provenance and lockfiles."
+    },
+    {
+      "date": "2026-11-08",
+      "topic": "agentic-measurement-and-delivery",
+      "topic_title": "Agentic Measurement + Delivery",
+      "title": "GitHub Agentic Workflows generally available",
+      "url": "https://github.blog/changelog/2026-10-28-github-agentic-workflows-generally-available/",
+      "source_type": "workflow",
+      "published_or_updated": "2026-11-08",
+      "selection_rationale": "Fresh November 6–8 developer-surface updates make agent work more schedulable and measurable; this lane converts product changes into a small operating loop rather than another IDE roundup.",
+      "usefulness": "Use checked-in workflow files as portable job contracts for client delivery and Buildn operations."
+    },
+    {
+      "date": "2026-11-08",
+      "topic": "agentic-measurement-and-delivery",
+      "topic_title": "Agentic Measurement + Delivery",
+      "title": "Code scanning for AI applications",
+      "url": "https://github.blog/changelog/2026-10-28-code-scanning-for-ai-applications-in-public-preview/",
+      "source_type": "security",
+      "published_or_updated": "2026-11-08",
+      "selection_rationale": "Fresh November 6–8 developer-surface updates make agent work more schedulable and measurable; this lane converts product changes into a small operating loop rather than another IDE roundup.",
+      "usefulness": "Add prompt/tool boundaries, secret handling, dependency risk, and data-flow review to the same PR evidence packet."
+    },
+    {
+      "date": "2026-11-08",
+      "topic": "agent-identity-and-intent",
+      "topic_title": "Agent Identity + Intent",
+      "title": "Identity Security for AI: intent validation at registration",
+      "url": "https://saviynt.com/blog/identity-security-for-ai-agent-access-gateway-identity-management-posture-management",
+      "source_type": "product",
+      "published_or_updated": "2026-11-08",
+      "selection_rationale": "Identity remains a coverage gap only when framed as policy at the moment of action: new governance material makes intent, ownership, delegation, and revocation more concrete than static inventory alone.",
+      "usefulness": "Add declared purpose, required tools, granted tools, owner, and deviation reason to every agent/job manifest."
+    },
+    {
+      "date": "2026-11-08",
+      "topic": "agent-identity-and-intent",
+      "topic_title": "Agent Identity + Intent",
+      "title": "Agent Identity Governance Framework",
+      "url": "https://labs.cloudsecurityalliance.org/agentic/agentic-identity-governance-framework-v1/",
+      "source_type": "framework",
+      "published_or_updated": "2026-11-08",
+      "selection_rationale": "Identity remains a coverage gap only when framed as policy at the moment of action: new governance material makes intent, ownership, delegation, and revocation more concrete than static inventory alone.",
+      "usefulness": "Use its lifecycle vocabulary to structure a client readiness workshop and a Buildn access review."
+    },
+    {
+      "date": "2026-11-08",
+      "topic": "agent-identity-and-intent",
+      "topic_title": "Agent Identity + Intent",
+      "title": "Govern and secure AI agents across the organization",
+      "url": "https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ai-agents/governance-security-across-organization",
+      "source_type": "docs",
+      "published_or_updated": "2026-11-08",
+      "selection_rationale": "Identity remains a coverage gap only when framed as policy at the moment of action: new governance material makes intent, ownership, delegation, and revocation more concrete than static inventory alone.",
+      "usefulness": "Borrow the four-layer review spine for architecture proposals without coupling the checklist to Azure."
+    },
+    {
+      "date": "2026-11-08",
+      "topic": "agent-identity-and-intent",
+      "topic_title": "Agent Identity + Intent",
+      "title": "NVIDIA Open Agent Safety Platform",
+      "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Launches-Open-Agent-Safety-Platform-to-Secure-Agents-From-Testing-to-Deployment/default.aspx",
+      "source_type": "platform",
+      "published_or_updated": "2026-11-08",
+      "selection_rationale": "Identity remains a coverage gap only when framed as policy at the moment of action: new governance material makes intent, ownership, delegation, and revocation more concrete than static inventory alone.",
+      "usefulness": "Use the outside-the-workload principle when designing high-impact agent execution boundaries."
+    },
+    {
+      "date": "2026-11-08",
+      "topic": "agent-identity-and-intent",
+      "topic_title": "Agent Identity + Intent",
+      "title": "OpenShell runtime controls 0.1.0",
+      "url": "https://developer.nvidia.com/blog/add-runtime-controls-to-ai-agents-with-nvidia-openshell",
+      "source_type": "open-source",
+      "published_or_updated": "2026-11-08",
+      "selection_rationale": "Identity remains a coverage gap only when framed as policy at the moment of action: new governance material makes intent, ownership, delegation, and revocation more concrete than static inventory alone.",
+      "usefulness": "Compare its boundary model with Hermes/Buildn execution: what is enforced outside the agent and what is merely instructed?"
+    },
+    {
+      "date": "2026-11-08",
+      "topic": "embodied-memory-and-evaluation",
+      "topic_title": "Embodied Memory + Evaluation",
+      "title": "RoboARCade: Benchmarking Agentic Robot Control",
+      "url": "https://arxiv.org/html/2611.08209v1",
+      "source_type": "paper",
+      "published_or_updated": "2026-11-05",
+      "selection_rationale": "New November research fills a neglected lane: long-horizon agent evaluation now exposes false success, memory, interface cost, and continuous observation as first-class engineering problems.",
+      "usefulness": "Use false-success rate and independent outcome checks as a template for software agents that report completed work."
+    },
+    {
+      "date": "2026-11-08",
+      "topic": "embodied-memory-and-evaluation",
+      "topic_title": "Embodied Memory + Evaluation",
+      "title": "Learning to Live: A Step Toward Lifelong Embodied Intelligence",
+      "url": "https://arxiv.org/html/2611.00180v2",
+      "source_type": "paper",
+      "published_or_updated": "2026-11-05",
+      "selection_rationale": "New November research fills a neglected lane: long-horizon agent evaluation now exposes false success, memory, interface cost, and continuous observation as first-class engineering problems.",
+      "usefulness": "Map RoboBeats to event-triggered ingestion, Plastic Memory to evidence-bearing artifacts, and EDM to reusable workflow promotion."
+    },
+    {
+      "date": "2026-11-08",
+      "topic": "embodied-memory-and-evaluation",
+      "topic_title": "Embodied Memory + Evaluation",
+      "title": "Serving Agentic Robot Fleets",
+      "url": "https://arxiv.org/html/2611.01404v1",
+      "source_type": "paper",
+      "published_or_updated": "2026-11-05",
+      "selection_rationale": "New November research fills a neglected lane: long-horizon agent evaluation now exposes false success, memory, interface cost, and continuous observation as first-class engineering problems.",
+      "usefulness": "Use it as a prompt to model concurrency, latency, and memory pressure for any fleet of long-running agents."
+    },
+    {
+      "date": "2026-11-08",
+      "topic": "embodied-memory-and-evaluation",
+      "topic_title": "Embodied Memory + Evaluation",
+      "title": "StreamMemBench: Streaming Evaluation of Agent Memory",
+      "url": "https://arxiv.org/list/cs.AI/new",
+      "source_type": "paper-index",
+      "published_or_updated": "2026-11-08",
+      "selection_rationale": "New November research fills a neglected lane: long-horizon agent evaluation now exposes false success, memory, interface cost, and continuous observation as first-class engineering problems.",
+      "usefulness": "Prefer tests that measure whether memory helps a future decision under changing context, not whether a system can recite stored facts."
+    },
+    {
+      "date": "2026-11-08",
+      "topic": "embodied-memory-and-evaluation",
+      "topic_title": "Embodied Memory + Evaluation",
+      "title": "RoboARCade code, videos, and traces",
+      "url": "https://roboarcade.org/",
+      "source_type": "dataset",
+      "published_or_updated": "2026-11-08",
+      "selection_rationale": "New November research fills a neglected lane: long-horizon agent evaluation now exposes false success, memory, interface cost, and continuous observation as first-class engineering problems.",
+      "usefulness": "Borrow the artifact pattern: every evaluation should ship inputs, traces, expected outcome, and replay instructions."
     }
   ],
   "runs": [
@@ -16674,7 +16418,7 @@
       "last_covered": "2026-10-03"
     }
   },
-  "last_successful_run": "2026-11-05",
+  "last_successful_run": "2026-11-08",
   "history": [
     {
       "date": "2026-09-07",
@@ -19058,5 +18802,6 @@
       "thesis": "Agents become useful when boundaries, connectors, memory, and feedback are designed as one inspectable operating system—not as isolated capability demos."
     }
   ],
-  "last_selection_rationale": "Today’s strongest signal is the move from agent demos toward governed work surfaces: native IDE participation, disposable data planes, reproducible evidence, and human checkpoints in consequential workflows."
+  "last_selection_rationale": "Today’s strongest signal is the move from agent demos toward governed work surfaces: native IDE participation, disposable data planes, reproducible evidence, and human checkpoints in consequential workflows.",
+  "last_generated_at": "2026-11-08T09:00:32Z"
 }
