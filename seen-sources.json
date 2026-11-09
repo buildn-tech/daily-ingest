@@ -1,6 +1,76 @@
 {
-  "updated_at": "2026-11-08T09:08:13.777832+00:00",
+  "updated_at": "2026-11-09T09:06:11.827626+00:00",
   "sources": {
+    "https://blog.cloudflare.com/ai-search-ga": {
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "title": "Cloudflare AI Search reaches general availability"
+    },
+    "https://blog.cloudflare.com/faster-agent-sandboxes": {
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "title": "Cloudflare Containers, rebuilt to scale agent sandboxes"
+    },
+    "https://blog.cloudflare.com/the-agent-access-model": {
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-08-14",
+      "title": "Agent Access Model"
+    },
+    "https://blog.cloudflare.com/trusted-agent-delegation": {
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "title": "Trusted agent delegation"
+    },
+    "https://blog.cloudflare.com/personal-agents-visibility-control": {
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "title": "Personal-agent visibility and control"
+    },
+    "https://arxiv.org/abs/2610.19991": {
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "title": "Think Once, Reflect Twice: How Feedback Shapes Human-AI Collaboration"
+    },
+    "https://arxiv.org/list/cmp-lg/recent": {
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "title": "Computation and Language recent submissions"
+    },
+    "https://arxiv.org/list/stat.ML/recent": {
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "title": "Machine Learning recent submissions"
+    },
+    "https://arxiv.org/list/cs.NI/recent": {
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "title": "Networking and Internet Architecture recent submissions"
+    },
+    "https://news.ycombinator.com/item?id=50183892": {
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "title": "Omnara \u2014 open-source alternative to Claude Managed Agents"
+    },
+    "https://ketchup3d.github.io/app": {
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "title": "KetchUp open 3D tool"
+    },
+    "https://blog.tjll.net/this-is-your-sign-to-self-host": {
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "title": "This Blog Post is Your Sign to Start Self-Hosting"
+    },
+    "https://www.codecapsules.io/blog/self-hosting-sweet-spot-services-worth-hosting-2026": {
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "title": "The Self-Hosting Sweet Spot in 2026"
+    },
+    "https://news.ycombinator.com/item?id=50417407": {
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "title": "Ask HN: What are you working on? November 2026"
+    },
     "https://github.blog/changelog/2026-11-06-copilot-impact-dashboard-adds-chat-and-vs-code-agent-usage": {
       "first_seen": "2026-11-08",
       "last_seen": "2026-11-08",
@@ -2955,11 +3025,6 @@
       "first_seen": "2026-09-07",
       "last_seen": "2026-09-07",
       "title": "NVIDIA AI agents hub"
-    },
-    "https://blog.cloudflare.com/the-agent-access-model": {
-      "first_seen": "2026-09-07",
-      "last_seen": "2026-08-14",
-      "title": "Agent Access Model"
     },
     "https://docs.devin.ai/desktop/changelog-next": {
       "first_seen": "2026-09-06",

@@ -1,0 +1,42 @@
+{
+  "date": "2026-11-09",
+  "generated_at": "2026-11-09T09:00:34Z",
+  "editorial_thesis": "As agents gain access to the web, tools, and execution environments, the practical edge is a legible boundary between discoverability, delegated authority, human feedback, and portable state.",
+  "topic_groups": [
+    {
+      "slug": "agentic-web-runtime",
+      "title": "Agentic Web + Runtime Surfaces",
+      "selection_rationale": "Fresh Cloudflare product signals create a coherent new lane around agent-callable content, delegated access, visibility, and sandboxes; this is materially distinct from yesterday's governance and measurement focus.",
+      "sources": [
+        {"title":"Cloudflare AI Search reaches general availability","url":"https://blog.cloudflare.com/ai-search-ga/","source_type":"product","published_or_updated":"2026-11-01","why_selected":"Turns web and documentation search into an agent-facing platform surface.","usefulness":"Supports an agent-discovery audit for Buildn and client knowledge bases."},
+        {"title":"Cloudflare Containers, rebuilt to scale agent sandboxes","url":"https://blog.cloudflare.com/faster-agent-sandboxes/","source_type":"product","published_or_updated":"2026-11","why_selected":"Shows runtime design shifting toward disposable, preview-producing agent workloads.","usefulness":"Provides a benchmark target for isolated Buildn job execution."},
+        {"title":"The Agent Access Model","url":"https://blog.cloudflare.com/the-agent-access-model/","source_type":"architecture","published_or_updated":"2026-11","why_selected":"Frames agent access as scoped delegation rather than copied human credentials.","usefulness":"Informs typed job manifests and least-privilege client automation."},
+        {"title":"Trusted agent delegation","url":"https://blog.cloudflare.com/trusted-agent-delegation","source_type":"architecture","published_or_updated":"2026-11","why_selected":"Extends the access model to chained and delegated actions.","usefulness":"Useful for authority-chain UX and revocation design."},
+        {"title":"Personal-agent visibility and control","url":"https://blog.cloudflare.com/personal-agents-visibility-control/","source_type":"product","published_or_updated":"2026-11","why_selected":"Makes agent visibility and user control an explicit product problem.","usefulness":"Suggests a Buildn panel for action rationale, scope, and undo."}
+      ]
+    },
+    {
+      "slug": "human-ai-collaboration",
+      "title": "Human-AI Collaboration Research",
+      "selection_rationale": "A neglected interaction-design gap: the useful question is not whether AI assists, but when feedback changes human reasoning before errors compound.",
+      "sources": [
+        {"title":"Think Once, Reflect Twice: How Feedback Shapes Human-AI Collaboration","url":"https://arxiv.org/abs/2610.19991","source_type":"paper","published_or_updated":"2026-10","why_selected":"Directly studies feedback and revision in human-AI collaboration.","usefulness":"Provides a research anchor for checkpoint and reflection design."},
+        {"title":"Computation and Language recent submissions","url":"https://arxiv.org/list/cmp-lg/recent","source_type":"paper-index","published_or_updated":"2026-11-09","why_selected":"Current stream provides high-recall signal across AI, language, and security.","usefulness":"Supports a lightweight daily paper-triage workflow."},
+        {"title":"Machine Learning recent submissions","url":"https://arxiv.org/list/stat.ML/recent","source_type":"paper-index","published_or_updated":"2026-11-09","why_selected":"Fresh methods and evaluation work often surface here before product summaries.","usefulness":"Useful for selecting one runnable experiment rather than consuming hype."},
+        {"title":"Networking and Internet Architecture recent submissions","url":"https://arxiv.org/list/cs.NI/recent","source_type":"paper-index","published_or_updated":"2026-11-09","why_selected":"Adds systems and infrastructure signal to the interaction lane.","usefulness":"Helps connect interface ideas to latency, reliability, and deployment constraints."}
+      ]
+    },
+    {
+      "slug": "local-first-open-tools",
+      "title": "Local-First Open Tools",
+      "selection_rationale": "Coverage has been dominated by hosted agent platforms; this lane rotates toward open formats, self-hosting economics, and replaceable workflow cores.",
+      "sources": [
+        {"title":"Omnara — open-source alternative to Claude Managed Agents","url":"https://news.ycombinator.com/item?id=50183892","source_type":"news","published_or_updated":"2026-11","why_selected":"A current open-source agent harness lead centered on self-hosted execution and model choice.","usefulness":"Supports a portability comparison with Hermes and Buildn job contracts."},
+        {"title":"KetchUp open 3D tool","url":"https://ketchup3d.github.io/app/","source_type":"product","published_or_updated":"2026-11","why_selected":"Demonstrates an inspectable Rust/WebGPU creative surface discovered in current maker circulation.","usefulness":"Offers a reference for browser-native visual artifacts and exportable client handoffs."},
+        {"title":"This Blog Post is Your Sign to Start Self-Hosting","url":"https://blog.tjll.net/this-is-your-sign-to-self-host/","source_type":"blog","published_or_updated":"2026","why_selected":"Makes the case for selective self-hosting based on current infrastructure conditions.","usefulness":"Provides a practical starting point for sovereignty and restore-path decisions."},
+        {"title":"The Self-Hosting Sweet Spot in 2026","url":"https://www.codecapsules.io/blog/self-hosting-sweet-spot-services-worth-hosting-2026/","source_type":"blog","published_or_updated":"2026","why_selected":"Adds a risk, cost, and operational-overhead framing rather than ideology.","usefulness":"Useful for a Buildn service-boundary matrix."},
+        {"title":"Ask HN: What are you working on? November 2026","url":"https://news.ycombinator.com/item?id=50417407","source_type":"news","published_or_updated":"2026-11-09","why_selected":"Current maker thread surfaces emerging local agent workflows and experiments.","usefulness":"Good discovery source for tools to inspect, not a substitute for validation."}
+      ]
+    }
+  ]
+}
