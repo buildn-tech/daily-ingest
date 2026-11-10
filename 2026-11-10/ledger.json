@@ -1,0 +1,39 @@
+{
+  "date": "2026-11-10",
+  "generated_at": "2026-11-10T09:00:49Z",
+  "editorial_thesis": "The next practical edge is making agent work inspectable: budget memory, preserve design intent, and measure delegated execution through evidence rather than activity.",
+  "topic_groups": [
+    {
+      "slug": "agent-platforms",
+      "title": "Agent Platforms + Proof-Bearing Workflows",
+      "selection_rationale": "Fresh primary-source signals from GitHub, OpenAI, and Google point to longer-running delegated work and stronger evaluation surfaces; this advances yesterday's runtime discussion without repeating its sources.",
+      "sources": [
+        {"title":"GitHub Universe 2026: Evolving every layer of the stack","url":"https://github.blog/news-insights/company-news/github-universe-2026-evolving-every-layer-of-the-stack/","source_type":"blog","published_or_updated":"2026-11","why_selected":"Current platform-level signal for coding agents moving beyond autocomplete.","usefulness":"Use checked-in job contracts, outcome metrics, and rollback in Buildn/client delivery."},
+        {"title":"How agents are transforming work","url":"https://openai.com/index/how-agents-are-transforming-work/","source_type":"research","published_or_updated":"2026-11","why_selected":"Frames agents as extending delegated task horizon and complexity.","usefulness":"Redesign automation metrics around verified outcomes and review cost."},
+        {"title":"Measuring how AI agents handle everyday wet-lab science","url":"https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science/","source_type":"benchmark","published_or_updated":"2026-11-06","why_selected":"Tests multimodal agents on ambiguous, visual, real-world inputs.","usefulness":"Build messy-input evaluation fixtures from actual client artifacts."},
+        {"title":"Inside Kaggle's AI Agents Intensive Course with Google","url":"https://blog.google/innovation-and-ai/technology/developers-tools/ai-agents-intensive-recap-2026/","source_type":"blog","published_or_updated":"2026","why_selected":"Shows practical agent engineering education at unusual scale.","usefulness":"Convert learning exercises into reusable, testable workflow templates."}
+      ]
+    },
+    {
+      "slug": "memory-under-constraints",
+      "title": "Memory Under Constraints",
+      "selection_rationale": "Memory is a coverage gap after several days of identity, runtime, and physical-agent reporting; fresh research gives a practical resource-and-evaluation angle rather than repeating memory roundups.",
+      "sources": [
+        {"title":"Remembering Has a Price: Learning Memory Worth under Resource Constraints","url":"https://arxiv.org/html/2610.26453v1","source_type":"paper","published_or_updated":"2026-10","why_selected":"Treats memory selection as value allocation under limited resources.","usefulness":"Add retention reasons, freshness, and deletion rules to durable Buildn state."},
+        {"title":"Memory in the LLM Era: Modular Architectures and Strategies in a Unified Framework","url":"https://arxiv.org/html/2604.01707v3","source_type":"paper","published_or_updated":"2026","why_selected":"Provides a vocabulary for modular memory roles and strategies.","usefulness":"Separate evidence, derived knowledge, working context, and retrieval policy."},
+        {"title":"Modular Memory is the Key to Continual Learning Agents","url":"https://arxiv.org/html/2603.01761v1","source_type":"paper","published_or_updated":"2026","why_selected":"Connects fast adaptation with reusable accumulated knowledge.","usefulness":"Promote repeated successful traces into reviewed playbooks with rollback."},
+        {"title":"AutoMem: Automated Learning of Memory as a Cognitive Skill","url":"https://arxiv.org/html/2607.01224v1","source_type":"paper","published_or_updated":"2026","why_selected":"Frames memory management as a monitor-control loop.","usefulness":"Log retrieval misses, stale hits, duplicates, and downstream outcomes."}
+      ]
+    },
+    {
+      "slug": "design-to-code",
+      "title": "Design-to-Code Surfaces",
+      "selection_rationale": "Fresh Figma updates create a practical client-work lane around context packets, repository-aware design, shader/code handoff, and versioned generative assets.",
+      "sources": [
+        {"title":"Figma product news and release notes","url":"https://www.figma.com/release-notes/","source_type":"release","published_or_updated":"2026-11-06","why_selected":"Lists agent-generated vector improvements and connected GitHub repository changes.","usefulness":"Audit repository permissions and test a real-component design workflow."},
+        {"title":"Figma Config India updates","url":"https://www.figma.com/release-notes/?page=2","source_type":"release","published_or_updated":"2026","why_selected":"Introduces Specs, Payload, code sources, guidelines, and MCP updates.","usefulness":"Model a portable context packet for Buildn and client handoffs."},
+        {"title":"Build by Design","url":"https://www.figma.com/blog/build-by-design/","source_type":"blog","published_or_updated":"2026","why_selected":"Provides product context for Figma's design-to-code direction.","usefulness":"Use as a reference when defining intent, implementation, and review boundaries."}
+      ]
+    }
+  ]
+}

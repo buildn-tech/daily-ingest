@@ -1111,9 +1111,9 @@
       "last_covered": "2026-09-29"
     },
     "agent-platforms": {
-      "title": "Persistent agents move from prompt to operating layer",
-      "times_covered": 1,
-      "last_covered": "2026-09-30"
+      "title": "Agent Platforms + Proof-Bearing Workflows",
+      "times_covered": 2,
+      "last_covered": "2026-11-10"
     },
     "knowledge-and-edge": {
       "title": "The overlooked leverage is durable context and migration hygiene",
@@ -1721,6 +1721,16 @@
       "title": "Local-First Open Tools",
       "times_covered": 1,
       "last_covered": "2026-11-09"
+    },
+    "memory-under-constraints": {
+      "title": "Memory Under Constraints",
+      "times_covered": 1,
+      "last_covered": "2026-11-10"
+    },
+    "design-to-code": {
+      "title": "Design-to-Code Surfaces",
+      "times_covered": 1,
+      "last_covered": "2026-11-10"
     }
   },
   "item_history": [
@@ -4189,6 +4199,94 @@
       "url": "https://news.ycombinator.com/item?id=50417407",
       "source_type": "news",
       "rationale": "Current maker thread surfaces emerging local agent workflows and experiments."
+    },
+    {
+      "date": "2026-11-10",
+      "selected_lanes": [
+        "agent-platforms",
+        "memory-under-constraints",
+        "design-to-code"
+      ],
+      "items": [
+        {
+          "title": "GitHub Universe 2026: Evolving every layer of the stack",
+          "url": "https://github.blog/news-insights/company-news/github-universe-2026-evolving-every-layer-of-the-stack/",
+          "source_type": "blog",
+          "topic": "agent-platforms",
+          "rationale": "Current platform-level signal for coding agents moving beyond autocomplete."
+        },
+        {
+          "title": "How agents are transforming work",
+          "url": "https://openai.com/index/how-agents-are-transforming-work/",
+          "source_type": "research",
+          "topic": "agent-platforms",
+          "rationale": "Frames agents as extending delegated task horizon and complexity."
+        },
+        {
+          "title": "Measuring how AI agents handle everyday wet-lab science",
+          "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science/",
+          "source_type": "benchmark",
+          "topic": "agent-platforms",
+          "rationale": "Tests multimodal agents on ambiguous, visual, real-world inputs."
+        },
+        {
+          "title": "Inside Kaggle's AI Agents Intensive Course with Google",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/ai-agents-intensive-recap-2026/",
+          "source_type": "blog",
+          "topic": "agent-platforms",
+          "rationale": "Shows practical agent engineering education at unusual scale."
+        },
+        {
+          "title": "Remembering Has a Price: Learning Memory Worth under Resource Constraints",
+          "url": "https://arxiv.org/html/2610.26453v1",
+          "source_type": "paper",
+          "topic": "memory-under-constraints",
+          "rationale": "Treats memory selection as value allocation under limited resources."
+        },
+        {
+          "title": "Memory in the LLM Era: Modular Architectures and Strategies in a Unified Framework",
+          "url": "https://arxiv.org/html/2604.01707v3",
+          "source_type": "paper",
+          "topic": "memory-under-constraints",
+          "rationale": "Provides a vocabulary for modular memory roles and strategies."
+        },
+        {
+          "title": "Modular Memory is the Key to Continual Learning Agents",
+          "url": "https://arxiv.org/html/2603.01761v1",
+          "source_type": "paper",
+          "topic": "memory-under-constraints",
+          "rationale": "Connects fast adaptation with reusable accumulated knowledge."
+        },
+        {
+          "title": "AutoMem: Automated Learning of Memory as a Cognitive Skill",
+          "url": "https://arxiv.org/html/2607.01224v1",
+          "source_type": "paper",
+          "topic": "memory-under-constraints",
+          "rationale": "Frames memory management as a monitor-control loop."
+        },
+        {
+          "title": "Figma product news and release notes",
+          "url": "https://www.figma.com/release-notes/",
+          "source_type": "release",
+          "topic": "design-to-code",
+          "rationale": "Lists agent-generated vector improvements and connected GitHub repository changes."
+        },
+        {
+          "title": "Figma Config India updates",
+          "url": "https://www.figma.com/release-notes/?page=2",
+          "source_type": "release",
+          "topic": "design-to-code",
+          "rationale": "Introduces Specs, Payload, code sources, guidelines, and MCP updates."
+        },
+        {
+          "title": "Build by Design",
+          "url": "https://www.figma.com/blog/build-by-design/",
+          "source_type": "blog",
+          "topic": "design-to-code",
+          "rationale": "Provides product context for Figma's design-to-code direction."
+        }
+      ],
+      "selection_rationale": "Rotated toward evidence-bearing execution, constrained memory, and design-to-code client leverage."
     }
   ],
   "runs": [
@@ -5736,9 +5834,18 @@
         }
       ],
       "editorial_thesis": "As agents gain access to the web, tools, and execution environments, the practical edge is a legible boundary between discoverability, delegated authority, human feedback, and portable state."
+    },
+    {
+      "date": "2026-11-10",
+      "selected_lanes": [
+        "agent-platforms",
+        "memory-under-constraints",
+        "design-to-code"
+      ],
+      "editorial_thesis": "The next practical edge is making agent work inspectable: budget memory, preserve design intent, and measure delegated execution through evidence rather than activity."
     }
   ],
-  "updated_at": "2026-11-09T09:00:34Z",
+  "updated_at": "2026-11-10T09:00:49Z",
   "last_run": "2026-11-09",
   "last_editorial_thesis": "As agents gain access to the web, tools, and execution environments, the practical edge is a legible boundary between discoverability, delegated authority, human feedback, and portable state.",
   "coverage_history": [

@@ -1,6 +1,61 @@
 {
-  "updated_at": "2026-11-09T09:06:11.827626+00:00",
+  "updated_at": "2026-11-10T09:05:16.303695+00:00",
   "sources": {
+    "https://github.blog/news-insights/company-news/github-universe-2026-evolving-every-layer-of-the-stack": {
+      "first_seen": "2026-11-10",
+      "last_seen": "2026-11-10",
+      "title": "GitHub Universe 2026: Evolving every layer of the stack"
+    },
+    "https://openai.com/index/how-agents-are-transforming-work": {
+      "first_seen": "2026-11-10",
+      "last_seen": "2026-08-22",
+      "title": "How agents are transforming work"
+    },
+    "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science": {
+      "first_seen": "2026-11-10",
+      "last_seen": "2026-11-10",
+      "title": "Measuring how AI agents handle everyday wet-lab science"
+    },
+    "https://blog.google/innovation-and-ai/technology/developers-tools/ai-agents-intensive-recap-2026": {
+      "first_seen": "2026-11-10",
+      "last_seen": "2026-10-09",
+      "title": "Inside our 353,000-person vibe coding course"
+    },
+    "https://arxiv.org/html/2610.26453v1": {
+      "first_seen": "2026-11-10",
+      "last_seen": "2026-10-24",
+      "title": "Remembering Has a Price: Learning Memory Worth under Resource Constraints"
+    },
+    "https://arxiv.org/html/2604.01707v3": {
+      "first_seen": "2026-11-10",
+      "last_seen": "2026-11-10",
+      "title": "Memory in the LLM Era: Modular Architectures and Strategies in a Unified Framework"
+    },
+    "https://arxiv.org/html/2603.01761v1": {
+      "first_seen": "2026-11-10",
+      "last_seen": "2026-11-10",
+      "title": "Modular Memory is the Key to Continual Learning Agents"
+    },
+    "https://arxiv.org/html/2607.01224v1": {
+      "first_seen": "2026-11-10",
+      "last_seen": "2026-11-10",
+      "title": "AutoMem: Automated Learning of Memory as a Cognitive Skill"
+    },
+    "https://www.figma.com/release-notes": {
+      "first_seen": "2026-11-10",
+      "last_seen": "2026-08-10",
+      "title": "Figma product news and release notes"
+    },
+    "https://www.figma.com/release-notes?page=2": {
+      "first_seen": "2026-11-10",
+      "last_seen": "2026-11-10",
+      "title": "Figma Config India updates"
+    },
+    "https://www.figma.com/blog/build-by-design": {
+      "first_seen": "2026-11-10",
+      "last_seen": "2026-10-23",
+      "title": "Build by Design: New Workflows for New Ways of Building"
+    },
     "https://blog.cloudflare.com/ai-search-ga": {
       "first_seen": "2026-11-09",
       "last_seen": "2026-11-09",
@@ -336,11 +391,6 @@
       "last_seen": "2026-11-04",
       "title": "Thousands of agents analyze whole-brain CRISPR data"
     },
-    "https://openai.com/index/how-agents-are-transforming-work": {
-      "first_seen": "2026-11-05",
-      "last_seen": "2026-08-22",
-      "title": "How agents are transforming work"
-    },
     "https://www.biorxiv.org/content/10.64898/2026.10.15.759436v1": {
       "first_seen": "2026-11-05",
       "last_seen": "2026-11-04",
@@ -515,11 +565,6 @@
       "first_seen": "2026-10-27",
       "last_seen": "2026-10-27",
       "title": "Notion connected 160 apps in three weeks"
-    },
-    "https://www.figma.com/release-notes": {
-      "first_seen": "2026-10-27",
-      "last_seen": "2026-08-10",
-      "title": "Figma product news and release notes"
     },
     "https://developers.googleblog.com/announcing-the-agentic-resource-discovery-specification": {
       "first_seen": "2026-10-27",
@@ -716,11 +761,6 @@
       "last_seen": "2026-10-24",
       "title": "MemDerive: A Diagnostic Benchmark for Agent Memory over Evolving Data"
     },
-    "https://arxiv.org/html/2610.26453v1": {
-      "first_seen": "2026-10-24",
-      "last_seen": "2026-10-24",
-      "title": "Remembering Has a Price: Learning Memory Worth under Resource Constraints"
-    },
     "https://arxiv.org/html/2610.27714v1": {
       "first_seen": "2026-10-24",
       "last_seen": "2026-10-24",
@@ -785,11 +825,6 @@
       "first_seen": "2026-10-24",
       "last_seen": "2026-10-14",
       "title": "GitHub Apps narrow permissions"
-    },
-    "https://www.figma.com/blog/build-by-design": {
-      "first_seen": "2026-10-23",
-      "last_seen": "2026-10-23",
-      "title": "Build by Design: New Workflows for New Ways of Building"
     },
     "https://www.figma.com/blog/figma-agent-and-design-systems": {
       "first_seen": "2026-10-23",
@@ -1480,11 +1515,6 @@
       "first_seen": "2026-10-09",
       "last_seen": "2026-09-03",
       "title": "AI in Design 2026: the inflection point is here"
-    },
-    "https://blog.google/innovation-and-ai/technology/developers-tools/ai-agents-intensive-recap-2026": {
-      "first_seen": "2026-10-09",
-      "last_seen": "2026-10-09",
-      "title": "Inside our 353,000-person vibe coding course"
     },
     "https://openai.com/index/sharing-ai-progress-in-mathematics": {
       "first_seen": "2026-10-09",

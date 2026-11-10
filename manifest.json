@@ -1,6 +1,27 @@
 {
-  "updated_at": "2026-11-09T09:06:11.827626+00:00",
+  "updated_at": "2026-11-10T09:05:16.303695+00:00",
   "days": [
+    {
+      "date": "2026-11-10",
+      "path": "2026-11-10",
+      "reports": [
+        {
+          "lane": "agent-platforms",
+          "title": "Agent Platforms + Proof-Bearing Workflows",
+          "url": "2026-11-10/agent-platforms.html"
+        },
+        {
+          "lane": "memory-under-constraints",
+          "title": "Memory Under Constraints",
+          "url": "2026-11-10/memory-under-constraints.html"
+        },
+        {
+          "lane": "design-to-code",
+          "title": "Design-to-Code Surfaces",
+          "url": "2026-11-10/design-to-code.html"
+        }
+      ]
+    },
     {
       "date": "2026-11-09",
       "path": "2026-11-09",
