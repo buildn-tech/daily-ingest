@@ -1,6 +1,51 @@
 {
-  "updated_at": "2026-11-10T09:05:16.303695+00:00",
+  "updated_at": "2026-11-11T09:05:34.916404+00:00",
   "sources": {
+    "https://www.anthropic.com/claude-fable-and-mythos-5-2": {
+      "first_seen": "2026-11-11",
+      "last_seen": "2026-11-11",
+      "title": "Introducing Claude Fable 5.2 and Claude Mythos 5.2"
+    },
+    "https://github.blog/changelog/2026-11-10-gemini-4-carbon-in-github-copilot": {
+      "first_seen": "2026-11-11",
+      "last_seen": "2026-11-11",
+      "title": "Gemini 4 Carbon in GitHub Copilot"
+    },
+    "https://developers.googleblog.com/cost-per-task-using-cheap-classifiers-to-route-across-gemini-models-and-thinking-levels": {
+      "first_seen": "2026-11-11",
+      "last_seen": "2026-11-11",
+      "title": "Cost per task: Using cheap classifiers to route across Gemini models and thinking levels"
+    },
+    "https://github.blog/changelog/2026-11-10-dependabot-alerts-will-pause-on-inactive-repositories": {
+      "first_seen": "2026-11-11",
+      "last_seen": "2026-11-11",
+      "title": "Dependabot alerts will pause on inactive repositories"
+    },
+    "https://github.blog/changelog/2026-11-03-dependabot-version-updates-support-agent-package-manager": {
+      "first_seen": "2026-11-11",
+      "last_seen": "2026-11-07",
+      "title": "Dependabot supports Agent Package Manager"
+    },
+    "https://developers.googleblog.com/on-device-speech-recognition-and-text-to-speech-in-google-ai-edge-gallery": {
+      "first_seen": "2026-11-11",
+      "last_seen": "2026-11-11",
+      "title": "On-device Speech Recognition and Text-to-Speech in Google AI Edge Gallery"
+    },
+    "https://developers.google.com/edge/gallery": {
+      "first_seen": "2026-11-11",
+      "last_seen": "2026-11-11",
+      "title": "Google AI Edge Gallery"
+    },
+    "https://developers.googleblog.com/agent-distraction": {
+      "first_seen": "2026-11-11",
+      "last_seen": "2026-11-11",
+      "title": "Agent Distraction"
+    },
+    "https://github.com/google/eng-practices": {
+      "first_seen": "2026-11-11",
+      "last_seen": "2026-11-11",
+      "title": "Google engineering practices"
+    },
     "https://github.blog/news-insights/company-news/github-universe-2026-evolving-every-layer-of-the-stack": {
       "first_seen": "2026-11-10",
       "last_seen": "2026-11-10",
@@ -135,11 +180,6 @@
       "first_seen": "2026-11-08",
       "last_seen": "2026-11-08",
       "title": "Copilot weekly releases \u2014 November 2"
-    },
-    "https://github.blog/changelog/2026-11-03-dependabot-version-updates-support-agent-package-manager": {
-      "first_seen": "2026-11-08",
-      "last_seen": "2026-11-07",
-      "title": "Dependabot supports Agent Package Manager"
     },
     "https://github.blog/changelog/2026-10-28-github-agentic-workflows-generally-available": {
       "first_seen": "2026-11-08",

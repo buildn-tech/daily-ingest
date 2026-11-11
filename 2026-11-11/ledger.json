@@ -1,0 +1,44 @@
+{
+  "date": "2026-11-11",
+  "generated_at": "2026-11-11T09:00:34Z",
+  "editorial_thesis": "The practical edge is control at the boundary: route models by task economics, enforce security coverage, keep sensitive loops local, and maintain the context agents traverse.",
+  "topic_groups": [
+    {
+      "slug": "model-choice-agentic-coding",
+      "title": "Model Choice + Agentic Coding",
+      "selection_rationale": "Fresh primary-source model releases create a practical opportunity to compare completed-task economics and policy controls rather than repeat broad agent-platform coverage.",
+      "sources": [
+        {"title":"Introducing Claude Fable 5.2 and Claude Mythos 5.2","url":"https://www.anthropic.com/claude-fable-and-mythos-5-2","source_type":"release","published_or_updated":"2026-11-11","why_selected":"Current frontier-model release aimed at technical work.","usefulness":"Benchmark against real maintenance tasks with review cost included."},
+        {"title":"Gemini 4 Carbon in GitHub Copilot","url":"https://github.blog/changelog/2026-11-10-gemini-4-carbon-in-github-copilot/","source_type":"release","published_or_updated":"2026-11-10","why_selected":"Adds a new usage-billed model across coding-agent surfaces with admin controls.","usefulness":"Define repository-level defaults, fallbacks, and spend ceilings."},
+        {"title":"Cost per task: Using cheap classifiers to route across Gemini models and thinking levels","url":"https://developers.googleblog.com/cost-per-task-using-cheap-classifiers-to-route-across-gemini-models-and-thinking-levels/","source_type":"blog","published_or_updated":"2026-11-03","why_selected":"Provides a routing lens based on completed-task economics.","usefulness":"Use accepted-result cost as the model comparison unit."}
+      ]
+    },
+    {
+      "slug": "supply-chain-hygiene",
+      "title": "Supply-Chain Hygiene",
+      "selection_rationale": "A new GitHub lifecycle change creates a concrete operational deadline for inactive repositories, including long-lived client and infrastructure artifacts.",
+      "sources": [
+        {"title":"Dependabot alerts will pause on inactive repositories","url":"https://github.blog/changelog/2026-11-10-dependabot-alerts-will-pause-on-inactive-repositories/","source_type":"release","published_or_updated":"2026-11-10","why_selected":"Fresh policy change affects monitoring defaults from December 8.","usefulness":"Inventory critical inactive repos and enforce security coverage."},
+        {"title":"Dependabot version updates support Agent Package Manager","url":"https://github.blog/changelog/2026-11-03-dependabot-version-updates-support-agent-package-manager","source_type":"release","published_or_updated":"2026-11-03","why_selected":"Connects dependency maintenance to agent-authored package workflows.","usefulness":"Add package-manager coverage to agent delivery checklists."}
+      ]
+    },
+    {
+      "slug": "local-voice-edge",
+      "title": "Local Voice + Edge AI",
+      "selection_rationale": "Fresh on-device speech capabilities rotate coverage toward local-first, private, low-latency workflows with immediate prototyping potential.",
+      "sources": [
+        {"title":"On-device Speech Recognition and Text-to-Speech in Google AI Edge Gallery","url":"https://developers.googleblog.com/on-device-speech-recognition-and-text-to-speech-in-google-ai-edge-gallery/","source_type":"product","published_or_updated":"2026-11-10","why_selected":"Combines offline ASR, TTS, small models, and cross-platform runtimes.","usefulness":"Prototype private voice capture and degraded-connectivity workflows."},
+        {"title":"Google AI Edge Gallery","url":"https://developers.google.com/edge/gallery","source_type":"docs","published_or_updated":"2026-11","why_selected":"Direct place to inspect and try the edge model surface.","usefulness":"Run a device-level latency, battery, and correction benchmark."}
+      ]
+    },
+    {
+      "slug": "agent-distraction-knowledge-hygiene",
+      "title": "Agent Distraction + Knowledge Hygiene",
+      "selection_rationale": "Current empirical work quantifies stale repository context as a direct source of agent cost and scope drift, opening a practical maintenance lane.",
+      "sources": [
+        {"title":"Agent Distraction","url":"https://developers.googleblog.com/agent-distraction/","source_type":"research","published_or_updated":"2026-11-06","why_selected":"Measures unprompted detours caused by stale bug references.","usefulness":"Build context-hygiene scans and detour telemetry into delivery."},
+        {"title":"Google engineering practices","url":"https://github.com/google/eng-practices","source_type":"repo","published_or_updated":"unknown","why_selected":"Provides a practical review and change-management reference.","usefulness":"Anchor cleanup changes in reviewable engineering practice."}
+      ]
+    }
+  ]
+}

@@ -1,6 +1,22 @@
 {
-  "updated_at": "2026-11-10T09:05:16.303695+00:00",
+  "updated_at": "2026-11-11T09:05:34.916404+00:00",
   "days": [
+    {
+      "date": "2026-11-11",
+      "path": "2026-11-11",
+      "reports": [
+        {
+          "lane": "supply-chain-hygiene",
+          "title": "Supply-Chain Hygiene",
+          "url": "2026-11-11/supply-chain-hygiene.html"
+        },
+        {
+          "lane": "local-voice-edge",
+          "title": "Local Voice + Edge AI",
+          "url": "2026-11-11/local-voice-edge.html"
+        }
+      ]
+    },
     {
       "date": "2026-11-10",
       "path": "2026-11-10",
