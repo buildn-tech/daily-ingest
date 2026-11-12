@@ -1,0 +1,18 @@
+{
+  "date":"2026-11-12",
+  "generated_at":"2026-11-12T09:00:48Z",
+  "editorial_thesis":"The valuable agent signal is shifting from model novelty to operating design: durable execution, governed delivery, workspace context, and outcome measurement.",
+  "topic_groups":[
+    {"slug":"enterprise-agent-delivery","title":"Enterprise Agent Delivery","selection_rationale":"Fresh regulated-workflow evidence and an enterprise platform announcement make delivery governance more actionable than another generic model roundup.","sources":[
+      {"title":"IBM and Microsoft announce Imagine Enterprise","url":"https://news.microsoft.com/source/2026/11/10/ibm-and-microsoft-announce-a-new-ai-agent-platform-designed-for-industry-specific-transformation/","source_type":"product","published_or_updated":"2026-11-10","why_selected":"New platform combines 6,000+ reusable assets with identity, governance, security, and observability.","usefulness":"Provides a blueprint for packaging Buildn/client agent delivery as a governed operating capability."},
+      {"title":"Northern Trust and Microsoft client onboarding agent","url":"https://news.microsoft.com/source/2026/11/09/northern-trust-and-microsoft-frontier-company-collaborate-to-transform-client-onboarding-through-ai/","source_type":"product","published_or_updated":"2026-11-09","why_selected":"Reports a concrete transformation workflow with 83% less preparation time and 96.5% first-pass F1.","usefulness":"Offers a practical scorecard for measuring automation quality, exceptions, and human review."}
+    ]},
+    {"slug":"agent-execution-infrastructure","title":"Agent Execution Infrastructure","selection_rationale":"Coverage memory has emphasized models repeatedly; today shifts to the runtime primitives that make long-running agents reliable and economically testable.","sources":[
+      {"title":"Introducing the Agents API","url":"https://openai.com/index/introducing-the-agents-api/","source_type":"product","published_or_updated":"2026-09-10","why_selected":"Makes sessions, compaction, tool search, subagents, artifacts, and selectable sandboxes explicit API primitives.","usefulness":"Maps directly to scheduled research, QA, and delivery workflows that need recovery and inspectable outputs."},
+      {"title":"Gemini 4 Carbon is now available","url":"https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/","source_type":"product","published_or_updated":"2026-11-10","why_selected":"A new Google source introduces a deep-reasoning tier and swarm workflow for difficult, long-horizon tasks.","usefulness":"Supports a task-based routing experiment instead of making the most expensive model the default."}
+    ]},
+    {"slug":"outcome-first-customer-workflows","title":"Outcome-First Customer Workflows","selection_rationale":"Business software is an under-covered lane and this release connects workspace-aware actions, live model outputs, and multi-touch goals in one product surface.","sources":[
+      {"title":"Customer.io’s biggest product release: AI Agent and more","url":"https://customer.io/learn/announcements/biggest-ai-marketing-release","source_type":"product","published_or_updated":"unknown","why_selected":"Adds a workspace-aware AI Agent, LLM Actions inside journeys, and Goals for outcome measurement.","usefulness":"Provides a portable pattern for agents that act inside a system of record with review and measurable outcomes."}
+    ]}
+  ]
+}

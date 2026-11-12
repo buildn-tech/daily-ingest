@@ -1751,6 +1751,21 @@
       "title": "Agent Distraction + Knowledge Hygiene",
       "times_covered": 1,
       "last_covered": "2026-11-11"
+    },
+    "enterprise-agent-delivery": {
+      "title": "Enterprise Agent Delivery",
+      "times_covered": 1,
+      "last_covered": "2026-11-12"
+    },
+    "agent-execution-infrastructure": {
+      "title": "Agent Execution Infrastructure",
+      "times_covered": 1,
+      "last_covered": "2026-11-12"
+    },
+    "outcome-first-customer-workflows": {
+      "title": "Outcome-First Customer Workflows",
+      "times_covered": 1,
+      "last_covered": "2026-11-12"
     }
   },
   "item_history": [
@@ -3971,11 +3986,34 @@
         "design-to-code"
       ],
       "editorial_thesis": "The next practical edge is making agent work inspectable: budget memory, preserve design intent, and measure delegated execution through evidence rather than activity."
+    },
+    {
+      "date": "2026-11-12",
+      "selected_lanes": [
+        "enterprise-agent-delivery",
+        "agent-execution-infrastructure",
+        "outcome-first-customer-workflows"
+      ],
+      "items": [
+        "IBM and Microsoft announce Imagine Enterprise",
+        "Northern Trust and Microsoft client onboarding agent",
+        "Introducing the Agents API",
+        "Gemini 4 Carbon is now available",
+        "Customer.io’s biggest product release: AI Agent and more"
+      ],
+      "urls": [
+        "https://news.microsoft.com/source/2026/11/10/ibm-and-microsoft-announce-a-new-ai-agent-platform-designed-for-industry-specific-transformation/",
+        "https://news.microsoft.com/source/2026/11/09/northern-trust-and-microsoft-frontier-company-collaborate-to-transform-client-onboarding-through-ai/",
+        "https://openai.com/index/introducing-the-agents-api/",
+        "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
+        "https://customer.io/learn/announcements/biggest-ai-marketing-release"
+      ],
+      "selection_rationale": "The valuable agent signal is shifting from model novelty to operating design: durable execution, governed delivery, workspace context, and outcome measurement."
     }
   ],
-  "updated_at": "2026-11-11T09:00:34+00:00",
-  "last_run": "2026-11-09",
-  "last_editorial_thesis": "As agents gain access to the web, tools, and execution environments, the practical edge is a legible boundary between discoverability, delegated authority, human feedback, and portable state.",
+  "updated_at": "2026-11-12T09:07:29.422334+00:00",
+  "last_run": "2026-11-12",
+  "last_editorial_thesis": "The valuable agent signal is shifting from model novelty to operating design: durable execution, governed delivery, workspace context, and outcome measurement.",
   "coverage_history": [
     {
       "date": "2026-09-13",
@@ -5331,6 +5369,29 @@
         "DyadMem: A Long-Term Memory Benchmark of How Agents Work with Users",
         "MeMoREval: Memory Modality for Embodied Agents"
       ]
+    },
+    {
+      "date": "2026-11-12",
+      "selected_lanes": [
+        "enterprise-agent-delivery",
+        "agent-execution-infrastructure",
+        "outcome-first-customer-workflows"
+      ],
+      "items": [
+        "IBM and Microsoft announce Imagine Enterprise",
+        "Northern Trust and Microsoft client onboarding agent",
+        "Introducing the Agents API",
+        "Gemini 4 Carbon is now available",
+        "Customer.io’s biggest product release: AI Agent and more"
+      ],
+      "urls": [
+        "https://news.microsoft.com/source/2026/11/10/ibm-and-microsoft-announce-a-new-ai-agent-platform-designed-for-industry-specific-transformation/",
+        "https://news.microsoft.com/source/2026/11/09/northern-trust-and-microsoft-frontier-company-collaborate-to-transform-client-onboarding-through-ai/",
+        "https://openai.com/index/introducing-the-agents-api/",
+        "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
+        "https://customer.io/learn/announcements/biggest-ai-marketing-release"
+      ],
+      "selection_rationale": "The valuable agent signal is shifting from model novelty to operating design: durable execution, governed delivery, workspace context, and outcome measurement."
     }
   ],
   "items": [
@@ -5860,142 +5921,52 @@
       "url": "https://news.ycombinator.com/item?id=50417407",
       "source_type": "news",
       "rationale": "Current maker thread surfaces emerging local agent workflows and experiments."
+    },
+    {
+      "date": "2026-11-12",
+      "lane": "enterprise-agent-delivery",
+      "title": "IBM and Microsoft announce Imagine Enterprise",
+      "url": "https://news.microsoft.com/source/2026/11/10/ibm-and-microsoft-announce-a-new-ai-agent-platform-designed-for-industry-specific-transformation/",
+      "source_type": "product",
+      "rationale": "New platform combines 6,000+ reusable assets with identity, governance, security, and observability."
+    },
+    {
+      "date": "2026-11-12",
+      "lane": "enterprise-agent-delivery",
+      "title": "Northern Trust and Microsoft client onboarding agent",
+      "url": "https://news.microsoft.com/source/2026/11/09/northern-trust-and-microsoft-frontier-company-collaborate-to-transform-client-onboarding-through-ai/",
+      "source_type": "product",
+      "rationale": "Reports a concrete transformation workflow with 83% less preparation time and 96.5% first-pass F1."
+    },
+    {
+      "date": "2026-11-12",
+      "lane": "agent-execution-infrastructure",
+      "title": "Introducing the Agents API",
+      "url": "https://openai.com/index/introducing-the-agents-api/",
+      "source_type": "product",
+      "rationale": "Makes sessions, compaction, tool search, subagents, artifacts, and selectable sandboxes explicit API primitives."
+    },
+    {
+      "date": "2026-11-12",
+      "lane": "agent-execution-infrastructure",
+      "title": "Gemini 4 Carbon is now available",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
+      "source_type": "product",
+      "rationale": "A new Google source introduces a deep-reasoning tier and swarm workflow for difficult, long-horizon tasks."
+    },
+    {
+      "date": "2026-11-12",
+      "lane": "outcome-first-customer-workflows",
+      "title": "Customer.io’s biggest product release: AI Agent and more",
+      "url": "https://customer.io/learn/announcements/biggest-ai-marketing-release",
+      "source_type": "product",
+      "rationale": "Adds a workspace-aware AI Agent, LLM Actions inside journeys, and Goals for outcome measurement."
     }
   ],
   "last_run_selection": [
-    {
-      "slug": "agentic-web-runtime",
-      "title": "Agentic Web + Runtime Surfaces",
-      "selection_rationale": "Fresh Cloudflare product signals create a coherent new lane around agent-callable content, delegated access, visibility, and sandboxes; this is materially distinct from yesterday's governance and measurement focus.",
-      "sources": [
-        {
-          "title": "Cloudflare AI Search reaches general availability",
-          "url": "https://blog.cloudflare.com/ai-search-ga/",
-          "source_type": "product",
-          "published_or_updated": "2026-11-01",
-          "why_selected": "Turns web and documentation search into an agent-facing platform surface.",
-          "usefulness": "Supports an agent-discovery audit for Buildn and client knowledge bases."
-        },
-        {
-          "title": "Cloudflare Containers, rebuilt to scale agent sandboxes",
-          "url": "https://blog.cloudflare.com/faster-agent-sandboxes/",
-          "source_type": "product",
-          "published_or_updated": "2026-11",
-          "why_selected": "Shows runtime design shifting toward disposable, preview-producing agent workloads.",
-          "usefulness": "Provides a benchmark target for isolated Buildn job execution."
-        },
-        {
-          "title": "The Agent Access Model",
-          "url": "https://blog.cloudflare.com/the-agent-access-model/",
-          "source_type": "architecture",
-          "published_or_updated": "2026-11",
-          "why_selected": "Frames agent access as scoped delegation rather than copied human credentials.",
-          "usefulness": "Informs typed job manifests and least-privilege client automation."
-        },
-        {
-          "title": "Trusted agent delegation",
-          "url": "https://blog.cloudflare.com/trusted-agent-delegation",
-          "source_type": "architecture",
-          "published_or_updated": "2026-11",
-          "why_selected": "Extends the access model to chained and delegated actions.",
-          "usefulness": "Useful for authority-chain UX and revocation design."
-        },
-        {
-          "title": "Personal-agent visibility and control",
-          "url": "https://blog.cloudflare.com/personal-agents-visibility-control/",
-          "source_type": "product",
-          "published_or_updated": "2026-11",
-          "why_selected": "Makes agent visibility and user control an explicit product problem.",
-          "usefulness": "Suggests a Buildn panel for action rationale, scope, and undo."
-        }
-      ]
-    },
-    {
-      "slug": "human-ai-collaboration",
-      "title": "Human-AI Collaboration Research",
-      "selection_rationale": "A neglected interaction-design gap: the useful question is not whether AI assists, but when feedback changes human reasoning before errors compound.",
-      "sources": [
-        {
-          "title": "Think Once, Reflect Twice: How Feedback Shapes Human-AI Collaboration",
-          "url": "https://arxiv.org/abs/2610.19991",
-          "source_type": "paper",
-          "published_or_updated": "2026-10",
-          "why_selected": "Directly studies feedback and revision in human-AI collaboration.",
-          "usefulness": "Provides a research anchor for checkpoint and reflection design."
-        },
-        {
-          "title": "Computation and Language recent submissions",
-          "url": "https://arxiv.org/list/cmp-lg/recent",
-          "source_type": "paper-index",
-          "published_or_updated": "2026-11-09",
-          "why_selected": "Current stream provides high-recall signal across AI, language, and security.",
-          "usefulness": "Supports a lightweight daily paper-triage workflow."
-        },
-        {
-          "title": "Machine Learning recent submissions",
-          "url": "https://arxiv.org/list/stat.ML/recent",
-          "source_type": "paper-index",
-          "published_or_updated": "2026-11-09",
-          "why_selected": "Fresh methods and evaluation work often surface here before product summaries.",
-          "usefulness": "Useful for selecting one runnable experiment rather than consuming hype."
-        },
-        {
-          "title": "Networking and Internet Architecture recent submissions",
-          "url": "https://arxiv.org/list/cs.NI/recent",
-          "source_type": "paper-index",
-          "published_or_updated": "2026-11-09",
-          "why_selected": "Adds systems and infrastructure signal to the interaction lane.",
-          "usefulness": "Helps connect interface ideas to latency, reliability, and deployment constraints."
-        }
-      ]
-    },
-    {
-      "slug": "local-first-open-tools",
-      "title": "Local-First Open Tools",
-      "selection_rationale": "Coverage has been dominated by hosted agent platforms; this lane rotates toward open formats, self-hosting economics, and replaceable workflow cores.",
-      "sources": [
-        {
-          "title": "Omnara — open-source alternative to Claude Managed Agents",
-          "url": "https://news.ycombinator.com/item?id=50183892",
-          "source_type": "news",
-          "published_or_updated": "2026-11",
-          "why_selected": "A current open-source agent harness lead centered on self-hosted execution and model choice.",
-          "usefulness": "Supports a portability comparison with Hermes and Buildn job contracts."
-        },
-        {
-          "title": "KetchUp open 3D tool",
-          "url": "https://ketchup3d.github.io/app/",
-          "source_type": "product",
-          "published_or_updated": "2026-11",
-          "why_selected": "Demonstrates an inspectable Rust/WebGPU creative surface discovered in current maker circulation.",
-          "usefulness": "Offers a reference for browser-native visual artifacts and exportable client handoffs."
-        },
-        {
-          "title": "This Blog Post is Your Sign to Start Self-Hosting",
-          "url": "https://blog.tjll.net/this-is-your-sign-to-self-host/",
-          "source_type": "blog",
-          "published_or_updated": "2026",
-          "why_selected": "Makes the case for selective self-hosting based on current infrastructure conditions.",
-          "usefulness": "Provides a practical starting point for sovereignty and restore-path decisions."
-        },
-        {
-          "title": "The Self-Hosting Sweet Spot in 2026",
-          "url": "https://www.codecapsules.io/blog/self-hosting-sweet-spot-services-worth-hosting-2026/",
-          "source_type": "blog",
-          "published_or_updated": "2026",
-          "why_selected": "Adds a risk, cost, and operational-overhead framing rather than ideology.",
-          "usefulness": "Useful for a Buildn service-boundary matrix."
-        },
-        {
-          "title": "Ask HN: What are you working on? November 2026",
-          "url": "https://news.ycombinator.com/item?id=50417407",
-          "source_type": "news",
-          "published_or_updated": "2026-11-09",
-          "why_selected": "Current maker thread surfaces emerging local agent workflows and experiments.",
-          "usefulness": "Good discovery source for tools to inspect, not a substitute for validation."
-        }
-      ]
-    }
+    "enterprise-agent-delivery",
+    "agent-execution-infrastructure",
+    "outcome-first-customer-workflows"
   ],
   "sources": {
     "architecture": {
@@ -6497,6 +6468,36 @@
       "last_seen": "2026-10-13",
       "title": "Anthropic partner hub",
       "source_type": "ecosystem"
+    },
+    "https://news.microsoft.com/source/2026/11/10/ibm-and-microsoft-announce-a-new-ai-agent-platform-designed-for-industry-specific-transformation/": {
+      "date": "2026-11-12",
+      "lane": "enterprise-agent-delivery",
+      "title": "IBM and Microsoft announce Imagine Enterprise",
+      "source_type": "product"
+    },
+    "https://news.microsoft.com/source/2026/11/09/northern-trust-and-microsoft-frontier-company-collaborate-to-transform-client-onboarding-through-ai/": {
+      "date": "2026-11-12",
+      "lane": "enterprise-agent-delivery",
+      "title": "Northern Trust and Microsoft client onboarding agent",
+      "source_type": "product"
+    },
+    "https://openai.com/index/introducing-the-agents-api/": {
+      "date": "2026-11-12",
+      "lane": "agent-execution-infrastructure",
+      "title": "Introducing the Agents API",
+      "source_type": "product"
+    },
+    "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/": {
+      "date": "2026-11-12",
+      "lane": "agent-execution-infrastructure",
+      "title": "Gemini 4 Carbon is now available",
+      "source_type": "product"
+    },
+    "https://customer.io/learn/announcements/biggest-ai-marketing-release": {
+      "date": "2026-11-12",
+      "lane": "outcome-first-customer-workflows",
+      "title": "Customer.io’s biggest product release: AI Agent and more",
+      "source_type": "product"
     }
   },
   "recent_runs": [
@@ -7682,6 +7683,29 @@
         }
       ],
       "editorial_thesis": "As agents gain access to the web, tools, and execution environments, the practical edge is a legible boundary between discoverability, delegated authority, human feedback, and portable state."
+    },
+    {
+      "date": "2026-11-12",
+      "selected_lanes": [
+        "enterprise-agent-delivery",
+        "agent-execution-infrastructure",
+        "outcome-first-customer-workflows"
+      ],
+      "items": [
+        "IBM and Microsoft announce Imagine Enterprise",
+        "Northern Trust and Microsoft client onboarding agent",
+        "Introducing the Agents API",
+        "Gemini 4 Carbon is now available",
+        "Customer.io’s biggest product release: AI Agent and more"
+      ],
+      "urls": [
+        "https://news.microsoft.com/source/2026/11/10/ibm-and-microsoft-announce-a-new-ai-agent-platform-designed-for-industry-specific-transformation/",
+        "https://news.microsoft.com/source/2026/11/09/northern-trust-and-microsoft-frontier-company-collaborate-to-transform-client-onboarding-through-ai/",
+        "https://openai.com/index/introducing-the-agents-api/",
+        "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
+        "https://customer.io/learn/announcements/biggest-ai-marketing-release"
+      ],
+      "selection_rationale": "The valuable agent signal is shifting from model novelty to operating design: durable execution, governed delivery, workspace context, and outcome measurement."
     }
   ],
   "run_history": [
@@ -8445,6 +8469,29 @@
         }
       ],
       "editorial_thesis": "As agents gain access to the web, tools, and execution environments, the practical edge is a legible boundary between discoverability, delegated authority, human feedback, and portable state."
+    },
+    {
+      "date": "2026-11-12",
+      "selected_lanes": [
+        "enterprise-agent-delivery",
+        "agent-execution-infrastructure",
+        "outcome-first-customer-workflows"
+      ],
+      "items": [
+        "IBM and Microsoft announce Imagine Enterprise",
+        "Northern Trust and Microsoft client onboarding agent",
+        "Introducing the Agents API",
+        "Gemini 4 Carbon is now available",
+        "Customer.io’s biggest product release: AI Agent and more"
+      ],
+      "urls": [
+        "https://news.microsoft.com/source/2026/11/10/ibm-and-microsoft-announce-a-new-ai-agent-platform-designed-for-industry-specific-transformation/",
+        "https://news.microsoft.com/source/2026/11/09/northern-trust-and-microsoft-frontier-company-collaborate-to-transform-client-onboarding-through-ai/",
+        "https://openai.com/index/introducing-the-agents-api/",
+        "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
+        "https://customer.io/learn/announcements/biggest-ai-marketing-release"
+      ],
+      "selection_rationale": "The valuable agent signal is shifting from model novelty to operating design: durable execution, governed delivery, workspace context, and outcome measurement."
     }
   ],
   "daily_history": [
@@ -9522,6 +9569,29 @@
         }
       ],
       "editorial_thesis": "As agents gain access to the web, tools, and execution environments, the practical edge is a legible boundary between discoverability, delegated authority, human feedback, and portable state."
+    },
+    {
+      "date": "2026-11-12",
+      "selected_lanes": [
+        "enterprise-agent-delivery",
+        "agent-execution-infrastructure",
+        "outcome-first-customer-workflows"
+      ],
+      "items": [
+        "IBM and Microsoft announce Imagine Enterprise",
+        "Northern Trust and Microsoft client onboarding agent",
+        "Introducing the Agents API",
+        "Gemini 4 Carbon is now available",
+        "Customer.io’s biggest product release: AI Agent and more"
+      ],
+      "urls": [
+        "https://news.microsoft.com/source/2026/11/10/ibm-and-microsoft-announce-a-new-ai-agent-platform-designed-for-industry-specific-transformation/",
+        "https://news.microsoft.com/source/2026/11/09/northern-trust-and-microsoft-frontier-company-collaborate-to-transform-client-onboarding-through-ai/",
+        "https://openai.com/index/introducing-the-agents-api/",
+        "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
+        "https://customer.io/learn/announcements/biggest-ai-marketing-release"
+      ],
+      "selection_rationale": "The valuable agent signal is shifting from model novelty to operating design: durable execution, governed delivery, workspace context, and outcome measurement."
     }
   ],
   "themes": {
@@ -11377,6 +11447,29 @@
         }
       ],
       "selection_rationale": "Rotated from recent agent capability coverage toward enforcement, sovereignty, selective deletion, and governed delivery."
+    },
+    {
+      "date": "2026-11-12",
+      "selected_lanes": [
+        "enterprise-agent-delivery",
+        "agent-execution-infrastructure",
+        "outcome-first-customer-workflows"
+      ],
+      "items": [
+        "IBM and Microsoft announce Imagine Enterprise",
+        "Northern Trust and Microsoft client onboarding agent",
+        "Introducing the Agents API",
+        "Gemini 4 Carbon is now available",
+        "Customer.io’s biggest product release: AI Agent and more"
+      ],
+      "urls": [
+        "https://news.microsoft.com/source/2026/11/10/ibm-and-microsoft-announce-a-new-ai-agent-platform-designed-for-industry-specific-transformation/",
+        "https://news.microsoft.com/source/2026/11/09/northern-trust-and-microsoft-frontier-company-collaborate-to-transform-client-onboarding-through-ai/",
+        "https://openai.com/index/introducing-the-agents-api/",
+        "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
+        "https://customer.io/learn/announcements/biggest-ai-marketing-release"
+      ],
+      "selection_rationale": "The valuable agent signal is shifting from model novelty to operating design: durable execution, governed delivery, workspace context, and outcome measurement."
     }
   ],
   "daily_runs": [
@@ -11881,6 +11974,29 @@
         }
       ],
       "editorial_thesis": "As agents gain access to the web, tools, and execution environments, the practical edge is a legible boundary between discoverability, delegated authority, human feedback, and portable state."
+    },
+    {
+      "date": "2026-11-12",
+      "selected_lanes": [
+        "enterprise-agent-delivery",
+        "agent-execution-infrastructure",
+        "outcome-first-customer-workflows"
+      ],
+      "items": [
+        "IBM and Microsoft announce Imagine Enterprise",
+        "Northern Trust and Microsoft client onboarding agent",
+        "Introducing the Agents API",
+        "Gemini 4 Carbon is now available",
+        "Customer.io’s biggest product release: AI Agent and more"
+      ],
+      "urls": [
+        "https://news.microsoft.com/source/2026/11/10/ibm-and-microsoft-announce-a-new-ai-agent-platform-designed-for-industry-specific-transformation/",
+        "https://news.microsoft.com/source/2026/11/09/northern-trust-and-microsoft-frontier-company-collaborate-to-transform-client-onboarding-through-ai/",
+        "https://openai.com/index/introducing-the-agents-api/",
+        "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
+        "https://customer.io/learn/announcements/biggest-ai-marketing-release"
+      ],
+      "selection_rationale": "The valuable agent signal is shifting from model novelty to operating design: durable execution, governed delivery, workspace context, and outcome measurement."
     }
   ],
   "last_updated": "2026-11-09T09:00:34Z",
@@ -12249,8 +12365,31 @@
         }
       ],
       "editorial_thesis": "As agents gain access to the web, tools, and execution environments, the practical edge is a legible boundary between discoverability, delegated authority, human feedback, and portable state."
+    },
+    {
+      "date": "2026-11-12",
+      "selected_lanes": [
+        "enterprise-agent-delivery",
+        "agent-execution-infrastructure",
+        "outcome-first-customer-workflows"
+      ],
+      "items": [
+        "IBM and Microsoft announce Imagine Enterprise",
+        "Northern Trust and Microsoft client onboarding agent",
+        "Introducing the Agents API",
+        "Gemini 4 Carbon is now available",
+        "Customer.io’s biggest product release: AI Agent and more"
+      ],
+      "urls": [
+        "https://news.microsoft.com/source/2026/11/10/ibm-and-microsoft-announce-a-new-ai-agent-platform-designed-for-industry-specific-transformation/",
+        "https://news.microsoft.com/source/2026/11/09/northern-trust-and-microsoft-frontier-company-collaborate-to-transform-client-onboarding-through-ai/",
+        "https://openai.com/index/introducing-the-agents-api/",
+        "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
+        "https://customer.io/learn/announcements/biggest-ai-marketing-release"
+      ],
+      "selection_rationale": "The valuable agent signal is shifting from model novelty to operating design: durable execution, governed delivery, workspace context, and outcome measurement."
     }
   ],
   "last_selection_rationale": "Rotated away from yesterday's identity, measurement, and embodied-memory lanes toward runtime surfaces, human-AI interaction, and local-first tools.",
-  "last_generated_at": "2026-11-09T09:00:34Z"
+  "last_generated_at": "2026-11-12T09:00:48Z"
 }

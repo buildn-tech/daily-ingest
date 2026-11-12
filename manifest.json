@@ -1,6 +1,27 @@
 {
-  "updated_at": "2026-11-11T09:05:34.916404+00:00",
+  "updated_at": "2026-11-12T09:07:29.807884+00:00",
   "days": [
+    {
+      "date": "2026-11-12",
+      "path": "2026-11-12",
+      "reports": [
+        {
+          "lane": "enterprise-agent-delivery",
+          "title": "Enterprise Agent Delivery",
+          "url": "2026-11-12/enterprise-agent-delivery.html"
+        },
+        {
+          "lane": "agent-execution-infrastructure",
+          "title": "Agent Execution Infrastructure",
+          "url": "2026-11-12/agent-execution-infrastructure.html"
+        },
+        {
+          "lane": "outcome-first-customer-workflows",
+          "title": "Outcome-First Customer Workflows",
+          "url": "2026-11-12/outcome-first-customer-workflows.html"
+        }
+      ]
+    },
     {
       "date": "2026-11-11",
       "path": "2026-11-11",

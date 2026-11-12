@@ -1,6 +1,31 @@
 {
-  "updated_at": "2026-11-11T09:05:34.916404+00:00",
+  "updated_at": "2026-11-12T09:07:29.807884+00:00",
   "sources": {
+    "https://news.microsoft.com/source/2026/11/10/ibm-and-microsoft-announce-a-new-ai-agent-platform-designed-for-industry-specific-transformation": {
+      "first_seen": "2026-11-12",
+      "last_seen": "2026-11-12",
+      "title": "IBM and Microsoft announce Imagine Enterprise"
+    },
+    "https://news.microsoft.com/source/2026/11/09/northern-trust-and-microsoft-frontier-company-collaborate-to-transform-client-onboarding-through-ai": {
+      "first_seen": "2026-11-12",
+      "last_seen": "2026-11-12",
+      "title": "Northern Trust and Microsoft client onboarding agent"
+    },
+    "https://openai.com/index/introducing-the-agents-api": {
+      "first_seen": "2026-11-12",
+      "last_seen": "2026-09-20",
+      "title": "Introducing the Agents API"
+    },
+    "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available": {
+      "first_seen": "2026-11-12",
+      "last_seen": "2026-11-12",
+      "title": "Gemini 4 Carbon is now available"
+    },
+    "https://customer.io/learn/announcements/biggest-ai-marketing-release": {
+      "first_seen": "2026-11-12",
+      "last_seen": "2026-11-12",
+      "title": "Customer.io\u2019s biggest product release: AI Agent and more"
+    },
     "https://www.anthropic.com/claude-fable-and-mythos-5-2": {
       "first_seen": "2026-11-11",
       "last_seen": "2026-11-11",
@@ -1680,11 +1705,6 @@
       "first_seen": "2026-10-07",
       "last_seen": "2026-10-03",
       "title": "Copilot code review API"
-    },
-    "https://openai.com/index/introducing-the-agents-api": {
-      "first_seen": "2026-10-07",
-      "last_seen": "2026-09-20",
-      "title": "Introducing the Agents API"
     },
     "https://platform.openai.com/docs/guides/evals": {
       "first_seen": "2026-10-07",
