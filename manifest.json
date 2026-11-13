@@ -1,6 +1,27 @@
 {
-  "updated_at": "2026-11-12T09:07:29.807884+00:00",
+  "updated_at": "2026-11-13T09:08:51.743189+00:00",
   "days": [
+    {
+      "date": "2026-11-13",
+      "path": "2026-11-13",
+      "reports": [
+        {
+          "lane": "memory-evaluation",
+          "title": "Memory Evaluation",
+          "url": "2026-11-13/memory-evaluation.html"
+        },
+        {
+          "lane": "agent-execution-economics",
+          "title": "Agent Execution Economics",
+          "url": "2026-11-13/agent-execution-economics.html"
+        },
+        {
+          "lane": "physical-ai-safety",
+          "title": "Physical AI Safety",
+          "url": "2026-11-13/physical-ai-safety.html"
+        }
+      ]
+    },
     {
       "date": "2026-11-12",
       "path": "2026-11-12",

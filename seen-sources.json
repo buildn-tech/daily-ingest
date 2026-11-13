@@ -1,6 +1,56 @@
 {
-  "updated_at": "2026-11-12T09:07:29.807884+00:00",
+  "updated_at": "2026-11-13T09:08:51.743189+00:00",
   "sources": {
+    "https://arxiv.org/html/2611.01718v1": {
+      "first_seen": "2026-11-13",
+      "last_seen": "2026-11-13",
+      "title": "Delivered, Not Used: Evaluating Agent Memory at Its Point of Use"
+    },
+    "https://arxiv.org/html/2611.07631v1": {
+      "first_seen": "2026-11-13",
+      "last_seen": "2026-11-13",
+      "title": "MEMOIR: A Training-Free Memory Lifecycle for Long-Horizon LLM Agents"
+    },
+    "https://arxiv.org/html/2611.11929": {
+      "first_seen": "2026-11-13",
+      "last_seen": "2026-11-13",
+      "title": "Can LLM Agents Organize Their Own Memory?"
+    },
+    "https://arxiv.org/html/2611.10382v1": {
+      "first_seen": "2026-11-13",
+      "last_seen": "2026-11-13",
+      "title": "Self-Evolving Agents with Locally Verified Memory"
+    },
+    "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen": {
+      "first_seen": "2026-11-13",
+      "last_seen": "2026-11-13",
+      "title": "Introducing Gemini 4 Hydrogen for Agentic Workflows"
+    },
+    "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-4-hydrogen": {
+      "first_seen": "2026-11-13",
+      "last_seen": "2026-11-13",
+      "title": "Gemini 4 Hydrogen: Fast agentic development for coders"
+    },
+    "https://developers.googleblog.com/how-agent-anomaly-detection-scores-on-benchmarks-we-didnt-write": {
+      "first_seen": "2026-11-13",
+      "last_seen": "2026-11-13",
+      "title": "How Agent Anomaly Detection scores on benchmarks we didn\u2019t write"
+    },
+    "https://nvidianews.nvidia.com/news/nvidia-announces-halos-for-robotics-the-industrys-first-full-stack-safety-system-for-physical-ai": {
+      "first_seen": "2026-11-13",
+      "last_seen": "2026-11-13",
+      "title": "NVIDIA Announces Halos for Robotics"
+    },
+    "https://www.agilityrobotics.com/content/built-for-the-real-world": {
+      "first_seen": "2026-11-13",
+      "last_seen": "2026-11-13",
+      "title": "Agility Digit: Built for the real world"
+    },
+    "https://blogs.nvidia.com/blog/national-robotics-week-2026": {
+      "first_seen": "2026-11-13",
+      "last_seen": "2026-11-07",
+      "title": "NVIDIA physical AI research roundup"
+    },
     "https://news.microsoft.com/source/2026/11/10/ibm-and-microsoft-announce-a-new-ai-agent-platform-designed-for-industry-specific-transformation": {
       "first_seen": "2026-11-12",
       "last_seen": "2026-11-12",
@@ -295,11 +345,6 @@
       "first_seen": "2026-11-07",
       "last_seen": "2026-11-07",
       "title": "Isaac GR00T open models"
-    },
-    "https://blogs.nvidia.com/blog/national-robotics-week-2026": {
-      "first_seen": "2026-11-07",
-      "last_seen": "2026-11-07",
-      "title": "NVIDIA physical AI research roundup"
     },
     "https://blogs.nvidia.com/blog/openusd-sdg-advance-robot-learning": {
       "first_seen": "2026-11-07",

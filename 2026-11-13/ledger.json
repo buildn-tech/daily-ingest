@@ -1,0 +1,38 @@
+{
+  "date": "2026-11-13",
+  "generated_at": "2026-11-13T09:00:29Z",
+  "editorial_thesis": "The strongest fresh signal is operational: agents need observable memory, explicit model roles, and system-level safety boundaries.",
+  "topic_groups": [
+    {
+      "slug": "memory-evaluation",
+      "title": "Memory Evaluation",
+      "selection_rationale": "Fresh November research addresses an under-covered gap: whether agent memory is actually used and helpful, rather than merely retrieved.",
+      "sources": [
+        {"title":"Delivered, Not Used: Evaluating Agent Memory at Its Point of Use","url":"https://arxiv.org/html/2611.01718v1","source_type":"paper","published_or_updated":"2026-11-01","why_selected":"Introduces reference-free point-of-use attribution over 8,000 agent episodes.","usefulness":"Provides a concrete trace and evaluation pattern for Buildn agent workflows."},
+        {"title":"MEMOIR: A Training-Free Memory Lifecycle for Long-Horizon LLM Agents","url":"https://arxiv.org/html/2611.07631v1","source_type":"paper","published_or_updated":"2026-11-05","why_selected":"Connects evidence-preserving consolidation with retrospective retrieval credit.","usefulness":"Offers low-cost, reversible memory lifecycle primitives."},
+        {"title":"Can LLM Agents Organize Their Own Memory?","url":"https://arxiv.org/html/2611.11929","source_type":"paper","published_or_updated":"2026-11-11","why_selected":"Tests linked, evidence-backed topic documents as self-organized memory.","usefulness":"Suggests an inspectable alternative to opaque memory stores."},
+        {"title":"Self-Evolving Agents with Locally Verified Memory","url":"https://arxiv.org/html/2611.10382v1","source_type":"paper","published_or_updated":"2026-11-11","why_selected":"Evaluates candidate memories by replaying their influence on decisions.","usefulness":"Useful for designing admission tests before long-term storage."}
+      ]
+    },
+    {
+      "slug": "agent-execution-economics",
+      "title": "Agent Execution Economics",
+      "selection_rationale": "A fresh model release makes multi-model routing and worker/verifier role separation concrete, while a new evaluation highlights the limits of monitoring alone.",
+      "sources": [
+        {"title":"Introducing Gemini 4 Hydrogen for Agentic Workflows","url":"https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/","source_type":"product","published_or_updated":"2026-11-12","why_selected":"Positions a fast, lower-cost model as an execution tier and reports orchestration gains.","usefulness":"Supports a practical planner/worker/verifier routing trial."},
+        {"title":"Gemini 4 Hydrogen: Fast agentic development for coders","url":"https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-4-hydrogen/","source_type":"blog","published_or_updated":"2026-11-12","why_selected":"Shows isolated parallel workspaces and model orchestration in developer workflows.","usefulness":"Maps to parallel artifact production and merge gates."},
+        {"title":"How Agent Anomaly Detection scores on benchmarks we didn’t write","url":"https://developers.googleblog.com/how-agent-anomaly-detection-scores-on-benchmarks-we-didnt-write/","source_type":"blog","published_or_updated":"2026-11-12","why_selected":"Reports 87% detection of carried-out harmful instructions and weak poisoned-memory detection.","usefulness":"Clarifies where async monitoring helps and where governance must be separate."}
+      ]
+    },
+    {
+      "slug": "physical-ai-safety",
+      "title": "Physical AI Safety",
+      "selection_rationale": "Robotics is a deliberate coverage-gap rotation, selected for a transferable systems lesson: safety, runtime, and certification evidence must be designed as one stack.",
+      "sources": [
+        {"title":"NVIDIA Announces Halos for Robotics","url":"https://nvidianews.nvidia.com/news/nvidia-announces-halos-for-robotics-the-industrys-first-full-stack-safety-system-for-physical-ai","source_type":"product","published_or_updated":"2026-06-22","why_selected":"Defines a full-stack safety system spanning compute, sensors, OS, AI, and inspection.","usefulness":"Provides a useful vocabulary for agent operational-readiness reviews."},
+        {"title":"Agility Digit: Built for the real world","url":"https://www.agilityrobotics.com/content/built-for-the-real-world","source_type":"product","published_or_updated":"unknown","why_selected":"Shows safety integration and industrial deployment context for humanoid robotics.","usefulness":"Reinforces that capability is distinct from deployable readiness."},
+        {"title":"National Robotics Week — Latest Physical AI Research","url":"https://blogs.nvidia.com/blog/national-robotics-week-2026/","source_type":"blog","published_or_updated":"2026-04-08","why_selected":"Connects simulation, synthetic data, robot learning, and edge deployment.","usefulness":"Suggests a staged promotion pattern for agent workflows."}
+      ]
+    }
+  ]
+}
