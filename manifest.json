@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-11-13T09:08:51.743189+00:00",
+  "updated_at": "2026-11-14T09:05:22.297571+00:00",
   "days": [
+    {
+      "date": "2026-11-14",
+      "path": "2026-11-14",
+      "reports": [
+        {
+          "lane": "agent-execution-economics",
+          "title": "Agent Execution Economics",
+          "url": "2026-11-14/agent-execution-economics.html"
+        },
+        {
+          "lane": "agent-security-monitoring",
+          "title": "Agent Security + Monitoring",
+          "url": "2026-11-14/agent-security-monitoring.html"
+        },
+        {
+          "lane": "open-agent-infrastructure",
+          "title": "Open Agent Infrastructure",
+          "url": "2026-11-14/open-agent-infrastructure.html"
+        },
+        {
+          "lane": "embodied-agent-systems",
+          "title": "Embodied Agents: Memory, Serving, Safety",
+          "url": "2026-11-14/embodied-agent-systems.html"
+        }
+      ]
+    },
     {
       "date": "2026-11-13",
       "path": "2026-11-13",

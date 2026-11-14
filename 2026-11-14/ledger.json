@@ -1,0 +1,155 @@
+{
+  "date": "2026-11-14",
+  "generated_at": "2026-11-14T09:05:00.393087+00:00",
+  "editorial_thesis": "Today\u2019s strongest signals connect model routing, security monitoring, open runtimes, and embodied systems around one practical rule: make agent work observable, bounded, and resumable.",
+  "topic_groups": [
+    {
+      "slug": "agent-execution-economics",
+      "title": "Agent Execution Economics",
+      "selection_rationale": "A fresh model release turns worker/verifier routing into a measurable cost-and-latency experiment, extending yesterday\u2019s model-choice coverage with a new fast execution tier.",
+      "sources": [
+        {
+          "title": "Gemini 4 Hydrogen for Agentic Workflows",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen",
+          "source_type": "product",
+          "published_or_updated": "2026-11-13",
+          "why_selected": "Fast model with 1M context, four thinking levels, and published execution economics.",
+          "usefulness": "Use Hydrogen for first-pass coding, extraction, and worker agents; reserve deeper models for planning and escalation."
+        },
+        {
+          "title": "Gemini 4 Hydrogen: Fast agentic development for coders",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-4-hydrogen",
+          "source_type": "blog",
+          "published_or_updated": "2026-11-12",
+          "why_selected": "Shows parallel isolated workspaces and orchestration around the new model.",
+          "usefulness": "Map isolated workspaces to parallel client deliverables with a merge/review gate."
+        },
+        {
+          "title": "State of Development 2026",
+          "url": "https://temporal.io/reports/state-of-development-2026",
+          "source_type": "report",
+          "published_or_updated": "2026-08-25",
+          "why_selected": "Survey finds state tracking, debugging, and cost management are the main agent blockers.",
+          "usefulness": "Use the report as a checklist for Buildn adoption instrumentation, not as a benchmark."
+        }
+      ]
+    },
+    {
+      "slug": "agent-security-monitoring",
+      "title": "Agent Security + Monitoring",
+      "selection_rationale": "New independent-benchmark results make async anomaly detection concrete while exposing poisoned memory as a blind spot; this is a material update to prior security-control coverage.",
+      "sources": [
+        {
+          "title": "Agent Anomaly Detection on independent benchmarks",
+          "url": "https://developers.googleblog.com/how-agent-anomaly-detection-scores-on-benchmarks-we-didnt-write",
+          "source_type": "blog",
+          "published_or_updated": "2026-11-12",
+          "why_selected": "Private-preview detector flagged 87% of harmful instructions agents carried out; false alarms were 2\u201316%.",
+          "usefulness": "Add asynchronous trace review to Buildn runs and compare detections with deterministic outcome checks."
+        },
+        {
+          "title": "SI Agent Standards Initiative",
+          "url": "https://www.nist.gov/artificial-intelligence/ai-agent-standards-initiative",
+          "source_type": "standards",
+          "published_or_updated": "2026-11-09",
+          "why_selected": "NIST prioritizes identity, authentication, agent-agent security, and interoperable protocols.",
+          "usefulness": "Use its pillars to structure client readiness reviews and Buildn\u2019s authority model."
+        },
+        {
+          "title": "Agentic AI Security 2026: OWASP Top 10",
+          "url": "https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/",
+          "source_type": "standard",
+          "published_or_updated": "current",
+          "why_selected": "Goal hijack and tool misuse are useful threat categories for trace-based tests.",
+          "usefulness": "Translate categories into adversarial fixtures for agent workflows."
+        },
+        {
+          "title": "Codex Security Cloud at DevDay",
+          "url": "https://openai.com/index/devday-2026-recap/",
+          "source_type": "product",
+          "published_or_updated": "2026-09-30",
+          "why_selected": "Cloud scanning, deduplication, and fix preparation show security work moving into unattended agent loops.",
+          "usefulness": "Compare scheduled security agents with human-reviewed remediation queues."
+        }
+      ]
+    },
+    {
+      "slug": "open-agent-infrastructure",
+      "title": "Open Agent Infrastructure",
+      "selection_rationale": "NVIDIA\u2019s new CNCF contributions materially change the open-infrastructure landscape: runtime governance, long-lived agent workloads, GPU scheduling, and fast recovery are being composed as shared layers.",
+      "sources": [
+        {
+          "title": "OpenShell contribution to CNCF",
+          "url": "https://blogs.nvidia.com/blog/open-source-openshell-infrastructure/",
+          "source_type": "release",
+          "published_or_updated": "2026-11-13",
+          "why_selected": "OpenShell enters CNCF Sandbox as a runtime for deterministic agent governance across cloud, on-prem, and hybrid environments.",
+          "usefulness": "Study it as a reference for policy-outside-the-agent and portable control planes."
+        },
+        {
+          "title": "Agent Substrate + NVIDIA infrastructure",
+          "url": "https://developer.nvidia.com/blog/agent-substrate-advancing-kubernetes-for-agents-at-scale/",
+          "source_type": "infrastructure",
+          "published_or_updated": "2026-11-13",
+          "why_selected": "The stack targets suspend/resume, shared environments, inference serving, and cluster scheduling for long-lived agents.",
+          "usefulness": "Useful architecture reference for high-churn jobs and resumable sessions."
+        },
+        {
+          "title": "NVIDIA Kubernetes Engine, Recipes, and Snapshot",
+          "url": "https://blogs.nvidia.com/blog/open-source-openshell-infrastructure/",
+          "source_type": "release",
+          "published_or_updated": "2026-11-13",
+          "why_selected": "Signed images, deployment recipes, and checkpointed inference restore target repeatable AI-factory operations.",
+          "usefulness": "Borrow the concepts of signed artifacts and fast recovery for client delivery."
+        },
+        {
+          "title": "NIST agent identity and authorization concept",
+          "url": "https://www.nccoe.nist.gov/projects/software-and-ai-agent-identity-and-authorization",
+          "source_type": "standards",
+          "published_or_updated": "current",
+          "why_selected": "The standards effort connects runtime identity with delegated authority.",
+          "usefulness": "Use it to keep infrastructure portability from becoming credential sprawl."
+        }
+      ]
+    },
+    {
+      "slug": "embodied-agent-systems",
+      "title": "Embodied Agents: Memory, Serving, Safety",
+      "selection_rationale": "A neglected physical-systems lane earns inclusion because new work links three concerns that software agents also face: selective memory, cache-aware serving, and action-time safety gates.",
+      "sources": [
+        {
+          "title": "Serving Agentic Robot Fleets",
+          "url": "https://arxiv.org/html/2611.01404v1",
+          "source_type": "paper",
+          "published_or_updated": "2026-11-01",
+          "why_selected": "At 32 robots, KV thrashing cut throughput from about 2.4 to 0.6 requests/s; admission control restored useful throughput.",
+          "usefulness": "Apply active-work caps and cache-aware scheduling to high-fanout agent jobs."
+        },
+        {
+          "title": "Learning to Live: Lifelong Embodied Intelligence",
+          "url": "https://arxiv.org/html/2611.00180v2",
+          "source_type": "paper",
+          "published_or_updated": "2026-11-04",
+          "why_selected": "LIFE combines event gates, source-preserving Plastic Memory, and reusable capability construction; its real-robot case reports 98.3% on six questions.",
+          "usefulness": "Use selective capture plus later evidence access for durable client/project context."
+        },
+        {
+          "title": "LEASH: Stay Safe in Agentic Robotics",
+          "url": "https://arxiv.org/html/2611.14115v1",
+          "source_type": "paper",
+          "published_or_updated": "2026-11-10",
+          "why_selected": "RoboRisk tests task refusal, plan repair, execution hazards, injection, and sequential memory; LEASH adds task, action, and commit gates.",
+          "usefulness": "Translate the three gates into plan approval, tool-call review, and irreversible-action confirmation."
+        },
+        {
+          "title": "Embodied First Exam",
+          "url": "https://arxiv.org/html/2611.12177v1",
+          "source_type": "paper",
+          "published_or_updated": "2026-11-13",
+          "why_selected": "A broad evaluation combines 26 adapted suites with nine new suites covering capability and safety.",
+          "usefulness": "Use as a reminder that agent quality needs multi-surface, not single-benchmark, evidence."
+        }
+      ]
+    }
+  ]
+}
