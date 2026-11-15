@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-11-14T09:05:22.297571+00:00",
+  "updated_at": "2026-11-15T09:07:36.210209+00:00",
   "days": [
+    {
+      "date": "2026-11-15",
+      "path": "2026-11-15",
+      "reports": [
+        {
+          "lane": "agentic-delivery-surfaces",
+          "title": "Agentic Delivery Surfaces",
+          "url": "2026-11-15/agentic-delivery-surfaces.html"
+        },
+        {
+          "lane": "evidence-linked-agent-memory",
+          "title": "Evidence-Linked Agent Memory",
+          "url": "2026-11-15/evidence-linked-agent-memory.html"
+        },
+        {
+          "lane": "agent-identity-and-interoperability",
+          "title": "Agent Identity + Interoperability",
+          "url": "2026-11-15/agent-identity-and-interoperability.html"
+        },
+        {
+          "lane": "physical-agent-evaluation",
+          "title": "Physical-Agent Evaluation",
+          "url": "2026-11-15/physical-agent-evaluation.html"
+        }
+      ]
+    },
     {
       "date": "2026-11-14",
       "path": "2026-11-14",

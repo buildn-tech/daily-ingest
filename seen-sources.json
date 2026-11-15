@@ -1,6 +1,101 @@
 {
-  "updated_at": "2026-11-14T09:05:22.297571+00:00",
+  "updated_at": "2026-11-15T09:07:36.210209+00:00",
   "sources": {
+    "https://github.blog/news-insights/company-news/github-universe-2026-evolving-every-layer-of-the-stack": {
+      "first_seen": "2026-11-15",
+      "last_seen": "2026-11-10",
+      "title": "GitHub Universe 2026: Evolving every layer of the stack"
+    },
+    "https://github.blog/changelog/2026-10-01-dynamic-workflows-in-copilot-cli-and-the-copilot-app": {
+      "first_seen": "2026-11-15",
+      "last_seen": "2026-10-11",
+      "title": "GitHub dynamic workflows"
+    },
+    "https://github.blog/ai-and-ml/github-copilot/when-chat-is-the-wrong-ui": {
+      "first_seen": "2026-11-15",
+      "last_seen": "2026-10-11",
+      "title": "When chat is the wrong UI"
+    },
+    "https://github.com/github/copilot-sdk": {
+      "first_seen": "2026-11-15",
+      "last_seen": "2026-11-15",
+      "title": "GitHub Copilot SDK"
+    },
+    "https://docs.github.com/copilot/concepts/agent-capabilities/agent-powered-workflows-and-operations/about-automations": {
+      "first_seen": "2026-11-15",
+      "last_seen": "2026-11-15",
+      "title": "Copilot automations"
+    },
+    "https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning": {
+      "first_seen": "2026-11-15",
+      "last_seen": "2026-11-15",
+      "title": "The Sleep Framework: Continual Learning for LLMs"
+    },
+    "https://research.google/blog/reasoningbank-enabling-agents-to-learn-from-experience": {
+      "first_seen": "2026-11-15",
+      "last_seen": "2026-07-11",
+      "title": "Google ReasoningBank: agents learn from successes and failures"
+    },
+    "https://arxiv.org/html/2611.14320v1": {
+      "first_seen": "2026-11-15",
+      "last_seen": "2026-11-15",
+      "title": "Don\u2019t Just Trust Your Memory"
+    },
+    "https://arxiv.org/html/2610.33956v1": {
+      "first_seen": "2026-11-15",
+      "last_seen": "2026-11-15",
+      "title": "Continual Learning Exam"
+    },
+    "https://arxiv.org/html/2606.02461v2": {
+      "first_seen": "2026-11-15",
+      "last_seen": "2026-11-15",
+      "title": "AgentCL: Toward Rigorous Evaluation of Continual Learning"
+    },
+    "https://www.nist.gov/super-intelligence/si-agent-standards-initiative": {
+      "first_seen": "2026-11-15",
+      "last_seen": "2026-11-15",
+      "title": "SI Agent Standards Initiative"
+    },
+    "https://www.nccoe.nist.gov/projects/software-and-ai-agent-identity-and-authorization": {
+      "first_seen": "2026-11-15",
+      "last_seen": "2026-08-20",
+      "title": "NCCoE Software and AI Agent Identity and Authorization"
+    },
+    "https://www.nist.gov/news-events/news/2026/02/announcing-ai-agent-standards-initiative-interoperable-and-secure": {
+      "first_seen": "2026-11-15",
+      "last_seen": "2026-11-15",
+      "title": "Announcing the AI Agent Standards Initiative"
+    },
+    "https://research.google/blog/open-and-emergent-problems-in-agentic-privacy-and-security-a-contextual-angle": {
+      "first_seen": "2026-11-15",
+      "last_seen": "2026-11-15",
+      "title": "Open and Emergent Problems in Agentic Privacy and Security"
+    },
+    "https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026": {
+      "first_seen": "2026-11-15",
+      "last_seen": "2026-11-14",
+      "title": "Agentic AI Security 2026: OWASP Top 10"
+    },
+    "https://seas.harvard.edu/news/can-your-ai-engineer-robot": {
+      "first_seen": "2026-11-15",
+      "last_seen": "2026-11-15",
+      "title": "RLE-Bench: Can Your AI Engineer a Robot?"
+    },
+    "https://arxiv.org/abs/2609.34210": {
+      "first_seen": "2026-11-15",
+      "last_seen": "2026-11-15",
+      "title": "RLE-Bench paper"
+    },
+    "https://rle-bench.github.io/": {
+      "first_seen": "2026-11-15",
+      "last_seen": "2026-11-15",
+      "title": "RLE-Bench project site"
+    },
+    "https://arxiv.org/html/2611.12177v1": {
+      "first_seen": "2026-11-15",
+      "last_seen": "2026-11-14",
+      "title": "Embodied First Exam"
+    },
     "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen": {
       "first_seen": "2026-11-14",
       "last_seen": "2026-11-13",
@@ -26,11 +121,6 @@
       "last_seen": "2026-08-20",
       "title": "NIST AI Agent Standards Initiative"
     },
-    "https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026": {
-      "first_seen": "2026-11-14",
-      "last_seen": "2026-11-14",
-      "title": "Agentic AI Security 2026: OWASP Top 10"
-    },
     "https://openai.com/index/devday-2026-recap": {
       "first_seen": "2026-11-14",
       "last_seen": "2026-09-30",
@@ -46,11 +136,6 @@
       "last_seen": "2026-11-14",
       "title": "Agent Substrate + NVIDIA infrastructure"
     },
-    "https://www.nccoe.nist.gov/projects/software-and-ai-agent-identity-and-authorization": {
-      "first_seen": "2026-11-14",
-      "last_seen": "2026-08-20",
-      "title": "NCCoE Software and AI Agent Identity and Authorization"
-    },
     "https://arxiv.org/html/2611.01404v1": {
       "first_seen": "2026-11-14",
       "last_seen": "2026-11-08",
@@ -65,11 +150,6 @@
       "first_seen": "2026-11-14",
       "last_seen": "2026-11-14",
       "title": "LEASH: Stay Safe in Agentic Robotics"
-    },
-    "https://arxiv.org/html/2611.12177v1": {
-      "first_seen": "2026-11-14",
-      "last_seen": "2026-11-14",
-      "title": "Embodied First Exam"
     },
     "https://arxiv.org/html/2611.01718v1": {
       "first_seen": "2026-11-13",
@@ -175,11 +255,6 @@
       "first_seen": "2026-11-11",
       "last_seen": "2026-11-11",
       "title": "Google engineering practices"
-    },
-    "https://github.blog/news-insights/company-news/github-universe-2026-evolving-every-layer-of-the-stack": {
-      "first_seen": "2026-11-10",
-      "last_seen": "2026-11-10",
-      "title": "GitHub Universe 2026: Evolving every layer of the stack"
     },
     "https://openai.com/index/how-agents-are-transforming-work": {
       "first_seen": "2026-11-10",
@@ -655,11 +730,6 @@
       "first_seen": "2026-10-28",
       "last_seen": "2026-10-28",
       "title": "Powering the Agent Development Lifecycle with any framework"
-    },
-    "https://github.blog/changelog/2026-10-01-dynamic-workflows-in-copilot-cli-and-the-copilot-app": {
-      "first_seen": "2026-10-28",
-      "last_seen": "2026-10-11",
-      "title": "GitHub dynamic workflows"
     },
     "https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise": {
       "first_seen": "2026-10-28",
@@ -1255,11 +1325,6 @@
       "first_seen": "2026-10-17",
       "last_seen": "2026-10-17",
       "title": "Stack Overflow for Agents triples signups"
-    },
-    "https://github.blog/ai-and-ml/github-copilot/when-chat-is-the-wrong-ui": {
-      "first_seen": "2026-10-17",
-      "last_seen": "2026-10-11",
-      "title": "When chat is the wrong UI"
     },
     "https://openai.com/index/introducing-gpt-rosalind": {
       "first_seen": "2026-10-17",
@@ -5810,11 +5875,6 @@
       "first_seen": "2026-07-11",
       "last_seen": "2026-07-08",
       "title": "Mem0 State of AI Agent Memory 2026"
-    },
-    "https://research.google/blog/reasoningbank-enabling-agents-to-learn-from-experience": {
-      "first_seen": "2026-07-11",
-      "last_seen": "2026-07-11",
-      "title": "Google ReasoningBank: agents learn from successes and failures"
     },
     "https://arxiv.org/abs/2602.02474": {
       "first_seen": "2026-07-11",

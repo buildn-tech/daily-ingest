@@ -1,0 +1,195 @@
+{
+  "date": "2026-11-15",
+  "generated_at": "2026-11-15T09:12:00+00:00",
+  "editorial_thesis": "Agent systems are becoming durable workflows with memory, identity, and evidence; today’s practical edge is bounded, inspectable orchestration rather than raw autonomy.",
+  "topic_groups": [
+    {
+      "slug": "agentic-delivery-surfaces",
+      "title": "Agentic Delivery Surfaces",
+      "selection_rationale": "A clear product shift is making orchestration, session continuity, and task-shaped interfaces first-class; this is new practical signal after recent runtime-focused coverage.",
+      "sources": [
+        {
+          "title": "GitHub Universe 2026: Evolving every layer of the stack",
+          "url": "https://github.blog/news-insights/company-news/github-universe-2026-evolving-every-layer-of-the-stack/",
+          "source_type": "blog",
+          "published_or_updated": "2026-10-28",
+          "why_selected": "Agentic delivery now spans ideation, planning, implementation, verification, deployment, and continuous learning.",
+          "usefulness": "Use as a reference for Buildn’s “brief → run → evidence → review” spine."
+        },
+        {
+          "title": "Dynamic workflows in Copilot CLI and the Copilot app",
+          "url": "https://github.blog/changelog/2026-10-01-dynamic-workflows-in-copilot-cli-and-the-copilot-app/",
+          "source_type": "release",
+          "published_or_updated": "2026-10-01",
+          "why_selected": "Code-defined orchestration combines deterministic steps, agents, structured handoffs, parallel work, checkpoints, and resume.",
+          "usefulness": "Prototype a reusable dossier-research workflow with typed outputs and a review pause."
+        },
+        {
+          "title": "When chat is the wrong UI",
+          "url": "https://github.blog/ai-and-ml/github-copilot/when-chat-is-the-wrong-ui/",
+          "source_type": "blog",
+          "published_or_updated": "2026-10-28",
+          "why_selected": "Task-shaped canvases can expose state and controls more clearly than a transcript.",
+          "usefulness": "Test a visual run board for evidence, approvals, and next actions."
+        },
+        {
+          "title": "GitHub Copilot SDK",
+          "url": "https://github.com/github/copilot-sdk",
+          "source_type": "repo",
+          "published_or_updated": "2026-09-30",
+          "why_selected": "An SDK surface makes agent capabilities embeddable in custom developer workflows rather than trapped in the CLI.",
+          "usefulness": "Compare the SDK boundary with Hermes tool registration and session state."
+        },
+        {
+          "title": "Copilot automations",
+          "url": "https://docs.github.com/copilot/concepts/agent-capabilities/agent-powered-workflows-and-operations/about-automations",
+          "source_type": "docs",
+          "published_or_updated": "2026-10-28",
+          "why_selected": "Repo-native automations point toward agents triggered by events, not only prompts.",
+          "usefulness": "Use event triggers for recurring evidence checks or release hygiene."
+        }
+      ]
+    },
+    {
+      "slug": "evidence-linked-agent-memory",
+      "title": "Evidence-Linked Agent Memory",
+      "selection_rationale": "Memory has been under-covered relative to infrastructure and security, and two current research signals make the practical design rule sharper: memory must learn from experience and remain auditable.",
+      "sources": [
+        {
+          "title": "The Sleep Framework: Continual Learning for LLMs",
+          "url": "https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning/",
+          "source_type": "research",
+          "published_or_updated": "2026-10-27",
+          "why_selected": "Google Research separates active interaction from offline consolidation, using a periodic sleep phase to stabilize new knowledge.",
+          "usefulness": "Borrow the wake/sleep split for ingest: collect during the day, consolidate only after review."
+        },
+        {
+          "title": "ReasoningBank: Enabling agents to learn from experience",
+          "url": "https://research.google/blog/reasoningbank-enabling-agents-to-learn-from-experience/",
+          "source_type": "research",
+          "published_or_updated": "2026-04-21",
+          "why_selected": "Successful and failed trajectories are distilled into reusable reasoning strategies, not copied as raw traces.",
+          "usefulness": "Turn failed client runs into preventative playbooks, linked to the original evidence."
+        },
+        {
+          "title": "Don’t Just Trust Your Memory",
+          "url": "https://arxiv.org/html/2611.14320v1",
+          "source_type": "paper",
+          "published_or_updated": "2026-11-10",
+          "why_selected": "WikiTrace links each lesson to a compilation and the unchanged raw trajectory; reported results reduce memory-induced regressions.",
+          "usefulness": "Make every Buildn memory item clickable back to source notes, artifacts, and decisions."
+        },
+        {
+          "title": "Continual Learning Exam",
+          "url": "https://arxiv.org/html/2610.33956v1",
+          "source_type": "paper",
+          "published_or_updated": "2026-10-25",
+          "why_selected": "CLE tests five-level professional task ladders and whether experience improves later work; frontier systems still struggle with sustained learning.",
+          "usefulness": "Use sequential client scenarios rather than isolated prompt tests."
+        },
+        {
+          "title": "AgentCL: Toward Rigorous Evaluation of Continual Learning",
+          "url": "https://arxiv.org/html/2606.02461v2",
+          "source_type": "paper",
+          "published_or_updated": "2026-06-04",
+          "why_selected": "AgentCL compares memory designs across retrieval, test-time learning, and continual adaptation settings.",
+          "usefulness": "Use its taxonomy to separate retrieval quality from genuine skill improvement."
+        }
+      ]
+    },
+    {
+      "slug": "agent-identity-and-interoperability",
+      "title": "Agent Identity + Interoperability",
+      "selection_rationale": "Security coverage has recently emphasized detection and runtime controls; today’s gap is the control-plane question: who is the agent, what authority was delegated, and how can systems interoperate safely?",
+      "sources": [
+        {
+          "title": "SI Agent Standards Initiative",
+          "url": "https://www.nist.gov/super-intelligence/si-agent-standards-initiative",
+          "source_type": "standards",
+          "published_or_updated": "2026-11-09",
+          "why_selected": "NIST is organizing work around trusted, interoperable, secure autonomous agents, including identity infrastructure and multi-agent security.",
+          "usefulness": "Use the pillars as a client-readiness checklist and a Buildn authority model."
+        },
+        {
+          "title": "Software and AI Agent Identity and Authorization",
+          "url": "https://www.nccoe.nist.gov/projects/software-and-ai-agent-identity-and-authorization",
+          "source_type": "standards",
+          "published_or_updated": "current",
+          "why_selected": "NCCoE connects agent identity and authorization to enterprise use cases and existing identity standards.",
+          "usefulness": "Separate human identity, agent identity, delegated authority, and tool scopes."
+        },
+        {
+          "title": "Announcing the AI Agent Standards Initiative",
+          "url": "https://www.nist.gov/news-events/news/2026/02/announcing-ai-agent-standards-initiative-interoperable-and-secure",
+          "source_type": "news",
+          "published_or_updated": "2026-02-17",
+          "why_selected": "The initiative frames interoperability and secure action on behalf of users as adoption prerequisites.",
+          "usefulness": "Use as a source for client education and non-hype positioning."
+        },
+        {
+          "title": "Open and Emergent Problems in Agentic Privacy and Security",
+          "url": "https://research.google/blog/open-and-emergent-problems-in-agentic-privacy-and-security-a-contextual-angle/",
+          "source_type": "research",
+          "published_or_updated": "2026-10-05",
+          "why_selected": "Privacy risk depends on context, tool access, and the social setting in which agents act, not only model behavior.",
+          "usefulness": "Add context and purpose to tool authorization reviews."
+        },
+        {
+          "title": "OWASP Top 10 for Agentic Applications 2026",
+          "url": "https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/",
+          "source_type": "standard",
+          "published_or_updated": "2026",
+          "why_selected": "Goal hijack, tool misuse, and related classes translate agent risk into test fixtures.",
+          "usefulness": "Build adversarial fixtures around authority escalation and unintended tool use."
+        }
+      ]
+    },
+    {
+      "slug": "physical-agent-evaluation",
+      "title": "Physical-Agent Evaluation",
+      "selection_rationale": "Physical AI is a deliberate coverage gap after several software-agent runs. RLE-Bench and CLE together show how to evaluate agents on heterogeneous artifacts, constraints, and learning over time.",
+      "sources": [
+        {
+          "title": "RLE-Bench: Can Your AI Engineer a Robot?",
+          "url": "https://seas.harvard.edu/news/can-your-ai-engineer-robot",
+          "source_type": "news",
+          "published_or_updated": "2026-09-17",
+          "why_selected": "Harvard and Georgia Tech’s open benchmark covers 48 tasks across control, policy, perception, and mechanical design.",
+          "usefulness": "Borrow capability profiles instead of one “agent score” for complex delivery work."
+        },
+        {
+          "title": "RLE-Bench paper",
+          "url": "https://arxiv.org/abs/2609.34210",
+          "source_type": "paper",
+          "published_or_updated": "2026-09-29",
+          "why_selected": "The benchmark scores workflow-specific artifacts and aggregates them into an overall index plus capability profiles.",
+          "usefulness": "Use artifact-level scoring for plans, code, evidence, and decisions."
+        },
+        {
+          "title": "RLE-Bench project site",
+          "url": "https://rle-bench.github.io/",
+          "source_type": "product",
+          "published_or_updated": "2026-09",
+          "why_selected": "The public project makes the benchmark and task structure accessible for inspection and reuse.",
+          "usefulness": "Review task packaging as a model for reproducible agent evaluations."
+        },
+        {
+          "title": "Continual Learning Exam",
+          "url": "https://arxiv.org/html/2610.33956v1",
+          "source_type": "paper",
+          "published_or_updated": "2026-10-25",
+          "why_selected": "Five-level task ladders test whether an agent retains and applies experience across professional work.",
+          "usefulness": "Combine capability slices with sequential progression in client pilots."
+        },
+        {
+          "title": "Embodied First Exam",
+          "url": "https://arxiv.org/html/2611.12177v1",
+          "source_type": "paper",
+          "published_or_updated": "2026-11-13",
+          "why_selected": "A broad evaluation combines many capability and safety suites rather than a single narrow benchmark.",
+          "usefulness": "Use a multi-surface evidence pack for any agent touching real operations."
+        }
+      ]
+    }
+  ]
+}

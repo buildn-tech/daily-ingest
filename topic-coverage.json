@@ -114,7 +114,7 @@
       "last_covered": "2026-07-20"
     },
     "design-production-loop": {
-      "title": "Design \u2192 Production Loop",
+      "title": "Design → Production Loop",
       "times_covered": 1,
       "last_covered": "2026-07-20"
     },
@@ -777,7 +777,7 @@
       "last_covered": "2026-09-03"
     },
     "simulation-to-real-robotics": {
-      "title": "Simulation \u2192 Real Robotics",
+      "title": "Simulation → Real Robotics",
       "times_covered": 1,
       "last_covered": "2026-09-03"
     },
@@ -976,9 +976,9 @@
       "last_covered": "2026-09-18"
     },
     "agentic-delivery-surfaces": {
-      "title": "Agentic Delivery Surfaces: Private Packages, Fast Models, Instant Pages",
-      "times_covered": 1,
-      "last_covered": "2026-09-19"
+      "title": "Agentic Delivery Surfaces",
+      "times_covered": 2,
+      "last_covered": "2026-11-15"
     },
     "agent-harness-research": {
       "title": "Agent Harness Research: Control the Loop, Not Just the Model",
@@ -1041,7 +1041,7 @@
       "last_covered": "2026-09-24"
     },
     "human-agent-boundaries": {
-      "title": "Human\u2013Agent Boundaries",
+      "title": "Human–Agent Boundaries",
       "times_covered": 5,
       "last_covered": "2026-09-24"
     },
@@ -1343,7 +1343,7 @@
       "last_covered": "2026-10-13"
     },
     "model-and-agent-runtime": {
-      "title": "Frontier Models \u2192 Agent Runtimes",
+      "title": "Frontier Models → Agent Runtimes",
       "times_covered": 1,
       "last_covered": "2026-10-14"
     },
@@ -1507,25 +1507,25 @@
       "title": "Agent Memory: Forgetting, Drift, and Worth",
       "times_covered": 1,
       "last_covered": "2026-10-24",
-      "last_selection_rationale": "Followed fresh October 23 signals while rotating away from yesterday\u2019s design/browser emphasis; memory is included as a material update focused on deletion, drift, and economics."
+      "last_selection_rationale": "Followed fresh October 23 signals while rotating away from yesterday’s design/browser emphasis; memory is included as a material update focused on deletion, drift, and economics."
     },
     "evidence-and-agent-assurance": {
       "title": "Evidence + Agent Assurance",
       "times_covered": 1,
       "last_covered": "2026-10-24",
-      "last_selection_rationale": "Followed fresh October 23 signals while rotating away from yesterday\u2019s design/browser emphasis; memory is included as a material update focused on deletion, drift, and economics."
+      "last_selection_rationale": "Followed fresh October 23 signals while rotating away from yesterday’s design/browser emphasis; memory is included as a material update focused on deletion, drift, and economics."
     },
     "agent-ready-data-infrastructure": {
       "title": "Agent-Ready Data Infrastructure",
       "times_covered": 1,
       "last_covered": "2026-10-24",
-      "last_selection_rationale": "Followed fresh October 23 signals while rotating away from yesterday\u2019s design/browser emphasis; memory is included as a material update focused on deletion, drift, and economics."
+      "last_selection_rationale": "Followed fresh October 23 signals while rotating away from yesterday’s design/browser emphasis; memory is included as a material update focused on deletion, drift, and economics."
     },
     "governed-developer-surfaces": {
       "title": "Governed Developer Surfaces",
       "times_covered": 1,
       "last_covered": "2026-10-24",
-      "last_selection_rationale": "Followed fresh October 23 signals while rotating away from yesterday\u2019s design/browser emphasis; memory is included as a material update focused on deletion, drift, and economics."
+      "last_selection_rationale": "Followed fresh October 23 signals while rotating away from yesterday’s design/browser emphasis; memory is included as a material update focused on deletion, drift, and economics."
     },
     "ai-operations-and-security": {
       "title": "AI Operations + Security",
@@ -1616,7 +1616,7 @@
       "title": "Governed Agentic Development",
       "times_covered": 1,
       "last_covered": "2026-11-04",
-      "last_selection_rationale": "GitHub\u2019s October 28 GA and AI-specific scanning move agentic software from experiments into a reviewable delivery surface."
+      "last_selection_rationale": "GitHub’s October 28 GA and AI-specific scanning move agentic software from experiments into a reviewable delivery surface."
     },
     "agent-runtime-infrastructure": {
       "title": "Agent Runtime Infrastructure",
@@ -1640,7 +1640,7 @@
       "title": "Agent Runtime + Data Plane",
       "times_covered": 1,
       "last_covered": "2026-11-05",
-      "last_selection_rationale": "This lane earns inclusion because the newest practical releases connect agent execution to isolated desktops and disposable, policy-bound databases\u2014two missing pieces in many prototypes."
+      "last_selection_rationale": "This lane earns inclusion because the newest practical releases connect agent execution to isolated desktops and disposable, policy-bound databases—two missing pieces in many prototypes."
     },
     "evidence-bearing-science-and-evaluation": {
       "title": "Evidence-Bearing Science + Evaluation",
@@ -1658,7 +1658,7 @@
       "title": "Open Agent Infrastructure",
       "times_covered": 2,
       "last_covered": "2026-11-14",
-      "last_selection_rationale": "NVIDIA\u2019s new CNCF contributions materially change the open-infrastructure landscape: runtime governance, long-lived agent workloads, GPU scheduling, and fast recovery are being composed as shared layers."
+      "last_selection_rationale": "NVIDIA’s new CNCF contributions materially change the open-infrastructure landscape: runtime governance, long-lived agent workloads, GPU scheduling, and fast recovery are being composed as shared layers."
     },
     "cybersecurity-agents": {
       "title": "Cybersecurity Agents + Defensive Scope",
@@ -1694,7 +1694,7 @@
       "title": "Agentic Measurement + Delivery",
       "times_covered": 1,
       "last_covered": "2026-11-08",
-      "last_selection_rationale": "Fresh November 6\u20138 developer-surface updates make agent work more schedulable and measurable; this lane converts product changes into a small operating loop rather than another IDE roundup."
+      "last_selection_rationale": "Fresh November 6–8 developer-surface updates make agent work more schedulable and measurable; this lane converts product changes into a small operating loop rather than another IDE roundup."
     },
     "agent-identity-and-intent": {
       "title": "Agent Identity + Intent",
@@ -1777,7 +1777,7 @@
       "title": "Agent Execution Economics",
       "times_covered": 2,
       "last_covered": "2026-11-14",
-      "last_selection_rationale": "A fresh model release turns worker/verifier routing into a measurable cost-and-latency experiment, extending yesterday\u2019s model-choice coverage with a new fast execution tier."
+      "last_selection_rationale": "A fresh model release turns worker/verifier routing into a measurable cost-and-latency experiment, extending yesterday’s model-choice coverage with a new fast execution tier."
     },
     "physical-ai-safety": {
       "title": "Physical AI Safety",
@@ -1795,6 +1795,21 @@
       "times_covered": 1,
       "last_covered": "2026-11-14",
       "last_selection_rationale": "A neglected physical-systems lane earns inclusion because new work links three concerns that software agents also face: selective memory, cache-aware serving, and action-time safety gates."
+    },
+    "evidence-linked-agent-memory": {
+      "title": "Evidence-Linked Agent Memory",
+      "times_covered": 1,
+      "last_covered": "2026-11-15"
+    },
+    "agent-identity-and-interoperability": {
+      "title": "Agent Identity + Interoperability",
+      "times_covered": 1,
+      "last_covered": "2026-11-15"
+    },
+    "physical-agent-evaluation": {
+      "title": "Physical-Agent Evaluation",
+      "times_covered": 1,
+      "last_covered": "2026-11-15"
     }
   },
   "item_history": [
@@ -1857,7 +1872,7 @@
     {
       "date": "2026-11-04",
       "topic": "scientific-agent-workflows",
-      "title": "10,000 agents for 36\u201348 hour research sessions",
+      "title": "10,000 agents for 36–48 hour research sessions",
       "url": "https://openai.com/index/third-moment-research/",
       "source_type": "case study",
       "rationale": "Long-horizon work needs scheduling, checkpointing, experiment selection, and cost controls more than conversational polish."
@@ -1905,7 +1920,7 @@
     {
       "date": "2026-11-05",
       "topic": "agent-ready-developer-surfaces",
-      "title": "GitHub Copilot in Xcode\u2019s coding assistant",
+      "title": "GitHub Copilot in Xcode’s coding assistant",
       "url": "https://github.blog/changelog/2026-11-04-github-copilot-is-now-available-in-xcodes-coding-assistant",
       "source_type": "release",
       "rationale": "Native integration reduces context switching and makes the agent part of the same review surface as the project, not a separate chat window."
@@ -1929,7 +1944,7 @@
     {
       "date": "2026-11-05",
       "topic": "agent-ready-developer-surfaces",
-      "title": "Physical-Engineering\u2019s Last Exam",
+      "title": "Physical-Engineering’s Last Exam",
       "url": "https://cloud.google.com/blog/products/ai-machine-learning/introducing-physical-engineerings-last-exam-for-agents",
       "source_type": "benchmark",
       "rationale": "Agent evaluation is expanding from coding and QA into professional workflows where constraints, calculations, and domain artifacts matter."
@@ -2004,7 +2019,7 @@
       "title": "How agents are transforming work",
       "url": "https://openai.com/index/how-agents-are-transforming-work/",
       "source_type": "research",
-      "rationale": "The relevant unit of adoption is a task with a time horizon, tools, and an accountable owner\u2014not the number of prompts or generated tokens."
+      "rationale": "The relevant unit of adoption is a task with a time horizon, tools, and an accountable owner—not the number of prompts or generated tokens."
     },
     {
       "date": "2026-11-05",
@@ -2025,7 +2040,7 @@
     {
       "date": "2026-11-05",
       "topic": "personal-and-physical-workflows",
-      "title": "Agent Compute Engine\u2019s pause/resume pattern",
+      "title": "Agent Compute Engine’s pause/resume pattern",
       "url": "https://cloud.google.com/blog/topics/ai-infrastructure/introducing-agent-compute-engine-and-expanded-agent-governance",
       "source_type": "architecture",
       "rationale": "Human checkpoints become economically viable when waiting does not consume a continuously running process."
@@ -2038,18 +2053,18 @@
       "url": "https://github.blog/changelog/2026-11-06-copilot-impact-dashboard-adds-chat-and-vs-code-agent-usage/",
       "source_type": "release",
       "published_or_updated": "2026-11-06",
-      "selection_rationale": "Fresh November 6\u20138 developer-surface updates make agent work more schedulable and measurable; this lane converts product changes into a small operating loop rather than another IDE roundup.",
+      "selection_rationale": "Fresh November 6–8 developer-surface updates make agent work more schedulable and measurable; this lane converts product changes into a small operating loop rather than another IDE roundup.",
       "usefulness": "Treat engagement, adoption phase, and outcome as separate metrics in Buildn client pilots; do not call chat activity productivity."
     },
     {
       "date": "2026-11-08",
       "topic": "agentic-measurement-and-delivery",
       "topic_title": "Agentic Measurement + Delivery",
-      "title": "Copilot weekly releases \u2014 November 2",
+      "title": "Copilot weekly releases — November 2",
       "url": "https://github.blog/changelog/2026-11-06-github-copilot-weekly-releases-november-2",
       "source_type": "release",
       "published_or_updated": "2026-11-06",
-      "selection_rationale": "Fresh November 6\u20138 developer-surface updates make agent work more schedulable and measurable; this lane converts product changes into a small operating loop rather than another IDE roundup.",
+      "selection_rationale": "Fresh November 6–8 developer-surface updates make agent work more schedulable and measurable; this lane converts product changes into a small operating loop rather than another IDE roundup.",
       "usefulness": "Prototype a recurring Buildn check with a typed input, artifact output, reviewer gate, and an explicit recovery path."
     },
     {
@@ -2060,7 +2075,7 @@
       "url": "https://github.blog/changelog/2026-11-03-dependabot-version-updates-support-agent-package-manager/",
       "source_type": "supply-chain",
       "published_or_updated": "2026-11-08",
-      "selection_rationale": "Fresh November 6\u20138 developer-surface updates make agent work more schedulable and measurable; this lane converts product changes into a small operating loop rather than another IDE roundup.",
+      "selection_rationale": "Fresh November 6–8 developer-surface updates make agent work more schedulable and measurable; this lane converts product changes into a small operating loop rather than another IDE roundup.",
       "usefulness": "Put skills, prompts, and tool adapters under dependency review with provenance and lockfiles."
     },
     {
@@ -2071,7 +2086,7 @@
       "url": "https://github.blog/changelog/2026-10-28-github-agentic-workflows-generally-available/",
       "source_type": "workflow",
       "published_or_updated": "2026-11-08",
-      "selection_rationale": "Fresh November 6\u20138 developer-surface updates make agent work more schedulable and measurable; this lane converts product changes into a small operating loop rather than another IDE roundup.",
+      "selection_rationale": "Fresh November 6–8 developer-surface updates make agent work more schedulable and measurable; this lane converts product changes into a small operating loop rather than another IDE roundup.",
       "usefulness": "Use checked-in workflow files as portable job contracts for client delivery and Buildn operations."
     },
     {
@@ -2082,7 +2097,7 @@
       "url": "https://github.blog/changelog/2026-10-28-code-scanning-for-ai-applications-in-public-preview/",
       "source_type": "security",
       "published_or_updated": "2026-11-08",
-      "selection_rationale": "Fresh November 6\u20138 developer-surface updates make agent work more schedulable and measurable; this lane converts product changes into a small operating loop rather than another IDE roundup.",
+      "selection_rationale": "Fresh November 6–8 developer-surface updates make agent work more schedulable and measurable; this lane converts product changes into a small operating loop rather than another IDE roundup.",
       "usefulness": "Add prompt/tool boundaries, secret handling, dependency risk, and data-flow review to the same PR evidence packet."
     },
     {
@@ -2270,7 +2285,7 @@
     {
       "date": "2026-11-09",
       "lane": "local-first-open-tools",
-      "title": "Omnara \u2014 open-source alternative to Claude Managed Agents",
+      "title": "Omnara — open-source alternative to Claude Managed Agents",
       "url": "https://news.ycombinator.com/item?id=50183892",
       "source_type": "news",
       "rationale": "A current open-source agent harness lead centered on self-hosted execution and model choice."
@@ -2511,7 +2526,7 @@
     {
       "date": "2026-11-13",
       "lane": "agent-execution-economics",
-      "title": "How Agent Anomaly Detection scores on benchmarks we didn\u2019t write",
+      "title": "How Agent Anomaly Detection scores on benchmarks we didn’t write",
       "url": "https://developers.googleblog.com/how-agent-anomaly-detection-scores-on-benchmarks-we-didnt-write/",
       "source_type": "blog",
       "selection_rationale": "A fresh model release makes multi-model routing and worker/verifier role separation concrete, while a new evaluation highlights the limits of monitoring alone."
@@ -2535,7 +2550,7 @@
     {
       "date": "2026-11-13",
       "lane": "physical-ai-safety",
-      "title": "National Robotics Week \u2014 Latest Physical AI Research",
+      "title": "National Robotics Week — Latest Physical AI Research",
       "url": "https://blogs.nvidia.com/blog/national-robotics-week-2026/",
       "source_type": "blog",
       "selection_rationale": "Robotics is a deliberate coverage-gap rotation, selected for a transferable systems lesson: safety, runtime, and certification evidence must be designed as one stack."
@@ -2570,7 +2585,7 @@
       "title": "Agent Anomaly Detection on independent benchmarks",
       "url": "https://developers.googleblog.com/how-agent-anomaly-detection-scores-on-benchmarks-we-didnt-write",
       "source_type": "blog",
-      "rationale": "Private-preview detector flagged 87% of harmful instructions agents carried out; false alarms were 2\u201316%."
+      "rationale": "Private-preview detector flagged 87% of harmful instructions agents carried out; false alarms were 2–16%."
     },
     {
       "date": "2026-11-14",
@@ -2659,6 +2674,166 @@
       "url": "https://arxiv.org/html/2611.12177v1",
       "source_type": "paper",
       "rationale": "A broad evaluation combines 26 adapted suites with nine new suites covering capability and safety."
+    },
+    {
+      "date": "2026-11-15",
+      "topic": "agentic-delivery-surfaces",
+      "title": "GitHub Universe 2026: Evolving every layer of the stack",
+      "url": "https://github.blog/news-insights/company-news/github-universe-2026-evolving-every-layer-of-the-stack/",
+      "source_type": "blog",
+      "rationale": "Agentic delivery now spans ideation, planning, implementation, verification, deployment, and continuous learning."
+    },
+    {
+      "date": "2026-11-15",
+      "topic": "agentic-delivery-surfaces",
+      "title": "Dynamic workflows in Copilot CLI and the Copilot app",
+      "url": "https://github.blog/changelog/2026-10-01-dynamic-workflows-in-copilot-cli-and-the-copilot-app/",
+      "source_type": "release",
+      "rationale": "Code-defined orchestration combines deterministic steps, agents, structured handoffs, parallel work, checkpoints, and resume."
+    },
+    {
+      "date": "2026-11-15",
+      "topic": "agentic-delivery-surfaces",
+      "title": "When chat is the wrong UI",
+      "url": "https://github.blog/ai-and-ml/github-copilot/when-chat-is-the-wrong-ui/",
+      "source_type": "blog",
+      "rationale": "Task-shaped canvases can expose state and controls more clearly than a transcript."
+    },
+    {
+      "date": "2026-11-15",
+      "topic": "agentic-delivery-surfaces",
+      "title": "GitHub Copilot SDK",
+      "url": "https://github.com/github/copilot-sdk",
+      "source_type": "repo",
+      "rationale": "An SDK surface makes agent capabilities embeddable in custom developer workflows rather than trapped in the CLI."
+    },
+    {
+      "date": "2026-11-15",
+      "topic": "agentic-delivery-surfaces",
+      "title": "Copilot automations",
+      "url": "https://docs.github.com/copilot/concepts/agent-capabilities/agent-powered-workflows-and-operations/about-automations",
+      "source_type": "docs",
+      "rationale": "Repo-native automations point toward agents triggered by events, not only prompts."
+    },
+    {
+      "date": "2026-11-15",
+      "topic": "evidence-linked-agent-memory",
+      "title": "The Sleep Framework: Continual Learning for LLMs",
+      "url": "https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning/",
+      "source_type": "research",
+      "rationale": "Google Research separates active interaction from offline consolidation, using a periodic sleep phase to stabilize new knowledge."
+    },
+    {
+      "date": "2026-11-15",
+      "topic": "evidence-linked-agent-memory",
+      "title": "ReasoningBank: Enabling agents to learn from experience",
+      "url": "https://research.google/blog/reasoningbank-enabling-agents-to-learn-from-experience/",
+      "source_type": "research",
+      "rationale": "Successful and failed trajectories are distilled into reusable reasoning strategies, not copied as raw traces."
+    },
+    {
+      "date": "2026-11-15",
+      "topic": "evidence-linked-agent-memory",
+      "title": "Don’t Just Trust Your Memory",
+      "url": "https://arxiv.org/html/2611.14320v1",
+      "source_type": "paper",
+      "rationale": "WikiTrace links each lesson to a compilation and the unchanged raw trajectory; reported results reduce memory-induced regressions."
+    },
+    {
+      "date": "2026-11-15",
+      "topic": "evidence-linked-agent-memory",
+      "title": "Continual Learning Exam",
+      "url": "https://arxiv.org/html/2610.33956v1",
+      "source_type": "paper",
+      "rationale": "CLE tests five-level professional task ladders and whether experience improves later work; frontier systems still struggle with sustained learning."
+    },
+    {
+      "date": "2026-11-15",
+      "topic": "evidence-linked-agent-memory",
+      "title": "AgentCL: Toward Rigorous Evaluation of Continual Learning",
+      "url": "https://arxiv.org/html/2606.02461v2",
+      "source_type": "paper",
+      "rationale": "AgentCL compares memory designs across retrieval, test-time learning, and continual adaptation settings."
+    },
+    {
+      "date": "2026-11-15",
+      "topic": "agent-identity-and-interoperability",
+      "title": "SI Agent Standards Initiative",
+      "url": "https://www.nist.gov/super-intelligence/si-agent-standards-initiative",
+      "source_type": "standards",
+      "rationale": "NIST is organizing work around trusted, interoperable, secure autonomous agents, including identity infrastructure and multi-agent security."
+    },
+    {
+      "date": "2026-11-15",
+      "topic": "agent-identity-and-interoperability",
+      "title": "Software and AI Agent Identity and Authorization",
+      "url": "https://www.nccoe.nist.gov/projects/software-and-ai-agent-identity-and-authorization",
+      "source_type": "standards",
+      "rationale": "NCCoE connects agent identity and authorization to enterprise use cases and existing identity standards."
+    },
+    {
+      "date": "2026-11-15",
+      "topic": "agent-identity-and-interoperability",
+      "title": "Announcing the AI Agent Standards Initiative",
+      "url": "https://www.nist.gov/news-events/news/2026/02/announcing-ai-agent-standards-initiative-interoperable-and-secure",
+      "source_type": "news",
+      "rationale": "The initiative frames interoperability and secure action on behalf of users as adoption prerequisites."
+    },
+    {
+      "date": "2026-11-15",
+      "topic": "agent-identity-and-interoperability",
+      "title": "Open and Emergent Problems in Agentic Privacy and Security",
+      "url": "https://research.google/blog/open-and-emergent-problems-in-agentic-privacy-and-security-a-contextual-angle/",
+      "source_type": "research",
+      "rationale": "Privacy risk depends on context, tool access, and the social setting in which agents act, not only model behavior."
+    },
+    {
+      "date": "2026-11-15",
+      "topic": "agent-identity-and-interoperability",
+      "title": "OWASP Top 10 for Agentic Applications 2026",
+      "url": "https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/",
+      "source_type": "standard",
+      "rationale": "Goal hijack, tool misuse, and related classes translate agent risk into test fixtures."
+    },
+    {
+      "date": "2026-11-15",
+      "topic": "physical-agent-evaluation",
+      "title": "RLE-Bench: Can Your AI Engineer a Robot?",
+      "url": "https://seas.harvard.edu/news/can-your-ai-engineer-robot",
+      "source_type": "news",
+      "rationale": "Harvard and Georgia Tech’s open benchmark covers 48 tasks across control, policy, perception, and mechanical design."
+    },
+    {
+      "date": "2026-11-15",
+      "topic": "physical-agent-evaluation",
+      "title": "RLE-Bench paper",
+      "url": "https://arxiv.org/abs/2609.34210",
+      "source_type": "paper",
+      "rationale": "The benchmark scores workflow-specific artifacts and aggregates them into an overall index plus capability profiles."
+    },
+    {
+      "date": "2026-11-15",
+      "topic": "physical-agent-evaluation",
+      "title": "RLE-Bench project site",
+      "url": "https://rle-bench.github.io/",
+      "source_type": "product",
+      "rationale": "The public project makes the benchmark and task structure accessible for inspection and reuse."
+    },
+    {
+      "date": "2026-11-15",
+      "topic": "physical-agent-evaluation",
+      "title": "Continual Learning Exam",
+      "url": "https://arxiv.org/html/2610.33956v1",
+      "source_type": "paper",
+      "rationale": "Five-level task ladders test whether an agent retains and applies experience across professional work."
+    },
+    {
+      "date": "2026-11-15",
+      "topic": "physical-agent-evaluation",
+      "title": "Embodied First Exam",
+      "url": "https://arxiv.org/html/2611.12177v1",
+      "source_type": "paper",
+      "rationale": "A broad evaluation combines many capability and safety suites rather than a single narrow benchmark."
     }
   ],
   "runs": [
@@ -2673,7 +2848,7 @@
       "items": [
         {
           "lane": "agentic-developer-surfaces",
-          "title": "GitHub Copilot weekly releases \u2014 September 21",
+          "title": "GitHub Copilot weekly releases — September 21",
           "url": "https://github.blog/changelog/2026-09-25-github-copilot-weekly-releases-september-21/",
           "source_type": "release",
           "rationale": "The surface area for safe agent operation is moving into ordinary developer tooling."
@@ -2711,7 +2886,7 @@
           "title": "Towards a science of scaling agent systems",
           "url": "https://research.google/blog/towards-a-science-of-scaling-agent-systems-when-and-why-agent-systems-work/",
           "source_type": "research",
-          "rationale": "\u201cMore agents\u201d is not a design principle; task structure should choose the architecture."
+          "rationale": "“More agents” is not a design principle; task structure should choose the architecture."
         },
         {
           "lane": "agent-systems-evals",
@@ -2722,7 +2897,7 @@
         },
         {
           "lane": "agent-systems-evals",
-          "title": "AIRA\u2082: Overcoming Bottlenecks in AI Research Agents",
+          "title": "AIRA₂: Overcoming Bottlenecks in AI Research Agents",
           "url": "https://ai.meta.com/research/publications/aira-overcoming-bottlenecks-in-ai-research-agents/",
           "source_type": "research",
           "rationale": "Throughput, evaluation noise, and rigid operators are separate bottlenecks that compound over long searches."
@@ -2739,7 +2914,7 @@
           "title": "Google Cloud + Wiz: agentic defense",
           "url": "https://cloud.google.com/blog/products/identity-security/next26-redefining-security-for-the-ai-era-with-google-cloud-and-wiz",
           "source_type": "security platform",
-          "rationale": "Agent security is becoming an operating model spanning identity, runtime, code, and response\u2014not a prompt filter."
+          "rationale": "Agent security is becoming an operating model spanning identity, runtime, code, and response—not a prompt filter."
         },
         {
           "lane": "agentic-security-defense",
@@ -2774,7 +2949,7 @@
           "title": "How AI-native companies turn workflows into operating capability",
           "url": "https://openai.com/index/ai-native-company-workflows/",
           "source_type": "operator playbook",
-          "rationale": "The transferable pattern is not \u201cuse an agent\u201d; it is encode a repeatable job with context, permissions, checks, and an owner."
+          "rationale": "The transferable pattern is not “use an agent”; it is encode a repeatable job with context, permissions, checks, and an owner."
         },
         {
           "lane": "ai-native-operator-workflows",
@@ -2824,14 +2999,14 @@
         },
         {
           "lane": "multi-model-orchestration",
-          "title": "GitHub Copilot monthly enterprise roundup \u2014 September 2026",
+          "title": "GitHub Copilot monthly enterprise roundup — September 2026",
           "url": "https://github.com/resources/insights/enterprise-content-roundup-september-26",
           "source_type": "product roundup",
           "rationale": "It places multi-model orchestration alongside agent apps and workflow surfaces."
         },
         {
           "lane": "collaborative-agent-planning",
-          "title": "Chopin \u2014 a real-time multiplayer, agentic planning environment",
+          "title": "Chopin — a real-time multiplayer, agentic planning environment",
           "url": "https://githubnext.com/projects/chopin/",
           "source_type": "research prototype",
           "rationale": "It joins human presence, shared plans, chat, and MCP in one planning surface."
@@ -2903,12 +3078,12 @@
           "source_type": "release"
         },
         {
-          "title": "Google Cloud\u2019s partner security-agent layer",
+          "title": "Google Cloud’s partner security-agent layer",
           "url": "https://cloud.google.com/blog/products/identity-security/google-cloud-partners-deliver-new-security-agents-and-ai-defenses-with-gemini-enterprise",
           "source_type": "ecosystem"
         },
         {
-          "title": "ISACA\u2019s 11-category agent security baseline",
+          "title": "ISACA’s 11-category agent security baseline",
           "url": "https://www.isaca.org/resources/white-papers/2026/cybersecurity-recommendations-for-securing-ai-agents",
           "source_type": "white paper"
         },
@@ -3031,7 +3206,7 @@
         }
       ],
       "selection_rationale": "Followed fresh October 2 primary signals while rotating toward product surfaces, local AI, and durable infrastructure.",
-      "editorial_thesis": "Today\u2019s strongest signals move the agent conversation from model novelty to product surfaces, programmable review, local boundaries, and durable execution."
+      "editorial_thesis": "Today’s strongest signals move the agent conversation from model novelty to product surfaces, programmable review, local boundaries, and durable execution."
     },
     {
       "date": "2026-10-05",
@@ -3082,7 +3257,7 @@
           "rationale": "Role-based CRA readiness fills a coverage gap with an evidence workflow."
         },
         {
-          "title": "Googlebook\u2019s Built-In Intelligence",
+          "title": "Googlebook’s Built-In Intelligence",
           "url": "https://blog.google/products-and-platforms/devices/googlebook/googlebook-built-in-intelligence/",
           "source_type": "product",
           "lane": "on-device-physical-systems",
@@ -3103,7 +3278,7 @@
           "rationale": "Diversifies beyond software-only agents with local context, physical constraints, and bounded robotics challenges."
         },
         {
-          "title": "FIRST CANOPY 2026\u20132027",
+          "title": "FIRST CANOPY 2026–2027",
           "url": "https://www.firstinspires.org/first-canopy",
           "source_type": "product",
           "lane": "on-device-physical-systems",
@@ -3254,70 +3429,70 @@
           "title": "LegalOn halves Codex costs while maintaining development speed",
           "url": "https://openai.com/index/legalon-halves-codex-costs/",
           "source_type": "case study",
-          "selection_rationale": "Fresh enterprise case studies move the conversation from \u201ccan agents help?\u201d to operating design: model routing, ontologies, budgets, accountability, and repeatable deployment."
+          "selection_rationale": "Fresh enterprise case studies move the conversation from “can agents help?” to operating design: model routing, ontologies, budgets, accountability, and repeatable deployment."
         },
         {
           "lane": "enterprise-agent-operations",
           "title": "How Oracle turns days of work into minutes with ChatGPT and Codex",
           "url": "https://openai.com/index/oracle/",
           "source_type": "case study",
-          "selection_rationale": "Fresh enterprise case studies move the conversation from \u201ccan agents help?\u201d to operating design: model routing, ontologies, budgets, accountability, and repeatable deployment."
+          "selection_rationale": "Fresh enterprise case studies move the conversation from “can agents help?” to operating design: model routing, ontologies, budgets, accountability, and repeatable deployment."
         },
         {
           "lane": "enterprise-agent-operations",
           "title": "Google Cloud introduces the Gemini agent",
           "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-at-work/",
           "source_type": "product",
-          "selection_rationale": "Fresh enterprise case studies move the conversation from \u201ccan agents help?\u201d to operating design: model routing, ontologies, budgets, accountability, and repeatable deployment."
+          "selection_rationale": "Fresh enterprise case studies move the conversation from “can agents help?” to operating design: model routing, ontologies, budgets, accountability, and repeatable deployment."
         },
         {
           "lane": "enterprise-agent-operations",
           "title": "Barclays scales Claude to upgrade operations",
           "url": "https://www.anthropic.com/news/barclays-scales-claude",
           "source_type": "case study",
-          "selection_rationale": "Fresh enterprise case studies move the conversation from \u201ccan agents help?\u201d to operating design: model routing, ontologies, budgets, accountability, and repeatable deployment."
+          "selection_rationale": "Fresh enterprise case studies move the conversation from “can agents help?” to operating design: model routing, ontologies, budgets, accountability, and repeatable deployment."
         },
         {
           "lane": "enterprise-agent-operations",
           "title": "Claude Frontier Academy",
           "url": "https://www.anthropic.com/news/claude-frontier-academy",
           "source_type": "program",
-          "selection_rationale": "Fresh enterprise case studies move the conversation from \u201ccan agents help?\u201d to operating design: model routing, ontologies, budgets, accountability, and repeatable deployment."
+          "selection_rationale": "Fresh enterprise case studies move the conversation from “can agents help?” to operating design: model routing, ontologies, budgets, accountability, and repeatable deployment."
         },
         {
           "lane": "creative-production-systems",
           "title": "Pollo AI turns creative ideas into campaigns with OpenAI",
           "url": "https://openai.com/index/pollo-ai/",
           "source_type": "case study",
-          "selection_rationale": "A neglected lane earns inclusion because current tools are making orchestration, templates, and distribution\u2014not raw generation\u2014the practical creative leverage point."
+          "selection_rationale": "A neglected lane earns inclusion because current tools are making orchestration, templates, and distribution—not raw generation—the practical creative leverage point."
         },
         {
           "lane": "creative-production-systems",
           "title": "Playground: Create and Play Custom Games",
           "url": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/",
           "source_type": "product",
-          "selection_rationale": "A neglected lane earns inclusion because current tools are making orchestration, templates, and distribution\u2014not raw generation\u2014the practical creative leverage point."
+          "selection_rationale": "A neglected lane earns inclusion because current tools are making orchestration, templates, and distribution—not raw generation—the practical creative leverage point."
         },
         {
           "lane": "creative-production-systems",
           "title": "Autodesk advances AI for design and manufacturing",
           "url": "https://adsknews.autodesk.com/en/news/autodesk-ai-design-manufacturing-au-2026/",
           "source_type": "product",
-          "selection_rationale": "A neglected lane earns inclusion because current tools are making orchestration, templates, and distribution\u2014not raw generation\u2014the practical creative leverage point."
+          "selection_rationale": "A neglected lane earns inclusion because current tools are making orchestration, templates, and distribution—not raw generation—the practical creative leverage point."
         },
         {
           "lane": "creative-production-systems",
           "title": "AI in Design 2026: the inflection point is here",
           "url": "https://designerfund.com/blog/ai-in-design-2026",
           "source_type": "research",
-          "selection_rationale": "A neglected lane earns inclusion because current tools are making orchestration, templates, and distribution\u2014not raw generation\u2014the practical creative leverage point."
+          "selection_rationale": "A neglected lane earns inclusion because current tools are making orchestration, templates, and distribution—not raw generation—the practical creative leverage point."
         },
         {
           "lane": "creative-production-systems",
           "title": "Inside our 353,000-person vibe coding course",
           "url": "https://blog.google/innovation-and-ai/technology/developers-tools/ai-agents-intensive-recap-2026/",
           "source_type": "program",
-          "selection_rationale": "A neglected lane earns inclusion because current tools are making orchestration, templates, and distribution\u2014not raw generation\u2014the practical creative leverage point."
+          "selection_rationale": "A neglected lane earns inclusion because current tools are making orchestration, templates, and distribution—not raw generation—the practical creative leverage point."
         },
         {
           "lane": "proof-carrying-ai-research",
@@ -3363,7 +3538,7 @@
         },
         {
           "lane": "identity-and-trust-interfaces",
-          "title": "We\u2019re making it easier to identify AI-generated content",
+          "title": "We’re making it easier to identify AI-generated content",
           "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/synth-id-ai-content/",
           "source_type": "provenance",
           "selection_rationale": "Identity is a coverage gap and a practical prerequisite for agentic work: secure sign-in, content provenance, and tiered access determine whether automation can be trusted."
@@ -3476,7 +3651,7 @@
           "source_type": "research"
         },
         {
-          "title": "GitHub Copilot weekly releases \u2014 October 5",
+          "title": "GitHub Copilot weekly releases — October 5",
           "url": "https://github.blog/changelog/2026-10-09-github-copilot-weekly-releases-october-5/",
           "source_type": "release"
         },
@@ -3646,7 +3821,7 @@
         {
           "date": "2026-10-12",
           "lane": "persistent-agent-work",
-          "title": "OpenAI \u2014 Introducing dots",
+          "title": "OpenAI — Introducing dots",
           "url": "https://openai.com/index/introducing-dots/",
           "source_type": "product",
           "rationale": "always-on cloud agents with browser/app access and Activity View"
@@ -3654,7 +3829,7 @@
         {
           "date": "2026-10-12",
           "lane": "persistent-agent-work",
-          "title": "OpenAI \u2014 dots safety and controls",
+          "title": "OpenAI — dots safety and controls",
           "url": "https://openai.com/index/introducing-dots/#safety-privacy-and-user-control",
           "source_type": "product",
           "rationale": "explicit allow / require-approval / block rules around actions"
@@ -3662,7 +3837,7 @@
         {
           "date": "2026-10-12",
           "lane": "persistent-agent-work",
-          "title": "OpenAI \u2014 dots interaction model",
+          "title": "OpenAI — dots interaction model",
           "url": "https://openai.com/index/introducing-dots/#how-users-interact-with-dots",
           "source_type": "product",
           "rationale": "projects continue across web, desktop, Slack, and Teams"
@@ -3670,7 +3845,7 @@
         {
           "date": "2026-10-12",
           "lane": "persistent-agent-work",
-          "title": "OpenAI \u2014 dots proactive research",
+          "title": "OpenAI — dots proactive research",
           "url": "https://openai.com/index/introducing-dots/#safety-privacy-and-user-control",
           "source_type": "product",
           "rationale": "background research can use connected apps without mutating them"
@@ -3678,7 +3853,7 @@
         {
           "date": "2026-10-12",
           "lane": "persistent-agent-work",
-          "title": "OpenAI \u2014 dots overview",
+          "title": "OpenAI — dots overview",
           "url": "https://openai.com/index/introducing-dots/#what-dots-can-do",
           "source_type": "product",
           "rationale": "multiple concurrent agents are framed as a future operating pattern"
@@ -3686,7 +3861,7 @@
         {
           "date": "2026-10-12",
           "lane": "browser-agent-assurance",
-          "title": "Chrome for Developers \u2014 New in DevTools, October 2026",
+          "title": "Chrome for Developers — New in DevTools, October 2026",
           "url": "https://developer.chrome.com/blog/new-in-devtools-october-2026#devtools-for-agents",
           "source_type": "docs",
           "rationale": "--no-javascript-evaluation and disabled evaluation tools persist across navigations"
@@ -3694,7 +3869,7 @@
         {
           "date": "2026-10-12",
           "lane": "browser-agent-assurance",
-          "title": "Chrome for Developers \u2014 configurable filesystem roots",
+          "title": "Chrome for Developers — configurable filesystem roots",
           "url": "https://developer.chrome.com/blog/new-in-devtools-october-2026#devtools-for-agents",
           "source_type": "docs",
           "rationale": "configurable roots and CLI path permissions for agent access"
@@ -3702,7 +3877,7 @@
         {
           "date": "2026-10-12",
           "lane": "browser-agent-assurance",
-          "title": "Chrome for Developers \u2014 Agent Plugins 1.0",
+          "title": "Chrome for Developers — Agent Plugins 1.0",
           "url": "https://developer.chrome.com/blog/new-in-devtools-october-2026#devtools-for-agents",
           "source_type": "docs",
           "rationale": "modular plugins can load and execute in the agent toolchain"
@@ -3710,7 +3885,7 @@
         {
           "date": "2026-10-12",
           "lane": "browser-agent-assurance",
-          "title": "Chrome for Developers \u2014 heap snapshot inspection",
+          "title": "Chrome for Developers — heap snapshot inspection",
           "url": "https://developer.chrome.com/blog/new-in-devtools-october-2026#devtools-for-agents",
           "source_type": "docs",
           "rationale": "query objects by retained size/property and inspect V8 context retention"
@@ -3726,7 +3901,7 @@
         {
           "date": "2026-10-12",
           "lane": "contextual-ai-for-physical-work",
-          "title": "Google DeepMind \u2014 Gemini 4 Argon",
+          "title": "Google DeepMind — Gemini 4 Argon",
           "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
           "source_type": "product",
           "rationale": "1M-token output limit and staged access for coding, enterprise work, and cyber defense"
@@ -3734,7 +3909,7 @@
         {
           "date": "2026-10-12",
           "lane": "contextual-ai-for-physical-work",
-          "title": "Autodesk News \u2014 AI in design and manufacturing",
+          "title": "Autodesk News — AI in design and manufacturing",
           "url": "https://adsknews.autodesk.com/en/news/autodesk-ai-design-manufacturing-au-2026/",
           "source_type": "product",
           "rationale": "AI connects design, product data, manufacturing, and lifecycle requirements"
@@ -3742,7 +3917,7 @@
         {
           "date": "2026-10-12",
           "lane": "contextual-ai-for-physical-work",
-          "title": "Autodesk News \u2014 Fusion AutoTimeline",
+          "title": "Autodesk News — Fusion AutoTimeline",
           "url": "https://adsknews.autodesk.com/en/news/autodesk-ai-design-manufacturing-au-2026/#fusion",
           "source_type": "product",
           "rationale": "imported geometry can become editable parametric parts"
@@ -3750,7 +3925,7 @@
         {
           "date": "2026-10-12",
           "lane": "contextual-ai-for-physical-work",
-          "title": "Autodesk News \u2014 Inventor Assistant",
+          "title": "Autodesk News — Inventor Assistant",
           "url": "https://adsknews.autodesk.com/en/news/autodesk-ai-design-manufacturing-au-2026/#inventor",
           "source_type": "product",
           "rationale": "assistant can analyze models and modify parameters through APIs/iLogic"
@@ -3758,7 +3933,7 @@
         {
           "date": "2026-10-12",
           "lane": "contextual-ai-for-physical-work",
-          "title": "Autodesk News \u2014 why physical-world AI needs context",
+          "title": "Autodesk News — why physical-world AI needs context",
           "url": "https://adsknews.autodesk.com/en/news/autodesk-ai-design-manufacturing-au-2026/#why-ai-for-the-physical-world-requires-a-higher-standard",
           "source_type": "product",
           "rationale": "precision, safety, and operating context become product requirements"
@@ -3909,22 +4084,22 @@
         {
           "title": "Kolab: benchmark the handoff, not just the task",
           "url": "https://arxiv.org/html/2610.21109",
-          "source_type": "research \u00b7 15 Oct"
+          "source_type": "research · 15 Oct"
         },
         {
           "title": "cxbench: outcome pass can still be unsafe",
           "url": "https://arxiv.org/html/2610.25954v1",
-          "source_type": "research \u00b7 19 Oct"
+          "source_type": "research · 19 Oct"
         },
         {
           "title": "SkillForgeBench: strict completion exposes the gap",
           "url": "https://arxiv.org/html/2610.14918v1",
-          "source_type": "research \u00b7 10 Oct"
+          "source_type": "research · 10 Oct"
         },
         {
-          "title": "AgentKit\u2019s lifecycle is becoming the product",
+          "title": "AgentKit’s lifecycle is becoming the product",
           "url": "https://openai.com/index/introducing-agentkit/",
-          "source_type": "platform update \u00b7 OpenAI"
+          "source_type": "platform update · OpenAI"
         },
         {
           "title": "Buildn pattern: a three-score run packet",
@@ -3934,22 +4109,22 @@
         {
           "title": "GitHub local sandboxing is generally available",
           "url": "https://github.blog/changelog/2026-10-07-local-sandboxing-for-github-copilot-now-generally-available/",
-          "source_type": "product \u00b7 7 Oct"
+          "source_type": "product · 7 Oct"
         },
         {
           "title": "Local models enter the same workflow surface",
           "url": "https://github.blog/changelog/2026-10-09-github-copilot-weekly-releases-october-5/",
-          "source_type": "product \u00b7 9 Oct"
+          "source_type": "product · 9 Oct"
         },
         {
           "title": "Parallel sessions need lifecycle hygiene",
           "url": "https://github.blog/changelog/2026-10-09-github-copilot-weekly-releases-october-5/",
-          "source_type": "product \u00b7 9 Oct"
+          "source_type": "product · 9 Oct"
         },
         {
           "title": "Telemetry gaps can corrupt adoption decisions",
           "url": "https://github.blog/changelog/2026-10-06-update-your-ide-to-restore-agent-activity-in-copilot-usage-metrics/",
-          "source_type": "incident \u00b7 6 Oct"
+          "source_type": "incident · 6 Oct"
         },
         {
           "title": "Buildn pattern: policy, evidence, cleanup",
@@ -3959,7 +4134,7 @@
         {
           "title": "Patch the Planet: agents in coordinated disclosure",
           "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/",
-          "source_type": "security \u00b7 21 Oct"
+          "source_type": "security · 21 Oct"
         },
         {
           "title": "The defensive loop needs evidence",
@@ -4074,7 +4249,7 @@
           "title": "Kitesurf points to browser access as infrastructure",
           "url": "https://blog.cloudflare.com/birthday-week-2026-wrap-up",
           "source_type": "tool",
-          "rationale": "Browser agents need a transport, rendering, and permission model\u2014not just a model that can click."
+          "rationale": "Browser agents need a transport, rendering, and permission model—not just a model that can click."
         },
         {
           "title": "Public real-user data can ground performance claims",
@@ -4167,7 +4342,7 @@
         {
           "date": "2026-11-09",
           "lane": "local-first-open-tools",
-          "title": "Omnara \u2014 open-source alternative to Claude Managed Agents",
+          "title": "Omnara — open-source alternative to Claude Managed Agents",
           "url": "https://news.ycombinator.com/item?id=50183892",
           "source_type": "news",
           "rationale": "A current open-source agent harness lead centered on self-hosted execution and model choice."
@@ -4228,7 +4403,7 @@
         "Northern Trust and Microsoft client onboarding agent",
         "Introducing the Agents API",
         "Gemini 4 Carbon is now available",
-        "Customer.io\u2019s biggest product release: AI Agent and more"
+        "Customer.io’s biggest product release: AI Agent and more"
       ],
       "urls": [
         "https://news.microsoft.com/source/2026/11/10/ibm-and-microsoft-announce-a-new-ai-agent-platform-designed-for-industry-specific-transformation/",
@@ -4238,20 +4413,95 @@
         "https://customer.io/learn/announcements/biggest-ai-marketing-release"
       ],
       "selection_rationale": "The valuable agent signal is shifting from model novelty to operating design: durable execution, governed delivery, workspace context, and outcome measurement."
+    },
+    {
+      "date": "2026-11-15",
+      "selected_lanes": [
+        "agentic-delivery-surfaces",
+        "evidence-linked-agent-memory",
+        "agent-identity-and-interoperability",
+        "physical-agent-evaluation"
+      ],
+      "items": [
+        "GitHub Universe 2026: Evolving every layer of the stack",
+        "Dynamic workflows in Copilot CLI and the Copilot app",
+        "When chat is the wrong UI",
+        "GitHub Copilot SDK",
+        "Copilot automations",
+        "The Sleep Framework: Continual Learning for LLMs",
+        "ReasoningBank: Enabling agents to learn from experience",
+        "Don’t Just Trust Your Memory",
+        "Continual Learning Exam",
+        "AgentCL: Toward Rigorous Evaluation of Continual Learning",
+        "SI Agent Standards Initiative",
+        "Software and AI Agent Identity and Authorization",
+        "Announcing the AI Agent Standards Initiative",
+        "Open and Emergent Problems in Agentic Privacy and Security",
+        "OWASP Top 10 for Agentic Applications 2026",
+        "RLE-Bench: Can Your AI Engineer a Robot?",
+        "RLE-Bench paper",
+        "RLE-Bench project site",
+        "Continual Learning Exam",
+        "Embodied First Exam"
+      ],
+      "urls": [
+        "https://github.blog/news-insights/company-news/github-universe-2026-evolving-every-layer-of-the-stack/",
+        "https://github.blog/changelog/2026-10-01-dynamic-workflows-in-copilot-cli-and-the-copilot-app/",
+        "https://github.blog/ai-and-ml/github-copilot/when-chat-is-the-wrong-ui/",
+        "https://github.com/github/copilot-sdk",
+        "https://docs.github.com/copilot/concepts/agent-capabilities/agent-powered-workflows-and-operations/about-automations",
+        "https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning/",
+        "https://research.google/blog/reasoningbank-enabling-agents-to-learn-from-experience/",
+        "https://arxiv.org/html/2611.14320v1",
+        "https://arxiv.org/html/2610.33956v1",
+        "https://arxiv.org/html/2606.02461v2",
+        "https://www.nist.gov/super-intelligence/si-agent-standards-initiative",
+        "https://www.nccoe.nist.gov/projects/software-and-ai-agent-identity-and-authorization",
+        "https://www.nist.gov/news-events/news/2026/02/announcing-ai-agent-standards-initiative-interoperable-and-secure",
+        "https://research.google/blog/open-and-emergent-problems-in-agentic-privacy-and-security-a-contextual-angle/",
+        "https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/",
+        "https://seas.harvard.edu/news/can-your-ai-engineer-robot",
+        "https://arxiv.org/abs/2609.34210",
+        "https://rle-bench.github.io/",
+        "https://arxiv.org/html/2610.33956v1",
+        "https://arxiv.org/html/2611.12177v1"
+      ],
+      "selection_rationale": "Rotated toward practical gaps: delivery surfaces, evidence-linked memory, agent identity, and physical-system evaluation."
     }
   ],
-  "updated_at": "2026-11-14T09:05:00.393087+00:00",
+  "updated_at": "2026-11-15T09:12:00+00:00",
   "last_run": {
-    "date": "2026-11-14",
+    "date": "2026-11-15",
     "selected_lanes": [
-      "agent-execution-economics",
-      "agent-security-monitoring",
-      "open-agent-infrastructure",
-      "embodied-agent-systems"
+      "agentic-delivery-surfaces",
+      "evidence-linked-agent-memory",
+      "agent-identity-and-interoperability",
+      "physical-agent-evaluation"
     ],
-    "selection_rationale": "Followed fresh November 13 signals while rotating away from yesterday\u2019s memory-evaluation emphasis."
+    "items": [
+      "GitHub Universe 2026: Evolving every layer of the stack",
+      "Dynamic workflows in Copilot CLI and the Copilot app",
+      "When chat is the wrong UI",
+      "GitHub Copilot SDK",
+      "Copilot automations",
+      "The Sleep Framework: Continual Learning for LLMs",
+      "ReasoningBank: Enabling agents to learn from experience",
+      "Don’t Just Trust Your Memory",
+      "Continual Learning Exam",
+      "AgentCL: Toward Rigorous Evaluation of Continual Learning",
+      "SI Agent Standards Initiative",
+      "Software and AI Agent Identity and Authorization",
+      "Announcing the AI Agent Standards Initiative",
+      "Open and Emergent Problems in Agentic Privacy and Security",
+      "OWASP Top 10 for Agentic Applications 2026",
+      "RLE-Bench: Can Your AI Engineer a Robot?",
+      "RLE-Bench paper",
+      "RLE-Bench project site",
+      "Continual Learning Exam",
+      "Embodied First Exam"
+    ]
   },
-  "last_editorial_thesis": "The strongest fresh signal is operational: agents need observable memory, explicit model roles, and system-level safety boundaries.",
+  "last_editorial_thesis": "Agent systems are becoming durable workflows with memory, identity, and evidence; today’s practical edge is bounded, inspectable orchestration rather than raw autonomy.",
   "coverage_history": [
     {
       "date": "2026-09-13",
@@ -4339,7 +4589,7 @@
           "url": "https://arxiv.org/html/2609.11018v1",
           "source_type": "paper",
           "published_or_updated": "2026-09-10 to 2026-09-13",
-          "why_selected": "Use its vocabulary to separate \u201cagent\u201d marketing from an actual capability contract in Buildn specs.",
+          "why_selected": "Use its vocabulary to separate “agent” marketing from an actual capability contract in Buildn specs.",
           "usefulness": "Compendia are framing tools, not production validation."
         },
         {
@@ -4472,7 +4722,7 @@
       ],
       "items": [
         {
-          "title": "GPT\u2011Live\u20111 in the API",
+          "title": "GPT‑Live‑1 in the API",
           "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api/",
           "source_type": "product",
           "rationale": "Prototype a Buildn intake agent that captures a brief, reflects the structured summary, then opens a reviewable artifact."
@@ -4550,7 +4800,7 @@
           "rationale": "Add content-credential checks to Buildn media deliverables and client approval records."
         },
         {
-          "title": "AI Search\u2019s agentic direction",
+          "title": "AI Search’s agentic direction",
           "url": "https://blog.google/products-and-platforms/products/search/search-io-2026/",
           "source_type": "product_direction",
           "rationale": "Design research outputs that preserve direct sources, query scope, and uncertainty rather than only a synthesized answer."
@@ -4572,7 +4822,7 @@
       ],
       "items": [
         {
-          "title": "GPT\u2011Live\u20111 in the API",
+          "title": "GPT‑Live‑1 in the API",
           "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api/",
           "source_type": "product",
           "rationale": "Prototype a Buildn intake agent that captures a brief, reflects the structured summary, then opens a reviewable artifact."
@@ -4650,7 +4900,7 @@
           "rationale": "Add content-credential checks to Buildn media deliverables and client approval records."
         },
         {
-          "title": "AI Search\u2019s agentic direction",
+          "title": "AI Search’s agentic direction",
           "url": "https://blog.google/products-and-platforms/products/search/search-io-2026/",
           "source_type": "product_direction",
           "rationale": "Design research outputs that preserve direct sources, query scope, and uncertainty rather than only a synthesized answer."
@@ -4672,7 +4922,7 @@
       ],
       "items": [
         {
-          "title": "GPT\u2011Live\u20111 in the API",
+          "title": "GPT‑Live‑1 in the API",
           "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api/",
           "source_type": "product",
           "rationale": "Prototype a Buildn intake agent that captures a brief, reflects the structured summary, then opens a reviewable artifact."
@@ -4750,7 +5000,7 @@
           "rationale": "Add content-credential checks to Buildn media deliverables and client approval records."
         },
         {
-          "title": "AI Search\u2019s agentic direction",
+          "title": "AI Search’s agentic direction",
           "url": "https://blog.google/products-and-platforms/products/search/search-io-2026/",
           "source_type": "product_direction",
           "rationale": "Design research outputs that preserve direct sources, query scope, and uncertainty rather than only a synthesized answer."
@@ -4781,7 +5031,7 @@
           "title": "Cisco AI Defense release line",
           "url": "https://securitydocs.cisco.com/docs/ai-def/user/168305.dita",
           "source_type": "product",
-          "rationale": "Borrow the inventory \u2192 profile \u2192 runtime-event loop for client agent reviews."
+          "rationale": "Borrow the inventory → profile → runtime-event loop for client agent reviews."
         },
         {
           "title": "Muse Secure VM",
@@ -4952,7 +5202,7 @@
       "items": [
         {
           "lane": "agentic-developer-surfaces",
-          "title": "GitHub Copilot weekly releases \u2014 September 21",
+          "title": "GitHub Copilot weekly releases — September 21",
           "url": "https://github.blog/changelog/2026-09-25-github-copilot-weekly-releases-september-21/",
           "source_type": "release",
           "rationale": "The surface area for safe agent operation is moving into ordinary developer tooling."
@@ -4990,7 +5240,7 @@
           "title": "Towards a science of scaling agent systems",
           "url": "https://research.google/blog/towards-a-science-of-scaling-agent-systems-when-and-why-agent-systems-work/",
           "source_type": "research",
-          "rationale": "\u201cMore agents\u201d is not a design principle; task structure should choose the architecture."
+          "rationale": "“More agents” is not a design principle; task structure should choose the architecture."
         },
         {
           "lane": "agent-systems-evals",
@@ -5001,7 +5251,7 @@
         },
         {
           "lane": "agent-systems-evals",
-          "title": "AIRA\u2082: Overcoming Bottlenecks in AI Research Agents",
+          "title": "AIRA₂: Overcoming Bottlenecks in AI Research Agents",
           "url": "https://ai.meta.com/research/publications/aira-overcoming-bottlenecks-in-ai-research-agents/",
           "source_type": "research",
           "rationale": "Throughput, evaluation noise, and rigid operators are separate bottlenecks that compound over long searches."
@@ -5018,7 +5268,7 @@
           "title": "Google Cloud + Wiz: agentic defense",
           "url": "https://cloud.google.com/blog/products/identity-security/next26-redefining-security-for-the-ai-era-with-google-cloud-and-wiz",
           "source_type": "security platform",
-          "rationale": "Agent security is becoming an operating model spanning identity, runtime, code, and response\u2014not a prompt filter."
+          "rationale": "Agent security is becoming an operating model spanning identity, runtime, code, and response—not a prompt filter."
         },
         {
           "lane": "agentic-security-defense",
@@ -5053,7 +5303,7 @@
           "title": "How AI-native companies turn workflows into operating capability",
           "url": "https://openai.com/index/ai-native-company-workflows/",
           "source_type": "operator playbook",
-          "rationale": "The transferable pattern is not \u201cuse an agent\u201d; it is encode a repeatable job with context, permissions, checks, and an owner."
+          "rationale": "The transferable pattern is not “use an agent”; it is encode a repeatable job with context, permissions, checks, and an owner."
         },
         {
           "lane": "ai-native-operator-workflows",
@@ -5103,14 +5353,14 @@
         },
         {
           "lane": "multi-model-orchestration",
-          "title": "GitHub Copilot monthly enterprise roundup \u2014 September 2026",
+          "title": "GitHub Copilot monthly enterprise roundup — September 2026",
           "url": "https://github.com/resources/insights/enterprise-content-roundup-september-26",
           "source_type": "product roundup",
           "rationale": "It places multi-model orchestration alongside agent apps and workflow surfaces."
         },
         {
           "lane": "collaborative-agent-planning",
-          "title": "Chopin \u2014 a real-time multiplayer, agentic planning environment",
+          "title": "Chopin — a real-time multiplayer, agentic planning environment",
           "url": "https://githubnext.com/projects/chopin/",
           "source_type": "research prototype",
           "rationale": "It joins human presence, shared plans, chat, and MCP in one planning surface."
@@ -5239,7 +5489,7 @@
         }
       ],
       "selection_rationale": "Followed fresh October 2 primary signals while rotating toward product surfaces, local AI, and durable infrastructure.",
-      "editorial_thesis": "Today\u2019s strongest signals move the agent conversation from model novelty to product surfaces, programmable review, local boundaries, and durable execution."
+      "editorial_thesis": "Today’s strongest signals move the agent conversation from model novelty to product surfaces, programmable review, local boundaries, and durable execution."
     },
     {
       "date": "2026-10-04",
@@ -5248,7 +5498,7 @@
         "decision-models-edge-execution",
         "scientific-agent-workflows"
       ],
-      "editorial_thesis": "Today\u2019s strongest fresh signals make agent systems narrower and more governable: enforce runtime policy, use typed decisions and ephemeral execution, and package domain workflows with evidence and approval.",
+      "editorial_thesis": "Today’s strongest fresh signals make agent systems narrower and more governable: enforce runtime policy, use typed decisions and ephemeral execution, and package domain workflows with evidence and approval.",
       "selection_rationale": "Rotated away from the October 3 app-surface, code-review, local-AI, and durable-infrastructure lanes toward runtime safety, edge execution, and a time-sensitive scientific workflow opportunity."
     },
     {
@@ -5300,7 +5550,7 @@
           "rationale": "Role-based CRA readiness fills a coverage gap with an evidence workflow."
         },
         {
-          "title": "Googlebook\u2019s Built-In Intelligence",
+          "title": "Googlebook’s Built-In Intelligence",
           "url": "https://blog.google/products-and-platforms/devices/googlebook/googlebook-built-in-intelligence/",
           "source_type": "product",
           "lane": "on-device-physical-systems",
@@ -5321,7 +5571,7 @@
           "rationale": "Diversifies beyond software-only agents with local context, physical constraints, and bounded robotics challenges."
         },
         {
-          "title": "FIRST CANOPY 2026\u20132027",
+          "title": "FIRST CANOPY 2026–2027",
           "url": "https://www.firstinspires.org/first-canopy",
           "source_type": "product",
           "lane": "on-device-physical-systems",
@@ -5599,8 +5849,8 @@
       "items": [
         "Build by Design: New Workflows for New Ways of Building",
         "How to Lighten Design System Upkeep With the Figma Agent",
-        "Workflow Lab: Staying in the Flow with Figma\u2019s Agent",
-        "New in DevTools \u2014 October 2026",
+        "Workflow Lab: Staying in the Flow with Figma’s Agent",
+        "New in DevTools — October 2026",
         "Diagnosing Personalization Failures in Mobile GUI Agents",
         "ASPIRE: Agentic Safety & Prompt Injection Red-teaming Engine",
         "DSV-Mem: Evaluating Multimodal Memory in Professional Workflows",
@@ -5620,7 +5870,7 @@
         "Northern Trust and Microsoft client onboarding agent",
         "Introducing the Agents API",
         "Gemini 4 Carbon is now available",
-        "Customer.io\u2019s biggest product release: AI Agent and more"
+        "Customer.io’s biggest product release: AI Agent and more"
       ],
       "urls": [
         "https://news.microsoft.com/source/2026/11/10/ibm-and-microsoft-announce-a-new-ai-agent-platform-designed-for-industry-specific-transformation/",
@@ -5630,6 +5880,60 @@
         "https://customer.io/learn/announcements/biggest-ai-marketing-release"
       ],
       "selection_rationale": "The valuable agent signal is shifting from model novelty to operating design: durable execution, governed delivery, workspace context, and outcome measurement."
+    },
+    {
+      "date": "2026-11-15",
+      "selected_lanes": [
+        "agentic-delivery-surfaces",
+        "evidence-linked-agent-memory",
+        "agent-identity-and-interoperability",
+        "physical-agent-evaluation"
+      ],
+      "items": [
+        "GitHub Universe 2026: Evolving every layer of the stack",
+        "Dynamic workflows in Copilot CLI and the Copilot app",
+        "When chat is the wrong UI",
+        "GitHub Copilot SDK",
+        "Copilot automations",
+        "The Sleep Framework: Continual Learning for LLMs",
+        "ReasoningBank: Enabling agents to learn from experience",
+        "Don’t Just Trust Your Memory",
+        "Continual Learning Exam",
+        "AgentCL: Toward Rigorous Evaluation of Continual Learning",
+        "SI Agent Standards Initiative",
+        "Software and AI Agent Identity and Authorization",
+        "Announcing the AI Agent Standards Initiative",
+        "Open and Emergent Problems in Agentic Privacy and Security",
+        "OWASP Top 10 for Agentic Applications 2026",
+        "RLE-Bench: Can Your AI Engineer a Robot?",
+        "RLE-Bench paper",
+        "RLE-Bench project site",
+        "Continual Learning Exam",
+        "Embodied First Exam"
+      ],
+      "urls": [
+        "https://github.blog/news-insights/company-news/github-universe-2026-evolving-every-layer-of-the-stack/",
+        "https://github.blog/changelog/2026-10-01-dynamic-workflows-in-copilot-cli-and-the-copilot-app/",
+        "https://github.blog/ai-and-ml/github-copilot/when-chat-is-the-wrong-ui/",
+        "https://github.com/github/copilot-sdk",
+        "https://docs.github.com/copilot/concepts/agent-capabilities/agent-powered-workflows-and-operations/about-automations",
+        "https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning/",
+        "https://research.google/blog/reasoningbank-enabling-agents-to-learn-from-experience/",
+        "https://arxiv.org/html/2611.14320v1",
+        "https://arxiv.org/html/2610.33956v1",
+        "https://arxiv.org/html/2606.02461v2",
+        "https://www.nist.gov/super-intelligence/si-agent-standards-initiative",
+        "https://www.nccoe.nist.gov/projects/software-and-ai-agent-identity-and-authorization",
+        "https://www.nist.gov/news-events/news/2026/02/announcing-ai-agent-standards-initiative-interoperable-and-secure",
+        "https://research.google/blog/open-and-emergent-problems-in-agentic-privacy-and-security-a-contextual-angle/",
+        "https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/",
+        "https://seas.harvard.edu/news/can-your-ai-engineer-robot",
+        "https://arxiv.org/abs/2609.34210",
+        "https://rle-bench.github.io/",
+        "https://arxiv.org/html/2610.33956v1",
+        "https://arxiv.org/html/2611.12177v1"
+      ],
+      "selection_rationale": "Rotated toward practical gaps: delivery surfaces, evidence-linked memory, agent identity, and physical-system evaluation."
     }
   ],
   "items": [
@@ -5711,7 +6015,7 @@
       "title": "Modern Web Guidance",
       "url": "https://developer.chrome.com/blog/chrome-at-io26",
       "source_type": "blog",
-      "rationale": "Agent output improves when the platform\u2019s constraints are supplied as maintained guidance."
+      "rationale": "Agent output improves when the platform’s constraints are supplied as maintained guidance."
     },
     {
       "date": "2026-10-03",
@@ -5727,7 +6031,7 @@
       "title": "Search agents",
       "url": "https://blog.google/products-and-platforms/products/search/search-io-2026/",
       "source_type": "blog",
-      "rationale": "The winning pattern is persistent criteria plus timely handoff\u2014not one-shot answers."
+      "rationale": "The winning pattern is persistent criteria plus timely handoff—not one-shot answers."
     },
     {
       "date": "2026-10-03",
@@ -5802,7 +6106,7 @@
           "rationale": "Role-based CRA readiness fills a coverage gap with an evidence workflow."
         },
         {
-          "title": "Googlebook\u2019s Built-In Intelligence",
+          "title": "Googlebook’s Built-In Intelligence",
           "url": "https://blog.google/products-and-platforms/devices/googlebook/googlebook-built-in-intelligence/",
           "source_type": "product",
           "lane": "on-device-physical-systems",
@@ -5823,7 +6127,7 @@
           "rationale": "Diversifies beyond software-only agents with local context, physical constraints, and bounded robotics challenges."
         },
         {
-          "title": "FIRST CANOPY 2026\u20132027",
+          "title": "FIRST CANOPY 2026–2027",
           "url": "https://www.firstinspires.org/first-canopy",
           "source_type": "product",
           "lane": "on-device-physical-systems",
@@ -5958,7 +6262,7 @@
       "title": "AI Scan for pull requests",
       "url": "https://github.blog/changelog/2026-10-15-ai-scan-for-pull-requests-generally-available/",
       "source_type": "release",
-      "selection_rationale": "GitHub\u2019s newest security loop is reviewable remediation, not autonomous merging."
+      "selection_rationale": "GitHub’s newest security loop is reviewable remediation, not autonomous merging."
     },
     {
       "date": "2026-10-16",
@@ -5966,7 +6270,7 @@
       "title": "Agentic autofix for code scanning alerts",
       "url": "https://github.blog/changelog/2026-10-15-agentic-autofix-for-code-scanning-alerts-general-availability/",
       "source_type": "release",
-      "selection_rationale": "GitHub\u2019s newest security loop is reviewable remediation, not autonomous merging."
+      "selection_rationale": "GitHub’s newest security loop is reviewable remediation, not autonomous merging."
     },
     {
       "date": "2026-10-16",
@@ -5974,7 +6278,7 @@
       "title": "Code Quality usage as CSV",
       "url": "https://github.blog/changelog/2026-10-15-download-github-code-quality-license-usage-as-a-csv/",
       "source_type": "billing",
-      "selection_rationale": "GitHub\u2019s newest security loop is reviewable remediation, not autonomous merging."
+      "selection_rationale": "GitHub’s newest security loop is reviewable remediation, not autonomous merging."
     },
     {
       "date": "2026-10-16",
@@ -5982,7 +6286,7 @@
       "title": "AI Scan metrics in Security Overview",
       "url": "https://github.blog/changelog/2026-10-13-code-scanning-ai-scan-metrics-in-security-overview/",
       "source_type": "docs",
-      "selection_rationale": "GitHub\u2019s newest security loop is reviewable remediation, not autonomous merging."
+      "selection_rationale": "GitHub’s newest security loop is reviewable remediation, not autonomous merging."
     },
     {
       "date": "2026-10-16",
@@ -6123,7 +6427,7 @@
     {
       "date": "2026-11-09",
       "lane": "local-first-open-tools",
-      "title": "Omnara \u2014 open-source alternative to Claude Managed Agents",
+      "title": "Omnara — open-source alternative to Claude Managed Agents",
       "url": "https://news.ycombinator.com/item?id=50183892",
       "source_type": "news",
       "rationale": "A current open-source agent harness lead centered on self-hosted execution and model choice."
@@ -6195,7 +6499,7 @@
     {
       "date": "2026-11-12",
       "lane": "outcome-first-customer-workflows",
-      "title": "Customer.io\u2019s biggest product release: AI Agent and more",
+      "title": "Customer.io’s biggest product release: AI Agent and more",
       "url": "https://customer.io/learn/announcements/biggest-ai-marketing-release",
       "source_type": "product",
       "rationale": "Adds a workspace-aware AI Agent, LLM Actions inside journeys, and Goals for outcome measurement."
@@ -6251,7 +6555,7 @@
     {
       "date": "2026-11-13",
       "lane": "agent-execution-economics",
-      "title": "How Agent Anomaly Detection scores on benchmarks we didn\u2019t write",
+      "title": "How Agent Anomaly Detection scores on benchmarks we didn’t write",
       "url": "https://developers.googleblog.com/how-agent-anomaly-detection-scores-on-benchmarks-we-didnt-write/",
       "source_type": "blog",
       "selection_rationale": "A fresh model release makes multi-model routing and worker/verifier role separation concrete, while a new evaluation highlights the limits of monitoring alone."
@@ -6275,16 +6579,177 @@
     {
       "date": "2026-11-13",
       "lane": "physical-ai-safety",
-      "title": "National Robotics Week \u2014 Latest Physical AI Research",
+      "title": "National Robotics Week — Latest Physical AI Research",
       "url": "https://blogs.nvidia.com/blog/national-robotics-week-2026/",
       "source_type": "blog",
       "selection_rationale": "Robotics is a deliberate coverage-gap rotation, selected for a transferable systems lesson: safety, runtime, and certification evidence must be designed as one stack."
+    },
+    {
+      "date": "2026-11-15",
+      "topic": "agentic-delivery-surfaces",
+      "title": "GitHub Universe 2026: Evolving every layer of the stack",
+      "url": "https://github.blog/news-insights/company-news/github-universe-2026-evolving-every-layer-of-the-stack/",
+      "source_type": "blog",
+      "rationale": "Agentic delivery now spans ideation, planning, implementation, verification, deployment, and continuous learning."
+    },
+    {
+      "date": "2026-11-15",
+      "topic": "agentic-delivery-surfaces",
+      "title": "Dynamic workflows in Copilot CLI and the Copilot app",
+      "url": "https://github.blog/changelog/2026-10-01-dynamic-workflows-in-copilot-cli-and-the-copilot-app/",
+      "source_type": "release",
+      "rationale": "Code-defined orchestration combines deterministic steps, agents, structured handoffs, parallel work, checkpoints, and resume."
+    },
+    {
+      "date": "2026-11-15",
+      "topic": "agentic-delivery-surfaces",
+      "title": "When chat is the wrong UI",
+      "url": "https://github.blog/ai-and-ml/github-copilot/when-chat-is-the-wrong-ui/",
+      "source_type": "blog",
+      "rationale": "Task-shaped canvases can expose state and controls more clearly than a transcript."
+    },
+    {
+      "date": "2026-11-15",
+      "topic": "agentic-delivery-surfaces",
+      "title": "GitHub Copilot SDK",
+      "url": "https://github.com/github/copilot-sdk",
+      "source_type": "repo",
+      "rationale": "An SDK surface makes agent capabilities embeddable in custom developer workflows rather than trapped in the CLI."
+    },
+    {
+      "date": "2026-11-15",
+      "topic": "agentic-delivery-surfaces",
+      "title": "Copilot automations",
+      "url": "https://docs.github.com/copilot/concepts/agent-capabilities/agent-powered-workflows-and-operations/about-automations",
+      "source_type": "docs",
+      "rationale": "Repo-native automations point toward agents triggered by events, not only prompts."
+    },
+    {
+      "date": "2026-11-15",
+      "topic": "evidence-linked-agent-memory",
+      "title": "The Sleep Framework: Continual Learning for LLMs",
+      "url": "https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning/",
+      "source_type": "research",
+      "rationale": "Google Research separates active interaction from offline consolidation, using a periodic sleep phase to stabilize new knowledge."
+    },
+    {
+      "date": "2026-11-15",
+      "topic": "evidence-linked-agent-memory",
+      "title": "ReasoningBank: Enabling agents to learn from experience",
+      "url": "https://research.google/blog/reasoningbank-enabling-agents-to-learn-from-experience/",
+      "source_type": "research",
+      "rationale": "Successful and failed trajectories are distilled into reusable reasoning strategies, not copied as raw traces."
+    },
+    {
+      "date": "2026-11-15",
+      "topic": "evidence-linked-agent-memory",
+      "title": "Don’t Just Trust Your Memory",
+      "url": "https://arxiv.org/html/2611.14320v1",
+      "source_type": "paper",
+      "rationale": "WikiTrace links each lesson to a compilation and the unchanged raw trajectory; reported results reduce memory-induced regressions."
+    },
+    {
+      "date": "2026-11-15",
+      "topic": "evidence-linked-agent-memory",
+      "title": "Continual Learning Exam",
+      "url": "https://arxiv.org/html/2610.33956v1",
+      "source_type": "paper",
+      "rationale": "CLE tests five-level professional task ladders and whether experience improves later work; frontier systems still struggle with sustained learning."
+    },
+    {
+      "date": "2026-11-15",
+      "topic": "evidence-linked-agent-memory",
+      "title": "AgentCL: Toward Rigorous Evaluation of Continual Learning",
+      "url": "https://arxiv.org/html/2606.02461v2",
+      "source_type": "paper",
+      "rationale": "AgentCL compares memory designs across retrieval, test-time learning, and continual adaptation settings."
+    },
+    {
+      "date": "2026-11-15",
+      "topic": "agent-identity-and-interoperability",
+      "title": "SI Agent Standards Initiative",
+      "url": "https://www.nist.gov/super-intelligence/si-agent-standards-initiative",
+      "source_type": "standards",
+      "rationale": "NIST is organizing work around trusted, interoperable, secure autonomous agents, including identity infrastructure and multi-agent security."
+    },
+    {
+      "date": "2026-11-15",
+      "topic": "agent-identity-and-interoperability",
+      "title": "Software and AI Agent Identity and Authorization",
+      "url": "https://www.nccoe.nist.gov/projects/software-and-ai-agent-identity-and-authorization",
+      "source_type": "standards",
+      "rationale": "NCCoE connects agent identity and authorization to enterprise use cases and existing identity standards."
+    },
+    {
+      "date": "2026-11-15",
+      "topic": "agent-identity-and-interoperability",
+      "title": "Announcing the AI Agent Standards Initiative",
+      "url": "https://www.nist.gov/news-events/news/2026/02/announcing-ai-agent-standards-initiative-interoperable-and-secure",
+      "source_type": "news",
+      "rationale": "The initiative frames interoperability and secure action on behalf of users as adoption prerequisites."
+    },
+    {
+      "date": "2026-11-15",
+      "topic": "agent-identity-and-interoperability",
+      "title": "Open and Emergent Problems in Agentic Privacy and Security",
+      "url": "https://research.google/blog/open-and-emergent-problems-in-agentic-privacy-and-security-a-contextual-angle/",
+      "source_type": "research",
+      "rationale": "Privacy risk depends on context, tool access, and the social setting in which agents act, not only model behavior."
+    },
+    {
+      "date": "2026-11-15",
+      "topic": "agent-identity-and-interoperability",
+      "title": "OWASP Top 10 for Agentic Applications 2026",
+      "url": "https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/",
+      "source_type": "standard",
+      "rationale": "Goal hijack, tool misuse, and related classes translate agent risk into test fixtures."
+    },
+    {
+      "date": "2026-11-15",
+      "topic": "physical-agent-evaluation",
+      "title": "RLE-Bench: Can Your AI Engineer a Robot?",
+      "url": "https://seas.harvard.edu/news/can-your-ai-engineer-robot",
+      "source_type": "news",
+      "rationale": "Harvard and Georgia Tech’s open benchmark covers 48 tasks across control, policy, perception, and mechanical design."
+    },
+    {
+      "date": "2026-11-15",
+      "topic": "physical-agent-evaluation",
+      "title": "RLE-Bench paper",
+      "url": "https://arxiv.org/abs/2609.34210",
+      "source_type": "paper",
+      "rationale": "The benchmark scores workflow-specific artifacts and aggregates them into an overall index plus capability profiles."
+    },
+    {
+      "date": "2026-11-15",
+      "topic": "physical-agent-evaluation",
+      "title": "RLE-Bench project site",
+      "url": "https://rle-bench.github.io/",
+      "source_type": "product",
+      "rationale": "The public project makes the benchmark and task structure accessible for inspection and reuse."
+    },
+    {
+      "date": "2026-11-15",
+      "topic": "physical-agent-evaluation",
+      "title": "Continual Learning Exam",
+      "url": "https://arxiv.org/html/2610.33956v1",
+      "source_type": "paper",
+      "rationale": "Five-level task ladders test whether an agent retains and applies experience across professional work."
+    },
+    {
+      "date": "2026-11-15",
+      "topic": "physical-agent-evaluation",
+      "title": "Embodied First Exam",
+      "url": "https://arxiv.org/html/2611.12177v1",
+      "source_type": "paper",
+      "rationale": "A broad evaluation combines many capability and safety suites rather than a single narrow benchmark."
     }
   ],
   "last_run_selection": [
-    "memory-evaluation",
-    "agent-execution-economics",
-    "physical-ai-safety"
+    "agentic-delivery-surfaces",
+    "evidence-linked-agent-memory",
+    "agent-identity-and-interoperability",
+    "physical-agent-evaluation"
   ],
   "sources": {
     "architecture": {
@@ -6535,7 +7000,7 @@
     "https://openai.com/index/introducing-gpt-live-1-in-the-api/": {
       "first_seen": "2026-09-23",
       "last_seen": "2026-09-23",
-      "title": "GPT\u2011Live\u20111 in the API"
+      "title": "GPT‑Live‑1 in the API"
     },
     "https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api/": {
       "first_seen": "2026-09-23",
@@ -6595,7 +7060,7 @@
     "https://blog.google/products-and-platforms/products/search/search-io-2026/": {
       "first_seen": "2026-09-23",
       "last_seen": "2026-09-23",
-      "title": "AI Search\u2019s agentic direction"
+      "title": "AI Search’s agentic direction"
     },
     "https://openai.com/index/parallel-cuts-time-and-cost-with-astra/": {
       "first_seen": "2026-09-23",
@@ -6814,7 +7279,7 @@
     "https://customer.io/learn/announcements/biggest-ai-marketing-release": {
       "date": "2026-11-12",
       "lane": "outcome-first-customer-workflows",
-      "title": "Customer.io\u2019s biggest product release: AI Agent and more",
+      "title": "Customer.io’s biggest product release: AI Agent and more",
       "source_type": "product"
     }
   },
@@ -6830,7 +7295,7 @@
       "items": [
         {
           "lane": "agentic-developer-surfaces",
-          "title": "GitHub Copilot weekly releases \u2014 September 21",
+          "title": "GitHub Copilot weekly releases — September 21",
           "url": "https://github.blog/changelog/2026-09-25-github-copilot-weekly-releases-september-21/",
           "source_type": "release",
           "rationale": "The surface area for safe agent operation is moving into ordinary developer tooling."
@@ -6868,7 +7333,7 @@
           "title": "Towards a science of scaling agent systems",
           "url": "https://research.google/blog/towards-a-science-of-scaling-agent-systems-when-and-why-agent-systems-work/",
           "source_type": "research",
-          "rationale": "\u201cMore agents\u201d is not a design principle; task structure should choose the architecture."
+          "rationale": "“More agents” is not a design principle; task structure should choose the architecture."
         },
         {
           "lane": "agent-systems-evals",
@@ -6879,7 +7344,7 @@
         },
         {
           "lane": "agent-systems-evals",
-          "title": "AIRA\u2082: Overcoming Bottlenecks in AI Research Agents",
+          "title": "AIRA₂: Overcoming Bottlenecks in AI Research Agents",
           "url": "https://ai.meta.com/research/publications/aira-overcoming-bottlenecks-in-ai-research-agents/",
           "source_type": "research",
           "rationale": "Throughput, evaluation noise, and rigid operators are separate bottlenecks that compound over long searches."
@@ -6896,7 +7361,7 @@
           "title": "Google Cloud + Wiz: agentic defense",
           "url": "https://cloud.google.com/blog/products/identity-security/next26-redefining-security-for-the-ai-era-with-google-cloud-and-wiz",
           "source_type": "security platform",
-          "rationale": "Agent security is becoming an operating model spanning identity, runtime, code, and response\u2014not a prompt filter."
+          "rationale": "Agent security is becoming an operating model spanning identity, runtime, code, and response—not a prompt filter."
         },
         {
           "lane": "agentic-security-defense",
@@ -6931,7 +7396,7 @@
           "title": "How AI-native companies turn workflows into operating capability",
           "url": "https://openai.com/index/ai-native-company-workflows/",
           "source_type": "operator playbook",
-          "rationale": "The transferable pattern is not \u201cuse an agent\u201d; it is encode a repeatable job with context, permissions, checks, and an owner."
+          "rationale": "The transferable pattern is not “use an agent”; it is encode a repeatable job with context, permissions, checks, and an owner."
         },
         {
           "lane": "ai-native-operator-workflows",
@@ -6981,14 +7446,14 @@
         },
         {
           "lane": "multi-model-orchestration",
-          "title": "GitHub Copilot monthly enterprise roundup \u2014 September 2026",
+          "title": "GitHub Copilot monthly enterprise roundup — September 2026",
           "url": "https://github.com/resources/insights/enterprise-content-roundup-september-26",
           "source_type": "product roundup",
           "rationale": "It places multi-model orchestration alongside agent apps and workflow surfaces."
         },
         {
           "lane": "collaborative-agent-planning",
-          "title": "Chopin \u2014 a real-time multiplayer, agentic planning environment",
+          "title": "Chopin — a real-time multiplayer, agentic planning environment",
           "url": "https://githubnext.com/projects/chopin/",
           "source_type": "research prototype",
           "rationale": "It joins human presence, shared plans, chat, and MCP in one planning surface."
@@ -7117,7 +7582,7 @@
         }
       ],
       "selection_rationale": "Followed fresh October 2 primary signals while rotating toward product surfaces, local AI, and durable infrastructure.",
-      "editorial_thesis": "Today\u2019s strongest signals move the agent conversation from model novelty to product surfaces, programmable review, local boundaries, and durable execution."
+      "editorial_thesis": "Today’s strongest signals move the agent conversation from model novelty to product surfaces, programmable review, local boundaries, and durable execution."
     },
     {
       "date": "2026-10-05",
@@ -7168,7 +7633,7 @@
           "rationale": "Role-based CRA readiness fills a coverage gap with an evidence workflow."
         },
         {
-          "title": "Googlebook\u2019s Built-In Intelligence",
+          "title": "Googlebook’s Built-In Intelligence",
           "url": "https://blog.google/products-and-platforms/devices/googlebook/googlebook-built-in-intelligence/",
           "source_type": "product",
           "lane": "on-device-physical-systems",
@@ -7189,7 +7654,7 @@
           "rationale": "Diversifies beyond software-only agents with local context, physical constraints, and bounded robotics challenges."
         },
         {
-          "title": "FIRST CANOPY 2026\u20132027",
+          "title": "FIRST CANOPY 2026–2027",
           "url": "https://www.firstinspires.org/first-canopy",
           "source_type": "product",
           "lane": "on-device-physical-systems",
@@ -7499,31 +7964,31 @@
           "title": "GitHub Apps narrow permissions",
           "url": "https://github.blog/changelog/2026-10-13-github-app-improvements-for-least-privilege-and-management/",
           "source_type": "release",
-          "selection_rationale": "Fresh GitHub controls turn least privilege, policy freshness, client versioning, and spend observability into deployable mechanisms\u2014not just guidance."
+          "selection_rationale": "Fresh GitHub controls turn least privilege, policy freshness, client versioning, and spend observability into deployable mechanisms—not just guidance."
         },
         {
           "title": "Managed settings can fail closed",
           "url": "https://github.blog/changelog/2026-10-13-enterprise-managed-settings-enforcement-updates/",
           "source_type": "release",
-          "selection_rationale": "Fresh GitHub controls turn least privilege, policy freshness, client versioning, and spend observability into deployable mechanisms\u2014not just guidance."
+          "selection_rationale": "Fresh GitHub controls turn least privilege, policy freshness, client versioning, and spend observability into deployable mechanisms—not just guidance."
         },
         {
           "title": "Runtime verification meets AgentDojo",
           "url": "https://arxiv.org/html/2610.09793v1",
           "source_type": "paper",
-          "selection_rationale": "Fresh GitHub controls turn least privilege, policy freshness, client versioning, and spend observability into deployable mechanisms\u2014not just guidance."
+          "selection_rationale": "Fresh GitHub controls turn least privilege, policy freshness, client versioning, and spend observability into deployable mechanisms—not just guidance."
         },
         {
           "title": "Representation can change security results",
           "url": "https://arxiv.org/html/2610.03585v1",
           "source_type": "paper",
-          "selection_rationale": "Fresh GitHub controls turn least privilege, policy freshness, client versioning, and spend observability into deployable mechanisms\u2014not just guidance."
+          "selection_rationale": "Fresh GitHub controls turn least privilege, policy freshness, client versioning, and spend observability into deployable mechanisms—not just guidance."
         },
         {
           "title": "AI scan metrics enter the overview",
           "url": "https://github.blog/changelog/2026-10-13-code-scanning-ai-scan-metrics-in-security-overview/",
           "source_type": "release",
-          "selection_rationale": "Fresh GitHub controls turn least privilege, policy freshness, client versioning, and spend observability into deployable mechanisms\u2014not just guidance."
+          "selection_rationale": "Fresh GitHub controls turn least privilege, policy freshness, client versioning, and spend observability into deployable mechanisms—not just guidance."
         },
         {
           "title": "MeMoREval tests embodied memory modalities",
@@ -7563,7 +8028,7 @@
         {
           "slug": "github-security-delivery",
           "title": "Security Delivery Moves Into the Pull Request",
-          "rationale": "GitHub\u2019s newest security loop is reviewable remediation, not autonomous merging."
+          "rationale": "GitHub’s newest security loop is reviewable remediation, not autonomous merging."
         },
         {
           "slug": "agent-ready-data",
@@ -7651,7 +8116,7 @@
         }
       ],
       "selection_rationale": "Rotated toward fresh security delivery, agent-ready data boundaries, and under-covered professional memory/learning signals.",
-      "editorial_thesis": "Today\u2019s strongest signals move agent design toward explicit state, bounded execution, and reviewable evidence: the system should remember what changed, operate against fresh context without risking production, and ask better questions before it acts."
+      "editorial_thesis": "Today’s strongest signals move agent design toward explicit state, bounded execution, and reviewable evidence: the system should remember what changed, operate against fresh context without risking production, and ask better questions before it acts."
     },
     {
       "date": "2026-10-19",
@@ -7702,7 +8167,7 @@
           "title": "Complex agents, shallow tests",
           "url": "https://arxiv.org/html/2610.04921v1",
           "source_type": "paper",
-          "rationale": "This directly supports reviewable delivery: measure scenario coverage, tool misuse, and recovery\u2014not only passing unit tests."
+          "rationale": "This directly supports reviewable delivery: measure scenario coverage, tool misuse, and recovery—not only passing unit tests."
         },
         {
           "title": "Agent-controlled forgetting",
@@ -7744,7 +8209,7 @@
           "title": "Nebius Academy + NVIDIA DLI courses",
           "url": "https://nebius.com/blog/posts/nebius-academy-nvidia-dli-hands-on-ai-courses",
           "source_type": "learning",
-          "rationale": "Useful for converting broad AI interest into repeatable operator skill\u2014especially deployment, inference, and model serving."
+          "rationale": "Useful for converting broad AI interest into repeatable operator skill—especially deployment, inference, and model serving."
         },
         {
           "title": "Nebius Academy: human layer of AI transformation",
@@ -7962,7 +8427,7 @@
         {
           "date": "2026-11-09",
           "lane": "local-first-open-tools",
-          "title": "Omnara \u2014 open-source alternative to Claude Managed Agents",
+          "title": "Omnara — open-source alternative to Claude Managed Agents",
           "url": "https://news.ycombinator.com/item?id=50183892",
           "source_type": "news",
           "rationale": "A current open-source agent harness lead centered on self-hosted execution and model choice."
@@ -8014,7 +8479,7 @@
         "Northern Trust and Microsoft client onboarding agent",
         "Introducing the Agents API",
         "Gemini 4 Carbon is now available",
-        "Customer.io\u2019s biggest product release: AI Agent and more"
+        "Customer.io’s biggest product release: AI Agent and more"
       ],
       "urls": [
         "https://news.microsoft.com/source/2026/11/10/ibm-and-microsoft-announce-a-new-ai-agent-platform-designed-for-industry-specific-transformation/",
@@ -8038,7 +8503,7 @@
       "items": [
         {
           "lane": "agentic-developer-surfaces",
-          "title": "GitHub Copilot weekly releases \u2014 September 21",
+          "title": "GitHub Copilot weekly releases — September 21",
           "url": "https://github.blog/changelog/2026-09-25-github-copilot-weekly-releases-september-21/",
           "source_type": "release",
           "rationale": "The surface area for safe agent operation is moving into ordinary developer tooling."
@@ -8076,7 +8541,7 @@
           "title": "Towards a science of scaling agent systems",
           "url": "https://research.google/blog/towards-a-science-of-scaling-agent-systems-when-and-why-agent-systems-work/",
           "source_type": "research",
-          "rationale": "\u201cMore agents\u201d is not a design principle; task structure should choose the architecture."
+          "rationale": "“More agents” is not a design principle; task structure should choose the architecture."
         },
         {
           "lane": "agent-systems-evals",
@@ -8087,7 +8552,7 @@
         },
         {
           "lane": "agent-systems-evals",
-          "title": "AIRA\u2082: Overcoming Bottlenecks in AI Research Agents",
+          "title": "AIRA₂: Overcoming Bottlenecks in AI Research Agents",
           "url": "https://ai.meta.com/research/publications/aira-overcoming-bottlenecks-in-ai-research-agents/",
           "source_type": "research",
           "rationale": "Throughput, evaluation noise, and rigid operators are separate bottlenecks that compound over long searches."
@@ -8104,7 +8569,7 @@
           "title": "Google Cloud + Wiz: agentic defense",
           "url": "https://cloud.google.com/blog/products/identity-security/next26-redefining-security-for-the-ai-era-with-google-cloud-and-wiz",
           "source_type": "security platform",
-          "rationale": "Agent security is becoming an operating model spanning identity, runtime, code, and response\u2014not a prompt filter."
+          "rationale": "Agent security is becoming an operating model spanning identity, runtime, code, and response—not a prompt filter."
         },
         {
           "lane": "agentic-security-defense",
@@ -8139,7 +8604,7 @@
           "title": "How AI-native companies turn workflows into operating capability",
           "url": "https://openai.com/index/ai-native-company-workflows/",
           "source_type": "operator playbook",
-          "rationale": "The transferable pattern is not \u201cuse an agent\u201d; it is encode a repeatable job with context, permissions, checks, and an owner."
+          "rationale": "The transferable pattern is not “use an agent”; it is encode a repeatable job with context, permissions, checks, and an owner."
         },
         {
           "lane": "ai-native-operator-workflows",
@@ -8189,14 +8654,14 @@
         },
         {
           "lane": "multi-model-orchestration",
-          "title": "GitHub Copilot monthly enterprise roundup \u2014 September 2026",
+          "title": "GitHub Copilot monthly enterprise roundup — September 2026",
           "url": "https://github.com/resources/insights/enterprise-content-roundup-september-26",
           "source_type": "product roundup",
           "rationale": "It places multi-model orchestration alongside agent apps and workflow surfaces."
         },
         {
           "lane": "collaborative-agent-planning",
-          "title": "Chopin \u2014 a real-time multiplayer, agentic planning environment",
+          "title": "Chopin — a real-time multiplayer, agentic planning environment",
           "url": "https://githubnext.com/projects/chopin/",
           "source_type": "research prototype",
           "rationale": "It joins human presence, shared plans, chat, and MCP in one planning surface."
@@ -8325,7 +8790,7 @@
         }
       ],
       "selection_rationale": "Followed fresh October 2 primary signals while rotating toward product surfaces, local AI, and durable infrastructure.",
-      "editorial_thesis": "Today\u2019s strongest signals move the agent conversation from model novelty to product surfaces, programmable review, local boundaries, and durable execution."
+      "editorial_thesis": "Today’s strongest signals move the agent conversation from model novelty to product surfaces, programmable review, local boundaries, and durable execution."
     },
     {
       "date": "2026-10-05",
@@ -8376,7 +8841,7 @@
           "rationale": "Role-based CRA readiness fills a coverage gap with an evidence workflow."
         },
         {
-          "title": "Googlebook\u2019s Built-In Intelligence",
+          "title": "Googlebook’s Built-In Intelligence",
           "url": "https://blog.google/products-and-platforms/devices/googlebook/googlebook-built-in-intelligence/",
           "source_type": "product",
           "lane": "on-device-physical-systems",
@@ -8397,7 +8862,7 @@
           "rationale": "Diversifies beyond software-only agents with local context, physical constraints, and bounded robotics challenges."
         },
         {
-          "title": "FIRST CANOPY 2026\u20132027",
+          "title": "FIRST CANOPY 2026–2027",
           "url": "https://www.firstinspires.org/first-canopy",
           "source_type": "product",
           "lane": "on-device-physical-systems",
@@ -8748,7 +9213,7 @@
         {
           "date": "2026-11-09",
           "lane": "local-first-open-tools",
-          "title": "Omnara \u2014 open-source alternative to Claude Managed Agents",
+          "title": "Omnara — open-source alternative to Claude Managed Agents",
           "url": "https://news.ycombinator.com/item?id=50183892",
           "source_type": "news",
           "rationale": "A current open-source agent harness lead centered on self-hosted execution and model choice."
@@ -8800,7 +9265,7 @@
         "Northern Trust and Microsoft client onboarding agent",
         "Introducing the Agents API",
         "Gemini 4 Carbon is now available",
-        "Customer.io\u2019s biggest product release: AI Agent and more"
+        "Customer.io’s biggest product release: AI Agent and more"
       ],
       "urls": [
         "https://news.microsoft.com/source/2026/11/10/ibm-and-microsoft-announce-a-new-ai-agent-platform-designed-for-industry-specific-transformation/",
@@ -8824,7 +9289,7 @@
       "items": [
         {
           "lane": "agentic-developer-surfaces",
-          "title": "GitHub Copilot weekly releases \u2014 September 21",
+          "title": "GitHub Copilot weekly releases — September 21",
           "url": "https://github.blog/changelog/2026-09-25-github-copilot-weekly-releases-september-21/",
           "source_type": "release",
           "rationale": "The surface area for safe agent operation is moving into ordinary developer tooling."
@@ -8862,7 +9327,7 @@
           "title": "Towards a science of scaling agent systems",
           "url": "https://research.google/blog/towards-a-science-of-scaling-agent-systems-when-and-why-agent-systems-work/",
           "source_type": "research",
-          "rationale": "\u201cMore agents\u201d is not a design principle; task structure should choose the architecture."
+          "rationale": "“More agents” is not a design principle; task structure should choose the architecture."
         },
         {
           "lane": "agent-systems-evals",
@@ -8873,7 +9338,7 @@
         },
         {
           "lane": "agent-systems-evals",
-          "title": "AIRA\u2082: Overcoming Bottlenecks in AI Research Agents",
+          "title": "AIRA₂: Overcoming Bottlenecks in AI Research Agents",
           "url": "https://ai.meta.com/research/publications/aira-overcoming-bottlenecks-in-ai-research-agents/",
           "source_type": "research",
           "rationale": "Throughput, evaluation noise, and rigid operators are separate bottlenecks that compound over long searches."
@@ -8890,7 +9355,7 @@
           "title": "Google Cloud + Wiz: agentic defense",
           "url": "https://cloud.google.com/blog/products/identity-security/next26-redefining-security-for-the-ai-era-with-google-cloud-and-wiz",
           "source_type": "security platform",
-          "rationale": "Agent security is becoming an operating model spanning identity, runtime, code, and response\u2014not a prompt filter."
+          "rationale": "Agent security is becoming an operating model spanning identity, runtime, code, and response—not a prompt filter."
         },
         {
           "lane": "agentic-security-defense",
@@ -8925,7 +9390,7 @@
           "title": "How AI-native companies turn workflows into operating capability",
           "url": "https://openai.com/index/ai-native-company-workflows/",
           "source_type": "operator playbook",
-          "rationale": "The transferable pattern is not \u201cuse an agent\u201d; it is encode a repeatable job with context, permissions, checks, and an owner."
+          "rationale": "The transferable pattern is not “use an agent”; it is encode a repeatable job with context, permissions, checks, and an owner."
         },
         {
           "lane": "ai-native-operator-workflows",
@@ -8975,14 +9440,14 @@
         },
         {
           "lane": "multi-model-orchestration",
-          "title": "GitHub Copilot monthly enterprise roundup \u2014 September 2026",
+          "title": "GitHub Copilot monthly enterprise roundup — September 2026",
           "url": "https://github.com/resources/insights/enterprise-content-roundup-september-26",
           "source_type": "product roundup",
           "rationale": "It places multi-model orchestration alongside agent apps and workflow surfaces."
         },
         {
           "lane": "collaborative-agent-planning",
-          "title": "Chopin \u2014 a real-time multiplayer, agentic planning environment",
+          "title": "Chopin — a real-time multiplayer, agentic planning environment",
           "url": "https://githubnext.com/projects/chopin/",
           "source_type": "research prototype",
           "rationale": "It joins human presence, shared plans, chat, and MCP in one planning surface."
@@ -9183,7 +9648,7 @@
         }
       ],
       "selection_rationale": "Followed fresh October 2 primary signals while rotating toward product surfaces, local AI, and durable infrastructure.",
-      "editorial_thesis": "Today\u2019s strongest signals move the agent conversation from model novelty to product surfaces, programmable review, local boundaries, and durable execution."
+      "editorial_thesis": "Today’s strongest signals move the agent conversation from model novelty to product surfaces, programmable review, local boundaries, and durable execution."
     },
     {
       "date": "2026-10-05",
@@ -9234,7 +9699,7 @@
           "rationale": "Role-based CRA readiness fills a coverage gap with an evidence workflow."
         },
         {
-          "title": "Googlebook\u2019s Built-In Intelligence",
+          "title": "Googlebook’s Built-In Intelligence",
           "url": "https://blog.google/products-and-platforms/devices/googlebook/googlebook-built-in-intelligence/",
           "source_type": "product",
           "lane": "on-device-physical-systems",
@@ -9255,7 +9720,7 @@
           "rationale": "Diversifies beyond software-only agents with local context, physical constraints, and bounded robotics challenges."
         },
         {
-          "title": "FIRST CANOPY 2026\u20132027",
+          "title": "FIRST CANOPY 2026–2027",
           "url": "https://www.firstinspires.org/first-canopy",
           "source_type": "product",
           "lane": "on-device-physical-systems",
@@ -9325,25 +9790,25 @@
           "title": "Advancing computer use with Ironclad",
           "url": "https://openai.com/index/advancing-computer-use-with-ironclad/",
           "source_type": "blog",
-          "selection_rationale": "OpenAI\u2019s October 6 Ironclad collaboration is a useful signal beyond generic computer-use demos: complex professional workflows require simulated tasks, reusable terms, approvals, and reliability measurement."
+          "selection_rationale": "OpenAI’s October 6 Ironclad collaboration is a useful signal beyond generic computer-use demos: complex professional workflows require simulated tasks, reusable terms, approvals, and reliability measurement."
         },
         {
           "title": "Agents API computer use",
           "url": "https://developers.openai.com/api/docs/guides/agents-api/tools/computer-use",
           "source_type": "docs",
-          "selection_rationale": "OpenAI\u2019s October 6 Ironclad collaboration is a useful signal beyond generic computer-use demos: complex professional workflows require simulated tasks, reusable terms, approvals, and reliability measurement."
+          "selection_rationale": "OpenAI’s October 6 Ironclad collaboration is a useful signal beyond generic computer-use demos: complex professional workflows require simulated tasks, reusable terms, approvals, and reliability measurement."
         },
         {
           "title": "OpenAI Agents API",
           "url": "https://openai.com/index/introducing-the-agents-api/",
           "source_type": "product",
-          "selection_rationale": "OpenAI\u2019s October 6 Ironclad collaboration is a useful signal beyond generic computer-use demos: complex professional workflows require simulated tasks, reusable terms, approvals, and reliability measurement."
+          "selection_rationale": "OpenAI’s October 6 Ironclad collaboration is a useful signal beyond generic computer-use demos: complex professional workflows require simulated tasks, reusable terms, approvals, and reliability measurement."
         },
         {
           "title": "OpenAI evaluations",
           "url": "https://platform.openai.com/docs/guides/evals",
           "source_type": "docs",
-          "selection_rationale": "OpenAI\u2019s October 6 Ironclad collaboration is a useful signal beyond generic computer-use demos: complex professional workflows require simulated tasks, reusable terms, approvals, and reliability measurement."
+          "selection_rationale": "OpenAI’s October 6 Ironclad collaboration is a useful signal beyond generic computer-use demos: complex professional workflows require simulated tasks, reusable terms, approvals, and reliability measurement."
         },
         {
           "title": "X25519-only TLS ends for GHE.com",
@@ -9763,7 +10228,7 @@
           "source_type": "model-update"
         }
       ],
-      "selection_rationale": "Rotated toward identity governance, measurement, physical AI, and learning/operator leverage after the prior day\u2019s infrastructure, cyber, and private multimodal coverage."
+      "selection_rationale": "Rotated toward identity governance, measurement, physical AI, and learning/operator leverage after the prior day’s infrastructure, cyber, and private multimodal coverage."
     },
     {
       "date": "2026-11-09",
@@ -9848,7 +10313,7 @@
         {
           "date": "2026-11-09",
           "lane": "local-first-open-tools",
-          "title": "Omnara \u2014 open-source alternative to Claude Managed Agents",
+          "title": "Omnara — open-source alternative to Claude Managed Agents",
           "url": "https://news.ycombinator.com/item?id=50183892",
           "source_type": "news",
           "rationale": "A current open-source agent harness lead centered on self-hosted execution and model choice."
@@ -9900,7 +10365,7 @@
         "Northern Trust and Microsoft client onboarding agent",
         "Introducing the Agents API",
         "Gemini 4 Carbon is now available",
-        "Customer.io\u2019s biggest product release: AI Agent and more"
+        "Customer.io’s biggest product release: AI Agent and more"
       ],
       "urls": [
         "https://news.microsoft.com/source/2026/11/10/ibm-and-microsoft-announce-a-new-ai-agent-platform-designed-for-industry-specific-transformation/",
@@ -9910,6 +10375,60 @@
         "https://customer.io/learn/announcements/biggest-ai-marketing-release"
       ],
       "selection_rationale": "The valuable agent signal is shifting from model novelty to operating design: durable execution, governed delivery, workspace context, and outcome measurement."
+    },
+    {
+      "date": "2026-11-15",
+      "selected_lanes": [
+        "agentic-delivery-surfaces",
+        "evidence-linked-agent-memory",
+        "agent-identity-and-interoperability",
+        "physical-agent-evaluation"
+      ],
+      "items": [
+        "GitHub Universe 2026: Evolving every layer of the stack",
+        "Dynamic workflows in Copilot CLI and the Copilot app",
+        "When chat is the wrong UI",
+        "GitHub Copilot SDK",
+        "Copilot automations",
+        "The Sleep Framework: Continual Learning for LLMs",
+        "ReasoningBank: Enabling agents to learn from experience",
+        "Don’t Just Trust Your Memory",
+        "Continual Learning Exam",
+        "AgentCL: Toward Rigorous Evaluation of Continual Learning",
+        "SI Agent Standards Initiative",
+        "Software and AI Agent Identity and Authorization",
+        "Announcing the AI Agent Standards Initiative",
+        "Open and Emergent Problems in Agentic Privacy and Security",
+        "OWASP Top 10 for Agentic Applications 2026",
+        "RLE-Bench: Can Your AI Engineer a Robot?",
+        "RLE-Bench paper",
+        "RLE-Bench project site",
+        "Continual Learning Exam",
+        "Embodied First Exam"
+      ],
+      "urls": [
+        "https://github.blog/news-insights/company-news/github-universe-2026-evolving-every-layer-of-the-stack/",
+        "https://github.blog/changelog/2026-10-01-dynamic-workflows-in-copilot-cli-and-the-copilot-app/",
+        "https://github.blog/ai-and-ml/github-copilot/when-chat-is-the-wrong-ui/",
+        "https://github.com/github/copilot-sdk",
+        "https://docs.github.com/copilot/concepts/agent-capabilities/agent-powered-workflows-and-operations/about-automations",
+        "https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning/",
+        "https://research.google/blog/reasoningbank-enabling-agents-to-learn-from-experience/",
+        "https://arxiv.org/html/2611.14320v1",
+        "https://arxiv.org/html/2610.33956v1",
+        "https://arxiv.org/html/2606.02461v2",
+        "https://www.nist.gov/super-intelligence/si-agent-standards-initiative",
+        "https://www.nccoe.nist.gov/projects/software-and-ai-agent-identity-and-authorization",
+        "https://www.nist.gov/news-events/news/2026/02/announcing-ai-agent-standards-initiative-interoperable-and-secure",
+        "https://research.google/blog/open-and-emergent-problems-in-agentic-privacy-and-security-a-contextual-angle/",
+        "https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/",
+        "https://seas.harvard.edu/news/can-your-ai-engineer-robot",
+        "https://arxiv.org/abs/2609.34210",
+        "https://rle-bench.github.io/",
+        "https://arxiv.org/html/2610.33956v1",
+        "https://arxiv.org/html/2611.12177v1"
+      ],
+      "selection_rationale": "Rotated toward practical gaps: delivery surfaces, evidence-linked memory, agent identity, and physical-system evaluation."
     }
   ],
   "themes": {
@@ -10009,7 +10528,7 @@
       "last_covered": "2026-11-09"
     }
   },
-  "last_successful_run": "2026-11-13",
+  "last_successful_run": "2026-11-15",
   "history": [
     {
       "date": "2026-09-07",
@@ -10074,7 +10593,7 @@
           "rationale": "Offers a practical audit across discoverability, content, access control, and protocol discovery."
         },
         {
-          "title": "Sandboxing AI Agents, 100\u00d7 Faster",
+          "title": "Sandboxing AI Agents, 100× Faster",
           "url": "https://blog.cloudflare.com/dynamic-workers/",
           "source_type": "product",
           "rationale": "Shows isolate-per-request execution for generated code with explicit capabilities and egress control."
@@ -10119,7 +10638,7 @@
           "title": "Modern Web Guidance",
           "url": "https://developer.chrome.com/docs/modern-web-guidance",
           "source_type": "docs",
-          "rationale": "Google\u2019s preview packages accessibility, performance, security, and Baseline guidance as installable agent skills."
+          "rationale": "Google’s preview packages accessibility, performance, security, and Baseline guidance as installable agent skills."
         },
         {
           "title": "Chrome built-in AI APIs",
@@ -10185,7 +10704,7 @@
           "title": "NitroGen embodied agents",
           "url": "https://github.com/MineDojo/NitroGen",
           "source_type": "repo",
-          "rationale": "NVIDIA\u2019s gameplay-trained embodied-agent direction uses diverse virtual interaction to seek generalization."
+          "rationale": "NVIDIA’s gameplay-trained embodied-agent direction uses diverse virtual interaction to seek generalization."
         },
         {
           "title": "NVIDIA Isaac Sim",
@@ -10209,7 +10728,7 @@
           "title": "How agents are transforming work",
           "url": "https://openai.com/index/how-agents-are-transforming-work/",
           "source_type": "paper",
-          "rationale": "OpenAI\u2019s economic research frames agents as systems for longer, more complex tasks and measures frontier productivity potential."
+          "rationale": "OpenAI’s economic research frames agents as systems for longer, more complex tasks and measures frontier productivity potential."
         },
         {
           "title": "Path to Astra: critical capabilities and frontier safeguards",
@@ -10457,7 +10976,7 @@
           "source_type": "integration",
           "published_or_updated": "2026-09-16",
           "selection_rationale": "Fresh or materially updated primary-source signal with a bounded practical experiment.",
-          "usefulness": "Map campaign \u2192 conversation \u2192 consent \u2192 lead \u2192 follow-up as an auditable client workflow."
+          "usefulness": "Map campaign → conversation → consent → lead → follow-up as an auditable client workflow."
         },
         {
           "date": "2026-09-17",
@@ -10492,7 +11011,7 @@
           "title": "Copilot weekly releases",
           "url": "https://github.blog/changelog/2026-09-18-github-copilot-weekly-releases-september-14/",
           "source_type": "release",
-          "rationale": "The agent inherits a reproducible project boundary instead of improvising against a workstation\u2019s ambient state."
+          "rationale": "The agent inherits a reproducible project boundary instead of improvising against a workstation’s ambient state."
         },
         {
           "title": "Copilot weekly releases",
@@ -10504,7 +11023,7 @@
           "title": "Improved code review",
           "url": "https://github.blog/changelog/2026-09-18-copilot-code-review-an-improved-review-experience/",
           "source_type": "release",
-          "rationale": "Review automation becomes auditable over time instead of resetting on every commit. That makes \u201cwhat remains?\u201d a first-class state."
+          "rationale": "Review automation becomes auditable over time instead of resetting on every commit. That makes “what remains?” a first-class state."
         },
         {
           "title": "Private dependencies",
@@ -10625,7 +11144,7 @@
       ],
       "items": [
         {
-          "title": "GPT\u2011Live\u20111 in the API",
+          "title": "GPT‑Live‑1 in the API",
           "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api/",
           "source_type": "product",
           "rationale": "Prototype a Buildn intake agent that captures a brief, reflects the structured summary, then opens a reviewable artifact."
@@ -10703,7 +11222,7 @@
           "rationale": "Add content-credential checks to Buildn media deliverables and client approval records."
         },
         {
-          "title": "AI Search\u2019s agentic direction",
+          "title": "AI Search’s agentic direction",
           "url": "https://blog.google/products-and-platforms/products/search/search-io-2026/",
           "source_type": "product_direction",
           "rationale": "Design research outputs that preserve direct sources, query scope, and uncertainty rather than only a synthesized answer."
@@ -10725,7 +11244,7 @@
       ],
       "items": [
         {
-          "title": "GPT\u2011Live\u20111 in the API",
+          "title": "GPT‑Live‑1 in the API",
           "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api/",
           "source_type": "product",
           "rationale": "Prototype a Buildn intake agent that captures a brief, reflects the structured summary, then opens a reviewable artifact."
@@ -10803,7 +11322,7 @@
           "rationale": "Add content-credential checks to Buildn media deliverables and client approval records."
         },
         {
-          "title": "AI Search\u2019s agentic direction",
+          "title": "AI Search’s agentic direction",
           "url": "https://blog.google/products-and-platforms/products/search/search-io-2026/",
           "source_type": "product_direction",
           "rationale": "Design research outputs that preserve direct sources, query scope, and uncertainty rather than only a synthesized answer."
@@ -10825,7 +11344,7 @@
       ],
       "items": [
         {
-          "title": "GPT\u2011Live\u20111 in the API",
+          "title": "GPT‑Live‑1 in the API",
           "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api/",
           "source_type": "product",
           "rationale": "Prototype a Buildn intake agent that captures a brief, reflects the structured summary, then opens a reviewable artifact."
@@ -10903,7 +11422,7 @@
           "rationale": "Add content-credential checks to Buildn media deliverables and client approval records."
         },
         {
-          "title": "AI Search\u2019s agentic direction",
+          "title": "AI Search’s agentic direction",
           "url": "https://blog.google/products-and-platforms/products/search/search-io-2026/",
           "source_type": "product_direction",
           "rationale": "Design research outputs that preserve direct sources, query scope, and uncertainty rather than only a synthesized answer."
@@ -10934,7 +11453,7 @@
           "title": "Cisco AI Defense release line",
           "url": "https://securitydocs.cisco.com/docs/ai-def/user/168305.dita",
           "source_type": "product",
-          "rationale": "Borrow the inventory \u2192 profile \u2192 runtime-event loop for client agent reviews."
+          "rationale": "Borrow the inventory → profile → runtime-event loop for client agent reviews."
         },
         {
           "title": "Muse Secure VM",
@@ -11027,7 +11546,7 @@
       "items": [
         {
           "lane": "agentic-developer-surfaces",
-          "title": "GitHub Copilot weekly releases \u2014 September 21",
+          "title": "GitHub Copilot weekly releases — September 21",
           "url": "https://github.blog/changelog/2026-09-25-github-copilot-weekly-releases-september-21/",
           "source_type": "release",
           "rationale": "The surface area for safe agent operation is moving into ordinary developer tooling."
@@ -11065,7 +11584,7 @@
           "title": "Towards a science of scaling agent systems",
           "url": "https://research.google/blog/towards-a-science-of-scaling-agent-systems-when-and-why-agent-systems-work/",
           "source_type": "research",
-          "rationale": "\u201cMore agents\u201d is not a design principle; task structure should choose the architecture."
+          "rationale": "“More agents” is not a design principle; task structure should choose the architecture."
         },
         {
           "lane": "agent-systems-evals",
@@ -11076,7 +11595,7 @@
         },
         {
           "lane": "agent-systems-evals",
-          "title": "AIRA\u2082: Overcoming Bottlenecks in AI Research Agents",
+          "title": "AIRA₂: Overcoming Bottlenecks in AI Research Agents",
           "url": "https://ai.meta.com/research/publications/aira-overcoming-bottlenecks-in-ai-research-agents/",
           "source_type": "research",
           "rationale": "Throughput, evaluation noise, and rigid operators are separate bottlenecks that compound over long searches."
@@ -11093,7 +11612,7 @@
           "title": "Google Cloud + Wiz: agentic defense",
           "url": "https://cloud.google.com/blog/products/identity-security/next26-redefining-security-for-the-ai-era-with-google-cloud-and-wiz",
           "source_type": "security platform",
-          "rationale": "Agent security is becoming an operating model spanning identity, runtime, code, and response\u2014not a prompt filter."
+          "rationale": "Agent security is becoming an operating model spanning identity, runtime, code, and response—not a prompt filter."
         },
         {
           "lane": "agentic-security-defense",
@@ -11128,7 +11647,7 @@
           "title": "How AI-native companies turn workflows into operating capability",
           "url": "https://openai.com/index/ai-native-company-workflows/",
           "source_type": "operator playbook",
-          "rationale": "The transferable pattern is not \u201cuse an agent\u201d; it is encode a repeatable job with context, permissions, checks, and an owner."
+          "rationale": "The transferable pattern is not “use an agent”; it is encode a repeatable job with context, permissions, checks, and an owner."
         },
         {
           "lane": "ai-native-operator-workflows",
@@ -11178,14 +11697,14 @@
         },
         {
           "lane": "multi-model-orchestration",
-          "title": "GitHub Copilot monthly enterprise roundup \u2014 September 2026",
+          "title": "GitHub Copilot monthly enterprise roundup — September 2026",
           "url": "https://github.com/resources/insights/enterprise-content-roundup-september-26",
           "source_type": "product roundup",
           "rationale": "It places multi-model orchestration alongside agent apps and workflow surfaces."
         },
         {
           "lane": "collaborative-agent-planning",
-          "title": "Chopin \u2014 a real-time multiplayer, agentic planning environment",
+          "title": "Chopin — a real-time multiplayer, agentic planning environment",
           "url": "https://githubnext.com/projects/chopin/",
           "source_type": "research prototype",
           "rationale": "It joins human presence, shared plans, chat, and MCP in one planning surface."
@@ -11314,7 +11833,7 @@
         }
       ],
       "selection_rationale": "Followed fresh October 2 primary signals while rotating toward product surfaces, local AI, and durable infrastructure.",
-      "editorial_thesis": "Today\u2019s strongest signals move the agent conversation from model novelty to product surfaces, programmable review, local boundaries, and durable execution."
+      "editorial_thesis": "Today’s strongest signals move the agent conversation from model novelty to product surfaces, programmable review, local boundaries, and durable execution."
     },
     {
       "date": "2026-10-05",
@@ -11365,7 +11884,7 @@
           "rationale": "Role-based CRA readiness fills a coverage gap with an evidence workflow."
         },
         {
-          "title": "Googlebook\u2019s Built-In Intelligence",
+          "title": "Googlebook’s Built-In Intelligence",
           "url": "https://blog.google/products-and-platforms/devices/googlebook/googlebook-built-in-intelligence/",
           "source_type": "product",
           "lane": "on-device-physical-systems",
@@ -11386,7 +11905,7 @@
           "rationale": "Diversifies beyond software-only agents with local context, physical constraints, and bounded robotics challenges."
         },
         {
-          "title": "FIRST CANOPY 2026\u20132027",
+          "title": "FIRST CANOPY 2026–2027",
           "url": "https://www.firstinspires.org/first-canopy",
           "source_type": "product",
           "lane": "on-device-physical-systems",
@@ -11778,7 +12297,7 @@
         "Northern Trust and Microsoft client onboarding agent",
         "Introducing the Agents API",
         "Gemini 4 Carbon is now available",
-        "Customer.io\u2019s biggest product release: AI Agent and more"
+        "Customer.io’s biggest product release: AI Agent and more"
       ],
       "urls": [
         "https://news.microsoft.com/source/2026/11/10/ibm-and-microsoft-announce-a-new-ai-agent-platform-designed-for-industry-specific-transformation/",
@@ -11840,7 +12359,7 @@
     {
       "date": "2026-11-13",
       "lane": "agent-execution-economics",
-      "title": "How Agent Anomaly Detection scores on benchmarks we didn\u2019t write",
+      "title": "How Agent Anomaly Detection scores on benchmarks we didn’t write",
       "url": "https://developers.googleblog.com/how-agent-anomaly-detection-scores-on-benchmarks-we-didnt-write/",
       "source_type": "blog",
       "selection_rationale": "A fresh model release makes multi-model routing and worker/verifier role separation concrete, while a new evaluation highlights the limits of monitoring alone."
@@ -11864,7 +12383,7 @@
     {
       "date": "2026-11-13",
       "lane": "physical-ai-safety",
-      "title": "National Robotics Week \u2014 Latest Physical AI Research",
+      "title": "National Robotics Week — Latest Physical AI Research",
       "url": "https://blogs.nvidia.com/blog/national-robotics-week-2026/",
       "source_type": "blog",
       "selection_rationale": "Robotics is a deliberate coverage-gap rotation, selected for a transferable systems lesson: safety, runtime, and certification evidence must be designed as one stack."
@@ -11910,7 +12429,7 @@
           "rationale": "Concrete fleet-scale coding execution with worktree isolation and staged fan-out."
         }
       ],
-      "selection_rationale": "Rotated away from the prior days\u2019 governance, evidence, context, and multi-model lanes toward current cyber-defense, physical-AI, and operator-surface signals."
+      "selection_rationale": "Rotated away from the prior days’ governance, evidence, context, and multi-model lanes toward current cyber-defense, physical-AI, and operator-surface signals."
     },
     {
       "date": "2026-10-05",
@@ -11961,7 +12480,7 @@
           "rationale": "Role-based CRA readiness fills a coverage gap with an evidence workflow."
         },
         {
-          "title": "Googlebook\u2019s Built-In Intelligence",
+          "title": "Googlebook’s Built-In Intelligence",
           "url": "https://blog.google/products-and-platforms/devices/googlebook/googlebook-built-in-intelligence/",
           "source_type": "product",
           "lane": "on-device-physical-systems",
@@ -11982,7 +12501,7 @@
           "rationale": "Diversifies beyond software-only agents with local context, physical constraints, and bounded robotics challenges."
         },
         {
-          "title": "FIRST CANOPY 2026\u20132027",
+          "title": "FIRST CANOPY 2026–2027",
           "url": "https://www.firstinspires.org/first-canopy",
           "source_type": "product",
           "lane": "on-device-physical-systems",
@@ -12333,7 +12852,7 @@
         {
           "date": "2026-11-09",
           "lane": "local-first-open-tools",
-          "title": "Omnara \u2014 open-source alternative to Claude Managed Agents",
+          "title": "Omnara — open-source alternative to Claude Managed Agents",
           "url": "https://news.ycombinator.com/item?id=50183892",
           "source_type": "news",
           "rationale": "A current open-source agent harness lead centered on self-hosted execution and model choice."
@@ -12385,7 +12904,7 @@
         "Northern Trust and Microsoft client onboarding agent",
         "Introducing the Agents API",
         "Gemini 4 Carbon is now available",
-        "Customer.io\u2019s biggest product release: AI Agent and more"
+        "Customer.io’s biggest product release: AI Agent and more"
       ],
       "urls": [
         "https://news.microsoft.com/source/2026/11/10/ibm-and-microsoft-announce-a-new-ai-agent-platform-designed-for-industry-specific-transformation/",
@@ -12395,9 +12914,63 @@
         "https://customer.io/learn/announcements/biggest-ai-marketing-release"
       ],
       "selection_rationale": "The valuable agent signal is shifting from model novelty to operating design: durable execution, governed delivery, workspace context, and outcome measurement."
+    },
+    {
+      "date": "2026-11-15",
+      "selected_lanes": [
+        "agentic-delivery-surfaces",
+        "evidence-linked-agent-memory",
+        "agent-identity-and-interoperability",
+        "physical-agent-evaluation"
+      ],
+      "items": [
+        "GitHub Universe 2026: Evolving every layer of the stack",
+        "Dynamic workflows in Copilot CLI and the Copilot app",
+        "When chat is the wrong UI",
+        "GitHub Copilot SDK",
+        "Copilot automations",
+        "The Sleep Framework: Continual Learning for LLMs",
+        "ReasoningBank: Enabling agents to learn from experience",
+        "Don’t Just Trust Your Memory",
+        "Continual Learning Exam",
+        "AgentCL: Toward Rigorous Evaluation of Continual Learning",
+        "SI Agent Standards Initiative",
+        "Software and AI Agent Identity and Authorization",
+        "Announcing the AI Agent Standards Initiative",
+        "Open and Emergent Problems in Agentic Privacy and Security",
+        "OWASP Top 10 for Agentic Applications 2026",
+        "RLE-Bench: Can Your AI Engineer a Robot?",
+        "RLE-Bench paper",
+        "RLE-Bench project site",
+        "Continual Learning Exam",
+        "Embodied First Exam"
+      ],
+      "urls": [
+        "https://github.blog/news-insights/company-news/github-universe-2026-evolving-every-layer-of-the-stack/",
+        "https://github.blog/changelog/2026-10-01-dynamic-workflows-in-copilot-cli-and-the-copilot-app/",
+        "https://github.blog/ai-and-ml/github-copilot/when-chat-is-the-wrong-ui/",
+        "https://github.com/github/copilot-sdk",
+        "https://docs.github.com/copilot/concepts/agent-capabilities/agent-powered-workflows-and-operations/about-automations",
+        "https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning/",
+        "https://research.google/blog/reasoningbank-enabling-agents-to-learn-from-experience/",
+        "https://arxiv.org/html/2611.14320v1",
+        "https://arxiv.org/html/2610.33956v1",
+        "https://arxiv.org/html/2606.02461v2",
+        "https://www.nist.gov/super-intelligence/si-agent-standards-initiative",
+        "https://www.nccoe.nist.gov/projects/software-and-ai-agent-identity-and-authorization",
+        "https://www.nist.gov/news-events/news/2026/02/announcing-ai-agent-standards-initiative-interoperable-and-secure",
+        "https://research.google/blog/open-and-emergent-problems-in-agentic-privacy-and-security-a-contextual-angle/",
+        "https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/",
+        "https://seas.harvard.edu/news/can-your-ai-engineer-robot",
+        "https://arxiv.org/abs/2609.34210",
+        "https://rle-bench.github.io/",
+        "https://arxiv.org/html/2610.33956v1",
+        "https://arxiv.org/html/2611.12177v1"
+      ],
+      "selection_rationale": "Rotated toward practical gaps: delivery surfaces, evidence-linked memory, agent identity, and physical-system evaluation."
     }
   ],
-  "last_updated": "2026-11-13",
+  "last_updated": "2026-11-15",
   "successful_runs": [
     {
       "date": "2026-10-24",
@@ -12549,7 +13122,7 @@
           "selection_rationale": "Supports narrower and more manageable agent authority."
         }
       ],
-      "selection_rationale": "Followed fresh October 23 signals while rotating away from yesterday\u2019s design/browser emphasis; memory is included as a material update focused on deletion, drift, and economics."
+      "selection_rationale": "Followed fresh October 23 signals while rotating away from yesterday’s design/browser emphasis; memory is included as a material update focused on deletion, drift, and economics."
     },
     {
       "date": "2026-10-17",
@@ -12639,7 +13212,7 @@
         "embodied-memory-and-evidence",
         "developer-workflow-feedback"
       ],
-      "thesis": "Agents become useful when boundaries, connectors, memory, and feedback are designed as one inspectable operating system\u2014not as isolated capability demos."
+      "thesis": "Agents become useful when boundaries, connectors, memory, and feedback are designed as one inspectable operating system—not as isolated capability demos."
     },
     {
       "date": "2026-11-09",
@@ -12724,7 +13297,7 @@
         {
           "date": "2026-11-09",
           "lane": "local-first-open-tools",
-          "title": "Omnara \u2014 open-source alternative to Claude Managed Agents",
+          "title": "Omnara — open-source alternative to Claude Managed Agents",
           "url": "https://news.ycombinator.com/item?id=50183892",
           "source_type": "news",
           "rationale": "A current open-source agent harness lead centered on self-hosted execution and model choice."
@@ -12776,7 +13349,7 @@
         "Northern Trust and Microsoft client onboarding agent",
         "Introducing the Agents API",
         "Gemini 4 Carbon is now available",
-        "Customer.io\u2019s biggest product release: AI Agent and more"
+        "Customer.io’s biggest product release: AI Agent and more"
       ],
       "urls": [
         "https://news.microsoft.com/source/2026/11/10/ibm-and-microsoft-announce-a-new-ai-agent-platform-designed-for-industry-specific-transformation/",
@@ -12786,8 +13359,62 @@
         "https://customer.io/learn/announcements/biggest-ai-marketing-release"
       ],
       "selection_rationale": "The valuable agent signal is shifting from model novelty to operating design: durable execution, governed delivery, workspace context, and outcome measurement."
+    },
+    {
+      "date": "2026-11-15",
+      "selected_lanes": [
+        "agentic-delivery-surfaces",
+        "evidence-linked-agent-memory",
+        "agent-identity-and-interoperability",
+        "physical-agent-evaluation"
+      ],
+      "items": [
+        "GitHub Universe 2026: Evolving every layer of the stack",
+        "Dynamic workflows in Copilot CLI and the Copilot app",
+        "When chat is the wrong UI",
+        "GitHub Copilot SDK",
+        "Copilot automations",
+        "The Sleep Framework: Continual Learning for LLMs",
+        "ReasoningBank: Enabling agents to learn from experience",
+        "Don’t Just Trust Your Memory",
+        "Continual Learning Exam",
+        "AgentCL: Toward Rigorous Evaluation of Continual Learning",
+        "SI Agent Standards Initiative",
+        "Software and AI Agent Identity and Authorization",
+        "Announcing the AI Agent Standards Initiative",
+        "Open and Emergent Problems in Agentic Privacy and Security",
+        "OWASP Top 10 for Agentic Applications 2026",
+        "RLE-Bench: Can Your AI Engineer a Robot?",
+        "RLE-Bench paper",
+        "RLE-Bench project site",
+        "Continual Learning Exam",
+        "Embodied First Exam"
+      ],
+      "urls": [
+        "https://github.blog/news-insights/company-news/github-universe-2026-evolving-every-layer-of-the-stack/",
+        "https://github.blog/changelog/2026-10-01-dynamic-workflows-in-copilot-cli-and-the-copilot-app/",
+        "https://github.blog/ai-and-ml/github-copilot/when-chat-is-the-wrong-ui/",
+        "https://github.com/github/copilot-sdk",
+        "https://docs.github.com/copilot/concepts/agent-capabilities/agent-powered-workflows-and-operations/about-automations",
+        "https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning/",
+        "https://research.google/blog/reasoningbank-enabling-agents-to-learn-from-experience/",
+        "https://arxiv.org/html/2611.14320v1",
+        "https://arxiv.org/html/2610.33956v1",
+        "https://arxiv.org/html/2606.02461v2",
+        "https://www.nist.gov/super-intelligence/si-agent-standards-initiative",
+        "https://www.nccoe.nist.gov/projects/software-and-ai-agent-identity-and-authorization",
+        "https://www.nist.gov/news-events/news/2026/02/announcing-ai-agent-standards-initiative-interoperable-and-secure",
+        "https://research.google/blog/open-and-emergent-problems-in-agentic-privacy-and-security-a-contextual-angle/",
+        "https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/",
+        "https://seas.harvard.edu/news/can-your-ai-engineer-robot",
+        "https://arxiv.org/abs/2609.34210",
+        "https://rle-bench.github.io/",
+        "https://arxiv.org/html/2610.33956v1",
+        "https://arxiv.org/html/2611.12177v1"
+      ],
+      "selection_rationale": "Rotated toward practical gaps: delivery surfaces, evidence-linked memory, agent identity, and physical-system evaluation."
     }
   ],
-  "last_selection_rationale": "Rotated toward fresh memory evaluation, model-routing economics, and under-covered physical-AI safety.",
-  "last_generated_at": "2026-11-12T09:00:48Z"
+  "last_selection_rationale": "Rotated toward practical gaps: delivery surfaces, evidence-linked memory, agent identity, and physical-system evaluation.",
+  "last_generated_at": "2026-11-15T09:12:00+00:00"
 }
