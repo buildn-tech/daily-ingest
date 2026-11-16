@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-11-15T09:07:36.210209+00:00",
+  "updated_at": "2026-11-16T09:06:54.357931+00:00",
   "days": [
+    {
+      "date": "2026-11-16",
+      "path": "2026-11-16",
+      "reports": [
+        {
+          "lane": "agent-platform-durability",
+          "title": "Agent Platform Durability + Portability",
+          "url": "2026-11-16/agent-platform-durability.html"
+        },
+        {
+          "lane": "model-economics-evaluation",
+          "title": "Model Economics + Evaluation",
+          "url": "2026-11-16/model-economics-evaluation.html"
+        },
+        {
+          "lane": "agentic-web-commerce",
+          "title": "Agentic Web + Commerce Controls",
+          "url": "2026-11-16/agentic-web-commerce.html"
+        },
+        {
+          "lane": "design-to-delivery",
+          "title": "Design-to-Delivery + Local Code",
+          "url": "2026-11-16/design-to-delivery.html"
+        }
+      ]
+    },
     {
       "date": "2026-11-15",
       "path": "2026-11-15",

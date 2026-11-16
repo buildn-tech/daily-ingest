@@ -1,0 +1,195 @@
+{
+  "date": "2026-11-16",
+  "generated_at": "2026-11-16T09:06:26.818280+00:00",
+  "editorial_thesis": "Agent infrastructure is converging on durable state, delegated authority, measured economics, and design-to-delivery seams; Buildn should keep those seams portable and inspectable.",
+  "topic_groups": [
+    {
+      "slug": "agent-platform-durability",
+      "title": "Agent Platform Durability + Portability",
+      "selection_rationale": "Managed agent surfaces are accelerating, but the durable asset is the portable workflow contract: state, tools, approvals, evals, and evidence.",
+      "sources": [
+        {
+          "title": "OpenAI AgentKit update",
+          "url": "https://openai.com/index/introducing-agentkit/",
+          "source_type": "product",
+          "published_or_updated": "2026-11-16 or current",
+          "why_selected": "Fresh practical signal for this lane and not present in the prior day ledger.",
+          "usefulness": "Provides a concrete experiment or control to apply in Buildn/client workflows."
+        },
+        {
+          "title": "Vercel Workflow SDK 5",
+          "url": "https://vercel.com/blog/workflow-sdk-5",
+          "source_type": "blog",
+          "published_or_updated": "2026-11-16 or current",
+          "why_selected": "Fresh practical signal for this lane and not present in the prior day ledger.",
+          "usefulness": "Provides a concrete experiment or control to apply in Buildn/client workflows."
+        },
+        {
+          "title": "Vercel AI SDK 6",
+          "url": "https://vercel.com/blog/ai-sdk-6",
+          "source_type": "blog",
+          "published_or_updated": "2026-11-16 or current",
+          "why_selected": "Fresh practical signal for this lane and not present in the prior day ledger.",
+          "usefulness": "Provides a concrete experiment or control to apply in Buildn/client workflows."
+        },
+        {
+          "title": "Cloudflare Project Think",
+          "url": "https://blog.cloudflare.com/project-think/",
+          "source_type": "blog",
+          "published_or_updated": "2026-11-16 or current",
+          "why_selected": "Fresh practical signal for this lane and not present in the prior day ledger.",
+          "usefulness": "Provides a concrete experiment or control to apply in Buildn/client workflows."
+        },
+        {
+          "title": "GitHub Copilot automations",
+          "url": "https://github.blog/changelog/2026-10-28-new-tools-triggers-and-cost-controls-for-copilot-automations/",
+          "source_type": "blog",
+          "published_or_updated": "2026-11-16 or current",
+          "why_selected": "Fresh practical signal for this lane and not present in the prior day ledger.",
+          "usefulness": "Provides a concrete experiment or control to apply in Buildn/client workflows."
+        }
+      ]
+    },
+    {
+      "slug": "model-economics-evaluation",
+      "title": "Model Economics + Evaluation",
+      "selection_rationale": "The useful unit is no longer \u201cbest model.\u201d It is a measured portfolio that turns heterogeneous tasks into successful, reviewable outcomes at acceptable cost.",
+      "sources": [
+        {
+          "title": "Vercel AI Gateway production index",
+          "url": "https://vercel.com/blog/ai-gateway-production-index-november-2026",
+          "source_type": "blog",
+          "published_or_updated": "2026-11-16 or current",
+          "why_selected": "Fresh practical signal for this lane and not present in the prior day ledger.",
+          "usefulness": "Provides a concrete experiment or control to apply in Buildn/client workflows."
+        },
+        {
+          "title": "MKA benchmark",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/multimodal-knowledge-agent-benchmark/",
+          "source_type": "blog",
+          "published_or_updated": "2026-11-16 or current",
+          "why_selected": "Fresh practical signal for this lane and not present in the prior day ledger.",
+          "usefulness": "Provides a concrete experiment or control to apply in Buildn/client workflows."
+        },
+        {
+          "title": "METR R&D assessment",
+          "url": "https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/",
+          "source_type": "blog",
+          "published_or_updated": "2026-11-16 or current",
+          "why_selected": "Fresh practical signal for this lane and not present in the prior day ledger.",
+          "usefulness": "Provides a concrete experiment or control to apply in Buildn/client workflows."
+        },
+        {
+          "title": "Vals AI benchmarks",
+          "url": "https://www.vals.ai/home",
+          "source_type": "product",
+          "published_or_updated": "2026-11-16 or current",
+          "why_selected": "Fresh practical signal for this lane and not present in the prior day ledger.",
+          "usefulness": "Provides a concrete experiment or control to apply in Buildn/client workflows."
+        },
+        {
+          "title": "Princeton evaluation trends",
+          "url": "https://sage.cs.princeton.edu/trends/emerging-trends-paper.pdf",
+          "source_type": "product",
+          "published_or_updated": "2026-11-16 or current",
+          "why_selected": "Fresh practical signal for this lane and not present in the prior day ledger.",
+          "usefulness": "Provides a concrete experiment or control to apply in Buildn/client workflows."
+        }
+      ]
+    },
+    {
+      "slug": "agentic-web-commerce",
+      "title": "Agentic Web + Commerce Controls",
+      "selection_rationale": "The web is moving toward explicit delegation, agent-aware access, and programmable payment authority. Buildn can turn those ideas into accountable, reversible workflow primitives now.",
+      "sources": [
+        {
+          "title": "Cloudflare trusted agent delegation",
+          "url": "https://blog.cloudflare.com/trusted-agent-delegation/",
+          "source_type": "blog",
+          "published_or_updated": "2026-11-16 or current",
+          "why_selected": "Fresh practical signal for this lane and not present in the prior day ledger.",
+          "usefulness": "Provides a concrete experiment or control to apply in Buildn/client workflows."
+        },
+        {
+          "title": "Stripe Agentic Commerce Suite",
+          "url": "https://stripe.com/newsroom/news/agentic-commerce-suite",
+          "source_type": "product",
+          "published_or_updated": "2026-11-16 or current",
+          "why_selected": "Fresh practical signal for this lane and not present in the prior day ledger.",
+          "usefulness": "Provides a concrete experiment or control to apply in Buildn/client workflows."
+        },
+        {
+          "title": "Cloudflare Wallets",
+          "url": "https://blog.cloudflare.com/wallets/",
+          "source_type": "blog",
+          "published_or_updated": "2026-11-16 or current",
+          "why_selected": "Fresh practical signal for this lane and not present in the prior day ledger.",
+          "usefulness": "Provides a concrete experiment or control to apply in Buildn/client workflows."
+        },
+        {
+          "title": "Cloudflare personal agent controls",
+          "url": "https://blog.cloudflare.com/personal-agents-visibility-control/",
+          "source_type": "blog",
+          "published_or_updated": "2026-11-16 or current",
+          "why_selected": "Fresh practical signal for this lane and not present in the prior day ledger.",
+          "usefulness": "Provides a concrete experiment or control to apply in Buildn/client workflows."
+        },
+        {
+          "title": "Cloudflare Agent Access Model",
+          "url": "https://blog.cloudflare.com/the-agent-access-model/",
+          "source_type": "blog",
+          "published_or_updated": "2026-11-16 or current",
+          "why_selected": "Fresh practical signal for this lane and not present in the prior day ledger.",
+          "usefulness": "Provides a concrete experiment or control to apply in Buildn/client workflows."
+        }
+      ]
+    },
+    {
+      "slug": "design-to-delivery",
+      "title": "Design-to-Delivery + Local Code",
+      "selection_rationale": "The design surface is becoming an agent workspace, but the durable advantage is the seam: structured intent moves into local, testable code and returns as visual evidence.",
+      "sources": [
+        {
+          "title": "Figma AI role in creative process",
+          "url": "https://www.figma.com/blog/ai-role-in-the-creative-process/",
+          "source_type": "blog",
+          "published_or_updated": "2026-11-16 or current",
+          "why_selected": "Fresh practical signal for this lane and not present in the prior day ledger.",
+          "usefulness": "Provides a concrete experiment or control to apply in Buildn/client workflows."
+        },
+        {
+          "title": "Figma local code",
+          "url": "https://www.figma.com/blog/figma-make-now-on-your-local-code/",
+          "source_type": "blog",
+          "published_or_updated": "2026-11-16 or current",
+          "why_selected": "Fresh practical signal for this lane and not present in the prior day ledger.",
+          "usefulness": "Provides a concrete experiment or control to apply in Buildn/client workflows."
+        },
+        {
+          "title": "Figma design agent",
+          "url": "https://www.figma.com/blog/the-figma-agent-is-here/",
+          "source_type": "blog",
+          "published_or_updated": "2026-11-16 or current",
+          "why_selected": "Fresh practical signal for this lane and not present in the prior day ledger.",
+          "usefulness": "Provides a concrete experiment or control to apply in Buildn/client workflows."
+        },
+        {
+          "title": "Figma MCP workflow",
+          "url": "https://www.figma.com/blog/workflow-lab-expanding-the-canvas-with-figma-mcp/",
+          "source_type": "blog",
+          "published_or_updated": "2026-11-16 or current",
+          "why_selected": "Fresh practical signal for this lane and not present in the prior day ledger.",
+          "usefulness": "Provides a concrete experiment or control to apply in Buildn/client workflows."
+        },
+        {
+          "title": "Figma fluent model",
+          "url": "https://www.figma.com/blog/training-a-figma-fluent-editing-model/",
+          "source_type": "blog",
+          "published_or_updated": "2026-11-16 or current",
+          "why_selected": "Fresh practical signal for this lane and not present in the prior day ledger.",
+          "usefulness": "Provides a concrete experiment or control to apply in Buildn/client workflows."
+        }
+      ]
+    }
+  ]
+}

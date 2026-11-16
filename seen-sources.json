@@ -1,6 +1,106 @@
 {
-  "updated_at": "2026-11-15T09:07:36.210209+00:00",
+  "updated_at": "2026-11-16T09:06:54.357931+00:00",
   "sources": {
+    "https://openai.com/index/introducing-agentkit": {
+      "first_seen": "2026-11-16",
+      "last_seen": "2026-08-22",
+      "title": "Introducing AgentKit"
+    },
+    "https://vercel.com/blog/workflow-sdk-5": {
+      "first_seen": "2026-11-16",
+      "last_seen": "2026-11-16",
+      "title": "Vercel Workflow SDK 5"
+    },
+    "https://vercel.com/blog/ai-sdk-6": {
+      "first_seen": "2026-11-16",
+      "last_seen": "2026-11-16",
+      "title": "Vercel AI SDK 6"
+    },
+    "https://blog.cloudflare.com/project-think": {
+      "first_seen": "2026-11-16",
+      "last_seen": "2026-11-16",
+      "title": "Cloudflare Project Think"
+    },
+    "https://github.blog/changelog/2026-10-28-new-tools-triggers-and-cost-controls-for-copilot-automations": {
+      "first_seen": "2026-11-16",
+      "last_seen": "2026-11-16",
+      "title": "GitHub Copilot automations"
+    },
+    "https://vercel.com/blog/ai-gateway-production-index-november-2026": {
+      "first_seen": "2026-11-16",
+      "last_seen": "2026-11-16",
+      "title": "Vercel AI Gateway production index"
+    },
+    "https://blog.google/innovation-and-ai/models-and-research/gemini-models/multimodal-knowledge-agent-benchmark": {
+      "first_seen": "2026-11-16",
+      "last_seen": "2026-11-16",
+      "title": "MKA benchmark"
+    },
+    "https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment": {
+      "first_seen": "2026-11-16",
+      "last_seen": "2026-11-16",
+      "title": "METR R&D assessment"
+    },
+    "https://www.vals.ai/home": {
+      "first_seen": "2026-11-16",
+      "last_seen": "2026-11-16",
+      "title": "Vals AI benchmarks"
+    },
+    "https://sage.cs.princeton.edu/trends/emerging-trends-paper.pdf": {
+      "first_seen": "2026-11-16",
+      "last_seen": "2026-11-16",
+      "title": "Princeton evaluation trends"
+    },
+    "https://blog.cloudflare.com/trusted-agent-delegation": {
+      "first_seen": "2026-11-16",
+      "last_seen": "2026-11-09",
+      "title": "Trusted agent delegation"
+    },
+    "https://stripe.com/newsroom/news/agentic-commerce-suite": {
+      "first_seen": "2026-11-16",
+      "last_seen": "2026-11-16",
+      "title": "Stripe Agentic Commerce Suite"
+    },
+    "https://blog.cloudflare.com/wallets": {
+      "first_seen": "2026-11-16",
+      "last_seen": "2026-11-16",
+      "title": "Cloudflare Wallets"
+    },
+    "https://blog.cloudflare.com/personal-agents-visibility-control": {
+      "first_seen": "2026-11-16",
+      "last_seen": "2026-11-09",
+      "title": "Personal-agent visibility and control"
+    },
+    "https://blog.cloudflare.com/the-agent-access-model": {
+      "first_seen": "2026-11-16",
+      "last_seen": "2026-08-14",
+      "title": "Agent Access Model"
+    },
+    "https://www.figma.com/blog/ai-role-in-the-creative-process": {
+      "first_seen": "2026-11-16",
+      "last_seen": "2026-11-16",
+      "title": "Figma AI role in creative process"
+    },
+    "https://www.figma.com/blog/figma-make-now-on-your-local-code": {
+      "first_seen": "2026-11-16",
+      "last_seen": "2026-11-16",
+      "title": "Figma local code"
+    },
+    "https://www.figma.com/blog/the-figma-agent-is-here": {
+      "first_seen": "2026-11-16",
+      "last_seen": "2026-11-16",
+      "title": "Figma design agent"
+    },
+    "https://www.figma.com/blog/workflow-lab-expanding-the-canvas-with-figma-mcp": {
+      "first_seen": "2026-11-16",
+      "last_seen": "2026-11-16",
+      "title": "Figma MCP workflow"
+    },
+    "https://www.figma.com/blog/training-a-figma-fluent-editing-model": {
+      "first_seen": "2026-11-16",
+      "last_seen": "2026-11-16",
+      "title": "Figma fluent model"
+    },
     "https://github.blog/news-insights/company-news/github-universe-2026-evolving-every-layer-of-the-stack": {
       "first_seen": "2026-11-15",
       "last_seen": "2026-11-10",
@@ -315,21 +415,6 @@
       "first_seen": "2026-11-09",
       "last_seen": "2026-11-09",
       "title": "Cloudflare Containers, rebuilt to scale agent sandboxes"
-    },
-    "https://blog.cloudflare.com/the-agent-access-model": {
-      "first_seen": "2026-11-09",
-      "last_seen": "2026-08-14",
-      "title": "Agent Access Model"
-    },
-    "https://blog.cloudflare.com/trusted-agent-delegation": {
-      "first_seen": "2026-11-09",
-      "last_seen": "2026-11-09",
-      "title": "Trusted agent delegation"
-    },
-    "https://blog.cloudflare.com/personal-agents-visibility-control": {
-      "first_seen": "2026-11-09",
-      "last_seen": "2026-11-09",
-      "title": "Personal-agent visibility and control"
     },
     "https://arxiv.org/abs/2610.19991": {
       "first_seen": "2026-11-09",
@@ -1085,11 +1170,6 @@
       "first_seen": "2026-10-22",
       "last_seen": "2026-10-22",
       "title": "SkillForgeBench: strict completion exposes the gap"
-    },
-    "https://openai.com/index/introducing-agentkit": {
-      "first_seen": "2026-10-22",
-      "last_seen": "2026-08-22",
-      "title": "Introducing AgentKit"
     },
     "https://github.blog/changelog/2026-10-06-update-your-ide-to-restore-agent-activity-in-copilot-usage-metrics": {
       "first_seen": "2026-10-22",
