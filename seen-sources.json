@@ -1,6 +1,41 @@
 {
-  "updated_at": "2026-11-16T09:06:54.357931+00:00",
+  "updated_at": "2026-11-17T09:06:32.139211+00:00",
   "sources": {
+    "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation": {
+      "first_seen": "2026-11-17",
+      "last_seen": "2026-10-28",
+      "title": "Donating Agent Skills to the Agentic AI Foundation"
+    },
+    "https://agentskills.io/": {
+      "first_seen": "2026-11-17",
+      "last_seen": "2026-09-18",
+      "title": "Agent Skills overview"
+    },
+    "https://github.com/agentskills/agentskills": {
+      "first_seen": "2026-11-17",
+      "last_seen": "2026-11-17",
+      "title": "Agentskills GitHub organization"
+    },
+    "https://www.anthropic.com/news/model-context-protocol": {
+      "first_seen": "2026-11-17",
+      "last_seen": "2026-11-17",
+      "title": "MCP remains the neighboring seam"
+    },
+    "https://www.anthropic.com/claude-fable-and-mythos-5-2": {
+      "first_seen": "2026-11-17",
+      "last_seen": "2026-11-11",
+      "title": "Introducing Claude Fable 5.2 and Claude Mythos 5.2"
+    },
+    "https://openai.com/index/our-first-phase-of-embedded-assessments": {
+      "first_seen": "2026-11-17",
+      "last_seen": "2026-11-17",
+      "title": "Embedded access becomes a design principle"
+    },
+    "https://adsknews.autodesk.com/en/news/autodesk-ai-design-manufacturing-au-2026": {
+      "first_seen": "2026-11-17",
+      "last_seen": "2026-10-09",
+      "title": "Autodesk advances AI for design and manufacturing"
+    },
     "https://openai.com/index/introducing-agentkit": {
       "first_seen": "2026-11-16",
       "last_seen": "2026-08-22",
@@ -310,11 +345,6 @@
       "first_seen": "2026-11-12",
       "last_seen": "2026-11-12",
       "title": "Customer.io\u2019s biggest product release: AI Agent and more"
-    },
-    "https://www.anthropic.com/claude-fable-and-mythos-5-2": {
-      "first_seen": "2026-11-11",
-      "last_seen": "2026-11-11",
-      "title": "Introducing Claude Fable 5.2 and Claude Mythos 5.2"
     },
     "https://github.blog/changelog/2026-11-10-gemini-4-carbon-in-github-copilot": {
       "first_seen": "2026-11-11",
@@ -800,11 +830,6 @@
       "first_seen": "2026-10-29",
       "last_seen": "2026-10-29",
       "title": "Public real-user data can ground performance claims"
-    },
-    "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation": {
-      "first_seen": "2026-10-28",
-      "last_seen": "2026-10-28",
-      "title": "Donating Agent Skills to the Agentic AI Foundation"
     },
     "https://developers.googleblog.com/fast-reliable-a2ui": {
       "first_seen": "2026-10-28",
@@ -1635,11 +1660,6 @@
       "first_seen": "2026-10-12",
       "last_seen": "2026-10-01",
       "title": "Gemini 4 Argon"
-    },
-    "https://adsknews.autodesk.com/en/news/autodesk-ai-design-manufacturing-au-2026": {
-      "first_seen": "2026-10-12",
-      "last_seen": "2026-10-09",
-      "title": "Autodesk advances AI for design and manufacturing"
     },
     "https://github.com/openclaw/openclaw/releases": {
       "first_seen": "2026-10-11",
@@ -2840,11 +2860,6 @@
       "first_seen": "2026-09-18",
       "last_seen": "2026-09-18",
       "title": "Notion permissions"
-    },
-    "https://agentskills.io/": {
-      "first_seen": "2026-09-18",
-      "last_seen": "2026-09-18",
-      "title": "Agent Skills overview"
     },
     "https://blog.cloudflare.com/accountable-mixed-use-ai-crawlers": {
       "first_seen": "2026-09-18",

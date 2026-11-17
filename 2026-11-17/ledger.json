@@ -1,0 +1,195 @@
+{
+  "date": "2026-11-17",
+  "generated_at": "2026-11-17T09:06:26.980299+00:00",
+  "editorial_thesis": "Useful agent leverage is moving down a layer: portable skills, model routing economics, embedded evidence, and structured domain APIs make the seam explicit and reviewable.",
+  "topic_groups": [
+    {
+      "slug": "agent-skills-interoperability",
+      "title": "Agent Skills + Interoperability",
+      "selection_rationale": "A portable skill format is moving from vendor feature to shared infrastructure; this is a high-leverage coverage gap after yesterday’s platform-convergence lane.",
+      "sources": [
+        {
+          "title": "Agent Skills donated to AAIF",
+          "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
+          "source_type": "standard",
+          "published_or_updated": "Nov 17, 2026",
+          "why_selected": "Fresh, practical signal not covered in the prior day ledger.",
+          "usefulness": "Package recurring Buildn review, report, and publishing procedures as skills; store owner, version, permissions, and evidence requirements beside each skill."
+        },
+        {
+          "title": "Agent Skills specification",
+          "url": "https://agentskills.io/",
+          "source_type": "docs",
+          "published_or_updated": "Current standard",
+          "why_selected": "Fresh, practical signal not covered in the prior day ledger.",
+          "usefulness": "Use it as the interchange format for client playbooks, QA checklists, and report-generation procedures."
+        },
+        {
+          "title": "Agentskills GitHub organization",
+          "url": "https://github.com/agentskills/agentskills",
+          "source_type": "open source",
+          "published_or_updated": "Community maintenance",
+          "why_selected": "Fresh, practical signal not covered in the prior day ledger.",
+          "usefulness": "Track spec changes as a dependency; contribute failure cases from Buildn workflows."
+        },
+        {
+          "title": "MCP remains the neighboring seam",
+          "url": "https://www.anthropic.com/news/model-context-protocol",
+          "source_type": "architecture",
+          "published_or_updated": "Complementary standard",
+          "why_selected": "Fresh, practical signal not covered in the prior day ledger.",
+          "usefulness": "Model Buildn as skills + MCP tools + evidence receipts, rather than one opaque agent prompt."
+        },
+        {
+          "title": "Security guidance is now on the roadmap",
+          "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
+          "source_type": "governance",
+          "published_or_updated": "Proposed next step",
+          "why_selected": "Fresh, practical signal not covered in the prior day ledger.",
+          "usefulness": "Prefigure those controls now: signed source, human owner, allowed tools, network limits, and review date."
+        }
+      ]
+    },
+    {
+      "slug": "frontier-model-workflows",
+      "title": "Frontier Models + Workflow Economics",
+      "selection_rationale": "Today’s current model launch is useful only when translated into routing, spend, and review policy—not another leaderboard entry.",
+      "sources": [
+        {
+          "title": "Claude Fable 5.2 and Mythos 5.2",
+          "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+          "source_type": "model launch",
+          "published_or_updated": "Nov 17 newsroom signal",
+          "why_selected": "Fresh, practical signal not covered in the prior day ledger.",
+          "usefulness": "Trial it on one expensive Buildn reasoning task with a fixed budget, baseline, and human acceptance test."
+        },
+        {
+          "title": "Advisor / orchestrator pattern",
+          "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+          "source_type": "workflow",
+          "published_or_updated": "New model behavior",
+          "why_selected": "Fresh, practical signal not covered in the prior day ledger.",
+          "usefulness": "Make the router explicit in Buildn traces: task class, selected model, fallback, spend, and outcome."
+        },
+        {
+          "title": "Fast mode as a latency purchase",
+          "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+          "source_type": "economics",
+          "published_or_updated": "Pricing/latency option",
+          "why_selected": "Fresh, practical signal not covered in the prior day ledger.",
+          "usefulness": "Offer fast mode only for interactive or deadline-bound client paths; keep batch research on standard economics."
+        },
+        {
+          "title": "Model evaluation claims need local replay",
+          "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+          "source_type": "evaluation",
+          "published_or_updated": "Benchmark caution",
+          "why_selected": "Fresh, practical signal not covered in the prior day ledger.",
+          "usefulness": "Build a small replay set from anonymized Buildn tasks and score correctness, review burden, and cost."
+        },
+        {
+          "title": "Model identity should be a policy object",
+          "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+          "source_type": "governance",
+          "published_or_updated": "Portfolio implication",
+          "why_selected": "Fresh, practical signal not covered in the prior day ledger.",
+          "usefulness": "Record model, effort, mode, prompt version, tools, and approval state in every artifact receipt."
+        }
+      ]
+    },
+    {
+      "slug": "embedded-assessments-governance",
+      "title": "Embedded Assessments + AI Governance",
+      "selection_rationale": "Independent evaluation is an under-covered governance lane with direct relevance to Buildn’s evidence-first operating model.",
+      "sources": [
+        {
+          "title": "OpenAI launches embedded assessments",
+          "url": "https://openai.com/index/our-first-phase-of-embedded-assessments/",
+          "source_type": "governance",
+          "published_or_updated": "Published Nov 16, 2026",
+          "why_selected": "Fresh, practical signal not covered in the prior day ledger.",
+          "usefulness": "For client agents, define an evidence pack: prompts, tool logs, policy decisions, model version, monitor alerts, and human overrides."
+        },
+        {
+          "title": "Apollo: test for covert subversion",
+          "url": "https://openai.com/index/our-first-phase-of-embedded-assessments/",
+          "source_type": "assessment",
+          "published_or_updated": "Initial focus",
+          "why_selected": "Fresh, practical signal not covered in the prior day ledger.",
+          "usefulness": "Translate this into client checks: can an agent bypass the intended workflow, conceal tool use, or optimize a proxy while appearing successful?"
+        },
+        {
+          "title": "METR: assessment plus monitor stress test",
+          "url": "https://openai.com/index/our-first-phase-of-embedded-assessments/",
+          "source_type": "evaluation",
+          "published_or_updated": "Independent follow-up",
+          "why_selected": "Fresh, practical signal not covered in the prior day ledger.",
+          "usefulness": "Test Buildn monitors against paraphrase, tool substitution, delayed failure, and misleading success receipts."
+        },
+        {
+          "title": "Goodfire: inspect internals and training runs",
+          "url": "https://openai.com/index/our-first-phase-of-embedded-assessments/",
+          "source_type": "research",
+          "published_or_updated": "Embedded access",
+          "why_selected": "Fresh, practical signal not covered in the prior day ledger.",
+          "usefulness": "For smaller systems, preserve causal breadcrumbs: tool selection, retrieval passages, policy branch, and state mutation."
+        },
+        {
+          "title": "Embedded access becomes a design principle",
+          "url": "https://openai.com/index/our-first-phase-of-embedded-assessments/",
+          "source_type": "architecture",
+          "published_or_updated": "Reusable pattern",
+          "why_selected": "Fresh, practical signal not covered in the prior day ledger.",
+          "usefulness": "Make every consequential Buildn workflow produce a review bundle with owner, inputs, actions, outputs, exceptions, and sign-off."
+        }
+      ]
+    },
+    {
+      "slug": "physical-design-automation",
+      "title": "Physical Design Automation",
+      "selection_rationale": "Design and manufacturing automation is a neglected but practical lane: it shows where AI needs domain context, APIs, and traceable handoffs rather than generic chat.",
+      "sources": [
+        {
+          "title": "Autodesk’s digital-thread strategy",
+          "url": "https://adsknews.autodesk.com/en/news/autodesk-ai-design-manufacturing-au-2026/",
+          "source_type": "product",
+          "published_or_updated": "2026 AU update",
+          "why_selected": "Fresh, practical signal not covered in the prior day ledger.",
+          "usefulness": "Use the pattern for client delivery: one canonical project record, typed handoffs, and explicit acceptance criteria across design and implementation."
+        },
+        {
+          "title": "AutoTimeline and editable history",
+          "url": "https://adsknews.autodesk.com/en/news/autodesk-ai-design-manufacturing-au-2026/",
+          "source_type": "automation",
+          "published_or_updated": "Fusion capability",
+          "why_selected": "Fresh, practical signal not covered in the prior day ledger.",
+          "usefulness": "Prefer structured deliverables in client work: tokens, components, schemas, and constraints over screenshots or one-off generated code."
+        },
+        {
+          "title": "AutoAssemble and System Modeler",
+          "url": "https://adsknews.autodesk.com/en/news/autodesk-ai-design-manufacturing-au-2026/",
+          "source_type": "workflow",
+          "published_or_updated": "Manufacturing automation",
+          "why_selected": "Fresh, practical signal not covered in the prior day ledger.",
+          "usefulness": "Design client automations as typed stages with validation between them, not one free-running agent."
+        },
+        {
+          "title": "Inventor Assistant over APIs and iLogic",
+          "url": "https://adsknews.autodesk.com/en/news/autodesk-ai-design-manufacturing-au-2026/",
+          "source_type": "integration",
+          "published_or_updated": "Engineering assistant",
+          "why_selected": "Fresh, practical signal not covered in the prior day ledger.",
+          "usefulness": "For Buildn integrations, expose narrow typed actions with dry-run previews and reversible mutations."
+        },
+        {
+          "title": "Engineering context beats generic fluency",
+          "url": "https://adsknews.autodesk.com/en/news/autodesk-ai-design-manufacturing-au-2026/",
+          "source_type": "principle",
+          "published_or_updated": "Cross-domain lesson",
+          "why_selected": "Fresh, practical signal not covered in the prior day ledger.",
+          "usefulness": "Design Buildn client systems around canonical facts, constraints, and acceptance tests before adding agent autonomy."
+        }
+      ]
+    }
+  ]
+}

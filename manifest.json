@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-11-16T09:06:54.357931+00:00",
+  "updated_at": "2026-11-17T09:06:32.139211+00:00",
   "days": [
+    {
+      "date": "2026-11-17",
+      "path": "2026-11-17",
+      "reports": [
+        {
+          "lane": "agent-skills-interoperability",
+          "title": "Agent Skills + Interoperability",
+          "url": "2026-11-17/agent-skills-interoperability.html"
+        },
+        {
+          "lane": "frontier-model-workflows",
+          "title": "Frontier Models + Workflow Economics",
+          "url": "2026-11-17/frontier-model-workflows.html"
+        },
+        {
+          "lane": "embedded-assessments-governance",
+          "title": "Embedded Assessments + AI Governance",
+          "url": "2026-11-17/embedded-assessments-governance.html"
+        },
+        {
+          "lane": "physical-design-automation",
+          "title": "Physical Design Automation",
+          "url": "2026-11-17/physical-design-automation.html"
+        }
+      ]
+    },
     {
       "date": "2026-11-16",
       "path": "2026-11-16",
