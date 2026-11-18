@@ -1,6 +1,76 @@
 {
-  "updated_at": "2026-11-17T09:06:32.139211+00:00",
+  "updated_at": "2026-11-18T09:05:08.464305+00:00",
   "sources": {
+    "https://github.blog/changelog/2026-11-17-secret-scanning-on-demand-for-developers-and-agents": {
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18",
+      "title": "Secret scanning on demand for developers and agents"
+    },
+    "https://github.blog/changelog/2026-11-17-monitor-github-copilot-activity-through-microsoft-agent-365": {
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18",
+      "title": "Monitor Copilot activity through Microsoft Agent 365"
+    },
+    "https://github.blog/changelog/2026-11-17-github-copilot-evals-is-now-in-public-preview": {
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18",
+      "title": "GitHub Copilot Evals public preview"
+    },
+    "https://github.blog/changelog/2026-11-17-github-copilot-benchmarks-site-adds-harness-comparisons": {
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18",
+      "title": "Copilot benchmarks add harness comparisons"
+    },
+    "https://github.blog/changelog/2026-11-17-github-copilot-cli-adds-microsoft-entra-sign-in-as-a-preview": {
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18",
+      "title": "Entra sign-in for Copilot CLI"
+    },
+    "https://github.blog/changelog/2026-11-17-openais-gpt-6-2-astra-and-gpt-6-2-sol-now-available": {
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18",
+      "title": "OpenAI GPT-6.2 Astra and Sol in Copilot"
+    },
+    "https://github.blog/changelog/2026-11-17-copilot-code-review-adaptive-effort-secret-detection-and-more": {
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18",
+      "title": "Copilot code review adaptive effort"
+    },
+    "https://github.blog/changelog/2026-11-17-track-copilot-code-review-outcomes-in-repository-insights": {
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18",
+      "title": "Track Copilot code review outcomes"
+    },
+    "https://github.blog/changelog/2026-11-17-github-copilot-fusion-updates-more-availability-benchmarks-and-models": {
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18",
+      "title": "Copilot Fusion updates"
+    },
+    "https://arxiv.org/html/2611.01404v1": {
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-08",
+      "title": "Serving Agentic Robot Fleets"
+    },
+    "https://arxiv.org/html/2611.08209v1": {
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-08",
+      "title": "RoboARCade: Benchmarking Agentic Robot Control"
+    },
+    "https://roboarcade.org/": {
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-08",
+      "title": "RoboARCade code, videos, and traces"
+    },
+    "https://arxiv.org/html/2611.00180v2": {
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-08",
+      "title": "Learning to Live: A Step Toward Lifelong Embodied Intelligence"
+    },
+    "https://arxiv.org/list/cs.RO/new": {
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-09-28",
+      "title": "Robotics new submissions, September 2026"
+    },
     "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation": {
       "first_seen": "2026-11-17",
       "last_seen": "2026-10-28",
@@ -271,16 +341,6 @@
       "last_seen": "2026-11-14",
       "title": "Agent Substrate + NVIDIA infrastructure"
     },
-    "https://arxiv.org/html/2611.01404v1": {
-      "first_seen": "2026-11-14",
-      "last_seen": "2026-11-08",
-      "title": "Serving Agentic Robot Fleets"
-    },
-    "https://arxiv.org/html/2611.00180v2": {
-      "first_seen": "2026-11-14",
-      "last_seen": "2026-11-08",
-      "title": "Learning to Live: A Step Toward Lifelong Embodied Intelligence"
-    },
     "https://arxiv.org/html/2611.14115v1": {
       "first_seen": "2026-11-14",
       "last_seen": "2026-11-14",
@@ -536,20 +596,10 @@
       "last_seen": "2026-09-29",
       "title": "NVIDIA OpenShell: policy outside the agent"
     },
-    "https://arxiv.org/html/2611.08209v1": {
-      "first_seen": "2026-11-08",
-      "last_seen": "2026-11-08",
-      "title": "RoboARCade: Benchmarking Agentic Robot Control"
-    },
     "https://arxiv.org/list/cs.AI/new": {
       "first_seen": "2026-11-08",
       "last_seen": "2026-09-05",
       "title": "arXiv cs.AI new submissions \u2014 4 September 2026"
-    },
-    "https://roboarcade.org/": {
-      "first_seen": "2026-11-08",
-      "last_seen": "2026-11-08",
-      "title": "RoboARCade code, videos, and traces"
     },
     "https://www.sailpoint.com/blog/whats-new-sailpoint-agentic-fabric-ga": {
       "first_seen": "2026-11-07",
@@ -2325,11 +2375,6 @@
       "first_seen": "2026-09-28",
       "last_seen": "2026-09-28",
       "title": "KnowBody project page"
-    },
-    "https://arxiv.org/list/cs.RO/new": {
-      "first_seen": "2026-09-28",
-      "last_seen": "2026-09-28",
-      "title": "Robotics new submissions, September 2026"
     },
     "https://doi.org/10.48550/arXiv.2609.28530": {
       "first_seen": "2026-09-28",

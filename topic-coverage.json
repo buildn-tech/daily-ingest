@@ -1523,9 +1523,9 @@
     },
     "governed-developer-surfaces": {
       "title": "Governed Developer Surfaces",
-      "times_covered": 1,
-      "last_covered": "2026-10-24",
-      "last_selection_rationale": "Followed fresh October 23 signals while rotating away from yesterday’s design/browser emphasis; memory is included as a material update focused on deletion, drift, and economics."
+      "times_covered": 2,
+      "last_covered": "2026-11-18",
+      "last_selection_rationale": "Fresh Nov. 17 GitHub releases expose security, identity, telemetry, evaluation, and outcome controls around coding agents; this is the strongest immediate Buildn/client lane."
     },
     "ai-operations-and-security": {
       "title": "AI Operations + Security",
@@ -1845,6 +1845,18 @@
       "title": "Physical Design Automation",
       "times_covered": 1,
       "last_covered": "2026-11-17"
+    },
+    "model-routing-evidence": {
+      "title": "Model Routing + Evidence",
+      "times_covered": 1,
+      "last_covered": "2026-11-18",
+      "last_selection_rationale": "New model availability and adaptive review controls earn inclusion only as a routing and outcome-measurement update, not as another model roundup."
+    },
+    "embodied-agent-evaluation": {
+      "title": "Embodied Agent Evaluation",
+      "times_covered": 1,
+      "last_covered": "2026-11-18",
+      "last_selection_rationale": "Current robotics work fills a neglected physical-systems lane with material updates on serving pressure, recovery, long-horizon memory, and evidence-grounded evaluation."
     }
   },
   "item_history": [
@@ -3017,6 +3029,118 @@
           "rationale": "Fresh practical signal selected for adaptive coverage."
         }
       ]
+    },
+    {
+      "date": "2026-11-18",
+      "topic": "governed-developer-surfaces",
+      "title": "Secret scanning on demand for developers and agents",
+      "url": "https://github.blog/changelog/2026-11-17-secret-scanning-on-demand-for-developers-and-agents/",
+      "source_type": "release",
+      "rationale": "New and absent from recent ledgers."
+    },
+    {
+      "date": "2026-11-18",
+      "topic": "governed-developer-surfaces",
+      "title": "Monitor Copilot activity through Microsoft Agent 365",
+      "url": "https://github.blog/changelog/2026-11-17-monitor-github-copilot-activity-through-microsoft-agent-365/",
+      "source_type": "release",
+      "rationale": "New control-plane integration."
+    },
+    {
+      "date": "2026-11-18",
+      "topic": "governed-developer-surfaces",
+      "title": "GitHub Copilot Evals public preview",
+      "url": "https://github.blog/changelog/2026-11-17-github-copilot-evals-is-now-in-public-preview",
+      "source_type": "release",
+      "rationale": "Fresh evaluation surface."
+    },
+    {
+      "date": "2026-11-18",
+      "topic": "governed-developer-surfaces",
+      "title": "Copilot benchmarks add harness comparisons",
+      "url": "https://github.blog/changelog/2026-11-17-github-copilot-benchmarks-site-adds-harness-comparisons",
+      "source_type": "benchmark",
+      "rationale": "Moves comparison from model-only to harness-level."
+    },
+    {
+      "date": "2026-11-18",
+      "topic": "governed-developer-surfaces",
+      "title": "Entra sign-in for Copilot CLI",
+      "url": "https://github.blog/changelog/2026-11-17-github-copilot-cli-adds-microsoft-entra-sign-in-as-a-preview",
+      "source_type": "release",
+      "rationale": "Fresh identity boundary for delegated work."
+    },
+    {
+      "date": "2026-11-18",
+      "topic": "model-routing-evidence",
+      "title": "OpenAI GPT-6.2 Astra and Sol in Copilot",
+      "url": "https://github.blog/changelog/2026-11-17-openais-gpt-6-2-astra-and-gpt-6-2-sol-now-available",
+      "source_type": "release",
+      "rationale": "Fresh model portfolio change."
+    },
+    {
+      "date": "2026-11-18",
+      "topic": "model-routing-evidence",
+      "title": "Copilot code review adaptive effort",
+      "url": "https://github.blog/changelog/2026-11-17-copilot-code-review-adaptive-effort-secret-detection-and-more",
+      "source_type": "release",
+      "rationale": "New risk-sensitive effort control."
+    },
+    {
+      "date": "2026-11-18",
+      "topic": "model-routing-evidence",
+      "title": "Track Copilot code review outcomes",
+      "url": "https://github.blog/changelog/2026-11-17-track-copilot-code-review-outcomes-in-repository-insights",
+      "source_type": "release",
+      "rationale": "Fresh feedback surface for acceptance evidence."
+    },
+    {
+      "date": "2026-11-18",
+      "topic": "model-routing-evidence",
+      "title": "Copilot Fusion updates",
+      "url": "https://github.blog/changelog/2026-11-17-github-copilot-fusion-updates-more-availability-benchmarks-and-models",
+      "source_type": "release",
+      "rationale": "Expands the configurable agent surface."
+    },
+    {
+      "date": "2026-11-18",
+      "topic": "embodied-agent-evaluation",
+      "title": "Serving Agentic Robot Fleets",
+      "url": "https://arxiv.org/html/2611.01404v1",
+      "source_type": "paper",
+      "rationale": "Concrete concurrency and admission-control result."
+    },
+    {
+      "date": "2026-11-18",
+      "topic": "embodied-agent-evaluation",
+      "title": "RoboARCade benchmark",
+      "url": "https://arxiv.org/html/2611.08209v1",
+      "source_type": "paper",
+      "rationale": "Tests revision from execution feedback."
+    },
+    {
+      "date": "2026-11-18",
+      "topic": "embodied-agent-evaluation",
+      "title": "RoboARCade project site",
+      "url": "https://roboarcade.org/",
+      "source_type": "project",
+      "rationale": "Provides code, videos, and traces around the benchmark."
+    },
+    {
+      "date": "2026-11-18",
+      "topic": "embodied-agent-evaluation",
+      "title": "Learning to Live: Lifelong Embodied Intelligence",
+      "url": "https://arxiv.org/html/2611.00180v2",
+      "source_type": "paper",
+      "rationale": "Material update to prior physical-agent coverage focused on selective memory."
+    },
+    {
+      "date": "2026-11-18",
+      "topic": "embodied-agent-evaluation",
+      "title": "RRM-Bench-1K and RRM-Hub",
+      "url": "https://arxiv.org/list/cs.RO/new",
+      "source_type": "paper",
+      "rationale": "New evaluation direction for credited conditions and camera evidence."
     }
   ],
   "runs": [

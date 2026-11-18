@@ -1,6 +1,27 @@
 {
-  "updated_at": "2026-11-17T09:06:32.139211+00:00",
+  "updated_at": "2026-11-18T09:05:08.464305+00:00",
   "days": [
+    {
+      "date": "2026-11-18",
+      "path": "2026-11-18",
+      "reports": [
+        {
+          "lane": "governed-developer-surfaces",
+          "title": "Governed Developer Surfaces",
+          "url": "2026-11-18/governed-developer-surfaces.html"
+        },
+        {
+          "lane": "model-routing-evidence",
+          "title": "Model Routing + Evidence",
+          "url": "2026-11-18/model-routing-evidence.html"
+        },
+        {
+          "lane": "embodied-agent-evaluation",
+          "title": "Embodied Agent Evaluation",
+          "url": "2026-11-18/embodied-agent-evaluation.html"
+        }
+      ]
+    },
     {
       "date": "2026-11-17",
       "path": "2026-11-17",
