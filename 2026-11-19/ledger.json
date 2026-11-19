@@ -1,0 +1,148 @@
+{
+  "date": "2026-11-19",
+  "generated_at": "2026-11-19T09:11:23.240885+00:00",
+  "editorial_thesis": "Today’s strongest signal is a shift from agent capability to accountable substrate: event streams, open runtimes, typed extraction, multimodal retrieval, and auditable self-improvement.",
+  "topic_groups": [
+    {
+      "slug": "event-driven-agent-execution",
+      "title": "Event-Driven Agent Execution",
+      "selection_rationale": "GitHub is turning agent work from polling loops and personal setup into subscribable events, shared plugins, and governed service connectors. The practical move is to make waiting, permissions, and handoffs explicit in the workflow contract.",
+      "sources": [
+        {
+          "title": "GitHub CLI event streams for pull requests",
+          "url": "https://github.blog/changelog/2026-11-18-wait-for-pull-request-events-with-github-cli/",
+          "source_type": "release",
+          "published_or_updated": "2026-11-18",
+          "why_selected": "Fresh primary-source signal absent from the last two daily ledgers, or a material new release on a previously covered seam.",
+          "usefulness": "Use it in Buildn publishing and code-review workers to pause on state change while preserving a deterministic receipt."
+        },
+        {
+          "title": "Eight new Copilot connectors",
+          "url": "https://github.blog/changelog/2026-11-18-connect-supabase-box-calendly-and-more-to-copilot/",
+          "source_type": "release",
+          "published_or_updated": "2026-11-18",
+          "why_selected": "Fresh primary-source signal absent from the last two daily ledgers, or a material new release on a previously covered seam.",
+          "usefulness": "Model client work as typed tool edges rather than prompt glue: inspect, propose, approve, mutate."
+        },
+        {
+          "title": "Team-level Copilot plugin defaults",
+          "url": "https://github.blog/changelog/2026-11-18-customize-github-copilot-for-your-team/",
+          "source_type": "release",
+          "published_or_updated": "2026-11-18",
+          "why_selected": "Fresh primary-source signal absent from the last two daily ledgers, or a material new release on a previously covered seam.",
+          "usefulness": "Package recurring Buildn review, report, and deployment procedures as versioned team plugins with owners."
+        },
+        {
+          "title": "Automatic security risk assessments on GitHub Team",
+          "url": "https://github.blog/changelog/2026-11-18-security-risk-assessments-run-automatically-on-github-team/",
+          "source_type": "release",
+          "published_or_updated": "2026-11-18",
+          "why_selected": "Fresh primary-source signal absent from the last two daily ledgers, or a material new release on a previously covered seam.",
+          "usefulness": "Add assessment state to client onboarding and agent change receipts; route findings to an owner."
+        },
+        {
+          "title": "Gemini 4 Neon in GitHub Copilot",
+          "url": "https://github.blog/changelog/2026-11-18-gemini-4-neon-in-github-copilot",
+          "source_type": "release",
+          "published_or_updated": "2026-11-18",
+          "why_selected": "Fresh primary-source signal absent from the last two daily ledgers, or a material new release on a previously covered seam.",
+          "usefulness": "Add model, effort, prompt version, tools, and acceptance outcome to Buildn artifact receipts."
+        }
+      ]
+    },
+    {
+      "slug": "open-runtime-multimodal-retrieval",
+      "title": "Open Runtime + Multimodal Retrieval",
+      "selection_rationale": "Cloudflare is exposing more of the agent substrate: an open browser runtime, open-weight extraction models, and managed multimodal search. Together they suggest a practical stack for private, evidence-rich web and document workflows.",
+      "sources": [
+        {
+          "title": "Kitesurf open-source browser runtime",
+          "url": "https://blog.cloudflare.com/kitesurf-open-source/",
+          "source_type": "blog",
+          "published_or_updated": "2026-11-18",
+          "why_selected": "Fresh primary-source signal absent from the last two daily ledgers, or a material new release on a previously covered seam.",
+          "usefulness": "Use it as a replaceable browsing adapter for Buildn research and evidence capture, not as a hidden browser dependency."
+        },
+        {
+          "title": "Open-weight Clairic and Clairic-flash",
+          "url": "https://blog.cloudflare.com/open-clairic/",
+          "source_type": "blog",
+          "published_or_updated": "2026-11-18",
+          "why_selected": "Fresh primary-source signal absent from the last two daily ledgers, or a material new release on a previously covered seam.",
+          "usefulness": "Build a document-ingest step that emits schema, confidence, source span, and escalation status."
+        },
+        {
+          "title": "Cloudflare AI Search reaches general availability",
+          "url": "https://blog.cloudflare.com/ai-search-ga/",
+          "source_type": "blog",
+          "published_or_updated": "2026-11-18",
+          "why_selected": "Fresh primary-source signal absent from the last two daily ledgers, or a material new release on a previously covered seam.",
+          "usefulness": "Index Buildn reports, screenshots, PDFs, and client artifacts while preserving source pointers and access controls."
+        },
+        {
+          "title": "Zero Wire vulnerability intelligence feed",
+          "url": "https://blog.cloudflare.com/zero-wire/",
+          "source_type": "blog",
+          "published_or_updated": "2026-11-18",
+          "why_selected": "Fresh primary-source signal absent from the last two daily ledgers, or a material new release on a previously covered seam.",
+          "usefulness": "Mirror the briefing shape for client security reviews: issue, exposure questions, evidence, owner, mitigation, last checked."
+        },
+        {
+          "title": "Cloudflare Vite Ecosystem Fund",
+          "url": "https://blog.cloudflare.com/launching-vite-ecosystem-fund/",
+          "source_type": "blog",
+          "published_or_updated": "2026-11-18",
+          "why_selected": "Fresh primary-source signal absent from the last two daily ledgers, or a material new release on a previously covered seam.",
+          "usefulness": "Track funded primitives that could reduce build latency, improve preview environments, or simplify client delivery."
+        }
+      ]
+    },
+    {
+      "slug": "evidence-first-agent-research",
+      "title": "Evidence-First Agent Research",
+      "selection_rationale": "The November 19 arXiv stream is unusually practical: agents are learning to edit workflows, route computation, expose provenance, and recover from failure. The common constraint is not imagination; it is whether a claimed result can be audited and reproduced.",
+      "sources": [
+        {
+          "title": "GUARD and ARISE: verified workflow evolution",
+          "url": "https://arxiv.org/list/cs.AI/new",
+          "source_type": "paper",
+          "published_or_updated": "2026-11",
+          "why_selected": "Fresh primary-source signal absent from the last two daily ledgers, or a material new release on a previously covered seam.",
+          "usefulness": "Turn Buildn procedures into versioned graphs with baseline scores, proposed edits, and rollback."
+        },
+        {
+          "title": "Semantic context handoff",
+          "url": "https://arxiv.org/list/cs.AI/new",
+          "source_type": "paper",
+          "published_or_updated": "2026-11",
+          "why_selected": "Fresh primary-source signal absent from the last two daily ledgers, or a material new release on a previously covered seam.",
+          "usefulness": "Pass evidence pointers, unresolved questions, and acceptance criteria between Buildn workers."
+        },
+        {
+          "title": "Governed experiment ledgers",
+          "url": "https://arxiv.org/list/cs.AI/new",
+          "source_type": "paper",
+          "published_or_updated": "2026-11",
+          "why_selected": "Fresh primary-source signal absent from the last two daily ledgers, or a material new release on a previously covered seam.",
+          "usefulness": "Make every Buildn experiment receipt include hypotheses, runs, failures, artifacts, and decision owner."
+        },
+        {
+          "title": "Safe Personal RSI and bounded self-improvement",
+          "url": "https://arxiv.org/list/cs.AI/new",
+          "source_type": "paper",
+          "published_or_updated": "2026-11",
+          "why_selected": "Fresh primary-source signal absent from the last two daily ledgers, or a material new release on a previously covered seam.",
+          "usefulness": "Separate proposal from activation in agent skills, prompts, and tool permissions."
+        },
+        {
+          "title": "Video feedback closes the sim-to-real gap",
+          "url": "https://arxiv.org/list/cs.AI/new",
+          "source_type": "paper",
+          "published_or_updated": "2026-11",
+          "why_selected": "Fresh primary-source signal absent from the last two daily ledgers, or a material new release on a previously covered seam.",
+          "usefulness": "Borrow the pattern for agentic workflows: verify the external state after each consequential mutation."
+        }
+      ]
+    }
+  ]
+}

@@ -1857,6 +1857,21 @@
       "times_covered": 1,
       "last_covered": "2026-11-18",
       "last_selection_rationale": "Current robotics work fills a neglected physical-systems lane with material updates on serving pressure, recovery, long-horizon memory, and evidence-grounded evaluation."
+    },
+    "event-driven-agent-execution": {
+      "title": "Event-Driven Agent Execution",
+      "times_covered": 1,
+      "last_covered": "2026-11-19"
+    },
+    "open-runtime-multimodal-retrieval": {
+      "title": "Open Runtime + Multimodal Retrieval",
+      "times_covered": 1,
+      "last_covered": "2026-11-19"
+    },
+    "evidence-first-agent-research": {
+      "title": "Evidence-First Agent Research",
+      "times_covered": 1,
+      "last_covered": "2026-11-19"
     }
   },
   "item_history": [
@@ -3141,6 +3156,126 @@
       "url": "https://arxiv.org/list/cs.RO/new",
       "source_type": "paper",
       "rationale": "New evaluation direction for credited conditions and camera evidence."
+    },
+    {
+      "date": "2026-11-19",
+      "topic": "event-driven-agent-execution",
+      "title": "GitHub CLI event streams for pull requests",
+      "url": "https://github.blog/changelog/2026-11-18-wait-for-pull-request-events-with-github-cli/",
+      "source_type": "release",
+      "rationale": "Use it in Buildn publishing and code-review workers to pause on state change while preserving a deterministic receipt."
+    },
+    {
+      "date": "2026-11-19",
+      "topic": "event-driven-agent-execution",
+      "title": "Eight new Copilot connectors",
+      "url": "https://github.blog/changelog/2026-11-18-connect-supabase-box-calendly-and-more-to-copilot/",
+      "source_type": "release",
+      "rationale": "Model client work as typed tool edges rather than prompt glue: inspect, propose, approve, mutate."
+    },
+    {
+      "date": "2026-11-19",
+      "topic": "event-driven-agent-execution",
+      "title": "Team-level Copilot plugin defaults",
+      "url": "https://github.blog/changelog/2026-11-18-customize-github-copilot-for-your-team/",
+      "source_type": "release",
+      "rationale": "Package recurring Buildn review, report, and deployment procedures as versioned team plugins with owners."
+    },
+    {
+      "date": "2026-11-19",
+      "topic": "event-driven-agent-execution",
+      "title": "Automatic security risk assessments on GitHub Team",
+      "url": "https://github.blog/changelog/2026-11-18-security-risk-assessments-run-automatically-on-github-team/",
+      "source_type": "release",
+      "rationale": "Add assessment state to client onboarding and agent change receipts; route findings to an owner."
+    },
+    {
+      "date": "2026-11-19",
+      "topic": "event-driven-agent-execution",
+      "title": "Gemini 4 Neon in GitHub Copilot",
+      "url": "https://github.blog/changelog/2026-11-18-gemini-4-neon-in-github-copilot",
+      "source_type": "release",
+      "rationale": "Add model, effort, prompt version, tools, and acceptance outcome to Buildn artifact receipts."
+    },
+    {
+      "date": "2026-11-19",
+      "topic": "open-runtime-multimodal-retrieval",
+      "title": "Kitesurf open-source browser runtime",
+      "url": "https://blog.cloudflare.com/kitesurf-open-source/",
+      "source_type": "blog",
+      "rationale": "Use it as a replaceable browsing adapter for Buildn research and evidence capture, not as a hidden browser dependency."
+    },
+    {
+      "date": "2026-11-19",
+      "topic": "open-runtime-multimodal-retrieval",
+      "title": "Open-weight Clairic and Clairic-flash",
+      "url": "https://blog.cloudflare.com/open-clairic/",
+      "source_type": "blog",
+      "rationale": "Build a document-ingest step that emits schema, confidence, source span, and escalation status."
+    },
+    {
+      "date": "2026-11-19",
+      "topic": "open-runtime-multimodal-retrieval",
+      "title": "Cloudflare AI Search reaches general availability",
+      "url": "https://blog.cloudflare.com/ai-search-ga/",
+      "source_type": "blog",
+      "rationale": "Index Buildn reports, screenshots, PDFs, and client artifacts while preserving source pointers and access controls."
+    },
+    {
+      "date": "2026-11-19",
+      "topic": "open-runtime-multimodal-retrieval",
+      "title": "Zero Wire vulnerability intelligence feed",
+      "url": "https://blog.cloudflare.com/zero-wire/",
+      "source_type": "blog",
+      "rationale": "Mirror the briefing shape for client security reviews: issue, exposure questions, evidence, owner, mitigation, last checked."
+    },
+    {
+      "date": "2026-11-19",
+      "topic": "open-runtime-multimodal-retrieval",
+      "title": "Cloudflare Vite Ecosystem Fund",
+      "url": "https://blog.cloudflare.com/launching-vite-ecosystem-fund/",
+      "source_type": "blog",
+      "rationale": "Track funded primitives that could reduce build latency, improve preview environments, or simplify client delivery."
+    },
+    {
+      "date": "2026-11-19",
+      "topic": "evidence-first-agent-research",
+      "title": "GUARD and ARISE: verified workflow evolution",
+      "url": "https://arxiv.org/list/cs.AI/new",
+      "source_type": "paper",
+      "rationale": "Turn Buildn procedures into versioned graphs with baseline scores, proposed edits, and rollback."
+    },
+    {
+      "date": "2026-11-19",
+      "topic": "evidence-first-agent-research",
+      "title": "Semantic context handoff",
+      "url": "https://arxiv.org/list/cs.AI/new",
+      "source_type": "paper",
+      "rationale": "Pass evidence pointers, unresolved questions, and acceptance criteria between Buildn workers."
+    },
+    {
+      "date": "2026-11-19",
+      "topic": "evidence-first-agent-research",
+      "title": "Governed experiment ledgers",
+      "url": "https://arxiv.org/list/cs.AI/new",
+      "source_type": "paper",
+      "rationale": "Make every Buildn experiment receipt include hypotheses, runs, failures, artifacts, and decision owner."
+    },
+    {
+      "date": "2026-11-19",
+      "topic": "evidence-first-agent-research",
+      "title": "Safe Personal RSI and bounded self-improvement",
+      "url": "https://arxiv.org/list/cs.AI/new",
+      "source_type": "paper",
+      "rationale": "Separate proposal from activation in agent skills, prompts, and tool permissions."
+    },
+    {
+      "date": "2026-11-19",
+      "topic": "evidence-first-agent-research",
+      "title": "Video feedback closes the sim-to-real gap",
+      "url": "https://arxiv.org/list/cs.AI/new",
+      "source_type": "paper",
+      "rationale": "Borrow the pattern for agentic workflows: verify the external state after each consequential mutation."
     }
   ],
   "runs": [
@@ -4774,41 +4909,96 @@
         "https://arxiv.org/html/2611.12177v1"
       ],
       "selection_rationale": "Rotated toward practical gaps: delivery surfaces, evidence-linked memory, agent identity, and physical-system evaluation."
+    },
+    {
+      "date": "2026-11-19",
+      "selected_lanes": [
+        "event-driven-agent-execution",
+        "open-runtime-multimodal-retrieval",
+        "evidence-first-agent-research"
+      ],
+      "items": [
+        "GitHub CLI event streams for pull requests",
+        "Eight new Copilot connectors",
+        "Team-level Copilot plugin defaults",
+        "Automatic security risk assessments on GitHub Team",
+        "Gemini 4 Neon in GitHub Copilot",
+        "Kitesurf open-source browser runtime",
+        "Open-weight Clairic and Clairic-flash",
+        "Cloudflare AI Search reaches general availability",
+        "Zero Wire vulnerability intelligence feed",
+        "Cloudflare Vite Ecosystem Fund",
+        "GUARD and ARISE: verified workflow evolution",
+        "Semantic context handoff",
+        "Governed experiment ledgers",
+        "Safe Personal RSI and bounded self-improvement",
+        "Video feedback closes the sim-to-real gap"
+      ],
+      "urls": [
+        "https://github.blog/changelog/2026-11-18-wait-for-pull-request-events-with-github-cli/",
+        "https://github.blog/changelog/2026-11-18-connect-supabase-box-calendly-and-more-to-copilot/",
+        "https://github.blog/changelog/2026-11-18-customize-github-copilot-for-your-team/",
+        "https://github.blog/changelog/2026-11-18-security-risk-assessments-run-automatically-on-github-team/",
+        "https://github.blog/changelog/2026-11-18-gemini-4-neon-in-github-copilot",
+        "https://blog.cloudflare.com/kitesurf-open-source/",
+        "https://blog.cloudflare.com/open-clairic/",
+        "https://blog.cloudflare.com/ai-search-ga/",
+        "https://blog.cloudflare.com/zero-wire/",
+        "https://blog.cloudflare.com/launching-vite-ecosystem-fund/",
+        "https://arxiv.org/list/cs.AI/new",
+        "https://arxiv.org/list/cs.AI/new",
+        "https://arxiv.org/list/cs.AI/new",
+        "https://arxiv.org/list/cs.AI/new",
+        "https://arxiv.org/list/cs.AI/new"
+      ],
+      "selection_rationale": "Today’s strongest signal is a shift from agent capability to accountable substrate: event streams, open runtimes, typed extraction, multimodal retrieval, and auditable self-improvement."
     }
   ],
-  "updated_at": "2026-11-17T09:06:27.027406+00:00",
+  "updated_at": "2026-11-19T09:11:48.037598+00:00",
   "last_run": {
-    "date": "2026-11-15",
+    "date": "2026-11-19",
     "selected_lanes": [
-      "agentic-delivery-surfaces",
-      "evidence-linked-agent-memory",
-      "agent-identity-and-interoperability",
-      "physical-agent-evaluation"
+      "event-driven-agent-execution",
+      "open-runtime-multimodal-retrieval",
+      "evidence-first-agent-research"
     ],
     "items": [
-      "GitHub Universe 2026: Evolving every layer of the stack",
-      "Dynamic workflows in Copilot CLI and the Copilot app",
-      "When chat is the wrong UI",
-      "GitHub Copilot SDK",
-      "Copilot automations",
-      "The Sleep Framework: Continual Learning for LLMs",
-      "ReasoningBank: Enabling agents to learn from experience",
-      "Don’t Just Trust Your Memory",
-      "Continual Learning Exam",
-      "AgentCL: Toward Rigorous Evaluation of Continual Learning",
-      "SI Agent Standards Initiative",
-      "Software and AI Agent Identity and Authorization",
-      "Announcing the AI Agent Standards Initiative",
-      "Open and Emergent Problems in Agentic Privacy and Security",
-      "OWASP Top 10 for Agentic Applications 2026",
-      "RLE-Bench: Can Your AI Engineer a Robot?",
-      "RLE-Bench paper",
-      "RLE-Bench project site",
-      "Continual Learning Exam",
-      "Embodied First Exam"
-    ]
+      "GitHub CLI event streams for pull requests",
+      "Eight new Copilot connectors",
+      "Team-level Copilot plugin defaults",
+      "Automatic security risk assessments on GitHub Team",
+      "Gemini 4 Neon in GitHub Copilot",
+      "Kitesurf open-source browser runtime",
+      "Open-weight Clairic and Clairic-flash",
+      "Cloudflare AI Search reaches general availability",
+      "Zero Wire vulnerability intelligence feed",
+      "Cloudflare Vite Ecosystem Fund",
+      "GUARD and ARISE: verified workflow evolution",
+      "Semantic context handoff",
+      "Governed experiment ledgers",
+      "Safe Personal RSI and bounded self-improvement",
+      "Video feedback closes the sim-to-real gap"
+    ],
+    "urls": [
+      "https://github.blog/changelog/2026-11-18-wait-for-pull-request-events-with-github-cli/",
+      "https://github.blog/changelog/2026-11-18-connect-supabase-box-calendly-and-more-to-copilot/",
+      "https://github.blog/changelog/2026-11-18-customize-github-copilot-for-your-team/",
+      "https://github.blog/changelog/2026-11-18-security-risk-assessments-run-automatically-on-github-team/",
+      "https://github.blog/changelog/2026-11-18-gemini-4-neon-in-github-copilot",
+      "https://blog.cloudflare.com/kitesurf-open-source/",
+      "https://blog.cloudflare.com/open-clairic/",
+      "https://blog.cloudflare.com/ai-search-ga/",
+      "https://blog.cloudflare.com/zero-wire/",
+      "https://blog.cloudflare.com/launching-vite-ecosystem-fund/",
+      "https://arxiv.org/list/cs.AI/new",
+      "https://arxiv.org/list/cs.AI/new",
+      "https://arxiv.org/list/cs.AI/new",
+      "https://arxiv.org/list/cs.AI/new",
+      "https://arxiv.org/list/cs.AI/new"
+    ],
+    "selection_rationale": "Today’s strongest signal is a shift from agent capability to accountable substrate: event streams, open runtimes, typed extraction, multimodal retrieval, and auditable self-improvement."
   },
-  "last_editorial_thesis": "Agent systems are becoming durable workflows with memory, identity, and evidence; today’s practical edge is bounded, inspectable orchestration rather than raw autonomy.",
+  "last_editorial_thesis": "Today’s strongest signal is a shift from agent capability to accountable substrate: event streams, open runtimes, typed extraction, multimodal retrieval, and auditable self-improvement.",
   "coverage_history": [
     {
       "date": "2026-09-13",
@@ -6241,6 +6431,49 @@
         "https://arxiv.org/html/2611.12177v1"
       ],
       "selection_rationale": "Rotated toward practical gaps: delivery surfaces, evidence-linked memory, agent identity, and physical-system evaluation."
+    },
+    {
+      "date": "2026-11-19",
+      "selected_lanes": [
+        "event-driven-agent-execution",
+        "open-runtime-multimodal-retrieval",
+        "evidence-first-agent-research"
+      ],
+      "items": [
+        "GitHub CLI event streams for pull requests",
+        "Eight new Copilot connectors",
+        "Team-level Copilot plugin defaults",
+        "Automatic security risk assessments on GitHub Team",
+        "Gemini 4 Neon in GitHub Copilot",
+        "Kitesurf open-source browser runtime",
+        "Open-weight Clairic and Clairic-flash",
+        "Cloudflare AI Search reaches general availability",
+        "Zero Wire vulnerability intelligence feed",
+        "Cloudflare Vite Ecosystem Fund",
+        "GUARD and ARISE: verified workflow evolution",
+        "Semantic context handoff",
+        "Governed experiment ledgers",
+        "Safe Personal RSI and bounded self-improvement",
+        "Video feedback closes the sim-to-real gap"
+      ],
+      "urls": [
+        "https://github.blog/changelog/2026-11-18-wait-for-pull-request-events-with-github-cli/",
+        "https://github.blog/changelog/2026-11-18-connect-supabase-box-calendly-and-more-to-copilot/",
+        "https://github.blog/changelog/2026-11-18-customize-github-copilot-for-your-team/",
+        "https://github.blog/changelog/2026-11-18-security-risk-assessments-run-automatically-on-github-team/",
+        "https://github.blog/changelog/2026-11-18-gemini-4-neon-in-github-copilot",
+        "https://blog.cloudflare.com/kitesurf-open-source/",
+        "https://blog.cloudflare.com/open-clairic/",
+        "https://blog.cloudflare.com/ai-search-ga/",
+        "https://blog.cloudflare.com/zero-wire/",
+        "https://blog.cloudflare.com/launching-vite-ecosystem-fund/",
+        "https://arxiv.org/list/cs.AI/new",
+        "https://arxiv.org/list/cs.AI/new",
+        "https://arxiv.org/list/cs.AI/new",
+        "https://arxiv.org/list/cs.AI/new",
+        "https://arxiv.org/list/cs.AI/new"
+      ],
+      "selection_rationale": "Today’s strongest signal is a shift from agent capability to accountable substrate: event streams, open runtimes, typed extraction, multimodal retrieval, and auditable self-improvement."
     }
   ],
   "items": [
@@ -7053,10 +7286,9 @@
     }
   ],
   "last_run_selection": [
-    "agentic-delivery-surfaces",
-    "evidence-linked-agent-memory",
-    "agent-identity-and-interoperability",
-    "physical-agent-evaluation"
+    "event-driven-agent-execution",
+    "open-runtime-multimodal-retrieval",
+    "evidence-first-agent-research"
   ],
   "sources": {
     "architecture": {
@@ -8796,6 +9028,49 @@
         "https://customer.io/learn/announcements/biggest-ai-marketing-release"
       ],
       "selection_rationale": "The valuable agent signal is shifting from model novelty to operating design: durable execution, governed delivery, workspace context, and outcome measurement."
+    },
+    {
+      "date": "2026-11-19",
+      "selected_lanes": [
+        "event-driven-agent-execution",
+        "open-runtime-multimodal-retrieval",
+        "evidence-first-agent-research"
+      ],
+      "items": [
+        "GitHub CLI event streams for pull requests",
+        "Eight new Copilot connectors",
+        "Team-level Copilot plugin defaults",
+        "Automatic security risk assessments on GitHub Team",
+        "Gemini 4 Neon in GitHub Copilot",
+        "Kitesurf open-source browser runtime",
+        "Open-weight Clairic and Clairic-flash",
+        "Cloudflare AI Search reaches general availability",
+        "Zero Wire vulnerability intelligence feed",
+        "Cloudflare Vite Ecosystem Fund",
+        "GUARD and ARISE: verified workflow evolution",
+        "Semantic context handoff",
+        "Governed experiment ledgers",
+        "Safe Personal RSI and bounded self-improvement",
+        "Video feedback closes the sim-to-real gap"
+      ],
+      "urls": [
+        "https://github.blog/changelog/2026-11-18-wait-for-pull-request-events-with-github-cli/",
+        "https://github.blog/changelog/2026-11-18-connect-supabase-box-calendly-and-more-to-copilot/",
+        "https://github.blog/changelog/2026-11-18-customize-github-copilot-for-your-team/",
+        "https://github.blog/changelog/2026-11-18-security-risk-assessments-run-automatically-on-github-team/",
+        "https://github.blog/changelog/2026-11-18-gemini-4-neon-in-github-copilot",
+        "https://blog.cloudflare.com/kitesurf-open-source/",
+        "https://blog.cloudflare.com/open-clairic/",
+        "https://blog.cloudflare.com/ai-search-ga/",
+        "https://blog.cloudflare.com/zero-wire/",
+        "https://blog.cloudflare.com/launching-vite-ecosystem-fund/",
+        "https://arxiv.org/list/cs.AI/new",
+        "https://arxiv.org/list/cs.AI/new",
+        "https://arxiv.org/list/cs.AI/new",
+        "https://arxiv.org/list/cs.AI/new",
+        "https://arxiv.org/list/cs.AI/new"
+      ],
+      "selection_rationale": "Today’s strongest signal is a shift from agent capability to accountable substrate: event streams, open runtimes, typed extraction, multimodal retrieval, and auditable self-improvement."
     }
   ],
   "run_history": [
@@ -10947,7 +11222,49 @@
       "last_covered": "2026-11-09"
     }
   },
-  "last_successful_run": "2026-11-16",
+  "last_successful_run": {
+    "date": "2026-11-19",
+    "selected_lanes": [
+      "event-driven-agent-execution",
+      "open-runtime-multimodal-retrieval",
+      "evidence-first-agent-research"
+    ],
+    "items": [
+      "GitHub CLI event streams for pull requests",
+      "Eight new Copilot connectors",
+      "Team-level Copilot plugin defaults",
+      "Automatic security risk assessments on GitHub Team",
+      "Gemini 4 Neon in GitHub Copilot",
+      "Kitesurf open-source browser runtime",
+      "Open-weight Clairic and Clairic-flash",
+      "Cloudflare AI Search reaches general availability",
+      "Zero Wire vulnerability intelligence feed",
+      "Cloudflare Vite Ecosystem Fund",
+      "GUARD and ARISE: verified workflow evolution",
+      "Semantic context handoff",
+      "Governed experiment ledgers",
+      "Safe Personal RSI and bounded self-improvement",
+      "Video feedback closes the sim-to-real gap"
+    ],
+    "urls": [
+      "https://github.blog/changelog/2026-11-18-wait-for-pull-request-events-with-github-cli/",
+      "https://github.blog/changelog/2026-11-18-connect-supabase-box-calendly-and-more-to-copilot/",
+      "https://github.blog/changelog/2026-11-18-customize-github-copilot-for-your-team/",
+      "https://github.blog/changelog/2026-11-18-security-risk-assessments-run-automatically-on-github-team/",
+      "https://github.blog/changelog/2026-11-18-gemini-4-neon-in-github-copilot",
+      "https://blog.cloudflare.com/kitesurf-open-source/",
+      "https://blog.cloudflare.com/open-clairic/",
+      "https://blog.cloudflare.com/ai-search-ga/",
+      "https://blog.cloudflare.com/zero-wire/",
+      "https://blog.cloudflare.com/launching-vite-ecosystem-fund/",
+      "https://arxiv.org/list/cs.AI/new",
+      "https://arxiv.org/list/cs.AI/new",
+      "https://arxiv.org/list/cs.AI/new",
+      "https://arxiv.org/list/cs.AI/new",
+      "https://arxiv.org/list/cs.AI/new"
+    ],
+    "selection_rationale": "Today’s strongest signal is a shift from agent capability to accountable substrate: event streams, open runtimes, typed extraction, multimodal retrieval, and auditable self-improvement."
+  },
   "history": [
     {
       "date": "2026-09-07",
@@ -13834,6 +14151,6 @@
       "selection_rationale": "Rotated toward practical gaps: delivery surfaces, evidence-linked memory, agent identity, and physical-system evaluation."
     }
   ],
-  "last_selection_rationale": "Rotated toward platform durability, model economics, delegated web commerce, and design-to-delivery gaps after the prior day’s memory, identity, delivery, and physical-evaluation coverage.",
-  "last_generated_at": "2026-11-15T09:12:00+00:00"
+  "last_selection_rationale": "Today’s strongest signal is a shift from agent capability to accountable substrate: event streams, open runtimes, typed extraction, multimodal retrieval, and auditable self-improvement.",
+  "last_generated_at": "2026-11-19T09:11:48.037598+00:00"
 }

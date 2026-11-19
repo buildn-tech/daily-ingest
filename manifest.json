@@ -1,6 +1,27 @@
 {
-  "updated_at": "2026-11-18T09:05:08.464305+00:00",
+  "updated_at": "2026-11-19T09:11:55.450291+00:00",
   "days": [
+    {
+      "date": "2026-11-19",
+      "path": "2026-11-19",
+      "reports": [
+        {
+          "lane": "event-driven-agent-execution",
+          "title": "Event-Driven Agent Execution",
+          "url": "2026-11-19/event-driven-agent-execution.html"
+        },
+        {
+          "lane": "open-runtime-multimodal-retrieval",
+          "title": "Open Runtime + Multimodal Retrieval",
+          "url": "2026-11-19/open-runtime-multimodal-retrieval.html"
+        },
+        {
+          "lane": "evidence-first-agent-research",
+          "title": "Evidence-First Agent Research",
+          "url": "2026-11-19/evidence-first-agent-research.html"
+        }
+      ]
+    },
     {
       "date": "2026-11-18",
       "path": "2026-11-18",

@@ -1,6 +1,61 @@
 {
-  "updated_at": "2026-11-18T09:05:08.464305+00:00",
+  "updated_at": "2026-11-19T09:11:55.450291+00:00",
   "sources": {
+    "https://github.blog/changelog/2026-11-18-wait-for-pull-request-events-with-github-cli": {
+      "first_seen": "2026-11-19",
+      "last_seen": "2026-11-19",
+      "title": "GitHub CLI event streams for pull requests"
+    },
+    "https://github.blog/changelog/2026-11-18-connect-supabase-box-calendly-and-more-to-copilot": {
+      "first_seen": "2026-11-19",
+      "last_seen": "2026-11-19",
+      "title": "Eight new Copilot connectors"
+    },
+    "https://github.blog/changelog/2026-11-18-customize-github-copilot-for-your-team": {
+      "first_seen": "2026-11-19",
+      "last_seen": "2026-11-19",
+      "title": "Team-level Copilot plugin defaults"
+    },
+    "https://github.blog/changelog/2026-11-18-security-risk-assessments-run-automatically-on-github-team": {
+      "first_seen": "2026-11-19",
+      "last_seen": "2026-11-19",
+      "title": "Automatic security risk assessments on GitHub Team"
+    },
+    "https://github.blog/changelog/2026-11-18-gemini-4-neon-in-github-copilot": {
+      "first_seen": "2026-11-19",
+      "last_seen": "2026-11-19",
+      "title": "Gemini 4 Neon in GitHub Copilot"
+    },
+    "https://blog.cloudflare.com/kitesurf-open-source": {
+      "first_seen": "2026-11-19",
+      "last_seen": "2026-11-19",
+      "title": "Kitesurf open-source browser runtime"
+    },
+    "https://blog.cloudflare.com/open-clairic": {
+      "first_seen": "2026-11-19",
+      "last_seen": "2026-11-19",
+      "title": "Open-weight Clairic and Clairic-flash"
+    },
+    "https://blog.cloudflare.com/ai-search-ga": {
+      "first_seen": "2026-11-19",
+      "last_seen": "2026-11-09",
+      "title": "Cloudflare AI Search reaches general availability"
+    },
+    "https://blog.cloudflare.com/zero-wire": {
+      "first_seen": "2026-11-19",
+      "last_seen": "2026-11-19",
+      "title": "Zero Wire vulnerability intelligence feed"
+    },
+    "https://blog.cloudflare.com/launching-vite-ecosystem-fund": {
+      "first_seen": "2026-11-19",
+      "last_seen": "2026-11-19",
+      "title": "Cloudflare Vite Ecosystem Fund"
+    },
+    "https://arxiv.org/list/cs.AI/new": {
+      "first_seen": "2026-11-19",
+      "last_seen": "2026-09-05",
+      "title": "arXiv cs.AI new submissions \u2014 4 September 2026"
+    },
     "https://github.blog/changelog/2026-11-17-secret-scanning-on-demand-for-developers-and-agents": {
       "first_seen": "2026-11-18",
       "last_seen": "2026-11-18",
@@ -496,11 +551,6 @@
       "last_seen": "2026-10-23",
       "title": "Build by Design: New Workflows for New Ways of Building"
     },
-    "https://blog.cloudflare.com/ai-search-ga": {
-      "first_seen": "2026-11-09",
-      "last_seen": "2026-11-09",
-      "title": "Cloudflare AI Search reaches general availability"
-    },
     "https://blog.cloudflare.com/faster-agent-sandboxes": {
       "first_seen": "2026-11-09",
       "last_seen": "2026-11-09",
@@ -595,11 +645,6 @@
       "first_seen": "2026-11-08",
       "last_seen": "2026-09-29",
       "title": "NVIDIA OpenShell: policy outside the agent"
-    },
-    "https://arxiv.org/list/cs.AI/new": {
-      "first_seen": "2026-11-08",
-      "last_seen": "2026-09-05",
-      "title": "arXiv cs.AI new submissions \u2014 4 September 2026"
     },
     "https://www.sailpoint.com/blog/whats-new-sailpoint-agentic-fabric-ga": {
       "first_seen": "2026-11-07",
