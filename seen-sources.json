@@ -1,6 +1,66 @@
 {
-  "updated_at": "2026-11-19T09:11:55.450291+00:00",
+  "updated_at": "2026-11-20T09:11:05.562100+00:00",
   "sources": {
+    "https://openai.com/index/research-acceleration-jagged-frontier": {
+      "first_seen": "2026-11-20",
+      "last_seen": "2026-11-20",
+      "title": "Research acceleration: the jagged frontier"
+    },
+    "https://research.google/blog/towards-a-science-of-scaling-agent-systems-when-and-why-agent-systems-work": {
+      "first_seen": "2026-11-20",
+      "last_seen": "2026-09-26",
+      "title": "Towards a science of scaling agent systems"
+    },
+    "https://www.anthropic.com/features/claude-on-mars": {
+      "first_seen": "2026-11-20",
+      "last_seen": "2026-11-20",
+      "title": "Claude on Mars"
+    },
+    "https://mistral.ai/news/mistral-large-4-oss": {
+      "first_seen": "2026-11-20",
+      "last_seen": "2026-11-20",
+      "title": "Mistral Large 4 open-weight release"
+    },
+    "https://mistral.ai/news/build-with-studio": {
+      "first_seen": "2026-11-20",
+      "last_seen": "2026-11-20",
+      "title": "Build Enterprise Agents, Workflows & Apps in Mistral Studio"
+    },
+    "https://mistral.ai/news/workflows": {
+      "first_seen": "2026-11-20",
+      "last_seen": "2026-11-20",
+      "title": "Workflows for Work That Runs the Business"
+    },
+    "https://arxiv.org/html/2611.26341v1": {
+      "first_seen": "2026-11-20",
+      "last_seen": "2026-11-20",
+      "title": "Reasoning on Call"
+    },
+    "https://arxiv.org/html/2611.20230v1": {
+      "first_seen": "2026-11-20",
+      "last_seen": "2026-11-20",
+      "title": "A Matrix with Steps"
+    },
+    "https://arxiv.org/html/2611.08318v1": {
+      "first_seen": "2026-11-20",
+      "last_seen": "2026-11-20",
+      "title": "Learning the Task or Learning the Verifier?"
+    },
+    "https://arxiv.org/html/2611.12177": {
+      "first_seen": "2026-11-20",
+      "last_seen": "2026-11-20",
+      "title": "Embodied First Exam"
+    },
+    "https://openai.com/index/introducing-gpt-6-cyber": {
+      "first_seen": "2026-11-20",
+      "last_seen": "2026-11-06",
+      "title": "GPT-6 Cyber"
+    },
+    "https://blog.cloudflare.com/trusted-agent-delegation": {
+      "first_seen": "2026-11-20",
+      "last_seen": "2026-11-09",
+      "title": "Trusted agent delegation"
+    },
     "https://github.blog/changelog/2026-11-18-wait-for-pull-request-events-with-github-cli": {
       "first_seen": "2026-11-19",
       "last_seen": "2026-11-19",
@@ -210,11 +270,6 @@
       "first_seen": "2026-11-16",
       "last_seen": "2026-11-16",
       "title": "Princeton evaluation trends"
-    },
-    "https://blog.cloudflare.com/trusted-agent-delegation": {
-      "first_seen": "2026-11-16",
-      "last_seen": "2026-11-09",
-      "title": "Trusted agent delegation"
     },
     "https://stripe.com/newsroom/news/agentic-commerce-suite": {
       "first_seen": "2026-11-16",
@@ -725,11 +780,6 @@
       "first_seen": "2026-11-06",
       "last_seen": "2026-11-06",
       "title": "Agent Substrate repository"
-    },
-    "https://openai.com/index/introducing-gpt-6-cyber": {
-      "first_seen": "2026-11-06",
-      "last_seen": "2026-11-06",
-      "title": "GPT-6 Cyber"
     },
     "https://openai.com/index/a-thousand-fewer-paths-to-root": {
       "first_seen": "2026-11-06",
@@ -2365,11 +2415,6 @@
       "first_seen": "2026-09-29",
       "last_seen": "2026-09-29",
       "title": "Private context is a permissioned capability"
-    },
-    "https://research.google/blog/towards-a-science-of-scaling-agent-systems-when-and-why-agent-systems-work": {
-      "first_seen": "2026-09-29",
-      "last_seen": "2026-09-26",
-      "title": "Towards a science of scaling agent systems"
     },
     "https://claude.com/blog/a-harness-for-every-task-dynamic-workflows-in-claude-code": {
       "first_seen": "2026-09-29",

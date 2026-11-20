@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-11-19T09:11:55.450291+00:00",
+  "updated_at": "2026-11-20T09:11:05.562100+00:00",
   "days": [
+    {
+      "date": "2026-11-20",
+      "path": "2026-11-20",
+      "reports": [
+        {
+          "lane": "agentic-research",
+          "title": "Agentic Research Operations",
+          "url": "2026-11-20/agentic-research.html"
+        },
+        {
+          "lane": "open-models-and-runtime",
+          "title": "Open Models + Runtime Sovereignty",
+          "url": "2026-11-20/open-models-and-runtime.html"
+        },
+        {
+          "lane": "embodied-agent-evaluation",
+          "title": "Embodied Agents + Evaluation",
+          "url": "2026-11-20/embodied-agent-evaluation.html"
+        },
+        {
+          "lane": "agent-runtime-security",
+          "title": "Agent Runtime Security + Delegation",
+          "url": "2026-11-20/agent-runtime-security.html"
+        }
+      ]
+    },
     {
       "date": "2026-11-19",
       "path": "2026-11-19",

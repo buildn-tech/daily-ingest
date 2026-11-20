@@ -1,0 +1,28 @@
+{
+  "date": "2026-11-20",
+  "generated_at": "2026-11-20T09:01:05Z",
+  "editorial_thesis": "Useful agent autonomy is bounded by task shape, runtime controls, and independent verification.",
+  "topic_groups": [
+    {"slug":"agentic-research","title":"Agentic Research Operations","selection_rationale":"Fresh evidence on uneven multi-hour capability, coordination fit, and high-consequence validation; avoids yesterday's GitHub-heavy coverage.","sources":[
+      {"title":"Research acceleration: the jagged frontier","url":"https://openai.com/index/research-acceleration-jagged-frontier/","source_type":"research","published_or_updated":"2026-11-18","why_selected":"Quantifies rising agent work and uneven task success.","usefulness":"Supports outcome-based scoping and intervention metrics."},
+      {"title":"Towards a science of scaling agent systems","url":"https://research.google/blog/towards-a-science-of-scaling-agent-systems-when-and-why-agent-systems-work/","source_type":"research","published_or_updated":"2026-01-28","why_selected":"Provides a task-shape test for multi-agent designs.","usefulness":"Prevents unnecessary swarm complexity."},
+      {"title":"Claude on Mars","url":"https://www.anthropic.com/features/claude-on-mars","source_type":"case-study","published_or_updated":"2026-11-20","why_selected":"Shows generation, simulation, human approval, and execution as a bounded loop.","usefulness":"Portable pattern for high-consequence automation."}
+    ]},
+    {"slug":"open-models-and-runtime","title":"Open Models + Runtime Sovereignty","selection_rationale":"Fills a coverage gap around open-weight deployment as an operating stack, not merely a model release.","sources":[
+      {"title":"Mistral Large 4 open-weight release","url":"https://mistral.ai/news/mistral-large-4-oss/","source_type":"release","published_or_updated":"2026-11-20","why_selected":"New open-weight model positioned for coding and defensive security.","usefulness":"Candidate for private benchmark trials."},
+      {"title":"Build Enterprise Agents, Workflows & Apps in Mistral Studio","url":"https://mistral.ai/news/build-with-studio/","source_type":"product","published_or_updated":"2026-11-20","why_selected":"Connects model choice to runtime, connectors, approvals, and deployment.","usefulness":"Reference architecture for private client pilots."},
+      {"title":"Workflows for Work That Runs the Business","url":"https://mistral.ai/news/workflows/","source_type":"product","published_or_updated":"2026-04-27","why_selected":"Concrete durable execution and pause/resume pattern.","usefulness":"Comparable to Buildn's scheduled and review-chain primitives."}
+    ]},
+    {"slug":"embodied-agent-evaluation","title":"Embodied Agents + Evaluation","selection_rationale":"Fresh papers provide generalizable lessons on selective reasoning, verified memory, and grader overfitting.","sources":[
+      {"title":"Reasoning on Call","url":"https://arxiv.org/html/2611.26341v1","source_type":"paper","published_or_updated":"2026-11-19","why_selected":"Event-triggered reasoning reduces cost while preserving recovery.","usefulness":"Template for escalation-based software agents."},
+      {"title":"A Matrix with Steps","url":"https://arxiv.org/html/2611.20230v1","source_type":"paper","published_or_updated":"2026-11-15","why_selected":"Makes external verification a memory write gate.","usefulness":"Improves evidence-linked agent memory."},
+      {"title":"Learning the Task or Learning the Verifier?","url":"https://arxiv.org/html/2611.08318v1","source_type":"paper","published_or_updated":"2026-11-05","why_selected":"Demonstrates benchmark overfitting under criteria exposure.","usefulness":"Supports hidden holdouts and evaluator rotation."},
+      {"title":"Embodied First Exam","url":"https://arxiv.org/html/2611.12177","source_type":"paper","published_or_updated":"2026-11-09","why_selected":"Broad benchmark with privileged, standard, and realtime settings.","usefulness":"Useful model for layered agent evaluation."}
+    ]},
+    {"slug":"agent-runtime-security","title":"Agent Runtime Security + Delegation","selection_rationale":"Moves the security lane from generic prompt safety to delegated identity, runtime scope, and revocation.","sources":[
+      {"title":"GPT-6 Cyber","url":"https://openai.com/index/introducing-gpt-6-cyber/","source_type":"product","published_or_updated":"2026-11-05","why_selected":"Shows defensive cyber agents entering broader operational use.","usefulness":"Informs bounded vulnerability triage pilots."},
+      {"title":"Trusted agent delegation","url":"https://blog.cloudflare.com/trusted-agent-delegation/","source_type":"blog","published_or_updated":"2026-11-16","why_selected":"Clarifies why agent and user identity must remain distinct but linked.","usefulness":"Direct input to Buildn action and audit schemas."},
+      {"title":"Build Enterprise Agents, Workflows & Apps in Mistral Studio","url":"https://mistral.ai/news/build-with-studio/","source_type":"product","published_or_updated":"2026-11-20","why_selected":"Provides a concrete runtime-control vocabulary.","usefulness":"Tool allowlists, sandboxes, hooks, approvals, and traces."}
+    ]}
+  ]
+}

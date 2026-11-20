@@ -1853,9 +1853,9 @@
       "last_selection_rationale": "New model availability and adaptive review controls earn inclusion only as a routing and outcome-measurement update, not as another model roundup."
     },
     "embodied-agent-evaluation": {
-      "title": "Embodied Agent Evaluation",
-      "times_covered": 1,
-      "last_covered": "2026-11-18",
+      "title": "Embodied Agents + Evaluation",
+      "times_covered": 2,
+      "last_covered": "2026-11-20",
       "last_selection_rationale": "Current robotics work fills a neglected physical-systems lane with material updates on serving pressure, recovery, long-horizon memory, and evidence-grounded evaluation."
     },
     "event-driven-agent-execution": {
@@ -1872,6 +1872,21 @@
       "title": "Evidence-First Agent Research",
       "times_covered": 1,
       "last_covered": "2026-11-19"
+    },
+    "agentic-research": {
+      "title": "Agentic Research Operations",
+      "times_covered": 1,
+      "last_covered": "2026-11-20"
+    },
+    "open-models-and-runtime": {
+      "title": "Open Models + Runtime Sovereignty",
+      "times_covered": 1,
+      "last_covered": "2026-11-20"
+    },
+    "agent-runtime-security": {
+      "title": "Agent Runtime Security + Delegation",
+      "times_covered": 1,
+      "last_covered": "2026-11-20"
     }
   },
   "item_history": [
@@ -13704,6 +13719,79 @@
         "https://arxiv.org/html/2611.12177v1"
       ],
       "selection_rationale": "Rotated toward practical gaps: delivery surfaces, evidence-linked memory, agent identity, and physical-system evaluation."
+    },
+    {
+      "date": "2026-11-20",
+      "selected_lanes": [
+        "agentic-research",
+        "open-models-and-runtime",
+        "embodied-agent-evaluation",
+        "agent-runtime-security"
+      ],
+      "items": [
+        {
+          "title": "Research acceleration: the jagged frontier",
+          "url": "https://openai.com/index/research-acceleration-jagged-frontier/",
+          "source_type": "research",
+          "rationale": "Measures uneven multi-hour capability and rising agent work."
+        },
+        {
+          "title": "Towards a science of scaling agent systems",
+          "url": "https://research.google/blog/towards-a-science-of-scaling-agent-systems-when-and-why-agent-systems-work/",
+          "source_type": "research",
+          "rationale": "Matches coordination architecture to task shape."
+        },
+        {
+          "title": "Claude on Mars",
+          "url": "https://www.anthropic.com/features/claude-on-mars",
+          "source_type": "case-study",
+          "rationale": "Shows simulation and human approval as autonomy boundary."
+        },
+        {
+          "title": "Mistral Large 4 open-weight release",
+          "url": "https://mistral.ai/news/mistral-large-4-oss/",
+          "source_type": "release",
+          "rationale": "Fresh open-weight candidate for private coding and cyber trials."
+        },
+        {
+          "title": "Mistral Studio",
+          "url": "https://mistral.ai/news/build-with-studio/",
+          "source_type": "product",
+          "rationale": "Connects open models to controlled runtime and workflow primitives."
+        },
+        {
+          "title": "Reasoning on Call",
+          "url": "https://arxiv.org/html/2611.26341v1",
+          "source_type": "paper",
+          "rationale": "Selective reasoning is a portable cost and reliability pattern."
+        },
+        {
+          "title": "A Matrix with Steps",
+          "url": "https://arxiv.org/html/2611.20230v1",
+          "source_type": "paper",
+          "rationale": "External verification makes memory promotion safer."
+        },
+        {
+          "title": "Learning the Task or Learning the Verifier?",
+          "url": "https://arxiv.org/html/2611.08318v1",
+          "source_type": "paper",
+          "rationale": "Highlights evaluator overfitting and the need for hidden holdouts."
+        },
+        {
+          "title": "Trusted agent delegation",
+          "url": "https://blog.cloudflare.com/trusted-agent-delegation/",
+          "source_type": "blog",
+          "rationale": "Makes delegated identity and revocation explicit runtime concerns."
+        },
+        {
+          "title": "GPT-6 Cyber",
+          "url": "https://openai.com/index/introducing-gpt-6-cyber/",
+          "source_type": "product",
+          "rationale": "Signals defensive cyber agents entering bounded operational workflows."
+        }
+      ],
+      "selection_rationale": "Rotated away from yesterday’s GitHub-heavy and open-browser coverage toward accountable research operations, runtime sovereignty, embodied evaluation, and delegated security.",
+      "editorial_thesis": "Useful agent autonomy is bounded by task shape, runtime controls, and independent verification."
     }
   ],
   "last_updated": "2026-11-15",
@@ -14151,6 +14239,6 @@
       "selection_rationale": "Rotated toward practical gaps: delivery surfaces, evidence-linked memory, agent identity, and physical-system evaluation."
     }
   ],
-  "last_selection_rationale": "Today’s strongest signal is a shift from agent capability to accountable substrate: event streams, open runtimes, typed extraction, multimodal retrieval, and auditable self-improvement.",
-  "last_generated_at": "2026-11-19T09:11:48.037598+00:00"
+  "last_selection_rationale": "Rotated away from yesterday’s GitHub-heavy and open-browser coverage toward accountable research operations, runtime sovereignty, embodied evaluation, and delegated security.",
+  "last_generated_at": "2026-11-20T09:01:05Z"
 }
