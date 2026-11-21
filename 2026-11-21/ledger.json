@@ -1,0 +1,38 @@
+{
+  "date": "2026-11-21",
+  "generated_at": "2026-11-21T09:00:18Z",
+  "editorial_thesis": "The next practical layer of agent leverage is governable memory, attributable identity, and resilient private infrastructure—not more autonomy by default.",
+  "topic_groups": [
+    {
+      "slug": "agent-memory",
+      "title": "Agent Memory That Can Be Governed",
+      "selection_rationale": "Fills a neglected coverage gap with fresh work on holistic evaluation, sidecar scheduling, and point-of-use utility.",
+      "sources": [
+        {"title":"HEAMS: Holistic Evaluation of Agent Memory Systems","url":"https://arxiv.org/html/2611.20144v1","source_type":"paper","published_or_updated":"2026-11-15","why_selected":"Evaluates performance, efficiency, privacy, sovereignty, and security separately.","usefulness":"Provides an acceptance-test shape for persistent Buildn memory."},
+        {"title":"HEAMS code","url":"https://github.com/milatechtransfer/heams","source_type":"repo","published_or_updated":"unknown","why_selected":"Makes the evaluation framework actionable rather than purely conceptual.","usefulness":"Candidate for local memory-system benchmarking."},
+        {"title":"Who Schedules Agent Memory? A Sidecar Approach to Long-Horizon Tasks","url":"https://arxiv.org/html/2611.00779v1","source_type":"paper","published_or_updated":"2026-10-31","why_selected":"Separates retrieval scheduling from the main task agent.","usefulness":"Maps to asynchronous, provenance-aware Buildn context delivery."},
+        {"title":"Delivered, Not Used: Evaluating Agent Memory at Its Point of Use","url":"https://arxiv.org/html/2611.01718v1","source_type":"paper","published_or_updated":"2026-11-13","why_selected":"Distinguishes retrieved memories from memories that actually improve decisions.","usefulness":"Suggests a missing event type for agent traces."},
+        {"title":"What Is This Memory Useful For? Measuring Task-Conditioned Utility in Long-Term Agent Memory","url":"https://arxiv.org/html/2611.03930v1","source_type":"paper","published_or_updated":"unknown","why_selected":"Frames utility as task-conditioned instead of universally beneficial.","usefulness":"Supports reversible, evidence-linked retention policies."}
+      ]
+    },
+    {
+      "slug": "agent-identity",
+      "title": "Agent Identity + Access",
+      "selection_rationale": "Extends recent runtime-security coverage with a concrete non-human identity lifecycle, current standards work, and a posture scorecard.",
+      "sources": [
+        {"title":"AI Agent Identity Crisis: Standards Emerge as Enterprises Lag","url":"https://labs.cloudsecurityalliance.org/research/csa-research-note-okta-ai-agent-iam-framework-enterprise-gap/","source_type":"research","published_or_updated":"2026-03-18","why_selected":"Synthesizes the governance gap around agent discovery, credentials, privilege, and accountability.","usefulness":"Direct input to agent registry and revocation design."},
+        {"title":"2026 State of AI Agent Identity Security report","url":"https://www.akeyless.io/ebooks/state-of-ai-agent-identity-security-report/","source_type":"report","published_or_updated":"2026","why_selected":"Adds a current industry posture lens based on 400 security and IT leaders.","usefulness":"Suggests measurable identity-readiness fields."},
+        {"title":"SI Agent Standards Initiative","url":"https://www.nist.gov/super-intelligence/si-agent-standards-initiative","source_type":"standards","published_or_updated":"2026-11-09","why_selected":"Current NIST work on agent authentication and interoperable security standards.","usefulness":"Keeps Buildn principal and delegation models transport-neutral."}
+      ]
+    },
+    {
+      "slug": "developer-infrastructure",
+      "title": "Developer Infrastructure + Self-Hosting",
+      "selection_rationale": "Chosen for immediate deployment signal: a GHES release candidate with local security controls plus self-hosting continuity issues that affect real workloads.",
+      "sources": [
+        {"title":"GitHub Enterprise Server 3.23 release candidate","url":"https://github.blog/changelog/2026-11-20-github-enterprise-server-3-23-release-candidate/","source_type":"release","published_or_updated":"2026-11-20","why_selected":"Adds air-gapped AI secret detection, malicious-package coverage, cooldowns, and expiring OAuth tokens.","usefulness":"Candidate for private client staging and policy review."},
+        {"title":"Self-Host Weekly — 20 November 2026","url":"https://selfh.st/weekly/2026-11-20/","source_type":"news","published_or_updated":"2026-11-20","why_selected":"Surfaces API monetization, licensing, maintenance, and security changes across self-hosted tools.","usefulness":"Supports an upstream dependency continuity ledger."}
+      ]
+    }
+  ]
+}

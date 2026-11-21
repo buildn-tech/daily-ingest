@@ -14239,6 +14239,23 @@
       "selection_rationale": "Rotated toward practical gaps: delivery surfaces, evidence-linked memory, agent identity, and physical-system evaluation."
     }
   ],
-  "last_selection_rationale": "Rotated away from yesterday’s GitHub-heavy and open-browser coverage toward accountable research operations, runtime sovereignty, embodied evaluation, and delegated security.",
-  "last_generated_at": "2026-11-20T09:01:05Z"
+  "last_selection_rationale": "Selected governable agent memory, attributable agent identity, and resilient private infrastructure to fill coverage gaps while avoiding yesterday’s Mistral/open-model and research-operations lanes.",
+  "last_generated_at": "2026-11-21T09:00:18Z",
+  "latest_selection": {
+    "date": "2026-11-21",
+    "selected_lanes": ["agent-memory", "agent-identity", "developer-infrastructure"],
+    "items": [
+      {"lane":"agent-memory","title":"HEAMS: Holistic Evaluation of Agent Memory Systems","url":"https://arxiv.org/html/2611.20144v1","source_type":"paper","rationale":"Five-axis evaluation makes persistent memory governable."},
+      {"lane":"agent-memory","title":"HEAMS code","url":"https://github.com/milatechtransfer/heams","source_type":"repo","rationale":"Makes the evaluation framework runnable."},
+      {"lane":"agent-memory","title":"Who Schedules Agent Memory? A Sidecar Approach to Long-Horizon Tasks","url":"https://arxiv.org/html/2611.00779v1","source_type":"paper","rationale":"Separates retrieval scheduling from task execution."},
+      {"lane":"agent-memory","title":"Delivered, Not Used","url":"https://arxiv.org/html/2611.01718v1","source_type":"paper","rationale":"Measures memory at point of use rather than retrieval alone."},
+      {"lane":"agent-memory","title":"Task-conditioned memory utility","url":"https://arxiv.org/html/2611.03930v1","source_type":"paper","rationale":"Tests whether recall helps the specific task."},
+      {"lane":"agent-identity","title":"AI Agent Identity Crisis: Standards Emerge as Enterprises Lag","url":"https://labs.cloudsecurityalliance.org/research/csa-research-note-okta-ai-agent-iam-framework-enterprise-gap/","source_type":"research","rationale":"Provides a practical non-human identity lifecycle."},
+      {"lane":"agent-identity","title":"2026 State of AI Agent Identity Security report","url":"https://www.akeyless.io/ebooks/state-of-ai-agent-identity-security-report/","source_type":"report","rationale":"Adds measurable posture fields."},
+      {"lane":"agent-identity","title":"SI Agent Standards Initiative","url":"https://www.nist.gov/super-intelligence/si-agent-standards-initiative","source_type":"standards","rationale":"Keeps principal and delegation designs interoperable."},
+      {"lane":"developer-infrastructure","title":"GitHub Enterprise Server 3.23 release candidate","url":"https://github.blog/changelog/2026-11-20-github-enterprise-server-3-23-release-candidate/","source_type":"release","rationale":"Local AI secret detection and safer dependency automation are immediately testable."},
+      {"lane":"developer-infrastructure","title":"Self-Host Weekly — 20 November 2026","url":"https://selfh.st/weekly/2026-11-20/","source_type":"news","rationale":"Shows API, licensing, and security continuity risks in self-hosting."}
+    ],
+    "selection_rationale":"Filled a neglected memory lane, extended identity governance into a measurable control plane, and selected infrastructure changes with direct staging value."
+  }
 }

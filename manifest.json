@@ -1,6 +1,27 @@
 {
-  "updated_at": "2026-11-20T09:11:05.562100+00:00",
+  "updated_at": "2026-11-21T09:08:21.707671+00:00",
   "days": [
+    {
+      "date": "2026-11-21",
+      "path": "2026-11-21",
+      "reports": [
+        {
+          "lane": "agent-memory",
+          "title": "Agent Memory That Can Be Governed",
+          "url": "2026-11-21/agent-memory.html"
+        },
+        {
+          "lane": "agent-identity",
+          "title": "Agent Identity + Access",
+          "url": "2026-11-21/agent-identity.html"
+        },
+        {
+          "lane": "developer-infrastructure",
+          "title": "Developer Infrastructure + Self-Hosting",
+          "url": "2026-11-21/developer-infrastructure.html"
+        }
+      ]
+    },
     {
       "date": "2026-11-20",
       "path": "2026-11-20",
