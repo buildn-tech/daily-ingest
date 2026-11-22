@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-22T09:05:02.272143+00:00",
+  "updated_at": "2026-11-22T09:06:11.373090+00:00",
   "sources": {
     "https://selfh.st/weekly/2026-11-20": {
       "first_seen": "2026-11-22",
@@ -6465,6 +6465,41 @@
       "first_seen": "2026-07-08",
       "last_seen": "2026-07-08",
       "title": "Cognee persistent memory layer guide"
+    },
+    "https://selfh.st/weekly/2026-11-20/": {
+      "first_seen": "2026-11-22",
+      "last_seen": "2026-11-22",
+      "title": "Self-Host Weekly \u2014 20 November 2026"
+    },
+    "https://techcrunch.com/2026/09/30/reddit-is-killing-rss-feeds-ending-public-api-access-because-of-ai-bots/": {
+      "first_seen": "2026-11-22",
+      "last_seen": "2026-11-22",
+      "title": "Reddit discontinues RSS feeds"
+    },
+    "https://www.postgresql.org/about/news/postgresql-19-released-3449/": {
+      "first_seen": "2026-11-22",
+      "last_seen": "2026-11-22",
+      "title": "PostgreSQL 19 released"
+    },
+    "https://redict.io/posts/2026-11-17-redict-deprecated/": {
+      "first_seen": "2026-11-22",
+      "last_seen": "2026-11-22",
+      "title": "Redict deprecated"
+    },
+    "https://www.figma.com/release-notes/": {
+      "first_seen": "2026-11-22",
+      "last_seen": "2026-11-22",
+      "title": "Work with the Figma agent in dev mode"
+    },
+    "https://nowoka.com/blog/microsoft-clarity-agentic-analytics-ai-agents/": {
+      "first_seen": "2026-11-22",
+      "last_seen": "2026-11-22",
+      "title": "Microsoft Clarity agentic analytics"
+    },
+    "https://martech.org/7-b2b-marketing-shifts-that-will-define-2027/": {
+      "first_seen": "2026-11-22",
+      "last_seen": "2026-11-22",
+      "title": "7 B2B marketing shifts that will define 2027"
     }
   }
 }
