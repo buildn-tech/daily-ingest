@@ -1,6 +1,111 @@
 {
-  "updated_at": "2026-11-21T09:12:06.462791+00:00",
+  "updated_at": "2026-11-22T09:05:02.272143+00:00",
   "sources": {
+    "https://selfh.st/weekly/2026-11-20": {
+      "first_seen": "2026-11-22",
+      "last_seen": "2026-11-21",
+      "title": "Self-Host Weekly \u2014 20 November 2026"
+    },
+    "https://techcrunch.com/2026/09/30/reddit-is-killing-rss-feeds-ending-public-api-access-because-of-ai-bots": {
+      "first_seen": "2026-11-22",
+      "last_seen": "2026-11-22",
+      "title": "Reddit discontinues RSS feeds"
+    },
+    "https://support.last.fm/t/api-keys-will-require-pro-from-1st-december/121030": {
+      "first_seen": "2026-11-22",
+      "last_seen": "2026-11-22",
+      "title": "Last.fm API keys will require Pro from 1st December"
+    },
+    "https://www.postgresql.org/about/news/postgresql-19-released-3449": {
+      "first_seen": "2026-11-22",
+      "last_seen": "2026-11-22",
+      "title": "PostgreSQL 19 released"
+    },
+    "https://wiz.io/blog/nginx-cve-2026-123633-123007": {
+      "first_seen": "2026-11-22",
+      "last_seen": "2026-11-22",
+      "title": "Unauthenticated RCE in NGINX"
+    },
+    "https://redict.io/posts/2026-11-17-redict-deprecated": {
+      "first_seen": "2026-11-22",
+      "last_seen": "2026-11-22",
+      "title": "Redict deprecated"
+    },
+    "https://infisical.com/platform/agent-vault": {
+      "first_seen": "2026-11-22",
+      "last_seen": "2026-11-22",
+      "title": "Infisical Agent Vault"
+    },
+    "https://www.figma.com/release-notes": {
+      "first_seen": "2026-11-22",
+      "last_seen": "2026-08-10",
+      "title": "Figma product news and release notes"
+    },
+    "https://help.figma.com/hc/en-us/articles/44568893374999": {
+      "first_seen": "2026-11-22",
+      "last_seen": "2026-11-22",
+      "title": "Design in 3D natively in Figma"
+    },
+    "https://help.figma.com/hc/en-us/articles/44716871463319": {
+      "first_seen": "2026-11-22",
+      "last_seen": "2026-11-22",
+      "title": "Allowlist of approved OAuth apps including MCP clients"
+    },
+    "https://help.figma.com/hc/en-us/articles/24004542669463": {
+      "first_seen": "2026-11-22",
+      "last_seen": "2026-11-22",
+      "title": "Generate multiple images from a single prompt"
+    },
+    "https://help.figma.com/hc/en-us/articles/41414048690839": {
+      "first_seen": "2026-11-22",
+      "last_seen": "2026-11-22",
+      "title": "Figma Motion: physics springs and Lottie previews"
+    },
+    "https://github.com/rkkautsar/trace2rules": {
+      "first_seen": "2026-11-22",
+      "last_seen": "2026-11-22",
+      "title": "trace2rules"
+    },
+    "https://github.com/diggerhq/opencomputer": {
+      "first_seen": "2026-11-22",
+      "last_seen": "2026-11-22",
+      "title": "OpenComputer"
+    },
+    "https://github.com/janbjorge/straum": {
+      "first_seen": "2026-11-22",
+      "last_seen": "2026-11-22",
+      "title": "Straum"
+    },
+    "https://github.com/natsu0529/agent-mcts": {
+      "first_seen": "2026-11-22",
+      "last_seen": "2026-11-22",
+      "title": "agent-mcts"
+    },
+    "https://github.com/alfredjeanlab/ripcloc": {
+      "first_seen": "2026-11-22",
+      "last_seen": "2026-11-22",
+      "title": "Ripcloc \u2014 cloc every agent edit"
+    },
+    "https://nowoka.com/blog/microsoft-clarity-agentic-analytics-ai-agents": {
+      "first_seen": "2026-11-22",
+      "last_seen": "2026-11-22",
+      "title": "Microsoft Clarity agentic analytics"
+    },
+    "https://support.google.com/analytics/answer/9164320?hl=en": {
+      "first_seen": "2026-11-22",
+      "last_seen": "2026-11-22",
+      "title": "What's new in Google Analytics (Nov releases)"
+    },
+    "https://www.getlooploop.com/news/marketing-analytics-first-half-of-november-2026-chatgpt-starts-keeping-score": {
+      "first_seen": "2026-11-22",
+      "last_seen": "2026-11-22",
+      "title": "Marketing analytics 1\u201318 Nov 2026: ChatGPT starts keeping score"
+    },
+    "https://martech.org/7-b2b-marketing-shifts-that-will-define-2027": {
+      "first_seen": "2026-11-22",
+      "last_seen": "2026-11-22",
+      "title": "7 B2B marketing shifts that will define 2027"
+    },
     "https://arxiv.org/html/2611.20144v1": {
       "first_seen": "2026-11-21",
       "last_seen": "2026-11-21",
@@ -45,11 +150,6 @@
       "first_seen": "2026-11-21",
       "last_seen": "2026-11-21",
       "title": "GitHub Enterprise Server 3.23 release candidate"
-    },
-    "https://selfh.st/weekly/2026-11-20": {
-      "first_seen": "2026-11-21",
-      "last_seen": "2026-11-21",
-      "title": "Self-Host Weekly \u2014 20 November 2026"
     },
     "https://openai.com/index/research-acceleration-jagged-frontier": {
       "first_seen": "2026-11-20",
@@ -630,11 +730,6 @@
       "first_seen": "2026-11-10",
       "last_seen": "2026-11-10",
       "title": "AutoMem: Automated Learning of Memory as a Cognitive Skill"
-    },
-    "https://www.figma.com/release-notes": {
-      "first_seen": "2026-11-10",
-      "last_seen": "2026-08-10",
-      "title": "Figma product news and release notes"
     },
     "https://www.figma.com/release-notes?page=2": {
       "first_seen": "2026-11-10",

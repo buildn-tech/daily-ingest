@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Daily Ingest Dossier — Open Web + Self-Hosting — 2026-11-22</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+<style>
+      :root {
+        --brand: #01dc82; --deep: #033330; --lime: #cfe66a; --red: #b3261e; --amber: #9a6700;
+        --ink: #0f172a; --muted: #475569; --line: #e2e8f0; --bg: #fafaf9; --card: #ffffff;
+        --serif: "Newsreader", Georgia, serif; --sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+      }
+      * { box-sizing: border-box; }
+      body { margin: 0; background: var(--bg); color: var(--ink); font-family: var(--sans); line-height: 1.55; }
+      main { max-width: 64rem; margin: 0 auto; padding: 3rem 1.5rem; }
+      h1 { font-family: var(--serif); color: var(--deep); font-size: 2rem; font-weight: 600; margin: 0; }
+      h2 { font-family: var(--serif); color: var(--deep); font-size: 1.35rem; font-weight: 600; margin: 0 0 .5rem; }
+      h3 { font-family: var(--serif); color: var(--deep); font-size: 1.05rem; font-weight: 600; margin: 0 0 .25rem; }
+      a { color: var(--deep); }
+      .wordmark { display: flex; align-items: center; gap: .6rem; font-weight: 700; color: var(--deep); letter-spacing: -0.01em; }
+      header { display: flex; flex-direction: column; gap: 1.25rem; margin-bottom: 2.5rem; }
+      section { display: flex; flex-direction: column; gap: 2rem; }
+      .card { background: var(--card); border: 1px solid var(--line); border-radius: .75rem; padding: 1.5rem; }
+      .badges { display: flex; flex-wrap: wrap; gap: .5rem; margin: .25rem 0 1rem; }
+      .badge { font-size: .7rem; text-transform: uppercase; letter-spacing: .06em; font-weight: 600;
+               padding: .15rem .5rem; border-radius: .35rem; background: #f1f5f9; color: var(--muted); }
+      .badge.good { background: #dcfce7; color: #166534; }
+      .badge.warn { background: #fef3c7; color: var(--amber); }
+      .badge.spec { background: #e2e8f0; color: #334155; }
+      .facts { font-family: ui-monospace, "SF Mono", Menlo, monospace; font-size: .8rem; color: var(--muted);
+               margin: 0 0 1rem; padding: 0; list-style: none; }
+      .facts li { padding: .1rem 0; }
+      .diagram { border: 1px solid var(--line); border-radius: .5rem; background: #fff; padding: 1rem; margin: 1rem 0; }
+      .diagram svg { display: block; max-width: 100%; height: auto; }
+      .label { font-size: .7rem; text-transform: uppercase; letter-spacing: .08em; fill: var(--muted); color: var(--muted); }
+      .wins { margin: .5rem 0 0; padding-left: 1.1rem; }
+      .wins li { margin: .15rem 0; }
+      .callout { border-left: 3px solid var(--amber); background: #fffbeb; color: #713f12;
+                 padding: .6rem .9rem; border-radius: .25rem; font-size: .9rem; }
+      .hl { background: rgba(207,230,106,.6); padding: 0 .15em; }
+      .seam { stroke-dasharray: 4 4; } .accent { stroke: var(--red); }
+      .exec { font-size: 1.05rem; color: var(--ink); }
+      .lede { color: var(--muted); font-size: .95rem; margin: .25rem 0 0; }
+      dl { margin: .5rem 0 0; display: grid; grid-template-columns: 8.5rem 1fr; gap: .35rem .75rem; font-size: .92rem; }
+      dt { font-weight: 700; color: var(--deep); }
+      dd { margin: 0; }
+      table { width: 100%; border-collapse: collapse; font-size: .85rem; }
+      th, td { text-align: left; padding: .5rem .6rem; border-bottom: 1px solid var(--line); }
+      th { font-size: .7rem; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); }
+      td.ok { color: #166534; font-weight: 600; }
+      td.mid { color: var(--amber); font-weight: 600; }
+      .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr)); gap: 1rem; }
+      .minicard { border: 1px solid var(--line); border-radius: .5rem; padding: .75rem .9rem; background: #fff; }
+      .node { rx: 6; }
+</style></head><body><main>
+<header>
+  <div class="wordmark"><svg viewBox="0 0 164 195" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" width="22">
+<path d="M117 194.5H0L12 73C17.47 66.63 21.30 65.46 28.5 64.5L34.5 0H151.5C158.44 4.40 161.28 7.18 163.5 13L153 119.5C148.80 127.15 144.97 129.55 135.5 130.5L131 184.5C127.71 190.35 125.13 192.98 117 194.5Z" fill="#01dc82"/>
+<path d="M64 33L61 64.5H93.5L91 97H123L127.5 46.5C125.53 37.94 122.01 35.19 112.5 33H64Z" fill="#033330"/>
+<path d="M37 147.5L41.5 98H74.5L71.5 129.5L104 130.5L100.5 162H49.5C41.82 159.35 39.68 155.53 37 147.5Z" fill="#033330"/></svg><span>Buildn</span></div>
+  <h1>Daily Ingest Dossier — Open Web + Self-Hosting</h1>
+  <p class="lede">2026-11-22 · Daily Ingest Dossier</p>
+  <p class="exec">The open web is being repriced under agents' feet. This week alone Reddit shut RSS, Last.fm paywalled API keys, and a critical NGINX RCE forced a patch sweep, while PostgreSQL 19 and Valkey quietly became the safer defaults for owned infrastructure.</p>
+</header>
+
+<article class="card"><h2>Signal map</h2>
+<div class="diagram"><svg viewBox="0 0 640 150" role="img" aria-label="Agents pressure the open web; self-hosters respond">
+<defs><marker id="ar" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 z" fill="#94a3b8"/></marker></defs>
+<rect class="node" x="10" y="30" width="150" height="40" rx="6" fill="#fff" stroke="#cbd5e1"/><text x="85.0" y="54.0" text-anchor="middle" class="label">AI scraping pressure</text>
+<rect class="node" x="210" y="10" width="130" height="34" rx="6" fill="#fff" stroke="var(--red)"/><text x="275.0" y="31.0" text-anchor="middle" class="label">Reddit kills RSS</text>
+<rect class="node" x="210" y="60" width="130" height="34" rx="6" fill="#fff" stroke="var(--red)"/><text x="275.0" y="81.0" text-anchor="middle" class="label">Last.fm API paywall</text>
+<rect class="node" x="210" y="110" width="130" height="34" rx="6" fill="#fff" stroke="var(--amber)"/><text x="275.0" y="131.0" text-anchor="middle" class="label">Infisical paywalls roles</text>
+<line x1="160" y1="50" x2="206" y2="27" stroke="#94a3b8" marker-end="url(#ar)"/>
+<line x1="160" y1="50" x2="206" y2="77" stroke="#94a3b8" marker-end="url(#ar)"/>
+<line x1="160" y1="50" x2="206" y2="127" class="accent seam" marker-end="url(#ar)"/>
+<rect class="node" x="410" y="35" width="120" height="40" rx="6" fill="#fff" stroke="#cbd5e1"/><text x="470.0" y="59.0" text-anchor="middle" class="label">Self-host stack</text>
+<line x1="344" y1="77" x2="406" y2="57" stroke="#94a3b8" marker-end="url(#ar)"/>
+<rect class="node" x="560" y="35" width="70" height="40" rx="6" fill="#fff" stroke="#cbd5e1"/><text x="595.0" y="59.0" text-anchor="middle" class="label">Yours</text>
+<line x1="534" y1="55" x2="556" y2="55" stroke="#94a3b8" marker-end="url(#ar)"/>
+</svg></div>
+<p class="lede">Access closures cluster on the left (red), and each pushes users one step toward owned infrastructure on the right.</p>
+</article>
+
+<article class="card"><h2>The open web closes for agents</h2>
+<div class="badges"><span class="badge warn">Structural shift</span><span class="badge">News</span></div>
+<ul class="facts"><li>Reddit RSS feeds stopped working 2026-11-16</li><li>Last.fm API keys require Pro from 2026-12-01</li><li>OpenCloud restricts community users to rolling releases</li></ul>
+<p><strong>What it is:</strong> Reddit ended public RSS/API access citing AI bots, and Last.fm starts charging for API keys used to scrobble from self-hosted music servers. OpenCloud joined the enterprise-repo pattern.</p>
+<p><strong>Why it matters:</strong> Integrations you take for granted can lapse with a week of notice. Anything Buildn or a client depends on via someone else's free feed needs a fallback or a mirror.</p>
+<dl><dt>Use cases</dt><dd>Audit every RSS/API dependency in automation and pipelines; pin mirrors or paid tiers.</dd></dl>
+<ul class="wins"><li>Free integrations are now rentable</li><li>Plan before December 1</li><li>Mirror what you need</li></ul>
+<div class="callout">Watch the ethical line too: closures target AI scraping, and your agent workflows will inherit the friction.</div>
+</article>
+
+<article class="card"><h2>PostgreSQL 19 released</h2>
+<div class="badges"><span class="badge good">Major release</span><span class="badge">Database</span></div>
+<ul class="facts"><li>https://www.postgresql.org/about/news/postgresql-19-released-3449/</li><li>Released 2026-11-19</li></ul>
+<p><strong>What it is:</strong> The annual major release of the default database behind most Buildn v1 stacks.</p>
+<p><strong>Why it matters:</strong> Major versions carry planner, replication, and management changes that both new projects and client migrations should plan around. Env Vault's Next.js + Postgres baseline should standardize on it.</p>
+<dl><dt>Use cases</dt><dd>Default to 19 for new projects; read the release notes before any client upgrade.</dd></dl>
+<ul class="wins"><li>New default for greenfield work</li><li>Check upgrade path per client</li><li>PgBouncer and extensions lag</li></ul>
+<div class="callout">Extensions (pgvector etc.) usually trail major releases; verify compatibility before staging upgrades.</div>
+</article>
+
+<article class="card"><h2>Critical NGINX HTTP/2 RCE</h2>
+<div class="badges"><span class="badge warn">Security</span><span class="badge">CVE</span></div>
+<ul class="facts"><li>CVE-2026-123633, CVE-2026-123007</li><li>Unauthenticated remote code execution</li></ul>
+<p><strong>What it is:</strong> Two critical HTTP/2 flaws in NGINX allow unauthenticated attackers to compromise servers, disclosed via Wiz's bulletin.</p>
+<p><strong>Why it matters:</strong> NGINX fronts a huge share of self-hosted and client deployments. This is a patch-now item for every reverse proxy in your or your clients' infrastructure.</p>
+<dl><dt>Use cases</dt><dd>Sweep homelab and client servers today; document NGINX versions in infra inventories.</dd></dl>
+<ul class="wins"><li>Patch within the day</li><li>Unauthenticated means internet-facing first</li><li>Check ingress controllers too</li></ul>
+</article>
+
+<article class="card"><h2>Redict deprecated, converge on Valkey</h2>
+<div class="badges"><span class="badge spec">Ecosystem</span><span class="badge">Cache</span></div>
+<ul class="facts"><li>https://redict.io/posts/2026-11-17-redict-deprecated/</li><li>Maintainers recommend Valkey</li></ul>
+<p><strong>What it is:</strong> The Redis fork built over licensing concerns is deprecated; maintainers point users to Valkey.</p>
+<p><strong>Why it matters:</strong> The open-source cache ecosystem is consolidating on Valkey. New deployments should skip Redis-fork indecision and just use Valkey.</p>
+<dl><dt>Use cases</dt><dd>Pick Valkey for new caches; plan a swap for any Redict instances.</dd></dl>
+<ul class="wins"><li>Decision simplifies: Valkey</li><li>BSD-licensed, permissive</li><li>Mature multi-vendor backing</li></ul>
+</article>
+
+<article class="card"><h2>Infisical Agent Vault: brokers secrets to agents</h2>
+<div class="badges"><span class="badge good">Directly relevant</span><span class="badge">Product</span></div>
+<ul class="facts"><li>https://infisical.com/platform/agent-vault</li><li>Secrets never land in prompts or logs</li></ul>
+<p><strong>What it is:</strong> A credential broker that gives AI agents scoped access at request time instead of handing over raw API keys.</p>
+<p><strong>Why it matters:</strong> This validates and pressures the Env Vault thesis: device-scoped keys plus request-time brokering rather than long-lived shared secrets. Watch its model, then differentiate.</p>
+<dl><dt>Use cases</dt><dd>Compare brokering model against Env Vault's device-key design; study what enterprises ask for.</dd></dl>
+<ul class="wins"><li>Validates agent-secret gap</li><li>Free competitor pressure is good</li><li>Study, don't ignore</li></ul>
+<div class="callout">Infisical also paywalled custom roles in a patch release — monitor their open-core balance as a market signal.</div>
+</article>
+
+<article class="card"><h2>Use-case matrix</h2>
+<table><thead><tr><th>Item</th><th>Buildn OS</th><th>Client work</th><th>Agent workflows</th><th>Personal leverage</th></tr></thead><tbody>
+<tr><td>Open-web closures</td><td class='mid'>Fallback plans</td><td class='warn'>Integrations at risk</td><td class='ok'>Direct</td><td class='mid'>Mirrors</td></tr><tr><td>PostgreSQL 19</td><td class='ok'>Default stack</td><td class='ok'>Migration target</td><td class='mid'>Agent DBs</td><td class='ok'>Homelab</td></tr><tr><td>NGINX RCE</td><td class='mid'>Infra hygiene</td><td class='ok'>Patch now</td><td class='mid'>Ingress</td><td class='ok'>Patch now</td></tr><tr><td>Valkey convergence</td><td class='mid'>Cache choice</td><td class='mid'>Simpler stacks</td><td class='mid'>Cache</td><td class='ok'>Homelab</td></tr><tr><td>Infisical Agent Vault</td><td class='ok'>Env Vault signal</td><td class='mid'>Secret posture</td><td class='ok'>Direct</td><td class='mid'>Study</td></tr></tbody></table>
+</article>
+
+<article class="card"><h2>Top actions</h2>
+<ol class="wins"><li>Inventory every free RSS/API dependency in automation and pipelines</li><li>Patch internet-facing NGINX and client proxies for the HTTP/2 CVEs</li><li>Read the Infisical Agent Vault model and note Env Vault deltas</li><li>Adopt PostgreSQL 19 as the greenfield default</li></ol>
+</article>
+
+<article class="card"><h2>Source trail</h2>
+<ul class="facts"><li><a href="https://selfh.st/weekly/2026-11-20/">https://selfh.st/weekly/2026-11-20/</a></li><li><a href="https://techcrunch.com/2026/09/30/reddit-is-killing-rss-feeds-ending-public-api-access-because-of-ai-bots/">https://techcrunch.com/2026/09/30/reddit-is-killing-rss-feeds-ending-public-api-access-because-of-ai-bots/</a></li><li><a href="https://support.last.fm/t/api-keys-will-require-pro-from-1st-december/121030">https://support.last.fm/t/api-keys-will-require-pro-from-1st-december/121030</a></li><li><a href="https://www.postgresql.org/about/news/postgresql-19-released-3449/">https://www.postgresql.org/about/news/postgresql-19-released-3449/</a></li><li><a href="https://wiz.io/blog/nginx-cve-2026-123633-123007">https://wiz.io/blog/nginx-cve-2026-123633-123007</a></li><li><a href="https://redict.io/posts/2026-11-17-redict-deprecated/">https://redict.io/posts/2026-11-17-redict-deprecated/</a></li><li><a href="https://infisical.com/platform/agent-vault">https://infisical.com/platform/agent-vault</a></li></ul>
+</article>
+</main></body></html>

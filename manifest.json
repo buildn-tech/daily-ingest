@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-11-21T09:12:06.462791+00:00",
+  "updated_at": "2026-11-22T09:05:02.272143+00:00",
   "days": [
+    {
+      "date": "2026-11-22",
+      "path": "2026-11-22",
+      "reports": [
+        {
+          "lane": "open-web-selfhosting",
+          "title": "Open Web + Self-Hosting",
+          "url": "2026-11-22/open-web-selfhosting.html"
+        },
+        {
+          "lane": "design-tooling",
+          "title": "Design Tooling + Design-to-Code",
+          "url": "2026-11-22/design-tooling.html"
+        },
+        {
+          "lane": "oss-showhn",
+          "title": "OSS + Coding Agent Experiments",
+          "url": "2026-11-22/oss-showhn.html"
+        },
+        {
+          "lane": "marketing-analytics",
+          "title": "Marketing, Growth + Analytics",
+          "url": "2026-11-22/marketing-analytics.html"
+        }
+      ]
+    },
     {
       "date": "2026-11-21",
       "path": "2026-11-21",

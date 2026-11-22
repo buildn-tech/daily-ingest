@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Daily Ingest Dossier — Design Tooling + Design-to-Code — 2026-11-22</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+<style>
+      :root {
+        --brand: #01dc82; --deep: #033330; --lime: #cfe66a; --red: #b3261e; --amber: #9a6700;
+        --ink: #0f172a; --muted: #475569; --line: #e2e8f0; --bg: #fafaf9; --card: #ffffff;
+        --serif: "Newsreader", Georgia, serif; --sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+      }
+      * { box-sizing: border-box; }
+      body { margin: 0; background: var(--bg); color: var(--ink); font-family: var(--sans); line-height: 1.55; }
+      main { max-width: 64rem; margin: 0 auto; padding: 3rem 1.5rem; }
+      h1 { font-family: var(--serif); color: var(--deep); font-size: 2rem; font-weight: 600; margin: 0; }
+      h2 { font-family: var(--serif); color: var(--deep); font-size: 1.35rem; font-weight: 600; margin: 0 0 .5rem; }
+      h3 { font-family: var(--serif); color: var(--deep); font-size: 1.05rem; font-weight: 600; margin: 0 0 .25rem; }
+      a { color: var(--deep); }
+      .wordmark { display: flex; align-items: center; gap: .6rem; font-weight: 700; color: var(--deep); letter-spacing: -0.01em; }
+      header { display: flex; flex-direction: column; gap: 1.25rem; margin-bottom: 2.5rem; }
+      section { display: flex; flex-direction: column; gap: 2rem; }
+      .card { background: var(--card); border: 1px solid var(--line); border-radius: .75rem; padding: 1.5rem; }
+      .badges { display: flex; flex-wrap: wrap; gap: .5rem; margin: .25rem 0 1rem; }
+      .badge { font-size: .7rem; text-transform: uppercase; letter-spacing: .06em; font-weight: 600;
+               padding: .15rem .5rem; border-radius: .35rem; background: #f1f5f9; color: var(--muted); }
+      .badge.good { background: #dcfce7; color: #166534; }
+      .badge.warn { background: #fef3c7; color: var(--amber); }
+      .badge.spec { background: #e2e8f0; color: #334155; }
+      .facts { font-family: ui-monospace, "SF Mono", Menlo, monospace; font-size: .8rem; color: var(--muted);
+               margin: 0 0 1rem; padding: 0; list-style: none; }
+      .facts li { padding: .1rem 0; }
+      .diagram { border: 1px solid var(--line); border-radius: .5rem; background: #fff; padding: 1rem; margin: 1rem 0; }
+      .diagram svg { display: block; max-width: 100%; height: auto; }
+      .label { font-size: .7rem; text-transform: uppercase; letter-spacing: .08em; fill: var(--muted); color: var(--muted); }
+      .wins { margin: .5rem 0 0; padding-left: 1.1rem; }
+      .wins li { margin: .15rem 0; }
+      .callout { border-left: 3px solid var(--amber); background: #fffbeb; color: #713f12;
+                 padding: .6rem .9rem; border-radius: .25rem; font-size: .9rem; }
+      .hl { background: rgba(207,230,106,.6); padding: 0 .15em; }
+      .seam { stroke-dasharray: 4 4; } .accent { stroke: var(--red); }
+      .exec { font-size: 1.05rem; color: var(--ink); }
+      .lede { color: var(--muted); font-size: .95rem; margin: .25rem 0 0; }
+      dl { margin: .5rem 0 0; display: grid; grid-template-columns: 8.5rem 1fr; gap: .35rem .75rem; font-size: .92rem; }
+      dt { font-weight: 700; color: var(--deep); }
+      dd { margin: 0; }
+      table { width: 100%; border-collapse: collapse; font-size: .85rem; }
+      th, td { text-align: left; padding: .5rem .6rem; border-bottom: 1px solid var(--line); }
+      th { font-size: .7rem; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); }
+      td.ok { color: #166534; font-weight: 600; }
+      td.mid { color: var(--amber); font-weight: 600; }
+      .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr)); gap: 1rem; }
+      .minicard { border: 1px solid var(--line); border-radius: .5rem; padding: .75rem .9rem; background: #fff; }
+      .node { rx: 6; }
+</style></head><body><main>
+<header>
+  <div class="wordmark"><svg viewBox="0 0 164 195" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" width="22">
+<path d="M117 194.5H0L12 73C17.47 66.63 21.30 65.46 28.5 64.5L34.5 0H151.5C158.44 4.40 161.28 7.18 163.5 13L153 119.5C148.80 127.15 144.97 129.55 135.5 130.5L131 184.5C127.71 190.35 125.13 192.98 117 194.5Z" fill="#01dc82"/>
+<path d="M64 33L61 64.5H93.5L91 97H123L127.5 46.5C125.53 37.94 122.01 35.19 112.5 33H64Z" fill="#033330"/>
+<path d="M37 147.5L41.5 98H74.5L71.5 129.5L104 130.5L100.5 162H49.5C41.82 159.35 39.68 155.53 37 147.5Z" fill="#033330"/></svg><span>Buildn</span></div>
+  <h1>Daily Ingest Dossier — Design Tooling + Design-to-Code</h1>
+  <p class="lede">2026-11-22 · Daily Ingest Dossier</p>
+  <p class="exec">Figma shipped five agent-era releases in ten days: an agent inside Dev Mode, native 3D with a code path, and an admin allowlist for MCP clients. The design-to-code seam is turning into a governed agent conversation.</p>
+</header>
+
+<article class="card"><h2>Signal map</h2>
+<div class="diagram"><svg viewBox="0 0 640 140" role="img" aria-label="Figma designs flow through agent to code, under admin allowlist">
+<defs><marker id="ar" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 z" fill="#94a3b8"/></marker></defs>
+<rect class="node" x="10" y="45" width="130" height="40" rx="6" fill="#fff" stroke="#cbd5e1"/><text x="75.0" y="69.0" text-anchor="middle" class="label">Figma design</text>
+<line x1="144" y1="65" x2="196" y2="65" stroke="#94a3b8" marker-end="url(#ar)"/>
+<rect class="node" x="200" y="45" width="130" height="40" rx="6" fill="#fff" stroke="#01dc82"/><text x="265.0" y="69.0" text-anchor="middle" class="label">Figma agent (Dev Mode)</text>
+<line x1="334" y1="65" x2="386" y2="65" stroke="#94a3b8" marker-end="url(#ar)"/>
+<rect class="node" x="390" y="45" width="120" height="40" rx="6" fill="#fff" stroke="#cbd5e1"/><text x="450.0" y="69.0" text-anchor="middle" class="label">Coding agent</text>
+<line x1="514" y1="65" x2="560" y2="65" stroke="#94a3b8" marker-end="url(#ar)"/>
+<rect class="node" x="564" y="45" width="66" height="40" rx="6" fill="#fff" stroke="#cbd5e1"/><text x="597.0" y="69.0" text-anchor="middle" class="label">Code</text>
+<line x1="265" y1="45" x2="265" y2="18" stroke="#94a3b8" marker-end="url(#ar)"/>
+<rect class="node" x="200" y="0" width="130" height="20" rx="6" fill="#fff" stroke="#cbd5e1"/><text x="265.0" y="14.0" text-anchor="middle" class="label">OAuth allowlist</text>
+</svg></div>
+<p class="lede">The design-to-code path now runs through an agent, and the admin console is the gatekeeper for which agents are allowed.</p>
+</article>
+
+<article class="card"><h2>Figma agent lands in Dev Mode</h2>
+<div class="badges"><span class="badge good">High leverage</span><span class="badge">AI</span></div>
+<ul class="facts"><li>Released 2026-11-19</li><li>Inspect, compare versions, bulk asset links</li></ul>
+<p><strong>What it is:</strong> Prompt the Figma agent inside Dev Mode to explain designs, diff versions, request code snippets, and get bulk download links.</p>
+<p><strong>Why it matters:</strong> The design-to-code handoff, the seam most client work stalls on, now has an in-tool agent. It directly affects Buildn's design-delivery workflow: fewer handoff documents, more interrogating the artifact.</p>
+<dl><dt>Use cases</dt><dd>Use in next client design review; ask it for code snippets before writing components.</dd></dl>
+<ul class="wins"><li>Handoff becomes a dialogue</li><li>Version diffs on demand</li><li>Bulk asset retrieval</li></ul>
+</article>
+
+<article class="card"><h2>3D transform, shipped straight to code</h2>
+<div class="badges"><span class="badge good">New capability</span><span class="badge">Design</span></div>
+<ul class="facts"><li>Released 2026-11-12</li><li>On-canvas x/y/z rotation; pairs with Figma Motion</li></ul>
+<p><strong>What it is:</strong> Native 3D rotation with live previews, composable by the agent, exportable as CSS via Dev Mode or pushed through Figma MCP to a coding agent.</p>
+<p><strong>Why it matters:</strong> Perspective and depth used to be a developer task. Now a designer can author a real 3D scene and the code path is one MCP call away — a small but real client-differentiator for marketing pages.</p>
+<dl><dt>Use cases</dt><dd>Hero sections and product pages; hand motion specs to Figma Motion instead of custom JS.</dd></dl>
+<ul class="wins"><li>3D without a 3D tool</li><li>CSS export, no plugin</li><li>MCP path for agents</li></ul>
+</article>
+
+<article class="card"><h2>Admin allowlist for OAuth apps and MCP clients</h2>
+<div class="badges"><span class="badge good">Governance</span><span class="badge">Enterprise</span></div>
+<ul class="facts"><li>Released 2026-11-17</li><li>Covers Cursor, Claude Code as MCP clients</li><li>Org/Enterprise rollout</li></ul>
+<p><strong>What it is:</strong> Admins get an allowlist of approved OAuth apps including MCP clients, plus an Extensions tab to review requests.</p>
+<p><strong>Why it matters:</strong> The same agent-identity governance theme seen in Buildn OS work, arriving in a design tool. Client orgs will ask who can connect which agents to their files; Buildn can answer first.</p>
+<dl><dt>Use cases</dt><dd>Set client org policies before rollout; mirror the allowlist pattern in Env Vault sharing.</dd></dl>
+<ul class="wins"><li>Agents get explicit grants</li><li>Requests reviewed, not surprised</li><li>Precedent for Buildn policies</li></ul>
+</article>
+
+<article class="card"><h2>Multi-model image generation in one prompt</h2>
+<div class="badges"><span class="badge warn">Worth trying</span><span class="badge">AI</span></div>
+<ul class="facts"><li>Released 2026-11-18</li><li>2/4/6 images per model, or 3 models in parallel</li></ul>
+<p><strong>What it is:</strong> Make Image and Edit Image can fan out one prompt across counts or models, presenting options side by side.</p>
+<p><strong>Why it matters:</strong> It turns image production into an option-selection workflow — the same fan-out-then-select pattern agents use everywhere. Faster to acceptable assets for client work.</p>
+<dl><dt>Use cases</dt><dd>Client moodboards and hero art; compare models' house styles once, then pin one.</dd></dl>
+<ul class="wins"><li>Fewer re-prompts</li><li>Model comparison in tool</li><li>Select, don't settle</li></ul>
+</article>
+
+<article class="card"><h2>Use-case matrix</h2>
+<table><thead><tr><th>Item</th><th>Buildn OS</th><th>Client work</th><th>Agent workflows</th><th>Personal leverage</th></tr></thead><tbody>
+<tr><td>Figma agent in Dev Mode</td><td class='ok'>Design docs</td><td class='ok'>Handoff</td><td class='ok'>Direct</td><td class='ok'>Daily use</td></tr><tr><td>3D transform + CSS/MCP</td><td class='mid'>Future</td><td class='ok'>Marketing pages</td><td class='ok'>MCP push</td><td class='mid'>Experiment</td></tr><tr><td>OAuth/MCP allowlist</td><td class='ok'>Policy mirror</td><td class='ok'>Org rollout</td><td class='ok'>Direct</td><td class='mid'>Study</td></tr><tr><td>Multi-image generation</td><td class='mid'>Assets</td><td class='ok'>Moodboards</td><td class='mid'>Fan-out</td><td class='ok'>Quick win</td></tr><tr><td>Motion springs/Lottie</td><td class='mid'>Design system</td><td class='mid'>Prototypes</td><td class='mid'>Spec source</td><td class='ok'>Try</td></tr></tbody></table>
+</article>
+
+<article class="card"><h2>Top actions</h2>
+<ol class="wins"><li>Use the Figma agent in Dev Mode in the next client design review</li><li>Try 3D transform on one hero section and push CSS to a coding agent</li><li>Draft an MCP-client allowlist policy template for client orgs</li></ol>
+</article>
+
+<article class="card"><h2>Source trail</h2>
+<ul class="facts"><li><a href="https://www.figma.com/release-notes/">https://www.figma.com/release-notes/</a></li><li><a href="https://help.figma.com/hc/en-us/articles/44568893374999">https://help.figma.com/hc/en-us/articles/44568893374999</a></li><li><a href="https://help.figma.com/hc/en-us/articles/44716871463319">https://help.figma.com/hc/en-us/articles/44716871463319</a></li><li><a href="https://help.figma.com/hc/en-us/articles/24004542669463">https://help.figma.com/hc/en-us/articles/24004542669463</a></li><li><a href="https://help.figma.com/hc/en-us/articles/41414048690839">https://help.figma.com/hc/en-us/articles/41414048690839</a></li></ul>
+</article>
+</main></body></html>

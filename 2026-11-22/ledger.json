@@ -1,0 +1,203 @@
+{
+  "date": "2026-11-22",
+  "generated_at": "2026-11-22T09:04:38.246723+00:00",
+  "editorial_thesis": "The open web is being repriced under agents' feet while everyday tooling absorbs agents silently, so the leverage is in adopting agent-aware versions of infrastructure and analytics you already run.",
+  "topic_groups": [
+    {
+      "slug": "open-web-selfhosting",
+      "title": "Open Web + Self-Hosting",
+      "selection_rationale": "Coverage gap since July; this week had exceptional signal: two open-web closures, Postgres 19, a critical NGINX RCE, and an agent-secrets product that touches Env Vault.",
+      "sources": [
+        {
+          "title": "Self-Host Weekly \u2014 20 November 2026",
+          "url": "https://selfh.st/weekly/2026-11-20/",
+          "source_type": "blog",
+          "published_or_updated": "2026-11-20",
+          "why_selected": "Primary weekly source for self-hosting signal, not covered since July.",
+          "usefulness": "One-stop scan of closures, releases, and security items."
+        },
+        {
+          "title": "Reddit discontinues RSS feeds",
+          "url": "https://techcrunch.com/2026/09/30/reddit-is-killing-rss-feeds-ending-public-api-access-because-of-ai-bots/",
+          "source_type": "news",
+          "published_or_updated": "2026-11-16",
+          "why_selected": "Effective outage date this week; downstream tooling broke.",
+          "usefulness": "Inventory free-API dependencies before they lapse."
+        },
+        {
+          "title": "Last.fm API keys will require Pro from 1st December",
+          "url": "https://support.last.fm/t/api-keys-will-require-pro-from-1st-december/121030",
+          "source_type": "product",
+          "published_or_updated": "2026-11",
+          "why_selected": "Hard deadline in ten days affecting scrobbling integrations.",
+          "usefulness": "Concrete date to act against."
+        },
+        {
+          "title": "PostgreSQL 19 released",
+          "url": "https://www.postgresql.org/about/news/postgresql-19-released-3449/",
+          "source_type": "release",
+          "published_or_updated": "2026-11-19",
+          "why_selected": "Default database baseline for Buildn v1 stacks.",
+          "usefulness": "Standardization target for new projects."
+        },
+        {
+          "title": "Unauthenticated RCE in NGINX",
+          "url": "https://wiz.io/blog/nginx-cve-2026-123633-123007",
+          "source_type": "news",
+          "published_or_updated": "2026-11-20",
+          "why_selected": "Critical, unauthenticated, extremely widely deployed.",
+          "usefulness": "Patch-now sweep of proxies and ingress."
+        },
+        {
+          "title": "Redict deprecated",
+          "url": "https://redict.io/posts/2026-11-17-redict-deprecated/",
+          "source_type": "blog",
+          "published_or_updated": "2026-11-17",
+          "why_selected": "Ends the Redis-fork debate; consolidates on Valkey.",
+          "usefulness": "Simplifies future cache decisions."
+        },
+        {
+          "title": "Infisical Agent Vault",
+          "url": "https://infisical.com/platform/agent-vault",
+          "source_type": "product",
+          "published_or_updated": "2026-11",
+          "why_selected": "Direct competitor-signal for Env Vault's agent-secret thesis.",
+          "usefulness": "Study their brokering model for differentiation."
+        }
+      ]
+    },
+    {
+      "slug": "design-tooling",
+      "title": "Design Tooling + Design-to-Code",
+      "selection_rationale": "Design-delivery lane last covered 2026-07-15; Figma shipped five agent-era releases in the past ten days, including MCP-client governance that mirrors Buildn's identity work.",
+      "sources": [
+        {
+          "title": "Work with the Figma agent in dev mode",
+          "url": "https://www.figma.com/release-notes/",
+          "source_type": "release",
+          "published_or_updated": "2026-11-19",
+          "why_selected": "Agent arrives at the design-code seam.",
+          "usefulness": "Replace static handoff docs with in-tool queries."
+        },
+        {
+          "title": "Design in 3D natively in Figma",
+          "url": "https://help.figma.com/hc/en-us/articles/44568893374999",
+          "source_type": "release",
+          "published_or_updated": "2026-11-12",
+          "why_selected": "New native capability with a code export path.",
+          "usefulness": "Client marketing-page differentiator."
+        },
+        {
+          "title": "Allowlist of approved OAuth apps including MCP clients",
+          "url": "https://help.figma.com/hc/en-us/articles/44716871463319",
+          "source_type": "release",
+          "published_or_updated": "2026-11-17",
+          "why_selected": "Enterprise agent-governance in a design tool.",
+          "usefulness": "Mirror the pattern in Buildn client policies."
+        },
+        {
+          "title": "Generate multiple images from a single prompt",
+          "url": "https://help.figma.com/hc/en-us/articles/24004542669463",
+          "source_type": "release",
+          "published_or_updated": "2026-11-18",
+          "why_selected": "Fan-out-select production pattern for assets.",
+          "usefulness": "Faster acceptable assets for client work."
+        },
+        {
+          "title": "Figma Motion: physics springs and Lottie previews",
+          "url": "https://help.figma.com/hc/en-us/articles/41414048690839",
+          "source_type": "release",
+          "published_or_updated": "2026-11-10",
+          "why_selected": "Motion specs become design-system artifacts.",
+          "usefulness": "Preserve springs in design systems at scale."
+        }
+      ]
+    },
+    {
+      "slug": "oss-showhn",
+      "title": "OSS + Coding Agent Experiments",
+      "selection_rationale": "Fresh, un-duplicated Show HN signal this week: three projects map directly onto Buildn's agent-evidence and infra plans, and none have appeared in the coverage ledger.",
+      "sources": [
+        {
+          "title": "trace2rules",
+          "url": "https://github.com/rkkautsar/trace2rules",
+          "source_type": "repo",
+          "published_or_updated": "2026-11-21",
+          "why_selected": "Audits agent rules against real sessions using stores this machine already has.",
+          "usefulness": "Immediate AGENTS.md hygiene tool."
+        },
+        {
+          "title": "OpenComputer",
+          "url": "https://github.com/diggerhq/opencomputer",
+          "source_type": "repo",
+          "published_or_updated": "2026-11-22",
+          "why_selected": "Open, self-hostable computer-use agent platform with an active community.",
+          "usefulness": "Owned-agent option for confidential client work."
+        },
+        {
+          "title": "Straum",
+          "url": "https://github.com/janbjorge/straum",
+          "source_type": "repo",
+          "published_or_updated": "2026-11-21",
+          "why_selected": "Live Postgres aggregates without triggers or extensions.",
+          "usefulness": "Simplifies dashboards in the v1 stack."
+        },
+        {
+          "title": "agent-mcts",
+          "url": "https://github.com/natsu0529/agent-mcts",
+          "source_type": "repo",
+          "published_or_updated": "2026-11-21",
+          "why_selected": "Tree-search orchestration over coding agents.",
+          "usefulness": "Pattern study for workflow branching."
+        },
+        {
+          "title": "Ripcloc \u2014 cloc every agent edit",
+          "url": "https://github.com/alfredjeanlab/ripcloc",
+          "source_type": "repo",
+          "published_or_updated": "2026-11-21",
+          "why_selected": "Cheap per-edit accounting of agent churn.",
+          "usefulness": "Feeds cost-and-scale reporting in reports."
+        }
+      ]
+    },
+    {
+      "slug": "marketing-analytics",
+      "title": "Marketing, Growth + Analytics",
+      "selection_rationale": "Marketing lane last covered 2026-07-14; November delivered an unusual analytics story: agent traffic becoming observable and scoreable, which is directly sellable to lead-gen clients.",
+      "sources": [
+        {
+          "title": "Microsoft Clarity agentic analytics",
+          "url": "https://nowoka.com/blog/microsoft-clarity-agentic-analytics-ai-agents/",
+          "source_type": "blog",
+          "published_or_updated": "2026-11-07",
+          "why_selected": "Detailed practical walkthrough of the November 4 Clarity launch.",
+          "usefulness": "How-to plan for agent-funnel auditing."
+        },
+        {
+          "title": "What's new in Google Analytics (Nov releases)",
+          "url": "https://support.google.com/analytics/answer/9164320?hl=en",
+          "source_type": "docs",
+          "published_or_updated": "2026-11-18",
+          "why_selected": "Primary changelog for GA4 audit baselines.",
+          "usefulness": "Keep client setups current."
+        },
+        {
+          "title": "Marketing analytics 1\u201318 Nov 2026: ChatGPT starts keeping score",
+          "url": "https://www.getlooploop.com/news/marketing-analytics-first-half-of-november-2026-chatgpt-starts-keeping-score",
+          "source_type": "news",
+          "published_or_updated": "2026-11-18",
+          "why_selected": "Timely roundup on AI attribution scoring.",
+          "usefulness": "Frames referral-vs-effect measurement."
+        },
+        {
+          "title": "7 B2B marketing shifts that will define 2027",
+          "url": "https://martech.org/7-b2b-marketing-shifts-that-will-define-2027/",
+          "source_type": "blog",
+          "published_or_updated": "2026-11",
+          "why_selected": "Carries the 96%-invisible finding and the 2027 playbook.",
+          "usefulness": "Positioning stat for a productized audit."
+        }
+      ]
+    }
+  ]
+}
