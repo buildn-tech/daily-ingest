@@ -1,0 +1,187 @@
+{
+  "date": "2026-11-23",
+  "generated_at": "2026-11-23T10:00:00+01:00",
+  "editorial_thesis": "The strongest signals this week sit at the extremes of trust: attackers’ agents completed a real zero-day discovery loop, a 17M-line Lean proof of the Riemann Hypothesis was community-verified, and local open models plus parallel-agent tooling made private, reviewable execution practical.",
+  "topic_groups": [
+    {
+      "slug": "formal-proof-verification",
+      "title": "Formal Proof Verification at Scale",
+      "selection_rationale": "A machine-verified proof of the Riemann Hypothesis landed this week, and the verification story, not the mathematics, is the transferable pattern: independent recomputation, isolated claims, and immutability at 17M-line scale.",
+      "sources": [
+        {
+          "title": "Lean verification of the Riemann Hypothesis",
+          "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
+          "source_type": "blog",
+          "published_or_updated": "2026-11-20",
+          "why_selected": "The landmark event of the week; certification criteria are reusable as verification gates.",
+          "usefulness": "Trust model for evidence-bearing artifacts at scale."
+        },
+        {
+          "title": "Yes, 17M lines of Lean is a lot",
+          "url": "https://micjm.com/blog/yes-17m-lines-of-lean-is-a-lot/",
+          "source_type": "blog",
+          "published_or_updated": "2026-11-22",
+          "why_selected": "Engineering reality check on compile/distribution cost of huge proof artifacts.",
+          "usefulness": "Artifact-infrastructure budgeting lessons."
+        },
+        {
+          "title": "Treemap of the Riemann Hypothesis Lean Proof",
+          "url": "https://pengowray.github.io/riemann-zeta-proof-visualizer/",
+          "source_type": "product",
+          "published_or_updated": "2026-11-22",
+          "why_selected": "Navigation pattern for machine-scale artifacts.",
+          "usefulness": "Design input for large review-chain UIs."
+        },
+        {
+          "title": "Masullo on the Riemann Hypothesis",
+          "url": "https://johncarlosbaez.wordpress.com/2026/11/22/masullo-on-the-riemann-hypothesis/",
+          "source_type": "blog",
+          "published_or_updated": "2026-11-22",
+          "why_selected": "Human comprehension phase of a machine-verified result.",
+          "usefulness": "Explain-the-result briefing material."
+        },
+        {
+          "title": "AI may have solved the most important problem in mathematics",
+          "url": "https://www.economist.com/science-and-technology/2026/11/20/ai-may-have-solved-the-most-important-problem-in-mathematics",
+          "source_type": "news",
+          "published_or_updated": "2026-11-20",
+          "why_selected": "Mainstream framing to calibrate against.",
+          "usefulness": "Credible commentary reference."
+        }
+      ]
+    },
+    {
+      "slug": "agentic-security-offense",
+      "title": "Agentic Security: Offense Gets Automated",
+      "selection_rationale": "Attackers’ AI agents reportedly found a real zero-day and escalated to root; paired with organization-scale GitHub-Actions hardening and the Merkle Tree certificate draft, the week argues for machine-speed patch assumptions and cheap hygiene wins.",
+      "sources": [
+        {
+          "title": "Attackers’ AI Agents Found a Zero-Day in Medical-Imaging Software and Gained Root Access",
+          "url": "https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html",
+          "source_type": "news",
+          "published_or_updated": "2026-11-21",
+          "why_selected": "First widely-reported offensive-agent discovery loop; material update to prior agent-security coverage.",
+          "usefulness": "Client exposure-hygiene urgency and patch SLAs."
+        },
+        {
+          "title": "Serious cyberattack thought backed by wealthy operators",
+          "url": "https://www.ruv.is/english/2026-11-20-serious-cyberattack-thought-backed-by-wealthy-operators-493411",
+          "source_type": "news",
+          "published_or_updated": "2026-11-20",
+          "why_selected": "Well-resourced adversary funding signature at nation scale.",
+          "usefulness": "Resilience briefing narrative."
+        },
+        {
+          "title": "De-fanging dangerous triggers in GitHub Actions across an organization",
+          "url": "https://alpha-omega.dev/blog/de-fanging-dangerous-triggers-in-github-actions-across-an-organization/",
+          "source_type": "blog",
+          "published_or_updated": "2026-11-23",
+          "why_selected": "Cheap, high-yield org-wide CI hardening pattern.",
+          "usefulness": "Immediately reusable fixed-scope offering."
+        },
+        {
+          "title": "Merkle Tree Certificates (draft-ietf-plants-merkle-tree-certs-08)",
+          "url": "https://datatracker.ietf.org/doc/draft-ietf-plants-merkle-tree-certs/",
+          "source_type": "docs",
+          "published_or_updated": "2026-11-01",
+          "why_selected": "PKI modernization maturing; relevant to PQ migration advisory work.",
+          "usefulness": "Watch item for client PKI estates."
+        },
+        {
+          "title": "I Don’t Trust Visual Recordings Anymore",
+          "url": "https://spectrum.ieee.org/fighting-back-against-deep-fakes",
+          "source_type": "blog",
+          "published_or_updated": "2026-11-21",
+          "why_selected": "Provenance and attestation framing for media trust.",
+          "usefulness": "Provenance narrative alignment."
+        }
+      ]
+    },
+    {
+      "slug": "local-open-models",
+      "title": "Local Open Models Turn Practical",
+      "selection_rationale": "Inkling 2 Mini running in 5.4 GB and shipping in Ollama’s MLX runner closes the gap between open weights and private everyday use; llama.cpp 1.0.0 stabilizes the foundation underneath it.",
+      "sources": [
+        {
+          "title": "Inkling-2-Mini in 5.4 GB Memory",
+          "url": "https://github.com/ShinMegamiBoson/lookatmyquant",
+          "source_type": "repo",
+          "published_or_updated": "2026-11-21",
+          "why_selected": "Open-weights frontier-adjacent model now fits consumer hardware; material update to local-model lane.",
+          "usefulness": "Private-inference baseline for client work."
+        },
+        {
+          "title": "Ollama v0.40.17: mlxrunner adds Inkling 2 Mini",
+          "url": "https://releasebot.io/updates/ollama",
+          "source_type": "release",
+          "published_or_updated": "2026-11-20",
+          "why_selected": "Fastest adoption loop for the newest open model.",
+          "usefulness": "One-command evaluation path."
+        },
+        {
+          "title": "A beginner’s guide to Local AI with Inkling, Qwen, and Unsloth",
+          "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
+          "source_type": "blog",
+          "published_or_updated": "2026-11-22",
+          "why_selected": "Current consensus setup guide for private local AI.",
+          "usefulness": "Default onboarding reference."
+        },
+        {
+          "title": "llama.cpp 1.0.0 release",
+          "url": "https://bmdpat.com/blog/llama-cpp-1-0-0-release-november-2026",
+          "source_type": "blog",
+          "published_or_updated": "2026-11-13",
+          "why_selected": "SemVer milestone stabilizes the foundation of local inference.",
+          "usefulness": "Dependency-audit trigger."
+        },
+        {
+          "title": "Introducing Inkling (Thinking Machines)",
+          "url": "https://thinkingmachines.ai/news/introducing-inkling/",
+          "source_type": "release",
+          "published_or_updated": "2026-11",
+          "why_selected": "Primary source for the model behind the week’s local-AI wave.",
+          "usefulness": "Benchmark and licensing reference."
+        }
+      ]
+    },
+    {
+      "slug": "multi-agent-orchestration",
+      "title": "Multi-Agent Orchestration for Coding",
+      "selection_rationale": "Parallel Code launches worktree-isolated bake-offs across Claude Code, Codex, and Copilot Agent, while Codex adds subagent-transcript panels and Claude Code fixes a silent wrong-branch review bug: orchestration and review are the new frontier.",
+      "sources": [
+        {
+          "title": "Parallel Code launches multi-agent CLI for Claude & Copilot",
+          "url": "https://emergent.sh/news/parallel-code-launches-multi-agent-cli-claude",
+          "source_type": "product",
+          "published_or_updated": "2026-11-21",
+          "why_selected": "Worktree-isolated parallel agent execution packaged for three dominant CLIs.",
+          "usefulness": "Direct Buildn workflow experiment."
+        },
+        {
+          "title": "Claude Code 2.1.329 / Codex CLI 0.171.0 updates",
+          "url": "https://shattered.io/claude-code-codex-cli-opencode-update-4-days-2026/",
+          "source_type": "blog",
+          "published_or_updated": "2026-11-20",
+          "why_selected": "Wrong-branch review fix and subagent transcript panels land the same day.",
+          "usefulness": "Update-now items for daily tooling."
+        },
+        {
+          "title": "localcode: open source agentic coding on your Mac with one command",
+          "url": "https://github.com/mjwsolo/localcode",
+          "source_type": "repo",
+          "published_or_updated": "2026-11-23",
+          "why_selected": "Fully local coding-agent loop pairs with the local-model lane.",
+          "usefulness": "Confidential-data coding experiment."
+        },
+        {
+          "title": "Show HN: a game where you are an LLM’s subagent",
+          "url": "https://github.com/gulivan/worker755",
+          "source_type": "repo",
+          "published_or_updated": "2026-11-22",
+          "why_selected": "Embodies delegation-specification problems Buildn OS designs for.",
+          "usefulness": "Cheap empathy tool for task specs."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Daily Ingest Dossier — Multi-Agent Orchestration for Coding</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+<style>
+      :root { --brand:#01dc82; --deep:#033330; --lime:#cfe66a; --red:#b3261e; --amber:#9a6700;
+        --ink:#0f172a; --muted:#475569; --line:#e2e8f0; --bg:#fafaf9; --card:#ffffff;
+        --serif:"Newsreader", Georgia, serif; --sans:"Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif; }
+      * { box-sizing:border-box; }
+      body { margin:0; background:var(--bg); color:var(--ink); font-family:var(--sans); line-height:1.55; }
+      main { max-width:64rem; margin:0 auto; padding:3rem 1.5rem; }
+      h1 { font-family:var(--serif); color:var(--deep); font-size:2rem; font-weight:600; margin:0; }
+      h2 { font-family:var(--serif); color:var(--deep); font-size:1.35rem; font-weight:600; margin:0 0 .5rem; }
+      h3 { font-size:1rem; font-weight:700; margin:0; }
+      a { color:var(--deep); }
+      .wordmark { display:flex; align-items:center; gap:.6rem; font-weight:700; color:var(--deep); letter-spacing:-.01em; }
+      header { margin-bottom:2rem; }
+      .readout { font-family:var(--serif); font-size:1.1rem; color:var(--deep); max-width:48rem; margin:.75rem 0 0; }
+      .meta { color:var(--muted); font-size:.85rem; }
+      section { display:flex; flex-direction:column; gap:1.75rem; margin-top:2rem; }
+      .card { background:var(--card); border:1px solid var(--line); border-radius:.75rem; padding:1.5rem; }
+      .badges { display:flex; flex-wrap:wrap; gap:.5rem; margin:.25rem 0 .75rem; }
+      .badge { font-size:.7rem; text-transform:uppercase; letter-spacing:.06em; font-weight:600; padding:.15rem .5rem; border-radius:.35rem; background:#f1f5f9; color:var(--muted); }
+      .badge.good { background:#dcfce7; color:#166534; }
+      .badge.warn { background:#fef3c7; color:var(--amber); }
+      .badge.spec { background:#e2e8f0; color:#334155; }
+      .facts { font-family:ui-monospace, "SF Mono", Menlo, monospace; font-size:.78rem; color:var(--muted); margin:0 0 1rem; padding:0; list-style:none; }
+      .facts li { padding:.1rem 0; }
+      .diagram { border:1px solid var(--line); border-radius:.5rem; background:#fff; padding:1rem; margin:1rem 0; }
+      .diagram svg { display:block; max-width:100%; height:auto; }
+      .label { font-size:.72rem; text-transform:uppercase; letter-spacing:.08em; fill:var(--muted); }
+      .wins { margin:.5rem 0 0; padding-left:1.1rem; }
+      .wins li { margin:.15rem 0; }
+      .callout { border-left:3px solid var(--amber); background:#fffbeb; color:#713f12; padding:.6rem .9rem; border-radius:.25rem; font-size:.9rem; margin-top:.9rem; }
+      .hl { background:rgba(207,230,106,.6); padding:0 .15em; }
+      .seam { stroke-dasharray:4 4; } .accent { stroke:var(--red); }
+      .kv { display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:.75rem; margin:1rem 0; }
+      .kv div { background:#f8fafc; border:1px solid var(--line); border-radius:.5rem; padding:.6rem .75rem; font-size:.85rem; }
+      .kv b { display:block; color:var(--muted); font-size:.68rem; text-transform:uppercase; letter-spacing:.06em; }
+      table { width:100%; border-collapse:collapse; font-size:.85rem; margin:.75rem 0; }
+      th, td { text-align:left; padding:.45rem .5rem; border-bottom:1px solid var(--line); }
+      th { color:var(--muted); font-size:.7rem; text-transform:uppercase; letter-spacing:.06em; }
+      .trail { font-size:.85rem; color:var(--muted); padding-left:1.1rem; }
+      .trail li { margin:.25rem 0; }
+      .big { font-family:var(--serif); font-size:1.15rem; color:var(--deep); }
+</style></head><body><main>
+<header><div class="wordmark"><svg viewBox="0 0 164 195" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" width="22"><path d="M117 194.5H0L12 73C17.47 66.63 21.30 65.46 28.5 64.5L34.5 0H151.5C158.44 4.40 161.28 7.18 163.5 13L153 119.5C148.80 127.15 144.97 129.55 135.5 130.5L131 184.5C127.71 190.35 125.13 192.98 117 194.5Z" fill="#01dc82"/><path d="M64 33L61 64.5H93.5L91 97H123L127.5 46.5C125.53 37.94 122.01 35.19 112.5 33H64Z" fill="#033330"/><path d="M37 147.5L41.5 98H74.5L71.5 129.5L104 130.5L100.5 162H49.5C41.82 159.35 39.68 155.53 37 147.5Z" fill="#033330"/></svg><span>Buildn</span></div>
+<h1>Daily Ingest Dossier — Multi-Agent Orchestration for Coding</h1>
+<p class="meta">Daily Ingest Dossier &middot; 2026-11-23</p>
+<p class="readout">Parallel Code launches worktree-isolated bake-offs across Claude Code, Codex, and Copilot Agent, while Codex adds subagent-transcript panels and Claude Code fixes a silent wrong-branch review bug: orchestration and review are the new frontier.</p></header>
+
+<section>
+<article class="card">
+<h2>Parallel Code: run coding agents side by side in isolated worktrees</h2>
+<div class="badges"><span class="badge good">New tool</span><span class="badge">Orchestration</span></div>
+<ul class="facts"><li>Launched 2026-11-21 &middot; parallelcode.app</li><li>Open-source CLI; npm / Homebrew</li><li>Supports Claude Code, Codex, Copilot Agent</li></ul>
+<div class="diagram"><svg viewBox="0 0 620 150" role="img" aria-label="Sequential agent testing vs parallel worktrees">
+<defs><marker id="m4" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 z" fill="#94a3b8"/></marker></defs>
+<rect x="10" y="20" width="130" height="34" rx="6" fill="#fff" stroke="#cbd5e1"/><text x="75" y="41" text-anchor="middle" class="label">Agent A tries task</text>
+<line x1="140" y1="37" x2="170" y2="37" stroke="#94a3b8" marker-end="url(#m4)"/>
+<rect x="170" y="20" width="130" height="34" rx="6" fill="#fff" stroke="#cbd5e1"/><text x="235" y="41" text-anchor="middle" class="label">Then agent B</text>
+<text x="155" y="70" text-anchor="middle" class="label">Sequential: latency stacks</text>
+<rect x="360" y="12" width="120" height="30" rx="6" fill="#fff" stroke="var(--brand)"/><text x="420" y="31" text-anchor="middle" class="label">worktree A &middot; Claude</text>
+<rect x="360" y="48" width="120" height="30" rx="6" fill="#fff" stroke="var(--brand)"/><text x="420" y="67" text-anchor="middle" class="label">worktree B &middot; Codex</text>
+<rect x="360" y="84" width="120" height="30" rx="6" fill="#fff" stroke="var(--brand)"/><text x="420" y="103" text-anchor="middle" class="label">worktree C &middot; Copilot</text>
+<line x1="330" y1="63" x2="360" y2="27" stroke="#94a3b8" marker-end="url(#m4)"/><line x1="330" y1="63" x2="360" y2="63" stroke="#94a3b8" marker-end="url(#m4)"/><line x1="330" y1="63" x2="360" y2="99" stroke="#94a3b8" marker-end="url(#m4)"/>
+<rect x="10" y="52" width="120" height="34" rx="6" fill="#fff" stroke="#cbd5e1"/><text x="70" y="73" text-anchor="middle" class="label">one task</text>
+<text x="480" y="130" text-anchor="middle" class="label">Parallel: pick the best branch</text>
+</svg></div>
+<p><b>What it is.</b> An open-source CLI that runs Claude Code, Codex, and Copilot Agent simultaneously, each in its own isolated Git worktree on the same task, so you compare outputs instead of queueing agents.</p>
+<p><b>Why it matters now.</b> The bottleneck in agentic development has shifted from generating attempts to scheduling and reviewing them; worktree isolation is the simplest sane answer and this packages it for the three dominant CLIs.</p>
+<p><b>Buildn/client use.</b> Directly usable in Buildn's own repo for implementation attempts; the isolation pattern also informs how Buildn OS task execution could fan out.</p>
+<p><b>Caveats.</b> Day-one tool; roadmap (more platforms, IDE plugins) is unproven. Review cost scales with parallelism.</p>
+<p><b>Action.</b> Install via npm and run one two-agent bake-off on a real Buildn issue.</p>
+</article>
+
+<article class="card">
+<h2>Codex CLI 0.171.0: files and subagent transcripts beside the chat</h2>
+<div class="badges"><span class="badge">Release</span><span class="badge">Developer surface</span></div>
+<ul class="facts"><li>Published 2026-11-20 &middot; supersedes 0.169.0 (2026-11-13)</li></ul>
+<p><b>What it is.</b> Codex CLI now opens files and subagent transcripts in a side panel next to the conversation, reducing context-switching during agent sessions.</p>
+<p><b>Why it matters.</b> The terminal agent is acquiring the review ergonomics of an IDE; visibility into subagent transcripts is the practical answer to "what did the spawned agent actually do".</p>
+<p><b>Use.</b> Better supervision of multi-step agent work in Buildn's day-to-day coding.</p>
+<p><b>Action.</b> Update and use the transcript panel during the next delegated refactor.</p>
+</article>
+
+<article class="card">
+<h2>Claude Code 2.1.329 fixes silent wrong-branch reviews</h2>
+<div class="badges"><span class="badge warn">Bugfix that matters</span><span class="badge">Release</span></div>
+<ul class="facts"><li>Published 2026-11-20</li></ul>
+<p><b>What it is.</b> A fix for review flows that could silently operate on the wrong Git branch &mdash; the kind of quiet correctness bug that undermines trust in agent-performed reviews.</p>
+<p><b>Why it matters.</b> Wrong-branch reviews produce confident, plausible, wrong feedback; anyone using agent PR review should update immediately and re-check any recent agent reviews.</p>
+<p><b>Action.</b> Update Claude Code now; spot-check the last few agent-authored reviews for branch correctness.</p>
+</article>
+
+<article class="card">
+<h2>localcode: open-source agentic coding on your Mac, one command</h2>
+<div class="badges"><span class="badge spec">OSS</span><span class="badge">Local-first</span></div>
+<ul class="facts"><li>github.com/mjwsolo/localcode &middot; on HN 2026-11-23</li></ul>
+<p><b>What it is.</b> A local, self-hosted agentic coding setup that runs with a single command on macOS, combining local models with a coding-agent loop.</p>
+<p><b>Why it matters.</b> Pairs with the local-model lane: fully local coding agents (no code leaves the machine) are now a working configuration, not a demo.</p>
+<p><b>Caveat.</b> Small project, early; quality depends on the local model used.</p>
+<p><b>Action.</b> Try it with Inkling 2 Mini or a Qwen coder for a confidential-data experiment.</p>
+</article>
+
+<article class="card">
+<h2>Show HN: you are the LLM's subagent</h2>
+<div class="badges"><span class="badge spec">Perspective</span><span class="badge">Experiment</span></div>
+<ul class="facts"><li>github.com/gulivan/worker755 &middot; 2026-11-22</li></ul>
+<p><b>What it is.</b> A game where the player plays the role of a subagent receiving delegated instructions from an orchestrator.</p>
+<p><b>Why it matters.</b> It's a cheap way to feel the delegation problems Buildn OS is designing for: underspecified tasks, missing context, and unclear done-criteria.</p>
+<p><b>Action.</b> Ten minutes of play, then note two spec-writing lessons for task delegation.</p>
+</article>
+
+<article class="card">
+<h2>Use-case matrix</h2>
+<table><tr><th>Theme</th><th>Buildn OS</th><th>Client work</th><th>Agent workflows</th><th>Personal leverage</th></tr>
+<tr><td>Worktree fan-out</td><td>Task execution model</td><td>Bake-off deliverables</td><td>Parallel attempts</td><td>Personal projects</td></tr>
+<tr><td>Subagent transcript UI</td><td>Review chain visibility</td><td>Audit trails</td><td>Supervision</td><td>&mdash;</td></tr>
+<tr><td>Local coding agent</td><td>Env Vault synergy</td><td>Confidential repos</td><td>Private execution</td><td>Coding anywhere</td></tr></table>
+</article>
+
+<article class="card">
+<h2>Top actions + source trail</h2>
+<ol class="wins">
+<li>Install Parallel Code and run a two-agent bake-off on one real issue.</li>
+<li>Update Claude Code and spot-check recent agent reviews for the branch bug.</li>
+<li>Update Codex CLI and use subagent transcripts for the next delegated task.</li>
+</ol>
+<ul class="trail">
+<li><a href="https://emergent.sh/news/parallel-code-launches-multi-agent-cli-claude">Parallel Code launch</a></li>
+<li><a href="https://shattered.io/claude-code-codex-cli-opencode-update-4-days-2026/">Codex 0.171 / Claude Code 2.1.329 summary</a></li>
+<li><a href="https://github.com/mjwsolo/localcode">localcode</a></li>
+<li><a href="https://github.com/gulivan/worker755">worker755 (Show HN)</a></li>
+</ul>
+</article>
+</section>
+</main></body></html>

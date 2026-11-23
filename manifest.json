@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-11-22T09:05:02.272143+00:00",
+  "updated_at": "2026-11-23T09:06:15.623560+00:00",
   "days": [
+    {
+      "date": "2026-11-23",
+      "path": "2026-11-23",
+      "reports": [
+        {
+          "lane": "formal-proof-verification",
+          "title": "Formal Proof Verification at Scale",
+          "url": "2026-11-23/formal-proof-verification.html"
+        },
+        {
+          "lane": "agentic-security-offense",
+          "title": "Agentic Security: Offense Gets Automated",
+          "url": "2026-11-23/agentic-security-offense.html"
+        },
+        {
+          "lane": "local-open-models",
+          "title": "Local Open Models Turn Practical",
+          "url": "2026-11-23/local-open-models.html"
+        },
+        {
+          "lane": "multi-agent-orchestration",
+          "title": "Multi-Agent Orchestration for Coding",
+          "url": "2026-11-23/multi-agent-orchestration.html"
+        }
+      ]
+    },
     {
       "date": "2026-11-22",
       "path": "2026-11-22",

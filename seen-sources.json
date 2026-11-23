@@ -1,6 +1,101 @@
 {
-  "updated_at": "2026-11-22T09:06:11.373090+00:00",
+  "updated_at": "2026-11-23T09:06:15.623560+00:00",
   "sources": {
+    "https://leanprover-community.github.io/blog/posts/riemann-hypothesis": {
+      "first_seen": "2026-11-23",
+      "last_seen": "2026-11-23",
+      "title": "Lean verification of the Riemann Hypothesis"
+    },
+    "https://micjm.com/blog/yes-17m-lines-of-lean-is-a-lot": {
+      "first_seen": "2026-11-23",
+      "last_seen": "2026-11-23",
+      "title": "Yes, 17M lines of Lean is a lot"
+    },
+    "https://pengowray.github.io/riemann-zeta-proof-visualizer": {
+      "first_seen": "2026-11-23",
+      "last_seen": "2026-11-23",
+      "title": "Treemap of the Riemann Hypothesis Lean Proof"
+    },
+    "https://johncarlosbaez.wordpress.com/2026/11/22/masullo-on-the-riemann-hypothesis": {
+      "first_seen": "2026-11-23",
+      "last_seen": "2026-11-23",
+      "title": "Masullo on the Riemann Hypothesis"
+    },
+    "https://www.economist.com/science-and-technology/2026/11/20/ai-may-have-solved-the-most-important-problem-in-mathematics": {
+      "first_seen": "2026-11-23",
+      "last_seen": "2026-11-23",
+      "title": "AI may have solved the most important problem in mathematics"
+    },
+    "https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html": {
+      "first_seen": "2026-11-23",
+      "last_seen": "2026-11-23",
+      "title": "Attackers\u2019 AI Agents Found a Zero-Day in Medical-Imaging Software and Gained Root Access"
+    },
+    "https://www.ruv.is/english/2026-11-20-serious-cyberattack-thought-backed-by-wealthy-operators-493411": {
+      "first_seen": "2026-11-23",
+      "last_seen": "2026-11-23",
+      "title": "Serious cyberattack thought backed by wealthy operators"
+    },
+    "https://alpha-omega.dev/blog/de-fanging-dangerous-triggers-in-github-actions-across-an-organization": {
+      "first_seen": "2026-11-23",
+      "last_seen": "2026-11-23",
+      "title": "De-fanging dangerous triggers in GitHub Actions across an organization"
+    },
+    "https://datatracker.ietf.org/doc/draft-ietf-plants-merkle-tree-certs": {
+      "first_seen": "2026-11-23",
+      "last_seen": "2026-11-23",
+      "title": "Merkle Tree Certificates (draft-ietf-plants-merkle-tree-certs-08)"
+    },
+    "https://spectrum.ieee.org/fighting-back-against-deep-fakes": {
+      "first_seen": "2026-11-23",
+      "last_seen": "2026-11-23",
+      "title": "I Don\u2019t Trust Visual Recordings Anymore"
+    },
+    "https://github.com/ShinMegamiBoson/lookatmyquant": {
+      "first_seen": "2026-11-23",
+      "last_seen": "2026-11-23",
+      "title": "Inkling-2-Mini in 5.4 GB Memory"
+    },
+    "https://releasebot.io/updates/ollama": {
+      "first_seen": "2026-11-23",
+      "last_seen": "2026-11-23",
+      "title": "Ollama v0.40.17: mlxrunner adds Inkling 2 Mini"
+    },
+    "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth": {
+      "first_seen": "2026-11-23",
+      "last_seen": "2026-11-23",
+      "title": "A beginner\u2019s guide to Local AI with Inkling, Qwen, and Unsloth"
+    },
+    "https://bmdpat.com/blog/llama-cpp-1-0-0-release-november-2026": {
+      "first_seen": "2026-11-23",
+      "last_seen": "2026-11-23",
+      "title": "llama.cpp 1.0.0 release"
+    },
+    "https://thinkingmachines.ai/news/introducing-inkling": {
+      "first_seen": "2026-11-23",
+      "last_seen": "2026-11-23",
+      "title": "Introducing Inkling (Thinking Machines)"
+    },
+    "https://emergent.sh/news/parallel-code-launches-multi-agent-cli-claude": {
+      "first_seen": "2026-11-23",
+      "last_seen": "2026-11-23",
+      "title": "Parallel Code launches multi-agent CLI for Claude & Copilot"
+    },
+    "https://shattered.io/claude-code-codex-cli-opencode-update-4-days-2026": {
+      "first_seen": "2026-11-23",
+      "last_seen": "2026-11-23",
+      "title": "Claude Code 2.1.329 / Codex CLI 0.171.0 updates"
+    },
+    "https://github.com/mjwsolo/localcode": {
+      "first_seen": "2026-11-23",
+      "last_seen": "2026-11-23",
+      "title": "localcode: open source agentic coding on your Mac with one command"
+    },
+    "https://github.com/gulivan/worker755": {
+      "first_seen": "2026-11-23",
+      "last_seen": "2026-11-23",
+      "title": "Show HN: a game where you are an LLM\u2019s subagent"
+    },
     "https://selfh.st/weekly/2026-11-20": {
       "first_seen": "2026-11-22",
       "last_seen": "2026-11-21",
@@ -6465,41 +6560,6 @@
       "first_seen": "2026-07-08",
       "last_seen": "2026-07-08",
       "title": "Cognee persistent memory layer guide"
-    },
-    "https://selfh.st/weekly/2026-11-20/": {
-      "first_seen": "2026-11-22",
-      "last_seen": "2026-11-22",
-      "title": "Self-Host Weekly \u2014 20 November 2026"
-    },
-    "https://techcrunch.com/2026/09/30/reddit-is-killing-rss-feeds-ending-public-api-access-because-of-ai-bots/": {
-      "first_seen": "2026-11-22",
-      "last_seen": "2026-11-22",
-      "title": "Reddit discontinues RSS feeds"
-    },
-    "https://www.postgresql.org/about/news/postgresql-19-released-3449/": {
-      "first_seen": "2026-11-22",
-      "last_seen": "2026-11-22",
-      "title": "PostgreSQL 19 released"
-    },
-    "https://redict.io/posts/2026-11-17-redict-deprecated/": {
-      "first_seen": "2026-11-22",
-      "last_seen": "2026-11-22",
-      "title": "Redict deprecated"
-    },
-    "https://www.figma.com/release-notes/": {
-      "first_seen": "2026-11-22",
-      "last_seen": "2026-11-22",
-      "title": "Work with the Figma agent in dev mode"
-    },
-    "https://nowoka.com/blog/microsoft-clarity-agentic-analytics-ai-agents/": {
-      "first_seen": "2026-11-22",
-      "last_seen": "2026-11-22",
-      "title": "Microsoft Clarity agentic analytics"
-    },
-    "https://martech.org/7-b2b-marketing-shifts-that-will-define-2027/": {
-      "first_seen": "2026-11-22",
-      "last_seen": "2026-11-22",
-      "title": "7 B2B marketing shifts that will define 2027"
     }
   }
 }

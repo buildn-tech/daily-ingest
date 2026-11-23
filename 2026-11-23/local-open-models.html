@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Daily Ingest Dossier — Local Open Models Turn Practical</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+<style>
+      :root { --brand:#01dc82; --deep:#033330; --lime:#cfe66a; --red:#b3261e; --amber:#9a6700;
+        --ink:#0f172a; --muted:#475569; --line:#e2e8f0; --bg:#fafaf9; --card:#ffffff;
+        --serif:"Newsreader", Georgia, serif; --sans:"Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif; }
+      * { box-sizing:border-box; }
+      body { margin:0; background:var(--bg); color:var(--ink); font-family:var(--sans); line-height:1.55; }
+      main { max-width:64rem; margin:0 auto; padding:3rem 1.5rem; }
+      h1 { font-family:var(--serif); color:var(--deep); font-size:2rem; font-weight:600; margin:0; }
+      h2 { font-family:var(--serif); color:var(--deep); font-size:1.35rem; font-weight:600; margin:0 0 .5rem; }
+      h3 { font-size:1rem; font-weight:700; margin:0; }
+      a { color:var(--deep); }
+      .wordmark { display:flex; align-items:center; gap:.6rem; font-weight:700; color:var(--deep); letter-spacing:-.01em; }
+      header { margin-bottom:2rem; }
+      .readout { font-family:var(--serif); font-size:1.1rem; color:var(--deep); max-width:48rem; margin:.75rem 0 0; }
+      .meta { color:var(--muted); font-size:.85rem; }
+      section { display:flex; flex-direction:column; gap:1.75rem; margin-top:2rem; }
+      .card { background:var(--card); border:1px solid var(--line); border-radius:.75rem; padding:1.5rem; }
+      .badges { display:flex; flex-wrap:wrap; gap:.5rem; margin:.25rem 0 .75rem; }
+      .badge { font-size:.7rem; text-transform:uppercase; letter-spacing:.06em; font-weight:600; padding:.15rem .5rem; border-radius:.35rem; background:#f1f5f9; color:var(--muted); }
+      .badge.good { background:#dcfce7; color:#166534; }
+      .badge.warn { background:#fef3c7; color:var(--amber); }
+      .badge.spec { background:#e2e8f0; color:#334155; }
+      .facts { font-family:ui-monospace, "SF Mono", Menlo, monospace; font-size:.78rem; color:var(--muted); margin:0 0 1rem; padding:0; list-style:none; }
+      .facts li { padding:.1rem 0; }
+      .diagram { border:1px solid var(--line); border-radius:.5rem; background:#fff; padding:1rem; margin:1rem 0; }
+      .diagram svg { display:block; max-width:100%; height:auto; }
+      .label { font-size:.72rem; text-transform:uppercase; letter-spacing:.08em; fill:var(--muted); }
+      .wins { margin:.5rem 0 0; padding-left:1.1rem; }
+      .wins li { margin:.15rem 0; }
+      .callout { border-left:3px solid var(--amber); background:#fffbeb; color:#713f12; padding:.6rem .9rem; border-radius:.25rem; font-size:.9rem; margin-top:.9rem; }
+      .hl { background:rgba(207,230,106,.6); padding:0 .15em; }
+      .seam { stroke-dasharray:4 4; } .accent { stroke:var(--red); }
+      .kv { display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:.75rem; margin:1rem 0; }
+      .kv div { background:#f8fafc; border:1px solid var(--line); border-radius:.5rem; padding:.6rem .75rem; font-size:.85rem; }
+      .kv b { display:block; color:var(--muted); font-size:.68rem; text-transform:uppercase; letter-spacing:.06em; }
+      table { width:100%; border-collapse:collapse; font-size:.85rem; margin:.75rem 0; }
+      th, td { text-align:left; padding:.45rem .5rem; border-bottom:1px solid var(--line); }
+      th { color:var(--muted); font-size:.7rem; text-transform:uppercase; letter-spacing:.06em; }
+      .trail { font-size:.85rem; color:var(--muted); padding-left:1.1rem; }
+      .trail li { margin:.25rem 0; }
+      .big { font-family:var(--serif); font-size:1.15rem; color:var(--deep); }
+</style></head><body><main>
+<header><div class="wordmark"><svg viewBox="0 0 164 195" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" width="22"><path d="M117 194.5H0L12 73C17.47 66.63 21.30 65.46 28.5 64.5L34.5 0H151.5C158.44 4.40 161.28 7.18 163.5 13L153 119.5C148.80 127.15 144.97 129.55 135.5 130.5L131 184.5C127.71 190.35 125.13 192.98 117 194.5Z" fill="#01dc82"/><path d="M64 33L61 64.5H93.5L91 97H123L127.5 46.5C125.53 37.94 122.01 35.19 112.5 33H64Z" fill="#033330"/><path d="M37 147.5L41.5 98H74.5L71.5 129.5L104 130.5L100.5 162H49.5C41.82 159.35 39.68 155.53 37 147.5Z" fill="#033330"/></svg><span>Buildn</span></div>
+<h1>Daily Ingest Dossier — Local Open Models Turn Practical</h1>
+<p class="meta">Daily Ingest Dossier &middot; 2026-11-23</p>
+<p class="readout">Inkling 2 Mini running in 5.4 GB and shipping in Ollama’s MLX runner closes the gap between open weights and private everyday use; llama.cpp 1.0.0 stabilizes the foundation underneath it.</p></header>
+
+<section>
+<article class="card">
+<h2>Inkling-2-Mini runs in 5.4 GB of memory</h2>
+<div class="badges"><span class="badge good">Breakthrough</span><span class="badge">Local AI</span></div>
+<ul class="facts"><li>github.com/ShinMegamiBoson/lookatmyquant &middot; HN 2026-11-21</li><li>589 points on Hacker News</li><li>Quantized run of Thinking Machines' open-weights model</li></ul>
+<div class="diagram"><svg viewBox="0 0 620 120" role="img" aria-label="Model footprint collapse">
+<rect x="20" y="40" width="420" height="40" rx="6" fill="#f1f5f9" stroke="#cbd5e1"/><text x="230" y="64" text-anchor="middle" class="label">Typical frontier-class local model footprint</text>
+<rect x="20" y="88" width="90" height="26" rx="4" fill="#dcfce7" stroke="#16a34a"/><text x="65" y="105" text-anchor="middle" class="label">5.4 GB</text>
+<text x="130" y="105" class="label">same model family, quantized &mdash; fits a laptop</text>
+</svg></div>
+<p><b>What it is.</b> A community quantization project demonstrating Thinking Machines' open-weights Inkling model running in 5.4 GB of memory &mdash; consumer-hardware territory for a frontier-adjacent open model.</p>
+<p><b>Why it matters now.</b> Thinking Machines' first open-weights release (multimodal, Apache 2.0) just became practically runnable locally; the gap between "open weights exist" and "I can use this privately today" closed this week.</p>
+<p><b>Buildn/client use.</b> A credible private-inference option for client data that can't leave premises; also a baseline for Buildn's Env Vault-adjacent local-agent story.</p>
+<p><b>Caveats.</b> Quantization trades quality for footprint; benchmark numbers are community-reported.</p>
+<p><b>Action.</b> Pull the quant and test on this machine's or a laptop's RAM; compare against a hosted model on two real tasks.</p>
+</article>
+
+<article class="card">
+<h2>Ollama 0.40.17 adds Inkling 2 Mini on MLX</h2>
+<div class="badges"><span class="badge good">One-command access</span><span class="badge">Release</span></div>
+<ul class="facts"><li>ollama v0.40.17 &middot; 2026-11-20</li><li>mlxrunner: add Inkling 2 Mini</li><li>Windows ARM CUDA also in recent 0.40.x line</li></ul>
+<p><b>What it is.</b> Ollama's Apple-Silicon runner now ships Inkling 2 Mini, making the newest open model a one-command pull on Macs.</p>
+<p><b>Why it matters.</b> Distribution, not weights, is what makes local models real; Ollama absorbing Inkling within days of release is the fastest open-model adoption loop yet.</p>
+<p><b>Use.</b> Instant evaluation path: no setup beyond updating Ollama.</p>
+<p><b>Action.</b> Update Ollama, run Inkling 2 Mini, and note latency/quality on a summarization and a coding task.</p>
+</article>
+
+<article class="card">
+<h2>Beginner's guide: Inkling, Qwen, Unsloth</h2>
+<div class="badges"><span class="badge">Guide</span><span class="badge spec">Reference</span></div>
+<ul class="facts"><li>gpupartner.com &middot; 2026-11-22</li></ul>
+<p><b>What it is.</b> A current end-to-end walkthrough of setting up private local AI: model choice (Inkling, Qwen3.6 family), quantization levels (UD-Q4_K_XL), VRAM planning, and LAN-shared serving for a household.</p>
+<p><b>Why it matters.</b> The guide encodes the 2026 consensus stack for personal private AI; useful as the checklist to hand to anyone (or any client) starting from zero.</p>
+<p><b>Caveat.</b> GPU-vendor blog; hardware recommendations are sales-adjacent.</p>
+<p><b>Action.</b> Bookmark as the default onboarding doc for local-AI questions.</p>
+</article>
+
+<article class="card">
+<h2>llama.cpp hits 1.0.0</h2>
+<div class="badges"><span class="badge spec">Milestone</span><span class="badge">Infrastructure</span></div>
+<ul class="facts"><li>llama.cpp 1.0.0 + ggml 1.0.0 &middot; 2026-11-13</li><li>SemVer for libllama/libggml; 35 deprecated C API functions removed</li></ul>
+<p><b>What it is.</b> The foundational local-inference library declared a stable API: formal semantic versioning and a cleaned-up C surface.</p>
+<p><b>Why it matters.</b> Every local-AI tool chains through llama.cpp/ggml; a stable contract means downstream tools stop breaking on every bump.</p>
+<p><b>Action.</b> If you maintain anything on llama.cpp, audit against the removed APIs once.</p>
+</article>
+
+<article class="card">
+<h2>Use-case matrix</h2>
+<table><tr><th>Theme</th><th>Buildn OS</th><th>Client work</th><th>Agent workflows</th><th>Personal leverage</th></tr>
+<tr><td>Inkling 2 Mini local</td><td>Private-agent runtime</td><td>On-prem inference option</td><td>Free first-pass tier</td><td>Everyday private AI</td></tr>
+<tr><td>Ollama MLX runner</td><td>&mdash;</td><td>Mac deployment pitch</td><td>Local tool models</td><td>One-command setup</td></tr>
+<tr><td>llama.cpp 1.0</td><td>Stable dependency</td><td>&mdash;</td><td>Reliable local backend</td><td>&mdash;</td></tr></table>
+</article>
+
+<article class="card">
+<h2>Top actions + source trail</h2>
+<ol class="wins">
+<li>Update Ollama and try Inkling 2 Mini tonight &mdash; lowest-effort highest-novelty action today.</li>
+<li>Benchmark the 5.4 GB quant against a hosted model on one real Buildn task.</li>
+<li>Keep the beginner guide as the standard local-AI onboarding reference.</li>
+</ol>
+<ul class="trail">
+<li><a href="https://github.com/ShinMegamiBoson/lookatmyquant">Inkling-2-Mini in 5.4 GB</a></li>
+<li><a href="https://thinkingmachines.ai/news/introducing-inkling/">Thinking Machines: Introducing Inkling</a></li>
+<li><a href="https://releasebot.io/updates/ollama">Ollama release notes (0.40.17)</a></li>
+<li><a href="https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth">Beginner's guide to local AI</a></li>
+<li><a href="https://bmdpat.com/blog/llama-cpp-1-0-0-release-november-2026">llama.cpp 1.0.0 summary</a></li>
+</ul>
+</article>
+</section>
+</main></body></html>
