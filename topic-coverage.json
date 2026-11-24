@@ -3423,6 +3423,182 @@
       "url": "https://github.com/gulivan/worker755",
       "source_type": "repo",
       "rationale": "Embodies delegation-specification problems Buildn OS designs for."
+    },
+    {
+      "date": "2026-11-24",
+      "topic": "browser-engine-independence",
+      "title": "Ladybird is now in alpha",
+      "url": "https://ladybird.org/posts/alpha/",
+      "source_type": "release",
+      "rationale": "A fourth browser engine reached alpha; biggest HN story of the day."
+    },
+    {
+      "date": "2026-11-24",
+      "topic": "browser-engine-independence",
+      "title": "GPUI gets its own repository",
+      "url": "https://github.com/zed-industries/gpui",
+      "source_type": "repo",
+      "rationale": "Standalone GPU Rust UI framework extracted from Zed."
+    },
+    {
+      "date": "2026-11-24",
+      "topic": "browser-engine-independence",
+      "title": "C++26 is done (again)",
+      "url": "https://herbsutter.com/2026/11/21/c26-is-done-again-trip-report-november-2026-iso-c-standards-meeting-buzios-brazil/",
+      "source_type": "blog",
+      "rationale": "ISO meeting trip report closing the C++26 feature set."
+    },
+    {
+      "date": "2026-11-24",
+      "topic": "browser-engine-independence",
+      "title": "AMD EPYC Zen 6 vs Zen 1: 12.1x",
+      "url": "https://www.phoronix.com/review/amd-epyc-9006-7601",
+      "source_type": "review",
+      "rationale": "Decade-scale server CPU gains for infra sizing."
+    },
+    {
+      "date": "2026-11-24",
+      "topic": "browser-engine-independence",
+      "title": "Nospeaker: trackpad haptics as audio",
+      "url": "https://github.com/os6/nospeaker",
+      "source_type": "repo",
+      "rationale": "Creative Show HN hardware hack."
+    },
+    {
+      "date": "2026-11-24",
+      "topic": "agent-skill-ecosystem",
+      "title": "CLI-Anything: making all software agent-native",
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "source_type": "repo",
+      "rationale": "Registry of generated agent-native CLIs; ~64k stars."
+    },
+    {
+      "date": "2026-11-24",
+      "topic": "agent-skill-ecosystem",
+      "title": "last30days research skill",
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "source_type": "repo",
+      "rationale": "#1 trending; freshness-filtered research skill."
+    },
+    {
+      "date": "2026-11-24",
+      "topic": "agent-skill-ecosystem",
+      "title": "Cursor opens a plugin ecosystem",
+      "url": "https://github.com/cursor/plugins",
+      "source_type": "repo",
+      "rationale": "Official plugins org from Cursor."
+    },
+    {
+      "date": "2026-11-24",
+      "topic": "agent-skill-ecosystem",
+      "title": "Agent-Reach v1.6",
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "source_type": "release",
+      "rationale": "Internet access layer for agents, hardened 1.6 refactor."
+    },
+    {
+      "date": "2026-11-24",
+      "topic": "agent-skill-ecosystem",
+      "title": "claude-mem persistent memory",
+      "url": "https://github.com/thedotmack/claude-mem",
+      "source_type": "repo",
+      "rationale": "Agent-agnostic session memory."
+    },
+    {
+      "date": "2026-11-24",
+      "topic": "agent-skill-ecosystem",
+      "title": "DeerFlow 2.2 super-agent harness",
+      "url": "https://github.com/bytedance/deer-flow",
+      "source_type": "repo",
+      "rationale": "ByteDance long-horizon agent harness."
+    },
+    {
+      "date": "2026-11-24",
+      "topic": "agent-skill-ecosystem",
+      "title": "Juncts unified agent-accessible DM inbox",
+      "url": "https://juncts.com/app",
+      "source_type": "product",
+      "rationale": "MCP-based inbox launched today on Show HN."
+    },
+    {
+      "date": "2026-11-24",
+      "topic": "runtime-shields",
+      "title": "Shirudo (OpenAI + Cisco)",
+      "url": "https://openai.com/index/introducing-shirudo/",
+      "source_type": "release",
+      "rationale": "Open-source eBPF shields for running Linux during the patch gap."
+    },
+    {
+      "date": "2026-11-24",
+      "topic": "runtime-shields",
+      "title": "Latent Introspection: LLMs detect prior concept injections",
+      "url": "https://arxiv.org/abs/2602.20031",
+      "source_type": "paper",
+      "rationale": "Models can flag earlier context injections."
+    },
+    {
+      "date": "2026-11-24",
+      "topic": "ai-growth-visibility",
+      "title": "ChatGPT Business Hub (beta)",
+      "url": "https://openai.com/index/introducing-businesses-chatgpt/",
+      "source_type": "product",
+      "rationale": "First-party GEO data: mentions, clicks, feeds, agents."
+    },
+    {
+      "date": "2026-11-24",
+      "topic": "ai-growth-visibility",
+      "title": "Weekly marketing report as a decision memo",
+      "url": "https://revnu.com/blog/weekly-marketing-report-what-your-ai-agent-should-explain",
+      "source_type": "blog",
+      "rationale": "One-page memo format with approvals."
+    },
+    {
+      "date": "2026-11-24",
+      "topic": "ai-growth-visibility",
+      "title": "Agent readiness checklist for dev tools",
+      "url": "https://revnu.com/blog/ai-agent-readiness-checklist-for-developer-tools",
+      "source_type": "blog",
+      "rationale": "Discover/configure/finish test for agent experience."
+    },
+    {
+      "date": "2026-11-24",
+      "topic": "ai-growth-visibility",
+      "title": "AI crawler tracking without JavaScript",
+      "url": "https://revnu.com/blog/ai-crawler-tracking-without-javascript-what-logs-show",
+      "source_type": "blog",
+      "rationale": "Server-log method for GPTBot/ClaudeBot/PerplexityBot."
+    },
+    {
+      "date": "2026-11-24",
+      "topic": "ai-growth-visibility",
+      "title": "Octoverse 2026: 4 in 10 PRs agent-drafted",
+      "url": "https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents/",
+      "source_type": "report",
+      "rationale": "Quantitative baseline for agentic SDLC pitches."
+    },
+    {
+      "date": "2026-11-24",
+      "topic": "agent-ops-reliability",
+      "title": "OpenSRE CI/CD reliability agent",
+      "url": "https://github.com/tracer-cloud/opensre",
+      "source_type": "release",
+      "rationale": "Daily-release agent that diagnoses CI and drafts fixes; shipped today."
+    },
+    {
+      "date": "2026-11-24",
+      "topic": "agent-ops-reliability",
+      "title": "Databricks Genie ZeroOps public beta",
+      "url": "https://www.databricks.com/blog/genie-zeroops-now-public-beta-autonomous-agent-fixes-data-pipelines-lessons-80000-customer",
+      "source_type": "product",
+      "rationale": "Autonomous pipeline repair agent, beta Nov 12-19."
+    },
+    {
+      "date": "2026-11-24",
+      "topic": "agent-ops-reliability",
+      "title": "DeerFlow 2.2",
+      "url": "https://github.com/bytedance/deer-flow",
+      "source_type": "repo",
+      "rationale": "Long-horizon harness iteration (shared with skills lane)."
     }
   ],
   "runs": [
@@ -5101,9 +5277,9 @@
       "selection_rationale": "Today’s strongest signal is a shift from agent capability to accountable substrate: event streams, open runtimes, typed extraction, multimodal retrieval, and auditable self-improvement."
     }
   ],
-  "updated_at": "2026-11-19T09:11:48.037598+00:00",
-  "last_run": "2026-11-22",
-  "last_editorial_thesis": "Today’s strongest signal is a shift from agent capability to accountable substrate: event streams, open runtimes, typed extraction, multimodal retrieval, and auditable self-improvement.",
+  "updated_at": "2026-11-24T09:11:41.145499+00:00",
+  "last_run": "2026-11-24",
+  "last_editorial_thesis": "The independent-compute layer is being rebuilt in public (Ladybird alpha, GPUI) while agent capability consolidates into portable skills, first-party AI-visibility data, and human-gated ops agents.",
   "coverage_history": [
     {
       "date": "2026-09-13",
@@ -7391,9 +7567,31 @@
     }
   ],
   "last_run_selection": [
-    "event-driven-agent-execution",
-    "open-runtime-multimodal-retrieval",
-    "evidence-first-agent-research"
+    {
+      "lane": "browser-engine-independence",
+      "title": "Independent Engines and Native Platforms",
+      "items": 5
+    },
+    {
+      "lane": "agent-skill-ecosystem",
+      "title": "The Agent Skill and Plugin Economy",
+      "items": 7
+    },
+    {
+      "lane": "runtime-shields",
+      "title": "Runtime Shields Before the Patch",
+      "items": 2
+    },
+    {
+      "lane": "ai-growth-visibility",
+      "title": "AI Visibility Gets First-Party Instruments",
+      "items": 5
+    },
+    {
+      "lane": "agent-ops-reliability",
+      "title": "Agents Take the Ops Pager",
+      "items": 3
+    }
   ],
   "sources": {
     "architecture": {
@@ -9176,6 +9374,172 @@
         "https://arxiv.org/list/cs.AI/new"
       ],
       "selection_rationale": "Today’s strongest signal is a shift from agent capability to accountable substrate: event streams, open runtimes, typed extraction, multimodal retrieval, and auditable self-improvement."
+    },
+    {
+      "date": "2026-11-24",
+      "selected_lanes": [
+        "browser-engine-independence",
+        "agent-skill-ecosystem",
+        "runtime-shields",
+        "ai-growth-visibility",
+        "agent-ops-reliability"
+      ],
+      "items": [
+        {
+          "lane": "browser-engine-independence",
+          "title": "Ladybird is now in alpha",
+          "url": "https://ladybird.org/posts/alpha/",
+          "source_type": "release",
+          "rationale": "A fourth browser engine reached alpha; biggest HN story of the day."
+        },
+        {
+          "lane": "browser-engine-independence",
+          "title": "GPUI gets its own repository",
+          "url": "https://github.com/zed-industries/gpui",
+          "source_type": "repo",
+          "rationale": "Standalone GPU Rust UI framework extracted from Zed."
+        },
+        {
+          "lane": "browser-engine-independence",
+          "title": "C++26 is done (again)",
+          "url": "https://herbsutter.com/2026/11/21/c26-is-done-again-trip-report-november-2026-iso-c-standards-meeting-buzios-brazil/",
+          "source_type": "blog",
+          "rationale": "ISO meeting trip report closing the C++26 feature set."
+        },
+        {
+          "lane": "browser-engine-independence",
+          "title": "AMD EPYC Zen 6 vs Zen 1: 12.1x",
+          "url": "https://www.phoronix.com/review/amd-epyc-9006-7601",
+          "source_type": "review",
+          "rationale": "Decade-scale server CPU gains for infra sizing."
+        },
+        {
+          "lane": "browser-engine-independence",
+          "title": "Nospeaker: trackpad haptics as audio",
+          "url": "https://github.com/os6/nospeaker",
+          "source_type": "repo",
+          "rationale": "Creative Show HN hardware hack."
+        },
+        {
+          "lane": "agent-skill-ecosystem",
+          "title": "CLI-Anything: making all software agent-native",
+          "url": "https://github.com/HKUDS/CLI-Anything",
+          "source_type": "repo",
+          "rationale": "Registry of generated agent-native CLIs; ~64k stars."
+        },
+        {
+          "lane": "agent-skill-ecosystem",
+          "title": "last30days research skill",
+          "url": "https://github.com/mvanhorn/last30days-skill",
+          "source_type": "repo",
+          "rationale": "#1 trending; freshness-filtered research skill."
+        },
+        {
+          "lane": "agent-skill-ecosystem",
+          "title": "Cursor opens a plugin ecosystem",
+          "url": "https://github.com/cursor/plugins",
+          "source_type": "repo",
+          "rationale": "Official plugins org from Cursor."
+        },
+        {
+          "lane": "agent-skill-ecosystem",
+          "title": "Agent-Reach v1.6",
+          "url": "https://github.com/Panniantong/Agent-Reach",
+          "source_type": "release",
+          "rationale": "Internet access layer for agents, hardened 1.6 refactor."
+        },
+        {
+          "lane": "agent-skill-ecosystem",
+          "title": "claude-mem persistent memory",
+          "url": "https://github.com/thedotmack/claude-mem",
+          "source_type": "repo",
+          "rationale": "Agent-agnostic session memory."
+        },
+        {
+          "lane": "agent-skill-ecosystem",
+          "title": "DeerFlow 2.2 super-agent harness",
+          "url": "https://github.com/bytedance/deer-flow",
+          "source_type": "repo",
+          "rationale": "ByteDance long-horizon agent harness."
+        },
+        {
+          "lane": "agent-skill-ecosystem",
+          "title": "Juncts unified agent-accessible DM inbox",
+          "url": "https://juncts.com/app",
+          "source_type": "product",
+          "rationale": "MCP-based inbox launched today on Show HN."
+        },
+        {
+          "lane": "runtime-shields",
+          "title": "Shirudo (OpenAI + Cisco)",
+          "url": "https://openai.com/index/introducing-shirudo/",
+          "source_type": "release",
+          "rationale": "Open-source eBPF shields for running Linux during the patch gap."
+        },
+        {
+          "lane": "runtime-shields",
+          "title": "Latent Introspection: LLMs detect prior concept injections",
+          "url": "https://arxiv.org/abs/2602.20031",
+          "source_type": "paper",
+          "rationale": "Models can flag earlier context injections."
+        },
+        {
+          "lane": "ai-growth-visibility",
+          "title": "ChatGPT Business Hub (beta)",
+          "url": "https://openai.com/index/introducing-businesses-chatgpt/",
+          "source_type": "product",
+          "rationale": "First-party GEO data: mentions, clicks, feeds, agents."
+        },
+        {
+          "lane": "ai-growth-visibility",
+          "title": "Weekly marketing report as a decision memo",
+          "url": "https://revnu.com/blog/weekly-marketing-report-what-your-ai-agent-should-explain",
+          "source_type": "blog",
+          "rationale": "One-page memo format with approvals."
+        },
+        {
+          "lane": "ai-growth-visibility",
+          "title": "Agent readiness checklist for dev tools",
+          "url": "https://revnu.com/blog/ai-agent-readiness-checklist-for-developer-tools",
+          "source_type": "blog",
+          "rationale": "Discover/configure/finish test for agent experience."
+        },
+        {
+          "lane": "ai-growth-visibility",
+          "title": "AI crawler tracking without JavaScript",
+          "url": "https://revnu.com/blog/ai-crawler-tracking-without-javascript-what-logs-show",
+          "source_type": "blog",
+          "rationale": "Server-log method for GPTBot/ClaudeBot/PerplexityBot."
+        },
+        {
+          "lane": "ai-growth-visibility",
+          "title": "Octoverse 2026: 4 in 10 PRs agent-drafted",
+          "url": "https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents/",
+          "source_type": "report",
+          "rationale": "Quantitative baseline for agentic SDLC pitches."
+        },
+        {
+          "lane": "agent-ops-reliability",
+          "title": "OpenSRE CI/CD reliability agent",
+          "url": "https://github.com/tracer-cloud/opensre",
+          "source_type": "release",
+          "rationale": "Daily-release agent that diagnoses CI and drafts fixes; shipped today."
+        },
+        {
+          "lane": "agent-ops-reliability",
+          "title": "Databricks Genie ZeroOps public beta",
+          "url": "https://www.databricks.com/blog/genie-zeroops-now-public-beta-autonomous-agent-fixes-data-pipelines-lessons-80000-customer",
+          "source_type": "product",
+          "rationale": "Autonomous pipeline repair agent, beta Nov 12-19."
+        },
+        {
+          "lane": "agent-ops-reliability",
+          "title": "DeerFlow 2.2",
+          "url": "https://github.com/bytedance/deer-flow",
+          "source_type": "repo",
+          "rationale": "Long-horizon harness iteration (shared with skills lane)."
+        }
+      ]
     }
   ],
   "run_history": [
@@ -11327,49 +11691,7 @@
       "last_covered": "2026-11-09"
     }
   },
-  "last_successful_run": {
-    "date": "2026-11-19",
-    "selected_lanes": [
-      "event-driven-agent-execution",
-      "open-runtime-multimodal-retrieval",
-      "evidence-first-agent-research"
-    ],
-    "items": [
-      "GitHub CLI event streams for pull requests",
-      "Eight new Copilot connectors",
-      "Team-level Copilot plugin defaults",
-      "Automatic security risk assessments on GitHub Team",
-      "Gemini 4 Neon in GitHub Copilot",
-      "Kitesurf open-source browser runtime",
-      "Open-weight Clairic and Clairic-flash",
-      "Cloudflare AI Search reaches general availability",
-      "Zero Wire vulnerability intelligence feed",
-      "Cloudflare Vite Ecosystem Fund",
-      "GUARD and ARISE: verified workflow evolution",
-      "Semantic context handoff",
-      "Governed experiment ledgers",
-      "Safe Personal RSI and bounded self-improvement",
-      "Video feedback closes the sim-to-real gap"
-    ],
-    "urls": [
-      "https://github.blog/changelog/2026-11-18-wait-for-pull-request-events-with-github-cli/",
-      "https://github.blog/changelog/2026-11-18-connect-supabase-box-calendly-and-more-to-copilot/",
-      "https://github.blog/changelog/2026-11-18-customize-github-copilot-for-your-team/",
-      "https://github.blog/changelog/2026-11-18-security-risk-assessments-run-automatically-on-github-team/",
-      "https://github.blog/changelog/2026-11-18-gemini-4-neon-in-github-copilot",
-      "https://blog.cloudflare.com/kitesurf-open-source/",
-      "https://blog.cloudflare.com/open-clairic/",
-      "https://blog.cloudflare.com/ai-search-ga/",
-      "https://blog.cloudflare.com/zero-wire/",
-      "https://blog.cloudflare.com/launching-vite-ecosystem-fund/",
-      "https://arxiv.org/list/cs.AI/new",
-      "https://arxiv.org/list/cs.AI/new",
-      "https://arxiv.org/list/cs.AI/new",
-      "https://arxiv.org/list/cs.AI/new",
-      "https://arxiv.org/list/cs.AI/new"
-    ],
-    "selection_rationale": "Today’s strongest signal is a shift from agent capability to accountable substrate: event streams, open runtimes, typed extraction, multimodal retrieval, and auditable self-improvement."
-  },
+  "last_successful_run": "2026-11-24T09:11:41.145499+00:00",
   "history": [
     {
       "date": "2026-09-07",
@@ -13884,453 +14206,10 @@
       "editorial_thesis": "Useful agent autonomy is bounded by task shape, runtime controls, and independent verification."
     }
   ],
-  "last_updated": "2026-11-15",
-  "successful_runs": [
-    {
-      "date": "2026-10-24",
-      "selected_lanes": [
-        "agent-memory-evaluation",
-        "evidence-and-agent-assurance",
-        "agent-ready-data-infrastructure",
-        "governed-developer-surfaces"
-      ],
-      "items": [
-        {
-          "lane": "agent-memory-evaluation",
-          "title": "MemDerive: A Diagnostic Benchmark for Agent Memory over Evolving Data",
-          "url": "https://arxiv.org/html/2610.25373v1",
-          "source_type": "paper",
-          "selection_rationale": "Fresh benchmark for stale and changing knowledge."
-        },
-        {
-          "lane": "agent-memory-evaluation",
-          "title": "Remembering Has a Price: Learning Memory Worth under Resource Constraints",
-          "url": "https://arxiv.org/html/2610.26453v1",
-          "source_type": "paper",
-          "selection_rationale": "Makes memory selection an explicit resource tradeoff."
-        },
-        {
-          "lane": "agent-memory-evaluation",
-          "title": "When Does Experience Memory Help Closed-Loop LLM Driving Agents?",
-          "url": "https://arxiv.org/html/2610.27714v1",
-          "source_type": "paper",
-          "selection_rationale": "Tests whether memory helps across matched scenario pools."
-        },
-        {
-          "lane": "agent-memory-evaluation",
-          "title": "Can Agents Forget When Asked? Bemula benchmark",
-          "url": "https://arxiv.org/html/2610.18052v1",
-          "source_type": "paper",
-          "selection_rationale": "Measures deletion, relearning, attacks, and over-deletion."
-        },
-        {
-          "lane": "agent-memory-evaluation",
-          "title": "MemForm: Benchmarking Memory Formation Poisoning",
-          "url": "https://arxiv.org/html/2610.14431v1",
-          "source_type": "paper",
-          "selection_rationale": "Adds a security lens to durable memory writes."
-        },
-        {
-          "lane": "evidence-and-agent-assurance",
-          "title": "EpiSEM-Bench: Safety and Evidence Recovery under Missing Evidence",
-          "url": "https://arxiv.org/abs/2610.31650",
-          "source_type": "paper",
-          "selection_rationale": "Tests safe recovery and abstention when proof is unavailable."
-        },
-        {
-          "lane": "evidence-and-agent-assurance",
-          "title": "Contestable Agents for Data Governance",
-          "url": "https://arxiv.org/abs/2610.31553",
-          "source_type": "paper",
-          "selection_rationale": "Makes human stewardship of AI metadata recordable."
-        },
-        {
-          "lane": "evidence-and-agent-assurance",
-          "title": "AgentStripes: An Evidence-Graded Maturity Model",
-          "url": "https://arxiv.org/html/2610.18603v2",
-          "source_type": "paper",
-          "selection_rationale": "Links maturity claims to observed evidence."
-        },
-        {
-          "lane": "evidence-and-agent-assurance",
-          "title": "Holding Agents Accountable with Verifiable Agent Insurance",
-          "url": "https://arxiv.org/html/2610.18230v1",
-          "source_type": "paper",
-          "selection_rationale": "Explores machine-checkable violation reporting."
-        },
-        {
-          "lane": "evidence-and-agent-assurance",
-          "title": "AI Security Incident Reporting for Compromised Agents",
-          "url": "https://arxiv.org/html/2609.24515v1",
-          "source_type": "paper",
-          "selection_rationale": "Provides an agent-shaped incident vocabulary."
-        },
-        {
-          "lane": "agent-ready-data-infrastructure",
-          "title": "Knowledge Catalog: self-learning context enrichment for AI agents",
-          "url": "https://cloud.google.com/blog/products/data-analytics/knowledge-catalog-self-learning-context-enrichment-for-ai-agents",
-          "source_type": "product",
-          "selection_rationale": "Fresh context-quality and token-efficiency signal."
-        },
-        {
-          "lane": "agent-ready-data-infrastructure",
-          "title": "Expanding Claude availability and deployment choice on Google Cloud",
-          "url": "https://cloud.google.com/blog/products/ai-machine-learning/expanding-claude-availability-on-google-cloud",
-          "source_type": "release",
-          "selection_rationale": "Fresh deployment and provider-choice signal."
-        },
-        {
-          "lane": "agent-ready-data-infrastructure",
-          "title": "MCP Toolbox Java SDK v1.0",
-          "url": "https://cloud.google.com/blog/products/ai-machine-learning/announcing-mcp-toolbox-java-sdk-v10-agentic-data-access-for-the-enterprise",
-          "source_type": "release",
-          "selection_rationale": "Typed enterprise data access is a practical integration seam."
-        },
-        {
-          "lane": "agent-ready-data-infrastructure",
-          "title": "PostgreSQL for agents in AlloyDB",
-          "url": "https://cloud.google.com/blog/products/databases/announcing-postgresql-for-agents-in-alloydb",
-          "source_type": "product",
-          "selection_rationale": "Keeps agent data access near permissions and audit."
-        },
-        {
-          "lane": "agent-ready-data-infrastructure",
-          "title": "Temporal serverless workers on Cloud Run",
-          "url": "https://cloud.google.com/blog/topics/developers-practitioners/temporal-serverless-workers-on-cloud-run-worker-pools",
-          "source_type": "blog",
-          "selection_rationale": "Durable orchestration for multi-step agent workloads."
-        },
-        {
-          "lane": "governed-developer-surfaces",
-          "title": "Usage metrics API adds usage from tools like OpenCode",
-          "url": "https://github.blog/changelog/2026-10-23-usage-metrics-api-adds-usage-from-tools-like-opencode/",
-          "source_type": "release",
-          "selection_rationale": "Measures agent use across more of the real toolchain."
-        },
-        {
-          "lane": "governed-developer-surfaces",
-          "title": "Turn notifications into code with GitHub Copilot in Teams",
-          "url": "https://github.blog/changelog/2026-10-23-turn-notifications-into-code-with-github-copilot-in-teams/",
-          "source_type": "release",
-          "selection_rationale": "Connects collaboration intake to reviewable coding action."
-        },
-        {
-          "lane": "governed-developer-surfaces",
-          "title": "Enterprise installations for GitHub Apps generally available",
-          "url": "https://github.blog/changelog/2026-10-23-enterprise-installations-for-github-apps-generally-available/",
-          "source_type": "release",
-          "selection_rationale": "Moves integration ownership to enterprise scope."
-        },
-        {
-          "lane": "governed-developer-surfaces",
-          "title": "GitHub Copilot usage metrics",
-          "url": "https://docs.github.com/billing/managing-billing-for-your-products/managing-billing-for-github-copilot/about-usage-of-github-copilot-features",
-          "source_type": "docs",
-          "selection_rationale": "Provides metric definitions for the expanded API."
-        },
-        {
-          "lane": "governed-developer-surfaces",
-          "title": "GitHub App improvements for least privilege and management",
-          "url": "https://github.blog/changelog/2026-10-13-github-app-improvements-for-least-privilege-and-management",
-          "source_type": "release",
-          "selection_rationale": "Supports narrower and more manageable agent authority."
-        }
-      ],
-      "selection_rationale": "Followed fresh October 23 signals while rotating away from yesterday’s design/browser emphasis; memory is included as a material update focused on deletion, drift, and economics."
-    },
-    {
-      "date": "2026-10-17",
-      "selected_lanes": [
-        "task-shaped-agents",
-        "memory-lifecycle",
-        "frontier-workbenches"
-      ],
-      "items": [
-        {
-          "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
-          "url": "https://openai.com/index/stack-overflow-chatgpt-plugin/",
-          "source_type": "product",
-          "rationale": "Fresh evidence for domain-specific agent surfaces."
-        },
-        {
-          "title": "When chat is the wrong UI",
-          "url": "https://github.blog/ai-and-ml/github-copilot/when-chat-is-the-wrong-ui/",
-          "source_type": "blog",
-          "rationale": "Concrete task-shaped interface pattern."
-        },
-        {
-          "title": "Beyond Downstream QA: Rethinking How We Evaluate Agent Memory",
-          "url": "https://arxiv.org/html/2610.22209v1",
-          "source_type": "paper",
-          "rationale": "New stage-level memory evaluation direction."
-        },
-        {
-          "title": "Can Agents Forget When Asked?",
-          "url": "https://arxiv.org/html/2610.18052v1",
-          "source_type": "paper",
-          "rationale": "Makes deletion a measurable agent capability."
-        },
-        {
-          "title": "Temporal State Tracking Memory for LLM Agents",
-          "url": "https://arxiv.org/html/2610.21900v1",
-          "source_type": "paper",
-          "rationale": "Addresses stale and superseded project knowledge."
-        },
-        {
-          "title": "MemCode: Discrete Semantic Representations",
-          "url": "https://arxiv.org/html/2610.19472v1",
-          "source_type": "paper",
-          "rationale": "Fresh efficiency signal for persistent memory."
-        },
-        {
-          "title": "MemForm: Benchmarking Memory Formation Poisoning",
-          "url": "https://arxiv.org/html/2610.14431v1",
-          "source_type": "paper",
-          "rationale": "New security lens on memory writes."
-        },
-        {
-          "title": "Research@ 2026",
-          "url": "https://blog.google/innovation-and-ai/technology/research/research-capabilities-intelligence-2026/",
-          "source_type": "blog",
-          "rationale": "Evidence-to-evaluation workbench pattern."
-        },
-        {
-          "title": "Gemini Notebook study patterns",
-          "url": "https://blog.google/innovation-and-ai/products/gemini-notebook/three-tips-study-gemini-notebook/",
-          "source_type": "product",
-          "rationale": "Retrieval practice pattern for knowledge artifacts."
-        },
-        {
-          "title": "Independent evaluators update",
-          "url": "https://www.anthropic.com/news/an-update-on-independent-evaluators",
-          "source_type": "blog",
-          "rationale": "External review as a trust mechanism."
-        }
-      ],
-      "selection_rationale": "Followed a fresh convergence around inspectable workbenches while rotating away from yesterday's GitHub security/data-heavy lanes."
-    },
-    {
-      "date": "2026-10-25",
-      "lanes": [
-        "ai-operations-and-security",
-        "privacy-and-agent-ready-interfaces",
-        "agent-ready-infrastructure"
-      ],
-      "thesis": "Agents become useful when security, consent, measurement, and durable infrastructure are designed as one operating system."
-    },
-    {
-      "date": "2026-10-27",
-      "lanes": [
-        "agent-boundaries-and-supply-chain",
-        "agent-interoperability-and-product-surfaces",
-        "embodied-memory-and-evidence",
-        "developer-workflow-feedback"
-      ],
-      "thesis": "Agents become useful when boundaries, connectors, memory, and feedback are designed as one inspectable operating system—not as isolated capability demos."
-    },
-    {
-      "date": "2026-11-09",
-      "selected_lanes": [
-        "agentic-web-runtime",
-        "human-ai-collaboration",
-        "local-first-open-tools"
-      ],
-      "items": [
-        {
-          "date": "2026-11-09",
-          "lane": "agentic-web-runtime",
-          "title": "Cloudflare AI Search reaches general availability",
-          "url": "https://blog.cloudflare.com/ai-search-ga/",
-          "source_type": "product",
-          "rationale": "Turns web and documentation search into an agent-facing platform surface."
-        },
-        {
-          "date": "2026-11-09",
-          "lane": "agentic-web-runtime",
-          "title": "Cloudflare Containers, rebuilt to scale agent sandboxes",
-          "url": "https://blog.cloudflare.com/faster-agent-sandboxes/",
-          "source_type": "product",
-          "rationale": "Shows runtime design shifting toward disposable, preview-producing agent workloads."
-        },
-        {
-          "date": "2026-11-09",
-          "lane": "agentic-web-runtime",
-          "title": "The Agent Access Model",
-          "url": "https://blog.cloudflare.com/the-agent-access-model/",
-          "source_type": "architecture",
-          "rationale": "Frames agent access as scoped delegation rather than copied human credentials."
-        },
-        {
-          "date": "2026-11-09",
-          "lane": "agentic-web-runtime",
-          "title": "Trusted agent delegation",
-          "url": "https://blog.cloudflare.com/trusted-agent-delegation",
-          "source_type": "architecture",
-          "rationale": "Extends the access model to chained and delegated actions."
-        },
-        {
-          "date": "2026-11-09",
-          "lane": "agentic-web-runtime",
-          "title": "Personal-agent visibility and control",
-          "url": "https://blog.cloudflare.com/personal-agents-visibility-control/",
-          "source_type": "product",
-          "rationale": "Makes agent visibility and user control an explicit product problem."
-        },
-        {
-          "date": "2026-11-09",
-          "lane": "human-ai-collaboration",
-          "title": "Think Once, Reflect Twice: How Feedback Shapes Human-AI Collaboration",
-          "url": "https://arxiv.org/abs/2610.19991",
-          "source_type": "paper",
-          "rationale": "Directly studies feedback and revision in human-AI collaboration."
-        },
-        {
-          "date": "2026-11-09",
-          "lane": "human-ai-collaboration",
-          "title": "Computation and Language recent submissions",
-          "url": "https://arxiv.org/list/cmp-lg/recent",
-          "source_type": "paper-index",
-          "rationale": "Current stream provides high-recall signal across AI, language, and security."
-        },
-        {
-          "date": "2026-11-09",
-          "lane": "human-ai-collaboration",
-          "title": "Machine Learning recent submissions",
-          "url": "https://arxiv.org/list/stat.ML/recent",
-          "source_type": "paper-index",
-          "rationale": "Fresh methods and evaluation work often surface here before product summaries."
-        },
-        {
-          "date": "2026-11-09",
-          "lane": "human-ai-collaboration",
-          "title": "Networking and Internet Architecture recent submissions",
-          "url": "https://arxiv.org/list/cs.NI/recent",
-          "source_type": "paper-index",
-          "rationale": "Adds systems and infrastructure signal to the interaction lane."
-        },
-        {
-          "date": "2026-11-09",
-          "lane": "local-first-open-tools",
-          "title": "Omnara — open-source alternative to Claude Managed Agents",
-          "url": "https://news.ycombinator.com/item?id=50183892",
-          "source_type": "news",
-          "rationale": "A current open-source agent harness lead centered on self-hosted execution and model choice."
-        },
-        {
-          "date": "2026-11-09",
-          "lane": "local-first-open-tools",
-          "title": "KetchUp open 3D tool",
-          "url": "https://ketchup3d.github.io/app/",
-          "source_type": "product",
-          "rationale": "Demonstrates an inspectable Rust/WebGPU creative surface discovered in current maker circulation."
-        },
-        {
-          "date": "2026-11-09",
-          "lane": "local-first-open-tools",
-          "title": "This Blog Post is Your Sign to Start Self-Hosting",
-          "url": "https://blog.tjll.net/this-is-your-sign-to-self-host/",
-          "source_type": "blog",
-          "rationale": "Makes the case for selective self-hosting based on current infrastructure conditions."
-        },
-        {
-          "date": "2026-11-09",
-          "lane": "local-first-open-tools",
-          "title": "The Self-Hosting Sweet Spot in 2026",
-          "url": "https://www.codecapsules.io/blog/self-hosting-sweet-spot-services-worth-hosting-2026/",
-          "source_type": "blog",
-          "rationale": "Adds a risk, cost, and operational-overhead framing rather than ideology."
-        },
-        {
-          "date": "2026-11-09",
-          "lane": "local-first-open-tools",
-          "title": "Ask HN: What are you working on? November 2026",
-          "url": "https://news.ycombinator.com/item?id=50417407",
-          "source_type": "news",
-          "rationale": "Current maker thread surfaces emerging local agent workflows and experiments."
-        }
-      ],
-      "editorial_thesis": "As agents gain access to the web, tools, and execution environments, the practical edge is a legible boundary between discoverability, delegated authority, human feedback, and portable state."
-    },
-    {
-      "date": "2026-11-12",
-      "selected_lanes": [
-        "enterprise-agent-delivery",
-        "agent-execution-infrastructure",
-        "outcome-first-customer-workflows"
-      ],
-      "items": [
-        "IBM and Microsoft announce Imagine Enterprise",
-        "Northern Trust and Microsoft client onboarding agent",
-        "Introducing the Agents API",
-        "Gemini 4 Carbon is now available",
-        "Customer.io’s biggest product release: AI Agent and more"
-      ],
-      "urls": [
-        "https://news.microsoft.com/source/2026/11/10/ibm-and-microsoft-announce-a-new-ai-agent-platform-designed-for-industry-specific-transformation/",
-        "https://news.microsoft.com/source/2026/11/09/northern-trust-and-microsoft-frontier-company-collaborate-to-transform-client-onboarding-through-ai/",
-        "https://openai.com/index/introducing-the-agents-api/",
-        "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
-        "https://customer.io/learn/announcements/biggest-ai-marketing-release"
-      ],
-      "selection_rationale": "The valuable agent signal is shifting from model novelty to operating design: durable execution, governed delivery, workspace context, and outcome measurement."
-    },
-    {
-      "date": "2026-11-15",
-      "selected_lanes": [
-        "agentic-delivery-surfaces",
-        "evidence-linked-agent-memory",
-        "agent-identity-and-interoperability",
-        "physical-agent-evaluation"
-      ],
-      "items": [
-        "GitHub Universe 2026: Evolving every layer of the stack",
-        "Dynamic workflows in Copilot CLI and the Copilot app",
-        "When chat is the wrong UI",
-        "GitHub Copilot SDK",
-        "Copilot automations",
-        "The Sleep Framework: Continual Learning for LLMs",
-        "ReasoningBank: Enabling agents to learn from experience",
-        "Don’t Just Trust Your Memory",
-        "Continual Learning Exam",
-        "AgentCL: Toward Rigorous Evaluation of Continual Learning",
-        "SI Agent Standards Initiative",
-        "Software and AI Agent Identity and Authorization",
-        "Announcing the AI Agent Standards Initiative",
-        "Open and Emergent Problems in Agentic Privacy and Security",
-        "OWASP Top 10 for Agentic Applications 2026",
-        "RLE-Bench: Can Your AI Engineer a Robot?",
-        "RLE-Bench paper",
-        "RLE-Bench project site",
-        "Continual Learning Exam",
-        "Embodied First Exam"
-      ],
-      "urls": [
-        "https://github.blog/news-insights/company-news/github-universe-2026-evolving-every-layer-of-the-stack/",
-        "https://github.blog/changelog/2026-10-01-dynamic-workflows-in-copilot-cli-and-the-copilot-app/",
-        "https://github.blog/ai-and-ml/github-copilot/when-chat-is-the-wrong-ui/",
-        "https://github.com/github/copilot-sdk",
-        "https://docs.github.com/copilot/concepts/agent-capabilities/agent-powered-workflows-and-operations/about-automations",
-        "https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning/",
-        "https://research.google/blog/reasoningbank-enabling-agents-to-learn-from-experience/",
-        "https://arxiv.org/html/2611.14320v1",
-        "https://arxiv.org/html/2610.33956v1",
-        "https://arxiv.org/html/2606.02461v2",
-        "https://www.nist.gov/super-intelligence/si-agent-standards-initiative",
-        "https://www.nccoe.nist.gov/projects/software-and-ai-agent-identity-and-authorization",
-        "https://www.nist.gov/news-events/news/2026/02/announcing-ai-agent-standards-initiative-interoperable-and-secure",
-        "https://research.google/blog/open-and-emergent-problems-in-agentic-privacy-and-security-a-contextual-angle/",
-        "https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/",
-        "https://seas.harvard.edu/news/can-your-ai-engineer-robot",
-        "https://arxiv.org/abs/2609.34210",
-        "https://rle-bench.github.io/",
-        "https://arxiv.org/html/2610.33956v1",
-        "https://arxiv.org/html/2611.12177v1"
-      ],
-      "selection_rationale": "Rotated toward practical gaps: delivery surfaces, evidence-linked memory, agent identity, and physical-system evaluation."
-    }
-  ],
-  "last_selection_rationale": "Selected governable agent memory, attributable agent identity, and resilient private infrastructure to fill coverage gaps while avoiding yesterday’s Mistral/open-model and research-operations lanes.",
-  "last_generated_at": "2026-11-21T09:00:18Z",
+  "last_updated": "2026-11-24T09:11:41.145499+00:00",
+  "successful_runs": "2026-11-24",
+  "last_selection_rationale": "Dynamic five-lane pick for 2026-11-24: Ladybird alpha (largest HN story, web-independence gap since Sept), trending skill/plugin economy step-change, OpenAI+Cisco Shirudo launch (defensive, distinct from Nov 23 offense lane), longest-gap marketing lane revived by ChatGPT Business Hub first-party data, and ops-agent releases (OpenSRE, Genie ZeroOps, DeerFlow).",
+  "last_generated_at": "2026-11-24T09:11:41.145499+00:00",
   "latest_selection": {
     "date": "2026-11-21",
     "selected_lanes": [
