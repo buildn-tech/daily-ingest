@@ -1,0 +1,306 @@
+{
+  "date": "2026-11-24",
+  "generated_at": "2026-11-24T09:08:53.029295+00:00",
+  "editorial_thesis": "The independent-compute layer is being rebuilt in public (Ladybird alpha, GPUI) while agent capability consolidates into portable skills, first-party AI-visibility data, and human-gated ops agents.",
+  "topic_groups": [
+    {
+      "slug": "browser-engine-independence",
+      "title": "Independent Engines and Native Platforms",
+      "selection_rationale": "Front-page-scale signal (1,884 points) plus a genuine coverage gap: web-platform independence has not been a lane since early September.",
+      "sources": [
+        {
+          "title": "alpha",
+          "url": "https://ladybird.org/posts/alpha/",
+          "source_type": "blog",
+          "published_or_updated": "2026-11-24",
+          "why_selected": "Live-verified primary or high-signal source in today's lane.",
+          "usefulness": "See lane dossier card for use cases."
+        },
+        {
+          "title": "ladybird",
+          "url": "https://simonwillison.net/2026/Nov/23/ladybird/",
+          "source_type": "blog",
+          "published_or_updated": "2026-11-16..24",
+          "why_selected": "Live-verified primary or high-signal source in today's lane.",
+          "usefulness": "See lane dossier card for use cases."
+        },
+        {
+          "title": "download",
+          "url": "https://ladybird.org/download/",
+          "source_type": "blog",
+          "published_or_updated": "2026-11-16..24",
+          "why_selected": "Live-verified primary or high-signal source in today's lane.",
+          "usefulness": "See lane dossier card for use cases."
+        },
+        {
+          "title": "gpui",
+          "url": "https://github.com/zed-industries/gpui",
+          "source_type": "blog",
+          "published_or_updated": "2026-11-16..24",
+          "why_selected": "Live-verified primary or high-signal source in today's lane.",
+          "usefulness": "See lane dossier card for use cases."
+        },
+        {
+          "title": "c26-is-done-again-trip-report-november-2026-iso-c-standards-",
+          "url": "https://herbsutter.com/2026/11/21/c26-is-done-again-trip-report-november-2026-iso-c-standards-meeting-buzios-brazil/",
+          "source_type": "blog",
+          "published_or_updated": "2026-11-16..24",
+          "why_selected": "Live-verified primary or high-signal source in today's lane.",
+          "usefulness": "See lane dossier card for use cases."
+        },
+        {
+          "title": "amd-epyc-9006-7601",
+          "url": "https://www.phoronix.com/review/amd-epyc-9006-7601",
+          "source_type": "blog",
+          "published_or_updated": "2026-11-16..24",
+          "why_selected": "Live-verified primary or high-signal source in today's lane.",
+          "usefulness": "See lane dossier card for use cases."
+        },
+        {
+          "title": "nospeaker",
+          "url": "https://github.com/os6/nospeaker",
+          "source_type": "blog",
+          "published_or_updated": "2026-11-16..24",
+          "why_selected": "Live-verified primary or high-signal source in today's lane.",
+          "usefulness": "See lane dossier card for use cases."
+        }
+      ]
+    },
+    {
+      "slug": "agent-skill-ecosystem",
+      "title": "The Agent Skill and Plugin Economy",
+      "selection_rationale": "Trending-page dominance today plus a real shift since the July MCP-portability lane: skills went from experiment to default distribution.",
+      "sources": [
+        {
+          "title": "CLI-Anything",
+          "url": "https://github.com/HKUDS/CLI-Anything",
+          "source_type": "blog",
+          "published_or_updated": "2026-11-16..24",
+          "why_selected": "Live-verified primary or high-signal source in today's lane.",
+          "usefulness": "See lane dossier card for use cases."
+        },
+        {
+          "title": "2606.03854v1",
+          "url": "https://arxiv.org/html/2606.03854v1",
+          "source_type": "blog",
+          "published_or_updated": "2026-11-16..24",
+          "why_selected": "Live-verified primary or high-signal source in today's lane.",
+          "usefulness": "See lane dossier card for use cases."
+        },
+        {
+          "title": "clianything.cc",
+          "url": "https://clianything.cc/",
+          "source_type": "blog",
+          "published_or_updated": "2026-11-16..24",
+          "why_selected": "Live-verified primary or high-signal source in today's lane.",
+          "usefulness": "See lane dossier card for use cases."
+        },
+        {
+          "title": "last30days-skill",
+          "url": "https://github.com/mvanhorn/last30days-skill",
+          "source_type": "blog",
+          "published_or_updated": "2026-11-16..24",
+          "why_selected": "Live-verified primary or high-signal source in today's lane.",
+          "usefulness": "See lane dossier card for use cases."
+        },
+        {
+          "title": "plugins",
+          "url": "https://github.com/cursor/plugins",
+          "source_type": "blog",
+          "published_or_updated": "2026-11-16..24",
+          "why_selected": "Live-verified primary or high-signal source in today's lane.",
+          "usefulness": "See lane dossier card for use cases."
+        },
+        {
+          "title": "Agent-Reach",
+          "url": "https://github.com/Panniantong/Agent-Reach",
+          "source_type": "blog",
+          "published_or_updated": "2026-11-16..24",
+          "why_selected": "Live-verified primary or high-signal source in today's lane.",
+          "usefulness": "See lane dossier card for use cases."
+        },
+        {
+          "title": "claude-mem",
+          "url": "https://github.com/thedotmack/claude-mem",
+          "source_type": "blog",
+          "published_or_updated": "2026-11-16..24",
+          "why_selected": "Live-verified primary or high-signal source in today's lane.",
+          "usefulness": "See lane dossier card for use cases."
+        },
+        {
+          "title": "deer-flow",
+          "url": "https://github.com/bytedance/deer-flow",
+          "source_type": "blog",
+          "published_or_updated": "2026-11-16..24",
+          "why_selected": "Live-verified primary or high-signal source in today's lane.",
+          "usefulness": "See lane dossier card for use cases."
+        },
+        {
+          "title": "app",
+          "url": "https://juncts.com/app",
+          "source_type": "blog",
+          "published_or_updated": "2026-11-16..24",
+          "why_selected": "Live-verified primary or high-signal source in today's lane.",
+          "usefulness": "See lane dossier card for use cases."
+        },
+        {
+          "title": "item?id=50623175",
+          "url": "https://news.ycombinator.com/item?id=50623175",
+          "source_type": "blog",
+          "published_or_updated": "2026-11-16..24",
+          "why_selected": "Live-verified primary or high-signal source in today's lane.",
+          "usefulness": "See lane dossier card for use cases."
+        }
+      ]
+    },
+    {
+      "slug": "runtime-shields",
+      "title": "Runtime Shields Before the Patch",
+      "selection_rationale": "Materially new defensive infrastructure (Nov 23 launch) distinct from yesterday's offense-focused lane; security was well covered yesterday, so the lane stays narrow rather than padded.",
+      "sources": [
+        {
+          "title": "introducing-shirudo",
+          "url": "https://openai.com/index/introducing-shirudo/",
+          "source_type": "blog",
+          "published_or_updated": "2026-11-24",
+          "why_selected": "Live-verified primary or high-signal source in today's lane.",
+          "usefulness": "See lane dossier card for use cases."
+        },
+        {
+          "title": "cisco-and-openai-release-shirudo-an-open-source-tool-that-sh",
+          "url": "https://mlq.ai/news/cisco-and-openai-release-shirudo-an-open-source-tool-that-shields-linux-systems-until-patches-land/",
+          "source_type": "blog",
+          "published_or_updated": "2026-11-16..24",
+          "why_selected": "Live-verified primary or high-signal source in today's lane.",
+          "usefulness": "See lane dossier card for use cases."
+        },
+        {
+          "title": "openai-and-cisco-introduce-shirudo-to-block-exploits",
+          "url": "https://gbhackers.com/openai-and-cisco-introduce-shirudo-to-block-exploits/",
+          "source_type": "blog",
+          "published_or_updated": "2026-11-16..24",
+          "why_selected": "Live-verified primary or high-signal source in today's lane.",
+          "usefulness": "See lane dossier card for use cases."
+        },
+        {
+          "title": "2602.20031",
+          "url": "https://arxiv.org/abs/2602.20031",
+          "source_type": "blog",
+          "published_or_updated": "2026-11-16..24",
+          "why_selected": "Live-verified primary or high-signal source in today's lane.",
+          "usefulness": "See lane dossier card for use cases."
+        }
+      ]
+    },
+    {
+      "slug": "ai-growth-visibility",
+      "title": "AI Visibility Gets First-Party Instruments",
+      "selection_rationale": "Marketing-analytics lane has not run since mid-July (longest gap among the high-signal lanes) and ChatGPT Business Hub created genuinely new, first-party data to work with.",
+      "sources": [
+        {
+          "title": "chatgpt-business-hub",
+          "url": "https://www.searchable.com/blog/chatgpt-business-hub",
+          "source_type": "blog",
+          "published_or_updated": "2026-11-16..24",
+          "why_selected": "Live-verified primary or high-signal source in today's lane.",
+          "usefulness": "See lane dossier card for use cases."
+        },
+        {
+          "title": "introducing-businesses-chatgpt",
+          "url": "https://openai.com/index/introducing-businesses-chatgpt/",
+          "source_type": "blog",
+          "published_or_updated": "2026-11-16..24",
+          "why_selected": "Live-verified primary or high-signal source in today's lane.",
+          "usefulness": "See lane dossier card for use cases."
+        },
+        {
+          "title": "weekly-marketing-report-what-your-ai-agent-should-explain",
+          "url": "https://revnu.com/blog/weekly-marketing-report-what-your-ai-agent-should-explain",
+          "source_type": "blog",
+          "published_or_updated": "2026-11-16..24",
+          "why_selected": "Live-verified primary or high-signal source in today's lane.",
+          "usefulness": "See lane dossier card for use cases."
+        },
+        {
+          "title": "ai-agent-readiness-checklist-for-developer-tools",
+          "url": "https://revnu.com/blog/ai-agent-readiness-checklist-for-developer-tools",
+          "source_type": "blog",
+          "published_or_updated": "2026-11-16..24",
+          "why_selected": "Live-verified primary or high-signal source in today's lane.",
+          "usefulness": "See lane dossier card for use cases."
+        },
+        {
+          "title": "ai-crawler-tracking-without-javascript-what-logs-show",
+          "url": "https://revnu.com/blog/ai-crawler-tracking-without-javascript-what-logs-show",
+          "source_type": "blog",
+          "published_or_updated": "2026-11-16..24",
+          "why_selected": "Live-verified primary or high-signal source in today's lane.",
+          "usefulness": "See lane dossier card for use cases."
+        },
+        {
+          "title": "how-to-get-more-chatgpt-mentions-for-your-business",
+          "url": "https://revnu.com/blog/how-to-get-more-chatgpt-mentions-for-your-business",
+          "source_type": "blog",
+          "published_or_updated": "2026-11-16..24",
+          "why_selected": "Live-verified primary or high-signal source in today's lane.",
+          "usefulness": "See lane dossier card for use cases."
+        },
+        {
+          "title": "octoverse-commits-pushes-reach-new-highs-in-2026-as-develope",
+          "url": "https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents/",
+          "source_type": "blog",
+          "published_or_updated": "2026-11-16..24",
+          "why_selected": "Live-verified primary or high-signal source in today's lane.",
+          "usefulness": "See lane dossier card for use cases."
+        }
+      ]
+    },
+    {
+      "slug": "agent-ops-reliability",
+      "title": "Agents Take the Ops Pager",
+      "selection_rationale": "Agent-ops last surfaced in September; the common thread today is autonomy bounded by human-approved changes, which is exactly the HITL boundary Buildn OS codifies.",
+      "sources": [
+        {
+          "title": "opensre",
+          "url": "https://github.com/tracer-cloud/opensre",
+          "source_type": "blog",
+          "published_or_updated": "2026-11-16..24",
+          "why_selected": "Live-verified primary or high-signal source in today's lane.",
+          "usefulness": "See lane dossier card for use cases."
+        },
+        {
+          "title": "releases",
+          "url": "https://github.com/Tracer-Cloud/opensre/releases",
+          "source_type": "blog",
+          "published_or_updated": "2026-11-16..24",
+          "why_selected": "Live-verified primary or high-signal source in today's lane.",
+          "usefulness": "See lane dossier card for use cases."
+        },
+        {
+          "title": "genie-zeroops-now-public-beta-autonomous-agent-fixes-data-pi",
+          "url": "https://www.databricks.com/blog/genie-zeroops-now-public-beta-autonomous-agent-fixes-data-pipelines-lessons-80000-customer",
+          "source_type": "blog",
+          "published_or_updated": "2026-11-16..24",
+          "why_selected": "Live-verified primary or high-signal source in today's lane.",
+          "usefulness": "See lane dossier card for use cases."
+        },
+        {
+          "title": "november",
+          "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november",
+          "source_type": "blog",
+          "published_or_updated": "2026-11-16..24",
+          "why_selected": "Live-verified primary or high-signal source in today's lane.",
+          "usefulness": "See lane dossier card for use cases."
+        },
+        {
+          "title": "deer-flow",
+          "url": "https://github.com/bytedance/deer-flow",
+          "source_type": "blog",
+          "published_or_updated": "2026-11-16..24",
+          "why_selected": "Live-verified primary or high-signal source in today's lane.",
+          "usefulness": "See lane dossier card for use cases."
+        }
+      ]
+    }
+  ]
+}

@@ -1,6 +1,166 @@
 {
-  "updated_at": "2026-11-23T09:06:15.623560+00:00",
+  "updated_at": "2026-11-24T09:08:58.568368+00:00",
   "sources": {
+    "https://ladybird.org/posts/alpha": {
+      "first_seen": "2026-11-24",
+      "last_seen": "2026-11-24",
+      "title": "alpha"
+    },
+    "https://simonwillison.net/2026/Nov/23/ladybird": {
+      "first_seen": "2026-11-24",
+      "last_seen": "2026-11-24",
+      "title": "ladybird"
+    },
+    "https://ladybird.org/download": {
+      "first_seen": "2026-11-24",
+      "last_seen": "2026-11-24",
+      "title": "download"
+    },
+    "https://github.com/zed-industries/gpui": {
+      "first_seen": "2026-11-24",
+      "last_seen": "2026-11-24",
+      "title": "gpui"
+    },
+    "https://herbsutter.com/2026/11/21/c26-is-done-again-trip-report-november-2026-iso-c-standards-meeting-buzios-brazil": {
+      "first_seen": "2026-11-24",
+      "last_seen": "2026-11-24",
+      "title": "c26-is-done-again-trip-report-november-2026-iso-c-standards-"
+    },
+    "https://www.phoronix.com/review/amd-epyc-9006-7601": {
+      "first_seen": "2026-11-24",
+      "last_seen": "2026-11-24",
+      "title": "amd-epyc-9006-7601"
+    },
+    "https://github.com/os6/nospeaker": {
+      "first_seen": "2026-11-24",
+      "last_seen": "2026-11-24",
+      "title": "nospeaker"
+    },
+    "https://github.com/HKUDS/CLI-Anything": {
+      "first_seen": "2026-11-24",
+      "last_seen": "2026-11-24",
+      "title": "CLI-Anything"
+    },
+    "https://arxiv.org/html/2606.03854v1": {
+      "first_seen": "2026-11-24",
+      "last_seen": "2026-11-24",
+      "title": "2606.03854v1"
+    },
+    "https://clianything.cc/": {
+      "first_seen": "2026-11-24",
+      "last_seen": "2026-11-24",
+      "title": "clianything.cc"
+    },
+    "https://github.com/mvanhorn/last30days-skill": {
+      "first_seen": "2026-11-24",
+      "last_seen": "2026-11-24",
+      "title": "last30days-skill"
+    },
+    "https://github.com/cursor/plugins": {
+      "first_seen": "2026-11-24",
+      "last_seen": "2026-11-24",
+      "title": "plugins"
+    },
+    "https://github.com/Panniantong/Agent-Reach": {
+      "first_seen": "2026-11-24",
+      "last_seen": "2026-11-24",
+      "title": "Agent-Reach"
+    },
+    "https://github.com/thedotmack/claude-mem": {
+      "first_seen": "2026-11-24",
+      "last_seen": "2026-11-24",
+      "title": "claude-mem"
+    },
+    "https://github.com/bytedance/deer-flow": {
+      "first_seen": "2026-11-24",
+      "last_seen": "2026-11-24",
+      "title": "deer-flow"
+    },
+    "https://juncts.com/app": {
+      "first_seen": "2026-11-24",
+      "last_seen": "2026-11-24",
+      "title": "app"
+    },
+    "https://news.ycombinator.com/item?id=50623175": {
+      "first_seen": "2026-11-24",
+      "last_seen": "2026-11-24",
+      "title": "item?id=50623175"
+    },
+    "https://openai.com/index/introducing-shirudo": {
+      "first_seen": "2026-11-24",
+      "last_seen": "2026-11-24",
+      "title": "introducing-shirudo"
+    },
+    "https://mlq.ai/news/cisco-and-openai-release-shirudo-an-open-source-tool-that-shields-linux-systems-until-patches-land": {
+      "first_seen": "2026-11-24",
+      "last_seen": "2026-11-24",
+      "title": "cisco-and-openai-release-shirudo-an-open-source-tool-that-sh"
+    },
+    "https://gbhackers.com/openai-and-cisco-introduce-shirudo-to-block-exploits": {
+      "first_seen": "2026-11-24",
+      "last_seen": "2026-11-24",
+      "title": "openai-and-cisco-introduce-shirudo-to-block-exploits"
+    },
+    "https://arxiv.org/abs/2602.20031": {
+      "first_seen": "2026-11-24",
+      "last_seen": "2026-11-24",
+      "title": "2602.20031"
+    },
+    "https://www.searchable.com/blog/chatgpt-business-hub": {
+      "first_seen": "2026-11-24",
+      "last_seen": "2026-11-24",
+      "title": "chatgpt-business-hub"
+    },
+    "https://openai.com/index/introducing-businesses-chatgpt": {
+      "first_seen": "2026-11-24",
+      "last_seen": "2026-11-24",
+      "title": "introducing-businesses-chatgpt"
+    },
+    "https://revnu.com/blog/weekly-marketing-report-what-your-ai-agent-should-explain": {
+      "first_seen": "2026-11-24",
+      "last_seen": "2026-11-24",
+      "title": "weekly-marketing-report-what-your-ai-agent-should-explain"
+    },
+    "https://revnu.com/blog/ai-agent-readiness-checklist-for-developer-tools": {
+      "first_seen": "2026-11-24",
+      "last_seen": "2026-11-24",
+      "title": "ai-agent-readiness-checklist-for-developer-tools"
+    },
+    "https://revnu.com/blog/ai-crawler-tracking-without-javascript-what-logs-show": {
+      "first_seen": "2026-11-24",
+      "last_seen": "2026-11-24",
+      "title": "ai-crawler-tracking-without-javascript-what-logs-show"
+    },
+    "https://revnu.com/blog/how-to-get-more-chatgpt-mentions-for-your-business": {
+      "first_seen": "2026-11-24",
+      "last_seen": "2026-11-24",
+      "title": "how-to-get-more-chatgpt-mentions-for-your-business"
+    },
+    "https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents": {
+      "first_seen": "2026-11-24",
+      "last_seen": "2026-11-24",
+      "title": "octoverse-commits-pushes-reach-new-highs-in-2026-as-develope"
+    },
+    "https://github.com/tracer-cloud/opensre": {
+      "first_seen": "2026-11-24",
+      "last_seen": "2026-11-24",
+      "title": "opensre"
+    },
+    "https://github.com/Tracer-Cloud/opensre/releases": {
+      "first_seen": "2026-11-24",
+      "last_seen": "2026-11-24",
+      "title": "releases"
+    },
+    "https://www.databricks.com/blog/genie-zeroops-now-public-beta-autonomous-agent-fixes-data-pipelines-lessons-80000-customer": {
+      "first_seen": "2026-11-24",
+      "last_seen": "2026-11-24",
+      "title": "genie-zeroops-now-public-beta-autonomous-agent-fixes-data-pi"
+    },
+    "https://docs.databricks.com/aws/en/release-notes/product/2026/november": {
+      "first_seen": "2026-11-24",
+      "last_seen": "2026-11-24",
+      "title": "november"
+    },
     "https://leanprover-community.github.io/blog/posts/riemann-hypothesis": {
       "first_seen": "2026-11-23",
       "last_seen": "2026-11-23",

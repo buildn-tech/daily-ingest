@@ -1,6 +1,37 @@
 {
-  "updated_at": "2026-11-23T09:06:15.623560+00:00",
+  "updated_at": "2026-11-24T09:08:58.568368+00:00",
   "days": [
+    {
+      "date": "2026-11-24",
+      "path": "2026-11-24",
+      "reports": [
+        {
+          "lane": "browser-engine-independence",
+          "title": "Independent Engines and Native Platforms",
+          "url": "2026-11-24/browser-engine-independence.html"
+        },
+        {
+          "lane": "agent-skill-ecosystem",
+          "title": "The Agent Skill and Plugin Economy",
+          "url": "2026-11-24/agent-skill-ecosystem.html"
+        },
+        {
+          "lane": "runtime-shields",
+          "title": "Runtime Shields Before the Patch",
+          "url": "2026-11-24/runtime-shields.html"
+        },
+        {
+          "lane": "ai-growth-visibility",
+          "title": "AI Visibility Gets First-Party Instruments",
+          "url": "2026-11-24/ai-growth-visibility.html"
+        },
+        {
+          "lane": "agent-ops-reliability",
+          "title": "Agents Take the Ops Pager",
+          "url": "2026-11-24/agent-ops-reliability.html"
+        }
+      ]
+    },
     {
       "date": "2026-11-23",
       "path": "2026-11-23",
