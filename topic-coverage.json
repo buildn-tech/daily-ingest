@@ -1931,6 +1931,36 @@
       "times_covered": 1,
       "last_covered": "2026-11-23",
       "last_selection_rationale": "Parallel worktree bake-offs and subagent transcript panels shift the frontier to scheduling and review."
+    },
+    "agent-data-economy": {
+      "title": "Agent Data Economy",
+      "times_covered": 1,
+      "last_covered": "2026-11-25",
+      "last_selection_rationale": "Largest funding cluster of the day plus a fresh Show HN tool; the data-platform-for-agents thesis has not been covered since mid-November's agent-ready data lanes."
+    },
+    "local-intelligence-stack": {
+      "title": "Local Intelligence Stack",
+      "times_covered": 1,
+      "last_covered": "2026-11-25",
+      "last_selection_rationale": "Extends yesterday's local-model lane from weights to the full loop: training, agentic coding, and retrieval memory, all self-hosted."
+    },
+    "whose-agent-is-it": {
+      "title": "Whose Agent Is It?",
+      "times_covered": 1,
+      "last_covered": "2026-11-25",
+      "last_selection_rationale": "A 964-point essay crystallized the vendor-policy anxiety, and three tooling launches monetize or verify that boundary the same day."
+    },
+    "platform-trust-events": {
+      "title": "Platform Trust Events",
+      "times_covered": 1,
+      "last_covered": "2026-11-25",
+      "last_selection_rationale": "Three infrastructure-level stories about the terms under which platforms serve you: DNS withdrawal, control-plane intrusion, and agent wake events."
+    },
+    "science-agents-physical": {
+      "title": "Science Agents Get Physical",
+      "times_covered": 1,
+      "last_covered": "2026-11-25",
+      "last_selection_rationale": "Fills a physical-science coverage gap (untouched since Nov 15) with a major OpenAI research claim, world-model tooling, and the funding backdrop."
     }
   },
   "item_history": [
@@ -3599,6 +3629,303 @@
       "url": "https://github.com/bytedance/deer-flow",
       "source_type": "repo",
       "rationale": "Long-horizon harness iteration (shared with skills lane)."
+    },
+    {
+      "date": "2026-11-25",
+      "topic": "agent-data-economy",
+      "topic_title": "Agent Data Economy",
+      "title": "Zipher is Out of Stealth: Data Infrastructure for Agents, by Agents",
+      "url": "https://zipher.ai/zipher-is-out-of-stealth-data-infrastructure-for-agents-by-agents/",
+      "source_type": "product",
+      "published_or_updated": "2026-11-24",
+      "selection_rationale": "Largest funding cluster of the day plus a fresh Show HN tool; the data-platform-for-agents thesis has not been covered since mid-November's agent-ready data lanes.",
+      "usefulness": "Positioning template for outcome-priced agentic infrastructure; Hertz reference vs. unverified aggregate claims."
+    },
+    {
+      "date": "2026-11-25",
+      "topic": "agent-data-economy",
+      "topic_title": "Agent Data Economy",
+      "title": "Zipher Raises $53M (Business Wire)",
+      "url": "https://www.businesswire.com/news/home/20261124091381/en/Zipher-Raises-%2453M-to-Rebuild-Data-Infrastructure-for-Agents-by-Agents",
+      "source_type": "news",
+      "published_or_updated": "2026-11-24",
+      "selection_rationale": "Largest funding cluster of the day plus a fresh Show HN tool; the data-platform-for-agents thesis has not been covered since mid-November's agent-ready data lanes.",
+      "usefulness": "Confirms seed+Series A, TLV/Maor/Glilot backing, and Fortune 500 production use."
+    },
+    {
+      "date": "2026-11-25",
+      "topic": "agent-data-economy",
+      "topic_title": "Agent Data Economy",
+      "title": "Mason: a drop-in Postgres read replica for analytics",
+      "url": "https://masondata.ai/",
+      "source_type": "product",
+      "published_or_updated": "2026-11-24",
+      "selection_rationale": "Largest funding cluster of the day plus a fresh Show HN tool; the data-platform-for-agents thesis has not been covered since mid-November's agent-ready data lanes.",
+      "usefulness": "Immediately deployable agent-ready data plane for client demos and Env Vault patterns."
+    },
+    {
+      "date": "2026-11-25",
+      "topic": "agent-data-economy",
+      "topic_title": "Agent Data Economy",
+      "title": "embeddable-hq/mason-data",
+      "url": "https://github.com/embeddable-hq/mason-data",
+      "source_type": "repo",
+      "published_or_updated": "2026-11-20",
+      "selection_rationale": "Largest funding cluster of the day plus a fresh Show HN tool; the data-platform-for-agents thesis has not been covered since mid-November's agent-ready data lanes.",
+      "usefulness": "Self-host path; DuckDB-backed, Postgres wire protocol."
+    },
+    {
+      "date": "2026-11-25",
+      "topic": "agent-data-economy",
+      "topic_title": "Agent Data Economy",
+      "title": "LanceDB Raises $57.5M Series B",
+      "url": "https://www.citybiz.co/article/937925/lancedb-raises-57-5m-series-b-to-scale-multimodal-ai-data-infrastructure/",
+      "source_type": "news",
+      "published_or_updated": "2026-11-24",
+      "selection_rationale": "Largest funding cluster of the day plus a fresh Show HN tool; the data-platform-for-agents thesis has not been covered since mid-November's agent-ready data lanes.",
+      "usefulness": "Confirms venture conviction in multimodal agent data infrastructure."
+    },
+    {
+      "date": "2026-11-25",
+      "topic": "agent-data-economy",
+      "topic_title": "Agent Data Economy",
+      "title": "Verra raises $5M to build an AI memory layer for consulting firms",
+      "url": "https://techfundingnews.com/ex-openai-and-palantir-duos-verra-raises-5m-to-build-an-ai-memory-layer-for-consulting-firms/",
+      "source_type": "news",
+      "published_or_updated": "2026-11-24",
+      "selection_rationale": "Largest funding cluster of the day plus a fresh Show HN tool; the data-platform-for-agents thesis has not been covered since mid-November's agent-ready data lanes.",
+      "usefulness": "Benchmarks for Buildn OS evidence-bearing task history."
+    },
+    {
+      "date": "2026-11-25",
+      "topic": "agent-data-economy",
+      "topic_title": "Agent Data Economy",
+      "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+      "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/",
+      "source_type": "paper",
+      "published_or_updated": "2026-11-24",
+      "selection_rationale": "Largest funding cluster of the day plus a fresh Show HN tool; the data-platform-for-agents thesis has not been covered since mid-November's agent-ready data lanes.",
+      "usefulness": "Argument pattern for evidence-bearing agent outputs in client pitches."
+    },
+    {
+      "date": "2026-11-25",
+      "topic": "agent-data-economy",
+      "topic_title": "Agent Data Economy",
+      "title": "Early progress on accelerating drug development with Claude",
+      "url": "https://www.anthropic.com/research/early-progress-drug-development",
+      "source_type": "blog",
+      "published_or_updated": "2026-11-25",
+      "selection_rationale": "Largest funding cluster of the day plus a fresh Show HN tool; the data-platform-for-agents thesis has not been covered since mid-November's agent-ready data lanes.",
+      "usefulness": "Six research partnerships; validates the lab-checkpoint pattern."
+    },
+    {
+      "date": "2026-11-25",
+      "topic": "local-intelligence-stack",
+      "topic_title": "Local Intelligence Stack",
+      "title": "Songe: a training engine for your local model, using your idle compute",
+      "url": "https://github.com/sous-labs/songe",
+      "source_type": "repo",
+      "published_or_updated": "2026-11-25",
+      "selection_rationale": "Extends yesterday's local-model lane from weights to the full loop: training, agentic coding, and retrieval memory, all self-hosted.",
+      "usefulness": "Demonstrates reviewable, drift-measured personalization on consumer hardware."
+    },
+    {
+      "date": "2026-11-25",
+      "topic": "local-intelligence-stack",
+      "topic_title": "Local Intelligence Stack",
+      "title": "Introducing Ternary Bonsai 2.5 27B",
+      "url": "https://prismml.com/news/bonsai-2-5-27b",
+      "source_type": "release",
+      "published_or_updated": "2026-11-24",
+      "selection_rationale": "Extends yesterday's local-model lane from weights to the full loop: training, agentic coding, and retrieval memory, all self-hosted.",
+      "usefulness": "On-device coding/tool-use engine for privacy-sensitive client environments."
+    },
+    {
+      "date": "2026-11-25",
+      "topic": "local-intelligence-stack",
+      "topic_title": "Local Intelligence Stack",
+      "title": "Bonsai 2.5 27B whitepaper",
+      "url": "https://github.com/PrismML-Eng/Bonsai-demo/blob/main/bonsai-2-5-27b-whitepaper.pdf",
+      "source_type": "paper",
+      "published_or_updated": "2026-11-24",
+      "selection_rationale": "Extends yesterday's local-model lane from weights to the full loop: training, agentic coding, and retrieval memory, all self-hosted.",
+      "usefulness": "SWE-bench 75.6, AppWorld 90.5, throughput numbers."
+    },
+    {
+      "date": "2026-11-25",
+      "topic": "local-intelligence-stack",
+      "topic_title": "Local Intelligence Stack",
+      "title": "Rhebok: local retrieval and memory for AI coding agents",
+      "url": "https://github.com/Stellenbosch-Technologies/rhebok",
+      "source_type": "repo",
+      "published_or_updated": "2026-11-24",
+      "selection_rationale": "Extends yesterday's local-model lane from weights to the full loop: training, agentic coding, and retrieval memory, all self-hosted.",
+      "usefulness": "Direct candidate to deploy for Hermes/Buildn agent memory."
+    },
+    {
+      "date": "2026-11-25",
+      "topic": "local-intelligence-stack",
+      "topic_title": "Local Intelligence Stack",
+      "title": "Carry: save every AI conversation as Markdown you own",
+      "url": "https://carry.md/",
+      "source_type": "product",
+      "published_or_updated": "2026-11-24",
+      "selection_rationale": "Extends yesterday's local-model lane from weights to the full loop: training, agentic coding, and retrieval memory, all self-hosted.",
+      "usefulness": "Plain-file agent history feeding local retrieval."
+    },
+    {
+      "date": "2026-11-25",
+      "topic": "whose-agent-is-it",
+      "topic_title": "Whose Agent Is It?",
+      "title": "LLM agents work for their parent companies, not for you",
+      "url": "https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/",
+      "source_type": "blog",
+      "published_or_updated": "2026-11-24",
+      "selection_rationale": "A 964-point essay crystallized the vendor-policy anxiety, and three tooling launches monetize or verify that boundary the same day.",
+      "usefulness": "Positions Buildn's owned-harness answer to 'whose policy does my agent enforce?'"
+    },
+    {
+      "date": "2026-11-25",
+      "topic": "whose-agent-is-it",
+      "topic_title": "Whose Agent Is It?",
+      "title": "Launch HN: Versine (YC F26) — MCP to send and receive money",
+      "url": "https://news.ycombinator.com/item?id=50634426",
+      "source_type": "product",
+      "published_or_updated": "2026-11-24",
+      "selection_rationale": "A 964-point essay crystallized the vendor-policy anxiety, and three tooling launches monetize or verify that boundary the same day.",
+      "usefulness": "Reference design for wrapping risky real-world capabilities as typed, logged tools."
+    },
+    {
+      "date": "2026-11-25",
+      "topic": "whose-agent-is-it",
+      "topic_title": "Whose Agent Is It?",
+      "title": "Brickie: deploy sandboxes in your own AWS account",
+      "url": "https://github.com/hatchet-dev/brickie",
+      "source_type": "repo",
+      "published_or_updated": "2026-11-24",
+      "selection_rationale": "A 964-point essay crystallized the vendor-policy anxiety, and three tooling launches monetize or verify that boundary the same day.",
+      "usefulness": "Default sandbox recommendation for data-residency-constrained clients."
+    },
+    {
+      "date": "2026-11-25",
+      "topic": "whose-agent-is-it",
+      "topic_title": "Whose Agent Is It?",
+      "title": "Checkwash: flag Git diffs that weaken your tests (offline, no LLM)",
+      "url": "https://github.com/taipei49314/checkwash",
+      "source_type": "repo",
+      "published_or_updated": "2026-11-24",
+      "selection_rationale": "A 964-point essay crystallized the vendor-policy anxiety, and three tooling launches monetize or verify that boundary the same day.",
+      "usefulness": "Zero-cost CI addition to Buildn PR-review checklists."
+    },
+    {
+      "date": "2026-11-25",
+      "topic": "platform-trust-events",
+      "topic_title": "Platform Trust Events",
+      "title": "Quad9 Service Deactivation in France",
+      "url": "https://quad9.net/news/blog/quad9-service-deactivation-in-france/",
+      "source_type": "blog",
+      "published_or_updated": "2026-11-24",
+      "selection_rationale": "Three infrastructure-level stories about the terms under which platforms serve you: DNS withdrawal, control-plane intrusion, and agent wake events.",
+      "usefulness": "Jurisdiction input for self-hosting and EU-serving clients."
+    },
+    {
+      "date": "2026-11-25",
+      "topic": "platform-trust-events",
+      "topic_title": "Platform Trust Events",
+      "title": "Cloudflare: Quad9's withdrawal from France — a canary in the coal mine",
+      "url": "https://blog.cloudflare.com/quad9-withdrawal-from-france",
+      "source_type": "blog",
+      "published_or_updated": "2026-11-24",
+      "selection_rationale": "Three infrastructure-level stories about the terms under which platforms serve you: DNS withdrawal, control-plane intrusion, and agent wake events.",
+      "usefulness": "Briefing material for clients relying on public resolvers in the EU."
+    },
+    {
+      "date": "2026-11-25",
+      "topic": "platform-trust-events",
+      "topic_title": "Platform Trust Events",
+      "title": "Active intrusion campaign against Check Point security management servers",
+      "url": "https://www.greynoise.io/blog/check-point-security-management-servers-intrusion-campaign",
+      "source_type": "news",
+      "published_or_updated": "2026-11-24",
+      "selection_rationale": "Three infrastructure-level stories about the terms under which platforms serve you: DNS withdrawal, control-plane intrusion, and agent wake events.",
+      "usefulness": "Immediate exposure-review checklist for client security stacks."
+    },
+    {
+      "date": "2026-11-25",
+      "topic": "platform-trust-events",
+      "topic_title": "Platform Trust Events",
+      "title": "Wakeshift: open-source MCP Events for Claude Code, Codex and more",
+      "url": "https://github.com/wakeshift/server",
+      "source_type": "repo",
+      "published_or_updated": "2026-11-24",
+      "selection_rationale": "Three infrastructure-level stories about the terms under which platforms serve you: DNS withdrawal, control-plane intrusion, and agent wake events.",
+      "usefulness": "Candidate for event-driven Buildn agent workflows; prototype-grade."
+    },
+    {
+      "date": "2026-11-25",
+      "topic": "platform-trust-events",
+      "topic_title": "Platform Trust Events",
+      "title": "PQCrypta Proxy: Rust proxy with hybrid post-quantum TLS",
+      "url": "https://github.com/PQCrypta/pqcrypta-proxy",
+      "source_type": "repo",
+      "published_or_updated": "2026-11-25",
+      "selection_rationale": "Three infrastructure-level stories about the terms under which platforms serve you: DNS withdrawal, control-plane intrusion, and agent wake events.",
+      "usefulness": "Edge hardening reference where CDN options lag."
+    },
+    {
+      "date": "2026-11-25",
+      "topic": "science-agents-physical",
+      "topic_title": "Science Agents Get Physical",
+      "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+      "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/",
+      "source_type": "paper",
+      "published_or_updated": "2026-11-24",
+      "selection_rationale": "Fills a physical-science coverage gap (untouched since Nov 15) with a major OpenAI research claim, world-model tooling, and the funding backdrop.",
+      "usefulness": "Moat shifts from owning models to owning validated feedback loops."
+    },
+    {
+      "date": "2026-11-25",
+      "topic": "science-agents-physical",
+      "topic_title": "Science Agents Get Physical",
+      "title": "GPT-6 preprint PDF",
+      "url": "https://cdn.openai.com/pdf/gpt-6-a-universal-foundation-model-for-protein-biology.pdf",
+      "source_type": "paper",
+      "published_or_updated": "2026-11-24",
+      "selection_rationale": "Fills a physical-science coverage gap (untouched since Nov 15) with a major OpenAI research claim, world-model tooling, and the funding backdrop.",
+      "usefulness": "Read before quoting benchmark claims."
+    },
+    {
+      "date": "2026-11-25",
+      "topic": "science-agents-physical",
+      "topic_title": "Science Agents Get Physical",
+      "title": "Simulusion: DreamerV3, IRIS, Genie world models in PyTorch",
+      "url": "https://github.com/ParamThakkar123/simulusion",
+      "source_type": "repo",
+      "published_or_updated": "2026-11-24",
+      "selection_rationale": "Fills a physical-science coverage gap (untouched since Nov 15) with a major OpenAI research claim, world-model tooling, and the funding backdrop.",
+      "usefulness": "Hands-on world-model literacy for physical-system engagements."
+    },
+    {
+      "date": "2026-11-25",
+      "topic": "science-agents-physical",
+      "topic_title": "Science Agents Get Physical",
+      "title": "KradleBench: multi-agent AI evals in Minecraft",
+      "url": "https://www.kradle.ai/",
+      "source_type": "product",
+      "published_or_updated": "2026-11-24",
+      "selection_rationale": "Fills a physical-science coverage gap (untouched since Nov 15) with a major OpenAI research claim, world-model tooling, and the funding backdrop.",
+      "usefulness": "Eval pattern that stresses coordination before production."
+    },
+    {
+      "date": "2026-11-25",
+      "topic": "science-agents-physical",
+      "topic_title": "Science Agents Get Physical",
+      "title": "Anthropic breaks below $83 IPO price",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-24/anthropic-breaks-below-83-ipo-price-in-premarket-trading",
+      "source_type": "news",
+      "published_or_updated": "2026-11-24",
+      "selection_rationale": "Fills a physical-science coverage gap (untouched since Nov 15) with a major OpenAI research claim, world-model tooling, and the funding backdrop.",
+      "usefulness": "Model-cost volatility becomes a client planning assumption."
     }
   ],
   "runs": [
@@ -5277,7 +5604,7 @@
       "selection_rationale": "Today’s strongest signal is a shift from agent capability to accountable substrate: event streams, open runtimes, typed extraction, multimodal retrieval, and auditable self-improvement."
     }
   ],
-  "updated_at": "2026-11-24T09:11:41.145499+00:00",
+  "updated_at": "2026-11-25T10:09:32.341830",
   "last_run": "2026-11-24",
   "last_editorial_thesis": "The independent-compute layer is being rebuilt in public (Ladybird alpha, GPUI) while agent capability consolidates into portable skills, first-party AI-visibility data, and human-gated ops agents.",
   "coverage_history": [
@@ -14290,5 +14617,6 @@
       }
     ],
     "selection_rationale": "Filled a neglected memory lane, extended identity governance into a measurable control plane, and selected infrastructure changes with direct staging value."
-  }
+  },
+  "pruned_before": "2026-09-26"
 }
