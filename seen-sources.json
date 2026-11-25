@@ -1,6 +1,136 @@
 {
-  "updated_at": "2026-11-24T09:08:58.568368+00:00",
+  "updated_at": "2026-11-25T09:07:38.894306+00:00",
   "sources": {
+    "https://zipher.ai/zipher-is-out-of-stealth-data-infrastructure-for-agents-by-agents": {
+      "first_seen": "2026-11-25",
+      "last_seen": "2026-11-25",
+      "title": "Zipher is Out of Stealth: Data Infrastructure for Agents, by Agents"
+    },
+    "https://www.businesswire.com/news/home/20261124091381/en/Zipher-Raises-%2453M-to-Rebuild-Data-Infrastructure-for-Agents-by-Agents": {
+      "first_seen": "2026-11-25",
+      "last_seen": "2026-11-25",
+      "title": "Zipher Raises $53M (Business Wire)"
+    },
+    "https://masondata.ai/": {
+      "first_seen": "2026-11-25",
+      "last_seen": "2026-11-25",
+      "title": "Mason: a drop-in Postgres read replica for analytics"
+    },
+    "https://github.com/embeddable-hq/mason-data": {
+      "first_seen": "2026-11-25",
+      "last_seen": "2026-11-25",
+      "title": "embeddable-hq/mason-data"
+    },
+    "https://www.citybiz.co/article/937925/lancedb-raises-57-5m-series-b-to-scale-multimodal-ai-data-infrastructure": {
+      "first_seen": "2026-11-25",
+      "last_seen": "2026-11-25",
+      "title": "LanceDB Raises $57.5M Series B"
+    },
+    "https://techfundingnews.com/ex-openai-and-palantir-duos-verra-raises-5m-to-build-an-ai-memory-layer-for-consulting-firms": {
+      "first_seen": "2026-11-25",
+      "last_seen": "2026-11-25",
+      "title": "Verra raises $5M to build an AI memory layer for consulting firms"
+    },
+    "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities": {
+      "first_seen": "2026-11-25",
+      "last_seen": "2026-11-25",
+      "title": "GPT-6 models demonstrate intrinsic protein-design capabilities"
+    },
+    "https://www.anthropic.com/research/early-progress-drug-development": {
+      "first_seen": "2026-11-25",
+      "last_seen": "2026-11-25",
+      "title": "Early progress on accelerating drug development with Claude"
+    },
+    "https://github.com/sous-labs/songe": {
+      "first_seen": "2026-11-25",
+      "last_seen": "2026-11-25",
+      "title": "Songe: a training engine for your local model, using your idle compute"
+    },
+    "https://prismml.com/news/bonsai-2-5-27b": {
+      "first_seen": "2026-11-25",
+      "last_seen": "2026-11-25",
+      "title": "Introducing Ternary Bonsai 2.5 27B"
+    },
+    "https://github.com/PrismML-Eng/Bonsai-demo/blob/main/bonsai-2-5-27b-whitepaper.pdf": {
+      "first_seen": "2026-11-25",
+      "last_seen": "2026-11-25",
+      "title": "Bonsai 2.5 27B whitepaper"
+    },
+    "https://github.com/Stellenbosch-Technologies/rhebok": {
+      "first_seen": "2026-11-25",
+      "last_seen": "2026-11-25",
+      "title": "Rhebok: local retrieval and memory for AI coding agents"
+    },
+    "https://carry.md/": {
+      "first_seen": "2026-11-25",
+      "last_seen": "2026-11-25",
+      "title": "Carry: save every AI conversation as Markdown you own"
+    },
+    "https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you": {
+      "first_seen": "2026-11-25",
+      "last_seen": "2026-11-25",
+      "title": "LLM agents work for their parent companies, not for you"
+    },
+    "https://news.ycombinator.com/item?id=50634426": {
+      "first_seen": "2026-11-25",
+      "last_seen": "2026-11-25",
+      "title": "Launch HN: Versine (YC F26) \u2014 MCP to send and receive money"
+    },
+    "https://github.com/hatchet-dev/brickie": {
+      "first_seen": "2026-11-25",
+      "last_seen": "2026-11-25",
+      "title": "Brickie: deploy sandboxes in your own AWS account"
+    },
+    "https://github.com/taipei49314/checkwash": {
+      "first_seen": "2026-11-25",
+      "last_seen": "2026-11-25",
+      "title": "Checkwash: flag Git diffs that weaken your tests (offline, no LLM)"
+    },
+    "https://quad9.net/news/blog/quad9-service-deactivation-in-france": {
+      "first_seen": "2026-11-25",
+      "last_seen": "2026-11-25",
+      "title": "Quad9 Service Deactivation in France"
+    },
+    "https://blog.cloudflare.com/quad9-withdrawal-from-france": {
+      "first_seen": "2026-11-25",
+      "last_seen": "2026-11-25",
+      "title": "Cloudflare: Quad9's withdrawal from France \u2014 a canary in the coal mine"
+    },
+    "https://www.greynoise.io/blog/check-point-security-management-servers-intrusion-campaign": {
+      "first_seen": "2026-11-25",
+      "last_seen": "2026-11-25",
+      "title": "Active intrusion campaign against Check Point security management servers"
+    },
+    "https://github.com/wakeshift/server": {
+      "first_seen": "2026-11-25",
+      "last_seen": "2026-11-25",
+      "title": "Wakeshift: open-source MCP Events for Claude Code, Codex and more"
+    },
+    "https://github.com/PQCrypta/pqcrypta-proxy": {
+      "first_seen": "2026-11-25",
+      "last_seen": "2026-11-25",
+      "title": "PQCrypta Proxy: Rust proxy with hybrid post-quantum TLS"
+    },
+    "https://cdn.openai.com/pdf/gpt-6-a-universal-foundation-model-for-protein-biology.pdf": {
+      "first_seen": "2026-11-25",
+      "last_seen": "2026-11-25",
+      "title": "GPT-6 preprint PDF"
+    },
+    "https://github.com/ParamThakkar123/simulusion": {
+      "first_seen": "2026-11-25",
+      "last_seen": "2026-11-25",
+      "title": "Simulusion: DreamerV3, IRIS, Genie world models in PyTorch"
+    },
+    "https://www.kradle.ai/": {
+      "first_seen": "2026-11-25",
+      "last_seen": "2026-11-25",
+      "title": "KradleBench: multi-agent AI evals in Minecraft"
+    },
+    "https://www.bloomberg.com/news/articles/2026-11-24/anthropic-breaks-below-83-ipo-price-in-premarket-trading": {
+      "first_seen": "2026-11-25",
+      "last_seen": "2026-11-25",
+      "title": "Anthropic breaks below $83 IPO price"
+    },
     "https://ladybird.org/posts/alpha": {
       "first_seen": "2026-11-24",
       "last_seen": "2026-11-24",

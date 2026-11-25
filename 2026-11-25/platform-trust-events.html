@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Platform Trust Events — Daily Ingest Dossier, 2026-11-25</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <style>
+      :root { --brand:#01dc82; --deep:#033330; --lime:#cfe66a; --red:#b3261e; --amber:#9a6700;
+              --ink:#0f172a; --muted:#475569; --line:#e2e8f0; --bg:#fafaf9; --card:#fff;
+              --serif:"Newsreader",Georgia,serif; --sans:"Plus Jakarta Sans",ui-sans-serif,system-ui,sans-serif; }
+      * { box-sizing:border-box; }
+      body { margin:0; background:var(--bg); color:var(--ink); font-family:var(--sans); line-height:1.55; }
+      main { max-width:64rem; margin:0 auto; padding:3rem 1.5rem; }
+      h1 { font-family:var(--serif); color:var(--deep); font-size:2rem; font-weight:600; margin:0; }
+      h2 { font-family:var(--serif); color:var(--deep); font-size:1.35rem; font-weight:600; margin:0 0 .5rem; }
+      h3 { font-family:var(--serif); color:var(--deep); font-size:1.05rem; font-weight:600; margin:0 0 .25rem; }
+      a { color:var(--deep); }
+      .wordmark { display:flex; align-items:center; gap:.6rem; font-weight:700; color:var(--deep); letter-spacing:-.01em; }
+      header { display:flex; flex-direction:column; gap:1.25rem; margin-bottom:2.5rem; }
+      section { display:flex; flex-direction:column; gap:2rem; }
+      .card { background:var(--card); border:1px solid var(--line); border-radius:.75rem; padding:1.5rem; }
+      .badges { display:flex; flex-wrap:wrap; gap:.5rem; margin:.25rem 0 1rem; }
+      .badge { font-size:.7rem; text-transform:uppercase; letter-spacing:.06em; font-weight:600;
+               padding:.15rem .5rem; border-radius:.35rem; background:#f1f5f9; color:var(--muted); }
+      .badge.good { background:#dcfce7; color:#166534; }
+      .badge.warn { background:#fef3c7; color:var(--amber); }
+      .badge.spec { background:#e2e8f0; color:#334155; }
+      .facts { font-family:ui-monospace,"SF Mono",Menlo,monospace; font-size:.8rem; color:var(--muted);
+               margin:0 0 1rem; padding:0; list-style:none; }
+      .facts li { padding:.1rem 0; }
+      .diagram { border:1px solid var(--line); border-radius:.5rem; background:#fff; padding:1rem; margin:1rem 0; }
+      .diagram svg { display:block; max-width:100%; height:auto; }
+      .label { font-size:.7rem; text-transform:uppercase; letter-spacing:.08em; fill:var(--muted); color:var(--muted); }
+      .wins { margin:.5rem 0 0; padding-left:1.1rem; }
+      .wins li { margin:.15rem 0; }
+      .callout { border-left:3px solid var(--amber); background:#fffbeb; color:#713f12;
+                 padding:.6rem .9rem; border-radius:.25rem; font-size:.9rem; }
+      .hl { background:rgba(207,230,106,.6); padding:0 .15em; }
+      .seam { stroke-dasharray:4 4; } .accent { stroke:var(--red); }
+      p.lede { font-size:1rem; color:var(--muted); max-width:46rem; }
+      table.matrix { width:100%; border-collapse:collapse; font-size:.85rem; margin-top:.75rem; }
+      table.matrix th, table.matrix td { border:1px solid var(--line); padding:.45rem .6rem; text-align:left; vertical-align:top; }
+      table.matrix th { background:#f8fafc; font-size:.72rem; text-transform:uppercase; letter-spacing:.06em; color:var(--muted); }
+      .trail { font-size:.85rem; padding-left:1.1rem; }
+      .trail li { margin:.2rem 0; }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header>
+        <div class="wordmark">
+          <svg viewBox="0 0 164 195" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" width="22">
+            <path d="M117 194.5H0L12 73C17.47 66.63 21.30 65.46 28.5 64.5L34.5 0H151.5C158.44 4.40 161.28 7.18 163.5 13L153 119.5C148.80 127.15 144.97 129.55 135.5 130.5L131 184.5C127.71 190.35 125.13 192.98 117 194.5Z" fill="#01dc82"/>
+            <path d="M64 33L61 64.5H93.5L91 97H123L127.5 46.5C125.53 37.94 122.01 35.19 112.5 33H64Z" fill="#033330"/>
+            <path d="M37 147.5L41.5 98H74.5L71.5 129.5L104 130.5L100.5 162H49.5C41.82 159.35 39.68 155.53 37 147.5Z" fill="#033330"/>
+          </svg>
+          <span>Buildn</span>
+        </div>
+        <h1>Daily Ingest Dossier — Platform Trust Events</h1>
+        <p class="lede">Tuesday, 25 November 2026. Three infrastructure-level stories about who controls shared platform: a non-profit DNS resolver <span class="hl">withdrew from an entire country rather than comply</span>, an active intrusion campaign is hitting security-management servers, and agents gained a way to be woken by the services they talk to. All three are about the terms under which infrastructure serves you.</p>
+      </header>
+
+      <section id="cards">
+        <article class="card">
+          <h2>Quad9 pulls out of France rather than poison DNS</h2>
+          <div class="badges"><span class="badge warn">internet governance</span><span class="badge">front page</span></div>
+          <ul class="facts">
+            <li>Effective Nov 24, 2026 · announced Oct 22</li>
+            <li>French court (beIN suit): daily fines for refusing to block domains</li>
+            <li>Quad9 chose withdrawal over court-ordered domain blocking</li>
+          </ul>
+          <div class="diagram">
+            <svg viewBox="0 0 640 120" role="img" aria-label="Court order demands DNS blocking; Quad9 chooses withdrawal over compliance">
+              <defs><marker id="a1" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 z" fill="#94a3b8"/></marker></defs>
+              <rect x="8" y="38" width="140" height="44" rx="6" fill="#fff" stroke="var(--red)"/>
+              <text x="78" y="56" text-anchor="middle" class="label" fill="#b3261e">Court order</text>
+              <text x="78" y="72" text-anchor="middle" class="label" fill="#b3261e">block domains + fines</text>
+              <line x1="148" y1="60" x2="216" y2="60" stroke="#94a3b8" marker-end="url(#a1)"/>
+              <rect x="216" y="38" width="130" height="44" rx="6" fill="#033330"/>
+              <text x="281" y="56" text-anchor="middle" fill="#01dc82" class="label">Quad9</text>
+              <text x="281" y="72" text-anchor="middle" fill="#e2e8f0" class="label">public resolver</text>
+              <line x1="346" y1="52" x2="440" y2="34" class="accent" marker-end="url(#a1)"/>
+              <line x1="346" y1="68" x2="440" y2="86" stroke="#94a3b8" marker-end="url(#a1)"/>
+              <rect x="440" y="18" width="150" height="32" rx="6" fill="#fff" stroke="#cbd5e1"/>
+              <text x="515" y="39" text-anchor="middle" class="label">Comply = break service</text>
+              <rect x="440" y="70" width="150" height="32" rx="6" fill="#fff" stroke="var(--red)"/>
+              <text x="515" y="91" text-anchor="middle" class="label" fill="#b3261e">Withdraw from France</text>
+            </svg>
+          </div>
+          <p><strong>What it is.</strong> After a French court imposed escalating fines (cut from €580k to €1,000/day) over DNS blocking for alleged copyright infringement, Quad9 deactivated its service for French users on Nov 24 rather than selectively poison resolution.</p>
+          <p><strong>Why it matters now.</strong> A public-interest resolver was effectively forced out of a market because it was reputable enough to be sued. Cloudflare's "canary in the coal mine" post frames the precedent: transparency invites liability. Anyone running privacy infrastructure in the EU should read this as a compliance-planning input.</p>
+          <p><strong>Buildn / client use.</strong> Reminder for self-hosting recommendations: choice of DNS/security services is a jurisdictional decision. Clients serving EU users need a fallback resolver story.</p>
+          <ul class="wins">
+            <li>Principled withdrawal over compliance</li>
+            <li>Precedent targets reputable operators</li>
+            <li>EU DNS strategy needs a plan B</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h2>Active intrusion campaign vs. Check Point management servers</h2>
+          <div class="badges"><span class="badge warn">act now</span><span class="badge">security</span></div>
+          <ul class="facts">
+            <li>greynoise.io · published Nov 24, 2026 · 282 points on HN</li>
+            <li>Target: security management servers (the highest-value control plane)</li>
+          </ul>
+          <p><strong>What it is.</strong> GreyNoise documents an active campaign against Check Point security management servers — the consoles that manage the firewalls, i.e. compromising one means compromising the fleet.</p>
+          <p><strong>Why it matters now.</strong> Control-plane targeting keeps proving out: attackers go for the management layer, not the endpoint. Any client with security appliances should verify management-interface exposure today.</p>
+          <p><strong>Buildn / client use.</strong> Immediate checklist item for client security reviews: management planes isolated from the internet, patched, and MFA'd. Also the recurring argument for Env Vault's "control plane is the asset" threat model.</p>
+          <ul class="wins">
+            <li>Management plane is the target</li>
+            <li>Check exposure today</li>
+            <li>One console = whole fleet</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h2>Wakeshift: MCP Events — let a server wake your agent</h2>
+          <div class="badges"><span class="badge good">try today</span><span class="badge">open source</span></div>
+          <ul class="facts">
+            <li>github.com/wakeshift/server · Go/TypeScript · Show HN Nov 24</li>
+            <li>Implements MCP Events per spec; also wakes agents that can't subscribe yet</li>
+            <li>Self-hostable or hosted</li>
+          </ul>
+          <div class="diagram">
+            <svg viewBox="0 0 640 110" role="img" aria-label="MCP server emits an event, Wakeshift delivers it to the sleeping agent">
+              <defs><marker id="a2" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 z" fill="#94a3b8"/></marker></defs>
+              <rect x="8" y="32" width="140" height="44" rx="6" fill="#fff" stroke="#cbd5e1"/>
+              <text x="78" y="59" text-anchor="middle" class="label">MCP server event</text>
+              <line x1="148" y1="54" x2="236" y2="54" stroke="#94a3b8" marker-end="url(#a2)"/>
+              <rect x="236" y="32" width="140" height="44" rx="6" fill="#033330"/>
+              <text x="306" y="51" text-anchor="middle" fill="#01dc82" class="label">Wakeshift</text>
+              <text x="306" y="67" text-anchor="middle" fill="#e2e8f0" class="label">MCP Events</text>
+              <line x1="376" y1="54" x2="464" y2="54" stroke="#94a3b8" marker-end="url(#a2)"/>
+              <rect x="464" y="32" width="140" height="44" rx="6" fill="#fff" stroke="#cbd5e1"/>
+              <text x="534" y="51" text-anchor="middle" class="label">Agent wakes,</text>
+              <text x="534" y="67" text-anchor="middle" class="label">handles the event</text>
+            </svg>
+          </div>
+          <p><strong>What it is.</strong> The missing half of MCP for asynchronous work: servers can push events to agents, so an agent doesn't have to poll or stay resident. Falls back to waking agents that lack native subscription support.</p>
+          <p><strong>Why it matters now.</strong> Event-driven agent execution keeps earning inclusion because polling is the worst of both worlds — slow and expensive. A spec-track events layer makes Buildn's "agent responds when the world changes" workflows practical instead of hacky.</p>
+          <p><strong>Buildn / client use.</strong> Direct candidate for Hermes agent infrastructure: wake agents on webhook events (email arrived, PR merged, alert fired) without a resident process. Very young project — track, don't depend yet.</p>
+          <ul class="wins">
+            <li>Agents become event-driven, not polled</li>
+            <li>Spec-track, not a vendor lock</li>
+            <li>Self-hostable fallback included</li>
+          </ul>
+          <div class="callout">Four commits, no releases yet — prototype-grade. Watch the spec alignment more than the code.</div>
+        </article>
+
+        <article class="card">
+          <h2>PQCrypta Proxy: post-quantum TLS at the edge, self-hosted</h2>
+          <div class="badges"><span class="badge spec">worth exploring</span><span class="badge">open source</span></div>
+          <ul class="facts">
+            <li>github.com/PQCrypta/pqcrypta-proxy · Rust · active Nov 25</li>
+            <li>HTTP/3, QUIC, hybrid X25519MLKEM768 TLS, JA3/JA4 fingerprinting, Prometheus, hot reload</li>
+          </ul>
+          <p><strong>What it is.</strong> A Rust layer-7 reverse proxy with hybrid post-quantum TLS and modern edge features (fingerprinting, geo-blocking, circuit breaking, ML-adaptive rate limiting).</p>
+          <p><strong>Why it matters now.</strong> PQC is moving from whitepaper to default proxy config. A self-hosted option means regulated clients can adopt hybrid key exchange without a CDN migration.</p>
+          <p><strong>Buildn / client use.</strong> Reference for client edge hardening where Caddy/Nginx PQC support lags; also useful as a spec checklist for what modern proxies are expected to do.</p>
+        </article>
+
+        <article class="card">
+          <h2>Use-case matrix</h2>
+          <table class="matrix">
+            <tr><th>Item</th><th>Buildn OS</th><th>Client work</th><th>Agent workflows</th><th>Personal leverage</th></tr>
+            <tr><td>Quad9 / France</td><td>Jurisdiction awareness</td><td>EU resolver fallback</td><td>—</td><td>Personal DNS choice</td></tr>
+            <tr><td>Check Point campaign</td><td>Control-plane threat model</td><td>Exposure review now</td><td>—</td><td>Home-lab check</td></tr>
+            <tr><td>Wakeshift</td><td>Event-driven agent runs</td><td>Webhook → agent patterns</td><td>Wake on event</td><td>—</td></tr>
+            <tr><td>PQCrypta Proxy</td><td>—</td><td>PQC edge hardening</td><td>—</td><td>Self-host edge</td></tr>
+          </table>
+        </article>
+
+        <article class="card">
+          <h2>Top actions</h2>
+          <ul class="wins">
+            <li>Check whether any client security-management interface is internet-exposed; patch and MFA it.</li>
+            <li>Read Cloudflare's Quad9 analysis as a briefing for EU-serving clients.</li>
+            <li>Star Wakeshift and prototype one webhook-wakes-agent flow in a sandbox.</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h2>Source trail</h2>
+          <ul class="trail">
+            <li><a href="https://quad9.net/news/blog/quad9-service-deactivation-in-france/">Quad9 Service Deactivation in France</a></li>
+            <li><a href="https://quad9.net/news/blog/au-revoir-france/">Quad9: Farewell, France</a></li>
+            <li><a href="https://blog.cloudflare.com/quad9-withdrawal-from-france">Cloudflare: A canary in the coal mine</a></li>
+            <li><a href="https://www.eff.org/deeplinks/2026/10/french-courts-site-blocking-orders-drive-quad9-out-france">EFF on the French site-blocking orders</a></li>
+            <li><a href="https://www.greynoise.io/blog/check-point-security-management-servers-intrusion-campaign">GreyNoise: Check Point intrusion campaign</a></li>
+            <li><a href="https://github.com/wakeshift/server">Wakeshift — MCP Events (GitHub)</a></li>
+            <li><a href="https://github.com/PQCrypta/pqcrypta-proxy">PQCrypta Proxy (GitHub)</a></li>
+          </ul>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>

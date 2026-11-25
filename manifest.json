@@ -1,6 +1,37 @@
 {
-  "updated_at": "2026-11-24T09:08:58.568368+00:00",
+  "updated_at": "2026-11-25T09:07:38.894306+00:00",
   "days": [
+    {
+      "date": "2026-11-25",
+      "path": "2026-11-25",
+      "reports": [
+        {
+          "lane": "agent-data-economy",
+          "title": "Agent Data Economy",
+          "url": "2026-11-25/agent-data-economy.html"
+        },
+        {
+          "lane": "local-intelligence-stack",
+          "title": "Local Intelligence Stack",
+          "url": "2026-11-25/local-intelligence-stack.html"
+        },
+        {
+          "lane": "whose-agent-is-it",
+          "title": "Whose Agent Is It?",
+          "url": "2026-11-25/whose-agent-is-it.html"
+        },
+        {
+          "lane": "platform-trust-events",
+          "title": "Platform Trust Events",
+          "url": "2026-11-25/platform-trust-events.html"
+        },
+        {
+          "lane": "science-agents-physical",
+          "title": "Science Agents Get Physical",
+          "url": "2026-11-25/science-agents-physical.html"
+        }
+      ]
+    },
     {
       "date": "2026-11-24",
       "path": "2026-11-24",

@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Science Agents Get Physical — Daily Ingest Dossier, 2026-11-25</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <style>
+      :root { --brand:#01dc82; --deep:#033330; --lime:#cfe66a; --red:#b3261e; --amber:#9a6700;
+              --ink:#0f172a; --muted:#475569; --line:#e2e8f0; --bg:#fafaf9; --card:#fff;
+              --serif:"Newsreader",Georgia,serif; --sans:"Plus Jakarta Sans",ui-sans-serif,system-ui,sans-serif; }
+      * { box-sizing:border-box; }
+      body { margin:0; background:var(--bg); color:var(--ink); font-family:var(--sans); line-height:1.55; }
+      main { max-width:64rem; margin:0 auto; padding:3rem 1.5rem; }
+      h1 { font-family:var(--serif); color:var(--deep); font-size:2rem; font-weight:600; margin:0; }
+      h2 { font-family:var(--serif); color:var(--deep); font-size:1.35rem; font-weight:600; margin:0 0 .5rem; }
+      h3 { font-family:var(--serif); color:var(--deep); font-size:1.05rem; font-weight:600; margin:0 0 .25rem; }
+      a { color:var(--deep); }
+      .wordmark { display:flex; align-items:center; gap:.6rem; font-weight:700; color:var(--deep); letter-spacing:-.01em; }
+      header { display:flex; flex-direction:column; gap:1.25rem; margin-bottom:2.5rem; }
+      section { display:flex; flex-direction:column; gap:2rem; }
+      .card { background:var(--card); border:1px solid var(--line); border-radius:.75rem; padding:1.5rem; }
+      .badges { display:flex; flex-wrap:wrap; gap:.5rem; margin:.25rem 0 1rem; }
+      .badge { font-size:.7rem; text-transform:uppercase; letter-spacing:.06em; font-weight:600;
+               padding:.15rem .5rem; border-radius:.35rem; background:#f1f5f9; color:var(--muted); }
+      .badge.good { background:#dcfce7; color:#166534; }
+      .badge.warn { background:#fef3c7; color:var(--amber); }
+      .badge.spec { background:#e2e8f0; color:#334155; }
+      .facts { font-family:ui-monospace,"SF Mono",Menlo,monospace; font-size:.8rem; color:var(--muted);
+               margin:0 0 1rem; padding:0; list-style:none; }
+      .facts li { padding:.1rem 0; }
+      .diagram { border:1px solid var(--line); border-radius:.5rem; background:#fff; padding:1rem; margin:1rem 0; }
+      .diagram svg { display:block; max-width:100%; height:auto; }
+      .label { font-size:.7rem; text-transform:uppercase; letter-spacing:.08em; fill:var(--muted); color:var(--muted); }
+      .wins { margin:.5rem 0 0; padding-left:1.1rem; }
+      .wins li { margin:.15rem 0; }
+      .callout { border-left:3px solid var(--amber); background:#fffbeb; color:#713f12;
+                 padding:.6rem .9rem; border-radius:.25rem; font-size:.9rem; }
+      .hl { background:rgba(207,230,106,.6); padding:0 .15em; }
+      .seam { stroke-dasharray:4 4; } .accent { stroke:var(--red); }
+      p.lede { font-size:1rem; color:var(--muted); max-width:46rem; }
+      table.matrix { width:100%; border-collapse:collapse; font-size:.85rem; margin-top:.75rem; }
+      table.matrix th, table.matrix td { border:1px solid var(--line); padding:.45rem .6rem; text-align:left; vertical-align:top; }
+      table.matrix th { background:#f8fafc; font-size:.72rem; text-transform:uppercase; letter-spacing:.06em; color:var(--muted); }
+      .trail { font-size:.85rem; padding-left:1.1rem; }
+      .trail li { margin:.2rem 0; }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header>
+        <div class="wordmark">
+          <svg viewBox="0 0 164 195" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" width="22">
+            <path d="M117 194.5H0L12 73C17.47 66.63 21.30 65.46 28.5 64.5L34.5 0H151.5C158.44 4.40 161.28 7.18 163.5 13L153 119.5C148.80 127.15 144.97 129.55 135.5 130.5L131 184.5C127.71 190.35 125.13 192.98 117 194.5Z" fill="#01dc82"/>
+            <path d="M64 33L61 64.5H93.5L91 97H123L127.5 46.5C125.53 37.94 122.01 35.19 112.5 33H64Z" fill="#033330"/>
+            <path d="M37 147.5L41.5 98H74.5L71.5 129.5L104 130.5L100.5 162H49.5C41.82 159.35 39.68 155.53 37 147.5Z" fill="#033330"/>
+          </svg>
+          <span>Buildn</span>
+        </div>
+        <h1>Daily Ingest Dossier — Science Agents Get Physical</h1>
+        <p class="lede">Tuesday, 25 November 2026. Science-agent coverage here has been software-shaped; today's signal is different. OpenAI claims <span class="hl">GPT-6 designs real proteins with reasoning and code alone</span>, a world-models-in-PyTorch repo landed on Show HN, and the Anthropic IPO backdrop frames how all of this gets funded. The lane's throughline: general models reaching into physical domains with lab validation as the referee.</p>
+      </header>
+
+      <section id="cards">
+        <article class="card">
+          <h2>GPT-6 designs proteins without specialized biology models</h2>
+          <div class="badges"><span class="badge good">strong signal</span><span class="badge">research</span><span class="badge">OpenAI</span></div>
+          <ul class="facts">
+            <li>openai.com · Nov 24, 2026 · preprint + paper PDF</li>
+            <li>Designs protein structures/sequences using only reasoning + code tools</li>
+            <li>Lab tests with Onava: evidence of binding across five targets; redesigned antibodies retained binding</li>
+          </ul>
+          <div class="diagram">
+            <svg viewBox="0 0 640 130" role="img" aria-label="Old stack orchestrates many specialized biology models; new stack is one general model plus code and a lab checkpoint">
+              <defs><marker id="a1" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 z" fill="#94a3b8"/></marker></defs>
+              <text x="120" y="22" text-anchor="middle" class="label">Old: orchestrate specialists</text>
+              <rect x="20" y="34" width="70" height="26" rx="5" fill="#fff" stroke="#cbd5e1"/>
+              <rect x="100" y="34" width="70" height="26" rx="5" fill="#fff" stroke="#cbd5e1"/>
+              <rect x="180" y="34" width="70" height="26" rx="5" fill="#fff" stroke="#cbd5e1"/>
+              <text x="55" y="51" text-anchor="middle" class="label">structure</text>
+              <text x="135" y="51" text-anchor="middle" class="label">sequence</text>
+              <text x="215" y="51" text-anchor="middle" class="label">filter</text>
+              <line x1="250" y1="47" x2="300" y2="47" stroke="#94a3b8" marker-end="url(#a1)"/>
+              <rect x="300" y="34" width="80" height="26" rx="5" fill="#fff" stroke="#cbd5e1"/>
+              <text x="340" y="51" text-anchor="middle" class="label">wet lab</text>
+              <text x="470" y="22" text-anchor="middle" class="label">New: one general model</text>
+              <rect x="390" y="34" width="130" height="26" rx="5" fill="#033330"/>
+              <text x="455" y="51" text-anchor="middle" fill="#01dc82" class="label">GPT-6 + code</text>
+              <line x1="520" y1="47" x2="570" y2="47" stroke="#94a3b8" marker-end="url(#a1)"/>
+              <rect x="570" y="34" width="60" height="26" rx="5" fill="#fff" stroke="#cbd5e1"/>
+              <text x="600" y="51" text-anchor="middle" class="label">lab</text>
+              <text x="320" y="100" text-anchor="middle" class="label">Lab validation stays the referee — the model proposes, the bench disposes.</text>
+            </svg>
+          </div>
+          <p><strong>What it is.</strong> An internal research model matched or beat specialized protein-design models on many tasks, guided by prompting on shape and binding constraints — no bespoke biology pipeline in the loop for design itself.</p>
+          <p><strong>Why it matters now.</strong> The "general model absorbs the tool stack" pattern has now hit a hard-science domain with physical validation. Expect the same argument in materials, chemistry (MedChemBench, Nov 20), and other bench sciences next.</p>
+          <p><strong>Buildn / client use.</strong> The transferable claim for any client science work: the competitive moat is moving from owning a specialized model to owning validated lab feedback loops. Also a strong proof point in pitches about agents producing testable, evidence-bearing artifacts.</p>
+          <ul class="wins">
+            <li>Reasoning replaces tool orchestration</li>
+            <li>Binding validated in real labs</li>
+            <li>Promptable design constraints</li>
+          </ul>
+          <div class="callout">Preprint, vendor-authored; "matched or outperformed on many tasks" is not "all tasks." Read the paper before quoting numbers.</div>
+        </article>
+
+        <article class="card">
+          <h2>Simulusion: DreamerV3, IRIS and Genie world models in PyTorch</h2>
+          <div class="badges"><span class="badge good">try today</span><span class="badge">open source</span></div>
+          <ul class="facts">
+            <li>github.com/ParamThakkar123/simulusion · Show HN Nov 24</li>
+            <li>Unified PyTorch implementations of classic world models</li>
+          </ul>
+          <p><strong>What it is.</strong> One repo collecting runnable implementations of the world-model canon (DreamerV3, IRIS, Genie) so researchers and hobbyists can compare them on the same footing.</p>
+          <p><strong>Why it matters now.</strong> World models keep showing up in robotics and embodied-agent coverage (serving pressure, sim-to-real). A single comparable codebase lowers the cost of actually experimenting instead of citing papers.</p>
+          <p><strong>Buildn / client use.</strong> Low-stakes way to build real world-model literacy before clients ask; also useful for simulation-heavy prototyping in physical-product engagements.</p>
+          <ul class="wins">
+            <li>World-model canon, one repo</li>
+            <li>Comparable on equal footing</li>
+            <li>Runnable, not just citable</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h2>KradleBench: multi-agent evals in Minecraft</h2>
+          <div class="badges"><span class="badge spec">worth exploring</span><span class="badge">evals</span></div>
+          <ul class="facts"><li>kradle.ai · Show HN Nov 24 · multi-agent evaluation in a live game world</li></ul>
+          <p><strong>What it is.</strong> A benchmark and platform running multi-agent teams inside Minecraft — long-horizon, cooperative, physically-grounded tasks with measurable outcomes.</p>
+          <p><strong>Why it matters now.</strong> Embodied-agent evaluation keeps shifting toward live environments where cooperation and long horizons break agents. Minecraft remains the cheapest sandbox that forces both.</p>
+          <p><strong>Buildn / client use.</strong> Inspiration for multi-agent evals that don't need a robot lab: any shared simulated environment can stress coordination before production.</p>
+        </article>
+
+        <article class="card">
+          <h2>The funding backdrop: Anthropic breaks below its IPO price</h2>
+          <div class="badges"><span class="badge warn">context</span><span class="badge">market</span></div>
+          <ul class="facts">
+            <li>Bloomberg, Nov 24: $ANT dipped under its $83 IPO price · 759 HN comments</li>
+            <li>Largest IPO in history ($81.3B offering); roadshow launched Nov 10</li>
+            <li>S-1 shows ~$417B in future compute obligations, $80B H1 losses</li>
+          </ul>
+          <p><strong>Why it matters now.</strong> The market is repricing how frontier AI gets paid for. Practical read for builders: model prices will stay volatile in both directions, which argues for the portability and routing discipline covered in earlier lanes — never hard-wire a workload to one vendor's economics.</p>
+          <p><strong>Buildn / client use.</strong> Client conversations about AI roadmaps should include model-cost volatility as a planning assumption, not a footnote.</p>
+        </article>
+
+        <article class="card">
+          <h2>Use-case matrix</h2>
+          <table class="matrix">
+            <tr><th>Item</th><th>Buildn OS</th><th>Client work</th><th>Agent workflows</th><th>Personal leverage</th></tr>
+            <tr><td>GPT-6 protein design</td><td>Evidence-bearing artifacts</td><td>Science-agent pitches</td><td>Reasoning over tools</td><td>—</td></tr>
+            <tr><td>Simulusion</td><td>—</td><td>Physical-product prototyping</td><td>World-model literacy</td><td>Hands-on learning</td></tr>
+            <tr><td>KradleBench</td><td>Multi-agent eval patterns</td><td>Coordination stress tests</td><td>Long-horizon evals</td><td>—</td></tr>
+            <tr><td>Anthropic market</td><td>Vendor portability</td><td>Cost-volatility planning</td><td>Routing discipline</td><td>—</td></tr>
+          </table>
+        </article>
+
+        <article class="card">
+          <h2>Top actions</h2>
+          <ul class="wins">
+            <li>Read the GPT-6 protein preprint; extract the "general model vs. specialist stack" argument for pitches.</li>
+            <li>Clone Simulusion and run DreamerV3 on one environment this weekend.</li>
+            <li>Add model-cost volatility to the next client AI-roadmap conversation.</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h2>Source trail</h2>
+          <ul class="trail">
+            <li><a href="https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/">GPT-6 intrinsic protein design (OpenAI)</a></li>
+            <li><a href="https://cdn.openai.com/pdf/gpt-6-a-universal-foundation-model-for-protein-biology.pdf">Preprint PDF: GPT-6 as a Universal Foundation Model for Protein Biology</a></li>
+            <li><a href="https://www.anthropic.com/research/early-progress-drug-development">Anthropic: early progress on drug development</a></li>
+            <li><a href="https://github.com/ParamThakkar123/simulusion">Simulusion — world models in PyTorch (GitHub)</a></li>
+            <li><a href="https://www.kradle.ai/">KradleBench — multi-agent evals in Minecraft</a></li>
+            <li><a href="https://www.bloomberg.com/news/articles/2026-11-24/anthropic-breaks-below-83-ipo-price-in-premarket-trading">Anthropic breaks below $83 IPO price (Bloomberg)</a></li>
+          </ul>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>

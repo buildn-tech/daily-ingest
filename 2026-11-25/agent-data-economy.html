@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Agent Data Economy — Daily Ingest Dossier, 2026-11-25</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <style>
+      :root { --brand:#01dc82; --deep:#033330; --lime:#cfe66a; --red:#b3261e; --amber:#9a6700;
+              --ink:#0f172a; --muted:#475569; --line:#e2e8f0; --bg:#fafaf9; --card:#fff;
+              --serif:"Newsreader",Georgia,serif; --sans:"Plus Jakarta Sans",ui-sans-serif,system-ui,sans-serif; }
+      * { box-sizing:border-box; }
+      body { margin:0; background:var(--bg); color:var(--ink); font-family:var(--sans); line-height:1.55; }
+      main { max-width:64rem; margin:0 auto; padding:3rem 1.5rem; }
+      h1 { font-family:var(--serif); color:var(--deep); font-size:2rem; font-weight:600; margin:0; }
+      h2 { font-family:var(--serif); color:var(--deep); font-size:1.35rem; font-weight:600; margin:0 0 .5rem; }
+      h3 { font-family:var(--serif); color:var(--deep); font-size:1.05rem; font-weight:600; margin:0 0 .25rem; }
+      a { color:var(--deep); }
+      .wordmark { display:flex; align-items:center; gap:.6rem; font-weight:700; color:var(--deep); letter-spacing:-.01em; }
+      header { display:flex; flex-direction:column; gap:1.25rem; margin-bottom:2.5rem; }
+      section { display:flex; flex-direction:column; gap:2rem; }
+      .card { background:var(--card); border:1px solid var(--line); border-radius:.75rem; padding:1.5rem; }
+      .badges { display:flex; flex-wrap:wrap; gap:.5rem; margin:.25rem 0 1rem; }
+      .badge { font-size:.7rem; text-transform:uppercase; letter-spacing:.06em; font-weight:600;
+               padding:.15rem .5rem; border-radius:.35rem; background:#f1f5f9; color:var(--muted); }
+      .badge.good { background:#dcfce7; color:#166534; }
+      .badge.warn { background:#fef3c7; color:var(--amber); }
+      .badge.spec { background:#e2e8f0; color:#334155; }
+      .facts { font-family:ui-monospace,"SF Mono",Menlo,monospace; font-size:.8rem; color:var(--muted);
+               margin:0 0 1rem; padding:0; list-style:none; }
+      .facts li { padding:.1rem 0; }
+      .diagram { border:1px solid var(--line); border-radius:.5rem; background:#fff; padding:1rem; margin:1rem 0; }
+      .diagram svg { display:block; max-width:100%; height:auto; }
+      .label { font-size:.7rem; text-transform:uppercase; letter-spacing:.08em; fill:var(--muted); color:var(--muted); }
+      .wins { margin:.5rem 0 0; padding-left:1.1rem; }
+      .wins li { margin:.15rem 0; }
+      .callout { border-left:3px solid var(--amber); background:#fffbeb; color:#713f12;
+                 padding:.6rem .9rem; border-radius:.25rem; font-size:.9rem; }
+      .hl { background:rgba(207,230,106,.6); padding:0 .15em; }
+      .seam { stroke-dasharray:4 4; } .accent { stroke:var(--red); }
+      p.lede { font-size:1rem; color:var(--muted); max-width:46rem; }
+      table.matrix { width:100%; border-collapse:collapse; font-size:.85rem; margin-top:.75rem; }
+      table.matrix th, table.matrix td { border:1px solid var(--line); padding:.45rem .6rem; text-align:left; vertical-align:top; }
+      table.matrix th { background:#f8fafc; font-size:.72rem; text-transform:uppercase; letter-spacing:.06em; color:var(--muted); }
+      .trail { font-size:.85rem; padding-left:1.1rem; }
+      .trail li { margin:.2rem 0; }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header>
+        <div class="wordmark">
+          <svg viewBox="0 0 164 195" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" width="22">
+            <path d="M117 194.5H0L12 73C17.47 66.63 21.30 65.46 28.5 64.5L34.5 0H151.5C158.44 4.40 161.28 7.18 163.5 13L153 119.5C148.80 127.15 144.97 129.55 135.5 130.5L131 184.5C127.71 190.35 125.13 192.98 117 194.5Z" fill="#01dc82"/>
+            <path d="M64 33L61 64.5H93.5L91 97H123L127.5 46.5C125.53 37.94 122.01 35.19 112.5 33H64Z" fill="#033330"/>
+            <path d="M37 147.5L41.5 98H74.5L71.5 129.5L104 130.5L100.5 162H49.5C41.82 159.35 39.68 155.53 37 147.5Z" fill="#033330"/>
+          </svg>
+          <span>Buildn</span>
+        </div>
+        <h1>Daily Ingest Dossier — Agent Data Economy</h1>
+        <p class="lede">Tuesday, 25 November 2026. The loudest signal of the day is not a model: it is money and tooling converging on the claim that <span class="hl">agents are now the primary creators and consumers of data workloads</span>. Zipher's $53M round, a Postgres-shaped analytics replica built for agent RBAC, and two frontier-lab science drops all point the same way — data platforms are being re-cut around who (or what) actually runs the queries.</p>
+      </header>
+
+      <section id="cards">
+        <article class="card">
+          <h2>Zipher: agents decide how data workloads run</h2>
+          <div class="badges"><span class="badge good">strong signal</span><span class="badge">funding</span><span class="badge">data infrastructure</span></div>
+          <ul class="facts">
+            <li>$53M seed + Series A — TLV Partners, Maor, Glilot</li>
+            <li>Out of stealth, Nov 24, 2026 · Fortune 500 production (Hertz)</li>
+            <li>Integrations: dbt, Airflow, Databricks Workflows, ADF, Terraform</li>
+          </ul>
+          <div class="diagram">
+            <svg viewBox="0 0 640 130" role="img" aria-label="Customer code plus SLA and budget goes to Zipher agents which route and run workloads across engines">
+              <defs><marker id="a1" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 z" fill="#94a3b8"/></marker></defs>
+              <rect x="8" y="42" width="130" height="46" rx="6" fill="#fff" stroke="#cbd5e1"/>
+              <text x="73" y="60" text-anchor="middle" class="label">Your code +</text>
+              <text x="73" y="76" text-anchor="middle" class="label">SLA + budget</text>
+              <line x1="138" y1="65" x2="200" y2="65" stroke="#94a3b8" marker-end="url(#a1)"/>
+              <rect x="200" y="42" width="140" height="46" rx="6" fill="#033330"/>
+              <text x="270" y="60" text-anchor="middle" fill="#01dc82" class="label">Zipher agents</text>
+              <text x="270" y="76" text-anchor="middle" fill="#e2e8f0" class="label">profile · rewrite · route</text>
+              <line x1="340" y1="65" x2="400" y2="65" stroke="#94a3b8" marker-end="url(#a1)"/>
+              <rect x="400" y="14" width="110" height="34" rx="6" fill="#fff" stroke="#cbd5e1"/>
+              <text x="455" y="36" text-anchor="middle" class="label">Spark / engine A</text>
+              <rect x="400" y="56" width="110" height="34" rx="6" fill="#fff" stroke="#cbd5e1"/>
+              <text x="455" y="78" text-anchor="middle" class="label">Engine B</text>
+              <rect x="400" y="98" width="110" height="34" rx="6" fill="#fff" stroke="#cbd5e1"/>
+              <text x="455" y="120" text-anchor="middle" class="label">Engine C</text>
+              <line x1="510" y1="72" x2="560" y2="72" stroke="#94a3b8" marker-end="url(#a1)"/>
+              <text x="595" y="76" text-anchor="middle" class="label">runs</text>
+            </svg>
+          </div>
+          <p><strong>What it is.</strong> Customers hand over workload code, an SLA and a budget. Zipher's agents profile each workload, pick the engine, allocate compute, rewrite code and syntax where needed, and run it — no data-team scheduler in the loop.</p>
+          <p><strong>Why it matters now.</strong> The claimed outcomes (40–60% cost efficiency, up to 80% better SLA adherence) are unverified, but the thesis is the point: when agents generate most workloads, per-job human tuning stops scaling. This is the "buy outcomes, not tools" pitch arriving in data infrastructure.</p>
+          <p><strong>Buildn / client use.</strong> Template for any agentic control-plane pitch: code in, policy in, autonomous execution out, with cost and reliability as the measurable contract. Also a benchmark for how to present unverified claims honestly (named customer vs. aggregate claims).</p>
+          <ul class="wins">
+            <li>Agents as first-class workload creators</li>
+            <li>Outcome-priced infrastructure, not seat-priced</li>
+            <li>Named reference beats aggregate marketing</li>
+          </ul>
+          <div class="callout">Reported efficiency numbers lack disclosed methodology; treat Hertz as the evidence, the 40–60% claim as a claim.</div>
+        </article>
+
+        <article class="card">
+          <h2>Mason: a Postgres read replica your agent can use</h2>
+          <div class="badges"><span class="badge good">try today</span><span class="badge">open source</span><span class="badge">show HN</span></div>
+          <ul class="facts">
+            <li>github.com/embeddable-hq/mason-data · Apache-2.0</li>
+            <li>Node.js single process · Postgres wire protocol · DuckDB columnar engine</li>
+            <li>Built-in MCP server + per-agent users with RBAC and query logs</li>
+          </ul>
+          <div class="diagram">
+            <svg viewBox="0 0 640 120" role="img" aria-label="Postgres primary syncs into Mason which serves agents and dashboards">
+              <defs><marker id="a2" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 z" fill="#94a3b8"/></marker></defs>
+              <rect x="8" y="38" width="130" height="44" rx="6" fill="#fff" stroke="#cbd5e1"/>
+              <text x="73" y="65" text-anchor="middle" class="label">Postgres primary</text>
+              <line x1="138" y1="60" x2="216" y2="60" stroke="#94a3b8" marker-end="url(#a2)"/>
+              <text x="178" y="50" text-anchor="middle" class="label">sync</text>
+              <rect x="216" y="38" width="150" height="44" rx="6" fill="#033330"/>
+              <text x="291" y="57" text-anchor="middle" fill="#01dc82" class="label">Mason replica</text>
+              <text x="291" y="73" text-anchor="middle" fill="#e2e8f0" class="label">DuckDB + RBAC + MCP</text>
+              <line x1="366" y1="52" x2="452" y2="34" stroke="#94a3b8" marker-end="url(#a2)"/>
+              <line x1="366" y1="68" x2="452" y2="86" stroke="#94a3b8" marker-end="url(#a2)"/>
+              <rect x="452" y="18" width="150" height="34" rx="6" fill="#fff" stroke="#cbd5e1"/>
+              <text x="527" y="40" text-anchor="middle" class="label">coding agents</text>
+              <rect x="452" y="70" width="150" height="34" rx="6" fill="#fff" stroke="#cbd5e1"/>
+              <text x="527" y="92" text-anchor="middle" class="label">dashboards / psql</text>
+            </svg>
+          </div>
+          <p><strong>What it is.</strong> Same SQL, same answers as Postgres, but analytical group-bys run on DuckDB — 81× faster on their 10M-row demo. Choose tables, sync on demand / polling / logical replication, point existing psql clients at it.</p>
+          <p><strong>Why it matters now.</strong> The agent features are the differentiator: one user per agent, row/column RBAC, and every query logged with who ran it and why refusals happened. That is exactly the "agent-ready data without production risk" pattern Buildn keeps coming back to.</p>
+          <p><strong>Buildn / client use.</strong> Ideal local demo stack for Env Vault's "structured, permissioned data access" story; also a cheap way to give client coding agents analytics without touching the primary. Point lookups are slower — it is a replica, not a replacement.</p>
+          <ul class="wins">
+            <li>Agent RBAC + audit logs built in</li>
+            <li>MCP server in one npm install</li>
+            <li>Dashboards stop hitting the primary</li>
+          </ul>
+          <div class="callout">Single Node process: fine for demos and small teams, not a managed warehouse. Key lookups are slower than Postgres.</div>
+        </article>
+
+        <article class="card">
+          <h2>LanceDB: $57.5M for multimodal agent data</h2>
+          <div class="badges"><span class="badge good">strong signal</span><span class="badge">funding</span></div>
+          <ul class="facts"><li>Series B, Nov 24, 2026 · multimodal AI data infrastructure</li></ul>
+          <p><strong>What it is.</strong> Embedded, serverless-capable vector/multimodal database; the round funds scaling it as the storage layer under agentic and retrieval workloads.</p>
+          <p><strong>Why it matters now.</strong> Together with Zipher and Mason, this completes a picture: venture money is funding every layer of the agent data path — the workloads, the relational replica, and the multimodal store.</p>
+          <p><strong>Buildn / client use.</strong> LanceDB remains the pragmatic embedded store for local RAG prototypes and evidence-linked memory indexes in client work.</p>
+        </article>
+
+        <article class="card">
+          <h2>Verra: an AI memory layer sold into consulting</h2>
+          <div class="badges"><span class="badge warn">worth watching</span><span class="badge">funding</span></div>
+          <ul class="facts"><li>$5M seed, Nov 24, 2026 · ex-OpenAI / Palantir founders</li></ul>
+          <p><strong>What it is.</strong> A memory layer for consulting firms — persistent, firm-scoped context so AI work retains institutional knowledge between engagements.</p>
+          <p><strong>Why it matters now.</strong> Memory keeps raising money as a product category, and always with the same wedge: vertical, permissioned, provenance-aware context. Directly relevant to Buildn OS's evidence-bearing task history.</p>
+        </article>
+
+        <article class="card">
+          <h2>Frontier labs keep proving the science-agent thesis</h2>
+          <div class="badges"><span class="badge spec">research signal</span></div>
+          <ul class="facts">
+            <li>OpenAI: GPT-6 designs proteins with reasoning + code alone (Nov 24)</li>
+            <li>Anthropic: early results accelerating drug development with Claude</li>
+          </ul>
+          <p><strong>Why it matters now.</strong> Both posts make the same move: general-purpose models replacing orchestration of specialized tools in a hard science domain, with lab validation as the proof. The transferable pattern for Buildn client work is "one reasoning agent + executable artifacts + wet-lab-style checkpoints."</p>
+        </article>
+
+        <article class="card">
+          <h2>Use-case matrix</h2>
+          <table class="matrix">
+            <tr><th>Item</th><th>Buildn OS</th><th>Client work</th><th>Agent workflows</th><th>Personal leverage</th></tr>
+            <tr><td>Zipher</td><td>Control-plane patterns</td><td>Data-platform pitches</td><td>Workload routing model</td><td>—</td></tr>
+            <tr><td>Mason</td><td>Permissioned data plane</td><td>Analytics without prod risk</td><td>MCP + agent RBAC today</td><td>Local demo stack</td></tr>
+            <tr><td>LanceDB</td><td>Evidence-linked memory</td><td>Local RAG stores</td><td>Multimodal retrieval</td><td>—</td></tr>
+            <tr><td>Verra</td><td>Memory-as-product wedge</td><td>Consulting knowledge reuse</td><td>Firm-scoped context</td><td>—</td></tr>
+            <tr><td>GPT-6 / Claude science</td><td>Evidence-bearing outputs</td><td>Domain-agent framing</td><td>Tool-free reasoning</td><td>—</td></tr>
+          </table>
+        </article>
+
+        <article class="card">
+          <h2>Top actions</h2>
+          <ul class="wins">
+            <li>Run Mason locally against a sample DB; wire one coding agent through its MCP server with a scoped user.</li>
+            <li>Read Zipher's launch post as a pricing/positioning template for outcome-based agent infrastructure.</li>
+            <li>Skim the GPT-6 protein preprint for the "general model replaces tool orchestration" argument pattern.</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h2>Source trail</h2>
+          <ul class="trail">
+            <li><a href="https://zipher.ai/zipher-is-out-of-stealth-data-infrastructure-for-agents-by-agents/">Zipher is out of stealth</a></li>
+            <li><a href="https://www.businesswire.com/news/home/20261124091381/en/Zipher-Raises-%2453M-to-Rebuild-Data-Infrastructure-for-Agents-by-Agents">Zipher raises $53M (Business Wire)</a></li>
+            <li><a href="https://masondata.ai/">Mason — Postgres read replica for analytics</a></li>
+            <li><a href="https://github.com/embeddable-hq/mason-data">mason-data (GitHub)</a></li>
+            <li><a href="https://www.citybiz.co/article/937925/lancedb-raises-57-5m-series-b-to-scale-multimodal-ai-data-infrastructure/">LanceDB raises $57.5M Series B</a></li>
+            <li><a href="https://techfundingnews.com/ex-openai-and-palantir-duos-verra-raises-5m-to-build-an-ai-memory-layer-for-consulting-firms/">Verra raises $5M</a></li>
+            <li><a href="https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/">GPT-6 intrinsic protein design (OpenAI)</a></li>
+            <li><a href="https://www.anthropic.com/research/early-progress-drug-development">Early progress on accelerating drug development (Anthropic)</a></li>
+          </ul>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>

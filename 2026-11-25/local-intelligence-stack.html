@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Local Intelligence Stack — Daily Ingest Dossier, 2026-11-25</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <style>
+      :root { --brand:#01dc82; --deep:#033330; --lime:#cfe66a; --red:#b3261e; --amber:#9a6700;
+              --ink:#0f172a; --muted:#475569; --line:#e2e8f0; --bg:#fafaf9; --card:#fff;
+              --serif:"Newsreader",Georgia,serif; --sans:"Plus Jakarta Sans",ui-sans-serif,system-ui,sans-serif; }
+      * { box-sizing:border-box; }
+      body { margin:0; background:var(--bg); color:var(--ink); font-family:var(--sans); line-height:1.55; }
+      main { max-width:64rem; margin:0 auto; padding:3rem 1.5rem; }
+      h1 { font-family:var(--serif); color:var(--deep); font-size:2rem; font-weight:600; margin:0; }
+      h2 { font-family:var(--serif); color:var(--deep); font-size:1.35rem; font-weight:600; margin:0 0 .5rem; }
+      h3 { font-family:var(--serif); color:var(--deep); font-size:1.05rem; font-weight:600; margin:0 0 .25rem; }
+      a { color:var(--deep); }
+      .wordmark { display:flex; align-items:center; gap:.6rem; font-weight:700; color:var(--deep); letter-spacing:-.01em; }
+      header { display:flex; flex-direction:column; gap:1.25rem; margin-bottom:2.5rem; }
+      section { display:flex; flex-direction:column; gap:2rem; }
+      .card { background:var(--card); border:1px solid var(--line); border-radius:.75rem; padding:1.5rem; }
+      .badges { display:flex; flex-wrap:wrap; gap:.5rem; margin:.25rem 0 1rem; }
+      .badge { font-size:.7rem; text-transform:uppercase; letter-spacing:.06em; font-weight:600;
+               padding:.15rem .5rem; border-radius:.35rem; background:#f1f5f9; color:var(--muted); }
+      .badge.good { background:#dcfce7; color:#166534; }
+      .badge.warn { background:#fef3c7; color:var(--amber); }
+      .badge.spec { background:#e2e8f0; color:#334155; }
+      .facts { font-family:ui-monospace,"SF Mono",Menlo,monospace; font-size:.8rem; color:var(--muted);
+               margin:0 0 1rem; padding:0; list-style:none; }
+      .facts li { padding:.1rem 0; }
+      .diagram { border:1px solid var(--line); border-radius:.5rem; background:#fff; padding:1rem; margin:1rem 0; }
+      .diagram svg { display:block; max-width:100%; height:auto; }
+      .label { font-size:.7rem; text-transform:uppercase; letter-spacing:.08em; fill:var(--muted); color:var(--muted); }
+      .wins { margin:.5rem 0 0; padding-left:1.1rem; }
+      .wins li { margin:.15rem 0; }
+      .callout { border-left:3px solid var(--amber); background:#fffbeb; color:#713f12;
+                 padding:.6rem .9rem; border-radius:.25rem; font-size:.9rem; }
+      .hl { background:rgba(207,230,106,.6); padding:0 .15em; }
+      .seam { stroke-dasharray:4 4; } .accent { stroke:var(--red); }
+      p.lede { font-size:1rem; color:var(--muted); max-width:46rem; }
+      table.matrix { width:100%; border-collapse:collapse; font-size:.85rem; margin-top:.75rem; }
+      table.matrix th, table.matrix td { border:1px solid var(--line); padding:.45rem .6rem; text-align:left; vertical-align:top; }
+      table.matrix th { background:#f8fafc; font-size:.72rem; text-transform:uppercase; letter-spacing:.06em; color:var(--muted); }
+      .trail { font-size:.85rem; padding-left:1.1rem; }
+      .trail li { margin:.2rem 0; }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header>
+        <div class="wordmark">
+          <svg viewBox="0 0 164 195" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" width="22">
+            <path d="M117 194.5H0L12 73C17.47 66.63 21.30 65.46 28.5 64.5L34.5 0H151.5C158.44 4.40 161.28 7.18 163.5 13L153 119.5C148.80 127.15 144.97 129.55 135.5 130.5L131 184.5C127.71 190.35 125.13 192.98 117 194.5Z" fill="#01dc82"/>
+            <path d="M64 33L61 64.5H93.5L91 97H123L127.5 46.5C125.53 37.94 122.01 35.19 112.5 33H64Z" fill="#033330"/>
+            <path d="M37 147.5L41.5 98H74.5L71.5 129.5L104 130.5L100.5 162H49.5C41.82 159.35 39.68 155.53 37 147.5Z" fill="#033330"/>
+          </svg>
+          <span>Buildn</span>
+        </div>
+        <h1>Daily Ingest Dossier — Local Intelligence Stack</h1>
+        <p class="lede">Tuesday, 25 November 2026. Yesterday's local-model lane was about weights; today's is about the <span class="hl">rest of the loop</span> — training your own model on idle compute, a 5.9 GB ternary model that now does agentic coding, and local retrieval/memory for coding agents. The local stack is becoming self-hostable end to end, not just inferable.</p>
+      </header>
+
+      <section id="cards">
+        <article class="card">
+          <h2>Songe: a training engine running on your idle compute</h2>
+          <div class="badges"><span class="badge good">try today</span><span class="badge">open source</span><span class="badge">show HN</span></div>
+          <ul class="facts">
+            <li>github.com/sous-labs/songe · Python · active (commits Nov 25)</li>
+            <li>Records agent conversations → Quick Dreams (preferences) → Deep Dreams (trained adapter)</li>
+            <li>Adapter deploys only if it passes its own checks; MLX servers supported</li>
+          </ul>
+          <div class="diagram">
+            <svg viewBox="0 0 640 130" role="img" aria-label="Conversations are recorded, distilled into lessons, trained into an adapter, and gated before deployment">
+              <defs><marker id="a1" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 z" fill="#94a3b8"/></marker></defs>
+              <rect x="8" y="42" width="120" height="46" rx="6" fill="#fff" stroke="#cbd5e1"/>
+              <text x="68" y="60" text-anchor="middle" class="label">Your agent</text>
+              <text x="68" y="76" text-anchor="middle" class="label">conversations</text>
+              <line x1="128" y1="65" x2="184" y2="65" stroke="#94a3b8" marker-end="url(#a1)"/>
+              <rect x="184" y="42" width="120" height="46" rx="6" fill="#033330"/>
+              <text x="244" y="60" text-anchor="middle" fill="#01dc82" class="label">Songe</text>
+              <text x="244" y="76" text-anchor="middle" fill="#e2e8f0" class="label">record · distill</text>
+              <line x1="304" y1="65" x2="360" y2="65" stroke="#94a3b8" marker-end="url(#a1)"/>
+              <rect x="360" y="42" width="120" height="46" rx="6" fill="#fff" stroke="#cbd5e1"/>
+              <text x="420" y="60" text-anchor="middle" class="label">Adapter</text>
+              <text x="420" y="76" text-anchor="middle" class="label">on idle compute</text>
+              <line x1="480" y1="65" x2="536" y2="65" class="accent seam" marker-end="url(#a1)"/>
+              <rect x="536" y="42" width="96" height="46" rx="6" fill="#fff" stroke="#cbd5e1"/>
+              <text x="584" y="60" text-anchor="middle" class="label">Gate:</text>
+              <text x="584" y="76" text-anchor="middle" class="label">pass → deploy</text>
+            </svg>
+          </div>
+          <p><strong>What it is.</strong> A proxy that records how you actually use a local model, distills preferences and lessons, trains a small adapter ("Deep Dreams"), and ships it only if a behavior-drift gate says the model still acts the same where no lesson applies.</p>
+          <p><strong>Why it matters now.</strong> The gate is the interesting part: it treats personalization as a measured deployment decision, not a blind fine-tune. That is the same evidence-gated pattern Buildn uses for agent changes — now applied to model weights on a laptop.</p>
+          <p><strong>Buildn / client use.</strong> A concrete demo of "learning from usage with a review gate" for any client worried about personalization drift. Practical if you run local models on a Mac (MLX).</p>
+          <ul class="wins">
+            <li>Personalization with a deployment gate</li>
+            <li>Idle compute, no training cluster</li>
+            <li>Drift measured as KL against base model</li>
+          </ul>
+          <div class="callout">Early alpha (0.1.0a13); expect rough edges and Apple-silicon-first ergonomics.</div>
+        </article>
+
+        <article class="card">
+          <h2>Ternary Bonsai 2.5 27B: agentic coding in 5.9 GB</h2>
+          <div class="badges"><span class="badge good">strong signal</span><span class="badge">model release</span><span class="badge">front page</span></div>
+          <ul class="facts">
+            <li>prismml.com · Nov 24, 2026 · based on Qwen3.8 27B · 5.9 GB footprint</li>
+            <li>SWE-bench Verified 75.6 (vs 60.8 prior gen, 80.6 full precision)</li>
+            <li>AppWorld 90.5 · τ³-Bench 73.9 · 291 tok/s on one H100, 204 tok/s on RTX 4090</li>
+          </ul>
+          <div class="diagram">
+            <svg viewBox="0 0 620 150" role="img" aria-label="Comparison bars of SWE-bench Verified scores: Bonsai 2, Bonsai 2.5, full precision base">
+              <rect x="150" y="18" width="277" height="24" rx="4" fill="#cbd5e1"/>
+              <text x="142" y="34" text-anchor="end" class="label">Bonsai 2 (60.8)</text>
+              <rect x="150" y="58" width="345" height="24" rx="4" fill="#01dc82"/>
+              <text x="142" y="74" text-anchor="end" class="label">Bonsai 2.5 (75.6)</text>
+              <rect x="150" y="98" width="368" height="24" rx="4" fill="#033330"/>
+              <text x="142" y="114" text-anchor="end" class="label">Qwen3.8 full precision (80.6)</text>
+              <text x="503" y="74" text-anchor="start" class="label">SWE-bench Verified</text>
+              <line x1="150" y1="10" x2="150" y2="132" stroke="#e2e8f0"/>
+            </svg>
+          </div>
+          <p><strong>What it is.</strong> A near-lossless ternary compression of Qwen3.8 27B that closes most of the agentic gap to the full-precision model — fewer turns, fewer tokens, fewer repetitive loops than its predecessor — while fitting in 5.9 GB.</p>
+          <p><strong>Why it matters now.</strong> Yesterday's Inkling 2 Mini lane showed tiny local models; Bonsai 2.5 shows 27B-class agentic coding squeezing into consumer GPUs. The "intelligence density" metric (benchmark points per GB) is the useful mental model.</p>
+          <p><strong>Buildn / client use.</strong> A credible on-device coding/tool-use engine for privacy-sensitive client environments where code cannot leave the building. Pair with a local retrieval layer (see Rhebok below).</p>
+          <ul class="wins">
+            <li>75.6 SWE-bench in 5.9 GB</li>
+            <li>Fewer turns per task than Bonsai 2</li>
+            <li>Runs on a 4090</li>
+          </ul>
+          <div class="callout">Still ~5 points behind the full-precision base on SWE-bench; benchmarks are vendor-reported.</div>
+        </article>
+
+        <article class="card">
+          <h2>Rhebok: local retrieval and memory for coding agents</h2>
+          <div class="badges"><span class="badge good">try today</span><span class="badge">open source</span></div>
+          <ul class="facts">
+            <li>github.com/Stellenbosch-Technologies/rhebok · Rust · v0.2.2 (Nov 24)</li>
+            <li>One binary, no daemon · Ollama or any OpenAI-compatible embeddings</li>
+            <li>Indexes notes, docs, web pages, agent session transcripts; plugs into Claude Code, Codex, Cursor via hooks + MCP</li>
+          </ul>
+          <p><strong>What it is.</strong> Local-first RAG plus durable agent memory: vectors, BM25, and a property graph in one store (LadybugDB), with a local web dashboard.</p>
+          <p><strong>Why it matters now.</strong> Most coding-agent memory tools assume cloud indexes. Rhebok keeps transcripts and lessons on your machine — the privacy-first answer to the "agent memory" lane covered repeatedly here.</p>
+          <p><strong>Buildn / client use.</strong> Direct fit for Hermes/Buildn agent setups: cross-session memory for coding agents without sending code or history to a third party. Candidate to actually deploy this week.</p>
+          <ul class="wins">
+            <li>Session transcripts become searchable memory</li>
+            <li>MCP server + hooks for major agents</li>
+            <li>No daemon, one binary</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h2>Carry: every AI conversation as Markdown you own</h2>
+          <div class="badges"><span class="badge warn">worth exploring</span><span class="badge">product</span></div>
+          <ul class="facts"><li>carry.md · saves AI chats as local Markdown files</li></ul>
+          <p><strong>What it is.</strong> A small utility that exports AI conversations to a folder of Markdown you control.</p>
+          <p><strong>Why it matters now.</strong> Same instinct as Rhebok from the consumer side: your agent history is an asset that should live in plain files, not a vendor database. Feeds naturally into local retrieval.</p>
+          <p><strong>Buildn / client use.</strong> Cheap trust-builder for clients nervous about AI tool retention policies; also a personal-archiving habit worth adopting.</p>
+        </article>
+
+        <article class="card">
+          <h2>Use-case matrix</h2>
+          <table class="matrix">
+            <tr><th>Item</th><th>Buildn OS</th><th>Client work</th><th>Agent workflows</th><th>Personal leverage</th></tr>
+            <tr><td>Songe</td><td>Evidence-gated learning</td><td>Personalization demos</td><td>Adapter deployment gate</td><td>Train on own usage</td></tr>
+            <tr><td>Bonsai 2.5 27B</td><td>—</td><td>On-device coding for privacy clients</td><td>Local tool-use engine</td><td>Local agent brain</td></tr>
+            <tr><td>Rhebok</td><td>Cross-session agent memory</td><td>Private RAG</td><td>MCP retrieval today</td><td>Personal knowledge index</td></tr>
+            <tr><td>Carry</td><td>Conversation provenance</td><td>Retention-policy reassurance</td><td>Exportable history</td><td>Markdown archive</td></tr>
+          </table>
+        </article>
+
+        <article class="card">
+          <h2>Top actions</h2>
+          <ul class="wins">
+            <li>Install Rhebok and connect it to one coding agent via MCP; test transcript recall across sessions.</li>
+            <li>Try Bonsai 2.5 27B in llama.cpp on a consumer GPU against a real agentic task.</li>
+            <li>Star Songe and follow its gate design — the closest thing to reviewable fine-tuning.</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h2>Source trail</h2>
+          <ul class="trail">
+            <li><a href="https://github.com/sous-labs/songe">Songe — training engine on idle compute (GitHub)</a></li>
+            <li><a href="https://prismml.com/news/bonsai-2-5-27b">Ternary Bonsai 2.5 27B announcement</a></li>
+            <li><a href="https://github.com/PrismML-Eng/Bonsai-demo/blob/main/bonsai-2-5-27b-whitepaper.pdf">Bonsai 2.5 whitepaper (PDF)</a></li>
+            <li><a href="https://github.com/Stellenbosch-Technologies/rhebok">Rhebok — local retrieval and memory (GitHub)</a></li>
+            <li><a href="https://carry.md/">Carry — AI conversations as Markdown</a></li>
+            <li><a href="https://news.ycombinator.com/item?id=50629231">Songe Show HN discussion</a></li>
+          </ul>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
