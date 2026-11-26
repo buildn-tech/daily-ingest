@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Craft, Care, and the Web — Daily Ingest Dossier, 2026-11-26</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <style>
+      :root { --brand:#01dc82; --deep:#033330; --lime:#cfe66a; --red:#b3261e; --amber:#9a6700;
+              --ink:#0f172a; --muted:#475569; --line:#e2e8f0; --bg:#fafaf9; --card:#fff;
+              --serif:"Newsreader",Georgia,serif; --sans:"Plus Jakarta Sans",ui-sans-serif,system-ui,sans-serif; }
+      * { box-sizing:border-box; }
+      body { margin:0; background:var(--bg); color:var(--ink); font-family:var(--sans); line-height:1.55; }
+      main { max-width:64rem; margin:0 auto; padding:3rem 1.5rem; }
+      h1 { font-family:var(--serif); color:var(--deep); font-size:2rem; font-weight:600; margin:0; }
+      h2 { font-family:var(--serif); color:var(--deep); font-size:1.35rem; font-weight:600; margin:0 0 .5rem; }
+      a { color:var(--deep); }
+      .wordmark { display:flex; align-items:center; gap:.6rem; font-weight:700; color:var(--deep); letter-spacing:-.01em; }
+      header { display:flex; flex-direction:column; gap:1.25rem; margin-bottom:2.5rem; }
+      section { display:flex; flex-direction:column; gap:2rem; }
+      .card { background:var(--card); border:1px solid var(--line); border-radius:.75rem; padding:1.5rem; }
+      .badges { display:flex; flex-wrap:wrap; gap:.5rem; margin:.25rem 0 1rem; }
+      .badge { font-size:.7rem; text-transform:uppercase; letter-spacing:.06em; font-weight:600;
+               padding:.15rem .5rem; border-radius:.35rem; background:#f1f5f9; color:var(--muted); }
+      .badge.good { background:#dcfce7; color:#166534; }
+      .badge.warn { background:#fef3c7; color:var(--amber); }
+      .badge.spec { background:#e2e8f0; color:#334155; }
+      .facts { font-family:ui-monospace,"SF Mono",Menlo,monospace; font-size:.8rem; color:var(--muted);
+               margin:0 0 1rem; padding:0; list-style:none; }
+      .facts li { padding:.1rem 0; }
+      .diagram { border:1px solid var(--line); border-radius:.5rem; background:#fff; padding:1rem; margin:1rem 0; }
+      .diagram svg { display:block; max-width:100%; height:auto; }
+      .label { font-size:.7rem; text-transform:uppercase; letter-spacing:.08em; fill:var(--muted); color:var(--muted); }
+      .wins { margin:.5rem 0 0; padding-left:1.1rem; }
+      .wins li { margin:.15rem 0; }
+      .callout { border-left:3px solid var(--amber); background:#fffbeb; color:#713f12;
+                 padding:.6rem .9rem; border-radius:.25rem; font-size:.9rem; }
+      .hl { background:rgba(207,230,106,.6); padding:0 .15em; }
+      .seam { stroke-dasharray:4 4; } .accent { stroke:var(--red); }
+      p.lede { font-size:1rem; color:var(--muted); max-width:46rem; }
+      table.matrix { width:100%; border-collapse:collapse; font-size:.85rem; margin-top:.75rem; }
+      table.matrix th, table.matrix td { border:1px solid var(--line); padding:.45rem .6rem; text-align:left; vertical-align:top; }
+      table.matrix th { background:#f8fafc; font-size:.72rem; text-transform:uppercase; letter-spacing:.06em; color:var(--muted); }
+      .trail { font-size:.85rem; padding-left:1.1rem; }
+      .trail li { margin:.2rem 0; }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header>
+        <div class="wordmark">
+          <svg viewBox="0 0 164 195" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" width="22">
+            <path d="M117 194.5H0L12 73C17.47 66.63 21.30 65.46 28.5 64.5L34.5 0H151.5C158.44 4.40 161.28 7.18 163.5 13L153 119.5C148.80 127.15 144.97 129.55 135.5 130.5L131 184.5C127.71 190.35 125.13 192.98 117 194.5Z" fill="#01dc82"/>
+            <path d="M64 33L61 64.5H93.5L91 97H123L127.5 46.5C125.53 37.94 122.01 35.19 112.5 33H64Z" fill="#033330"/>
+            <path d="M37 147.5L41.5 98H74.5L71.5 129.5L104 130.5L100.5 162H49.5C41.82 159.35 39.68 155.53 37 147.5Z" fill="#033330"/>
+          </svg>
+          <span>Buildn</span>
+        </div>
+        <h1>Daily Ingest Dossier — Craft, Care, and the Web</h1>
+        <p class="lede">Thursday, 26 November 2026. This lane fills two gaps in one move: <span class="hl">platform/engineering culture (untouched since Nov 20's agentic-research lane) and front-end craft (untouched since early November's design-to-code lanes)</span>. The front page delivered both — a 325-point essay defending tool-using engineers, a 118 FPS Safari scroll trick, and Josh Comeau's lovingly recorded button-sound library, plus a reverse-engineered audio DSP port worth keeping.</p>
+      </header>
+
+      <section id="cards">
+        <article class="card">
+          <h2>"Smart people who give a shit use tools"</h2>
+          <div class="badges"><span class="badge good">strong signal</span><span class="badge">essay</span><span class="badge">culture</span></div>
+          <ul class="facts">
+            <li>iankduncan.com · Nov 19, 325 HN points on Nov 25</li>
+            <li>Responds to Justin Michael's "we need smart people who give a shit"</li>
+            <li>Core claim: LLMs amplify whoever sits at the keyboard</li>
+          </ul>
+          <div class="diagram">
+            <svg viewBox="0 0 640 110" role="img" aria-label="The same tool amplifies in both directions: a caring engineer produces verified depth, a meat proxy produces unreviewed volume">
+              <defs><marker id="a1" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 z" fill="#94a3b8"/></marker></defs>
+              <rect x="20" y="35" width="130" height="40" rx="6" fill="#033330"/>
+              <text x="85" y="59" text-anchor="middle" fill="#01dc82" class="label">LLM + caring engineer</text>
+              <line x1="150" y1="55" x2="215" y2="55" stroke="#94a3b8" marker-end="url(#a1)"/>
+              <rect x="215" y="35" width="180" height="40" rx="6" fill="#fff" stroke="#01dc82"/>
+              <text x="305" y="52" text-anchor="middle" class="label">TLA+ specs · property tests</text>
+              <text x="305" y="68" text-anchor="middle" class="label">traced legacy callers</text>
+              <rect x="430" y="35" width="90" height="40" rx="6" fill="#033330"/>
+              <text x="475" y="59" text-anchor="middle" fill="#cfe66a" class="label">LLM + proxy</text>
+              <line x1="520" y1="55" x2="545" y2="55" class="accent" marker-end="url(#a1)"/>
+              <rect x="545" y="35" width="80" height="40" rx="6" fill="#fff" stroke="#b3261e"/>
+              <text x="585" y="52" text-anchor="middle" class="label">1,500-line</text>
+              <text x="585" y="68" text-anchor="middle" class="label">PR, unexplained</text>
+            </svg>
+          </div>
+          <p><strong>What it is.</strong> A rebuttal to the "AI robs engineers of the struggle that makes them care" argument. Duncan's strongest point: caring was never limited by willingness — it was rationed by how fast one human could read and type. Cheap rigor (specs, property tests, exhaustive caller traces) is what the tool unlocks for people who already care; the meat-proxy failure mode is real but is a hiring problem, not a tool problem.</p>
+          <p><strong>Why it matters now.</strong> This is the best-articulated version of the debate that will keep showing up in client retros and hiring conversations. It also matches this coverage history: every reliable-delivery lane here has landed on "the differentiator is the verification loop, not the typing."</p>
+          <p><strong>Buildn / client use.</strong> Quote the "rationed by how fast one human could read and type" line in pitches. Structurally, Buildn OS's review-gate design is the institutional version of this essay: make caring cheap to enact.</p>
+          <ul class="wins">
+            <li>Amplifier, not acid</li>
+            <li>Caring was rationed, not rare</li>
+            <li>Hiring problem ≠ tool problem</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h2>118 FPS on iOS Safari without flags</h2>
+          <div class="badges"><span class="badge good">try today</span><span class="badge">front-end</span></div>
+          <ul class="facts">
+            <li>rida.dev · Nov 20, 453 HN points Nov 25</li>
+            <li>WebKit caps rAF + touch events at 60 Hz on 120 Hz screens (flag-gated)</li>
+            <li>Trick: read scroll position synchronously from the compositor thread via OffscreenCanvas placeholder</li>
+            <li>Result: 118 FPS avg while dragging vs steady 60 for pointer events; 60 even in Low Power Mode</li>
+          </ul>
+          <div class="diagram">
+            <svg viewBox="0 0 640 120" role="img" aria-label="Pointer events update at 60 Hz through the renderer; the scroll-compositor read path bypasses the renderer for 118 FPS">
+              <defs><marker id="a2" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 z" fill="#94a3b8"/></marker></defs>
+              <rect x="20" y="30" width="150" height="44" rx="6" fill="#fff" stroke="#cbd5e1"/>
+              <text x="95" y="49" text-anchor="middle" class="label">touch → renderer</text>
+              <text x="95" y="66" text-anchor="middle" class="label">60 Hz cap</text>
+              <line x1="170" y1="52" x2="240" y2="52" class="accent" marker-end="url(#a2)"/>
+              <rect x="240" y="30" width="120" height="44" rx="6" fill="#fff" stroke="#b3261e"/>
+              <text x="300" y="56" text-anchor="middle" class="label">JS animation @60</text>
+              <rect x="20" y="86" width="150" height="30" rx="6" fill="#033330"/>
+              <text x="95" y="105" text-anchor="middle" fill="#cfe66a" class="label">scroll → compositor</text>
+              <line x1="170" y1="101" x2="240" y2="101" stroke="#94a3b8" marker-end="url(#a2)"/>
+              <rect x="240" y="86" width="180" height="30" rx="6" fill="#033330"/>
+              <text x="330" y="105" text-anchor="middle" fill="#01dc82" class="label">sync read + transform @118</text>
+              <text x="480" y="70" text-anchor="middle" class="label">Native feel, no flags.</text>
+            </svg>
+          </div>
+          <p><strong>What it is.</strong> A technique (and demo-heavy write-up) for getting compositor-rate input and output on iOS Safari by treating a scrollable region as a high-rate sensor: native bounce, momentum, snapping all come free from the compositor, and the page reads positions synchronously instead of through throttled events.</p>
+          <p><strong>Why it matters now.</strong> PWAs have been stuck a tier below native on iOS for a decade; this is the first broadly-applicable escape that doesn't require a buried dev flag. The author honestly flags the risk: Apple can moot it any release, as they did with a prior haptics library.</p>
+          <p><strong>Buildn / client use.</strong> For any client product with a mobile web surface that "feels laggy": this is a targeted fix worth prototyping on the one interaction that matters most (swipeable sheet, drag handle), not a rewrite. Goes in the design-to-delivery toolkit next to the React Aria sheet work it builds on.</p>
+          <ul class="wins">
+            <li>Compositor does the physics</li>
+            <li>No flag, no native app</li>
+            <li>Fragile but impressive</li>
+          </ul>
+          <div class="callout">Apple can break this at will; treat as a progressive enhancement, never a dependency. Low Power Mode and accessibility motion settings still interact.</div>
+        </article>
+
+        <article class="card">
+          <h2>Button Sounds: 50+ multi-sampled UI clicks, free and on npm</h2>
+          <div class="badges"><span class="badge good">delightful</span><span class="badge">craft</span></div>
+          <ul class="facts">
+            <li>buttons.joshwcomeau.com · 864 HN points, Nov 25</li>
+            <li>50+ sounds, up to 16 recorded samples per sound; vanilla JS + React APIs</li>
+            <li>npm: button-sounds · self-hosting docs included · agent-friendly docs</li>
+          </ul>
+          <p><strong>What it is.</strong> Josh Comeau's library of professionally recorded press/release samples (mechanical keyboards, gamepads, toggles) with random sample selection, pitch variation, and an optional "lofi" filter — a small masterclass in making digital interactions feel physical.</p>
+          <p><strong>Why it matters now.</strong> Sound is the most neglected dimension of web product feel, and the implementation docs (vanilla JS, React, self-hosting) make adoption a half-hour task. Also a quietly great example of AI-policy-aware developer docs — the site explicitly welcomes agent integrations.</p>
+          <p><strong>Buildn / client use.</strong> One candidate: tasteful interaction sound in client dashboards where feedback currently lives entirely in visual toast. Ship with a mute-by-default toggle and respect prefers-reduced-motion-style settings.</p>
+          <ul class="wins">
+            <li>Free, npm, self-hostable</li>
+            <li>Instant product feel upgrade</li>
+            <li>Well-documented for agents</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h2>pw-loudness-eq: Windows' loudness DSP, reverse-engineered for Linux</h2>
+          <div class="badges"><span class="badge spec">worth exploring</span><span class="badge">oss</span></div>
+          <ul class="facts">
+            <li>github.com/xoxorwr/pw-loudness-eq · 335 HN points Nov 25</li>
+            <li>Port of WMALFXGFXDSP.dll loudness equalization + AudioEng.dll limiter to PipeWire</li>
+            <li>Per-app processing, GTK3 toggle app, C under Makefile</li>
+          </ul>
+          <p><strong>What it is.</strong> A faithful reverse-engineering of a Windows-only audio feature that Linux users have asked about for years: even out volume across apps so quiet and loud playback sit at similar levels, with a limiter to keep the boost from clipping.</p>
+          <p><strong>Why it matters now.</strong> For the daily mixed-audio life (calls, videos, music, voice agents), loudness normalization across sources is a real quality-of-life feature — and the repo doubles as a case study in protocol/DSP archaeology worth emulating: measure the black box, port the behavior, prove parity with offline file processing.</p>
+          <p><strong>Buildn / client use.</strong> Direct personal install on the Linux workstation if calls and media coexist; otherwise it's a pattern reference for "reverse-engineer the annoying proprietary behavior" work.</p>
+          <ul class="wins">
+            <li>Real DSP, faithfully ported</li>
+            <li>Per-app loudness on Linux</li>
+            <li>Clean module split</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h2>Use-case matrix</h2>
+          <table class="matrix">
+            <tr><th>Item</th><th>Buildn OS</th><th>Client work</th><th>Agent workflows</th><th>Personal leverage</th></tr>
+            <tr><td>Tools essay</td><td>Review-gate rationale</td><td>Hiring + retros</td><td>Verification loop</td><td>Mindset</td></tr>
+            <tr><td>Safari 118 FPS</td><td>—</td><td>Mobile web polish</td><td>—</td><td>Prototype on one screen</td></tr>
+            <tr><td>Button Sounds</td><td>—</td><td>Dashboard feedback</td><td>Docs pattern</td><td>Install</td></tr>
+            <tr><td>pw-loudness-eq</td><td>—</td><td>—</td><td>RE portability pattern</td><td>Install today</td></tr>
+          </table>
+        </article>
+
+        <article class="card">
+          <h2>Top actions</h2>
+          <ul class="wins">
+            <li>Read Duncan's essay fully before the next client conversation about AI-assisted delivery; steal the "rationed by typing speed" framing.</li>
+            <li>Try the Safari technique on the worst-feeling mobile interaction in a client product this week — one screen only.</li>
+            <li>Install pw-loudness-eq on the Linux workstation; add button-sounds to one Buildn demo surface with mute default.</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h2>Source trail</h2>
+          <ul class="trail">
+            <li><a href="https://www.iankduncan.com/engineering/2026-11-19-smart-people-who-give-a-shit-use-tools">Smart People Who Give a Shit Use Tools (Ian Duncan)</a></li>
+            <li><a href="https://violetpixel.com/blog/2026-11-17-we-need-smart-people-who-give-a-shit/">The original post it answers (Justin Michael)</a></li>
+            <li><a href="https://rida.dev/blog/bypassing-ios-safari-60-fps-limit">Bypassing iOS Safari's 60 FPS limit (Rida F'kih)</a></li>
+            <li><a href="https://react-aria.adobe.com/blog/sheet">Scrolling is All You Need (React Aria)</a></li>
+            <li><a href="https://buttons.joshwcomeau.com/">Button Sounds (Josh W. Comeau)</a></li>
+            <li><a href="https://github.com/joshwcomeau/button-sounds">button-sounds on GitHub</a></li>
+            <li><a href="https://github.com/xoxorwr/pw-loudness-eq">pw-loudness-eq on GitHub</a></li>
+          </ul>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>

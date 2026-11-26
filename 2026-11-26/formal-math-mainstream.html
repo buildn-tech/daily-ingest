@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Formal Math Goes Front Page — Daily Ingest Dossier, 2026-11-26</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <style>
+      :root { --brand:#01dc82; --deep:#033330; --lime:#cfe66a; --red:#b3261e; --amber:#9a6700;
+              --ink:#0f172a; --muted:#475569; --line:#e2e8f0; --bg:#fafaf9; --card:#fff;
+              --serif:"Newsreader",Georgia,serif; --sans:"Plus Jakarta Sans",ui-sans-serif,system-ui,sans-serif; }
+      * { box-sizing:border-box; }
+      body { margin:0; background:var(--bg); color:var(--ink); font-family:var(--sans); line-height:1.55; }
+      main { max-width:64rem; margin:0 auto; padding:3rem 1.5rem; }
+      h1 { font-family:var(--serif); color:var(--deep); font-size:2rem; font-weight:600; margin:0; }
+      h2 { font-family:var(--serif); color:var(--deep); font-size:1.35rem; font-weight:600; margin:0 0 .5rem; }
+      h3 { font-family:var(--serif); color:var(--deep); font-size:1.05rem; font-weight:600; margin:0 0 .25rem; }
+      a { color:var(--deep); }
+      .wordmark { display:flex; align-items:center; gap:.6rem; font-weight:700; color:var(--deep); letter-spacing:-.01em; }
+      header { display:flex; flex-direction:column; gap:1.25rem; margin-bottom:2.5rem; }
+      section { display:flex; flex-direction:column; gap:2rem; }
+      .card { background:var(--card); border:1px solid var(--line); border-radius:.75rem; padding:1.5rem; }
+      .badges { display:flex; flex-wrap:wrap; gap:.5rem; margin:.25rem 0 1rem; }
+      .badge { font-size:.7rem; text-transform:uppercase; letter-spacing:.06em; font-weight:600;
+               padding:.15rem .5rem; border-radius:.35rem; background:#f1f5f9; color:var(--muted); }
+      .badge.good { background:#dcfce7; color:#166534; }
+      .badge.warn { background:#fef3c7; color:var(--amber); }
+      .badge.spec { background:#e2e8f0; color:#334155; }
+      .facts { font-family:ui-monospace,"SF Mono",Menlo,monospace; font-size:.8rem; color:var(--muted);
+               margin:0 0 1rem; padding:0; list-style:none; }
+      .facts li { padding:.1rem 0; }
+      .diagram { border:1px solid var(--line); border-radius:.5rem; background:#fff; padding:1rem; margin:1rem 0; }
+      .diagram svg { display:block; max-width:100%; height:auto; }
+      .label { font-size:.7rem; text-transform:uppercase; letter-spacing:.08em; fill:var(--muted); color:var(--muted); }
+      .wins { margin:.5rem 0 0; padding-left:1.1rem; }
+      .wins li { margin:.15rem 0; }
+      .callout { border-left:3px solid var(--amber); background:#fffbeb; color:#713f12;
+                 padding:.6rem .9rem; border-radius:.25rem; font-size:.9rem; }
+      .hl { background:rgba(207,230,106,.6); padding:0 .15em; }
+      .seam { stroke-dasharray:4 4; } .accent { stroke:var(--red); }
+      p.lede { font-size:1rem; color:var(--muted); max-width:46rem; }
+      table.matrix { width:100%; border-collapse:collapse; font-size:.85rem; margin-top:.75rem; }
+      table.matrix th, table.matrix td { border:1px solid var(--line); padding:.45rem .6rem; text-align:left; vertical-align:top; }
+      table.matrix th { background:#f8fafc; font-size:.72rem; text-transform:uppercase; letter-spacing:.06em; color:var(--muted); }
+      .trail { font-size:.85rem; padding-left:1.1rem; }
+      .trail li { margin:.2rem 0; }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header>
+        <div class="wordmark">
+          <svg viewBox="0 0 164 195" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" width="22">
+            <path d="M117 194.5H0L12 73C17.47 66.63 21.30 65.46 28.5 64.5L34.5 0H151.5C158.44 4.40 161.28 7.18 163.5 13L153 119.5C148.80 127.15 144.97 129.55 135.5 130.5L131 184.5C127.71 190.35 125.13 192.98 117 194.5Z" fill="#01dc82"/>
+            <path d="M64 33L61 64.5H93.5L91 97H123L127.5 46.5C125.53 37.94 122.01 35.19 112.5 33H64Z" fill="#033330"/>
+            <path d="M37 147.5L41.5 98H74.5L71.5 129.5L104 130.5L100.5 162H49.5C41.82 159.35 39.68 155.53 37 147.5Z" fill="#033330"/>
+          </svg>
+          <span>Buildn</span>
+        </div>
+        <h1>Daily Ingest Dossier — Formal Math Goes Front Page</h1>
+        <p class="lede">Thursday, 26 November 2026. Yesterday's GRH coverage was about one proof; today the whole pattern went mainstream. <span class="hl">Two OpenAI math preprints (ω = 9/4, a Hirsch counterexample) shipped with Lean formalizations the same day</span>, Anthropic released a 76,000-line compact rewrite of the GRH proof with independent MIT verification, an independent developer found 17 unreported bugs in Clojure's core using Lean, and ProofAtlas turned LLM-assessed problem importance into a public atlas. Verification is becoming the release format, not the audit.</p>
+      </header>
+
+      <section id="cards">
+        <article class="card">
+          <h2>OpenAI ships math preprints with Lean formalizations</h2>
+          <div class="badges"><span class="badge good">strong signal</span><span class="badge">preprint</span><span class="badge">openai/math</span></div>
+          <ul class="facts">
+            <li>github.com/openai/math · committed Nov 25, 2026</li>
+            <li>"The matrix multiplication exponent is nine fourths" (ω &le; 9/4)</li>
+            <li>"Superpolynomial graph diameter of simple polytopes" — Hirsch conjecture is false</li>
+            <li>Both landed as paper.pdf + Lean formalizations in one commit</li>
+          </ul>
+          <div class="diagram">
+            <svg viewBox="0 0 640 140" role="img" aria-label="The proof release pipeline: model produces paper and Lean proof, Lean checker gates the claim, then community verification follows">
+              <defs><marker id="a1" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 z" fill="#94a3b8"/></marker></defs>
+              <rect x="20" y="40" width="130" height="44" rx="6" fill="#fff" stroke="#cbd5e1"/>
+              <text x="85" y="66" text-anchor="middle" class="label">Model + paper</text>
+              <line x1="150" y1="62" x2="215" y2="62" stroke="#94a3b8" marker-end="url(#a1)"/>
+              <rect x="215" y="40" width="150" height="44" rx="6" fill="#033330"/>
+              <text x="290" y="60" text-anchor="middle" fill="#01dc82" class="label">Lean checker</text>
+              <text x="290" y="76" text-anchor="middle" fill="#cfe66a" class="label">gates the claim</text>
+              <line x1="365" y1="62" x2="430" y2="62" stroke="#94a3b8" marker-end="url(#a1)"/>
+              <rect x="430" y="40" width="90" height="44" rx="6" fill="#fff" stroke="#cbd5e1"/>
+              <text x="475" y="66" text-anchor="middle" class="label">HN front page</text>
+              <line x1="520" y1="62" x2="560" y2="62" stroke="#94a3b8" marker-end="url(#a1)"/>
+              <rect x="560" y="40" width="70" height="44" rx="6" fill="#fff" stroke="#cbd5e1"/>
+              <text x="595" y="60" text-anchor="middle" class="label">MIT</text>
+              <text x="595" y="76" text-anchor="middle" class="label">indep.</text>
+              <text x="320" y="120" text-anchor="middle" class="label">The artifact ships before the community has read a word of prose.</text>
+            </svg>
+          </div>
+          <p><strong>What it is.</strong> A serious ω bound (9/4, improving on the long-standing 2.37× results) and a disproof of the polynomial Hirsch conjecture, published as GitHub preprints whose commit message says "manuscripts and Lean formalizations" — the checker runs, so the claim is load-bearing from day one.</p>
+          <p><strong>Why it matters now.</strong> Five days ago GRH was a one-off anomaly; today the same release shape came from a second lab with two theorems at once. The verification-first release is becoming a lab norm, and it changes who can verify what: a machine, not a seminar.</p>
+          <p><strong>Buildn / client use.</strong> The transferable pattern is <em>artifact-with-checker as the deliverable</em>: a report nobody can re-verify is marketing; a report with a runnable check is a product. Worth mirroring in Buildn OS artifacts — every claim card should carry a checkable piece.</p>
+          <ul class="wins">
+            <li>Two labs, same release shape</li>
+            <li>Checker ships with the claim</li>
+            <li>Community verifies machines, not prose</li>
+          </ul>
+          <div class="callout">Preprints, vendor-authored. The ω = 9/4 result has ~590 HN comments of scrutiny; treat the headline as "claimed and machine-checked", not "community-accepted".</div>
+        </article>
+
+        <article class="card">
+          <h2>Anthropic's compact GRH proof: 154× shorter, independently checked</h2>
+          <div class="badges"><span class="badge good">material update</span><span class="badge">research</span><span class="badge">anthropic</span></div>
+          <ul class="facts">
+            <li>github.com/lsernau/grh-lean · commit 72fead1, Nov 25, 2026</li>
+            <li>grh/ readable: ~300k lines · grh-compact: ~76k lines</li>
+            <li>Alpöge original: ~17M lines (Nov 20) — this is 154× shorter</li>
+            <li>MIT verification files: math.mit.edu/~drew/shortgrh/ (two machines)</li>
+            <li>Mathlib-pinned, only propext / Classical.choice / Quot.sound</li>
+          </ul>
+          <p><strong>What it is.</strong> Luke Sernau (Anthropic) and Claude rewrote the 17-million-line GRH Lean proof into a readable (~300k) and compact (~76k) edition proving the same five theorems, with independent verification by Andrew Sutherland at MIT. No mathematician has read it end to end; no paper accompanies it.</p>
+          <p><strong>What's new since yesterday's lane.</strong> Nov 23 covered the original verification story; today's item is the <em>compression</em> — machine-checked mathematics is now small enough to be maintained, refactored, and adopted by the Lean community like ordinary code. That is the material change.</p>
+          <p><strong>Buildn / client use.</strong> The compression story is the client-facing one: AI-assisted work shrank a 17M-line artifact to 76k lines with the checker still green. That is exactly the "agentic refactor with proof" pitch for gnarly legacy code — same loop, cheaper domain.</p>
+          <ul class="wins">
+            <li>Same theorems, 154× smaller</li>
+            <li>Independent second-machine check</li>
+            <li>Adopted by Lean community</li>
+          </ul>
+          <div class="callout">"Machine-checked only" means the checker agrees with itself across two machines — it does not mean a human understands the argument yet.</div>
+        </article>
+
+        <article class="card">
+          <h2>Lean + differential testing finds 17 unreported Clojure bugs</h2>
+          <div class="badges"><span class="badge good">try today</span><span class="badge">open source</span></div>
+          <ul class="facts">
+            <li>s.conao3.com · Nov 2026 · Clojure 1.12.7, JDK 21</li>
+            <li>Highlights: vector-of reduce infinite-loops at 65,505+ elements (0xffe0 mask bug, present since 2010)</li>
+            <li>HAMT collision-node dissoc records the wrong hash</li>
+            <li>HAMT itself clean over 3M differential operations</li>
+          </ul>
+          <div class="diagram">
+            <svg viewBox="0 0 640 120" role="img" aria-label="A modelled Lean proof of a tiny arithmetic property catches a 16-year-old mask bug that three million differential tests missed">
+              <defs><marker id="a2" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 z" fill="#94a3b8"/></marker></defs>
+              <rect x="15" y="38" width="140" height="44" rx="6" fill="#fff" stroke="#cbd5e1"/>
+              <text x="85" y="57" text-anchor="middle" class="label">Differential tests</text>
+              <text x="85" y="73" text-anchor="middle" class="label">3M ops · clean</text>
+              <line x1="155" y1="60" x2="215" y2="60" stroke="#94a3b8" marker-end="url(#a2)"/>
+              <rect x="215" y="38" width="150" height="44" rx="6" fill="#033330"/>
+              <text x="290" y="57" text-anchor="middle" fill="#01dc82" class="label">Lean bv_decide</text>
+              <text x="290" y="73" text-anchor="middle" fill="#cfe66a" class="label">counterexample</text>
+              <line x1="365" y1="60" x2="425" y2="60" class="accent" marker-end="url(#a2)"/>
+              <rect x="425" y="38" width="90" height="44" rx="6" fill="#fff" stroke="#b3261e"/>
+              <text x="470" y="57" text-anchor="middle" class="label">17 bugs</text>
+              <text x="470" y="73" text-anchor="middle" class="label">since 2010</text>
+              <text x="320" y="108" text-anchor="middle" class="label">The proof found what the fuzzer could not: a wrong mask, proven for all inputs.</text>
+            </svg>
+          </div>
+          <p><strong>What it is.</strong> An independent developer modelled Clojure core functions as Lean definitions, used bv_decide to search for counterexamples, and reproduced each in real Clojure — 17 bugs absent from JIRA and ask.clojure.org, including an off-by-mask infinite loop in vector-of that has shipped since 2010.</p>
+          <p><strong>Why it matters now.</strong> This is the same week as GRH, but for ordinary software: the method (model one function, prove a property, turn the counterexample into a repro) is directly portable to any codebase with arithmetic at its seams. The mask fix is a two-character diff that a proof validates.</p>
+          <p><strong>Buildn / client use.</strong> A concrete service offer: pick a client's most arithmetic-dense module (billing, scheduling, pagination), model the hot functions in Lean, and ship counterexamples as bug reports. Cheaper than a fuzzing engagement and more definitive.</p>
+          <ul class="wins">
+            <li>Proof beats fuzzing on edge cases</li>
+            <li>Counterexamples reproduce in prod</li>
+            <li>Works on 15-year-old code</li>
+          </ul>
+          <div class="callout">The author notes bv_decide times out beyond ~16 bits on multiply — the method covers small functions, not whole subsystems. Pair it with differential testing for the big structures.</div>
+        </article>
+
+        <article class="card">
+          <h2>ProofAtlas: open math problems ranked by LLM-assessed importance</h2>
+          <div class="badges"><span class="badge spec">worth exploring</span><span class="badge">product</span></div>
+          <ul class="facts">
+            <li>proofatlas.ai/open-problems · surfaced Nov 25, 2026</li>
+            <li>Top 500 by assessed importance, Top 100 by fame</li>
+            <li>Tracks status notes, dependencies, "useful failures"</li>
+          </ul>
+          <p><strong>What it is.</strong> A public atlas that ranks unsolved mathematics problems by LLM-assessed importance, connects claims and dependencies, and records who verified what — an attempt to make the research graph itself machine-navigable.</p>
+          <p><strong>Why it matters now.</strong> After a week where RH, GRH, ω, and Hirsch all moved, a tool for deciding <em>what to point agents at next</em> is the natural complement. The interesting design question is not the ranking but the ledger of failed attempts, which is what multi-agent research actually needs.</p>
+          <p><strong>Buildn / client use.</strong> The "useful failures" ledger is a pattern worth stealing for Buildn OS workflows: agent runs that didn't reach the goal still produce reusable evidence.</p>
+        </article>
+
+        <article class="card">
+          <h2>Use-case matrix</h2>
+          <table class="matrix">
+            <tr><th>Item</th><th>Buildn OS</th><th>Client work</th><th>Agent workflows</th><th>Personal leverage</th></tr>
+            <tr><td>OpenAI math preprints</td><td>Checker-gated artifacts</td><td>Verification-first pitches</td><td>Model → proof → release</td><td>Follow ω literature</td></tr>
+            <tr><td>grh-lean compact</td><td>Compression case study</td><td>Legacy-refactor pitch</td><td>AI-assisted refactor with proof</td><td>Read GUIDE.md</td></tr>
+            <tr><td>Clojure Lean bugs</td><td>—</td><td>Arithmetic-module audit offer</td><td>bv_decide counterexample loop</td><td>Try on own code</td></tr>
+            <tr><td>ProofAtlas</td><td>Useful-failures ledger</td><td>Research scoping</td><td>Problem selection</td><td>Browse top 100</td></tr>
+          </table>
+        </article>
+
+        <article class="card">
+          <h2>Top actions</h2>
+          <ul class="wins">
+            <li>Skim the ω = 9/4 preprint abstract and the HN thread's expert pushback before quoting it anywhere.</li>
+            <li>Clone grh-lean, run <code>lake env lean scripts/PrintAxioms.lean</code> on grh-compact — 1–2 h build, the definitive "I checked it myself" exercise.</li>
+            <li>Pick one arithmetic-dense function in a Buildn codebase and try the lean-verify procedure on it this week.</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h2>Source trail</h2>
+          <ul class="trail">
+            <li><a href="https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf">ω = 9/4 preprint PDF (openai/math)</a></li>
+            <li><a href="https://github.com/openai/math/blob/main/preprints/Superpolynomial-graph-diameter-of-simple-polytopes-November-24-2026/paper.pdf">Hirsch conjecture disproof preprint PDF</a></li>
+            <li><a href="https://github.com/lsernau/grh-lean">lsernau/grh-lean — compact GRH Lean proof (Anthropic)</a></li>
+            <li><a href="https://math.mit.edu/~drew/shortgrh/">MIT verification files for the shorter proof</a></li>
+            <li><a href="https://www.math.uwaterloo.ca/~mrubinst/alpoge_claude_grh/">Alpöge/Claude GRH explainer + verification index</a></li>
+            <li><a href="https://s.conao3.com/blog/2026/e4f733">17 unreported Clojure bugs found via Lean + differential testing</a></li>
+            <li><a href="https://www.proofatlas.ai/open-problems/">ProofAtlas — top 500 open problems by LLM-assessed importance</a></li>
+            <li><a href="https://news.ycombinator.com/front?day=2026-11-25">HN front page, Nov 25, 2026</a></li>
+          </ul>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>

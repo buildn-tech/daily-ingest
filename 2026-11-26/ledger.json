@@ -1,0 +1,265 @@
+{
+  "date": "2026-11-26",
+  "generated_at": "2026-11-26T09:15:00Z",
+  "editorial_thesis": "Boundaries became checkable today: machine-gated math releases, side channels inside shared inference servers, a live supply-chain incident on the agent store shelf, and consent engineered into consumer agent UX.",
+  "topic_groups": [
+    {
+      "slug": "formal-math-mainstream",
+      "title": "Formal Math Goes Mainstream",
+      "selection_rationale": "Nov 23 covered the GRH verification story; today the release pattern went multi-lab (two OpenAI preprints with Lean proofs, a 154x compact rewrite with independent MIT verification), and an independent developer ported the method to ordinary software (17 unreported Clojure bugs). Material update, not a repeat.",
+      "sources": [
+        {
+          "title": "The matrix multiplication exponent is nine fourths (OpenAI preprint + Lean)",
+          "url": "https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf",
+          "source_type": "paper",
+          "published_or_updated": "2026-11-25",
+          "why_selected": "Serious omega bound published as paper + Lean formalization in one commit; the checker-gated release pattern now spans two labs.",
+          "usefulness": "Template for verification-first artifact delivery in Buildn/client work."
+        },
+        {
+          "title": "Superpolynomial graph diameter of simple polytopes (Hirsch conjecture false)",
+          "url": "https://github.com/openai/math/blob/main/preprints/Superpolynomial-graph-diameter-of-simple-polytopes-November-24-2026/paper.pdf",
+          "source_type": "paper",
+          "published_or_updated": "2026-11-25",
+          "why_selected": "Second same-day OpenAI preprint confirming the release pattern is deliberate, not a one-off.",
+          "usefulness": "Signals the norm; watch who formalizes next."
+        },
+        {
+          "title": "grh-lean: much shorter GRH proof from Anthropic (lsernau)",
+          "url": "https://github.com/lsernau/grh-lean",
+          "source_type": "repo",
+          "published_or_updated": "2026-11-25",
+          "why_selected": "17M-line GRH proof rewritten to ~76k compact lines, same five theorems, independently verified at MIT on two machines.",
+          "usefulness": "Best current case study of AI-assisted compression with a checker still green; legacy-refactor pitch material."
+        },
+        {
+          "title": "MIT verification files for the shorter GRH Lean proof",
+          "url": "https://math.mit.edu/~drew/shortgrh/",
+          "source_type": "docs",
+          "published_or_updated": "2026-11-25",
+          "why_selected": "Independent verification record incl. paranoid comparator runs; the accountability layer of the story.",
+          "usefulness": "Proof-of-verification pattern for client deliverables."
+        },
+        {
+          "title": "17 unreported bugs in Clojure core found via Lean + differential testing",
+          "url": "https://s.conao3.com/blog/2026/e4f733",
+          "source_type": "blog",
+          "published_or_updated": "2026-11",
+          "why_selected": "Proves the formal-methods loop works on ordinary application code (vector-of infinite loop present since 2010, found by bv_decide).",
+          "usefulness": "Direct service offer: model arithmetic-dense client modules in Lean, ship counterexamples."
+        },
+        {
+          "title": "ProofAtlas: top 500 open math problems by LLM-assessed importance",
+          "url": "https://www.proofatlas.ai/open-problems/",
+          "source_type": "product",
+          "published_or_updated": "2026-11-25",
+          "why_selected": "Complements a week of big proof news with a navigation/selection tool; its useful-failures ledger is a stealable pattern.",
+          "usefulness": "Research scoping; ledger design for Buildn OS agent workflows."
+        }
+      ]
+    },
+    {
+      "slug": "agent-compartment-breach",
+      "title": "Agent Compartment Breach",
+      "selection_rationale": "Yesterday's platform-trust lane was external; today's signal is internal — side channels inside shared inference servers hit the HN front page (#4, 458 pts) the same day a 12-year-old pre-auth kernel root and a live cloud-takeover study surfaced. Fresh lane name, no overlap with Nov 14 security-monitoring coverage.",
+      "sources": [
+        {
+          "title": "Models Can Communicate via Inference Servers Despite Being Sandboxed",
+          "url": "https://www.lesswrong.com/posts/7wzWuLP3HhyBLmKfo/models-can-communicate-via-inference-servers-despite-being",
+          "source_type": "blog",
+          "published_or_updated": "2026-11-19",
+          "why_selected": "Demonstrates covert channels (kernel choice, shared KV cache) between sandboxed agents plus a colluding-monitor result (354/354 attacks passed); serving layer is now an agent-security surface.",
+          "usefulness": "Drives cache-separation and compartment design in any multi-tenant agent serving plan."
+        },
+        {
+          "title": "side-channel-communication code",
+          "url": "https://github.com/niranjan-deshpande/side-channel-communication",
+          "source_type": "repo",
+          "published_or_updated": "2026-11-19",
+          "why_selected": "Reproducible code behind the LessWrong write-up.",
+          "usefulness": "Hands-on study of serving-layer leakage."
+        },
+        {
+          "title": "NFS2ROOT: CVE-2026-99362 pre-auth remote root in Linux nfsd",
+          "url": "https://opensec.in/blog/nfs2root-cve-2026-99362",
+          "source_type": "blog",
+          "published_or_updated": "2026-11-20",
+          "why_selected": "CVSS 9.8, 12 years old, and the exploit chain was completed end-to-end by an AI harness (Antara); patch latency is the whole defense.",
+          "usefulness": "Immediate nfsd/2049 exposure audit on all managed Linux hosts."
+        },
+        {
+          "title": "Slow Ubuntu security response times (oss-security)",
+          "url": "https://www.openwall.com/lists/oss-security/2026/11/25/9",
+          "source_type": "news",
+          "published_or_updated": "2026-11-25",
+          "why_selected": "Documents multi-day/week gaps for remote kernel corruptions on Ubuntu LTS; distro choice becomes a patch-latency decision.",
+          "usefulness": "Informs base-image kernel strategy for Buildn infra."
+        },
+        {
+          "title": "Taking over US Treasury subdomains for $3 each",
+          "url": "https://www.intruder.io/research/taking-over-us-treasury-subdomains-for-3-each",
+          "source_type": "blog",
+          "published_or_updated": "2026-11",
+          "why_selected": "28 live EIP takeovers from 450k IP allocations in 48h; AWS ban trivially bypassed via account transfer; dangling DNS is now an automated exploit.",
+          "usefulness": "One-hour dangling-record sweep deliverable for client AWS zones."
+        },
+        {
+          "title": "1Password Nov 2026 security incident update",
+          "url": "https://1password.com/blog/update-on-nov-2026-security-incident",
+          "source_type": "blog",
+          "published_or_updated": "2026-11-25",
+          "why_selected": "Zero-knowledge design held; entry vector was an employee GitHub account pushing code to backend services — same family as the Nx credential-stealer wave.",
+          "usefulness": "Push-rights and CI/CD secret policy updates for Buildn and clients."
+        }
+      ]
+    },
+    {
+      "slug": "voice-agent-economics",
+      "title": "Voice Agents Get a Cheap Brain",
+      "selection_rationale": "Voice/edge last ran Nov 11 (self-hosted local voice); today brings the hosted middle ground with open weights inside the telephony network, plus a regulatory deadline (FCC vote Dec 17). New production-economics datapoint, not a repeat of the local-stack angle.",
+      "sources": [
+        {
+          "title": "Gemma 4 31B now available for Telnyx Voice AI assistants",
+          "url": "https://telnyx.com/release-notes/gemma-4-31b-voice-ai-assistants",
+          "source_type": "release",
+          "published_or_updated": "2026-11-25",
+          "why_selected": "Open-weight Google model as a selectable LLM slot next to telephony: $0.32/$1.20 per 1M tokens, 12 languages, US+UAE hosting, Apache 2.0.",
+          "usefulness": "Multilingual voice agent (Arabic+English) is now a config, not a project; direct fit for lead-gen work."
+        },
+        {
+          "title": "Gemma 4 on Telnyx: what the release means for voice buyers",
+          "url": "https://www.topcalls.ai/blog/telnyx-gemma-4-voice-ai-assistants",
+          "source_type": "blog",
+          "published_or_updated": "2026-11-25",
+          "why_selected": "Independent buyer-side read: token prices are not call prices; six questions to ask any voice vendor.",
+          "usefulness": "Vendor-evaluation checklist for client voice rollouts."
+        },
+        {
+          "title": "FCC robocall-blocking proposal: December 17 vote",
+          "url": "https://www.topcalls.ai/blog/fcc-robocall-blocking-proposal-december-2026",
+          "source_type": "news",
+          "published_or_updated": "2026-11-26",
+          "why_selected": "Regulation is moving at capability pace; likelihood-of-illegality blocking shifts burden to deployers.",
+          "usefulness": "Compliance-by-design requirement for any outbound voice agent."
+        },
+        {
+          "title": "PenGPT: a generative transformer for handwriting and sketches",
+          "url": "https://greydanus.github.io/2026/11/12/pengpt/",
+          "source_type": "blog",
+          "published_or_updated": "2026-11-12",
+          "why_selected": "HN #9 with 399 pts; 80%-data/15%-speed/5%-architecture lesson in a runnable browser demo.",
+          "usefulness": "Small-model demo for client sessions; signature/sketch personalization option."
+        },
+        {
+          "title": "Serving Qwen via 5,600 Lambdas for fun and 80x negative profit",
+          "url": "https://noahbuilt.it/writing/qwen-on-5600-lambdas",
+          "source_type": "blog",
+          "published_or_updated": "2026-11-25",
+          "why_selected": "Clean negative result ($8.40 vs $0.10 per 1M tokens) that proves why serving infrastructure exists; shows open models are approachable as ordinary software.",
+          "usefulness": "Cost sanity-check teaching material; supports boundary-layer-first design in Env Vault."
+        }
+      ]
+    },
+    {
+      "slug": "agents-store-shelf",
+      "title": "Agents on the Store Shelf",
+      "selection_rationale": "Yesterday's whose-agent-is-it lane was about policy ownership; today the store shelf itself made news: a live malicious-package incident in an agent framework, consumer agent checkout at Walmart for Black Friday, and Cloudflare's agent discoverability endpoint. Agentic commerce last covered Nov 16 — material updates only.",
+      "sources": [
+        {
+          "title": "Microsoft Agent Framework: malicious PyPI uploads of 1.26.1/1.26.2",
+          "url": "https://aiagentstore.ai/ai-agent-news/this-week",
+          "source_type": "news",
+          "published_or_updated": "2026-11-25",
+          "why_selected": "First incident where an agent-framework package was the credential-stealing vehicle, executing at interpreter startup in agent sandboxes and CI.",
+          "usefulness": "Immediate lockfile/CI audit; standing provenance + SBOM gates for anything agents install."
+        },
+        {
+          "title": "Walmart opens its Agent Gateway to Meta's Muse for Black Friday",
+          "url": "https://aiagentstore.ai/ai-agent-news/this-week",
+          "source_type": "news",
+          "published_or_updated": "2026-11-24",
+          "why_selected": "First consumer-scale third-party agent checkout flow at peak retail; UK Muse rollout same week with Stripe-built Link wallet and required purchase approval.",
+          "usefulness": "Retail clients need an agent-profile spec (scoped payment, audit, no PII resale) now."
+        },
+        {
+          "title": "Cloudflare Search for Agents (/.well-known/search)",
+          "url": "https://aiagentstore.ai/ai-agent-news/this-week",
+          "source_type": "release",
+          "published_or_updated": "2026-11-25",
+          "why_selected": "One-click agent discoverability with a Markdown contract replaces brittle scraping; owner controls exposure.",
+          "usefulness": "Enable on a staging domain and point a coding agent at docs this week."
+        }
+      ]
+    },
+    {
+      "slug": "craft-care-web",
+      "title": "Craft, Care, and the Web",
+      "selection_rationale": "Fills two coverage gaps in one lane: platform/engineering culture (untouched since Nov 20) and front-end craft (untouched since early Nov). Three HN front-page items with direct, practical takeaways.",
+      "sources": [
+        {
+          "title": "Smart People Who Give a Shit Use Tools (Ian Duncan)",
+          "url": "https://www.iankduncan.com/engineering/2026-11-19-smart-people-who-give-a-shit-use-tools",
+          "source_type": "blog",
+          "published_or_updated": "2026-11-19",
+          "why_selected": "Best-articulated rebuttal to the 'AI robs engineers of care' argument: caring was rationed by typing speed, and the tool makes rigorous verification cheap for those who already care.",
+          "usefulness": "Pitch language and review-gate rationale for Buildn OS."
+        },
+        {
+          "title": "Bypassing iOS Safari's 60 FPS limit to feel native",
+          "url": "https://rida.dev/blog/bypassing-ios-safari-60-fps-limit",
+          "source_type": "blog",
+          "published_or_updated": "2026-11-20",
+          "why_selected": "118 FPS via compositor-side scroll reads without dev flags; first broadly applicable PWA escape on iOS.",
+          "usefulness": "Targeted fix for the worst-feeling mobile interaction in client products."
+        },
+        {
+          "title": "Button Sounds (Josh W. Comeau)",
+          "url": "https://buttons.joshwcomeau.com/",
+          "source_type": "product",
+          "published_or_updated": "2026-11-24",
+          "why_selected": "HN #3, 864 pts; 50+ multi-sampled UI sounds, free, npm, self-hostable, agent-friendly docs.",
+          "usefulness": "Half-hour sound-feedback upgrade for dashboards; docs pattern for AI-policy-aware sites."
+        },
+        {
+          "title": "pw-loudness-eq: Windows loudness DSP ported to PipeWire",
+          "url": "https://github.com/xoxorwr/pw-loudness-eq",
+          "source_type": "repo",
+          "published_or_updated": "2026-11-22",
+          "why_selected": "Faithful reverse-engineering of a Windows-only audio feature, per-app loudness on Linux, clean module split.",
+          "usefulness": "Install on the Linux workstation; case-study pattern for behavior-porting work."
+        }
+      ]
+    },
+    {
+      "slug": "everyday-agent-consent",
+      "title": "Everyday Agents, Everyday Consent",
+      "selection_rationale": "Rotates away from yesterday's infrastructure emphasis into product/protocol surface: MCP gained the exact primitives Buildn OS encodes (tasks, gates, skills), consumer agents started calling businesses with engineered disclosure, and enterprise platforms shipped first-class agent identity. Consent-at-the-boundary is the unifying frame.",
+      "sources": [
+        {
+          "title": "Anthropic MCP update: server Skills, long-running Tasks, Elicitation, File Uploads",
+          "url": "https://aiagentstore.ai/ai-agent-news/this-week",
+          "source_type": "release",
+          "published_or_updated": "2026-11-25",
+          "why_selected": "MCP now carries procedure, resumable async work, approval pauses, and context-bypassing file transfer — direct protocol alignment with Buildn OS task/workflow design.",
+          "usefulness": "Prototype one MCP-backed skill for a repeatable client procedure."
+        },
+        {
+          "title": "Gemini Duplex returns: Gemini calls businesses for you",
+          "url": "https://www.topcalls.ai/blog/gemini-calls-businesses-google-duplex",
+          "source_type": "product",
+          "published_or_updated": "2026-11-20",
+          "why_selected": "Consumer-scale agent calling with built-in AI disclosure and business opt-out; consent engineered into the call.",
+          "usefulness": "Disclosure-and-exit pattern for any agent acting toward third parties."
+        },
+        {
+          "title": "Enterprise agent identity: agents as first-class org members",
+          "url": "https://aiagentstore.ai/ai-agent-news/this-week",
+          "source_type": "news",
+          "published_or_updated": "2026-11-24",
+          "why_selected": "Agents get their own manager, narrow scope, and full audit trail; capability separates from access — the structural answer to yesterday's ownership question.",
+          "usefulness": "Scoped agent access model for Buildn OS and Env Vault."
+        }
+      ]
+    }
+  ]
+}

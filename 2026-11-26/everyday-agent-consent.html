@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Everyday Agents, Everyday Consent — Daily Ingest Dossier, 2026-11-26</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <style>
+      :root { --brand:#01dc82; --deep:#033330; --lime:#cfe66a; --red:#b3261e; --amber:#9a6700;
+              --ink:#0f172a; --muted:#475569; --line:#e2e8f0; --bg:#fafaf9; --card:#fff;
+              --serif:"Newsreader",Georgia,serif; --sans:"Plus Jakarta Sans",ui-sans-serif,system-ui,sans-serif; }
+      * { box-sizing:border-box; }
+      body { margin:0; background:var(--bg); color:var(--ink); font-family:var(--sans); line-height:1.55; }
+      main { max-width:64rem; margin:0 auto; padding:3rem 1.5rem; }
+      h1 { font-family:var(--serif); color:var(--deep); font-size:2rem; font-weight:600; margin:0; }
+      h2 { font-family:var(--serif); color:var(--deep); font-size:1.35rem; font-weight:600; margin:0 0 .5rem; }
+      a { color:var(--deep); }
+      .wordmark { display:flex; align-items:center; gap:.6rem; font-weight:700; color:var(--deep); letter-spacing:-.01em; }
+      header { display:flex; flex-direction:column; gap:1.25rem; margin-bottom:2.5rem; }
+      section { display:flex; flex-direction:column; gap:2rem; }
+      .card { background:var(--card); border:1px solid var(--line); border-radius:.75rem; padding:1.5rem; }
+      .badges { display:flex; flex-wrap:wrap; gap:.5rem; margin:.25rem 0 1rem; }
+      .badge { font-size:.7rem; text-transform:uppercase; letter-spacing:.06em; font-weight:600;
+               padding:.15rem .5rem; border-radius:.35rem; background:#f1f5f9; color:var(--muted); }
+      .badge.good { background:#dcfce7; color:#166534; }
+      .badge.warn { background:#fef3c7; color:var(--amber); }
+      .badge.spec { background:#e2e8f0; color:#334155; }
+      .facts { font-family:ui-monospace,"SF Mono",Menlo,monospace; font-size:.8rem; color:var(--muted);
+               margin:0 0 1rem; padding:0; list-style:none; }
+      .facts li { padding:.1rem 0; }
+      .diagram { border:1px solid var(--line); border-radius:.5rem; background:#fff; padding:1rem; margin:1rem 0; }
+      .diagram svg { display:block; max-width:100%; height:auto; }
+      .label { font-size:.7rem; text-transform:uppercase; letter-spacing:.08em; fill:var(--muted); color:var(--muted); }
+      .wins { margin:.5rem 0 0; padding-left:1.1rem; }
+      .wins li { margin:.15rem 0; }
+      .callout { border-left:3px solid var(--amber); background:#fffbeb; color:#713f12;
+                 padding:.6rem .9rem; border-radius:.25rem; font-size:.9rem; }
+      .hl { background:rgba(207,230,106,.6); padding:0 .15em; }
+      .seam { stroke-dasharray:4 4; } .accent { stroke:var(--red); }
+      p.lede { font-size:1rem; color:var(--muted); max-width:46rem; }
+      table.matrix { width:100%; border-collapse:collapse; font-size:.85rem; margin-top:.75rem; }
+      table.matrix th, table.matrix td { border:1px solid var(--line); padding:.45rem .6rem; text-align:left; vertical-align:top; }
+      table.matrix th { background:#f8fafc; font-size:.72rem; text-transform:uppercase; letter-spacing:.06em; color:var(--muted); }
+      .trail { font-size:.85rem; padding-left:1.1rem; }
+      .trail li { margin:.2rem 0; }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header>
+        <div class="wordmark">
+          <svg viewBox="0 0 164 195" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" width="22">
+            <path d="M117 194.5H0L12 73C17.47 66.63 21.30 65.46 28.5 64.5L34.5 0H151.5C158.44 4.40 161.28 7.18 163.5 13L153 119.5C148.80 127.15 144.97 129.55 135.5 130.5L131 184.5C127.71 190.35 125.13 192.98 117 194.5Z" fill="#01dc82"/>
+            <path d="M64 33L61 64.5H93.5L91 97H123L127.5 46.5C125.53 37.94 122.01 35.19 112.5 33H64Z" fill="#033330"/>
+            <path d="M37 147.5L41.5 98H74.5L71.5 129.5L104 130.5L100.5 162H49.5C41.82 159.35 39.68 155.53 37 147.5Z" fill="#033330"/>
+          </svg>
+          <span>Buildn</span>
+        </div>
+        <h1>Daily Ingest Dossier — Everyday Agents, Everyday Consent</h1>
+        <p class="lede">Thursday, 26 November 2026. The lane that fell out of yesterday's signals: <span class="hl">agent skills became server-published and long-running tasks became resumable in MCP the same week everyday agents started phoning businesses and handling personal context</span>. The throughline is consent at the everyday boundary — who approves what, where files flow, and when an agent discloses itself.</p>
+      </header>
+
+      <section id="cards">
+        <article class="card">
+          <h2>MCP grows: server Skills, long-running Tasks, Elicitation, File Uploads</h2>
+          <div class="badges"><span class="badge good">strong signal</span><span class="badge">protocol</span><span class="badge">anthropic</span></div>
+          <ul class="facts">
+            <li>Anthropic MCP update · Nov 25, 2026</li>
+            <li>Skills: servers publish procedural knowledge (public beta)</li>
+            <li>Tasks: long-running async work, GA · Elicitation: pause-for-confirmation, GA</li>
+            <li>File Uploads: experimental, bypasses model context</li>
+          </ul>
+          <div class="diagram">
+            <svg viewBox="0 0 640 130" role="img" aria-label="MCP now carries procedure, async work, confirmation, and files between agent and server">
+              <defs><marker id="a1" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 z" fill="#94a3b8"/></marker></defs>
+              <rect x="20" y="40" width="130" height="48" rx="6" fill="#033330"/>
+              <text x="85" y="60" text-anchor="middle" fill="#01dc82" class="label">MCP server</text>
+              <text x="85" y="77" text-anchor="middle" fill="#cfe66a" class="label">owns the procedure</text>
+              <line x1="150" y1="64" x2="220" y2="64" stroke="#94a3b8" marker-end="url(#a1)"/>
+              <rect x="220" y="20" width="180" height="28" rx="6" fill="#fff" stroke="#cbd5e1"/>
+              <text x="310" y="39" text-anchor="middle" class="label">skills (beta)</text>
+              <rect x="220" y="54" width="180" height="28" rx="6" fill="#fff" stroke="#cbd5e1"/>
+              <text x="310" y="73" text-anchor="middle" class="label">tasks GA · resume later</text>
+              <rect x="220" y="88" width="180" height="28" rx="6" fill="#fff" stroke="#cbd5e1"/>
+              <text x="310" y="107" text-anchor="middle" class="label">elicitation GA · approval</text>
+              <line x1="400" y1="64" x2="470" y2="64" stroke="#94a3b8" marker-end="url(#a1)"/>
+              <rect x="470" y="40" width="150" height="48" rx="6" fill="#fff" stroke="#01dc82"/>
+              <text x="545" y="60" text-anchor="middle" class="label">agent</text>
+              <text x="545" y="77" text-anchor="middle" class="label">less context, more delegation</text>
+            </svg>
+          </div>
+          <p><strong>What it is.</strong> The four extensions turn MCP from a tool-transport into an operational backbone: procedural knowledge lives on servers and stays current without re-prompting, work continues after background processing, approvals happen at defined pause points, and bulky files can move without consuming context.</p>
+          <p><strong>Why it matters now.</strong> This maps almost one-to-one onto Buildn OS's design language: first-class tasks, explicit approval gates, and server-owned procedure (the skill-template HITL/AFK split). When the dominant agent protocol natively encodes the same primitives, Buildn's workflow model stops being a design position and becomes an integration target.</p>
+          <p><strong>Buildn / client use.</strong> Prototype one MCP-backed skill for a repeatable client procedure (invoicing, research intake) to validate update and approval flows. Audit file-integrity and approval enforcement before touching File Uploads in production.</p>
+          <ul class="wins">
+            <li>Procedure lives on servers</li>
+            <li>Resumable async tasks</li>
+            <li>Buildn model = protocol</li>
+          </ul>
+          <div class="callout">Availability rolls by plan; File Uploads is explicitly experimental. Approval flows deserve the same audit treatment as payment flows.</div>
+        </article>
+
+        <article class="card">
+          <h2>Google Duplex returns: Gemini calls businesses for you</h2>
+          <div class="badges"><span class="badge">consumer</span><span class="badge">voice</span></div>
+          <ul class="facts">
+            <li>Google Tasks in Gemini · launched Nov 20, 2026</li>
+            <li>Agent calls businesses (bookings), self-discloses as AI</li>
+            <li>Businesses can opt out</li>
+          </ul>
+          <p><strong>What it is.</strong> Duplex's ideas at consumer scale inside Gemini: a personal agent that phones a business to make a reservation or appointment, with built-in AI disclosure and an opt-out path for the business on the other end.</p>
+          <p><strong>Why it matters now.</strong> The disclosure-by-default design is the precedent to watch: consent is engineered into the call itself rather than handled by policy after the fact. Combined with the Dec 17 FCC blocking vote (voice lane today), everyday calling agents now have both a capability standard and a compliance deadline.</p>
+          <p><strong>Buildn / client use.</strong> A pattern for any agent that acts on someone's behalf toward a third party: disclose at the boundary, offer the counterparty an exit, log everything. Worth mirroring in Buildn workflows that touch external systems.</p>
+          <ul class="wins">
+            <li>Disclosure built in</li>
+            <li>Business opt-out respected</li>
+            <li>Consent as UX, not policy</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h2>MCP identity: first-class agent membership in orgs</h2>
+          <div class="badges"><span class="badge spec">worth exploring</span><span class="badge">identity</span></div>
+          <ul class="facts">
+            <li>Enterprise platform updates tracked Nov 24–25, 2026 (Entra/Foundry-style blueprints)</li>
+            <li>Agents assigned a manager and a narrow permission scope</li>
+            <li>Audit on every agent action; separation of capability from access</li>
+          </ul>
+          <p><strong>What it is.</strong> Platform-level agent identities: an agent becomes an org member with its own owner, scope, and audit trail instead of borrowing a user's credentials. Capability (what the agent can do) separates from access (whose data it can touch).</p>
+          <p><strong>Why it matters now.</strong> Yesterday's "whose agent is it?" lane ended on the boundary question; this is the structural answer arriving from enterprise platforms. The 1Password incident (security lane today) shows why credential-borrowing agents are a liability: one person's GitHub token becomes the whole backend's blast radius.</p>
+          <p><strong>Buildn / client use.</strong> Buildn OS task design already assigns agents as participants; extend the same model to access: agent-specific scopes on repos, tools, and decrypt capability in Env Vault, with revocation that cascades like user offboarding.</p>
+          <ul class="wins">
+            <li>Own identity, own scope</li>
+            <li>Audit every action</li>
+            <li>No borrowed credentials</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h2>Use-case matrix</h2>
+          <table class="matrix">
+            <tr><th>Item</th><th>Buildn OS</th><th>Client work</th><th>Agent workflows</th><th>Personal leverage</th></tr>
+            <tr><td>MCP extensions</td><td>Protocol alignment</td><td>Skill prototype</td><td>Tasks + elicitation</td><td>—</td></tr>
+            <tr><td>Gemini Duplex</td><td>Disclosure pattern</td><td>Boundary consent UX</td><td>Calling agents</td><td>Try a booking</td></tr>
+            <tr><td>Agent identity</td><td>Scoped agent access</td><td>Access reviews</td><td>Credential separation</td><td>—</td></tr>
+          </table>
+        </article>
+
+        <article class="card">
+          <h2>Top actions</h2>
+          <ul class="wins">
+            <li>Read the MCP announcement and map each of the four primitives onto one Buildn OS workflow concept (tasks, gates, skills, artifacts).</li>
+            <li>Pick one repeatable client procedure and sketch it as an MCP skill with a built-in elicitation checkpoint.</li>
+            <li>Try Gemini's Duplex booking once and note the disclosure and opt-out UX for the pattern library.</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h2>Source trail</h2>
+          <ul class="trail">
+            <li><a href="https://aiagentstore.ai/ai-agent-news/this-week">Anthropic MCP update summary (week of Nov 25, 2026)</a></li>
+            <li><a href="https://www.topcalls.ai/blog/gemini-calls-businesses-google-duplex">Gemini calls businesses: what Google Duplex means</a></li>
+            <li><a href="https://www.neoteo.com/en/gurman-expects-apples-reported-ai-agent-to-launch-no-earlier-than-the-end-of-2027">Context: Apple's agent timeline (2027+)</a></li>
+          </ul>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
