@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AI-Native Services Playbook — Daily Ingest Dossier, 2026-11-27</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <style>
+      :root { --brand:#01dc82; --deep:#033330; --lime:#cfe66a; --red:#b3261e; --amber:#9a6700;
+              --ink:#0f172a; --muted:#475569; --line:#e2e8f0; --bg:#fafaf9; --card:#fff;
+              --serif:"Newsreader",Georgia,serif; --sans:"Plus Jakarta Sans",ui-sans-serif,system-ui,sans-serif; }
+      * { box-sizing:border-box; }
+      body { margin:0; background:var(--bg); color:var(--ink); font-family:var(--sans); line-height:1.55; }
+      main { max-width:64rem; margin:0 auto; padding:3rem 1.5rem; }
+      h1 { font-family:var(--serif); color:var(--deep); font-size:2rem; font-weight:600; margin:0; }
+      h2 { font-family:var(--serif); color:var(--deep); font-size:1.35rem; font-weight:600; margin:0 0 .5rem; }
+      a { color:var(--deep); }
+      .wordmark { display:flex; align-items:center; gap:.6rem; font-weight:700; color:var(--deep); letter-spacing:-.01em; }
+      header { display:flex; flex-direction:column; gap:1.25rem; margin-bottom:2.5rem; }
+      section { display:flex; flex-direction:column; gap:2rem; }
+      .card { background:var(--card); border:1px solid var(--line); border-radius:.75rem; padding:1.5rem; }
+      .badges { display:flex; flex-wrap:wrap; gap:.5rem; margin:.25rem 0 1rem; }
+      .badge { font-size:.7rem; text-transform:uppercase; letter-spacing:.06em; font-weight:600;
+               padding:.15rem .5rem; border-radius:.35rem; background:#f1f5f9; color:var(--muted); }
+      .badge.good { background:#dcfce7; color:#166534; }
+      .badge.warn { background:#fef3c7; color:var(--amber); }
+      .badge.spec { background:#e2e8f0; color:#334155; }
+      .facts { font-family:ui-monospace,"SF Mono",Menlo,monospace; font-size:.8rem; color:var(--muted);
+               margin:0 0 1rem; padding:0; list-style:none; }
+      .facts li { padding:.1rem 0; }
+      .diagram { border:1px solid var(--line); border-radius:.5rem; background:#fff; padding:1rem; margin:1rem 0; }
+      .diagram svg { display:block; max-width:100%; height:auto; }
+      .label { font-size:.7rem; text-transform:uppercase; letter-spacing:.08em; fill:var(--muted); color:var(--muted); }
+      .wins { margin:.5rem 0 0; padding-left:1.1rem; }
+      .wins li { margin:.15rem 0; }
+      .callout { border-left:3px solid var(--amber); background:#fffbeb; color:#713f12;
+                 padding:.6rem .9rem; border-radius:.25rem; font-size:.9rem; }
+      .hl { background:rgba(207,230,106,.6); padding:0 .15em; }
+      .seam { stroke-dasharray:4 4; } .accent { stroke:var(--red); }
+      p.lede { font-size:1rem; color:var(--muted); max-width:46rem; }
+      table.matrix { width:100%; border-collapse:collapse; font-size:.85rem; margin-top:.75rem; }
+      table.matrix th, table.matrix td { border:1px solid var(--line); padding:.45rem .6rem; text-align:left; vertical-align:top; }
+      table.matrix th { background:#f8fafc; font-size:.72rem; text-transform:uppercase; letter-spacing:.06em; color:var(--muted); }
+      .trail { font-size:.85rem; padding-left:1.1rem; }
+      .trail li { margin:.2rem 0; }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header>
+        <div class="wordmark">
+          <svg viewBox="0 0 164 195" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" width="22">
+            <path d="M117 194.5H0L12 73C17.47 66.63 21.30 65.46 28.5 64.5L34.5 0H151.5C158.44 4.40 161.28 7.18 163.5 13L153 119.5C148.80 127.15 144.97 129.55 135.5 130.5L131 184.5C127.71 190.35 125.13 192.98 117 194.5Z" fill="#01dc82"/>
+            <path d="M64 33L61 64.5H93.5L91 97H123L127.5 46.5C125.53 37.94 122.01 35.19 112.5 33H64Z" fill="#033330"/>
+            <path d="M37 147.5L41.5 98H74.5L71.5 129.5L104 130.5L100.5 162H49.5C41.82 159.35 39.68 155.53 37 147.5Z" fill="#033330"/>
+          </svg>
+          <span>Buildn</span>
+        </div>
+        <h1>Daily Ingest Dossier — AI-Native Services Playbook</h1>
+        <p class="lede">Friday, 27 November 2026. First founders/operators lane since Nov 24's growth-visibility coverage, and it fills a real gap: how to sell a service where AI does the work. The anchor is Emergence Capital's AI-Native Services Playbook and its <span class="hl">Mirage PMF</span> concept — revenue growth can mask a business where humans still do the work. Everything here maps directly to Buildn's client-service model and the Egypt fitout lead-gen operation.</p>
+      </header>
+
+      <section id="cards">
+        <article class="card">
+          <h2>The AI-Native Services Playbook (Emergence Capital)</h2>
+          <div class="badges"><span class="badge good">read this week</span><span class="badge">playbook</span><span class="badge">emcap</span></div>
+          <ul class="facts">
+            <li>emcap.com/thoughts/the-ai-native-services-playbook · Spring 2026 edition</li>
+            <li>Core test: is AI doing a material share of the work at high gross margin?</li>
+            <li>Inference costs + human-in-the-loop labor belong in COGS, not opex</li>
+            <li>Updated every six months; next edition Fall 2026</li>
+          </ul>
+          <div class="diagram">
+            <svg viewBox="0 0 640 150" role="img" aria-label="Mirage PMF: revenue and retention can look healthy while AI share of work and margin stay flat">
+              <defs><marker id="a1" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 z" fill="#94a3b8"/></marker></defs>
+              <text x="120" y="24" text-anchor="middle" class="label">what you see</text>
+              <rect x="30" y="80" width="60" height="40" rx="4" fill="#dcfce7" stroke="#166534"/>
+              <text x="60" y="104" text-anchor="middle" class="label">revenue</text>
+              <rect x="100" y="66" width="60" height="54" rx="4" fill="#dcfce7" stroke="#166534"/>
+              <text x="130" y="97" text-anchor="middle" class="label">retention</text>
+              <text x="390" y="24" text-anchor="middle" class="label">what it hides</text>
+              <rect x="300" y="80" width="60" height="40" rx="4" fill="#fee2e2" stroke="#b3261e"/>
+              <text x="330" y="104" text-anchor="middle" class="label">AI share: low</text>
+              <rect x="370" y="90" width="60" height="30" rx="4" fill="#fee2e2" stroke="#b3261e"/>
+              <text x="400" y="109" text-anchor="middle" class="label">margin: flat</text>
+              <rect x="440" y="70" width="80" height="50" rx="4" fill="#fef3c7" stroke="#9a6700"/>
+              <text x="480" y="92" text-anchor="middle" class="label">HITL labor</text>
+              <text x="480" y="108" text-anchor="middle" class="label">in opex</text>
+              <text x="320" y="140" text-anchor="middle" class="label">A services firm financed with the wrong kind of capital.</text>
+            </svg>
+          </div>
+          <p><strong>What it is.</strong> The first systematic operator guide for selling AI-powered services: team composition (domain credibility is existential), the Mirage PMF trap, pricing and metric design split into leading indicators (is AI actually doing the work?) and lagging ones (is it showing up in the financials?).</p>
+          <p><strong>Why it matters now.</strong> This is exactly the shape of Buildn's offer set — productized service with agents doing delivery work. The "North Star Product Metric = how much of the work AI does" framing is the single most useful number to instrument for Buildn's own engagements.</p>
+          <p><strong>Buildn / client use.</strong> Define the AI-share metric per engagement type (e.g. fraction of deliverables produced end-to-end by agents before human review). Use Mirage PMF as the honest self-audit at each quarterly review; it also doubles as a client-qualification filter — prospects who want "AI" as labor arbitrage will mirror the failure mode.</p>
+          <ul class="wins">
+            <li>Names the PMF illusion</li>
+            <li>COGS discipline spelled out</li>
+            <li>Leading vs lagging metrics</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h2>One Metric That Matters (Hustle Fund)</h2>
+          <div class="badges"><span class="badge spec">operator</span><span class="badge">focus</span></div>
+          <ul class="facts">
+            <li>thefounderplaybook.hustlefund.vc · Nov 5, 2026</li>
+            <li>Pick one metric, point the team at it, review weekly</li>
+            <li>Pairs with the AINS North Star: pick the number that maps to revenue-adjacent truth</li>
+          </ul>
+          <p><strong>What it is.</strong> The OMTM discipline, freshly written and unusually practical: the failure mode it addresses (everyone tracking ten numbers, moving none) is the default state of a two-person agency.</p>
+          <p><strong>Buildn / client use.</strong> Candidate OMTMs for Buildn right now: qualified-fitout-leads per week (Egypt) or agent-delivered-deliverable share (services). Pick one for December, put it in the daily view, drop the rest to weekly.</p>
+          <ul class="wins">
+            <li>One number, weekly</li>
+            <li>Anti-dashboard discipline</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h2>Company Culture = Slack Emoji ÷ √Headcount</h2>
+          <div class="badges"><span class="badge spec">fun metric</span><span class="badge">culture</span></div>
+          <ul class="facts">
+            <li>lia.mg · Nov 27, 2026 (HN 318 pts)</li>
+            <li>C = E<sub>custom</sub> / √U — custom emoji density as a culture proxy</li>
+            <li>Zero participation required; works on any Slack export</li>
+          </ul>
+          <p><strong>What it is.</strong> A deliberately unserious but genuinely useful measurement essay: shared custom emoji are a trace of in-group culture that no HR survey can fake, and normalizing by √headcount keeps it comparable across sizes.</p>
+          <p><strong>Buildn / client use.</strong> Mostly a reminder that cheap proxies beat expensive surveys — the same instinct behind using Slack/workspace activity as a leading indicator in Buildn OS task analytics. Also a five-minute, memorable opener for culture conversations with clients.</p>
+          <ul class="wins">
+            <li>Proxy beats survey</li>
+            <li>Free to compute</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h2>AI made self-hosting fun again</h2>
+          <div class="badges"><span class="badge good">resonates</span><span class="badge">essay</span></div>
+          <ul class="facts">
+            <li>janlukas.blog · Nov 26, 2026 (HN 640 pts, 329 comments)</li>
+            <li>Agent-assisted infra: half-day bootc image build that would have taken a week</li>
+            <li>Friction, not interest, was what faded</li>
+          </ul>
+          <div class="diagram">
+            <svg viewBox="0 0 640 110" role="img" aria-label="The cost of trying a new technology drops from a week to half a day, converting stalled ideas into running services">
+              <defs><marker id="a2" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 z" fill="#94a3b8"/></marker></defs>
+              <rect x="30" y="30" width="40" height="50" rx="4" fill="#fee2e2" stroke="#b3261e"/>
+              <text x="50" y="100" text-anchor="middle" class="label">idea cost: 1 week</text>
+              <rect x="130" y="50" width="40" height="30" rx="4" fill="#fef3c7" stroke="#9a6700"/>
+              <text x="150" y="100" text-anchor="middle" class="label">agent era</text>
+              <rect x="230" y="66" width="40" height="14" rx="4" fill="#dcfce7" stroke="#166534"/>
+              <text x="250" y="100" text-anchor="middle" class="label">half a day</text>
+              <line x1="300" y1="55" x2="370" y2="55" stroke="#94a3b8" marker-end="url(#a2)"/>
+              <rect x="370" y="35" width="120" height="40" rx="6" fill="#033330"/>
+              <text x="430" y="53" text-anchor="middle" fill="#01dc82" class="label">spontaneous ideas</text>
+              <text x="430" y="69" text-anchor="middle" fill="#cfe66a" class="label">ship anyway</text>
+              <text x="320" y="24" text-anchor="middle" class="label">cost of trying a new technology</text>
+            </svg>
+          </div>
+          <p><strong>What it is.</strong> A first-person account of the agent-era self-hoster: Git-managed infrastructure means agents treat it as a software project, so NixOS, bootc images, and automated deploys went from "someday" to done. The interesting claim is psychological: the enthusiasm didn't return because of AI capability, but because AI removed the friction that rationed it.</p>
+          <p><strong>Buildn / client use.</strong> This is the argument for Buildn's whole positioning in one sentence: the constraint was never competence, it was friction. Steal the framing for client pitches — "your team stopped automating because it was expensive to try; we make trying cheap." Also validates local-first infra ambitions for Env Vault.</p>
+          <ul class="wins">
+            <li>Friction was the boss fight</li>
+            <li>Infra-as-repo unlocks agents</li>
+            <li>640 pts says resonance</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h2>Use-case matrix</h2>
+          <table class="matrix">
+            <tr><th>Item</th><th>Buildn OS</th><th>Client work</th><th>Agent workflows</th><th>Personal leverage</th></tr>
+            <tr><td>AINS playbook</td><td>AI-share metric</td><td>Offer design</td><td>HITL in COGS</td><td>Self-audit</td></tr>
+            <tr><td>OMTM</td><td>December focus</td><td>—</td><td>—</td><td>Weekly review</td></tr>
+            <tr><td>Emoji coefficient</td><td>Cheap proxies</td><td>Icebreaker</td><td>—</td><td>—</td></tr>
+            <tr><td>Self-hosting essay</td><td>Pitch framing</td><td>Friction argument</td><td>Infra-as-repo</td><td>Home server</td></tr>
+          </table>
+        </article>
+
+        <article class="card">
+          <h2>Top actions</h2>
+          <ul class="wins">
+            <li>Define and instrument one AI-share metric for Buildn's current engagements; report it Friday next week.</li>
+            <li>Choose the December One Metric That Matters and make it the first thing on the daily dashboard.</li>
+            <li>Rewrite the Buildn pitch around friction-removal, using the self-hosting essay as the mental model.</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h2>Source trail</h2>
+          <ul class="trail">
+            <li><a href="https://www.emcap.com/thoughts/the-ai-native-services-playbook">The AI-Native Services Playbook (Emergence Capital)</a></li>
+            <li><a href="https://thefounderplaybook.hustlefund.vc/p/one-metric-that-matters-startup-focus">One Metric That Matters (Hustle Fund)</a></li>
+            <li><a href="https://lia.mg/posts/measuring-company-culture-with-slack-emoji/">Company Culture = Slack Emoji ÷ √Headcount</a></li>
+            <li><a href="https://janlukas.blog/posts/ai-self-hosting">AI made self-hosting fun again</a></li>
+            <li><a href="https://news.ycombinator.com/item?id=50660180">HN discussion: 640 points</a></li>
+          </ul>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>

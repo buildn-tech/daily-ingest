@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Inference Supply Chain Audit — Daily Ingest Dossier, 2026-11-27</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <style>
+      :root { --brand:#01dc82; --deep:#033330; --lime:#cfe66a; --red:#b3261e; --amber:#9a6700;
+              --ink:#0f172a; --muted:#475569; --line:#e2e8f0; --bg:#fafaf9; --card:#fff;
+              --serif:"Newsreader",Georgia,serif; --sans:"Plus Jakarta Sans",ui-sans-serif,system-ui,sans-serif; }
+      * { box-sizing:border-box; }
+      body { margin:0; background:var(--bg); color:var(--ink); font-family:var(--sans); line-height:1.55; }
+      main { max-width:64rem; margin:0 auto; padding:3rem 1.5rem; }
+      h1 { font-family:var(--serif); color:var(--deep); font-size:2rem; font-weight:600; margin:0; }
+      h2 { font-family:var(--serif); color:var(--deep); font-size:1.35rem; font-weight:600; margin:0 0 .5rem; }
+      a { color:var(--deep); }
+      .wordmark { display:flex; align-items:center; gap:.6rem; font-weight:700; color:var(--deep); letter-spacing:-.01em; }
+      header { display:flex; flex-direction:column; gap:1.25rem; margin-bottom:2.5rem; }
+      section { display:flex; flex-direction:column; gap:2rem; }
+      .card { background:var(--card); border:1px solid var(--line); border-radius:.75rem; padding:1.5rem; }
+      .badges { display:flex; flex-wrap:wrap; gap:.5rem; margin:.25rem 0 1rem; }
+      .badge { font-size:.7rem; text-transform:uppercase; letter-spacing:.06em; font-weight:600;
+               padding:.15rem .5rem; border-radius:.35rem; background:#f1f5f9; color:var(--muted); }
+      .badge.good { background:#dcfce7; color:#166534; }
+      .badge.warn { background:#fef3c7; color:var(--amber); }
+      .badge.spec { background:#e2e8f0; color:#334155; }
+      .facts { font-family:ui-monospace,"SF Mono",Menlo,monospace; font-size:.8rem; color:var(--muted);
+               margin:0 0 1rem; padding:0; list-style:none; }
+      .facts li { padding:.1rem 0; }
+      .diagram { border:1px solid var(--line); border-radius:.5rem; background:#fff; padding:1rem; margin:1rem 0; }
+      .diagram svg { display:block; max-width:100%; height:auto; }
+      .label { font-size:.7rem; text-transform:uppercase; letter-spacing:.08em; fill:var(--muted); color:var(--muted); }
+      .wins { margin:.5rem 0 0; padding-left:1.1rem; }
+      .wins li { margin:.15rem 0; }
+      .callout { border-left:3px solid var(--amber); background:#fffbeb; color:#713f12;
+                 padding:.6rem .9rem; border-radius:.25rem; font-size:.9rem; }
+      .hl { background:rgba(207,230,106,.6); padding:0 .15em; }
+      .seam { stroke-dasharray:4 4; } .accent { stroke:var(--red); }
+      p.lede { font-size:1rem; color:var(--muted); max-width:46rem; }
+      table.matrix { width:100%; border-collapse:collapse; font-size:.85rem; margin-top:.75rem; }
+      table.matrix th, table.matrix td { border:1px solid var(--line); padding:.45rem .6rem; text-align:left; vertical-align:top; }
+      table.matrix th { background:#f8fafc; font-size:.72rem; text-transform:uppercase; letter-spacing:.06em; color:var(--muted); }
+      .trail { font-size:.85rem; padding-left:1.1rem; }
+      .trail li { margin:.2rem 0; }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header>
+        <div class="wordmark">
+          <svg viewBox="0 0 164 195" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" width="22">
+            <path d="M117 194.5H0L12 73C17.47 66.63 21.30 65.46 28.5 64.5L34.5 0H151.5C158.44 4.40 161.28 7.18 163.5 13L153 119.5C148.80 127.15 144.97 129.55 135.5 130.5L131 184.5C127.71 190.35 125.13 192.98 117 194.5Z" fill="#01dc82"/>
+            <path d="M64 33L61 64.5H93.5L91 97H123L127.5 46.5C125.53 37.94 122.01 35.19 112.5 33H64Z" fill="#033330"/>
+            <path d="M37 147.5L41.5 98H74.5L71.5 129.5L104 130.5L100.5 162H49.5C41.82 159.35 39.68 155.53 37 147.5Z" fill="#033330"/>
+          </svg>
+          <span>Buildn</span>
+        </div>
+        <h1>Daily Ingest Dossier — Inference Supply Chain Audit</h1>
+        <p class="lede">Friday, 27 November 2026. Yesterday covered agent store-shelf supply chain (malicious PyPI packages); today's lane is the <span class="hl">inference-side</span> half of the same problem, and it is bigger: one researcher traced hundreds of billions of tokens per week from "US ZDR providers" through nested shells to ByteDance Ark, right after the MiniMax URL-reading incident proved the forwarding is real and has privacy consequences. If you route model traffic, your data-residency story is only as good as your provider's family tree.</p>
+      </header>
+
+      <section id="cards">
+        <article class="card">
+          <h2>Novita, StreamLake, Ant Digital are Ark wrappers</h2>
+          <div class="badges"><span class="badge warn">audit now</span><span class="badge">investigation</span></div>
+          <ul class="facts">
+            <li>kendell.dev · Nov 25, 2026</li>
+            <li>DeepSeek tokens on routes traced to ByteDance Ark: ~1.1T/week (Novita) + ~430B (StreamLake)</li>
+            <li>Fingerprints: shared error strings, tool-call id formats, req-id passthrough across 41 hosts</li>
+            <li>OpenRouter ZDR flags flipped days before public disclosure</li>
+          </ul>
+          <div class="diagram">
+            <svg viewBox="0 0 640 140" role="img" aria-label="What you think you buy versus what actually happens: your request goes through a router and several resellers before reaching the model host">
+              <defs><marker id="a1" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 z" fill="#94a3b8"/></marker></defs>
+              <text x="90" y="22" text-anchor="middle" class="label">advertised path</text>
+              <rect x="20" y="30" width="130" height="38" rx="6" fill="#fff" stroke="#cbd5e1"/>
+              <text x="85" y="53" text-anchor="middle" class="label">your app</text>
+              <line x1="150" y1="49" x2="205" y2="49" stroke="#94a3b8" marker-end="url(#a1)"/>
+              <rect x="205" y="30" width="140" height="38" rx="6" fill="#033330"/>
+              <text x="275" y="53" text-anchor="middle" fill="#01dc82" class="label">"US ZDR provider"</text>
+              <text x="90" y="96" text-anchor="middle" class="label">actual path</text>
+              <rect x="20" y="104" width="130" height="34" rx="6" fill="#fff" stroke="#cbd5e1"/>
+              <text x="85" y="125" text-anchor="middle" class="label">your app</text>
+              <line x1="150" y1="121" x2="180" y2="121" stroke="#94a3b8" marker-end="url(#a1)"/>
+              <rect x="180" y="104" width="80" height="34" rx="6" fill="#fff" stroke="#cbd5e1"/>
+              <text x="220" y="125" text-anchor="middle" class="label">router</text>
+              <line x1="260" y1="121" x2="290" y2="121" class="seam" stroke="#94a3b8" marker-end="url(#a1)"/>
+              <rect x="290" y="104" width="90" height="34" rx="6" fill="#fff" stroke="#cbd5e1"/>
+              <text x="335" y="125" text-anchor="middle" class="label">reseller</text>
+              <line x1="380" y1="121" x2="410" y2="121" class="seam" stroke="#94a3b8" marker-end="url(#a1)"/>
+              <rect x="410" y="104" width="90" height="34" rx="6" fill="#fff" stroke="#cbd5e1"/>
+              <text x="455" y="125" text-anchor="middle" class="label">sub-shell</text>
+              <line x1="500" y1="121" x2="530" y2="121" class="accent seam" stroke="#b3261e" marker-end="url(#a1)"/>
+              <rect x="530" y="104" width="100" height="34" rx="6" fill="#fff" stroke="#b3261e"/>
+              <text x="580" y="125" text-anchor="middle" class="label">Ark (ByteDance)</text>
+            </svg>
+          </div>
+          <p><strong>What it is.</strong> A forensic trace, built from observable fingerprints rather than speculation: token-volume graphs, error-message wording, tool-call id formats, and request-id passthrough that tie supposedly independent providers back to one upstream host. The draft IPO of the parent even promises "no pass-through gateway" — the opposite of what the evidence shows.</p>
+          <p><strong>Why it matters now.</strong> This lands days after MiniMax's confirmed URL-reading incident, in which requests forwarded by exactly these three providers were opened by MiniMax's security system, including ZDR-flagged ones. ZDR is a per-provider claim about a path you cannot see; the claim breaks when the path is longer than advertised.</p>
+          <p><strong>Buildn / client use.</strong> Egypt lead-gen and any client data going through coding or voice agents: inventory every provider in every API key, ask the sub-processor question with this article in hand, and prefer self-hosted or first-party endpoints for anything sensitive. Cheap differentiation for Env Vault marketing: "device-key encryption with a provable inference path".</p>
+          <ul class="wins">
+            <li>Evidence, not rumor</li>
+            <li>ZDR claims now falsifiable</li>
+            <li>Direct client pitch material</li>
+          </ul>
+          <div class="callout">The author publishes this as an ongoing watch, not a one-off exposé; volumes are lower bounds on selected models. Treat any provider's ZDR claim as unverified until they name their model subprocessors.</div>
+        </article>
+
+        <article class="card">
+          <h2>The MiniMax forwarding incident, named and admitted</h2>
+          <div class="badges"><span class="badge warn">privacy</span><span class="badge">incident</span></div>
+          <ul class="facts">
+            <li>minimax.io blog · Nov 24, 2026</li>
+            <li>Researcher embedded unique URLs in prompts; third party opened them 40–130h later</li>
+            <li>AtlasCloud, Novita, StreamLake confirmed forwarding OpenRouter requests to MiniMax</li>
+            <li>16 Novita endpoints pulled from OpenRouter after disclosure</li>
+          </ul>
+          <p><strong>What it is.</strong> The cleanest demonstration to date that resold inference is a data channel: a security system "on by default" fetched URLs embedded in prompts that arrived via forwarders, including zero-data-retention ones.</p>
+          <p><strong>Buildn / client use.</strong> This is the compliance story to tell prospects: every hop in an inference chain is a potential processor under GDPR-adjacent rules. A one-page "who processes your prompts" audit is now a sellable service.</p>
+          <ul class="wins">
+            <li>Third-party reading proven</li>
+            <li>Providers admitted it</li>
+            <li>Auditable with URLs</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h2>Moat: wholesale model pricing via pooled buying power</h2>
+          <div class="badges"><span class="badge good">try today</span><span class="badge">product</span></div>
+          <ul class="facts">
+            <li>commandcode.ai/moat · $5/mo membership, surfaced Nov 26 (HN 281 pts)</li>
+            <li>Claims 40–70% discounts vs list: GLM-5.3 −65%, DeepSeek V4.1 Flash −60%, Kimi −40%</li>
+            <li>Zero router fee, no 5-hour/weekly limits; member pool aggregates trillions of tokens</li>
+          </ul>
+          <p><strong>What it is.</strong> Costco for inference: a flat membership fee on top of wholesale per-token prices, with pooled volume as the discount engine. Given today's lead item, the obvious question is what its routing chain looks like — which is exactly the audit you would run before trusting it.</p>
+          <p><strong>Buildn / client use.</strong> Real cost lever for Buildn's own agent workloads (GLM/DeepSeek-heavy stacks are the profile). Validate against the lane's top item: trace one request, confirm the actual upstream host, then commit budget.</p>
+          <ul class="wins">
+            <li>60% off is real money</li>
+            <li>Router fee waived</li>
+            <li>Audit first, save second</li>
+          </ul>
+          <div class="callout">Pooled-buying pricing concentrates a provider risk that yesterday proved fragile; keep a first-party fallback key for the two models you cannot lose.</div>
+        </article>
+
+        <article class="card">
+          <h2>Google Workspace MCP: agents must use Google's servers from Feb 2027</h2>
+          <div class="badges"><span class="badge spec">compliance</span><span class="badge">platform</span></div>
+          <ul class="facts">
+            <li>workspace.google.com/terms/ai-tools · announced Nov 24</li>
+            <li>From Feb 1, 2027: AI-agent-driven tools must call Workspace via Google MCP servers</li>
+            <li>Gmail MCP cannot send/reply/forward — those stay partner-gated</li>
+            <li>30-day cap on "Google Technical Information" (embeddings, memory indexes, org graphs)</li>
+          </ul>
+          <p><strong>What it is.</strong> A platform boundary drawn in terms of service: the agent-shaped path must go through Google's own MCP layer, with agent-disguise explicitly banned, and long-term memory built from Workspace data capped at 30 days.</p>
+          <p><strong>Why it matters now.</strong> Everyone building Gmail/Calendar agents has ~9 weeks. The 30-day memory cap kills the "index my whole inbox once" pattern; agents must rebuild or slice monthly. It is also a preview of how other platforms will gate agent access — capability lives at the platform's MCP layer, not yours.</p>
+          <p><strong>Buildn / client use.</strong> The Hermes/Buildn Gmail integration should check which side of this line it sits on now, not in January. For client work: an "agent platform compliance readiness" checklist (which APIs, which tier, which memory architecture) is a fixed-fee engagement waiting to happen.</p>
+          <ul class="wins">
+            <li>Hard date: Feb 1</li>
+            <li>Memory capped at 30d</li>
+            <li>Send stays partner-gated</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h2>Use-case matrix</h2>
+          <table class="matrix">
+            <tr><th>Item</th><th>Buildn OS</th><th>Client work</th><th>Agent workflows</th><th>Personal leverage</th></tr>
+            <tr><td>Ark-wrapper trace</td><td>Provider policy</td><td>Data-residency audit offer</td><td>Route verification</td><td>—</td></tr>
+            <tr><td>MiniMax incident</td><td>Processor inventory</td><td>GDPR processor map</td><td>—</td><td>—</td></tr>
+            <tr><td>Moat membership</td><td>Cost lever</td><td>Margins on agent builds</td><td>Wholesale keys</td><td>Cheaper GLM</td></tr>
+            <tr><td>Workspace MCP rule</td><td>Gmail path check</td><td>Compliance checklist</td><td>Memory redesign</td><td>Hermes email</td></tr>
+          </table>
+        </article>
+
+        <article class="card">
+          <h2>Top actions</h2>
+          <ul class="wins">
+            <li>List every inference provider in every API key in use; for each, find the named model subprocessor or mark it unverified.</li>
+            <li>Trace one real request through any discount router (Moat or OpenRouter) before moving Buildn budget to it.</li>
+            <li>Audit the Buildn Gmail integration against the Feb 2027 Workspace MCP addendum and the 30-day memory cap this week.</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h2>Source trail</h2>
+          <ul class="trail">
+            <li><a href="https://kendell.dev/blog/arkwrapper/">Novita, StreamLake, etc are Ark wrappers</a></li>
+            <li><a href="https://www.minimax.io/blog/update-on-url-access-in-forwarded-api-requests-20261124">MiniMax: update on URL access in forwarded API requests</a></li>
+            <li><a href="https://commandcode.ai/moat">Moat membership — wholesale model pricing</a></li>
+            <li><a href="https://workspace.google.com/terms/ai-tools">Google Workspace AI Tools Addendum</a></li>
+            <li><a href="https://techstackups.com/articles/google-workspace-ai-agents-mcp/">Analysis: agents must use Google's MCP servers</a></li>
+            <li><a href="https://news.ycombinator.com/item?id=50653477">HN discussion: 323 points</a></li>
+          </ul>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>

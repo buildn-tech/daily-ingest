@@ -1,0 +1,209 @@
+{
+  "date": "2026-11-27",
+  "generated_at": "2026-11-27T10:05:00Z",
+  "editorial_thesis": "This week's agent-trust failures got their audit layer today: a forensic trace through the resold-inference market, an in-process sandbox for agent code, a services playbook that asks whether the AI is actually doing the work, and creative/memory tools that ship rather than promise.",
+  "topic_groups": [
+    {
+      "slug": "inference-supply-audit",
+      "title": "Inference Supply Chain Audit",
+      "selection_rationale": "Yesterday's store-shelf lane covered package supply chain; today's HN front page delivered the inference-side counterpart — a forensic trace tying Novita/StreamLake/Ant Digital to ByteDance Ark, days after MiniMax admitted its security system read URLs in forwarded (including ZDR) requests. Material escalation of an open story, not a repeat.",
+      "sources": [
+        {
+          "title": "Novita, StreamLake, etc are Ark wrappers",
+          "url": "https://kendell.dev/blog/arkwrapper/",
+          "source_type": "blog",
+          "published_or_updated": "2026-11-25",
+          "why_selected": "Fingerprint-based trace (error strings, tool-call ids, request-id passthrough) showing ~1.1T+ tokens/week routed to ByteDance Ark through providers marketed as US ZDR.",
+          "usefulness": "Basis for a provider/processor audit across every API key; client data-residency pitch material."
+        },
+        {
+          "title": "MiniMax: update on URL access in forwarded API requests",
+          "url": "https://www.minimax.io/blog/update-on-url-access-in-forwarded-api-requests-20261124",
+          "source_type": "blog",
+          "published_or_updated": "2026-11-24",
+          "why_selected": "Admitted third-party opening of URLs embedded in prompts forwarded by AtlasCloud/Novita/StreamLake, including ZDR-flagged ones; 16 Novita endpoints pulled from OpenRouter.",
+          "usefulness": "Concrete proof that every inference hop is a data processor."
+        },
+        {
+          "title": "Moat membership — wholesale model pricing",
+          "url": "https://commandcode.ai/moat",
+          "source_type": "product",
+          "published_or_updated": "2026-11-26",
+          "why_selected": "HN 281 pts; $5/mo membership with claimed 40-70% discounts via pooled buying power and zero router fee.",
+          "usefulness": "Real cost lever for GLM/DeepSeek-heavy agent workloads — after verifying its routing chain."
+        },
+        {
+          "title": "Google Workspace AI Tools Addendum: agents must use Google MCP from Feb 2027",
+          "url": "https://techstackups.com/articles/google-workspace-ai-agents-mcp/",
+          "source_type": "news",
+          "published_or_updated": "2026-11-24",
+          "why_selected": "From Feb 1 2027 AI-agent tools must route Workspace through Google's MCP servers; Gmail send stays partner-gated; 30-day cap on embeddings/memory indexes built from Workspace data.",
+          "usefulness": "Nine-week compliance clock for any Gmail/Calendar agent; kills the index-once memory pattern."
+        }
+      ]
+    },
+    {
+      "slug": "ai-native-services",
+      "title": "AI-Native Services Playbook",
+      "selection_rationale": "Fills the founders/operators gap: no dedicated lane since Oct's small-team AI offers. Emergence's AINS playbook (Mirage PMF, AI-share metrics, COGS discipline) maps directly onto Buildn's productized-service model, and two HN front-page essays reinforce the operator angle.",
+      "sources": [
+        {
+          "title": "The AI-Native Services Playbook (Emergence Capital)",
+          "url": "https://www.emcap.com/thoughts/the-ai-native-services-playbook",
+          "source_type": "blog",
+          "published_or_updated": "2026-03-30",
+          "why_selected": "First systematic operator guide for AI-powered services: Mirage PMF, domain credibility, leading vs lagging metrics, HITL labor in COGS.",
+          "usefulness": "Define and instrument an AI-share metric per engagement; quarterly self-audit frame."
+        },
+        {
+          "title": "One Metric That Matters (Hustle Fund)",
+          "url": "https://thefounderplaybook.hustlefund.vc/p/one-metric-that-matters-startup-focus",
+          "source_type": "blog",
+          "published_or_updated": "2026-11-05",
+          "why_selected": "Fresh, practical OMTM discipline for small teams tracking ten numbers and moving none.",
+          "usefulness": "Pick Buildn's December focus metric."
+        },
+        {
+          "title": "Company Culture = Slack Emoji ÷ √Headcount",
+          "url": "https://lia.mg/posts/measuring-company-culture-with-slack-emoji/",
+          "source_type": "blog",
+          "published_or_updated": "2026-11-27",
+          "why_selected": "HN 318 pts; free, unfakeable culture proxy from workspace exports.",
+          "usefulness": "Cheap-proxy instinct for Buildn OS analytics; client icebreaker."
+        },
+        {
+          "title": "AI made self-hosting fun again",
+          "url": "https://janlukas.blog/posts/ai-self-hosting",
+          "source_type": "blog",
+          "published_or_updated": "2026-11-26",
+          "why_selected": "HN 640 pts; agents treating Git-managed infra as a software project halved-to-tenths the cost of trying new technology — friction, not interest, was the constraint.",
+          "usefulness": "Core pitch framing for Buildn: make trying cheap."
+        }
+      ]
+    },
+    {
+      "slug": "verification-culture",
+      "title": "Verification Culture",
+      "selection_rationale": "Steps back from Nov 23/26 formal-math headlines to the underlying question — who verifies agent-written software — with a front-page manifesto, a craft counterpoint, and a hardware-economics datapoint affecting local-first storage plans.",
+      "sources": [
+        {
+          "title": "The need for a mainstream verifiable programming language",
+          "url": "https://blainehansen.me/post/mainstream-verifiable-language/",
+          "source_type": "blog",
+          "published_or_updated": "2026-06-21",
+          "why_selected": "HN 135 pts; names the human contract (statements must capture intent) that no checker automates — the theoretical spine of checker-gated delivery.",
+          "usefulness": "Rationale for Buildn OS review gates; PR-review discipline."
+        },
+        {
+          "title": "Do You Write Code With Your Mouse? (Vim manual, 4 years)",
+          "url": "https://themouseless.dev/vim/",
+          "source_type": "product",
+          "published_or_updated": "2026-11",
+          "why_selected": "HN 159 pts; 170-exercise deliberate-practice structure — a template for skill scaffolds including agent skills.",
+          "usefulness": "Editor practice; skill-scaffold design pattern."
+        },
+        {
+          "title": "Hard Drive pricing has gotten bad",
+          "url": "https://blog.ktz.me/black-friday-hard-drive-prices-are-messed-up/",
+          "source_type": "blog",
+          "published_or_updated": "2026-11-26",
+          "why_selected": "Eight years of receipts: $12.50/TB (2024) to $27.50/TB (2026) on the same SKU; storage deflation is over.",
+          "usefulness": "Re-price Env Vault retention assumptions; consolidate disks."
+        }
+      ]
+    },
+    {
+      "slug": "sandboxed-execution",
+      "title": "Sandboxed Execution Comes to Node",
+      "selection_rationale": "Converges the week's security arc (side channels, malicious packages, runtime shields) on the missing primitive: running untrusted agent code safely in-process. NormalScript is a Show HN with an unusually honest test262 matrix.",
+      "sources": [
+        {
+          "title": "NormalScript: a perfectly normal scripting language",
+          "url": "https://psychoscript.com/",
+          "source_type": "product",
+          "published_or_updated": "2026-11-27",
+          "why_selected": "HN 104 pts; strict JS-subset VM embedding in Node>=24/Bun with no WASM, capability-passed host functions, pause-to-bytes resumability, 19,408 test262 passing.",
+          "usefulness": "Candidate runner for agent-authored workflow steps; Env Vault local-trusted layer."
+        },
+        {
+          "title": "Side by Side: three Linux VMs in a browser tab",
+          "url": "https://michidk.github.io/sidebyside/",
+          "source_type": "product",
+          "published_or_updated": "2026-11-27",
+          "why_selected": "HN 137 pts; zero-install cross-engine visual QA — where agent-generated front-ends fail silently.",
+          "usefulness": "QA spot checks on client staging URLs."
+        },
+        {
+          "title": "rvoip: Rust SIP/VoIP stack with AI voice agents",
+          "url": "https://github.com/eisenzopf/rvoip",
+          "source_type": "repo",
+          "published_or_updated": "2026-11-25",
+          "why_selected": "v0.5.1, 3,165 commits, HN 124 pts; self-hosted escape hatch from hosted voice economics.",
+          "usefulness": "Track to 1.0 as the self-hosted leg of the voice-agent stack."
+        }
+      ]
+    },
+    {
+      "slug": "memory-systems-humans",
+      "title": "Memory Systems for Humans",
+      "selection_rationale": "Learning/memory last ran Nov 23 with research (sleep framework); today ships a product: Olumino brings FSRS-7 scheduling with Anki round-tripping to HN, plus two reading items on uncertainty and curiosity that inform gate design and learning culture.",
+      "sources": [
+        {
+          "title": "Olumino: Flashcards & Notes",
+          "url": "https://olumino.app/",
+          "source_type": "product",
+          "published_or_updated": "2026-11-27",
+          "why_selected": "HN 104 pts; FSRS-7 scheduling, Anki import with review history, full one-file export, moon-phase progress visual, free classes mode.",
+          "usefulness": "Arabic study daily driver; memory-scheduling analogy for agent memory design."
+        },
+        {
+          "title": "An introduction to uncertainty in machine learning",
+          "url": "https://chrhenning.com/blog/2026/introduction-to-uncertainty/",
+          "source_type": "blog",
+          "published_or_updated": "2026-11-27",
+          "why_selected": "HN 75 pts; aleatoric vs epistemic uncertainty maps cleanly to when a workflow needs a human gate vs better data.",
+          "usefulness": "Vocabulary for agent-confidence conversations; gate-design rationale."
+        },
+        {
+          "title": "Curiosity Is No Solo Act (MIT Press)",
+          "url": "https://thereader.mitpress.mit.edu/curiosity-is-no-solo-act/",
+          "source_type": "book",
+          "published_or_updated": "2026-11",
+          "why_selected": "HN 150 pts; curiosity as sustained social practice — supports shared-Q&A logs over private reading lists.",
+          "usefulness": "Framing for Buildn's learning loops and workflow Q&A logs."
+        }
+      ]
+    },
+    {
+      "slug": "creative-tools-local",
+      "title": "Creative Tools Go Local",
+      "selection_rationale": "First creative-tools lane since Nov 22; the signal moved from design platforms to local-first media production. AutoClip is the day's fastest-growing repo (889 stars/day) and its MCP server makes media pipelines agent-callable.",
+      "sources": [
+        {
+          "title": "AutoClip: open-source OpusClip alternative",
+          "url": "https://github.com/zhouxiaoka/autoclip",
+          "source_type": "repo",
+          "published_or_updated": "2026-11-26",
+          "why_selected": "17.3k stars, 889/day; local-first clipping pipeline (transcribe → cut → subtitles → covers → captions) with an MCP server for agent-driven operation.",
+          "usefulness": "Zero-subscription video→shorts pipeline; productizable offer for client content."
+        },
+        {
+          "title": "YouTube Ad Punisher",
+          "url": "https://github.com/antonpictures/youtube-punisher",
+          "source_type": "repo",
+          "published_or_updated": "2026-11-26",
+          "why_selected": "HN 383 pts; reloads pages on ads — incentive-level protest with a rich creator-economics thread.",
+          "usefulness": "Intel for content/creator-revenue clients; not for shipping."
+        },
+        {
+          "title": "BlenderUI Charts",
+          "url": "https://bui.preetham.top/charts/",
+          "source_type": "product",
+          "published_or_updated": "2026-11-26",
+          "why_selected": "HN 101 pts; full chart component system (7 base, 73 derived) rendered inside Blender 3D scenes.",
+          "usefulness": "Dashboards inside architecture walkthroughs; novel client demo."
+        }
+      ]
+    }
+  ]
+}

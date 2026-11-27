@@ -1,6 +1,78 @@
 {
-  "updated_at": "2026-11-25T09:07:38.894306+00:00",
+  "updated_at": "2026-11-27T09:13:02.869981+00:00",
   "days": [
+    {
+      "date": "2026-11-27",
+      "path": "2026-11-27",
+      "reports": [
+        {
+          "lane": "inference-supply-audit",
+          "title": "Inference Supply Chain Audit",
+          "url": "2026-11-27/inference-supply-audit.html"
+        },
+        {
+          "lane": "ai-native-services",
+          "title": "AI-Native Services Playbook",
+          "url": "2026-11-27/ai-native-services.html"
+        },
+        {
+          "lane": "verification-culture",
+          "title": "Verification Culture",
+          "url": "2026-11-27/verification-culture.html"
+        },
+        {
+          "lane": "sandboxed-execution",
+          "title": "Sandboxed Execution Comes to Node",
+          "url": "2026-11-27/sandboxed-execution.html"
+        },
+        {
+          "lane": "memory-systems-humans",
+          "title": "Memory Systems for Humans",
+          "url": "2026-11-27/memory-systems-humans.html"
+        },
+        {
+          "lane": "creative-tools-local",
+          "title": "Creative Tools Go Local",
+          "url": "2026-11-27/creative-tools-local.html"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-26",
+      "path": "2026-11-26",
+      "reports": [
+        {
+          "lane": "formal-math-mainstream",
+          "title": "Formal Math Goes Mainstream",
+          "url": "2026-11-26/formal-math-mainstream.html"
+        },
+        {
+          "lane": "agent-compartment-breach",
+          "title": "Agent Compartment Breach",
+          "url": "2026-11-26/agent-compartment-breach.html"
+        },
+        {
+          "lane": "voice-agent-economics",
+          "title": "Voice Agents Get a Cheap Brain",
+          "url": "2026-11-26/voice-agent-economics.html"
+        },
+        {
+          "lane": "agents-store-shelf",
+          "title": "Agents on the Store Shelf",
+          "url": "2026-11-26/agents-store-shelf.html"
+        },
+        {
+          "lane": "craft-care-web",
+          "title": "Craft, Care, and the Web",
+          "url": "2026-11-26/craft-care-web.html"
+        },
+        {
+          "lane": "everyday-agent-consent",
+          "title": "Everyday Agents, Everyday Consent",
+          "url": "2026-11-26/everyday-agent-consent.html"
+        }
+      ]
+    },
     {
       "date": "2026-11-25",
       "path": "2026-11-25",
