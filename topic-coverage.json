@@ -2033,6 +2033,30 @@
       "times_covered": 1,
       "last_covered": "2026-11-27",
       "last_selection_rationale": "First creative-tools lane since Nov 22; the signal moved from design platforms to local-first media production. AutoClip is the day's fastest-growing repo (889 stars/day) and its MCP server makes media pipelines agent-callable."
+    },
+    "platform-trust-incidents": {
+      "title": "Platform Trust Incidents",
+      "times_covered": 1,
+      "last_covered": "2026-11-28",
+      "last_selection_rationale": "1Password breach entered through an employee GitHub account and CI/CD, not vaults; the WebRTC Black Friday skimmer and RansomwareHelp fraud indictment share the trusted-intermediary failure shape. No overlap with Nov 25-26 supply-chain lanes."
+    },
+    "agent-behavior-assurance": {
+      "title": "Agent Behavior Assurance",
+      "times_covered": 1,
+      "last_covered": "2026-11-28",
+      "last_selection_rationale": "Claude-sabotage thread (HN 694 pts) makes agent-assurance a material update: intent unproven but the multi-variable-edit failure and one-change-at-a-time harness fix are concrete; paired with DJB's false computer-checked proofs."
+    },
+    "agent-dev-tooling": {
+      "title": "Agent Dev Tooling Wave",
+      "times_covered": 1,
+      "last_covered": "2026-11-28",
+      "last_selection_rationale": "GitHub trending snapshot: obra/superpowers, HKUDS CLI-Anything, OpenSRE, cursor/plugins, unkernel. All new projects; the skills/interfaces theme last ran Nov 17."
+    },
+    "local-inference-boosts": {
+      "title": "Local Inference Boosts",
+      "times_covered": 1,
+      "last_covered": "2026-11-28",
+      "last_selection_rationale": "Extends Nov 23 local-models lane with hardware leverage instead of weights: AMD RDNA llama.cpp patches (~2x prefill), Rayshader 1.0, chiller-free datacenter economics."
     }
   },
   "item_history": [
@@ -8480,6 +8504,126 @@
       "url": "https://arxiv.org/html/2611.12177v1",
       "source_type": "paper",
       "rationale": "A broad evaluation combines many capability and safety suites rather than a single narrow benchmark."
+    },
+    {
+      "date": "2026-11-28",
+      "lane": "platform-trust-incidents",
+      "title": "1Password: Update on a security incident involving backend systems",
+      "url": "https://1password.com/blog/update-on-nov-2026-security-incident",
+      "source_type": "blog",
+      "published_or_updated": "2026-11-25"
+    },
+    {
+      "date": "2026-11-28",
+      "lane": "platform-trust-incidents",
+      "title": "Credit card skimming scripts using WebRTC found on popular shopping sites",
+      "url": "https://www.infohawk.com/news/2026-11-27-black-friday-webrtc-skimmer",
+      "source_type": "news",
+      "published_or_updated": "2026-11-27"
+    },
+    {
+      "date": "2026-11-28",
+      "lane": "platform-trust-incidents",
+      "title": "CTO of 'RansomwareHelp' indicted for wire fraud",
+      "url": "https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/",
+      "source_type": "news",
+      "published_or_updated": "2026-11-26"
+    },
+    {
+      "date": "2026-11-28",
+      "lane": "platform-trust-incidents",
+      "title": "US Air Force's cloud computing platform hacked",
+      "url": "https://news.sky.com/story/us-air-forces-cloud-computing-platform-hacked-13617163",
+      "source_type": "news",
+      "published_or_updated": "2026-11-27"
+    },
+    {
+      "date": "2026-11-28",
+      "lane": "agent-behavior-assurance",
+      "title": "Claude sabotaging ML research tasks?",
+      "url": "https://news.ycombinator.com/item?id=50664325",
+      "source_type": "news",
+      "published_or_updated": "2026-11-27"
+    },
+    {
+      "date": "2026-11-28",
+      "lane": "agent-behavior-assurance",
+      "title": "False computer-checked proofs",
+      "url": "https://cr.yp.to/proofs/falseccp.html",
+      "source_type": "blog",
+      "published_or_updated": "2026-11-27"
+    },
+    {
+      "date": "2026-11-28",
+      "lane": "agent-behavior-assurance",
+      "title": "GPT 6.2 Astra Solves a Historical Mystery",
+      "url": "https://generativehistory.substack.com/p/gpt-62-astra-solves-a-historical",
+      "source_type": "blog",
+      "published_or_updated": "2026-11-26"
+    },
+    {
+      "date": "2026-11-28",
+      "lane": "agent-dev-tooling",
+      "title": "obra/superpowers: agentic skills framework + development methodology",
+      "url": "https://github.com/obra/superpowers",
+      "source_type": "repo",
+      "published_or_updated": "2026-11-27"
+    },
+    {
+      "date": "2026-11-28",
+      "lane": "agent-dev-tooling",
+      "title": "HKUDS/CLI-Anything: making all software agent-native",
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "source_type": "repo",
+      "published_or_updated": "2026-11-27"
+    },
+    {
+      "date": "2026-11-28",
+      "lane": "agent-dev-tooling",
+      "title": "Tracer-Cloud/opensre: open-source agent for CI/CD reliability",
+      "url": "https://github.com/Tracer-Cloud/opensre",
+      "source_type": "repo",
+      "published_or_updated": "2026-11-27"
+    },
+    {
+      "date": "2026-11-28",
+      "lane": "agent-dev-tooling",
+      "title": "cursor/plugins: plugin specification and official plugins",
+      "url": "https://github.com/cursor/plugins",
+      "source_type": "repo",
+      "published_or_updated": "2026-11-27"
+    },
+    {
+      "date": "2026-11-28",
+      "lane": "agent-dev-tooling",
+      "title": "pithings/unkernel: real Linux kernel compiled to WebAssembly",
+      "url": "https://github.com/pithings/unkernel",
+      "source_type": "repo",
+      "published_or_updated": "2026-11-28"
+    },
+    {
+      "date": "2026-11-28",
+      "lane": "local-inference-boosts",
+      "title": "AMD-specific fork of llama.cpp",
+      "url": "https://devnull.land/amd-specific-llama-cpp",
+      "source_type": "blog",
+      "published_or_updated": "2026-11-26"
+    },
+    {
+      "date": "2026-11-28",
+      "lane": "local-inference-boosts",
+      "title": "Rayshader 1.0: Exit the Matrix",
+      "url": "https://www.tylermw.com/posts/rayverse/rayshader-1-0-exit-the-matrix.html",
+      "source_type": "blog",
+      "published_or_updated": "2026-11-27"
+    },
+    {
+      "date": "2026-11-28",
+      "lane": "local-inference-boosts",
+      "title": "45C inlets just killed the chiller",
+      "url": "https://www.theregister.com/hpc/2026/11/26/45c-inlets-just-killed-the-chiller-most-people-havent-noticed-yet/5311831",
+      "source_type": "news",
+      "published_or_updated": "2026-11-26"
     }
   ],
   "last_run_selection": [
@@ -15122,7 +15266,7 @@
       "editorial_thesis": "Useful agent autonomy is bounded by task shape, runtime controls, and independent verification."
     }
   ],
-  "last_updated": "2026-11-24T09:11:41.145499+00:00",
+  "last_updated": "2026-11-28T09:06:30.653749+00:00",
   "successful_runs": "2026-11-24",
   "last_selection_rationale": "Dynamic five-lane pick for 2026-11-24: Ladybird alpha (largest HN story, web-independence gap since Sept), trending skill/plugin economy step-change, OpenAI+Cisco Shirudo launch (defensive, distinct from Nov 23 offense lane), longest-gap marketing lane revived by ChatGPT Business Hub first-party data, and ops-agent releases (OpenSRE, Genie ZeroOps, DeerFlow).",
   "last_generated_at": "2026-11-24T09:11:41.145499+00:00",
@@ -15207,5 +15351,6 @@
     ],
     "selection_rationale": "Filled a neglected memory lane, extended identity governance into a measurable control plane, and selected infrastructure changes with direct staging value."
   },
-  "pruned_before": "2026-09-26"
+  "pruned_before": "2026-09-26",
+  "items_pruned_before": "2026-09-29"
 }
