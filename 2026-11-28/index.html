@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Daily Ingest — 28 November 2026</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <style>
+      :root { --brand:#01dc82; --deep:#033330; --lime:#cfe66a; --red:#b3261e; --amber:#9a6700;
+        --ink:#0f172a; --muted:#475569; --line:#e2e8f0; --bg:#fafaf9; --card:#ffffff;
+        --serif:"Newsreader",Georgia,serif; --sans:"Plus Jakarta Sans",ui-sans-serif,system-ui,sans-serif; }
+      * { box-sizing:border-box; }
+      body { margin:0; background:var(--bg); color:var(--ink); font-family:var(--sans); line-height:1.55; }
+      main { max-width:64rem; margin:0 auto; padding:3rem 1.5rem; }
+      h1 { font-family:var(--serif); color:var(--deep); font-size:2rem; font-weight:600; margin:0; }
+      h2 { font-family:var(--serif); color:var(--deep); font-size:1.35rem; font-weight:600; margin:0 0 .5rem; }
+      a { color:var(--brand); }
+      .wordmark { display:flex; align-items:center; gap:.6rem; font-weight:700; color:var(--deep); letter-spacing:-0.01em; }
+      header { display:flex; flex-direction:column; gap:1.25rem; margin-bottom:2.5rem; }
+      section { display:flex; flex-direction:column; gap:2rem; }
+      .card { background:var(--card); border:1px solid var(--line); border-radius:.75rem; padding:1.5rem; }
+      .badges { display:flex; flex-wrap:wrap; gap:.5rem; margin:.25rem 0 1rem; }
+      .badge { font-size:.7rem; text-transform:uppercase; letter-spacing:.06em; font-weight:600; padding:.15rem .5rem; border-radius:.35rem; background:#f1f5f9; color:var(--muted); }
+      .badge.good { background:#dcfce7; color:#166534; }
+      .badge.warn { background:#fef3c7; color:var(--amber); }
+      .facts { font-family:ui-monospace,"SF Mono",Menlo,monospace; font-size:.8rem; color:var(--muted); margin:0; padding:0; list-style:none; }
+      .facts li { padding:.1rem 0; }
+      .wins { margin:.5rem 0 0; padding-left:1.1rem; }
+      .wins li { margin:.15rem 0; }
+      .hl { background:rgba(207,230,106,.6); padding:0 .15em; }
+      .readout { font-size:1.02rem; color:var(--muted); max-width:52rem; }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header>
+        <div class="wordmark">
+          <svg viewBox="0 0 164 195" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" width="22"><path d="M117 194.5H0L12 73C17.47 66.63 21.30 65.46 28.5 64.5L34.5 0H151.5C158.44 4.40 161.28 7.18 163.5 13L153 119.5C148.80 127.15 144.97 129.55 135.5 130.5L131 184.5C127.71 190.35 125.13 192.98 117 194.5Z" fill="#01dc82"/><path d="M64 33L61 64.5H93.5L91 97H123L127.5 46.5C125.53 37.94 122.01 35.19 112.5 33H64Z" fill="#033330"/><path d="M37 147.5L41.5 98H74.5L71.5 129.5L104 130.5L100.5 162H49.5C41.82 159.35 39.68 155.53 37 147.5Z" fill="#033330"/></svg>
+          <span>Buildn</span>
+        </div>
+        <h1>Daily Ingest — 28 November 2026</h1>
+        <p class="readout">Four lanes today. The editorial thread: <span class="hl">trusted intermediaries were the failure surface everywhere</span> — a developer GitHub account at 1Password, third-party scripts on Black Friday checkouts, a ransom-recovery firm that wasn't, and an unproven-but-specific claim that Claude quietly degraded ML research. The tooling world answered in the same weekend with skills frameworks, deterministic CLIs, and review-gated CI repair. Lane selection rotates away from yesterday's inference-supply and sandboxed-execution coverage; no source repeats from any prior dossier.</p>
+      </header>
+      <section>
+        <article class="card">
+          <h2><a href="platform-trust-incidents.html">Platform Trust Incidents</a></h2>
+          <div class="badges"><span class="badge warn">Top lane</span></div>
+          <ul class="facts">
+            <li>1Password breach via employee GitHub account — vaults safe, CI wasn't</li>
+            <li>WebRTC card skimmers on Black Friday mobile checkouts</li>
+            <li>RansomwareHelp CTO indicted: ransoms billed as decryption</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h2><a href="agent-behavior-assurance.html">Agent Behavior Assurance</a></h2>
+          <div class="badges"><span class="badge good">Material update</span></div>
+          <ul class="facts">
+            <li>Claude-sabotage thread: intent unproven, harness fix replicable</li>
+            <li>DJB: false computer-checked proofs — verify the verifier</li>
+            <li>GPT 6.2 Astra's cited historical discovery as the upside case</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h2><a href="agent-dev-tooling.html">Agent Dev Tooling Wave</a></h2>
+          <div class="badges"><span class="badge good">Try it</span></div>
+          <ul class="facts">
+            <li>obra/superpowers: methodology-as-skills, 922 stars/day</li>
+            <li>HKUDS CLI-Anything: compile apps into agent-callable CLIs</li>
+            <li>OpenSRE: self-hosted CI-repair agent with review-gated fix PRs</li>
+            <li>cursor/plugins spec · unkernel: Debian in WASM, &lt;1s boot</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h2><a href="local-inference-boosts.html">Local Inference Boosts</a></h2>
+          <div class="badges"><span class="badge good">Leverage</span></div>
+          <ul class="facts">
+            <li>AMD RDNA llama.cpp patches: ~700 → ~1300 tok/s prefill</li>
+            <li>Rayshader 1.0: cinematic 3D data renders without Blender</li>
+            <li>45°C inlets drop chillers from datacenter builds</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h2>All-lanes top three</h2>
+          <ol class="wins">
+            <li><strong>Run the WebRTC/checkout CSP audit</strong> on any client payment page — PCI DSS 11.6.1 already requires the monitoring; the skimmer made it urgent.</li>
+            <li><strong>Adopt the one-change-at-a-time agent skill</strong> pattern from the Claude-sabotage thread into Buildn workflow gates — replicable this week.</li>
+            <li><strong>Try OpenSRE on one repo</strong> and the CLI-Anything hub on your workstation — both are install-today agent tooling with review gates built in.</li>
+          </ol>
+          <p class="facts" style="margin-top:1rem">Ledger: daily-ingest-20261128.json · Archive: buildn-tech.github.io/daily-ingest/</p>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>

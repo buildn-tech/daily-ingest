@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Daily Ingest Dossier — Agent Dev Tooling Wave</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <style>
+      :root { --brand:#01dc82; --deep:#033330; --lime:#cfe66a; --red:#b3261e; --amber:#9a6700;
+        --ink:#0f172a; --muted:#475569; --line:#e2e8f0; --bg:#fafaf9; --card:#ffffff;
+        --serif:"Newsreader",Georgia,serif; --sans:"Plus Jakarta Sans",ui-sans-serif,system-ui,sans-serif; }
+      * { box-sizing:border-box; }
+      body { margin:0; background:var(--bg); color:var(--ink); font-family:var(--sans); line-height:1.55; }
+      main { max-width:64rem; margin:0 auto; padding:3rem 1.5rem; }
+      h1 { font-family:var(--serif); color:var(--deep); font-size:2rem; font-weight:600; margin:0; }
+      h2 { font-family:var(--serif); color:var(--deep); font-size:1.35rem; font-weight:600; margin:0 0 .5rem; }
+      a { color:var(--brand); }
+      .wordmark { display:flex; align-items:center; gap:.6rem; font-weight:700; color:var(--deep); letter-spacing:-0.01em; }
+      header { display:flex; flex-direction:column; gap:1.25rem; margin-bottom:2.5rem; }
+      section { display:flex; flex-direction:column; gap:2rem; }
+      .card { background:var(--card); border:1px solid var(--line); border-radius:.75rem; padding:1.5rem; }
+      .badges { display:flex; flex-wrap:wrap; gap:.5rem; margin:.25rem 0 1rem; }
+      .badge { font-size:.7rem; text-transform:uppercase; letter-spacing:.06em; font-weight:600; padding:.15rem .5rem; border-radius:.35rem; background:#f1f5f9; color:var(--muted); }
+      .badge.good { background:#dcfce7; color:#166534; }
+      .badge.warn { background:#fef3c7; color:var(--amber); }
+      .badge.spec { background:#e2e8f0; color:#334155; }
+      .facts { font-family:ui-monospace,"SF Mono",Menlo,monospace; font-size:.8rem; color:var(--muted); margin:0 0 1rem; padding:0; list-style:none; }
+      .facts li { padding:.1rem 0; }
+      .diagram { border:1px solid var(--line); border-radius:.5rem; background:#fff; padding:1rem; margin:1rem 0; }
+      .diagram svg { display:block; max-width:100%; height:auto; }
+      .label { font-size:.7rem; text-transform:uppercase; letter-spacing:.08em; fill:var(--muted); color:var(--muted); }
+      .wins { margin:.5rem 0 0; padding-left:1.1rem; }
+      .wins li { margin:.15rem 0; }
+      .callout { border-left:3px solid var(--amber); background:#fffbeb; color:#713f12; padding:.6rem .9rem; border-radius:.25rem; font-size:.9rem; }
+      .hl { background:rgba(207,230,106,.6); padding:0 .15em; }
+      .seam { stroke-dasharray:4 4; } .accent { stroke:var(--red); }
+      .matrix { width:100%; border-collapse:collapse; font-size:.85rem; margin-top:1rem; }
+      .matrix th, .matrix td { border:1px solid var(--line); padding:.45rem .6rem; text-align:left; vertical-align:top; }
+      .matrix th { background:#f1f5f9; font-size:.72rem; text-transform:uppercase; letter-spacing:.05em; color:var(--muted); }
+      .readout { font-size:1.02rem; color:var(--muted); max-width:52rem; }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header>
+        <div class="wordmark">
+          <svg viewBox="0 0 164 195" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" width="22"><path d="M117 194.5H0L12 73C17.47 66.63 21.30 65.46 28.5 64.5L34.5 0H151.5C158.44 4.40 161.28 7.18 163.5 13L153 119.5C148.80 127.15 144.97 129.55 135.5 130.5L131 184.5C127.71 190.35 125.13 192.98 117 194.5Z" fill="#01dc82"/><path d="M64 33L61 64.5H93.5L91 97H123L127.5 46.5C125.53 37.94 122.01 35.19 112.5 33H64Z" fill="#033330"/><path d="M37 147.5L41.5 98H74.5L71.5 129.5L104 130.5L100.5 162H49.5C41.82 159.35 39.68 155.53 37 147.5Z" fill="#033330"/></svg>
+          <span>Buildn</span>
+        </div>
+        <h1>Daily Ingest Dossier — Agent Dev Tooling Wave</h1>
+        <p class="readout">Saturday, 28 November 2026. GitHub trending is an agent-infrastructure snapshot today: a skills framework doing 922 stars/day, a project that compiles desktop apps into agent-callable CLIs, a self-hosted CI-repair agent, Cursor's open plugin spec, and a real Linux kernel booting in the browser. <span class="hl">The shared bet: agents need surfaces with contracts — skills, CLIs, specs — not more GUI automation.</span></p>
+      </header>
+      <section>
+        <article class="card" id="superpowers">
+          <h2>obra/superpowers — methodology sold as skills</h2>
+          <div class="badges"><span class="badge good">Hot</span><span class="badge">Skills</span><span class="badge">Methodology</span></div>
+          <ul class="facts">
+            <li>repo: github.com/obra/superpowers</li>
+            <li>328k stars · 922 stars/day today</li>
+            <li>shape: skill bundles + slash commands encoding a dev process</li>
+          </ul>
+          <p><strong>What it is.</strong> An agentic skills framework that packages not just capabilities but a software development methodology — how to plan, implement, review, and hand off — as installable skills.</p>
+          <p><strong>Why it matters.</strong> Most skill collections are tool manuals. Superpowers sells process, which is the same bet as Buildn's workflow templates: the durable value is the encoded method, not the prompt. Study how it names, chains, and versions skills.</p>
+          <ul class="wins">
+            <li>Methodology is the moat, not tools</li>
+            <li>Skill naming/chaining worth copying</li>
+            <li>Distribution: installable, forkable</li>
+          </ul>
+        </article>
+
+        <article class="card" id="clianything">
+          <h2>HKUDS/CLI-Anything — compile any app into an agent CLI</h2>
+          <div class="badges"><span class="badge good">Try it</span><span class="badge">Agent interfaces</span></div>
+          <ul class="facts">
+            <li>repo: github.com/HKUDS/CLI-Anything · 67k stars</li>
+            <li>hub: clianything.cc, 200+ prebuilt connectors</li>
+            <li>pipeline: 7 phases from app source → CLI + tests + docs + skill file</li>
+            <li>targets: GIMP, Blender, LibreOffice, draw.io, OpenWebUI…</li>
+          </ul>
+          <div class="diagram">
+            <svg viewBox="0 0 480 120" role="img" aria-label="App source becomes a CLI with tests, docs and a skill file that any agent can discover and use">
+              <defs><marker id="a1" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 z" fill="#94a3b8"/></marker></defs>
+              <rect x="8" y="40" width="110" height="40" rx="6" fill="#fff" stroke="#cbd5e1"/>
+              <text x="63" y="58" text-anchor="middle" class="label">App source</text>
+              <text x="63" y="72" text-anchor="middle" class="label">GIMP · Blender…</text>
+              <line x1="118" y1="60" x2="180" y2="60" stroke="#94a3b8" marker-end="url(#a1)"/>
+              <rect x="180" y="40" width="120" height="40" rx="6" fill="#fff" stroke="var(--brand)"/>
+              <text x="240" y="58" text-anchor="middle" class="label">7-phase pipeline</text>
+              <text x="240" y="72" text-anchor="middle" class="label">agent generates CLI</text>
+              <line x1="300" y1="60" x2="362" y2="60" stroke="#94a3b8" marker-end="url(#a1)"/>
+              <rect x="362" y="40" width="110" height="40" rx="6" fill="#fff" stroke="#cbd5e1"/>
+              <text x="417" y="54" text-anchor="middle" class="label">CLI + tests + docs</text>
+              <text x="417" y="68" text-anchor="middle" class="label">+ skill file</text>
+              <text x="240" y="106" text-anchor="middle" class="label">deterministic interface &gt; GUI automation: same commands, any agent, any run</text>
+            </svg>
+          </div>
+          <p><strong>What it is.</strong> A generator that reads desktop-app source and emits a full command-line interface — command tree, session representation, tests, docs, and an agent-discoverable skill file. CLI-Hub distributes prebuilt ones via <code>pip install cli-anything-hub</code>.</p>
+          <p><strong>Why it matters.</strong> It turns "agent uses app" from brittle screen-clicking into typed commands with predictable results. Direct template for Env Vault's local-MCP/CLI portal: wrap local systems in deterministic harnesses, keep MCP for the control plane.</p>
+          <ul class="wins">
+            <li>Deterministic CLIs beat screen scraping</li>
+            <li>Skill file ships with the tool</li>
+            <li>Hub model = distribution flywheel</li>
+          </ul>
+          <div class="callout">Generated CLIs are only as trustworthy as the generation run; audit the harness before letting agents act on real data.</div>
+        </article>
+
+        <article class="card" id="opensre">
+          <h2>OpenSRE — the agent that fixes red builds (for review)</h2>
+          <div class="badges"><span class="badge good">Adopt</span><span class="badge">CI/CD</span><span class="badge">Self-hosted</span></div>
+          <ul class="facts">
+            <li>repo: github.com/Tracer-Cloud/opensre · public alpha</li>
+            <li>model: reads failed run → tests hypotheses → pushes fix PR</li>
+            <li>separates CI-caused vs code-caused failures</li>
+            <li>reports: failure rate, dev hours lost, main-red time</li>
+            <li>integrations: GitHub, K8s, CloudWatch, Datadog, Grafana, Slack</li>
+          </ul>
+          <p><strong>What it is.</strong> A self-hosted CLI agent for CI/CD reliability. When a run goes red it investigates immediately, distinguishes flaky infrastructure from real regressions, and opens a fix for human review. It also quantifies what unreliable CI costs in engineer hours.</p>
+          <p><strong>Why it matters.</strong> Two reasons to run it this week: it's the review-gated agent pattern done concretely (agent proposes, human approves), and its failure-economics report is the kind of measurement clients understand instantly. Runs on your infrastructure with your models.</p>
+          <ul class="wins">
+            <li>Fix cause, not rerun</li>
+            <li>Review-gated fix PRs</li>
+            <li>CI cost made visible</li>
+          </ul>
+          <div class="callout">Public alpha — treat API surfaces as moving; pin a release before wiring into client pipelines.</div>
+        </article>
+
+        <article class="card" id="cursor">
+          <h2>cursor/plugins + unkernel — the surface layer consolidates</h2>
+          <div class="badges"><span class="badge spec">Watch</span><span class="badge">Interop</span><span class="badge">Sandboxing</span></div>
+          <ul class="facts">
+            <li>repo: github.com/cursor/plugins · 20k stars</li>
+            <li>repo: github.com/pithings/unkernel · Debian in WASM, &lt;1s boot</li>
+            <li>unkernel: persistent browser data disk, SMP via web workers</li>
+          </ul>
+          <p><strong>What they are.</strong> Cursor published its plugin specification and official plugins — the IDE agent surface converging on the same skills/MCP vocabulary as everything else. Separately, unkernel compiles a real Linux kernel to WebAssembly and boots Debian in a browser tab in under a second, with a persistent data disk and networking.</p>
+          <p><strong>Why they matter.</strong> One spec shape to track for Buildn MCP compatibility; one zero-install sandbox that could host client demos or bounded agent execution without any server. Both are plumbing, both lower the cost of every workflow built on top.</p>
+          <ul class="wins">
+            <li>Track plugin spec for MCP parity</li>
+            <li>Browser VM = instant client demos</li>
+            <li>Sandbox-per-tab agent execution</li>
+          </ul>
+        </article>
+
+        <article class="card" id="matrix">
+          <h2>Use-case matrix</h2>
+          <table class="matrix">
+            <tr><th>Item</th><th>Buildn OS</th><th>Client work</th><th>Agent workflows</th><th>Personal leverage</th></tr>
+            <tr><td>superpowers</td><td>Skill template design</td><td>Methodology packaging</td><td>Install into Hermes/Claude</td><td>Better personal dev loop</td></tr>
+            <tr><td>CLI-Anything</td><td>Env Vault local CLI portal</td><td>Legacy-app agent access</td><td>Deterministic tool harness</td><td>Drive desktop apps by prompt</td></tr>
+            <tr><td>OpenSRE</td><td>Buildn repo CI guard</td><td>Client CI reliability offer</td><td>Review-gated fix pattern</td><td>Fewer rerun-and-hope cycles</td></tr>
+            <tr><td>cursor/plugins</td><td>Spec to track for parity</td><td>—</td><td>IDE agent interop</td><td>—</td></tr>
+            <tr><td>unkernel</td><td>Demo environments</td><td>Zero-install prototypes</td><td>Bounded local sandbox</td><td>Playground in a tab</td></tr>
+          </table>
+        </article>
+
+        <article class="card" id="top">
+          <h2>Top-line</h2>
+          <p>The wave rewards builders who encode contracts: skills that carry methodology (superpowers), CLIs that carry tests (CLI-Anything), fix PRs that carry review gates (OpenSRE). Highest-leverage move: install OpenSRE on one Buildn repo and install CLI-Anything's hub on your workstation, this weekend. Anchors: <a href="#superpowers">superpowers</a> · <a href="#clianything">CLI-Anything</a> · <a href="#opensre">OpenSRE</a> · <a href="#cursor">cursor/plugins + unkernel</a>.</p>
+        </article>
+
+        <article class="card" id="trail">
+          <h2>Source trail</h2>
+          <ul class="wins">
+            <li><a href="https://github.com/obra/superpowers">obra/superpowers</a></li>
+            <li><a href="https://github.com/HKUDS/CLI-Anything">HKUDS/CLI-Anything</a></li>
+            <li><a href="https://clianything.cc/">CLI-Anything Hub</a></li>
+            <li><a href="https://github.com/Tracer-Cloud/opensre">Tracer-Cloud/opensre</a></li>
+            <li><a href="https://github.com/cursor/plugins">cursor/plugins</a></li>
+            <li><a href="https://unkernel.dev/">unkernel.dev</a> · <a href="https://github.com/pithings/unkernel">pithings/unkernel</a></li>
+          </ul>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>

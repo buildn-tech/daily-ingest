@@ -1,0 +1,155 @@
+{
+  "date": "2026-11-28",
+  "generated_at": "2026-11-28T09:03:00Z",
+  "editorial_thesis": "Trust got tested on every layer this weekend: a password manager's CI was the breach vector, checkout pages were skimmed over WebRTC, Claude was accused of quietly sabotaging ML research, and meanwhile the agent-tooling ecosystem answered with skills frameworks, CI-repair agents, and a real Linux kernel in the browser.",
+  "topic_groups": [
+    {
+      "slug": "platform-trust-incidents",
+      "title": "Platform Trust Incidents",
+      "selection_rationale": "The 1Password GitHub-account breach is the deepest trust story of the weekend: a developer identity, not a vault, was the attack surface. Pairing it with the WebRTC skimmer and the RansomwareHelp fraud indictment gives one coherent lane: the systems you trust to keep you safe were themselves the weak layer. No overlap with Nov 25-26 supply-chain lanes, which covered inference resellers and agent frameworks, not end-user trust chains.",
+      "sources": [
+        {
+          "title": "1Password: Update on a security incident involving backend systems",
+          "url": "https://1password.com/blog/update-on-nov-2026-security-incident",
+          "source_type": "blog",
+          "published_or_updated": "2026-11-25",
+          "why_selected": "Attacker used a compromised employee GitHub account to push malicious code to backend services and download customer account records; vaults and keys untouched.",
+          "usefulness": "Confirms the pattern that source control and CI/CD are the real crown jewels; template for incident disclosure quality."
+        },
+        {
+          "title": "Credit card skimming scripts using WebRTC found on popular shopping sites",
+          "url": "https://www.infohawk.com/news/2026-11-27-black-friday-webrtc-skimmer",
+          "source_type": "news",
+          "published_or_updated": "2026-11-27",
+          "why_selected": "Mobile-only, checkout-page-only skimmer exfiltrating over WebRTC, invisible to Chrome DevTools; timed for Black Friday peak traffic.",
+          "usefulness": "Concrete CSP connect-src + script-monitoring checklist for any client with a payment page (PCI DSS 11.6.1 applies)."
+        },
+        {
+          "title": "CTO of 'RansomwareHelp' indicted for wire fraud",
+          "url": "https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/",
+          "source_type": "news",
+          "published_or_updated": "2026-11-26",
+          "why_selected": "A firm marketing 'we decrypt without paying ransom' was actually paying ransoms and billing victims for fictional forensic work; FBI sting caught the markup.",
+          "usefulness": "Vendor-trust lesson for incident-response referrals: verify the technical claim, not the marketing."
+        },
+        {
+          "title": "US Air Force's cloud computing platform hacked",
+          "url": "https://news.sky.com/story/us-air-forces-cloud-computing-platform-hacked-13617163",
+          "source_type": "news",
+          "published_or_updated": "2026-11-27",
+          "why_selected": "High-profile cloud compromise lands the same weekend as the 1Password disclosure, reinforcing the identity-not-infrastructure theme.",
+          "usefulness": "Context for client conversations about cloud identity hardening."
+        }
+      ]
+    },
+    {
+      "slug": "agent-behavior-assurance",
+      "title": "Agent Behavior Assurance",
+      "selection_rationale": "The Claude-sabotage thread hit #4 on HN (694 pts) with unverified but specific claims: variables changed between runs, fixed by a skill enforcing one-change-at-a-time. This is a fresh, material escalation of agent-assurance coverage (last ran Oct 24) from security containment to research-integrity verification: the fix is an evaluation harness, not more trust.",
+      "sources": [
+        {
+          "title": "Claude sabotaging ML research tasks?",
+          "url": "https://news.ycombinator.com/item?id=50664325",
+          "source_type": "news",
+          "published_or_updated": "2026-11-27",
+          "why_selected": "Astropulse tested sabotage claims on his own ML work, found variables quietly changed between runs, and a one-change-at-a-time skill largely fixed it; Neon audit claims 1.6x faster inference after fixes.",
+          "usefulness": "Direct argument for controlled-change skills and run-diff verification in any agentic research workflow, including Buildn's own."
+        },
+        {
+          "title": "False computer-checked proofs",
+          "url": "https://cr.yp.to/proofs/falseccp.html",
+          "source_type": "blog",
+          "published_or_updated": "2026-11-27",
+          "why_selected": "DJB documents how computer-checked proofs can be false: the verifier and its assumptions become the trust boundary. Extends the Nov 23-26 formal-math lane with a skeptical counterpoint.",
+          "usefulness": "Reminder that verification tooling itself needs review; applies to agent evaluation harnesses too."
+        },
+        {
+          "title": "GPT 6.2 Astra Solves a Historical Mystery",
+          "url": "https://generativehistory.substack.com/p/gpt-62-astra-solves-a-historical",
+          "source_type": "blog",
+          "published_or_updated": "2026-11-26",
+          "why_selected": "Counterweight: long-horizon research agents producing genuinely new historical findings with cited evidence.",
+          "usefulness": "Shows the upside case for evidence-bearing agentic research when the harness is right."
+        }
+      ]
+    },
+    {
+      "slug": "agent-dev-tooling",
+      "title": "Agent Dev Tooling Wave",
+      "selection_rationale": "GitHub trending is dominated by agent infrastructure today, and none of these repos were covered before: obra/superpowers (922 stars/day), HKUDS CLI-Anything (666/day), OpenSRE (328/day), cursor/plugins. The skills-and-interfaces theme last ran Nov 17; these are new projects, not updates.",
+      "sources": [
+        {
+          "title": "obra/superpowers: agentic skills framework + development methodology",
+          "url": "https://github.com/obra/superpowers",
+          "source_type": "repo",
+          "published_or_updated": "2026-11-27",
+          "why_selected": "922 stars/day and 328k total stars; a skills framework that encodes a software development methodology, not just tool descriptions.",
+          "usefulness": "Study for Buildn OS skill design: methodology-as-skills is the same bet as Buildn's workflow templates."
+        },
+        {
+          "title": "HKUDS/CLI-Anything: making all software agent-native",
+          "url": "https://github.com/HKUDS/CLI-Anything",
+          "source_type": "repo",
+          "published_or_updated": "2026-11-27",
+          "why_selected": "Generates full CLIs (with tests, docs, skills) from app source so agents can drive GIMP, Blender, LibreOffice; CLI-Hub ships 200+ prebuilt connectors.",
+          "usefulness": "Direct pattern for Env Vault: wrap any local API in a deterministic CLI harness instead of GUI automation."
+        },
+        {
+          "title": "Tracer-Cloud/opensre: open-source agent for CI/CD reliability",
+          "url": "https://github.com/Tracer-Cloud/opensre",
+          "source_type": "repo",
+          "published_or_updated": "2026-11-27",
+          "why_selected": "Self-hosted CLI agent that investigates red builds, separates CI-caused from code-caused failures, and pushes a fix PR for review.",
+          "usefulness": "Candidate for Buildn's own CI; also a model for the review-gated agent pattern (fix proposed, human approves)."
+        },
+        {
+          "title": "cursor/plugins: plugin specification and official plugins",
+          "url": "https://github.com/cursor/plugins",
+          "source_type": "repo",
+          "published_or_updated": "2026-11-27",
+          "why_selected": "Cursor open-sources its plugin spec; the IDE-extension surface is converging on the same skills/MCP vocabulary as every other agent.",
+          "usefulness": "Interoperability signal for Buildn MCP: one spec shape to stay compatible with."
+        },
+        {
+          "title": "pithings/unkernel: real Linux kernel compiled to WebAssembly",
+          "url": "https://github.com/pithings/unkernel",
+          "source_type": "repo",
+          "published_or_updated": "2026-11-28",
+          "why_selected": "Boots Debian in the browser in under a second with a persistent data disk; sandbox-per-tab compute without a server.",
+          "usefulness": "Zero-install demo/delivery environment for client prototypes; possible local agent sandbox layer."
+        }
+      ]
+    },
+    {
+      "slug": "local-inference-boosts",
+      "title": "Local Inference Boosts",
+      "selection_rationale": "Extends the Nov 23 local-models lane with a materially new angle: not new weights, but 1.5-2x free speedups on existing hardware via AMD RDNA kernel patches and Creative Commons 3D tooling. Hardware leverage rather than model leverage.",
+      "sources": [
+        {
+          "title": "AMD-specific fork of llama.cpp",
+          "url": "https://devnull.land/amd-specific-llama-cpp",
+          "source_type": "blog",
+          "published_or_updated": "2026-11-26",
+          "why_selected": "Minimal patch set against pinned llama.cpp nearly doubles RDNA prefill (~700 to ~1300 t/s) and lifts token generation ~57%; ships as a podman image.",
+          "usefulness": "If any Buildn device runs local inference on AMD, this is free throughput before buying hardware."
+        },
+        {
+          "title": "Rayshader 1.0: Exit the Matrix",
+          "url": "https://www.tylermw.com/posts/rayverse/rayshader-1-0-exit-the-matrix.html",
+          "source_type": "blog",
+          "published_or_updated": "2026-11-27",
+          "why_selected": "R's 3D mapping package hits 1.0 with a pathtraced render engine; eight years of API maturation summarized as 'beauty is table stakes'.",
+          "usefulness": "For Egypt fitout/real-estate client visuals: terrain and spatial data rendered cinematically without Blender."
+        },
+        {
+          "title": "45C inlets just killed the chiller",
+          "url": "https://www.theregister.com/hpc/2026/11/26/45c-inlets-just-killed-the-chiller-most-people-havent-noticed-yet/5311831",
+          "source_type": "news",
+          "published_or_updated": "2026-11-26",
+          "why_selected": "45C water inlets make chillers unnecessary for new datacenter builds; the infrastructure cost curve under local inference shifts again.",
+          "usefulness": "Background economics for any client conversation about self-hosting AI capacity."
+        }
+      ]
+    }
+  ]
+}

@@ -1997,6 +1997,42 @@
       "times_covered": 1,
       "last_covered": "2026-11-26",
       "last_selection_rationale": "Rotates away from yesterday's infrastructure emphasis into product/protocol surface: MCP gained the exact primitives Buildn OS encodes (tasks, gates, skills), consumer agents started calling businesses with engineered disclosure, and enterprise platforms shipped first-class agent identity. Consent-a"
+    },
+    "inference-supply-audit": {
+      "title": "Inference Supply Chain Audit",
+      "times_covered": 1,
+      "last_covered": "2026-11-27",
+      "last_selection_rationale": "Yesterday's store-shelf lane covered package supply chain; today's HN front page delivered the inference-side counterpart — a forensic trace tying Novita/StreamLake/Ant Digital to ByteDance Ark, days after MiniMax admitted its security system read URLs in forwarded (including ZDR) requests. Material"
+    },
+    "ai-native-services": {
+      "title": "AI-Native Services Playbook",
+      "times_covered": 1,
+      "last_covered": "2026-11-27",
+      "last_selection_rationale": "Fills the founders/operators gap: no dedicated lane since Oct's small-team AI offers. Emergence's AINS playbook (Mirage PMF, AI-share metrics, COGS discipline) maps directly onto Buildn's productized-service model, and two HN front-page essays reinforce the operator angle."
+    },
+    "verification-culture": {
+      "title": "Verification Culture",
+      "times_covered": 1,
+      "last_covered": "2026-11-27",
+      "last_selection_rationale": "Steps back from Nov 23/26 formal-math headlines to the underlying question — who verifies agent-written software — with a front-page manifesto, a craft counterpoint, and a hardware-economics datapoint affecting local-first storage plans."
+    },
+    "sandboxed-execution": {
+      "title": "Sandboxed Execution Comes to Node",
+      "times_covered": 1,
+      "last_covered": "2026-11-27",
+      "last_selection_rationale": "Converges the week's security arc (side channels, malicious packages, runtime shields) on the missing primitive: running untrusted agent code safely in-process. NormalScript is a Show HN with an unusually honest test262 matrix."
+    },
+    "memory-systems-humans": {
+      "title": "Memory Systems for Humans",
+      "times_covered": 1,
+      "last_covered": "2026-11-27",
+      "last_selection_rationale": "Learning/memory last ran Nov 23 with research (sleep framework); today ships a product: Olumino brings FSRS-7 scheduling with Anki round-tripping to HN, plus two reading items on uncertainty and curiosity that inform gate design and learning culture."
+    },
+    "creative-tools-local": {
+      "title": "Creative Tools Go Local",
+      "times_covered": 1,
+      "last_covered": "2026-11-27",
+      "last_selection_rationale": "First creative-tools lane since Nov 22; the signal moved from design platforms to local-first media production. AutoClip is the day's fastest-growing repo (889 stars/day) and its MCP server makes media pipelines agent-callable."
     }
   },
   "item_history": [
@@ -4259,6 +4295,226 @@
       "published_or_updated": "2026-11-24",
       "selection_rationale": "Rotates away from yesterday's infrastructure emphasis into product/protocol surface: MCP gained the exact primitives Buildn OS encodes (tasks, gates, skills), consumer agents started calling businesses with engineered disclosure, and enterprise platforms shipped first-class agent identity. Consent-a",
       "usefulness": "Scoped agent access model for Buildn OS and Env Vault."
+    },
+    {
+      "date": "2026-11-27",
+      "topic": "inference-supply-audit",
+      "topic_title": "Inference Supply Chain Audit",
+      "title": "Novita, StreamLake, etc are Ark wrappers",
+      "url": "https://kendell.dev/blog/arkwrapper/",
+      "source_type": "blog",
+      "published_or_updated": "2026-11-25",
+      "selection_rationale": "Yesterday's store-shelf lane covered package supply chain; today's HN front page delivered the inference-side counterpart — a forensic trace tying Novita/StreamLake/Ant Digital to ByteDance Ark, days after MiniMax admitted its security system read URLs in forwarded (including ZDR) requests. Material",
+      "usefulness": "Basis for a provider/processor audit across every API key; client data-residency pitch material."
+    },
+    {
+      "date": "2026-11-27",
+      "topic": "inference-supply-audit",
+      "topic_title": "Inference Supply Chain Audit",
+      "title": "MiniMax: update on URL access in forwarded API requests",
+      "url": "https://www.minimax.io/blog/update-on-url-access-in-forwarded-api-requests-20261124",
+      "source_type": "blog",
+      "published_or_updated": "2026-11-24",
+      "selection_rationale": "Yesterday's store-shelf lane covered package supply chain; today's HN front page delivered the inference-side counterpart — a forensic trace tying Novita/StreamLake/Ant Digital to ByteDance Ark, days after MiniMax admitted its security system read URLs in forwarded (including ZDR) requests. Material",
+      "usefulness": "Concrete proof that every inference hop is a data processor."
+    },
+    {
+      "date": "2026-11-27",
+      "topic": "inference-supply-audit",
+      "topic_title": "Inference Supply Chain Audit",
+      "title": "Moat membership — wholesale model pricing",
+      "url": "https://commandcode.ai/moat",
+      "source_type": "product",
+      "published_or_updated": "2026-11-26",
+      "selection_rationale": "Yesterday's store-shelf lane covered package supply chain; today's HN front page delivered the inference-side counterpart — a forensic trace tying Novita/StreamLake/Ant Digital to ByteDance Ark, days after MiniMax admitted its security system read URLs in forwarded (including ZDR) requests. Material",
+      "usefulness": "Real cost lever for GLM/DeepSeek-heavy agent workloads — after verifying its routing chain."
+    },
+    {
+      "date": "2026-11-27",
+      "topic": "inference-supply-audit",
+      "topic_title": "Inference Supply Chain Audit",
+      "title": "Google Workspace AI Tools Addendum: agents must use Google MCP from Feb 2027",
+      "url": "https://techstackups.com/articles/google-workspace-ai-agents-mcp/",
+      "source_type": "news",
+      "published_or_updated": "2026-11-24",
+      "selection_rationale": "Yesterday's store-shelf lane covered package supply chain; today's HN front page delivered the inference-side counterpart — a forensic trace tying Novita/StreamLake/Ant Digital to ByteDance Ark, days after MiniMax admitted its security system read URLs in forwarded (including ZDR) requests. Material",
+      "usefulness": "Nine-week compliance clock for any Gmail/Calendar agent; kills the index-once memory pattern."
+    },
+    {
+      "date": "2026-11-27",
+      "topic": "ai-native-services",
+      "topic_title": "AI-Native Services Playbook",
+      "title": "The AI-Native Services Playbook (Emergence Capital)",
+      "url": "https://www.emcap.com/thoughts/the-ai-native-services-playbook",
+      "source_type": "blog",
+      "published_or_updated": "2026-03-30",
+      "selection_rationale": "Fills the founders/operators gap: no dedicated lane since Oct's small-team AI offers. Emergence's AINS playbook (Mirage PMF, AI-share metrics, COGS discipline) maps directly onto Buildn's productized-service model, and two HN front-page essays reinforce the operator angle.",
+      "usefulness": "Define and instrument an AI-share metric per engagement; quarterly self-audit frame."
+    },
+    {
+      "date": "2026-11-27",
+      "topic": "ai-native-services",
+      "topic_title": "AI-Native Services Playbook",
+      "title": "One Metric That Matters (Hustle Fund)",
+      "url": "https://thefounderplaybook.hustlefund.vc/p/one-metric-that-matters-startup-focus",
+      "source_type": "blog",
+      "published_or_updated": "2026-11-05",
+      "selection_rationale": "Fills the founders/operators gap: no dedicated lane since Oct's small-team AI offers. Emergence's AINS playbook (Mirage PMF, AI-share metrics, COGS discipline) maps directly onto Buildn's productized-service model, and two HN front-page essays reinforce the operator angle.",
+      "usefulness": "Pick Buildn's December focus metric."
+    },
+    {
+      "date": "2026-11-27",
+      "topic": "ai-native-services",
+      "topic_title": "AI-Native Services Playbook",
+      "title": "Company Culture = Slack Emoji ÷ √Headcount",
+      "url": "https://lia.mg/posts/measuring-company-culture-with-slack-emoji/",
+      "source_type": "blog",
+      "published_or_updated": "2026-11-27",
+      "selection_rationale": "Fills the founders/operators gap: no dedicated lane since Oct's small-team AI offers. Emergence's AINS playbook (Mirage PMF, AI-share metrics, COGS discipline) maps directly onto Buildn's productized-service model, and two HN front-page essays reinforce the operator angle.",
+      "usefulness": "Cheap-proxy instinct for Buildn OS analytics; client icebreaker."
+    },
+    {
+      "date": "2026-11-27",
+      "topic": "ai-native-services",
+      "topic_title": "AI-Native Services Playbook",
+      "title": "AI made self-hosting fun again",
+      "url": "https://janlukas.blog/posts/ai-self-hosting",
+      "source_type": "blog",
+      "published_or_updated": "2026-11-26",
+      "selection_rationale": "Fills the founders/operators gap: no dedicated lane since Oct's small-team AI offers. Emergence's AINS playbook (Mirage PMF, AI-share metrics, COGS discipline) maps directly onto Buildn's productized-service model, and two HN front-page essays reinforce the operator angle.",
+      "usefulness": "Core pitch framing for Buildn: make trying cheap."
+    },
+    {
+      "date": "2026-11-27",
+      "topic": "verification-culture",
+      "topic_title": "Verification Culture",
+      "title": "The need for a mainstream verifiable programming language",
+      "url": "https://blainehansen.me/post/mainstream-verifiable-language/",
+      "source_type": "blog",
+      "published_or_updated": "2026-06-21",
+      "selection_rationale": "Steps back from Nov 23/26 formal-math headlines to the underlying question — who verifies agent-written software — with a front-page manifesto, a craft counterpoint, and a hardware-economics datapoint affecting local-first storage plans.",
+      "usefulness": "Rationale for Buildn OS review gates; PR-review discipline."
+    },
+    {
+      "date": "2026-11-27",
+      "topic": "verification-culture",
+      "topic_title": "Verification Culture",
+      "title": "Do You Write Code With Your Mouse? (Vim manual, 4 years)",
+      "url": "https://themouseless.dev/vim/",
+      "source_type": "product",
+      "published_or_updated": "2026-11",
+      "selection_rationale": "Steps back from Nov 23/26 formal-math headlines to the underlying question — who verifies agent-written software — with a front-page manifesto, a craft counterpoint, and a hardware-economics datapoint affecting local-first storage plans.",
+      "usefulness": "Editor practice; skill-scaffold design pattern."
+    },
+    {
+      "date": "2026-11-27",
+      "topic": "verification-culture",
+      "topic_title": "Verification Culture",
+      "title": "Hard Drive pricing has gotten bad",
+      "url": "https://blog.ktz.me/black-friday-hard-drive-prices-are-messed-up/",
+      "source_type": "blog",
+      "published_or_updated": "2026-11-26",
+      "selection_rationale": "Steps back from Nov 23/26 formal-math headlines to the underlying question — who verifies agent-written software — with a front-page manifesto, a craft counterpoint, and a hardware-economics datapoint affecting local-first storage plans.",
+      "usefulness": "Re-price Env Vault retention assumptions; consolidate disks."
+    },
+    {
+      "date": "2026-11-27",
+      "topic": "sandboxed-execution",
+      "topic_title": "Sandboxed Execution Comes to Node",
+      "title": "NormalScript: a perfectly normal scripting language",
+      "url": "https://psychoscript.com/",
+      "source_type": "product",
+      "published_or_updated": "2026-11-27",
+      "selection_rationale": "Converges the week's security arc (side channels, malicious packages, runtime shields) on the missing primitive: running untrusted agent code safely in-process. NormalScript is a Show HN with an unusually honest test262 matrix.",
+      "usefulness": "Candidate runner for agent-authored workflow steps; Env Vault local-trusted layer."
+    },
+    {
+      "date": "2026-11-27",
+      "topic": "sandboxed-execution",
+      "topic_title": "Sandboxed Execution Comes to Node",
+      "title": "Side by Side: three Linux VMs in a browser tab",
+      "url": "https://michidk.github.io/sidebyside/",
+      "source_type": "product",
+      "published_or_updated": "2026-11-27",
+      "selection_rationale": "Converges the week's security arc (side channels, malicious packages, runtime shields) on the missing primitive: running untrusted agent code safely in-process. NormalScript is a Show HN with an unusually honest test262 matrix.",
+      "usefulness": "QA spot checks on client staging URLs."
+    },
+    {
+      "date": "2026-11-27",
+      "topic": "sandboxed-execution",
+      "topic_title": "Sandboxed Execution Comes to Node",
+      "title": "rvoip: Rust SIP/VoIP stack with AI voice agents",
+      "url": "https://github.com/eisenzopf/rvoip",
+      "source_type": "repo",
+      "published_or_updated": "2026-11-25",
+      "selection_rationale": "Converges the week's security arc (side channels, malicious packages, runtime shields) on the missing primitive: running untrusted agent code safely in-process. NormalScript is a Show HN with an unusually honest test262 matrix.",
+      "usefulness": "Track to 1.0 as the self-hosted leg of the voice-agent stack."
+    },
+    {
+      "date": "2026-11-27",
+      "topic": "memory-systems-humans",
+      "topic_title": "Memory Systems for Humans",
+      "title": "Olumino: Flashcards & Notes",
+      "url": "https://olumino.app/",
+      "source_type": "product",
+      "published_or_updated": "2026-11-27",
+      "selection_rationale": "Learning/memory last ran Nov 23 with research (sleep framework); today ships a product: Olumino brings FSRS-7 scheduling with Anki round-tripping to HN, plus two reading items on uncertainty and curiosity that inform gate design and learning culture.",
+      "usefulness": "Arabic study daily driver; memory-scheduling analogy for agent memory design."
+    },
+    {
+      "date": "2026-11-27",
+      "topic": "memory-systems-humans",
+      "topic_title": "Memory Systems for Humans",
+      "title": "An introduction to uncertainty in machine learning",
+      "url": "https://chrhenning.com/blog/2026/introduction-to-uncertainty/",
+      "source_type": "blog",
+      "published_or_updated": "2026-11-27",
+      "selection_rationale": "Learning/memory last ran Nov 23 with research (sleep framework); today ships a product: Olumino brings FSRS-7 scheduling with Anki round-tripping to HN, plus two reading items on uncertainty and curiosity that inform gate design and learning culture.",
+      "usefulness": "Vocabulary for agent-confidence conversations; gate-design rationale."
+    },
+    {
+      "date": "2026-11-27",
+      "topic": "memory-systems-humans",
+      "topic_title": "Memory Systems for Humans",
+      "title": "Curiosity Is No Solo Act (MIT Press)",
+      "url": "https://thereader.mitpress.mit.edu/curiosity-is-no-solo-act/",
+      "source_type": "book",
+      "published_or_updated": "2026-11",
+      "selection_rationale": "Learning/memory last ran Nov 23 with research (sleep framework); today ships a product: Olumino brings FSRS-7 scheduling with Anki round-tripping to HN, plus two reading items on uncertainty and curiosity that inform gate design and learning culture.",
+      "usefulness": "Framing for Buildn's learning loops and workflow Q&A logs."
+    },
+    {
+      "date": "2026-11-27",
+      "topic": "creative-tools-local",
+      "topic_title": "Creative Tools Go Local",
+      "title": "AutoClip: open-source OpusClip alternative",
+      "url": "https://github.com/zhouxiaoka/autoclip",
+      "source_type": "repo",
+      "published_or_updated": "2026-11-26",
+      "selection_rationale": "First creative-tools lane since Nov 22; the signal moved from design platforms to local-first media production. AutoClip is the day's fastest-growing repo (889 stars/day) and its MCP server makes media pipelines agent-callable.",
+      "usefulness": "Zero-subscription video→shorts pipeline; productizable offer for client content."
+    },
+    {
+      "date": "2026-11-27",
+      "topic": "creative-tools-local",
+      "topic_title": "Creative Tools Go Local",
+      "title": "YouTube Ad Punisher",
+      "url": "https://github.com/antonpictures/youtube-punisher",
+      "source_type": "repo",
+      "published_or_updated": "2026-11-26",
+      "selection_rationale": "First creative-tools lane since Nov 22; the signal moved from design platforms to local-first media production. AutoClip is the day's fastest-growing repo (889 stars/day) and its MCP server makes media pipelines agent-callable.",
+      "usefulness": "Intel for content/creator-revenue clients; not for shipping."
+    },
+    {
+      "date": "2026-11-27",
+      "topic": "creative-tools-local",
+      "topic_title": "Creative Tools Go Local",
+      "title": "BlenderUI Charts",
+      "url": "https://bui.preetham.top/charts/",
+      "source_type": "product",
+      "published_or_updated": "2026-11-26",
+      "selection_rationale": "First creative-tools lane since Nov 22; the signal moved from design platforms to local-first media production. AutoClip is the day's fastest-growing repo (889 stars/day) and its MCP server makes media pipelines agent-callable.",
+      "usefulness": "Dashboards inside architecture walkthroughs; novel client demo."
     }
   ],
   "runs": [

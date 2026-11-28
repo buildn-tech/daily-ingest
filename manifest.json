@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-11-27T09:13:02.869981+00:00",
+  "updated_at": "2026-11-28T09:05:23.670512+00:00",
   "days": [
+    {
+      "date": "2026-11-28",
+      "path": "2026-11-28",
+      "reports": [
+        {
+          "lane": "platform-trust-incidents",
+          "title": "Platform Trust Incidents",
+          "url": "2026-11-28/platform-trust-incidents.html"
+        },
+        {
+          "lane": "agent-behavior-assurance",
+          "title": "Agent Behavior Assurance",
+          "url": "2026-11-28/agent-behavior-assurance.html"
+        },
+        {
+          "lane": "agent-dev-tooling",
+          "title": "Agent Dev Tooling Wave",
+          "url": "2026-11-28/agent-dev-tooling.html"
+        },
+        {
+          "lane": "local-inference-boosts",
+          "title": "Local Inference Boosts",
+          "url": "2026-11-28/local-inference-boosts.html"
+        }
+      ]
+    },
     {
       "date": "2026-11-27",
       "path": "2026-11-27",

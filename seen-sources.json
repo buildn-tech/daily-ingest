@@ -1,6 +1,81 @@
 {
-  "updated_at": "2026-11-27T09:13:02.869981+00:00",
+  "updated_at": "2026-11-28T09:05:23.670512+00:00",
   "sources": {
+    "https://1password.com/blog/update-on-nov-2026-security-incident": {
+      "first_seen": "2026-11-28",
+      "last_seen": "2026-11-26",
+      "title": "1Password Nov 2026 security incident update"
+    },
+    "https://www.infohawk.com/news/2026-11-27-black-friday-webrtc-skimmer": {
+      "first_seen": "2026-11-28",
+      "last_seen": "2026-11-28",
+      "title": "Credit card skimming scripts using WebRTC found on popular shopping sites"
+    },
+    "https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud": {
+      "first_seen": "2026-11-28",
+      "last_seen": "2026-11-28",
+      "title": "CTO of 'RansomwareHelp' indicted for wire fraud"
+    },
+    "https://news.sky.com/story/us-air-forces-cloud-computing-platform-hacked-13617163": {
+      "first_seen": "2026-11-28",
+      "last_seen": "2026-11-28",
+      "title": "US Air Force's cloud computing platform hacked"
+    },
+    "https://news.ycombinator.com/item?id=50664325": {
+      "first_seen": "2026-11-28",
+      "last_seen": "2026-11-28",
+      "title": "Claude sabotaging ML research tasks?"
+    },
+    "https://cr.yp.to/proofs/falseccp.html": {
+      "first_seen": "2026-11-28",
+      "last_seen": "2026-11-28",
+      "title": "False computer-checked proofs"
+    },
+    "https://generativehistory.substack.com/p/gpt-62-astra-solves-a-historical": {
+      "first_seen": "2026-11-28",
+      "last_seen": "2026-11-28",
+      "title": "GPT 6.2 Astra Solves a Historical Mystery"
+    },
+    "https://github.com/obra/superpowers": {
+      "first_seen": "2026-11-28",
+      "last_seen": "2026-11-28",
+      "title": "obra/superpowers: agentic skills framework + development methodology"
+    },
+    "https://github.com/HKUDS/CLI-Anything": {
+      "first_seen": "2026-11-28",
+      "last_seen": "2026-11-24",
+      "title": "CLI-Anything"
+    },
+    "https://github.com/Tracer-Cloud/opensre": {
+      "first_seen": "2026-11-28",
+      "last_seen": "2026-11-28",
+      "title": "Tracer-Cloud/opensre: open-source agent for CI/CD reliability"
+    },
+    "https://github.com/cursor/plugins": {
+      "first_seen": "2026-11-28",
+      "last_seen": "2026-11-24",
+      "title": "plugins"
+    },
+    "https://github.com/pithings/unkernel": {
+      "first_seen": "2026-11-28",
+      "last_seen": "2026-11-28",
+      "title": "pithings/unkernel: real Linux kernel compiled to WebAssembly"
+    },
+    "https://devnull.land/amd-specific-llama-cpp": {
+      "first_seen": "2026-11-28",
+      "last_seen": "2026-11-28",
+      "title": "AMD-specific fork of llama.cpp"
+    },
+    "https://www.tylermw.com/posts/rayverse/rayshader-1-0-exit-the-matrix.html": {
+      "first_seen": "2026-11-28",
+      "last_seen": "2026-11-28",
+      "title": "Rayshader 1.0: Exit the Matrix"
+    },
+    "https://www.theregister.com/hpc/2026/11/26/45c-inlets-just-killed-the-chiller-most-people-havent-noticed-yet/5311831": {
+      "first_seen": "2026-11-28",
+      "last_seen": "2026-11-28",
+      "title": "45C inlets just killed the chiller"
+    },
     "https://kendell.dev/blog/arkwrapper": {
       "first_seen": "2026-11-27",
       "last_seen": "2026-11-27",
@@ -155,11 +230,6 @@
       "first_seen": "2026-11-26",
       "last_seen": "2026-11-26",
       "title": "Taking over US Treasury subdomains for $3 each"
-    },
-    "https://1password.com/blog/update-on-nov-2026-security-incident": {
-      "first_seen": "2026-11-26",
-      "last_seen": "2026-11-26",
-      "title": "1Password Nov 2026 security incident update"
     },
     "https://telnyx.com/release-notes/gemma-4-31b-voice-ai-assistants": {
       "first_seen": "2026-11-26",
@@ -381,11 +451,6 @@
       "last_seen": "2026-11-24",
       "title": "nospeaker"
     },
-    "https://github.com/HKUDS/CLI-Anything": {
-      "first_seen": "2026-11-24",
-      "last_seen": "2026-11-24",
-      "title": "CLI-Anything"
-    },
     "https://arxiv.org/html/2606.03854v1": {
       "first_seen": "2026-11-24",
       "last_seen": "2026-11-24",
@@ -400,11 +465,6 @@
       "first_seen": "2026-11-24",
       "last_seen": "2026-11-24",
       "title": "last30days-skill"
-    },
-    "https://github.com/cursor/plugins": {
-      "first_seen": "2026-11-24",
-      "last_seen": "2026-11-24",
-      "title": "plugins"
     },
     "https://github.com/Panniantong/Agent-Reach": {
       "first_seen": "2026-11-24",
